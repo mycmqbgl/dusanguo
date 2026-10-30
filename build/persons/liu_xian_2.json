@@ -1,0 +1,29 @@
+{
+ "id": "liu_xian_2",
+ "name": "刘贤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "auto_mined",
+ "summary": "刘贤，群雄武将，上将。明教刘度仍为郡守，其子刘贤赴荆州随军办事。",
+ "bio": "第 52 回：刘度遂命刘贤与邢道荣引兵万余，离城三十里，依山靠水下寨。第 52 回：刘贤既擒，刘度自降矣。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 229,
+   "basis": "第52回零陵太守刘度闻玄德军到，乃与其子刘贤商议。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "上将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

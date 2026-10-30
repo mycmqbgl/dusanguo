@@ -1,0 +1,29 @@
+{
+ "id": "wei_yan_2",
+ "name": "卫演",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "卫演，群雄文臣，公孙渊侍中。叱卫演回报公孙渊，演抱头鼠窜而去。",
+ "bio": "。第 106 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "公孙渊侍中",
+   "basis": "第一百零六回原文：从人回报，公孙渊大惊，又遣侍中卫演来到魏营。 职任「公孙渊侍中」据此。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

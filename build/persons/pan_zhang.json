@@ -1,0 +1,31 @@
+{
+ "id": "pan_zhang",
+ "name": "潘璋",
+ "courtesy": "文珪",
+ "display_aliases": null,
+ "birth": null,
+ "death": 220,
+ "date_precision": "approx",
+ "date_note": "生年不详；演义未写卒年（荆州之战后被关兴所杀是 221），史书无明确卒年，暂以演义叙事终点记。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "潘璋，孙吴武将，偏将军至振威将军。大怒，轮刀相迎，只三合，潘璋败走。",
+ "bio": "潘璋字文珪，东郡发干人，家贫好博，孙权爱之使募兵。合肥之战后为偏将军。荆州之战部下马忠擒关羽，夷陵之战随陆逊参战，演义中 221 年伐吴时为关兴所杀。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 220,
+   "title": "偏将军至振威将军",
+   "lord_id": "sun_quan",
+   "basis": "孙权部将，荆州之战擒关羽；演义记 221 年死于关兴之手，暂记 tenure 至 220（荆州之役后）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：未写卒年（荆州之战后被关兴所杀是 221），史书无明确卒年，暂以演义叙事终点记",
+ "mention_count": 35
+}

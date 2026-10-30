@@ -1,0 +1,36 @@
+{
+ "id": "chang_diao",
+ "name": "常雕",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 85,
+ "review_status": "auto_mined",
+ "summary": "常雕，曹魏武将，大将。说魏将先锋常雕，领精兵来取濡须城，遥望城上并无军马。",
+ "bio": "。第 85 回：「忽报曹仁令大将常雕同诸葛虔、王双、引五万精兵飞奔濡须城」。原文第 85 回相关片段：「拨军守把羡溪去了，止留五千骑守城。忽报曹仁令大将常雕同诸葛虔、王双、引五万精兵飞奔濡须城来。众军皆有」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 222,
+   "title": "大将",
+   "basis": "第 85 回：「忽报曹仁令大将常雕同诸葛虔、王双、引五万精兵飞奔濡须城」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 223,
+   "title": "第 85 回",
+   "description": "不三合，被桓一刀斩常雕于马下",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

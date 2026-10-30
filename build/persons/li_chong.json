@@ -1,0 +1,36 @@
+{
+ "id": "li_chong",
+ "name": "李崇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "李崇，孙吴文臣，中书郎。叱中书郎李崇夺其玺绶，令邓程收之。",
+ "bio": "第 113 回：「叱中书郎李崇夺其玺绶」。原文第 113 回相关片段：「之面，废汝为会稽王，吾自选有德者立之！”叱中书郎李崇夺其玺绶，令邓程收之。亮大哭而去。后人有诗叹曰：」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "中书郎",
+   "basis": "第 113 回：「叱中书郎李崇夺其玺绶」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 254,
+   "title": "第 113 回",
+   "description": "叱中书郎李崇夺其玺绶，令邓程收之",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

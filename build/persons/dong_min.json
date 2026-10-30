@@ -1,0 +1,46 @@
+{
+ "id": "dong_min",
+ "name": "董旻",
+ "courtesy": null,
+ "display_aliases": [
+  "左将军",
+  "鄠侯"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于初平三年（192）。董卓之弟。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "董旻，群雄武将，左将军、鄠侯。弟董旻、侄董璜皆斩首号令。",
+ "bio": "董旻，董卓之弟。董卓自号「尚父」，出入僭天子仪仗，封弟董旻为左将军、鄠侯，侄董璜为侍中总领禁军，董氏宗族不问长幼皆封列侯。董卓死后，王允命吕布同皇甫嵩、李肃领兵五万至郿坞抄籍董卓家产人口，皇甫嵩「但系董卓亲属，不分老幼，悉皆诛戮」，卓母亦被杀，卓弟董旻、侄董璜皆斩首号令。演义第八、九回写其事。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 192,
+   "title": "左将军、鄠侯",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓之弟及部属，左将军为武职，按「职责不明时按最高官职名判断」归武将；192 年为皇甫嵩所杀。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "封左将军",
+   "description": "董卓专政，封弟董旻为左将军、鄠侯，宗族皆封列侯。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "郿坞被诛",
+   "description": "皇甫嵩至郿坞，凡董卓亲属不分老幼悉皆诛戮，董旻斩首号令。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 3
+}

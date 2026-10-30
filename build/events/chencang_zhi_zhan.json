@@ -1,0 +1,46 @@
+{
+ "id": "chencang_zhi_zhan",
+ "name": "陈仓之战",
+ "kind": "征伐",
+ "start_year": 229,
+ "end_year": 229,
+ "date_text": "建兴六年末至七年初（229）",
+ "summary": "二次北伐顿兵陈仓，郝昭死守二十余日不克；王双中伏被斩，孔明乘虚破城，三出祁山。",
+ "detail": "详见战役「陈仓之战」。吴石亭大捷后遣使约蜀伐魏，孔明上后出师表：鞠躬尽瘁，死而后已；遂起三十万精兵以魏延为先锋出陈仓道口。",
+ "place_id": "chen_cang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "统大军攻陈仓，粮尽密退，密计斩王双，乘虚破城"
+  },
+  {
+   "person_id": "hao_zhao",
+   "role_desc": "三千人死守陈仓，拒降破梯折车，惊病而亡"
+  },
+  {
+   "person_id": "wang_shuang",
+   "role_desc": "虎威将军救陈仓，连斩蜀将；追击中伏被魏延斩"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "先锋攻城不克，后受密计斩王双、袭取陈仓散关"
+  },
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "献袭祁山之计，假密书赚曹真，斩费耀"
+  }
+ ],
+ "passage_ids": [
+  97008,
+  97010,
+  97009,
+  97009,
+  98001,
+  98001,
+  98006
+ ],
+ "battle_ids": [
+  "chencang_battle"
+ ]
+}

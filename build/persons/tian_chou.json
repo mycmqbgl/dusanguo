@@ -1,0 +1,29 @@
+{
+ "id": "tian_chou",
+ "name": "田畴",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "田畴，曹魏文臣，议郎。操从其言，封田畴为靖北将军，作向导官，为前驱；张辽为次；操自押后：倍道轻骑而进。",
+ "bio": "第 33 回：操收军入柳城，封田畴为柳亭侯，以守柳城。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 205,
+   "end_year": 205,
+   "title": "议郎",
+   "basis": "第三十三回原文：操从其言，封田畴为靖北将军，作向导官，为前驱。 职任「议郎」据此；★任期按末见回目收敛：全书最后一次提及在第 33 回（205 年），原 205—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

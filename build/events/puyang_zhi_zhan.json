@@ -1,0 +1,81 @@
+{
+ "id": "puyang_zhi_zhan",
+ "name": "濮阳·兖州争夺",
+ "kind": "军事行动",
+ "start_year": 194,
+ "end_year": 195,
+ "date_text": "兴平元年—二年（194–195）",
+ "summary": "陈宫张邈迎吕布入兖州，郡县响应，曹操仅余鄄城等三城。濮阳城内田氏诈降诱操入城，操中伏几死，赖典韦死战得出。相持岁余，蝗灾起，双方罢兵。",
+ "detail": "陈宫说张邈「今天下分崩，豪杰并起」，迎吕布屯濮阳，兖州郡县皆应，曹操地盘只剩鄄城、范、东阿。操回师攻濮阳，城中大户田氏诈降开门——操单马入城，吕布军伏兵四起，操赖典韦冲杀、吕布戟击操盔而不识，操反指「骑黄马者是我」脱身，遇火烧须坠马，为典韦救出。此后相持岁余，蝗灾起、粮尽，双方罢兵。操自此定「先取山东，后图天下」之策，收许褚、破定陶巨野，吕布败投刘备。",
+ "place_id": "pu_yang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "回师攻濮阳，中伏几死"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "入主兖州屯濮阳，戟击操盔而不识"
+  },
+  {
+   "person_id": "chen_gong",
+   "role_desc": "首谋迎吕布入兖州"
+  },
+  {
+   "person_id": "dian_wei",
+   "role_desc": "死战救操出濮阳城"
+  },
+  {
+   "person_id": "chen_deng",
+   "role_desc": "（广陵）闻操势复振，劝父暗结曹操"
+  },
+  {
+   "person_id": "xu_chu",
+   "role_desc": "何仪部将出身，操收为宿卫"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "吕布入兖州",
+   "description": "陈宫说张邈迎布，郡县响应，操仅余三城。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "濮阳中伏",
+   "description": "田氏诈降，操单骑入城中伏，吕布戟击其盔不识。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "典韦救主",
+   "description": "操遇火烧须坠马，典韦死战得出。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "蝗灾罢兵",
+   "description": "岁余相持，蝗灾粮尽，双方罢兵。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "操复振",
+   "description": "收许褚、破定陶巨野，吕布败投刘备。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  11016,
+  11016,
+  11020,
+  12002,
+  12011,
+  12013
+ ],
+ "battle_ids": [
+  "puyang_zhi_bian"
+ ]
+}

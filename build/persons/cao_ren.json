@@ -1,0 +1,69 @@
+{
+ "id": "cao_ren",
+ "name": "曹仁",
+ "courtesy": "子孝",
+ "display_aliases": [
+  "大将军",
+  "大司马",
+  "陈侯"
+ ],
+ "birth": 168,
+ "death": 223,
+ "date_precision": "approx",
+ "date_note": "生于建宁元年（168）前后（史无明载），卒于黄初四年（223）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "曹仁，群雄武将，裨将、都尉。曹仁从其言，令满宠守樊城，自领兵来迎云长。",
+ "bio": "曹仁字子孝，曹操从弟。曹操起兵时与曹洪各引兵千余来助，演义称二人「弓马熟娴，武艺精通」。讨董之役随操追击董卓，荥阳兵败后与李典、乐进各引兵寻到曹操，聚集残兵五百余人同回河内。史实曹仁为曹操宗族第一将：破袁术、征陶谦、擒吕布、败刘备、守樊城拒关羽，水淹七军之危中激励将士坚守待援，官至大将军、大司马，封陈侯。黄初四年卒，谥忠侯。演义中守樊城、战濡须诸役皆有重笔，此处为其出场。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 196,
+   "title": "裨将、都尉",
+   "lord_id": "cao_cao",
+   "basis": "189 年与曹洪各引兵千余来助曹操起兵；此时曹操未建号，属群雄之一。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 223,
+   "title": "议郎、骑都尉、征南将军、车骑将军、大将军、大司马、陈侯",
+   "basis": "196 年曹魏势力形成后为曹操宗族第一将，官至大司马；223 年卒，谥忠侯。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "起兵来助",
+   "description": "与曹洪各引兵千余来助曹操起兵。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "荥阳聚兵",
+   "description": "曹操荥阳兵败，与李典、乐进各引兵寻到曹操，聚残兵五百回河内。",
+   "importance": 2
+  },
+  {
+   "year": 219,
+   "title": "史实：樊城守御",
+   "description": "关羽水淹七军围樊城，激励将士坚守待援，城赖以全。",
+   "importance": 3
+  },
+  {
+   "year": 223,
+   "title": "卒",
+   "description": "黄初四年卒，谥忠侯。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 147
+}

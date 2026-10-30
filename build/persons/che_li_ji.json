@@ -1,0 +1,29 @@
+{
+ "id": "che_li_ji",
+ "name": "彻里吉",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 94,
+ "review_status": "auto_mined",
+ "summary": "彻里吉，西羌国王。魏太和二年（228）应诸葛亮之约起兵犯魏，为马岱所破。",
+ "bio": "彻里吉，西羌国王。第94回：诸葛亮一出祁山前结好西羌，羌王彻里吉自曹操时年年入贡；正欲起兵应约，魏将曹真亦遣使至。彻里吉从雅丹丞相之谋，以越吉元帅为先锋，起羌兵十五万攻西平关，为马岱以铁车兵破于雪地，越吉战死，雅丹被擒，彻里吉引败兵退回。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "西羌国王",
+   "basis": "第94回：说西羌国王彻里吉，自曹操时年年入贡；手下有一文一武：文乃雅丹丞相，武乃越吉元帅。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

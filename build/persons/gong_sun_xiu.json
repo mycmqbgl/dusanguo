@@ -1,0 +1,29 @@
+{
+ "id": "gong_sun_xiu",
+ "name": "公孙修",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "公孙修，曹魏文臣，公孙渊子。日先送世子公孙修为质当，然后君臣自缚来降。",
+ "bio": "第 106 回：克日先送世子公孙修为质当，然后君臣自缚来降。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 238,
+   "end_year": 238,
+   "title": "公孙渊子",
+   "basis": "第一百零六回原文：归告公孙渊，渊大惊，乃与子公孙修密议停当，选下一千人马，当夜二更时分，开了南门，往东南而走。 职任「公孙渊子」据此；★任期按末见回目收敛：全书最后一次提及在第 106 回（238 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

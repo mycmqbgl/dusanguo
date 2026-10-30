@@ -1,0 +1,58 @@
+{
+ "id": "ju_shou",
+ "name": "沮授",
+ "courtesy": null,
+ "display_aliases": [
+  "奋威将军",
+  "监军"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安五年（200）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "verified",
+ "summary": "沮授，群雄文臣，别驾、奋威将军、监军。监军卫瓘深喜胡渊之谋，即整顿了人马，令丘建传与胡烈。",
+ "bio": "沮授，广平人。少有大志，多权略，仕州别驾，举茂才，历二县令。袁绍得冀州，以沮授为奋威将军，使监护诸将。沮授劝袁绍迎天子都邺，绍不从，曹操遂迎献帝都许。又劝绍以持久之策疲曹操，勿速战，绍亦不从。官渡之战，沮授临发散其资财以与宗族，曰「势存则威无不加，势亡则不保一身」，其弟沮宗问故，曰「以曹兖州之明略，又挟天子以为资，我虽克伯珪，众实疲敝，而主骄将忲，军之破败，在此举矣」。绍败，沮授为操军所执，操曰「孤早相得，天下不足虑」，授谋归袁氏，遂被杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "别驾、奋威将军、监军",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍谋主，以谋略战略为主归文臣；200 年官渡后为曹操所杀。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "分掌州事",
+   "description": "袁绍入冀州，与田丰、许攸、逢纪分掌州事，为奋威将军监护诸将。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "劝迎天子",
+   "description": "劝袁绍迎献帝都邺，绍不从，曹操遂迎帝都许。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "散财诀别",
+   "description": "临发散资财与宗族，预言「军之破败，在此举矣」。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "被执不降",
+   "description": "为操军所执，谋归袁氏，遂被杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 21
+}

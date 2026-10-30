@@ -1,0 +1,49 @@
+{
+ "id": "jian_shuo",
+ "name": "蹇硕",
+ "display_aliases": [
+  "蹇硕"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）为郭胜所杀于御园花阴下。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "蹇硕，东汉人物，上军校尉、中常侍。蹇硕不仁，既已伏诛，汝何听信人言，欲尽诛宦官耶。",
+ "bio": "蹇硕，中常侍，领西园八校尉之首上军校尉，灵帝以其壮健有武略，特委以军事。灵帝病笃，欲立皇子协，硕奏「若欲立协，必先诛何进，以绝后患」，遂召进入宫，赖司马潘隐告警得免。帝崩，硕谋秘不发丧、矫诏召进，事泄，袁绍入宫收之，硕走御园，为中常侍郭胜所杀，所领禁军尽降。同为宦官而死于同党之手，是十常侍内斗的缩影。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 188,
+   "end_year": 189,
+   "title": "上军校尉、中常侍",
+   "basis": "第二回原文：当时病笃，中常侍蹇硕奏曰「若欲立协，必先诛何进，以绝后患」。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 188,
+   "title": "领上军校尉",
+   "description": "为西园八校尉之首，灵帝委以军事。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "谋诛何进",
+   "description": "灵帝病笃时献策「必先诛何进」，事未成。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "死于御园",
+   "description": "袁绍入宫收之，走御园花阴下，为郭胜所杀。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 9
+}

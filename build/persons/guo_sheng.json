@@ -1,0 +1,45 @@
+{
+ "id": "guo_sheng",
+ "name": "郭胜",
+ "courtesy": null,
+ "display_aliases": [
+  "中常侍",
+  "十常侍"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）死于宫变。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "郭胜，东汉人物，中常侍。第 1 回一笔带过，事迹仅存其名。",
+ "bio": "郭胜，中常侍，十常侍之一。灵帝崩，蹇硕欲立皇子协，谋先诛何进，与郭胜谋之，郭胜乃密告何进，进得免，入宫扶立太子辩。蹇硕走御园，花阴下为郭胜所杀——同为十常侍而自相残杀，内斗至此。后袁绍、曹操入宫尽诛宦官，郭胜亦死于宫变。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 168,
+   "end_year": 189,
+   "title": "中常侍",
+   "basis": "第一回原文：十常侍名录含郭胜；第三回被杀于翠花楼前。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "告变杀蹇硕",
+   "description": "蹇硕谋诛何进，郭胜密告，蹇硕走御园，花阴下为其所杀。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "死于宫变",
+   "description": "袁绍、曹操入宫尽诛宦官。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

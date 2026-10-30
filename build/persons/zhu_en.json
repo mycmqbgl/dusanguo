@@ -1,0 +1,29 @@
+{
+ "id": "zhu_en",
+ "name": "朱恩",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "朱恩，曹魏武将，心腹将。闻诸葛恪令张约、朱恩二人掌御林军，夺其权，心中大怒。",
+ "bio": "原文第 108 回相关片段：「首示众。于是内外官僚，无不悚惧。又令心腹将张约、朱恩管御林军。以为牙爪。却说孙峻字子远，乃孙坚弟孙静」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "心腹将",
+   "basis": "第108回朱恩与张约同为孙峻心腹，掌御林军。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

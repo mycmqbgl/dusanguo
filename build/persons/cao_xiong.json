@@ -1,0 +1,29 @@
+{
+ "id": "cao_xiong",
+ "name": "曹熊",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 68,
+ "review_status": "auto_mined",
+ "summary": "曹熊，曹魏武将，卞氏四子，曹操死不奔丧。说曹丕之母卞氏，听得曹熊缢死，心甚悲伤；忽又闻曹植被擒，其党丁仪等已杀，大惊。",
+ "bio": "。第 68 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 216,
+   "end_year": 220,
+   "title": "卞氏四子，曹操死不奔丧",
+   "basis": "第七十八回原文：一面遣人赴世子曹丕、鄢陵侯曹彰、临淄侯曹植、萧怀侯曹熊处报丧。 职任「卞氏四子，曹操死不奔丧」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 216—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

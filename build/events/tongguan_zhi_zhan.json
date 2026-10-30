@@ -1,0 +1,91 @@
+{
+ "id": "tongguan_zhi_zhan",
+ "name": "马超雪恨·潼关之战",
+ "kind": "战役",
+ "start_year": 211,
+ "end_year": 211,
+ "date_text": "建安十六年（211）",
+ "summary": "曹操诱杀马腾，马超与韩遂起西凉二十万军报仇，破长安占潼关，操割须弃袍而逃；许褚裸衣斗马超；贾诩反间计离间超遂，超败走羌中。",
+ "detail": "操用荀攸计诱马腾入许都害之。超闻父死与韩遂、庞德、马岱起西凉二十万军，破长安，夺潼关。曹洪徐晃失关，操亲至，超骤马冲阵，操弃袍割须，曹洪拼死救主方脱。渭水之战许褚裸衣与超大战二百余合。操屡败，用贾诩反间计：先与韩遂叙旧涂改书信，超疑遂与操通，遂兵自乱，操乘机大破之。超与庞德马岱走羌中，西凉之地尽失。",
+ "place_id": "tong_guan",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "ma_chao",
+   "role_desc": "起兵雪恨，破潼关杀得操割须弃袍"
+  },
+  {
+   "person_id": "ma_dai",
+   "role_desc": "随超征战"
+  },
+  {
+   "person_id": "pang_de",
+   "role_desc": "随超冲阵，救主脱险"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "诱杀马腾，亲征潼关，用反间计破超"
+  },
+  {
+   "person_id": "xu_chu",
+   "role_desc": "渭水裸衣大战马超二百余合"
+  },
+  {
+   "person_id": "cao_hong",
+   "role_desc": "守潼关失守，舍命救操"
+  },
+  {
+   "person_id": "jia_xu",
+   "role_desc": "献反间计离间马超韩遂"
+  },
+  {
+   "person_id": "yu_jin",
+   "role_desc": "随操征战"
+  },
+  {
+   "person_id": "xiahou_dun",
+   "role_desc": "随操西征"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "马腾遇害",
+   "description": "操诱腾入许，与黄奎事泄同被害。",
+   "importance": 3
+  },
+  {
+   "year": 211,
+   "title": "超夺潼关",
+   "description": "超与韩遂起二十万军破长安占潼关。",
+   "importance": 3
+  },
+  {
+   "year": 211,
+   "title": "割须弃袍",
+   "description": "操被超追杀，割须弃袍，曹洪舍命救主。",
+   "importance": 3
+  },
+  {
+   "year": 211,
+   "title": "褚超大战",
+   "description": "许褚裸衣与超大战二百余合。",
+   "importance": 2
+  },
+  {
+   "year": 211,
+   "title": "反间计成",
+   "description": "贾诩离间超遂，超败走羌中。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [
+  "tongguan_battle"
+ ],
+ "passage_ids": [
+  58009,
+  58012,
+  59003,
+  59001
+ ]
+}

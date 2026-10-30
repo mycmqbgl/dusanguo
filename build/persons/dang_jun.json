@@ -1,0 +1,29 @@
+{
+ "id": "dang_jun",
+ "name": "党均",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "党均，曹魏文臣，魏官。大喜，即令党均赍金珠宝物，径到成都结连黄皓，布散流言，说姜维怨望天子，不久投魏。",
+ "bio": "。第 113 回：艾大喜，即令党均赍金珠宝物，径到成都结连黄皓，布散流言，说姜维怨望天子，不久投魏。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 255,
+   "end_year": 258,
+   "title": "魏官",
+   "basis": "第一百十三回原文：艾视之，乃襄阳党均也。 职任「魏官」据此；★阵营改判：第 113 回原文「一人应声曰：某愿往。艾视之，乃襄阳党均也。艾大喜，即令党均赍金珠宝物，径到成都结连黄皓」，邓艾部属，非异族。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

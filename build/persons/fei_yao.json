@@ -1,0 +1,29 @@
+{
+ "id": "fei_yao",
+ "name": "费耀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 97,
+ "review_status": "auto_mined",
+ "summary": "费耀，魏将，随曹真御蜀，兵败自刎。",
+ "bio": "费耀，魏将。第97回诸葛亮围陈仓，费耀随曹真出战，为蜀军伏兵所败，自刎而死。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "中护军大将",
+   "basis": "第97回曹真令中护军大将费耀权摄前部总督，诸将各守隘口。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

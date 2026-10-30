@@ -1,0 +1,29 @@
+{
+ "id": "zong_bao",
+ "name": "宗宝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "auto_mined",
+ "summary": "宗宝，群雄武将，孔融部将。第 11 回一笔带过，事迹仅存其名。",
+ "bio": "第 11 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 229,
+   "title": "孔融部将",
+   "basis": "第11回管亥围北海，孔融部将宗宝挺枪出马，为管亥一刀砍于马下。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

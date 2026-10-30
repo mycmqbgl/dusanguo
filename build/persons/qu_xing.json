@@ -1,0 +1,29 @@
+{
+ "id": "qu_xing",
+ "name": "区星",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "区星，异族武将，在长沙反。第 2 回一笔带过，事迹仅存其名。",
+ "bio": "第 2 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "在长沙反",
+   "basis": "第二回原文：假帝诏以孙坚为长沙太守，讨区星，不五十日，报捷，江夏平，诏封坚为乌程侯。 职任「在长沙反」据此；★任期按末见回目收敛：全书最后一次提及在第 2 回（184 年），原 195—280 系取势力年份上限，非本人退场之年；★阵营改判：第 2 回原文「长沙贼区星作乱」，系贼寇，非孙氏部属。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,29 @@
+{
+ "id": "lv_kai",
+ "name": "吕凯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "吕凯，蜀汉文臣，永昌郡功曹。吕凯遂取一图，呈与孔明曰：某自历仕以来，知南人欲反久矣，故密遣人入其境，察看可屯兵交战之处，画成一图，名曰《平蛮指掌图》。",
+ "bio": "第 87 回：今王伉与功曹吕凯，会集百姓，死守此城，其势甚急。第 89 回：孔明遂问吕凯，凯曰：闻西洱河上流有一山，其山多竹，大者数围。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 225,
+   "end_year": 227,
+   "title": "永昌郡功曹",
+   "basis": "第八十七回原文：孔明大喜，就用吕凯为行军教授，兼向导官。 职任「永昌郡功曹」据此；★任期按末见回目收敛：全书最后一次提及在第 91 回（227 年），原 225—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 13
+}

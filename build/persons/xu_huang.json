@@ -1,0 +1,80 @@
+{
+ "id": "xu_huang",
+ "name": "徐晃",
+ "courtesy": "公明",
+ "display_aliases": [
+  "右将军",
+  "阳平侯"
+ ],
+ "birth": 168,
+ "death": 227,
+ "date_precision": "approx",
+ "date_note": "史载太和元年（227）卒，谥壮侯；生年存疑。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "reviewed",
+ "summary": "徐晃，群雄武将，骑都尉。徐晃正在关上点视粮车，闻曹洪下关厮杀，大惊，急引兵随后赶来，大叫曹洪回马。",
+ "bio": "徐晃字公明，河东杨人。少为郡吏，从车骑将军杨奉讨贼有功拜骑都尉。李傕郭汜之乱，晃说杨奉护天子东归有功；后满宠说之降曹，拜裨将军。自此为操东征西讨：破吕布、平袁氏、镇樊城。官渡之战烧乌巢、故市有功；白狼山之战张辽为先锋、晃随征。建安二十四年关羽围樊城，晃长驱直入，连破羽围堑鹿角十重，操谓诸将曰「徐将军有周亚夫之风」。曹丕时拜右将军，封阳平侯。太和元年卒，谥壮侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 192,
+   "end_year": 196,
+   "title": "骑都尉",
+   "lord_id": "yang_feng",
+   "basis": "杨奉部将，护驾东归有功。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 227,
+   "title": "裨将军、平寇将军、右将军、阳平侯",
+   "basis": "196 年由满宠说降归曹。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "属杨奉",
+   "description": "讨贼有功拜骑都尉。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "护驾东归",
+   "description": "说杨奉护天子东归洛阳，有功。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "归曹操",
+   "description": "满宠说之降曹，拜裨将军。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "官渡烧粮",
+   "description": "随曹操烧乌巢、破故市粮草。",
+   "importance": 3
+  },
+  {
+   "year": 219,
+   "title": "樊城破关羽",
+   "description": "长驱直入破羽围，操出营七里迎之。",
+   "importance": 3
+  },
+  {
+   "year": 227,
+   "title": "卒",
+   "description": "右将军任上卒，谥壮侯。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 153
+}

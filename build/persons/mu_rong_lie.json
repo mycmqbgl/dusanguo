@@ -1,0 +1,29 @@
+{
+ "id": "mu_rong_lie",
+ "name": "慕容烈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 71,
+ "review_status": "auto_mined",
+ "summary": "慕容烈，曹魏武将，文聘部将。头一将拦路，乃文聘部将慕容烈也，拍马舞刀来迎赵云；被云手起一枪刺死。",
+ "bio": "第 71 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 229,
+   "title": "文聘部将",
+   "basis": "第71回文聘部将慕容烈拦路，为赵云一枪刺死。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

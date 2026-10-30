@@ -1,0 +1,29 @@
+{
+ "id": "liang_kuan",
+ "name": "梁宽",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "梁宽，群雄武将，军官。荐梁宽、赵衢二人，超尽用为军官。",
+ "bio": "原文第 64 回相关片段：「曰：“此人守义，不可斩也。”复用杨阜为参军。阜荐梁宽、赵衢二人，超尽用为军官」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 229,
+   "title": "军官",
+   "basis": "第64回杨阜荐梁宽、赵衢二人，马超尽用为军官。马超时为群雄。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

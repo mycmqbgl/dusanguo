@@ -1,0 +1,29 @@
+{
+ "id": "chang_qi",
+ "name": "昌奇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 67,
+ "review_status": "auto_mined",
+ "summary": "昌奇，群雄武将，部将。遣部将昌奇出马，与渊交锋；战不三合，被渊一刀斩于马下。",
+ "bio": "官职「部将」据原文上下文提取。原文第 67 回相关片段：「南郑路上哨探，正迎着杨任军马，两军摆开。任遣部将昌奇出马，与渊交锋；战不三合，被渊一刀斩于马下。杨任」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 229,
+   "basis": "第67回杨任遣部将昌奇出马与夏侯渊交锋，战不三合被一刀斩于马下。杨任属张鲁。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "部将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

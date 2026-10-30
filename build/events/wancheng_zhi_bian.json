@@ -1,0 +1,90 @@
+{
+ "id": "wancheng_zhi_bian",
+ "name": "宛城之变",
+ "kind": "军事行动",
+ "start_year": 197,
+ "end_year": 197,
+ "date_text": "建安二年（197）正月",
+ "summary": "曹操纳张绣叔母邹氏，绣用贾诩计夜反；典韦失戟战死，曹昂让马救父、曹安民皆遇害——操平生最惨之败。",
+ "detail": "曹操南征，绣举众降。操侄安民引操见绣叔母邹氏，操遂取之；绣以为奇耻，用贾诩计：请胡车儿盗典韦双戟，夜袭曹营。变起仓促，韦醉失兵器，以步卒短刀杀数十人、挟两尸为兵器而战死；操中箭，昂以己马授操得脱，昂、安民皆殁。操收兵于淯水岸祭奠典韦——「吾折长子、爱侄，俱无深痛；独号泣典韦也」。此后绣再叛再降，官渡前依贾诩之策降操。",
+ "place_id": "wan_cheng",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "中箭败走，淯水祭韦"
+  },
+  {
+   "person_id": "zhang_xiu",
+   "role_desc": "降而夜反，杀操长子"
+  },
+  {
+   "person_id": "jia_xu",
+   "role_desc": "献夜反之计"
+  },
+  {
+   "person_id": "dian_wei",
+   "role_desc": "失戟死战，殁于辕门"
+  },
+  {
+   "person_id": "cao_ang",
+   "role_desc": "让马救父，自身战死"
+  },
+  {
+   "person_id": "cao_anmin",
+   "role_desc": "引操见邹氏，变中遇害"
+  },
+  {
+   "person_id": "hu_cheer",
+   "role_desc": "盗典韦双戟"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 197,
+   "title": "绣举众降",
+   "description": "操南征至宛城，绣降。",
+   "importance": 1
+  },
+  {
+   "year": 197,
+   "title": "纳邹氏",
+   "description": "安民引操见绣叔母邹氏，操遂取之，绣以为耻。",
+   "importance": 2
+  },
+  {
+   "year": 197,
+   "title": "夜变",
+   "description": "贾诩献计，胡车儿盗典韦双戟，绣夜反。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "典韦战死",
+   "description": "韦醉失兵器，步战杀数十人而亡。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "昂让马",
+   "description": "操中箭，昂以己马授操，自身战死；安民亦殁。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "淯水祭韦",
+   "description": "操祭典韦：「折长子爱侄俱无深痛，独号泣典韦。」",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  16016,
+  16017,
+  16018,
+  16017,
+  16016
+ ],
+ "battle_ids": [
+  "wancheng_ye_zhan"
+ ]
+}

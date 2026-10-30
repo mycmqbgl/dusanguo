@@ -1,0 +1,44 @@
+{
+ "id": "toudu_yinping_mianzhu",
+ "name": "偷度阴平·绵竹之战",
+ "kind": "征伐",
+ "start_year": 263,
+ "end_year": 263,
+ "date_text": "魏景元四年（263）",
+ "summary": "邓艾裹毡偷度阴平七百里险径，绵竹力战灭诸葛瞻父子，后主舆榇出降，蜀汉灭亡。",
+ "detail": "详见战役「偷度阴平·绵竹之战」。钟会兵困剑阁之功尽为艾所夺，自此二人有隙。维得后主敕命，帐下众将拔刀砍石，号哭之声闻数十里；维以善言抚之，密谋复汉，遍竖降旗赴钟会军前诈降。",
+ "place_id": "mian_zhu",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "deng_ai",
+   "role_desc": "偷度阴平，破江油涪城，绵竹破瞻，受后主之降"
+  },
+  {
+   "person_id": "zhuge_zhan",
+   "role_desc": "受诏拒敌，绵竹拒降，父子死国"
+  },
+  {
+   "person_id": "zhong_hui",
+   "role_desc": "以重兵牵制剑阁姜维，为艾偷度创造战机"
+  },
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "守剑阁拒钟会，闻绵竹陷、后主降，设计诈降钟会"
+  },
+  {
+   "person_id": "liu_shan",
+   "role_desc": "听谯周之议，面缚舆榇出降，蜀汉亡"
+  }
+ ],
+ "passage_ids": [
+  117002,
+  117006,
+  117006,
+  117014,
+  117013
+ ],
+ "battle_ids": [
+  "toudu_yinping_battle"
+ ]
+}

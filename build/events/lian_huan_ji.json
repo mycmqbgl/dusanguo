@@ -1,0 +1,83 @@
+{
+ "id": "lian_huan_ji",
+ "name": "连环计·凤仪亭",
+ "kind": "政治事件",
+ "start_year": 192,
+ "end_year": 192,
+ "date_text": "初平三年（192）",
+ "summary": "王允以貂蝉许吕布而献董卓，离间其父子；吕布与貂蝉私会凤仪亭，卓掷戟相向——父子仇隙既成，王允收吕布，诛董之局成。",
+ "detail": "王允忧董卓弄权，后园遇歌伎貂蝉长叹，遂定连环计：先以金冠明珠许布，宴上许以貂蝉；数日后复献于卓，卓载归相府。布疑之，乘卓入朝，私会貂蝉于凤仪亭——蝉泣诉「身在卓府，恨不得即死」，布依依相顾。卓回府撞见，抢布画戟掷之，布飞身而走。李儒劝「以蝉赐布，布感大恩必效死」，卓以「爱妾不可失」却之；貂蝉以「宁死不污布」固卓之宠。儒叹「吾等皆死于妇人之手矣」。布自此与卓有隙，王允乘机收布——「司徒妙算托红裙，不用干戈不用兵」。",
+ "place_id": "chang_an",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "wang_yun",
+   "role_desc": "定连环计者"
+  },
+  {
+   "person_id": "diao_chan",
+   "role_desc": "歌伎，周旋于卓布之间"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "先许婚而后失之，凤仪亭与蝉私会"
+  },
+  {
+   "person_id": "dong_zhuo",
+   "role_desc": "纳蝉，掷戟逐布"
+  },
+  {
+   "person_id": "li_ru",
+   "role_desc": "劝卓以蝉赐布，不听"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "后园定计",
+   "description": "王允见貂蝉长叹，定连环计：先许吕布，后献董卓。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "许嫁吕布",
+   "description": "金冠明珠为聘，宴上许以貂蝉，布大喜拜谢。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "复献董卓",
+   "description": "数日后卓至允府，允命貂蝉把盏献舞，卓载归相府。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "凤仪亭相会",
+   "description": "布乘卓入朝私会貂蝉，蝉泣诉布抱之，卓回府撞见。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "掷戟逐布",
+   "description": "卓抢布画戟掷之，布飞身而走，父子仇隙既成。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "李儒之谏",
+   "description": "儒劝以蝉赐布，卓不纳；儒叹「吾等皆死于妇人之手」。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  8006,
+  8007,
+  8008,
+  8013,
+  8019,
+  8020,
+  9001,
+  9003
+ ],
+ "battle_ids": []
+}

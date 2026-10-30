@@ -1,0 +1,29 @@
+{
+ "id": "wu_ban",
+ "name": "吴班",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "吴班，蜀汉武将，刘备将。苞二人要助战，忠不从；吴班要助战，忠亦不从；只自引五千军出迎。",
+ "bio": "第 65 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 234,
+   "title": "刘备将",
+   "basis": "第六十五回原文：孙乾、简雍、糜竺、糜芳、刘封、吴班、关平、周仓、廖化、马良、马谡、蒋琬、伊籍，及旧日荆襄一班。 职任「刘备将」据此；★任期按末见回目收敛：全书最后一次提及在第 102 回（234 年），原 214—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 36
+}

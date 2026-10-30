@@ -1,0 +1,29 @@
+{
+ "id": "li_feng",
+ "name": "李封",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "auto_mined",
+ "summary": "李封，群雄武将，吕布将。兰、李封出其不意，只得引兵出城迎战。",
+ "bio": "第 12 回：薛兰、李封出其不意，只得引兵出城迎战。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 195,
+   "title": "吕布将",
+   "basis": "第十一回原文：吕布知曹操回兵，已过滕县，召副将薛兰、李封曰：“吾欲用汝二人久矣。 职任「吕布将」据此；★任期按末见回目收敛：全书最后一次提及在第 12 回（195 年），原 194—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

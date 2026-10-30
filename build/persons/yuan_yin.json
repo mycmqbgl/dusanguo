@@ -1,0 +1,29 @@
+{
+ "id": "yuan_yin",
+ "name": "袁胤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 21,
+ "review_status": "auto_mined",
+ "summary": "袁胤，群雄武将，袁术之侄。术已死，侄袁胤将灵柩及妻子奔庐江来，被徐璆尽杀之。",
+ "bio": "第 21 回：袁术已死，侄袁胤将灵柩及妻子奔庐江来，被徐璆尽杀之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 200,
+   "title": "袁术之侄",
+   "basis": "第二十一回原文：袁术已死，侄袁胤将灵柩及妻子奔庐江来，被徐璆尽杀之。 职任「袁术之侄」据此；★任期按末见回目收敛：全书最后一次提及在第 21 回（200 年），原 200—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

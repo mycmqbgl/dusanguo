@@ -1,0 +1,29 @@
+{
+ "id": "zhang_tao",
+ "name": "张韬",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "张韬，曹魏人物，幸臣。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 91 回相关片段：「纳为贵妃，因甄夫人失宠，郭贵妃欲谋为后，却与幸臣张韬商议。时丕有疾，韬乃诈称于甄夫人宫中掘得桐木偶人」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 227,
+   "end_year": 239,
+   "title": "幸臣",
+   "basis": "第九十一回：张韬为魏明帝近幸之臣，进谗于曹睿。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

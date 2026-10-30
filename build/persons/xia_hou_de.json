@@ -1,0 +1,29 @@
+{
+ "id": "xia_hou_de",
+ "name": "夏侯德",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 70,
+ "review_status": "auto_mined",
+ "summary": "夏侯德，曹魏武将，天荡山守将。颜既斩夏侯德，从山后杀来。",
+ "bio": "第 70 回：天荡山有吾兄夏侯德镇守，我等宜往投之，就保此山。第 70 回：夏侯德曰：吾此处屯十万兵，你可引去，复取原寨。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 229,
+   "basis": "第70回夏侯尚言「天荡山有吾兄夏侯德镇守」，为夏侯渊族属，曹氏宗族将。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "天荡山守将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

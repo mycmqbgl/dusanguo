@@ -1,0 +1,29 @@
+{
+ "id": "liu_ai",
+ "name": "刘艾",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 14,
+ "review_status": "auto_mined",
+ "summary": "刘艾，东汉文臣，宗正。侍中太史令王立私谓宗正刘艾曰：吾仰观天文，自去春太白犯镇星于斗牛，过天津，荧惑又逆行，与太白会于天关，金火交会，必有新天子出。",
+ "bio": "第 14 回：「时侍中太史令王立私谓宗正刘艾曰」。原文第 14 回相关片段：「日与众谋士密议迁都之事。时侍中太史令王立私谓宗正刘艾曰：“吾仰观天文，自去春太白犯镇星于斗牛，过天津」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 195,
+   "title": "宗正",
+   "basis": "第 14 回：「时侍中太史令王立私谓宗正刘艾曰」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

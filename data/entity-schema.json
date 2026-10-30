@@ -1,0 +1,1044 @@
+{
+ "meta": {
+  "name": "读三国 · 数据模型定义",
+  "version": "0.6",
+  "date": "2026-10-27",
+  "scope": "个人本地项目，SQLite 建表 + LLM 批产 schema 双重用途",
+  "design_principle": [
+   "所有随时间变化的属性一律独立成时间片表，不写在人物主表上",
+   "地名同时存经纬度与图像像素坐标，两套坐标系分别服务「对照今地」与「配准底图定位」",
+   "生卒年用精度枚举表达，禁止用空值或编造年份"
+  ],
+  "updated": "2026-10-27 (P1-1 定案：A 案 + 硬冲突 + 独立字段)",
+  "changes_v05": [
+   "P1 新增 timeline.posthumous：身后事节点允许晚于卒年",
+   "新增词表规则库 data/lexicon-rules.json（deny/drop/guard 三类操作），实体链接从「硬编码黑名单」升级为「带出处证据的规则」",
+   "确立同形冲突裁决原则：爵号优先于地名（陈留王→刘协，而非陈留郡）；已有 block_next 精确阻断 司隶校尉 / 中山靖王 / 昌邑王",
+   "新增 faction 存续口径说明：群雄为类别非政权，存续至 229 年孙权称帝"
+  ],
+  "changes_v06": [
+   "P1-B 补丁 A：role_imperial 增「君主」——政权首领未称帝期（孙权 200–229、刘备 208–221、曹操 196–220）",
+   "P1-B 补丁 B：role_lord 增「女眷」——解决「女性归女眷」与「群雄只有君主/文臣/武将」的冲突（貂蝉、吴夫人）",
+   "P1-B 补丁 C：identity_priority 增「君主」，列于「追谥」之后、「权臣」之前",
+   "P1-B 补丁 D：date_precision 语义明确为「已填年份的精度档」，生年不详而卒年确切可标 exact，但 date_note 须注明缺端"
+  ],
+  "changes_v07": [
+   "新增身份枚举「客君」：前朝/他国君主降封后归此，不归「亲族」（亲族限本朝帝系血亲与后族）",
+   "「亲族」口径收紧：须系出本朝帝系（×之子/之弟/之孙）或为后族（后妃及其父兄）；宗室旁支姻亲、功臣之后袭爵不算"
+  ]
+ },
+ "enums": {
+  "faction_id": {
+   "values": [
+    "东汉",
+    "群雄",
+    "曹魏",
+    "孙吴",
+    "蜀汉",
+    "晋",
+    "异族",
+    "神怪"
+   ],
+   "note": "每个阵营有存续区间，人物归属必须落在阵营存续区间内；「神怪」为 2026-10-27 新增阵营，无存续区间约束"
+  },
+  "role_imperial": {
+   "values": [
+    "皇帝",
+    "追谥",
+    "君主",
+    "权臣",
+    "亲族",
+    "文臣",
+    "武将",
+    "女眷",
+    "其他",
+    "客君"
+   ],
+   "applies_to": [
+    "东汉",
+    "曹魏",
+    "孙吴",
+    "蜀汉",
+    "晋"
+   ],
+   "rules": {
+    "皇帝": "在位君主，唯一；同一阵营同一时间只能有一人",
+    "追谥": "（决策 N4，仅适用于曹魏/孙吴/蜀汉/晋 4 阵营，东汉不设）死身后被本阵营皇帝追尊为帝者入此身份。要点：①看追谥结果而非生前身份——司马懿在晋阵营归「追谥」，在曹魏仍归「权臣」，两个时间片各自独立；②追尊为王、侯者不算「追谥」——孙策谥长沙桓王，不入「追谥」，但按 2026-10-27 用户补充决策，孙策作为吴国奠基人必须在孙吴下出现：其孙吴时间片归「亲族」（孙权称帝后他是皇帝的男性血亲），区间 [229, 280]，basis 注明「孙权之兄，追谥长沙桓王」；③追谥时间片约定为 [阵营建立年, 阵营灭亡年]，basis 注明追谥庙号与追尊者，confidence 取 1.0",
+    "亲族": "本阵营在位皇帝的男性血亲（含追尊）。女性一律不归此类，归「女眷」（决策 #8.2 / #8.3）。追谥为帝者不在此类，入「追谥」",
+    "权臣": "（决策 #8.1 + N1 定案：满足 A 组或 B 组任一即成立）A 组：曾任丞相／大将军／录尚书事／都督中外诸军事之一，且实际主持朝政 ≥ 1 年，且大小国事一决于此人——「大小国事一决」的核实依据为原文或史书中的明确表述（如「事无大小皆决于亮」「政由葛氏」「专权」类）；B 组：有过公开威胁皇权的举动（废立皇帝、弑君、逼宫、另立朝廷），暗地里的刺杀等举动不算",
+    "文臣": "以谋略、内政为主。职责不明时按最高官职判断；无官职名者不归此类",
+    "武将": "以战斗、指挥为主。职责不明时按最高官职判断；无官职名者默认归此类",
+    "女眷": "所有非异族、非神怪的女性，包括太后、皇后、公主、妃嫔、宗室女、重臣妻女（决策 #8.3，取代原需求「皇帝亲族的女眷归亲族」）",
+    "其他": "无法归入以上任何身份者；太监、医生、隐士、歌伎等无文武属性者归此类",
+    "君主": "（P1-B 新增）政权首领但尚未称帝者。必要性：关羽、张飞、赵云等蜀汉人物按 de_facto_start=208 记「蜀汉·武将」，而刘备 208–221 却记「群雄·君主」，出现「部下已在蜀国、主君尚在群雄」的矛盾。凡政权势力已形成而首领未称帝，一律记本阵营「君主」，称帝后改记「皇帝」，两片首尾相接。例：孙权 200–229 孙吴·君主、229–252 孙吴·皇帝；刘备 208–221 蜀汉·君主、221–223 蜀汉·皇帝；曹操 196–220 曹魏·君主、220–266 曹魏·追谥。",
+    "客君": "（2026-10-30 新增）非本朝帝系、而以「前朝/他国君主」之身受本朝封爵者。要点：①与「亲族」的区别——亲族须系出本朝帝系（血亲或无血缘后的后族），客君与本朝无血缘，只是本朝的「宾」；②与「其他」的区别——客君有明确的前朝君主身份，不是无身份者，单列以免其被淹没在隐士、医生、家奴之中；③典型：刘禅（蜀汉后主）降魏封安乐公 → 曹魏·客君、晋·客君；曹奂（魏元帝）禅晋封陈留王 → 晋·客君；刘协（汉献帝）禅魏封山阳公 → 曹魏·客君；④时间片 [受封年, 卒年]，basis 写明降封者与封号由来。"
+   }
+  },
+  "role_lord": {
+   "values": [
+    "君主",
+    "文臣",
+    "武将",
+    "女眷"
+   ],
+   "applies_to": [
+    "群雄",
+    "异族"
+   ],
+   "note": "（决策 #8.2）群雄/异族不设「亲族」：帝制下亲族影响甚大，未称帝时忽略。君主血亲一律按其职责归文臣/武将——曹仁、曹洪归武将，孟优归武将，祝融夫人归武将",
+   "rules": {
+    "女眷": "（P1-B 新增）群雄/异族阵营中的女性。原规则「所有非异族非神怪女性归女眷」与「群雄身份只有君主/文臣/武将」在「属于群雄阵营的女性」上冲突，如貂蝉（吕布之妾）、吴夫人（孙坚之妻，195 年前孙氏属群雄）、严氏、邹氏。处理：该阵营的 role_lord 增「女眷」，不改变「女性归女眷」的总原则。异族女性仍按其实际职责判定（如祝融夫人归异族·武将），不受此条影响。"
+   }
+  },
+  "date_precision": {
+   "values": [
+    "exact",
+    "approx",
+    "unknown",
+    "disputed"
+   ],
+   "note": "exact=确切年份（默认值，前端不显示标记）；approx=约；unknown=不详；disputed=存疑（史料冲突）。决策 #5：前端只显示 约/不详/存疑 三档，三档均须附依据说明；批产时模型不确定必须输出 null，禁止推测"
+  },
+  "coord_precision": {
+   "values": [
+    "精确",
+    "近似",
+    "存疑"
+   ],
+   "note": "精确=可定位到具体遗址；近似=按今地推定；存疑=存在多种说法"
+  },
+  "place_type": {
+   "values": [
+    "都城",
+    "州域",
+    "郡治",
+    "城",
+    "关隘",
+    "渡口",
+    "要津",
+    "战场",
+    "山",
+    "原",
+    "水系",
+    "宫殿",
+    "陵墓"
+   ]
+  },
+  "mention_source": {
+   "values": [
+    "dictionary",
+    "llm",
+    "manual"
+   ],
+   "note": "dictionary=词典精确命中（高置信）；llm=模型抽取；manual=人工补录"
+  },
+  "battle_result": {
+   "values": [
+    "胜",
+    "败",
+    "相持",
+    "未分胜负",
+    "撤退"
+   ]
+  },
+  "review_status": {
+   "values": [
+    "draft",
+    "auto_generated",
+    "reviewed",
+    "verified"
+   ],
+   "note": "auto_generated=AI 批产未审；reviewed=人工过目；verified=史实校核通过"
+  },
+  "history_conflict_type": {
+   "values": [
+    "功劳归属",
+    "事件有无",
+    "职官归属",
+    "生死结局",
+    "重大叙事"
+   ],
+   "note": "P1-1 定案（方案 A）：仅当演义与史书对同一事实给出互相排斥的结论时填此枚举。四类判据：功劳归属=同一件事的承担者被换成另一人（关羽斩华雄↔孙坚斩华雄）；事件有无=演义详述而史书无载、或性质被改写（三英战吕布、草船借箭、空城计）；职官归属=官衔/隶属与史书矛盾（丁原荆州刺史↔并州刺史）；生死结局=死亡时间、原因或生死状态与史书矛盾（华佗、于吉）。凡「一句话能说清谁做了什么、是什么官职」的差异都算硬冲突；单纯年份差、岁数差、行程快慢、兵力数字不属硬冲突，只进 date_note"
+  }
+ },
+ "identity_priority": {
+  "comment": "一人同时满足多个身份时的判定顺序（N4 定案 v0.4，P1-B 补入「君主」）。女性（异族、神怪除外）不参与以下竞争，直接归女眷。「君主」与「权臣」互斥：君主是首领，权臣是臣。 2026-10-30 补入「客君」，位于「权臣」之后、「亲族」之前：客君是前朝君主，位在臣民之上、本朝宗室之下。",
+  "order": [
+   "皇帝",
+   "追谥",
+   "君主",
+   "权臣",
+   "客君",
+   "亲族",
+   "文臣/武将（按职责判定）",
+   "其他"
+  ],
+  "examples": {
+   "何进": "外戚 + 大将军掌政 → 命中「权臣」（非亲族：外戚不等于皇帝血亲）",
+   "曹爽": "曹魏宗室 + 大将军专权 → 按 A 组判据命中「权臣」；若仅按旧判据（须有威胁举动）则落「亲族」",
+   "曹仁": "群雄时期无亲族身份 → 归「武将」；曹丕称帝后转「曹魏·亲族」",
+   "司马懿": "220–251 → 曹魏·权臣；265–316 → 晋·追谥（追尊宣皇帝）。两个时间片各自独立，互不影响",
+   "曹操": "至 220 → 群雄·君主；220–266 → 曹魏·追谥（曹丕追尊武皇帝）",
+   "孙策": "谥长沙桓王，王而非帝 → 不入「追谥」；但按用户补充决策，孙策作为吴国奠基人必须在孙吴下出现 → 孙吴·亲族片 [229, 280]（孙权之兄）。终为 群雄·君主 + 孙吴·亲族 两片",
+   "祝融夫人": "异族女性 → 不归女眷，按其作战职责归异族「武将」",
+   "华佗": "医生，无文武属性 → 东汉「其他」",
+   "关羽": "蜀汉武将，非皇帝血亲 → 「武将」",
+   "孙权": "200 继兄业 → 孙吴·君主（吴侯、吴王，未称帝）；229 称帝 → 孙吴·皇帝。不记「群雄·君主」，因 195 年孙策渡江后孙吴势力已形成",
+   "吴夫人": "孙坚妻 → 184–195 群雄·女眷（孙坚部）+ 195–207 孙吴·女眷。说明群雄阵营也可有「女眷」",
+   "貂蝉": "王允府歌伎 → 东汉·女眷；随吕布后 → 群雄·女眷",
+   "刘禅": "蜀汉·皇帝（223–263）→ 曹魏·客君（263–266，安乐公）→ 晋·客君（266–271）。降封后仍有君主之实，但非魏、晋帝系，故为客君而非亲族",
+   "曹奂": "曹魏·亲族（常道乡公）→ 曹魏·皇帝（260–265）→ 晋·客君（265–302，陈留王）。禅位后受晋封，为晋之宾",
+   "刘协": "东汉·亲族（陈留王）→ 东汉·皇帝（189–220）→ 曹魏·客君（220–234，山阳公）"
+  }
+ },
+ "tables": [
+  {
+   "name": "chapter",
+   "comment": "章回",
+   "fields": [
+    {
+     "name": "id",
+     "type": "integer",
+     "pk": true
+    },
+    {
+     "name": "no",
+     "type": "integer",
+     "required": true,
+     "unique": true,
+     "comment": "回目序号 1-120"
+    },
+    {
+     "name": "title",
+     "type": "text",
+     "required": true,
+     "comment": "回目名，如「宴桃园豪杰三结义 斩黄巾英雄首立功」"
+    },
+    {
+     "name": "volume",
+     "type": "integer",
+     "comment": "分卷（可选）"
+    },
+    {
+     "name": "char_count",
+     "type": "integer",
+     "comment": "字数，用于阅读进度估算"
+    }
+   ]
+  },
+  {
+   "name": "passage",
+   "comment": "段落。实体锚点的坐标系，全文偏移不可靠，必须用「段落 ID + 段内偏移」",
+   "fields": [
+    {
+     "name": "id",
+     "type": "integer",
+     "pk": true
+    },
+    {
+     "name": "chapter_id",
+     "type": "integer",
+     "required": true,
+     "ref": "chapter.id"
+    },
+    {
+     "name": "seq",
+     "type": "integer",
+     "required": true,
+     "comment": "段落在回内的顺序，从 1 开始"
+    },
+    {
+     "name": "text",
+     "type": "text",
+     "required": true,
+     "immutable": true,
+     "comment": "段落正文。发布后不可修改，修改必须走版本迁移并重算其下所有 mention 偏移"
+    }
+   ],
+   "constraints": [
+    "(chapter_id, seq) 唯一"
+   ]
+  },
+  {
+   "name": "mention",
+   "comment": "实体锚点。全库最核心也最脆弱的表",
+   "fields": [
+    {
+     "name": "id",
+     "type": "integer",
+     "pk": true
+    },
+    {
+     "name": "passage_id",
+     "type": "integer",
+     "required": true,
+     "ref": "passage.id"
+    },
+    {
+     "name": "start",
+     "type": "integer",
+     "required": true,
+     "comment": "段内起始字偏移，从 0 开始，左闭"
+    },
+    {
+     "name": "end",
+     "type": "integer",
+     "required": true,
+     "comment": "段内结束字偏移，右开"
+    },
+    {
+     "name": "surface",
+     "type": "text",
+     "required": true,
+     "comment": "原文中的字面写法，如「关云长」「云长」「关公」"
+    },
+    {
+     "name": "entity_type",
+     "type": "enum",
+     "required": true,
+     "values": [
+      "person",
+      "place",
+      "event"
+     ]
+    },
+    {
+     "name": "entity_id",
+     "type": "text",
+     "required": true,
+     "comment": "目标实体 ID"
+    },
+    {
+     "name": "source",
+     "type": "enum",
+     "required": true,
+     "enum_ref": "mention_source"
+    },
+    {
+     "name": "confidence",
+     "type": "real",
+     "comment": "0-1，dictionary 来源固定 0.99；llm 来源低于 0.8 必须人工确认"
+    },
+    {
+     "name": "is_weak_link",
+     "type": "boolean",
+     "default": false,
+     "comment": "true=弱链接（如官职代称「丞相」），悬浮提示样式，不弹全卡"
+    },
+    {
+     "name": "reviewed",
+     "type": "boolean",
+     "default": false
+    }
+   ],
+   "constraints": [
+    "end > start",
+    "start >= 0 且 end <= length(passage.text)",
+    "(passage_id, start, end) 唯一",
+    "同一 passage 内的 mention 区间不得重叠"
+   ]
+  },
+  {
+   "name": "person",
+   "comment": "人物主档",
+   "fields": [
+    {
+     "name": "id",
+     "type": "text",
+     "pk": true,
+     "comment": "稳定 slug，如 guan_yu、ma_zhong_shu"
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "required": true,
+     "comment": "姓名"
+    },
+    {
+     "name": "courtesy",
+     "type": "text",
+     "comment": "字，如「云长」"
+    },
+    {
+     "name": "aliases",
+     "type": "json_array",
+     "comment": "全部称谓：别称、尊称、绰号、官职代称，如 [\"关公\",\"美髯公\",\"汉寿亭侯\",\"关将军\"]"
+    },
+    {
+     "name": "birth",
+     "type": "integer",
+     "comment": "生年，公元纪年；unknown 时留空并置 date_precision"
+    },
+    {
+     "name": "death",
+     "type": "integer"
+    },
+    {
+     "name": "date_precision",
+     "type": "enum",
+     "required": true,
+     "enum_ref": "date_precision"
+    },
+    {
+     "name": "date_note",
+     "type": "text",
+     "comment": "考证说明，如「生年无载，卒于建安二十四年末」"
+    },
+    {
+     "name": "history_conflict_type",
+     "type": "enum",
+     "enum": "history_conflict_type",
+     "comment": "史实冲突类型（P1-1 定案）。null=无硬冲突；非 null 时 history_conflict_note 必填。这是独立字段，不得再把史异写进 bio / summary / date_note"
+    },
+    {
+     "name": "history_conflict_note",
+     "type": "text",
+     "comment": "史异正文，一两句，格式「演义…；史实…」。只陈述差异，不做评价、不引用未经核对的细节。例：「演义将斩华雄之功归关羽；史实为孙坚破董卓军时所斩」"
+    },
+    {
+     "name": "history_life_dates",
+     "type": "string",
+     "optional": true,
+     "default": null,
+     "comment": "生卒年双标（2026-10-28 定案 8.2.4）：演义与史书生卒记载不同时填，一句写清史书口径；卡片渲染在演义生卒年下。事件级冲突仍走 history_conflict_note。"
+    },
+    {
+     "name": "native_place_id",
+     "type": "text",
+     "ref": "place.id",
+     "comment": "籍贯"
+    },
+    {
+     "name": "portrait",
+     "type": "text",
+     "comment": "头像文件路径；为空时前端用姓名首字渲染"
+    },
+    {
+     "name": "portrait_note",
+     "type": "text",
+     "default": "艺术想象，非史料画像"
+    },
+    {
+     "name": "summary",
+     "type": "text",
+     "required": true,
+     "comment": "一句话简介，30-60 字"
+    },
+    {
+     "name": "bio",
+     "type": "text",
+     "required": true,
+     "comment": "生平详述，核心人物 500-800 字，次要人物 200-300 字"
+    },
+    {
+     "name": "is_fictional",
+     "type": "boolean",
+     "default": false,
+     "comment": "虚构或神怪人物（于吉、左慈、南华老仙）"
+    },
+    {
+     "name": "is_mentioned_only",
+     "type": "boolean",
+     "default": false,
+     "comment": "仅被提及、未实际出场"
+    },
+    {
+     "name": "is_nameless",
+     "type": "boolean",
+     "default": false,
+     "comment": "（N6 定案）完全无名无姓但承担不可替代情节功能者，如刘安之妻；归前端折叠区显示"
+    },
+    {
+     "name": "gender",
+     "type": "enum",
+     "values": [
+      "male",
+      "female",
+      "unknown"
+     ]
+    },
+    {
+     "name": "first_chapter",
+     "type": "integer",
+     "comment": "首次出现回目，用于排序与导航"
+    },
+    {
+     "name": "review_status",
+     "type": "enum",
+     "enum_ref": "review_status",
+     "default": "auto_generated"
+    }
+   ],
+   "constraints": [
+    "death >= birth（两者均非空时）",
+    "bio 不得为空字符串",
+    "history_conflict_type 非空 ⇔ history_conflict_note 非空（两者必须同时有或同时无）",
+    "history_conflict_* 与 bio/summary/date_note 不得重复叙述同一差异（防双写走样）"
+   ]
+  },
+  {
+   "name": "faction",
+   "comment": "阵营",
+   "fields": [
+    {
+     "name": "id",
+     "type": "text",
+     "pk": true,
+     "values_hint": [
+      "han",
+      "warlord",
+      "wei",
+      "wu",
+      "shu",
+      "jin",
+      "barbarian",
+      "mystic"
+     ]
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "required": true,
+     "comment": "东汉/群雄/曹魏/孙吴/蜀汉/晋/异族/神怪"
+    },
+    {
+     "name": "ruler_id",
+     "type": "text",
+     "ref": "person.id",
+     "comment": "当前君主；群雄/异族为 null（多君主）"
+    },
+    {
+     "name": "start_year",
+     "type": "integer",
+     "required": true,
+     "comment": "国号年（史实，如曹魏 220 代汉）"
+    },
+    {
+     "name": "de_facto_start",
+     "type": "integer",
+     "comment": "势力形成年。时间片校验下限用此值而非国号年——否则关羽（卒 220）等大批人物会因卒于建号前而无处归属。魏=196 迎帝都许，吴=195 孙策渡江，蜀=208 取荆南四郡"
+    },
+    {
+     "name": "end_year",
+     "type": "integer",
+     "required": true
+    },
+    {
+     "name": "color",
+     "type": "text",
+     "required": true,
+     "comment": "势力配色，地图色块与徽标共用，如 #9c2b1f"
+    }
+   ],
+   "seed": [
+    {
+     "id": "han",
+     "name": "东汉",
+     "start_year": 25,
+     "end_year": 220,
+     "de_facto_start": 25,
+     "color": "#8a7a5c"
+    },
+    {
+     "id": "warlord",
+     "name": "群雄",
+     "start_year": 184,
+     "end_year": 229,
+     "de_facto_start": 184,
+     "color": "#7d7d7d",
+     "note": "群雄为类别而非政权，存续至 229 年孙权称帝（三国鼎立完成）"
+    },
+    {
+     "id": "wei",
+     "name": "曹魏",
+     "start_year": 220,
+     "end_year": 266,
+     "de_facto_start": 196,
+     "color": "#2f5673"
+    },
+    {
+     "id": "wu",
+     "name": "孙吴",
+     "start_year": 229,
+     "end_year": 280,
+     "de_facto_start": 195,
+     "color": "#3f6b4f"
+    },
+    {
+     "id": "shu",
+     "name": "蜀汉",
+     "start_year": 221,
+     "end_year": 263,
+     "de_facto_start": 208,
+     "color": "#9c2b1f"
+    },
+    {
+     "id": "jin",
+     "name": "晋",
+     "start_year": 265,
+     "end_year": 316,
+     "de_facto_start": 265,
+     "color": "#6b4e7d"
+    },
+    {
+     "id": "barbarian",
+     "name": "异族",
+     "start_year": 184,
+     "end_year": 280,
+     "de_facto_start": 184,
+     "color": "#8a6a3a"
+    },
+    {
+     "id": "mystic",
+     "name": "神怪",
+     "start_year": null,
+     "end_year": null,
+     "de_facto_start": null,
+     "color": "#5d4a72"
+    }
+   ],
+   "note": "mystic（神怪）为 2026-10-27 决策 #1 新增，无存续区间；N2 定案：其下不分身份，role 固定「其他」，前端人物卡隐藏身份栏。呈现规则：群雄阵营下 tenure 带 lord_id 者（如关羽 200–208 属刘备部），在 UI 上归入该君主的政权视图（蜀汉），数据层仍记群雄"
+  },
+  {
+   "name": "person_tenure",
+   "comment": "归属时间片。本项目的灵魂表——人物没有单一阵营字段",
+   "fields": [
+    {
+     "name": "id",
+     "type": "integer",
+     "pk": true
+    },
+    {
+     "name": "person_id",
+     "type": "text",
+     "required": true,
+     "ref": "person.id"
+    },
+    {
+     "name": "faction_id",
+     "type": "text",
+     "required": true,
+     "ref": "faction.id"
+    },
+    {
+     "name": "role",
+     "type": "text",
+     "required": true,
+     "comment": "取值受 faction_id 约束：五帝国阵营用 role_imperial（其中「追谥」仅限 wei/wu/shu/jin），群雄/异族用 role_lord，神怪固定「其他」"
+    },
+    {
+     "name": "lord_id",
+     "type": "text",
+     "ref": "person.id",
+     "comment": "所事之主（可空）。群雄阵营人物必填：关羽 200–208 记 群雄·武将 + lord_id=liu_bei，UI 归入蜀汉视图"
+    },
+    {
+     "name": "start_year",
+     "type": "integer",
+     "required": true
+    },
+    {
+     "name": "end_year",
+     "type": "integer",
+     "required": true
+    },
+    {
+     "name": "title",
+     "type": "text",
+     "comment": "该时间片内的官职，多个用「、」分隔"
+    },
+    {
+     "name": "basis",
+     "type": "text",
+     "required": true,
+     "comment": "判定依据，必须引原文或注明「按最高官职推定」"
+    },
+    {
+     "name": "passage_id",
+     "type": "integer",
+     "ref": "passage.id",
+     "comment": "依据所在的原文段落"
+    },
+    {
+     "name": "confidence",
+     "type": "real",
+     "comment": "0-1"
+    },
+    {
+     "name": "review_status",
+     "type": "enum",
+     "enum_ref": "review_status"
+    }
+   ],
+   "constraints": [
+    "end_year >= start_year",
+    "同一 person_id 的所有时间片区间不得重叠",
+    "跨阵营切换时，相邻时间片必须首尾相接（前一片 end_year == 后一片 start_year），不允许空档；例外：人物死亡到死后追尊/追谥之间的空档允许（如孙策卒于 200，孙吴·亲族片从 229 起）",
+    "faction_id 为 han/wei/wu/shu/jin 时 role 必须属于 role_imperial",
+    "role = 追谥 时 faction_id 只能取 wei/wu/shu/jin（N4 定案：东汉不设追谥）",
+    "faction_id 为 warlord/barbarian 时 role 必须属于 role_lord",
+    "faction_id 为 mystic（神怪）时 role 固定为「其他」，且不受阵营存续区间约束",
+    "start_year >= faction.de_facto_start 且 end_year <= faction.end_year（mystic 豁免）：下限用势力形成年，不用国号年"
+   ]
+  },
+  {
+   "name": "place",
+   "comment": "地名",
+   "fields": [
+    {
+     "name": "id",
+     "type": "text",
+     "pk": true
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "name": "aliases",
+     "type": "json_array",
+     "comment": "别名、旧称、俗称"
+    },
+    {
+     "name": "type",
+     "type": "enum",
+     "required": true,
+     "enum_ref": "place_type"
+    },
+    {
+     "name": "modern_name",
+     "type": "text",
+     "comment": "今地名，如「湖北赤壁市西北」"
+    },
+    {
+     "name": "province",
+     "type": "text"
+    },
+    {
+     "name": "lng",
+     "type": "real",
+     "comment": "经度，仅用于「对照今地」展示与小地图，不用于配准底图定位"
+    },
+    {
+     "name": "lat",
+     "type": "real"
+    },
+    {
+     "name": "pixel_x",
+     "type": "real",
+     "comment": "配准底图上的横坐标（像素）。地图定位以此为准"
+    },
+    {
+     "name": "pixel_y",
+     "type": "real"
+    },
+    {
+     "name": "tile_sheet",
+     "type": "text",
+     "comment": "所属图幅，谭图第三册按图幅分开配准，如 s3-19"
+    },
+    {
+     "name": "ancient_admin",
+     "type": "text",
+     "comment": "三国时所属行政区，如「荆州·江夏郡」"
+    },
+    {
+     "name": "first_chapter",
+     "type": "integer"
+    },
+    {
+     "name": "coord_precision",
+     "type": "enum",
+     "required": true,
+     "enum_ref": "coord_precision"
+    },
+    {
+     "name": "coord_note",
+     "type": "text",
+     "comment": "存疑说明，如「另有黄州赤壁说」"
+    },
+    {
+     "name": "geometry",
+     "type": "json",
+     "comment": "线/面要素。水系、山脉必填，为 [[x,y],...] 像素坐标序列"
+    }
+   ],
+   "constraints": [
+    "type 为「水系」「山」时 geometry 必填",
+    "pixel_x / pixel_y 与 tile_sheet 同时为空或同时非空",
+    "同名不同地必须拆成多条，id 加地域后缀区分（如 xincheng_fangling）"
+   ]
+  },
+  {
+   "name": "event",
+   "comment": "历史事件",
+   "fields": [
+    {
+     "name": "id",
+     "type": "text",
+     "pk": true
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "name": "kind",
+     "type": "enum",
+     "required": true,
+     "values": [
+      "政治",
+      "军事行动",
+      "外交",
+      "其他"
+     ],
+     "comment": "（N7 定案）「军事行动」为可挂载战役的轻量父事件，如「孙策平江东」下挂 8 场战斗，条目本身可以很薄"
+    },
+    {
+     "name": "start_year",
+     "type": "integer",
+     "required": true
+    },
+    {
+     "name": "end_year",
+     "type": "integer",
+     "required": true
+    },
+    {
+     "name": "date_text",
+     "type": "text",
+     "comment": "史书式表述，如「建安五年正月」"
+    },
+    {
+     "name": "summary",
+     "type": "text",
+     "required": true,
+     "comment": "一句话概述"
+    },
+    {
+     "name": "detail",
+     "type": "text",
+     "required": true,
+     "comment": "事件详述"
+    },
+    {
+     "name": "place_id",
+     "type": "text",
+     "ref": "place.id"
+    },
+    {
+     "name": "parent_event_id",
+     "type": "text",
+     "ref": "event.id",
+     "comment": "父事件，支持嵌套；如「衣带诏」的父事件为 null，「董承之死」的父事件为「衣带诏」"
+    },
+    {
+     "name": "participants",
+     "type": "json_array",
+     "comment": "[{person_id, role_desc}]"
+    },
+    {
+     "name": "passage_ids",
+     "type": "json_array",
+     "comment": "原文回链段落 ID 列表"
+    },
+    {
+     "name": "review_status",
+     "type": "enum",
+     "enum_ref": "review_status"
+    }
+   ],
+   "constraints": [
+    "end_year >= start_year",
+    "parent_event_id 不得形成环"
+   ]
+  },
+  {
+   "name": "battle",
+   "comment": "战役。是 event 的子类型，必须挂一个父事件（父事件可为「军事行动」类轻量事件，N7 定案）",
+   "fields": [
+    {
+     "name": "id",
+     "type": "text",
+     "pk": true
+    },
+    {
+     "name": "name",
+     "type": "text",
+     "required": true
+    },
+    {
+     "name": "year",
+     "type": "integer",
+     "required": true,
+     "comment": "主要交战年份"
+    },
+    {
+     "name": "date_text",
+     "type": "text"
+    },
+    {
+     "name": "place_id",
+     "type": "text",
+     "required": true,
+     "ref": "place.id"
+    },
+    {
+     "name": "event_id",
+     "type": "text",
+     "ref": "event.id",
+     "comment": "父事件，必填；可为「军事行动」类轻量事件"
+    },
+    {
+     "name": "belligerents",
+     "type": "json_array",
+     "required": true,
+     "comment": "[{faction_id, commanders[], troops_desc}]"
+    },
+    {
+     "name": "result",
+     "type": "enum",
+     "enum_ref": "battle_result"
+    },
+    {
+     "name": "casualties_note",
+     "type": "text",
+     "comment": "伤亡描述，注明来源可靠性"
+    },
+    {
+     "name": "summary",
+     "type": "text",
+     "required": true
+    },
+    {
+     "name": "detail",
+     "type": "text",
+     "required": true
+    },
+    {
+     "name": "front_line",
+     "type": "json_array",
+     "required": true,
+     "comment": "战线节点，驱动动画。按 time 升序，每项 {time, date_text, pixel_x, pixel_y, tile_sheet, label, desc, kind}"
+    },
+    {
+     "name": "passage_ids",
+     "type": "json_array"
+    },
+    {
+     "name": "review_status",
+     "type": "enum",
+     "enum_ref": "review_status"
+    }
+   ],
+   "constraints": [
+    "front_line 节点数 >= 3",
+    "front_line 按 time 严格递增",
+    "event_id 非空时，事件年份必须覆盖 battle.year",
+    "相关人物必须在该战役年份处于存活的 tenure 区间内"
+   ],
+   "front_line_node_spec": {
+    "time": "integer，公元年份；同年内排序用 time_seq",
+    "time_seq": "integer，同年内序号",
+    "kind": "enum [集结, 行军, 遭遇, 交战, 火攻, 攻城, 溃退, 追击, 屯驻]",
+    "label": "地图上显示的简短标注",
+    "desc": "该节点发生了什么，一句话",
+    "pixel_x": "real",
+    "pixel_y": "real"
+   }
+  },
+  {
+   "name": "timeline_node",
+   "comment": "时间线。人物/事件/战役共用一张表",
+   "fields": [
+    {
+     "name": "id",
+     "type": "integer",
+     "pk": true
+    },
+    {
+     "name": "owner_type",
+     "type": "enum",
+     "required": true,
+     "values": [
+      "person",
+      "event",
+      "battle"
+     ]
+    },
+    {
+     "name": "owner_id",
+     "type": "text",
+     "required": true
+    },
+    {
+     "name": "year",
+     "type": "integer",
+     "required": true
+    },
+    {
+     "name": "date_text",
+     "type": "text",
+     "comment": "如「建安五年正月」"
+    },
+    {
+     "name": "title",
+     "type": "text",
+     "required": true,
+     "comment": "节点标题，10 字内"
+    },
+    {
+     "name": "description",
+     "type": "text"
+    },
+    {
+     "name": "place_id",
+     "type": "text",
+     "ref": "place.id"
+    },
+    {
+     "name": "passage_id",
+     "type": "integer",
+     "ref": "passage.id"
+    },
+    {
+     "name": "importance",
+     "type": "integer",
+     "comment": "1-3，用于时间线折叠展示"
+    },
+    {
+     "name": "posthumous",
+     "type": "boolean",
+     "default": false,
+     "comment": "身后事（追尊、追谥、改葬、平反）。P1 新增：这类节点的年份合法地晚于卒年，校验器只对带此标记的节点放行。曹嵩 220 年追尊太皇帝、孙坚 229 年追尊武烈皇帝均属此类。不标则视为编年错误。"
+    }
+   ],
+   "constraints": [
+    "(owner_type, owner_id, year, title) 唯一"
+   ]
+  }
+ ],
+ "global_validation_rules": [
+  "所有 mention 的 entity_id 必须能解析到 person/place/event 中存在的记录",
+  "person_tenure 的时间片并集应覆盖该人物的主要活动期，不留无解释的空档",
+  "battle.front_line 的 pixel 坐标必须落在同一 tile_sheet 内",
+  "任何 review_status 为 verified 的记录，其 basis 字段不得为空",
+  "批产结果中 birth/death 出现模型推测值时必须改为 null 并将 date_precision 置为 unknown",
+  "history_conflict_type 与 history_conflict_note 必须同时有值或同时为空；history_conflict_note 中不得出现 date_note 已描述的纯年份差异（防同一事实两处表述不一致）"
+ ],
+ "build_output": {
+  "description": "运行时数据结构。构建脚本从 SQLite 导出，按回分片，前端按需加载",
+  "files": [
+   "index.json            目录：120 回列表、阵营列表、统计信息",
+   "chapters/ch001.json   单回：passage 数组 + 该回所有 mention",
+   "persons/{id}.json     人物卡完整数据，含 tenure 与 timeline",
+   "persons/index.json    人物轻量索引：id/name/courtesy/aliases/factions/roles，用于列表与检索",
+   "events/index.json     事件轻量索引",
+   "battles/{id}.json     战役卡，含 front_line",
+   "places.json           全部地名，含两套坐标",
+   "search.minisearch.json 前端检索索引"
+  ]
+ }
+}

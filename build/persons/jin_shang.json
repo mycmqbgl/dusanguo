@@ -1,0 +1,29 @@
+{
+ "id": "jin_shang",
+ "name": "金尚",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "金尚，群雄文臣，兖州刺史。兖州刺史金尚为太尉，监运七路钱粮。",
+ "bio": "官职「刺史」据原文上下文提取。原文第 17 回相关片段：「降将杨奉居右。各领部下健将，克日起行。命兖州刺史金尚为太尉，监运七路钱粮。尚不从，术杀之。以纪灵为七」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 198,
+   "end_year": 229,
+   "title": "兖州刺史",
+   "basis": "第17回袁术命兖州刺史金尚为太尉，监运七路钱粮；尚不从，术杀之。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

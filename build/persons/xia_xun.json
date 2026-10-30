@@ -1,0 +1,29 @@
+{
+ "id": "xia_xun",
+ "name": "夏恂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 83,
+ "review_status": "auto_mined",
+ "summary": "夏恂，孙吴武将，韩当部将。苞大喝一声，一矛刺中夏恂，倒撞下马。",
+ "bio": "第 83 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 222,
+   "title": "韩当部将",
+   "basis": "第八十三回原文：先主背后张苞挺丈八矛，纵马而出，大喝一声，直取夏恂。 职任「韩当部将」据此；★任期按末见回目收敛：全书最后一次提及在第 83 回（222 年），原 222—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

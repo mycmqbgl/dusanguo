@@ -1,0 +1,29 @@
+{
+ "id": "gui_lan",
+ "name": "妫览",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "妫览，丹阳都督，与戴员谋杀孙翊，后为徐氏所诛。",
+ "bio": "妫览，丹阳大都督。与戴员谋杀太守孙翊，欲夺其妻徐氏，徐氏设计诱之，使孙翊旧将孙高、傅婴伏于室内，斩览、员，祭翊之灵。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "丹阳督将",
+   "basis": "第38回丹阳督将妫览与郡丞戴员常有杀孙翊之心，遂弑翊，后为徐氏所诛。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

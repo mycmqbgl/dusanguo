@@ -1,0 +1,50 @@
+{
+ "id": "fu_wan",
+ "name": "伏完",
+ "courtesy": null,
+ "display_aliases": [
+  "不其侯"
+ ],
+ "birth": null,
+ "death": 209,
+ "date_precision": "exact",
+ "date_note": "史载建安十四年（209）卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 20,
+ "review_status": "reviewed",
+ "summary": "伏完，东汉文臣，侍中、不其侯、大司徒。曰：妾父伏完常有杀操之心，妾今当修书一封，密与父图之。",
+ "bio": "伏完，琅琊东武人，伏皇后之父。官至侍中、不其侯、屯骑校尉，后拜大司徒。女为皇后，完自以戚属不敢显贵，避权。演义第二十回献帝与皇后议密书谋曹，完自知力不能敌而止。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "侍中、不其侯、大司徒",
+   "basis": "外戚重臣。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "女立为后",
+   "description": "女伏寿立为献帝皇后。",
+   "importance": 1
+  },
+  {
+   "year": 199,
+   "title": "密谋止步",
+   "description": "献帝密书谋曹，完自知力不能敌而止（演义）。",
+   "importance": 2
+  },
+  {
+   "year": 209,
+   "title": "卒",
+   "description": "建安十四年卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 14
+}

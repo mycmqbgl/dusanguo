@@ -1,0 +1,31 @@
+{
+ "id": "ding_feng",
+ "name": "丁奉",
+ "courtesy": "承渊",
+ "display_aliases": null,
+ "birth": null,
+ "death": 271,
+ "date_precision": "approx",
+ "date_note": "生年不详；演义叙事至 264 年后，史书卒于建衡三年（271）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "丁奉，孙吴武将，偏将军至大将军。盛从江内去，丁奉从旱路去，都到南屏山七星坛前，休问长短，拿住诸葛亮便行斩首，将首级来请功。",
+ "bio": "丁奉字承渊，庐江安丰人，少以骁勇为小将。赤壁之战随周瑜为部将，曾奉命追截诸葛亮不得。后历事孙权、亮、休、皓四朝，东兴之战雪中奋短兵破魏军，晚年为东吴名将，史书卒于 271 年。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 271,
+   "title": "偏将军至大将军",
+   "lord_id": "sun_quan",
+   "basis": "自周瑜部将起，历四朝至大将军；卒年从史书。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：叙事至 264 年后，史书卒于建衡三年（271）",
+ "mention_count": 55
+}

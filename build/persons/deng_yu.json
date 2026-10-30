@@ -1,0 +1,31 @@
+{
+ "id": "deng_yu",
+ "name": "邓禹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 43,
+ "review_status": "auto_mined",
+ "summary": "邓禹，东汉人物。第 43 回一笔带过，事迹仅存其名。",
+ "bio": "官职「司马」据原文上下文提取。原文第 43 回相关片段：「邦立事？且古耕莘伊尹，钓渭子牙，张良、陈平之流。邓禹、耿弇之辈，皆有匡扶宇宙之才，未审其生平治何经典」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 208,
+   "basis": "第43回孔明言「邓禹、耿弇之辈，皆有匡扶宇宙之才」。邓禹为东汉开国元勋，非三国当世人物。 邓禹为东汉开国元勋，58 年卒。第43回仅作「匡扶宇宙之才」的典故。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—184 年内被称引之时。）",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "云台二十八将之首（世系提及）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 3
+}

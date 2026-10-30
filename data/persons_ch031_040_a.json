@@ -1,0 +1,1109 @@
+{
+ "comment": "P2 铺量：第 31–40 回批产人物卡（2026-10-28）。口径：规则手册 v1.3+8.2 修订；生卒年双标字段 history_life_dates 按需。",
+ "persons": [
+  {
+   "id": "yuan_shang",
+   "name": "袁尚",
+   "courtesy": "显甫",
+   "match_surfaces": [
+    "袁尚",
+    "显甫"
+   ],
+   "display_aliases": [
+    "三公子"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生年史载不详（或谓生卒年皆缺确切记载），演义未载生卒。",
+   "gender": "male",
+   "first_chapter": 30,
+   "review_status": "reviewed",
+   "summary": "袁尚，群雄君主，冀州牧。说袁尚、袁熙知曹兵将至，料难迎敌，乃弃城引兵，星夜奔辽西投乌桓去了。",
+   "bio": "袁绍第三子，绍因后妻刘氏之爱欲立为嗣。建安七年（202）绍死，刘氏与逢纪矫遗命立尚为冀州牧。兄袁谭索兵不得，兄弟交兵，谭降曹操求援。尚败走中山，又奔幽州依袁熙，再走辽东投公孙康。建安十二年（207）康恐袁氏并己，诱斩尚、熙，首级献许都——郭嘉遗计所料。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 202,
+     "end_year": 207,
+     "title": "冀州牧",
+     "basis": "202年袁绍死，刘氏与逢纪矫遗命立尚；群雄阵营按规则手册§一。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 202,
+     "title": "矫命嗣位",
+     "description": "袁绍死，母刘氏与逢纪立尚为冀州牧，袁谭不得立，兄弟生隙。",
+     "importance": 3
+    },
+    {
+     "year": 204,
+     "title": "邺城陷落",
+     "description": "曹操决漳河灌邺，审配死守不支，城破。",
+     "importance": 2
+    },
+    {
+     "year": 207,
+     "title": "辽东殒命",
+     "description": "奔公孙康，康诱斩之，与袁熙首级献许。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "yuan_xi",
+   "name": "袁熙",
+   "courtesy": "显奕",
+   "match_surfaces": [
+    "袁熙",
+    "显奕"
+   ],
+   "display_aliases": [
+    "二公子"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义与史书均缺确切记载。",
+   "gender": "male",
+   "first_chapter": 31,
+   "review_status": "reviewed",
+   "summary": "袁熙，群雄文臣，幽州刺史。说袁尚、袁熙知曹兵将至，料难迎敌，乃弃城引兵，星夜奔辽西投乌桓去了。",
+   "bio": "袁绍次子。绍死后领幽州刺史。袁谭袁尚相攻时坐观成败，尚败后收其残众，曹操进兵幽州时与尚奔辽东投公孙康，建安十二年（207）与尚同被康诱斩，首级献许都。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 202,
+     "end_year": 207,
+     "title": "幽州刺史",
+     "basis": "袁绍死后领幽州；群雄阵营。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 202,
+     "title": "领幽州",
+     "description": "袁绍死，熙领幽州刺史，坐视谭尚相攻。",
+     "importance": 2
+    },
+    {
+     "year": 207,
+     "title": "辽东殒命",
+     "description": "随尚奔公孙康，同被诱斩献首许都。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "xin_pi",
+   "name": "辛毗",
+   "courtesy": "佐治",
+   "match_surfaces": [
+    "辛毗",
+    "佐治"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载；史载卒于魏太和年间。",
+   "gender": "male",
+   "first_chapter": 32,
+   "review_status": "reviewed",
+   "summary": "辛毗，曹魏文臣，袁谭帐下谋士。降”辛毗哭拜于地曰：“家属八十余口，尽遭此贼杀害。",
+   "bio": "颍川阳翟人，与兄辛评同仕袁绍。袁谭袁尚相争，谭使毗请降于曹操，操大喜。后随操攻邺，献「决漳水灌城」之策者许攸而毗为使节。曹操取冀州后辟为议郎，魏建立后官至卫尉，以直谏称。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 202,
+     "end_year": 204,
+     "title": "袁谭帐下谋士",
+     "lord_id": "yuan_tan",
+     "basis": "袁谭使请降于曹。｜阵营据百科势力分组校正：wei。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 204,
+     "end_year": 220,
+     "title": "曹操记室、议郎",
+     "lord_id": "cao_cao",
+     "basis": "冀州定后归曹。｜阵营据百科势力分组校正：wei。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 202,
+     "title": "奉使降曹",
+     "description": "为袁谭使节请曹操援，操纳其降。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史载卒于魏太和年间｜演：生卒年演义未载"
+  },
+  {
+   "id": "zhen_shi",
+   "name": "甄氏",
+   "courtesy": null,
+   "match_surfaces": [
+    "甄氏"
+   ],
+   "display_aliases": [
+    "甄宓",
+    "文昭甄皇后"
+   ],
+   "birth": null,
+   "death": 221,
+   "date_precision": "exact",
+   "date_note": "生年不详；史载黄初二年（221）赐死。演义未载其卒。",
+   "gender": "female",
+   "first_chapter": 33,
+   "review_status": "reviewed",
+   "summary": "甄氏，曹魏女眷，曹丕之妻。先纳夫人甄氏，即袁绍次子袁熙之妇，前破邺城时所得。",
+   "bio": "中山无极人，上蔡令甄逸之女，初嫁袁熙。建安九年（204）曹操攻破邺城，曹丕入袁氏府见其貌美，曹操为之作伐，丕纳之，生曹叡（魏明帝）。演义写操先有「破城慎入袁氏内宅」之约，丕抢先纳之，操笑曰「真吾儿妇也」。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "女眷",
+     "start_year": 204,
+     "end_year": 220,
+     "title": "曹丕之妻",
+     "lord_id": "cao_pi",
+     "basis": "204年邺城破归曹丕；女眷归女眷（决策 #8.3）。｜阵营据主君（曹丕）归属校正为wei，204-220→204-220。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 204,
+     "title": "邺城归曹",
+     "description": "曹丕入袁府纳之，曹操为作伐。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史载卒于黄初二年（221）｜演：生卒年演义未载"
+  },
+  {
+   "id": "cao_pi",
+   "name": "曹丕",
+   "courtesy": "子桓",
+   "match_surfaces": [
+    "曹丕",
+    "子桓"
+   ],
+   "display_aliases": [
+    "魏文帝"
+   ],
+   "birth": 187,
+   "death": 226,
+   "date_precision": "exact",
+   "date_note": "生于中平四年（187），卒于黄初七年（226）。史载确切；演义未载其卒。",
+   "gender": "male",
+   "first_chapter": 32,
+   "review_status": "reviewed",
+   "summary": "曹丕，群雄文臣，五官中郎将、魏世子。来曹丕以于禁兵败被擒，不能死节，既降敌而复归，心鄙其为人，故先令人图画陵屋粉壁，故意使之往见以愧之。",
+   "bio": "曹操次子，卞氏所生。八岁能文，善骑射，好击剑。建安九年（204）从攻邺城，乘乱纳袁熙之妻甄氏。铜雀台之会（210年前后）作 文称最。建安二十二年立为魏世子，延康元年（220）曹操死，嗣魏王，旋受汉禅称帝，国号魏。演义前六十回中着墨不多，邺城纳甄氏、铜雀台赋诗为其主要场面。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 204,
+     "end_year": 220,
+     "title": "五官中郎将、魏世子",
+     "lord_id": "cao_cao",
+     "basis": "204年从征邺城；亲族归亲族（决策 #8.2），不与君主竞争身份。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "皇帝",
+     "start_year": 220,
+     "end_year": 226,
+     "title": "魏文帝",
+     "basis": "建安二十五年（220）受禅即皇帝位，改元黄初，国号魏。据《三国志·魏书·文帝纪》。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 204,
+     "title": "邺城纳甄氏",
+     "description": "随曹操攻破邺城，纳袁熙妻甄氏。",
+     "importance": 3
+    },
+    {
+     "year": 210,
+     "title": "铜雀台赋诗",
+     "description": "曹操大会文武于铜雀台，丕与曹植竞作。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生于中平四年（187），卒于黄初七年（226）；史载确切｜演：未载其卒"
+  },
+  {
+   "id": "gongsun_kang",
+   "name": "公孙康",
+   "courtesy": null,
+   "match_surfaces": [
+    "公孙康"
+   ],
+   "display_aliases": [
+    "辽东太守"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载；史载卒于建安中（约 221 前后）。",
+   "gender": "male",
+   "first_chapter": 33,
+   "review_status": "reviewed",
+   "summary": "公孙康，群雄君主，辽东太守。公孙康大喜，乃先伏刀斧手于壁衣中，使二袁入。",
+   "bio": "辽东襄平人，公孙度之子，父死嗣辽东太守。曹操北征乌桓时拥兵观望。袁尚袁熙来奔，郭嘉遗计教操「勿追」，康果恐二袁夺其位，伏兵斩之，献首许都，操封其为左将军、襄平侯。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 189,
+     "end_year": 207,
+     "title": "辽东太守",
+     "basis": "189年公孙度擅命辽东，度死康嗣；群雄阵营。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "诱斩二袁",
+     "description": "伏兵斩袁尚袁熙，献首许都，受封左将军。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史载卒于建安中（约 221 前后）｜演：生卒年演义未载"
+  },
+  {
+   "id": "cai_furen",
+   "name": "蔡夫人",
+   "courtesy": null,
+   "match_surfaces": [
+    "蔡夫人",
+    "蔡氏"
+   ],
+   "display_aliases": [
+    "蔡瑁之妹",
+    "刘表后妻"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载。",
+   "gender": "female",
+   "first_chapter": 34,
+   "review_status": "reviewed",
+   "summary": "蔡夫人，刘表后妻，蔡瑁之妹。素忌刘备，屡劝刘表远之，并密召蔡瑁谋害；刘表死后立子刘琮，降曹操。",
+   "bio": "刘表后妻，蔡瑁之姊。因刘琦似其母刘氏? 演义写刘琦相貌酷肖刘表，蔡夫人忌之，常进谗言欲立亲子刘琮。刘备劝表立长子，蔡夫人窃听于屏后，遂与蔡瑁谋害刘备——先宴席伏兵、后追至檀溪。刘表死，与蔡瑁、张允篡改遗嘱立刘琮，举荆州降曹操；曹操许以青州刺史，随行途中被于禁奉命杀于途中。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "其他",
+     "start_year": 190,
+     "end_year": 208,
+     "title": "刘表后妻",
+     "lord_id": "liu_biao",
+     "basis": "第三十四回原文：后妻蔡氏所生少子琼，颇聪明…原来蔡夫人素疑玄德。蔡氏乃密召蔡瑁入，商议能事。刘表 208 年卒。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "屏后窃听",
+     "description": "刘备劝立刘琦，窃听于屏后，遂与蔡瑁谋害备。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "篡遗嘱降曹",
+     "description": "刘表死，立刘琮举州降曹；随行赴青州途中被于禁所杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "liu_qi",
+   "name": "刘琦",
+   "courtesy": null,
+   "match_surfaces": [
+    "刘琦"
+   ],
+   "display_aliases": [
+    "大公子",
+    "江夏太守"
+   ],
+   "birth": null,
+   "death": 209,
+   "date_precision": "exact",
+   "date_note": "生年不详；卒于建安十四年（209），演义与史载一致。",
+   "gender": "male",
+   "first_chapter": 34,
+   "review_status": "reviewed",
+   "summary": "刘琦，群雄文臣，荆州公子。说玄德分付刘琦守江夏，自领众将引兵往夏口。",
+   "bio": "刘表长子，为人孝顺恭谨而遭后母蔡夫人忌恨。恐遭蔡瑁毒手，问自安之策于诸葛亮，亮不答，琦以「上屋抽梯」之计（携酒登小楼，去梯）求得「申生在内而危，重耳在外而安」一言，遂求为江夏太守以避祸。刘表病危时欲托后事于备，被蔡瑁阻。赤壁战后刘备表其为荆州刺史，未几病卒，孙刘争荆州之局因之大变。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 200,
+     "end_year": 208,
+     "title": "荆州公子",
+     "lord_id": "liu_biao",
+     "basis": "刘表长子，居襄阳。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 209,
+     "title": "江夏太守",
+     "basis": "208年依诸葛亮「避祸在外」之策出镇江夏。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "上屋抽梯",
+     "description": "三求计于孔明，得「在外而安」一言，出镇江夏。",
+     "importance": 3
+    },
+    {
+     "year": 209,
+     "title": "病卒",
+     "description": "赤壁后刘备表其为荆州刺史，旋卒，荆州归属生变。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒于建安十四年（209），演义与史载一致"
+  },
+  {
+   "id": "xu_shu",
+   "name": "徐庶",
+   "courtesy": "元直",
+   "match_surfaces": [
+    "徐庶",
+    "元直",
+    "单福"
+   ],
+   "display_aliases": [
+    "单福（化名）"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载；史载卒于魏黄初年间（约 223 前后），演义未及。",
+   "gender": "male",
+   "first_chapter": 35,
+   "review_status": "reviewed",
+   "summary": "徐庶，群雄文臣，刘备军师。徐庶曰：将军勿轻视刘玄德。",
+   "bio": "颍川郡长社人，少任侠击剑，为人报仇后弃武学道，改名单福避难荆州。闻刘备新野招贤，于市中长歌自荐，操演八门金锁阵大破曹仁，又取樊城。曹操用程昱计囚其母伪作书信召之，庶至孝不能违，临别泣谓刘备「此人有经天纬地之才，将军何不请之」——走马荐诸葛，并发誓终身不为曹操设一谋。后随曹操赤壁观风色，识破连环计而不言，大笑三声为庞统、程昱所觉。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 201,
+     "end_year": 208,
+     "title": "刘备军师",
+     "lord_id": "liu_bei",
+     "basis": "化名单福投刘备为军师，破曹仁八门金锁阵。其时刘备客居荆州，尚非独立阵营，按群雄归类；主君为刘备。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "右中郎将",
+     "lord_id": "cao_cao",
+     "basis": "208年被迫归曹，誓不设一谋。｜阵营据百科势力分组校正：wei。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "新野破曹仁",
+     "description": "识八门金锁阵，遣赵云破八门，取樊城。",
+     "importance": 3
+    },
+    {
+     "year": 207,
+     "title": "走马荐诸葛",
+     "description": "曹操囚其母，被迫辞刘备，荐诸葛亮以自代。",
+     "importance": 3
+    },
+    {
+     "year": 208,
+     "title": "识连环计",
+     "description": "随操观赤壁，识破连环计而秘而不言。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "sima_hui",
+   "name": "司马徽",
+   "courtesy": "德操",
+   "match_surfaces": [
+    "司马徽",
+    "水镜先生",
+    "水镜"
+   ],
+   "display_aliases": [
+    "水镜先生",
+    "好好先生"
+   ],
+   "birth": null,
+   "death": 208,
+   "date_precision": "exact",
+   "date_note": "生年不详；史载建安十三年（208）卒。演义未载其卒。",
+   "gender": "male",
+   "first_chapter": 35,
+   "review_status": "reviewed",
+   "summary": "司马徽，群雄文臣，（未仕）。水镜请入草堂，分宾主坐定。",
+   "bio": "颍川人，避乱寓居襄阳，于南漳水镜庄隐居。刘备跃马檀溪后误入其庄，闻琴音、得点拨「卧龙凤雏得一可安天下」「好谋无断不足成大事，刘表善善不能用，恶恶不能去」。徐庶被迫归曹前亦先荐之于备。后向刘备再荐名士，促成三顾草庐。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 184,
+     "end_year": 220,
+     "title": "（未仕）",
+     "basis": "避乱荆州，隐居不仕。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "水镜荐贤",
+     "description": "刘备误入水镜庄，得「伏龙凤雏」之语。",
+     "importance": 3
+    },
+    {
+     "year": 207,
+     "title": "再荐名士",
+     "description": "徐庶归曹后，向刘备力荐诸葛亮。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：史载卒于建安十三年（208）｜演：生卒年演义未载"
+  },
+  {
+   "id": "zhuge_liang",
+   "name": "诸葛亮",
+   "courtesy": "孔明",
+   "match_surfaces": [
+    "诸葛亮",
+    "孔明",
+    "诸葛孔明",
+    "卧龙"
+   ],
+   "display_aliases": [
+    "卧龙先生"
+   ],
+   "birth": 181,
+   "death": 234,
+   "date_precision": "exact",
+   "date_note": "生于光和四年（181），卒于建兴十二年（234）五丈原。史载确切。",
+   "gender": "male",
+   "first_chapter": 36,
+   "review_status": "reviewed",
+   "summary": "诸葛亮，字孔明，琅琊阳都人。刘备三顾乃出，官至蜀汉丞相，谥忠武。",
+   "bio": "诸葛亮，字孔明，琅琊阳都人，汉司隶校尉诸葛丰之后。隐居隆中，刘备三顾乃出，定「隆中对」之策。赤壁战后入蜀，刘备称帝以之为丞相；后主封武乡侯，领益州牧，六出祁山，建兴十二年（234）卒于五丈原，谥忠武。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "军师中郎将",
+     "lord_id": "liu_bei",
+     "basis": "208年三顾出山；先从刘备于荆州，208年后刘备已据荆南，208 起始与 shu de_facto_start 相符，暂归 warlord（刘备未建号）。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "权臣",
+     "start_year": 221,
+     "end_year": 234,
+     "title": "丞相、武乡侯、益州牧",
+     "basis": "章武元年（221）刘备称帝，亮为丞相；建兴十二年（234）卒于五丈原。据《三国志·蜀书·诸葛亮传》。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "隆中对",
+     "description": "三顾草庐，定三分天下之策。",
+     "importance": 3
+    },
+    {
+     "year": 208,
+     "title": "火烧博望、新野",
+     "description": "两把火退夏侯惇、曹仁之兵。",
+     "importance": 3
+    },
+    {
+     "year": 208,
+     "title": "舌战群儒、借东风",
+     "description": "使吴联盟，草船借箭，七星坛祭风助火攻。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhuge_jun",
+   "name": "诸葛均",
+   "courtesy": null,
+   "match_surfaces": [
+    "诸葛均"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载。",
+   "gender": "male",
+   "first_chapter": 36,
+   "review_status": "reviewed",
+   "summary": "诸葛均，群雄文臣，隆中躬耕。玄卒，亮与弟诸葛均躬耕于南阳。",
+   "bio": "诸葛亮之弟，与兄亮同依叔父玄居襄阳，玄死后躬耕隆中。刘备三顾草庐时均或留守庄内。亮出山后均留庄，亮临行嘱其「待我功成名就归隐于此」。后随亮入蜀为官。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 207,
+     "end_year": 220,
+     "title": "隆中躬耕",
+     "basis": "与兄同耕，亮出山后留守。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "留守草庐",
+     "description": "兄长出山后仍耕于隆中。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "zhuge_jin",
+   "name": "诸葛瑾",
+   "courtesy": "子瑜",
+   "match_surfaces": [
+    "诸葛瑾",
+    "子瑜"
+   ],
+   "display_aliases": null,
+   "birth": 174,
+   "death": 241,
+   "date_precision": "exact",
+   "date_note": "生于熹平三年（174），卒于赤乌四年（241）。史载确切。",
+   "gender": "male",
+   "first_chapter": 29,
+   "review_status": "reviewed",
+   "summary": "诸葛瑾，字子瑜，琅琊阳都人，诸葛亮之兄，仕吴为大将军。",
+   "bio": "诸葛瑾，字子瑜，琅琊阳都人，诸葛亮之兄。避乱江东，孙权待为上宾，官至大将军、左都护。与弟亮分事两国，「君臣之分，公义不顾私恩」，孙权深重之。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 200,
+     "end_year": 208,
+     "title": "孙权宾待",
+     "lord_id": "sun_quan",
+     "basis": "200年避乱江东投权。｜阵营据主君（孙权）归属校正为wu，200-208→200-208。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "吴长史",
+     "lord_id": "sun_quan",
+     "basis": "赤壁后随权建号前为孙氏臣属；孙氏名义仍汉臣。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "避乱江东",
+     "description": "孙权宾待，与鲁肃并进。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "奉使荆州",
+     "description": "赤壁前后数使刘备处，兄弟各为其主。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "su_fei",
+   "name": "苏飞",
+   "courtesy": null,
+   "match_surfaces": [
+    "苏飞"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载。",
+   "gender": "male",
+   "first_chapter": 38,
+   "review_status": "reviewed",
+   "summary": "苏飞，群雄武将，黄祖帐下都督。及苏飞引军于岸上接应时，东吴诸将一齐上岸，势不可当。",
+   "bio": "刘表部将黄祖麾下都督。屡荐甘宁于黄祖而不见用。孙权破江夏，飞被擒，甘宁泣求于孙权：「飞若不放，宁必堕地而死」，权赦之。飞感宁之义，遂归于吴。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 208,
+     "title": "黄祖帐下都督",
+     "lord_id": "huang_zu",
+     "basis": "刘表部将，隶黄祖江夏。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 203,
+     "title": "屡荐甘宁",
+     "description": "荐宁于黄祖不用，宁由是怨祖。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "甘宁相救",
+     "description": "江夏兵败被擒，赖甘宁力保得免，归吴。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "lv_meng",
+   "name": "吕蒙",
+   "courtesy": "子明",
+   "match_surfaces": [
+    "吕蒙",
+    "子明"
+   ],
+   "display_aliases": null,
+   "birth": 178,
+   "death": 219,
+   "date_precision": "exact",
+   "date_note": "生于光和元年（178），卒于建安二十四年（219）。史载确切；演义写其夺荆州后暴卒。",
+   "gender": "male",
+   "first_chapter": 17,
+   "review_status": "reviewed",
+   "summary": "吕蒙，孙吴武将，孙权部将。子明设计定谋，立取荆州，胜子敬、周郎多矣。",
+   "bio": "汝南富陂人，少依姊夫邓当，孙策爱之。孙权统事后渐擢为将，劝其读书，遂笃志不倦，鲁肃叹曰「非复吴下阿蒙」。江夏之战献策破黄祖水军，赤壁与周瑜、程普并力，取南郡时与凌统争先锋。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 208,
+     "title": "孙权部将",
+     "lord_id": "sun_quan",
+     "basis": "200年前后已随孙权征伐。｜阵营据主君（孙权）归属校正为wu，200-208→200-208。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wu",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 219,
+     "title": "偏将军",
+     "lord_id": "sun_quan",
+     "basis": "赤壁后随权。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 203,
+     "title": "刮目相待",
+     "description": "从孙权劝学，鲁肃叹「非复吴下阿蒙」。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "破黄祖水军",
+     "description": "江夏之战为前锋，献策断黄祖水军退路。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生于光和元年（178），卒于建安二十四年（219）；史载确切｜演：写其夺荆州后暴卒"
+  },
+  {
+   "id": "yi_ji",
+   "name": "伊籍",
+   "courtesy": "机伯",
+   "match_surfaces": [
+    "伊籍",
+    "机伯"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载；史载卒年不详。",
+   "gender": "male",
+   "first_chapter": 34,
+   "review_status": "reviewed",
+   "summary": "伊籍，群雄文臣，刘表幕宾。伊籍退出，权问计于众谋士。",
+   "bio": "山阳巨野人，刘表同乡旧识，为表幕宾。蔡瑁于襄阳宴上欲害刘备，籍暗以「请更衣」示警，刘备得以逃席跃马檀溪。刘表死后随刘备，赤壁后奉使东吴，吴人欲以「君事无道之君」讥之，籍对答如流。后入蜀为昭文将军。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 201,
+     "end_year": 208,
+     "title": "刘表幕宾",
+     "lord_id": "liu_biao",
+     "basis": "201年前后为表宾客。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 223,
+     "title": "蜀汉从事中郎",
+     "lord_id": "liu_bei",
+     "basis": "summary「后随刘备入蜀为蜀汉从事」；据 summary 与百科基准（蜀汉）补。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 223,
+     "end_year": 231,
+     "title": "蜀汉昭文将军",
+     "lord_id": "liu_shan",
+     "basis": "后主朝与诸葛亮、法正等共造蜀科；据百科基准（蜀汉）补。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 207,
+     "title": "暗示警",
+     "description": "襄阳宴上以更衣为名救刘备脱身。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "随备",
+     "description": "刘表死后归属刘备。",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：史载卒年不详｜演：生卒年演义未载"
+  },
+  {
+   "id": "wen_pin",
+   "name": "文聘",
+   "courtesy": "仲业",
+   "match_surfaces": [
+    "文聘",
+    "仲业"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年演义未载；史载卒年不详（魏官至后将军）。",
+   "gender": "male",
+   "first_chapter": 34,
+   "review_status": "reviewed",
+   "summary": "文聘，群雄武将，刘表大将。文聘羞惭满面，引兵自投东北去了。",
+   "bio": "字仲业，南阳宛人，刘表大将，使金枪。刘表死后曹操入荆州，聘初不肯出见，操问其故，聘曰「不能保土全境，愧见故人耳」，操感其忠义，厚待之，使守江夏。长坂追刘备有文聘追至当阳桥被张飞喝退一节（演义）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 208,
+     "title": "刘表大将",
+     "lord_id": "liu_biao",
+     "basis": "196年前后为表大将，使金枪。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "江夏太守",
+     "lord_id": "cao_cao",
+     "basis": "刘表死后归曹操，守江夏有功，为魏名将；据 summary 与百科基准（曹魏）补。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 220,
+     "end_year": 226,
+     "title": "魏后将军、新野侯",
+     "lord_id": "cao_pi",
+     "basis": "文帝即位后进封，卒于 226 年前后；据百科基准（曹魏）补。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 208,
+     "title": "惭见曹操",
+     "description": "荆州降众毕出，聘独后至，操感其忠义厚待。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：史载卒年不详（魏官至后将军）｜演：生卒年演义未载"
+  },
+  {
+   "id": "lv_kuang",
+   "name": "吕旷",
+   "courtesy": null,
+   "match_surfaces": [
+    "吕旷"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 206,
+   "date_precision": "approx",
+   "date_note": "生年不详；约卒于建安十一年前后（第 36 回为赵云所刺，演义纪年粗略）。",
+   "gender": "male",
+   "first_chapter": 32,
+   "review_status": "reviewed",
+   "summary": "吕旷，群雄武将，曹操部将。引军退屯黎阳，封吕旷、吕翔为列侯，随军听用。",
+   "bio": "袁绍旧将。绍死后与吕翔同降曹操，受封列侯。袁谭诈降时操使二人随谭为质。后与翔引兵五万攻新野，旷为前部，被赵云不数合刺于马下。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 202,
+     "end_year": 206,
+     "title": "曹操部将",
+     "lord_id": "cao_cao",
+     "basis": "202年随绍降操。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 206,
+     "title": "殁于阵",
+     "description": "攻新野为赵云刺死。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：约卒于建安十一年前后（第 36 回为赵云所刺，演义纪年粗略）"
+  },
+  {
+   "id": "lv_xiang",
+   "name": "吕翔",
+   "courtesy": null,
+   "match_surfaces": [
+    "吕翔"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 206,
+   "date_precision": "approx",
+   "date_note": "生年不详；约卒于建安十一年前后（第 36 回为张飞所杀，演义纪年粗略）。",
+   "gender": "male",
+   "first_chapter": 32,
+   "review_status": "reviewed",
+   "summary": "吕翔，群雄武将，曹操部将。引军退屯黎阳，封吕旷、吕翔为列侯，随军听用。",
+   "bio": "吕旷之弟，绍死后与兄同降曹。与旷共引兵五万攻新野，兵败被张飞刺死。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 202,
+     "end_year": 206,
+     "title": "曹操部将",
+     "lord_id": "cao_cao",
+     "basis": "202年随绍降操。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 206,
+     "title": "殁于阵",
+     "description": "攻新野为张飞刺死。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：约卒于建安十一年前后（第 36 回为张飞所杀，演义纪年粗略）"
+  },
+  {
+   "id": "gan_ning",
+   "name": "甘宁",
+   "courtesy": "兴霸",
+   "match_surfaces": [
+    "甘宁",
+    "兴霸"
+   ],
+   "display_aliases": [
+    "锦帆贼"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生年不详；演义未载其卒（史载卒于建安二十年前后合肥之役后）。",
+   "gender": "male",
+   "first_chapter": 38,
+   "review_status": "reviewed",
+   "summary": "甘宁，群雄武将，黄祖帐下。说周瑜自回柴桑养病，令甘宁守巴陵郡，令凌统守汉阳郡，二处分布战船，听候调遣。",
+   "bio": "巴郡临江人，少有气力，聚少年为群，身佩铃铛、以锦系舟，号锦帆贼。后读诸子欲有所为，投刘表不用，转黄祖麾下，射杀凌操救祖而仍不见赏。经苏飞荐往夏口，鲁肃、吕蒙荐之于孙权，权大喜曰「兴霸来，吾事济矣」。破黄祖献策，赤壁斩蔡中马，夷陵破曹仁，又领百骑夜劫曹营不折一人。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 208,
+     "title": "黄祖帐下",
+     "lord_id": "huang_zu",
+     "basis": "200年前后投祖，射杀凌操而不见用。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wu",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "破虏将军、折冲将军",
+     "lord_id": "sun_quan",
+     "basis": "208年经苏飞、鲁肃荐归孙权。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 203,
+     "title": "射杀凌操",
+     "description": "江夏之战射杀孙氏旧将凌操，救黄祖而不得赏。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "归吴建功",
+     "description": "孙权破江夏，宁献策破祖，遂为吴将。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：未载其卒（史载卒于建安二十年前后合肥之役后）"
+  },
+  {
+   "id": "wang_xiu",
+   "name": "王修",
+   "match_surfaces": [
+    "王修",
+    "王叔治"
+   ],
+   "faction": "yuan",
+   "faction_id": "shu",
+   "role": "文臣",
+   "de_facto_start": 196,
+   "tenure": [
+    {
+     "faction": "yuan",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 205,
+     "title": "袁谭别驾",
+     "faction_id": "warlord",
+     "basis": "第31回：袁谭别驾王修。袁谭败亡，王修收葬其尸，曹操义而用之。"
+    },
+    {
+     "faction": "wei",
+     "role": "文臣",
+     "start_year": 205,
+     "end_year": 220,
+     "title": "司空掾、魏郡太守",
+     "lord_id": "cao_cao",
+     "faction_id": "wei",
+     "basis": "第31回：曹操以王修为司空掾，后为魏郡太守。"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 204,
+     "title": "哀谭赴难",
+     "description": "袁谭死，修乞收谭尸，操义之。",
+     "importance": 2
+    }
+   ],
+   "summary": "王修，字叔治，北海营陵人，先为袁谭别驾，后仕魏为司空掾、魏郡太守。",
+   "confidence": 0.8,
+   "review_status": "reviewed",
+   "gender": "男",
+   "date_precision": "unknown",
+   "first_chapter": 32,
+   "bio": "王修，字叔治，北海营陵人。初为袁谭别驾，谏谭勿与袁尚相攻不听。曹操破谭于南皮后，王修乞收谭尸而哭之，操义其忠，署为司空掾，行司金中郎将，后迁魏郡太守。为政抑强扶弱，赏罚分明。演义中又载其议阻厚葬、直言敢谏之事。",
+   "date_note": "生卒年史书未详载，演义亦无。"
+  }
+ ]
+}

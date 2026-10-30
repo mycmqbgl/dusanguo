@@ -1,0 +1,66 @@
+{
+ "id": "zhong_hui",
+ "name": "钟会",
+ "courtesy": "士季",
+ "display_aliases": [
+  "太傅钟繇少子",
+  "镇西将军",
+  "司徒"
+ ],
+ "birth": 225,
+ "death": 264,
+ "date_precision": "exact",
+ "date_note": "史载生于黄初六年（225），卒于咸熙元年正月（264），为乱兵所杀。生卒年《三国志》本传可考。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "reviewed",
+ "summary": "钟会，曹魏文臣，黄门侍郎、散骑长史、镇西将军假节钺。司徒有七宝刀一口，愿借与操入相府刺杀之，虽死不恨。",
+ "bio": "钟会字士季，颍川长社人，太傅钟繇之少子。幼聪慧，五岁人即异之；博学精练名理，注《老子》有致。为司马师、昭兄弟腹心，淮南诸葛诞之役献策：以利诱吴兵、三面围城留南门以纵敌，昭抚其背曰：君真吾之子房也！景元四年拜镇西将军，假节钺，都督关中，与邓艾分道伐蜀，夺阳安关、兵困剑阁。蜀平，与卫瓘构邓艾专恣，槛车收之；遂据成都，用姜维之谋矫郭太后遗诏讨司马昭，欲事成则得天下、不成则退作刘备。魏将胡烈、胡渊内外相应，会死于乱箭之下，年三十九。演义评曰：妙计倾司马，当时号子房；不学陶朱隐，游魂悲故乡。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 249,
+   "end_year": 263,
+   "title": "黄门侍郎、散骑长史、镇西将军假节钺",
+   "lord_id": "cao_mao",
+   "basis": "为司马氏腹心，淮南献策，伐蜀拜镇西将军；诏书系于魏主之朝。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "谋臣"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 264,
+   "title": "司徒、都督伐蜀诸军事",
+   "lord_id": "sim_zhao",
+   "basis": "263 年伐蜀由司马昭主政（魏帝曹奂，实权在司马氏）。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 257,
+   "title": "淮南运筹",
+   "description": "诸葛诞之役献计：以利诱吴兵、留南门纵敌，寿春遂破。",
+   "importance": 3
+  },
+  {
+   "year": 263,
+   "title": "伐蜀夺阳安关",
+   "description": "拜镇西将军都督关中，斩许仪立威，取阳安关，兵困剑阁。",
+   "importance": 3
+  },
+  {
+   "year": 264,
+   "title": "据蜀谋反",
+   "description": "诬收邓艾，矫太后遗诏讨司马昭，困诸将于宫中；胡渊兵入，死于乱军。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 61
+}

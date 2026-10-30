@@ -1,0 +1,79 @@
+{
+ "id": "liu_shan",
+ "name": "刘禅",
+ "courtesy": "公嗣",
+ "display_aliases": [
+  "安乐公",
+  "蜀后主",
+  "蜀汉后主"
+ ],
+ "birth": 207,
+ "death": 271,
+ "date_precision": "exact",
+ "date_note": "史载生于建安十二年（207），卒于泰始七年（271）。长坂之难时尚在襁褓。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "reviewed",
+ "summary": "刘禅，蜀汉后主，在位四十一年。炎兴元年（263）降魏，受封安乐公，蜀汉亡。",
+ "bio": "刘禅字公嗣，小名阿斗，备长子，甘夫人所生。襁褓中经长坂之难，赖赵云护之得免；截江夺阿斗又为孙夫人所携，张飞赵云截江夺回。223 年刘备崩于白帝，禅即皇帝位于成都，改元建兴，以诸葛亮为武乡侯领益州牧，事之如父。亮在时政由葛氏，祭则寡人；亮卒后渐亲宦官黄皓，姜维屯田避祸。263 年魏邓艾偷渡阴平，兵至成都，用谯周之议出降，蜀亡。迁洛阳，封安乐公。司马昭设宴作蜀乐，禅嬉笑自若，曰：此间乐，不思蜀也。旧臣郤正教之泣言，昭问其似郤正语，禅惊曰：诚如尊命。左右皆笑。271 年卒于洛阳。演义评其懦，史家亦有言其量度者。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "皇帝",
+   "start_year": 223,
+   "end_year": 263,
+   "title": "蜀汉后主",
+   "basis": "第85回：先主崩，后主刘禅即位，年十七。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "客君",
+   "start_year": 263,
+   "end_year": 266,
+   "title": "安乐公（蜀汉后主降封）",
+   "basis": "第118回：后主降魏，魏封为安乐公。刘禅是蜀汉皇帝，降后受魏封，为魏之宾而非曹氏帝系之亲，故归客君。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "jin",
+   "role": "客君",
+   "start_year": 266,
+   "end_year": 271,
+   "title": "安乐公（晋袭封）",
+   "basis": "晋受魏禅，安乐公爵如故，至 271 年刘禅卒。仍为晋之宾，非司马氏之亲。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "长坂襁褓",
+   "description": "甘夫人怀禅于长坂，赵云抱之突出重围。",
+   "importance": 2
+  },
+  {
+   "year": 223,
+   "title": "成都即位",
+   "description": "先主崩，即皇帝位，改元建兴，尊诸葛亮为相父。",
+   "importance": 3
+  },
+  {
+   "year": 263,
+   "title": "面舆出降",
+   "description": "邓艾兵至成都，从谯周议出降，蜀汉亡。",
+   "importance": 3
+  },
+  {
+   "year": 264,
+   "title": "乐不思蜀",
+   "description": "洛阳宴饮蜀乐，笑曰此间乐不思蜀，为千古话柄。",
+   "importance": 2
+  }
+ ],
+ "span_post_state": true,
+ "mention_count": 250
+}

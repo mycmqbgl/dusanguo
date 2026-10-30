@@ -1,0 +1,48 @@
+{
+ "id": "zhang_yi_2",
+ "name": "张翼",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "张翼，蜀汉武将，先锋、征西大将军。张翼再三劝谏，维不从，遂勒兵来取狄道城。",
+ "bio": "第 64 回：「刘璋差卓膺、张翼二将，前至雒城助战」，后归刘备；蜀汉后期名将。原文第 5 回相关片段：「出关搦战谁敢当？诸侯胆裂心惶惶。踊出燕人张翼德，手持蛇矛丈八枪」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "先锋、征西大将军",
+   "basis": "第 64 回：「刘璋差卓膺、张翼二将，前至雒城助战」，后归刘备；蜀汉后期名将。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "第 90 回",
+   "description": "时王平、张翼已引一军赶到蛮寨中，将祝融夫人并一应老小皆活捉而来",
+   "importance": 1
+  },
+  {
+   "year": 252,
+   "title": "第 110 回",
+   "description": "张翼再三劝谏，维不从，遂勒兵来取狄道城",
+   "importance": 1
+  },
+  {
+   "year": 265,
+   "title": "第 119 回",
+   "description": "说姜维、钟会、邓艾已死，张翼等亦死于乱军之中",
+   "importance": 1
+  }
+ ],
+ "mention_count": 81
+}

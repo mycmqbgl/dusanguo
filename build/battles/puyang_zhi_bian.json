@@ -1,0 +1,84 @@
+{
+ "id": "puyang_zhi_bian",
+ "name": "濮阳中伏",
+ "year": 194,
+ "date_text": "兴平元年（194）",
+ "place_id": "pu_yang",
+ "event_id": "puyang_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹操军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "cao_cao",
+    "dian_wei"
+   ],
+   "troops_desc": "回师兖州之军"
+  },
+  {
+   "side": "吕布军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "lv_bu",
+    "gao_shun",
+    "zhang_liao"
+   ],
+   "troops_desc": "濮阳守军，田氏为内应"
+  }
+ ],
+ "result": "操中伏几死，典韦死战得出；城池仍归吕布",
+ "casualties_note": "操须发被烧，坠马后赖步军救出。",
+ "summary": "田氏诈降诱操入城，吕布伏兵四起；吕布当面戟击操盔而不识，典韦冲杀救主——操平生最险一役。",
+ "detail": "操攻濮阳不下，田氏献城诈降。操率军入城，行至州衙，一声炮响伏兵尽起：北巷张辽、东巷臧霸、西巷高顺、南巷郝萌曹性成廉，六将围操。操赖典韦冲杀至东门，吕布当面问「曹操何在」，操反指「骑黄马者是我」，布纵马追之去。操遇火烧须、梁柱压臂，典韦再入救出。是役操几丧命，自此知吕布不可力敌。",
+ "front_line": [
+  {
+   "time": 194,
+   "time_seq": 1,
+   "kind": "诱敌",
+   "label": "田氏献门",
+   "desc": "城内大户田氏诈降，操自率军入。",
+   "lng": 115.03,
+   "lat": 35.76,
+   "pixel_x": 839.7,
+   "pixel_y": 380.3
+  },
+  {
+   "time": 194,
+   "time_seq": 2,
+   "kind": "中伏",
+   "label": "六将围操",
+   "desc": "北巷张辽、东巷臧霸、西巷高顺、南巷郝萌等围之。",
+   "lng": 115.08,
+   "lat": 35.78,
+   "pixel_x": 841.6,
+   "pixel_y": 379.4
+  },
+  {
+   "time": 194,
+   "time_seq": 3,
+   "kind": "脱身",
+   "label": "布不识操",
+   "desc": "布戟击操盔问「曹操何在」，操反指黄马者。",
+   "lng": 114.98,
+   "lat": 35.73,
+   "pixel_x": 837.7,
+   "pixel_y": 381.7
+  },
+  {
+   "time": 194,
+   "time_seq": 4,
+   "kind": "救主",
+   "label": "典韦冲杀",
+   "desc": "操遇火坠马，典韦再入救出。",
+   "lng": 115.06,
+   "lat": 35.71,
+   "pixel_x": 840.8,
+   "pixel_y": 382.6
+  }
+ ],
+ "place_name": "濮阳"
+}

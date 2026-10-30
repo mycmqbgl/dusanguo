@@ -1,0 +1,31 @@
+{
+ "id": "zuo_ling",
+ "name": "左灵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "左灵，东汉人物。第 13 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 13 回相关片段：「院，用车二乘，一乘载天子，一乘载伏皇后，使贾诩、左灵监押车驾；其余宫人内侍，并皆步走。拥出后宰门，正」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 195,
+   "end_year": 195,
+   "basis": "第13回：使贾诩、左灵监押车驾。左灵为李傕部下，无正式职官记载。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "李傕部曲（奉差监押车驾）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 1
+}

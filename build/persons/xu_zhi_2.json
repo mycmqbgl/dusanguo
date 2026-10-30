@@ -1,0 +1,29 @@
+{
+ "id": "xu_zhi_2",
+ "name": "许芝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "许芝，曹魏文臣，太史丞。许芝又奏曰：臣等职掌司天，夜观乾象，见炎汉气数已终，陛下帝垦隐匿不明；魏国乾象，极天际地，言之难尽。",
+ "bio": "官职「中郎将」据原文上下文提取。原文第 69 回相关片段：「曹操染病，服药无愈。适太史丞许芝，自许昌来见操。操令芝卜易。芝曰：“大王曾闻神卜」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 218,
+   "end_year": 229,
+   "title": "太史丞",
+   "basis": "第69回太史丞许芝自许昌来见曹操，为卜易；第79回与李伏议禅代之兆。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

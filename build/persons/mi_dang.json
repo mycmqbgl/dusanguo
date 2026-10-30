@@ -1,0 +1,36 @@
+{
+ "id": "mi_dang",
+ "name": "迷当",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "迷当，羌王。魏嘉平末应姜维之约起兵，后为郭淮所擒，遂降魏。",
+ "bio": "迷当，羌王。姜维北伐屡约羌人共击魏，迷当引兵接应，为魏将郭淮所败，迷当被擒，遂降魏，羌兵尽为魏用。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 249,
+   "end_year": 255,
+   "title": "羌王",
+   "basis": "第109回：羌王迷当，起兵接应姜维。羌王为一族之主，非将佐。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 246,
+   "title": "第 109 回",
+   "description": "将不等迷当开言，就从背后杀将起来",
+   "importance": 1
+  }
+ ],
+ "mention_count": 8
+}

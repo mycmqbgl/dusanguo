@@ -1,0 +1,29 @@
+{
+ "id": "yang_ang",
+ "name": "杨昂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 67,
+ "review_status": "auto_mined",
+ "summary": "杨昂，异族武将，张鲁部将。杨昂曰：公不往，吾当自去。",
+ "bio": "。第 67 回：忽寨后一把火起，杨昂、杨任两路兵杀来劫寨。第 67 回：杨昂、杨任分两路杀来。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 215,
+   "title": "张鲁部将",
+   "basis": "第六十七回原文：却说夏侯渊一军抄过山后，见重雾垂空，又闻人语马嘶，恐有伏兵，急催人马行动，大雾中误走到杨昂寨。 职任「张鲁部将」据此；★任期按末见回目收敛：全书最后一次提及在第 67 回（215 年），原 215—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

@@ -1,0 +1,29 @@
+{
+ "id": "shang_hong",
+ "name": "尚弘",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "尚弘，东汉武将，行军校尉。行军校尉尚弘用绢包帝及后，令众先挂帝往下放之，乃得下船。",
+ "bio": "第 13 回：「行军校尉尚弘用绢包帝及后，令众先挂帝往下」。原文第 13 回相关片段：「曰：“我于乱军中拾得此绢，可接连拽辇。”行军校尉尚弘用绢包帝及后，令众先挂帝往下放之，乃得下船。李乐」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 196,
+   "title": "行军校尉",
+   "basis": "第 13 回：「行军校尉尚弘用绢包帝及后，令众先挂帝往下」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

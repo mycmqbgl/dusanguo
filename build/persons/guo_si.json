@@ -1,0 +1,61 @@
+{
+ "id": "guo_si",
+ "name": "郭汜",
+ "courtesy": null,
+ "display_aliases": [
+  "后将军",
+  "美阳侯"
+ ],
+ "birth": null,
+ "death": 197,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安二年（197）。本名郭多，后改汜。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "郭汜，东汉权臣，后将军、美阳侯、假节钺。卓然其说，唤李傕、郭汜领兵五百，围住太傅袁隗家，不分老幼，尽皆诛绝，先将袁隗首级去关前号令。",
+ "bio": "郭汜本名郭多，张掖人。为董卓校尉，与李傕齐名。董卓死，与李傕、张济、樊稠同攻长安，杀王允，自为后将军、美阳侯、假节钺，同秉朝政。兴平二年与李傕相疑交兵，劫持公卿，长安城空。献帝东归后，汜与李傕复合兵追帝，为杨奉、董承所拒。建安二年为部将伍习所杀。演义写其与李傕「同秉朝政」，又写「李、郭二贼欲弑献帝」，与李傕同属权臣 B 组。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "权臣",
+   "start_year": 192,
+   "end_year": 195,
+   "title": "后将军、美阳侯、假节钺",
+   "basis": "权臣 B 组成立：参与攻陷京师、杀王允、欲弑献帝（公开威胁皇权）；且为后将军假节钺同秉朝政。与李傕共治，非一人独决，但 B 组不以独决为要件。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 195,
+   "end_year": 197,
+   "title": "后将军",
+   "basis": "195 年与李傕相攻，失朝廷控制，自成一系；197 年为部将所杀。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "攻陷长安",
+   "description": "与李傕等合兵攻长安，杀王允，自为后将军美阳侯假节钺。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "与李傕相攻",
+   "description": "二人交兵长安，劫持公卿，城中略尽。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "为部将所杀",
+   "description": "为部将伍习所杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 77
+}

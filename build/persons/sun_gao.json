@@ -1,0 +1,29 @@
+{
+ "id": "sun_gao",
+ "name": "孙高",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "孙高，孙吴武将，孙翊旧将。氏乃密召孙翊心腹旧将孙高、傅婴二人入府，泣告曰：先夫在日，常言二公忠义。",
+ "bio": "第 38 回：「徐氏乃密召孙翊心腹旧将孙高、傅婴二人入府」。原文第 38 回相关片段：「徐氏乃密召孙翊心腹旧将孙高、傅婴二人入府，泣告曰：“先夫在日，常言二公忠义」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 204,
+   "title": "孙翊旧将",
+   "basis": "第 38 回：「徐氏乃密召孙翊心腹旧将孙高、傅婴二人入府」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 12
+}

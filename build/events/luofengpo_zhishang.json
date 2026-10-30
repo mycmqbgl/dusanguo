@@ -1,0 +1,37 @@
+{
+ "id": "luofengpo_zhishang",
+ "name": "落凤坡之殇",
+ "kind": "人物",
+ "start_year": 213,
+ "end_year": 213,
+ "date_text": "建安十八年（213）",
+ "summary": "庞统随刘备攻雒城，于落凤坡中张任伏兵，乱箭死于坡下，号凤雏止于此。",
+ "detail": "孔明观天象以书戒备：主将帅宜谨慎。统疑亮归功己之争，力主进兵。备以的卢马与统乘。行至落凤坡，统惊曰：吾道号凤雏，此处名落凤坡，不利吾甚！张任伏兵齐出，乱箭俱发，统死于乱箭之下，年止三十六。备闻之大恸，退守涪关，遣关平请孔明入川。",
+ "place_id": "c_益州_广汉郡_雒",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "pang_tong",
+   "role_desc": "副军师中郎将，落凤坡中伏而亡"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "统帅，以的卢马借统乘，闻讯大恸"
+  },
+  {
+   "person_id": "zhang_ren",
+   "role_desc": "设伏落凤坡，乱箭射死庞统"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "观天象驰书戒备，后入川主持"
+  }
+ ],
+ "passage_ids": [
+  63009,
+  63009,
+  63001,
+  63026
+ ],
+ "battle_ids": []
+}

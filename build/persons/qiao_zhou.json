@@ -1,0 +1,29 @@
+{
+ "id": "qiao_zhou",
+ "name": "谯周",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "谯周，蜀汉文臣，光禄大夫。后主令近臣推出宫门，遂令谯周作降书，遣私署侍中张绍、驸马都尉邓良同谯周赍玉玺来雒城请降。",
+ "bio": "第 65 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "光禄大夫",
+   "basis": "第六十五回原文：其余吴懿、费观、彭羕、卓膺、李严、吴兰、雷铜、李恢、张翼、秦宓、谯周、吕义，霍峻、邓芝、杨洪。 职任「光禄大夫」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 24
+}

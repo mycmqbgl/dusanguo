@@ -1,0 +1,61 @@
+{
+ "id": "yuanmen_sheji",
+ "name": "辕门射戟",
+ "kind": "政治事件",
+ "start_year": 196,
+ "end_year": 196,
+ "date_text": "建安元年（196）",
+ "summary": "纪灵三万兵攻刘备，布恐唇亡齿寒，设宴辕门、以射戟为赌：一箭中戟小枝，两家罢兵——「将军天威也」。",
+ "detail": "袁术遣纪灵攻小沛，备求救于吕布。布恐术破备则己被围，遂设宴请纪灵、刘备同至，席间于辕门外一百五十步设戟，曰「吾一箭射中戟小枝，两家罢兵；不中，任从厮杀」。布弓开如秋月，一箭正中戟小枝。纪灵畏布之勇，罢兵回淮南。此役是吕布一生最体面的时刻，也是其与刘备关系最后一次维系。",
+ "place_id": "xu_zhou",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "lv_bu",
+   "role_desc": "设宴辕门，一箭解两家之斗"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "被攻方，得布之救"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "随备赴宴压阵"
+  },
+  {
+   "person_id": "ji_ling",
+   "role_desc": "攻备方主将，畏布罢兵"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "随备赴宴，席间欲杀灵"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "纪灵攻备",
+   "description": "袁术遣纪灵三万兵攻小沛，备求救于布。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "布设局",
+   "description": "布设宴请两家，辕门一百五十步设戟为赌。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "一箭定局",
+   "description": "布一箭正中戟小枝，纪灵罢兵。",
+   "importance": 3
+  }
+ ],
+ "passage_ids": [
+  16006,
+  16012,
+  16001,
+  16006
+ ],
+ "battle_ids": []
+}

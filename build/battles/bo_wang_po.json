@@ -1,0 +1,87 @@
+{
+ "id": "bo_wang_po",
+ "name": "博望坡之战",
+ "year": 208,
+ "date_text": "建安十三年（208）",
+ "place_id": "bo_wang_po",
+ "event_id": "sangu_miaolu",
+ "belligerents": [
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "xiahou_dun",
+    "yu_jin",
+    "li_dian"
+   ],
+   "troops_desc": "夏侯惇十万大军直逼新野"
+  },
+  {
+   "side": "刘备军",
+   "faction_ids": [
+    "shu"
+   ],
+   "commanders": [
+    "liu_bei",
+    "zhuge_liang",
+    "guan_yu",
+    "zhang_fei",
+    "zhao_yun"
+   ],
+   "troops_desc": "新野兵不满三千 + 关羽张飞各五百 + 博望坡两侧芦苇伏兵"
+  }
+ ],
+ "result": "孔明初出茅庐第一功：火攻大破夏侯惇十万军",
+ "casualties_note": "曹军死伤极众，自相践踏；夏侯惇冒烟突走。",
+ "summary": "操遣夏侯惇十万攻新野。孔明新拜军师，众将不服；亮调关羽张飞屯博望坡两侧山林候火，赵云诈败诱敌。惇追至博望坡芦苇狭道，火起满山，曹军大溃。",
+ "detail": "夏侯惇领兵十万杀奔新野。张飞言「用孔明如水」，亮请剑印压众：关羽引一千伏博望坡左侧豫山，张飞引一千伏安林后，关平刘封备引火之物候敌入坡，赵云为诱兵只许败不许胜，备自引一军为援。惇至博望，与赵云交战佯败，追入狭窄芦苇坡道，天色晚风大起，火发两翼，曹军烧死踩死者众，惇冒烟突围而走。李典于禁劝阻不及，回军宛城请罪。",
+ "front_line": [
+  {
+   "time": 208,
+   "time_seq": 1,
+   "kind": "进兵",
+   "label": "夏侯惇十万压境",
+   "desc": "操遣惇领兵十万直逼新野。",
+   "lng": 113.1,
+   "lat": 33.0,
+   "pixel_x": 763.3,
+   "pixel_y": 507.7
+  },
+  {
+   "time": 208,
+   "time_seq": 2,
+   "kind": "诱敌",
+   "label": "赵云诈败",
+   "desc": "赵云出战只败不胜，诱惇入博望坡狭道。",
+   "lng": 112.9,
+   "lat": 33.25,
+   "pixel_x": 755.4,
+   "pixel_y": 496.2
+  },
+  {
+   "time": 208,
+   "time_seq": 3,
+   "kind": "火攻",
+   "label": "火烧博望坡",
+   "desc": "火起两翼芦苇山林，曹军大溃。",
+   "lng": 112.9,
+   "lat": 33.25,
+   "pixel_x": 755.4,
+   "pixel_y": 496.2
+  },
+  {
+   "time": 208,
+   "time_seq": 4,
+   "kind": "结局",
+   "label": "惇突围走",
+   "desc": "夏侯惇冒烟突走，回宛城请罪；孔明初战立威。",
+   "lng": 112.53,
+   "lat": 33.0,
+   "pixel_x": 740.7,
+   "pixel_y": 507.7
+  }
+ ],
+ "place_name": "博望坡"
+}

@@ -1,0 +1,46 @@
+{
+ "id": "yan_shi",
+ "name": "严氏",
+ "courtesy": null,
+ "display_aliases": [
+  "吕布正妻"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年均不详，演义未载；下邳城破（198）后下落无考。",
+ "gender": "female",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "严氏，群雄人物，吕布之妻。布然其言，复入内对严氏说知此事。",
+ "bio": "严氏，吕布正妻，生一女（第十六回许婚袁术之子，后婚事因韩使被截而作罢）。第十九回下邳被围，陈宫劝吕布出屯以互为犄角，吕布归问严氏，严氏泣曰「将军若出，陈宫、高顺安能保守城池？倘有差失，悔无及矣」，又言貂蝉之事，吕布遂终日不出，只同严氏、貂蝉饮酒解闷。城破后与吕布一同被俘，演义未载下落。第十六回另有「与严氏雪仇」一语，指严白虎宗族，与本卡无关。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 195,
+   "end_year": 198,
+   "title": "吕布正妻",
+   "lord_id": "lv_bu",
+   "basis": "第十六回原文：原来吕布有二妻一妾，先娶严氏为正妻…惟严氏生一女。吕布 198 年白门楼败亡，严氏随布。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "议婚袁术",
+   "description": "吕布欲结袁术，以女许婚；因婚使被截而作罢。",
+   "importance": 2
+  },
+  {
+   "year": 198,
+   "title": "谏阻出城",
+   "description": "下邳被围，泣劝吕布勿从陈宫出城之谋，吕布听之，坐守孤城终致败亡。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：下邳城破（198）后下落无考｜演：生卒年均不详，演义未载",
+ "mention_count": 9
+}

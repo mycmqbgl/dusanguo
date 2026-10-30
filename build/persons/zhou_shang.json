@@ -1,0 +1,29 @@
+{
+ "id": "zhou_shang",
+ "name": "周尚",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "auto_mined",
+ "summary": "周尚，群雄文臣，丹阳太守。叔周尚，为丹阳太守；今往省亲，到此与策相遇。",
+ "bio": "原文第 15 回相关片段：「情甚密，因结为昆仲。策长瑜两月，瑜以兄事策。瑜叔周尚，为丹阳太守；今往省亲，到此与策相遇。策见瑜大喜」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 229,
+   "title": "丹阳太守",
+   "basis": "第15回周瑜之叔周尚为丹阳太守，瑜往省亲，与孙策相遇于历阳。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

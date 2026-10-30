@@ -1,0 +1,29 @@
+{
+ "id": "shen_rong",
+ "name": "审荣",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "审荣，群雄武将，审配之侄、守城将。配之侄审荣，素与辛毗相厚，见辛毗家属被害，心中怀忿，乃密写献门之书，拴于箭上，射下城来。",
+ "bio": "原文第 32 回相关片段：「就于城上斩之，将头掷下。辛毗号哭不已。审配之侄审荣，素与辛毗相厚，见辛毗家属被害，心中怀忿，乃密写」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 229,
+   "basis": "第32回审配之侄审荣素与辛毗相厚，密写献门之书拴于箭上。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "审配之侄、守城将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

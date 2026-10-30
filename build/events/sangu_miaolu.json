@@ -1,0 +1,89 @@
+{
+ "id": "sangu_miaolu",
+ "name": "三顾茅庐定三分",
+ "kind": "人才归附",
+ "start_year": 207,
+ "end_year": 208,
+ "date_text": "建安十二年至十三年（207–208）",
+ "summary": "徐庶走马荐诸葛，司马徽再荐卧龙；刘备三顾茅庐，亮以隆中对定三分之策，出山相佐。",
+ "detail": "徐庶化名单福辅佐刘备破曹仁八门金锁阵，操囚其母诱庶归许都，庶走马荐诸葛：卧龙先生诸葛孔明。司马徽亦言「得其主不得其时」。刘备三往隆中：一顾遇崔州平怅然而返；二顾值隆冬遇石广元孟公威黄承彦，留书而去；三顾春日方得相见，亮未出而知三分，隆中对析曹操不可与争锋、孙权可以为援、跨荆益以图中原。亮初出茅庐，博望新野两把火，夏侯惇曹仁先后败绩，众将始服。",
+ "place_id": "long_zhong",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_bei",
+   "role_desc": "豫州牧，三顾茅庐请出诸葛亮"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "卧龙，隆中对定三分之策，出山为军师"
+  },
+  {
+   "person_id": "xu_shu",
+   "role_desc": "单福，破曹仁八门金锁阵，因母归曹，走马荐诸葛"
+  },
+  {
+   "person_id": "sima_hui",
+   "role_desc": "水镜先生，再荐卧龙"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "随往三顾，初不以为然，博望坡领右军"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "扬言缚孔明，三顾同行，火烧新野立功"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "刘备部将，随征破阵"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "囚徐母诱庶，遣将攻新野"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "单福破阵",
+   "description": "徐庶助备破曹仁八门金锁阵，取樊城。",
+   "importance": 2
+  },
+  {
+   "year": 207,
+   "title": "走马荐诸葛",
+   "description": "操囚徐母诱庶归许，庶荐卧龙于备。",
+   "importance": 3
+  },
+  {
+   "year": 207,
+   "title": "三顾茅庐",
+   "description": "备三往隆中，冬雪不辍，亮感其诚。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "隆中对",
+   "description": "亮析天下势：跨荆益、联孙权、抗曹操，三分定策。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "初出茅庐",
+   "description": "博望坡火烧夏侯惇十万军，众将始服。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [
+  "bo_wang_po"
+ ],
+ "passage_ids": [
+  36014,
+  36017,
+  37005,
+  37005,
+  38010,
+  38002
+ ]
+}

@@ -1,0 +1,54 @@
+{
+ "id": "zhang_yi_3",
+ "name": "张嶷",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "张嶷，字伯岐，巴郡南充国人，蜀汉名将，南征北战，后战死。",
+ "bio": "张嶷，字伯岐，巴郡南充国人，蜀汉名将。诸葛亮南征，张嶷从军平南中，后为越嶲太守，抚定诸夷；姜维北伐，张嶷以无当监随军，段谷之战力战而死。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 254,
+   "title": "无当监、荡寇将军",
+   "basis": "第 87 回：「又唤张嶷、张翼分付曰」，蜀汉将领。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "第 87 回",
+   "description": "唤张嶷、张翼分付曰：“汝二人同领一军，往中路迎敌",
+   "importance": 1
+  },
+  {
+   "year": 229,
+   "title": "第 98 回",
+   "description": "后鼓角喧天，两路兵杀来：乃是马忠、张嶷，把魏军围在垓心",
+   "importance": 1
+  },
+  {
+   "year": 231,
+   "title": "第 102 回",
+   "description": "张嶷受计引兵而去",
+   "importance": 1
+  },
+  {
+   "year": 253,
+   "title": "第 111 回",
+   "description": "寇将军张嶷，闻姜维受困，引数百骑杀入重围",
+   "importance": 1
+  }
+ ],
+ "mention_count": 54
+}

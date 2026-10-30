@@ -1,0 +1,29 @@
+{
+ "id": "chen_jun",
+ "name": "陈俊",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "陈俊，曹魏武将，魏将。第 112 回一笔带过，事迹仅存其名。",
+ "bio": "第 112 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 254,
+   "end_year": 254,
+   "title": "魏将",
+   "basis": "第一百十二回原文：又令陈俊引车仗牛马驴骡，装载赏军之物，四面聚集于阵中，如敌来则弃之。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 254—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

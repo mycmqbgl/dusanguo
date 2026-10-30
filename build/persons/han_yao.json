@@ -1,0 +1,30 @@
+{
+ "id": "han_yao",
+ "name": "韩瑶",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "韩瑶，曹魏武将。弃枪于地，闪过宝刀，生擒韩瑶归阵，复纵马取枪杀过阵来。",
+ "bio": "第 92 回：次子韩瑶见之，纵马挥刀来战。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "basis": "第92回韩德次子韩瑶与赵云交战，抵敌不住。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 5
+}

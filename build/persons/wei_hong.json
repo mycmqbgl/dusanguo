@@ -1,0 +1,39 @@
+{
+ "id": "wei_hong",
+ "name": "卫弘",
+ "courtesy": null,
+ "display_aliases": [
+  "孝廉",
+  "巨富"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。演义仅第五回一见：资助曹操起兵。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "卫弘，东汉人物，（未仕）。操置酒张筵，拜请卫弘到家，告曰：\"今汉室无主，董卓专权，欺君害民，天下切齿。",
+ "bio": "卫弘，孝廉，疏财仗义，其家巨富。曹操逃归陈留，发矫诏驰报各道，然后招集义兵，竖起招兵白旗一面，上书「忠义」二字，然恨无钱粮。操曰「吾欲举大事，恨力不及」，弘曰「孟德有大志，愿将家资相助」，操大喜。演义称「于是先发矫诏，驰报各道」，得弘之资助，兵马方成。讨董十八路诸侯，其最初军资多出于此。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 190,
+   "end_year": 190,
+   "title": "（未仕）",
+   "basis": "举孝廉而未出仕，疏财仗义，不属文武职任，归「其他」。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "资助曹操起兵",
+   "description": "曹操欲举大事恨无力，弘曰「孟德有大志，愿将家资相助」，操军资始足。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 4
+}

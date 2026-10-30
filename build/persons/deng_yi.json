@@ -1,0 +1,29 @@
+{
+ "id": "deng_yi",
+ "name": "邓义",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 40,
+ "review_status": "auto_mined",
+ "summary": "邓义，群雄文臣，治中。州治中邓义、别驾刘先，已备知襄阳之事，料不能抵敌曹操，遂引荆州军民出郭投降。",
+ "bio": "官职「治中」据原文上下文提取。原文第 40 回相关片段：「蔡瑁遂立刘琮为主。蔡氏宗族，分领荆州之兵；命治中邓义、别驾刘先守荆州；蔡夫人自与刘琮前赴襄阳驻扎，以」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "治中",
+   "basis": "第40回蔡瑁立刘琮为主，命治中邓义、别驾刘先守荆州。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

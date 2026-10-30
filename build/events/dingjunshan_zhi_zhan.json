@@ -1,0 +1,53 @@
+{
+ "id": "dingjunshan_zhi_zhan",
+ "name": "定军山之战",
+ "kind": "征伐",
+ "start_year": 219,
+ "end_year": 219,
+ "date_text": "建安二十四年正月（219）",
+ "summary": "黄忠据定军山对面高山，法正以逸待劳举旗为号，忠驰下斩夏侯渊；随后汉水之战赵云一身是胆，曹操弃汉中。",
+ "detail": "详见战役「定军山之战」。天荡山既失，备引兵十万亲征汉中：黄忠严颜先破张郃，忠与法正计斩夏侯渊；操亲征报仇，劫粮反败，汉水一战赵云空营却敌，玄德赞「子龙一身都是胆」，加为虎威将军。此后操退屯阳平，徐晃背水列阵又败，操弃汉中北还，备遂有汉中，进位汉中王。",
+ "place_id": "ding_jun_shan",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "huang_zhong",
+   "role_desc": "主将，驰下山连头带肩斩夏侯渊"
+  },
+  {
+   "person_id": "fa_zheng",
+   "role_desc": "谋主，夺山居顶，白旗红旗以逸待劳"
+  },
+  {
+   "person_id": "xiahou_yuan",
+   "role_desc": "曹军主帅，围山挑战，措手不及被斩"
+  },
+  {
+   "person_id": "zhang_he",
+   "role_desc": "苦谏渊勿出战，败走汉水，守北山粮草"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "汉水之战杀入重围救黄忠张著，空营却敌，号虎威将军"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "统帅亲征汉中，赞子龙一身都是胆"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "起四十万大军亲征报仇，兵败弃汉中"
+  }
+ ],
+ "passage_ids": [
+  70013,
+  70017,
+  71001,
+  71002,
+  71022,
+  71016
+ ],
+ "battle_ids": [
+  "dingjunshan_battle"
+ ]
+}

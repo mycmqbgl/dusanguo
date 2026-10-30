@@ -1,0 +1,31 @@
+{
+ "id": "cen_bi",
+ "name": "岑壁",
+ "courtesy": null,
+ "display_aliases": [
+  "岑璧"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详。第 32 回为袁谭部将，出战时被吕旷斩于马下。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "reviewed",
+ "summary": "岑壁，袁谭部将，204 年出战时被吕旷斩杀。",
+ "bio": "岑壁（第 32 回原文作「岑璧」，毛本二形并存），袁谭部将。袁谭与郭图再议进兵，令岑璧为将，领兵前来攻袁尚；两阵对圆，岑璧出马骂阵，袁尚大将吕旷拍马舞刀来战，「二将战无数合，旷斩岑璧于马下」，谭兵又败奔平原。其人仅此一战，正史无传。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 204,
+   "basis": "第32回：袁谭与郭图再议进兵，令岑璧为将，领兵前来……二将战无数合，旷斩岑璧于马下。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "title": "将（袁谭部将）"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

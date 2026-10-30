@@ -1,0 +1,29 @@
+{
+ "id": "gou_an",
+ "name": "苟安",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 100,
+ "review_status": "auto_mined",
+ "summary": "苟安，蜀汉武将，都尉。说司马懿料苟安行计停当，只待蜀兵退时，一齐掩杀。",
+ "bio": "官职「都尉」据原文上下文提取。原文第 100 回相关片段：「孔明收得胜之兵，回到祁山时，永安城李严遣都尉苟安解送粮米，至军中交割。苟安好酒，于路怠慢，违限十」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "都尉",
+   "basis": "第100回永安城李严遣都尉苟安解送粮米，于路怠慢违限十日，孔明欲斩，安遂降魏。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

@@ -1,0 +1,72 @@
+{
+ "id": "meng_da",
+ "name": "孟达",
+ "courtesy": "子度",
+ "display_aliases": [
+  "建武将军"
+ ],
+ "birth": null,
+ "death": 228,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年太和二年（228）司马懿围上庸，为申耽所杀（演义），史书同记为司马懿所破后伏诛。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "reviewed",
+ "summary": "孟达，群雄文臣，刘璋部下。说刘封、孟达自取上庸，太守申耽率众归降，因此汉中王加刘封为副将军，与孟达同守上庸。",
+ "bio": "孟达字子度，扶风郿人。与法正同仕刘璋，同迎刘备入川。备取益州后为宜都太守。荆州之战不救关羽，惧罪降曹丕，丕拜新城太守，与刘晔相善。曹丕死，达与诸葛亮暗通欲归蜀，司马懿克日进军，八日抵新城，达为申耽所杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 211,
+   "title": "刘璋部下",
+   "basis": "刘璋帐下，与法正同谋迎备。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 220,
+   "title": "宜都太守",
+   "lord_id": "liu_bei",
+   "basis": "备入川后为宜都太守；荆州之役不救关羽。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 220,
+   "end_year": 228,
+   "title": "新城太守、建武将军",
+   "basis": "降曹丕拜新城太守；228 年反正归蜀事泄被杀。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "第 60 回",
+   "description": "不数程，孟达接着，拜见玄德，说刘益州令某领兵五千远来迎接",
+   "importance": 1
+  },
+  {
+   "year": 215,
+   "title": "第 71 回",
+   "description": "曰：“今定军山已被刘封、孟达夺了",
+   "importance": 1
+  },
+  {
+   "year": 220,
+   "title": "第 79 回",
+   "description": "既死，有人报知孟达",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒年太和二年（228）司马懿围上庸，为申耽所杀（演义），史书同记为司马懿所破后伏诛",
+ "mention_count": 92
+}

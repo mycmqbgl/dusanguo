@@ -1,0 +1,29 @@
+{
+ "id": "liang_gang",
+ "name": "梁刚",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "梁刚，群雄武将，袁术部将。自引军三万，使李丰、梁刚、乐就为催进使，接应七路之兵。",
+ "bio": "第 17 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 198,
+   "title": "袁术部将",
+   "basis": "第十七回原文：术自引军三万，使李丰、梁刚、乐就为催进使，接应七路之兵。 职任「袁术部将」据此；★任期按末见回目收敛：全书最后一次提及在第 17 回（198 年），原 198—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

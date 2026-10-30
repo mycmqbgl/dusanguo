@@ -1,0 +1,29 @@
+{
+ "id": "du_yuan",
+ "name": "杜远",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "auto_mined",
+ "summary": "杜远，群雄武将，黄巾余党。化问起根由，好生拜敬，杜远不从，已被廖化杀了。",
+ "bio": "第 27 回：杜远出言不逊，被某杀之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 201,
+   "end_year": 229,
+   "title": "黄巾余党",
+   "basis": "第27回廖化与同伴杜远聚众五百余人，劫掠为生，误劫刘备二夫人。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

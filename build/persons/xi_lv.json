@@ -1,0 +1,32 @@
+{
+ "id": "xi_lv",
+ "name": "郗虑",
+ "courtesy": null,
+ "display_aliases": [
+  "郄虑"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 40,
+ "review_status": "auto_mined",
+ "summary": "郗虑，曹魏文臣，御史大夫，谗言孔融。郗虑在侧，帝曰：郗公。",
+ "bio": "。第 40 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 215,
+   "title": "御史大夫，谗言孔融",
+   "basis": "第四十回原文：时御史大夫郗虑家客闻此言，报知郗虑，虑常被孔融侮慢，心正恨之，乃以此言入告曹操，且曰：“融平。 职任「御史大夫，谗言孔融」据此；★任期按末见回目收敛：全书最后一次提及在第 66 回（215 年），原 208—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "notice": "异写：郄虑",
+ "mention_count": 8
+}

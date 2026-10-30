@@ -1,0 +1,64 @@
+{
+ "id": "yang_fu",
+ "name": "杨阜",
+ "courtesy": "义山",
+ "display_aliases": [
+  "天水人",
+  "参冀军事"
+ ],
+ "birth": 176,
+ "death": 244,
+ "date_precision": "approx",
+ "date_note": "史载卒于正始元年（244）。生年按其卒于 244、事迹推约 176，存疑。",
+ "gender": "male",
+ "first_chapter": 59,
+ "review_status": "reviewed",
+ "summary": "杨阜，群雄文臣，凉州从事、参冀城军事。人言杨阜劝韦康休降，可斩之，超曰：此人守义，不可斩也。",
+ "bio": "杨阜字义山，天水冀人。马超攻陇上诸县，阜时为凉州从事，守冀城有功。超破冀城，杀阜同乡刺史康，阜诈降伺隙，假称归葬妻，出历城，会姜叙、赵昂等举兵，又借冀城以东兵，大破马超，超奔汉中。曹操征汉中，阜为参军。后为魏臣，直言敢谏：明帝时上疏谏营宫室、谏诛近习，迁将作大匠。阜性刚直，史称其以谏诤显名。演义写其借兵破马超一节，与史相合。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "凉州从事、参冀城军事",
+   "lord_id": "cao_cao",
+   "basis": "为凉州从事守冀城（刺史韦康未建卡），借兵破马超后归曹氏。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "刺史佐吏"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 215,
+   "end_year": 244,
+   "title": "参军、武都太守、将作大匠",
+   "lord_id": "cao_cao",
+   "basis": "曹操征汉中以为参军，入魏历武都太守、将作大匠。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 213,
+   "title": "借兵破马超",
+   "description": "假称归葬出城，与姜叙等举兵，大破马超于陇上，超奔汉中。",
+   "importance": 3
+  },
+  {
+   "year": 215,
+   "title": "从征汉中",
+   "description": "曹操西征张鲁，阜为参军随军。",
+   "importance": 1
+  },
+  {
+   "year": 236,
+   "title": "谏明帝崇奢",
+   "description": "上疏谏罢宫室之役，直言极谏，闻名朝野。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 23
+}

@@ -1,0 +1,29 @@
+{
+ "id": "si_fan",
+ "name": "司蕃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "司蕃，曹魏武将，平昌门守将。司蕃曰：请诏验之。",
+ "bio": "原文第 107 回相关片段：「其言，乃上马至平昌门，城门已闭，把门将乃桓范旧吏司蕃也。范袖中取出一竹版曰：“太后有诏，可即开门。”」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "平昌门守将",
+   "basis": "第107回桓范至平昌门，把门将乃桓范旧吏司蕃，范诈称太后有诏，蕃乃开门。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

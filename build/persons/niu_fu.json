@@ -1,0 +1,51 @@
+{
+ "id": "niu_fu",
+ "name": "牛辅",
+ "courtesy": null,
+ "display_aliases": [
+  "中郎将"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于初平三年（192）。董卓之婿。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "牛辅，群雄武将，中郎将。牛辅如何敌得吕布，仍复大败而走。",
+ "bio": "牛辅，董卓之婿，为中郎将，屯兵陕县。董卓死，李傕、郭汜等攻长安，路逢牛辅引军五千欲为丈人报仇，遂合兵以为前驱。王允遣吕布、李肃迎战，李肃当先与牛辅相遇，大杀一阵，牛辅抵敌不过败走；是夜二更，牛辅乘肃不备劫寨，肃军乱窜，吕布怒斩李肃。次日吕布进兵，牛辅复大败。是夜牛辅唤心腹胡赤儿商议曰「吕布骁勇，万不能敌，不如瞒了李傕等四人，暗藏金珠，与亲随三五人弃军而去」，胡赤儿应允。将渡一河，赤儿欲谋取金珠，竟杀牛辅，将头献吕布。演义第九回写其事。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 192,
+   "title": "中郎将",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓之婿及部将，无独立势力，以军事指挥为主归武将；192 年为部下所杀。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "合兵报仇",
+   "description": "引军五千欲为董卓报仇，与李傕合兵为前驱。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "劫寨斩李肃",
+   "description": "夜劫李肃营寨，肃军乱窜，吕布怒斩李肃。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "为亲信所杀",
+   "description": "弃军携金珠而逃，胡赤儿谋其金宝，杀之献首吕布。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 10
+}

@@ -1,0 +1,61 @@
+{
+ "id": "guo_fu_ren",
+ "name": "郭皇后",
+ "courtesy": null,
+ "display_aliases": [
+  "明元皇后",
+  "郭太后"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详。西平人，明帝郭皇后，曹芳时尊为皇太后。",
+ "gender": "female",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "郭皇后，曹睿皇后。以美貌得宠，毛后失宠；曹芳即位后尊为皇太后，正始年间与曹爽同秉朝政。",
+ "bio": "郭氏，西平人，曹睿为平原王时入宫。毛皇后失宠后，郭夫人独承恩宠，明帝为之月余不出宫闼。明帝崩，曹芳即位，尊为皇太后。正始十年（249）高平陵之变，司马懿奏请废曹爽，郭太后下诏从之。演义第一百六回「尊郭皇后为皇太后」即此。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 235,
+   "end_year": 239,
+   "title": "郭夫人",
+   "basis": "第一百五回原文：后睿因宠郭夫人，毛后失宠。郭夫人美而慧，睿甚嬖之。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 239,
+   "end_year": 264,
+   "title": "皇太后",
+   "basis": "第一百六回原文：于是曹芳谥睿为明帝，葬于高平陵；尊郭皇后为皇太后。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 235,
+   "title": "入宫得宠",
+   "description": "曹睿为平原王时入宫，明帝即位后宠冠后宫，毛后失宠。",
+   "importance": 2
+  },
+  {
+   "year": 239,
+   "title": "尊为皇太后",
+   "description": "明帝崩，曹芳即位，尊郭皇后为皇太后。",
+   "importance": 3
+  },
+  {
+   "year": 249,
+   "title": "高平陵之变",
+   "description": "司马懿奏请废曹爽，郭太后下诏从之。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 7
+}

@@ -1,0 +1,29 @@
+{
+ "id": "cai_xun",
+ "name": "蔡勋",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "蔡勋，群雄武将，守将。第 34 回一笔带过，事迹仅存其名。",
+ "bio": "第 34 回：北门外已使蔡勋守把。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 207,
+   "end_year": 229,
+   "basis": "第34回蔡瑁言「北门外已使蔡勋守把」。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "守将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "cao_zhang",
+ "name": "曹彰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 68,
+ "review_status": "auto_mined",
+ "summary": "曹彰，曹魏武将，任城王。第 72 回一笔带过，事迹仅存其名。",
+ "bio": "第 68 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 216,
+   "end_year": 220,
+   "title": "任城王",
+   "basis": "第七十二回原文：各引兵五千来迎：“刘封在先，孟达在后，曹彰出马与封交战，只三合，封大败而回。 职任「任城王」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 216—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 18
+}

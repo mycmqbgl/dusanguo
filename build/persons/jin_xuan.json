@@ -1,0 +1,32 @@
+{
+ "id": "jin_xuan",
+ "name": "金旋",
+ "courtesy": null,
+ "display_aliases": [
+  "武陵太守"
+ ],
+ "birth": null,
+ "death": 209,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义武陵城为巩志所杀（209）。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "金旋，群雄文臣，武陵太守。金旋乃喝退巩志，自率兵出。",
+ "bio": "金旋，荆南武陵太守。刘备取四郡，张飞兵至，旋欲降而部下巩志谏「刘皇叔仁义」，旋怒欲斩之，出城迎战。旋败回城，巩志已闭门，城上乱箭射下，旋中箭落马，为巩志所杀。志开门迎张飞，备以志为武陵太守。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "武陵太守",
+   "basis": "荆南四郡之一；209 年兵败身死（演义）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：卒年按演义武陵城为巩志所杀（209）",
+ "mention_count": 11
+}

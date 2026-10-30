@@ -1,0 +1,29 @@
+{
+ "id": "huo_jun",
+ "name": "霍峻",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "auto_mined",
+ "summary": "霍峻，蜀汉武将，梓潼太守。流星马急报，言孟达、霍峻守葭萌关，今被东川张鲁遣马超与杨柏、马岱领兵攻打甚急，救迟则关隘休矣。",
+ "bio": "第 65 回：玄德复命霍峻、孟达守关，便撤兵来取成都。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 212,
+   "end_year": 219,
+   "title": "梓潼太守",
+   "basis": "第六十二回原文：玄德大喜，即时遣孟达、霍峻守葭萌关去了。 职任「梓潼太守」据此；★任期按末见回目收敛：全书最后一次提及在第 70 回（219 年），原 212—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

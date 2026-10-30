@@ -1,0 +1,45 @@
+{
+ "id": "zhang_xun",
+ "name": "张勋",
+ "courtesy": null,
+ "display_aliases": [
+  "大将军"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；七路伐徐败后无事迹。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "张勋，群雄武将，大将军。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+ "bio": "张勋，袁术大将。术称帝后以勋为大将军，七路伐徐州，勋领中路三万军，为吕布、韩暹、杨奉倒戈与关羽合击，大败而走。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 197,
+   "title": "大将军",
+   "lord_id": "yuan_shu",
+   "basis": "袁术部将。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "属袁术",
+   "description": "为袁术大将。",
+   "importance": 1
+  },
+  {
+   "year": 197,
+   "title": "七路伐徐败绩",
+   "description": "为中路都督，兵败走。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 7
+}

@@ -1,0 +1,47 @@
+{
+ "id": "guan_lu",
+ "name": "管辂",
+ "courtesy": "公明",
+ "display_aliases": [
+  "平原管辂",
+  "神卜"
+ ],
+ "birth": 209,
+ "death": 256,
+ "date_precision": "exact",
+ "date_note": "史载生于建安十年前后推定为 209，卒于甘露元年（256）。《三国志》本传存卒年。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "reviewed",
+ "summary": "管辂，神怪人物，术士。闻之，赶上管辂，哭拜于地曰：请归救吾子。",
+ "bio": "管辂字公明，平原人。容貌粗丑，无威仪而嗜酒，好天文、占卜，设卦观象言无不中。演义写其受曹操之召，卜东吴、西蜀吉凶，预测夏侯渊战死、鲁肃病亡皆验；又为曹操卜寿数，言不可轻动。正史中管辂主要活动于魏正始年间，为清河太守华表所荐，官至少府丞，占验著名者为何晏、邓飏问卜（当有异志之卦）。演义将时间前移并系于曹操在世时，属小说家言。评曰：辂之术，近乎神。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 216,
+   "end_year": 256,
+   "title": "术士",
+   "lord_id": "cao_cao",
+   "basis": "第69回：「管辂字公明，平原人也……自幼便喜仰视星辰」，以卜筮知名，无官职，属方术之士。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "术士"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 216,
+   "title": "应召卜吉凶",
+   "description": "曹操召辂卜天下大势与诸事吉凶，预言多验（演义系年）。",
+   "importance": 2
+  },
+  {
+   "year": 249,
+   "title": "为何晏筮卦",
+   "description": "为何晏、邓飏占卜，断其有覆亡之兆；岁余二人果诛。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 39
+}

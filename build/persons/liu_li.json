@@ -1,0 +1,29 @@
+{
+ "id": "liu_li",
+ "name": "刘理",
+ "courtesy": "奉孝",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 77,
+ "review_status": "auto_mined",
+ "summary": "刘理，蜀汉宗亲，梁王。第 77 回一笔带过，事迹仅存其名。",
+ "bio": "第 77 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "亲族",
+   "start_year": 220,
+   "end_year": 225,
+   "title": "刘备第四子，梁王（后主之弟）",
+   "basis": "第七十七回原文：次刘理，字奉孝。 职任「梁王」据此；★任期按末见回目收敛：全书最后一次提及在第 85 回（225 年），原 220—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

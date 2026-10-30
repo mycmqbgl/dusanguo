@@ -1,0 +1,8 @@
+# 大体积可再生临时产物
+build/tmp/
+data/ne/dem_grid.npy
+# 项目资产快照压缩包
+读三国-项目资产-*.zip
+.DS_Store
+__pycache__/
+*.pyc

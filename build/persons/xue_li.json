@@ -1,0 +1,45 @@
+{
+ "id": "xue_li",
+ "name": "薛礼",
+ "courtesy": null,
+ "display_aliases": [
+  "下邳相"
+ ],
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "演义第十五回（约 195）为孙策攻秣陵时殁于城中；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "薛礼，群雄文臣，彭城相。士笮融、薛礼劝免，使屯兵零陵城拒敌。",
+ "bio": "薛礼，彭城相。笮融杀朱皓据豫章后，礼与笮融同依刘繇，屯秣陵。孙策渡江攻秣陵，礼据城固守，城破殁（演义）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 195,
+   "title": "彭城相",
+   "lord_id": "liu_yao",
+   "basis": "依刘繇屯秣陵。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "屯秣陵",
+   "description": "与笮融同依刘繇屯秣陵。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "殁于秣陵",
+   "description": "孙策攻秣陵，礼闭门不敢出，城破死于乱军中。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

@@ -1,0 +1,91 @@
+{
+ "id": "yuanshi_xiangzheng",
+ "name": "袁氏兄弟相争",
+ "kind": "权位之争",
+ "start_year": 202,
+ "end_year": 203,
+ "date_text": "建安七年至八年（202–203）",
+ "summary": "袁绍病死，废长立幼传位袁尚；袁谭不服，兄弟构兵于黎阳、平原。曹操坐收渔利，谭请操助，吕旷吕翔兄弟阵亡，袁氏自此分崩。",
+ "detail": "官渡败后袁绍呕血而亡，审配逢纪矫遗命立三子袁尚为大司马将军领冀州牧，长子袁谭不得立，自请出镇青州。曹操渡河攻谭，谭告急于尚，尚恐谭得兵自立不发救兵，谭怒而攻尚，兄弟相争至此公开化。尚遣吕旷吕翔助谭，二吕暗受曹操封赏倒戈。谭用郭图之计诈降请操攻冀州，操知其诈而将计就计，以女许婚谭为饵。吕旷吕翔请为媒具见投曹之心，旋于攻平原时为赵云张飞所杀。",
+ "place_id": "ji_zhou",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "yuan_shang",
+   "role_desc": "袁绍三子，受遗立继位，与兄构兵"
+  },
+  {
+   "person_id": "yuan_tan",
+   "role_desc": "长子，不得立，自号车骑将军攻尚，后诈降请操"
+  },
+  {
+   "person_id": "yuan_xi",
+   "role_desc": "次子，出镇幽州，置身局外"
+  },
+  {
+   "person_id": "shen_pei",
+   "role_desc": "审配，矫遗命立尚"
+  },
+  {
+   "person_id": "feng_ji",
+   "role_desc": "逢纪，与审配同立尚，后被谭杀"
+  },
+  {
+   "person_id": "guo_jia",
+   "role_desc": "曹操谋士，谏操缓攻以观兄弟内变"
+  },
+  {
+   "person_id": "xin_pi",
+   "role_desc": "袁谭使者，为操陈降计说谭"
+  },
+  {
+   "person_id": "wang_xiu",
+   "role_desc": "袁谭别驾，谏谭不听"
+  },
+  {
+   "person_id": "lv_kuang",
+   "role_desc": "袁尚大将，降曹为媒，阵亡"
+  },
+  {
+   "person_id": "lv_xiang",
+   "role_desc": "吕旷之弟，同降曹，阵亡"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "司空，坐观成败，将计就计"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 202,
+   "title": "袁绍病死",
+   "description": "绍呕血死，审配逢纪矫命立尚，谭不得立。",
+   "importance": 3
+  },
+  {
+   "year": 202,
+   "title": "黎阳相攻",
+   "description": "操攻谭，尚不发救兵，谭怒攻尚，兄弟构兵。",
+   "importance": 3
+  },
+  {
+   "year": 202,
+   "title": "二吕倒戈",
+   "description": "吕旷吕翔受操封赏，暗通款曲。",
+   "importance": 2
+  },
+  {
+   "year": 203,
+   "title": "诈降请操",
+   "description": "谭用郭图计诈降，操以女许婚将计就计；二吕攻平原被赵云张飞所杀。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  31001,
+  31005,
+  32007,
+  32012
+ ]
+}

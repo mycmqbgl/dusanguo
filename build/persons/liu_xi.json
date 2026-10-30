@@ -1,0 +1,31 @@
+{
+ "id": "liu_xi",
+ "name": "刘熙",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 48,
+ "review_status": "auto_mined",
+ "summary": "刘熙，东汉人物。子刘熙，告请父尸归葬。",
+ "bio": "原文第 48 回相关片段：「众皆惊骇。遂罢宴。次日，操酒醒，懊恨不已。馥子刘熙，告请父尸归葬。操泣曰：“吾昨因醉误伤汝父，悔之」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 208,
+   "end_year": 208,
+   "basis": "第48回刘馥为曹操所刺，其子刘熙告请父尸归葬，操以三公厚礼葬之。 第48回刘馥之子刘熙请父尸归葬，事在 208 年。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "（原文无职任记载）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 1
+}

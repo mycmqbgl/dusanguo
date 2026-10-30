@@ -1,0 +1,206 @@
+{
+ "source": "persons_ch004_010_b.json",
+ "total": 25,
+ "passed": 25,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 4,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "xun_yu",
+   "name": "荀彧",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xun_you",
+   "name": "荀攸",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "cheng_yu",
+   "name": "程昱",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "guo_jia",
+   "name": "郭嘉",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "身后事节点 208「赤壁之叹」已标 posthumous，允许晚于卒年"
+    }
+   ]
+  },
+  {
+   "id": "liu_ye",
+   "name": "刘晔",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "man_chong",
+   "name": "满宠",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yu_jin",
+   "name": "于禁",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "dian_wei",
+   "name": "典韦",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "chen_gong",
+   "name": "陈宫",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ying_shao",
+   "name": "应劭",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "sun_ce",
+   "name": "孙策",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "身后事节点 229「追谥长沙桓王」已标 posthumous，允许晚于卒年"
+    }
+   ]
+  },
+  {
+   "id": "sun_quan",
+   "name": "孙权",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "cheng_pu",
+   "name": "程普",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "huang_gai",
+   "name": "黄盖",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "han_dang",
+   "name": "韩当",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zu_mao",
+   "name": "祖茂",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "190 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "wu_furen",
+   "name": "吴夫人",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "sun_jing",
+   "name": "孙静",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "kuai_liang",
+   "name": "蒯良",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "kuai_yue",
+   "name": "蒯越",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "cai_mao",
+   "name": "蔡瑁",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "huang_zu",
+   "name": "黄祖",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "diao_chan",
+   "name": "貂蝉",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "191 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "cai_yong",
+   "name": "蔡邕",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhao_yun",
+   "name": "赵云",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  }
+ ]
+}

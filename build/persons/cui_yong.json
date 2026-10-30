@@ -1,0 +1,29 @@
+{
+ "id": "cui_yong",
+ "name": "崔勇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "崔勇，李傕部将，为杨奉部将所斩。",
+ "bio": "崔勇，李傕部将。第13回李傕与杨奉、董承交战，崔勇出马，为杨奉部将所斩。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 196,
+   "basis": "第13回汜水关将崔勇出马，骂杨奉为反贼，为徐晃所斩。李傕所部，非独立势力。 195 年汜水关将崔勇为徐晃所斩。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "汜将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

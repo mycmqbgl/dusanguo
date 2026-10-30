@@ -1,0 +1,29 @@
+{
+ "id": "qin_mi",
+ "name": "秦宓",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "秦宓，蜀汉文臣，别驾从事。此时秦宓语言清朗，答问如流，满座皆惊。",
+ "bio": "第 65 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 225,
+   "title": "别驾从事",
+   "basis": "第六十五回原文：其余吴懿、费观、彭羕、卓膺、李严、吴兰、雷铜、李恢、张翼、秦宓、谯周、吕义，霍峻、邓芝、杨洪。 职任「别驾从事」据此；★任期按末见回目收敛：全书最后一次提及在第 86 回（225 年），原 214—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

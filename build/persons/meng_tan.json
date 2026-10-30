@@ -1,0 +1,38 @@
+{
+ "id": "meng_tan",
+ "name": "孟坦",
+ "display_aliases": [
+  "洛阳牙将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）于洛阳为关羽所斩。生年不详。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "reviewed",
+ "summary": "孟坦，群雄武将，洛阳牙将。孟坦曰：吾有一计：先将鹿角拦定关口，待他到时，小将引兵和他交锋，佯败诱他来追，公可用暗箭射之。",
+ "bio": "孟坦，洛阳太守韩福牙将。建安五年，关羽至洛阳，韩福与孟坦商议：孟坦出马与关羽交锋，诈败诱其来追，韩福放暗箭射之。孟坦出马战不三合拨马便走，指望诱关羽来追，不想关羽马快，早已赶上，回身一刀砍为两段。韩福放箭中关羽左臂，关羽冲至面前，连头带肩斩韩福。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "洛阳牙将",
+   "lord_id": "cao_cao",
+   "basis": "韩福部将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "诈败诱敌被斩",
+   "description": "与韩福定诈败放箭之计，走不数合被关羽追斩。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

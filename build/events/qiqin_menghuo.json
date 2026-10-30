@@ -1,0 +1,54 @@
+{
+ "id": "qiqin_menghuo",
+ "name": "七擒孟获",
+ "kind": "征伐",
+ "start_year": 225,
+ "end_year": 225,
+ "date_text": "建兴三年（225）",
+ "summary": "诸葛亮采纳马谡攻心为上之策南征，七擒七纵孟获，南中平定，为北伐解除后顾之忧。",
+ "detail": "详见战役「七擒孟获」。马谡送军至：用兵之道，攻心为上，心战为上，兵战为下。亮叹：幼常足知吾肺腑也！平蛮后亮不留兵不运粮，与相安无事，蛮方为亮立生祠四时享祭，皆呼为慈父。南方既定，遂治兵讲武，以图中原，95 回北伐由此张本。",
+ "place_id": "jian_ning",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "南征统帅，攻心为上，七擒七纵"
+  },
+  {
+   "person_id": "meng_huo",
+   "role_desc": "南蛮王，六番不服，第七番倾心归降"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "南征大将，夜袭金环三结寨刺之"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "南征大将，锦带山伏兵初擒孟获，盘蛇谷连输十五阵为饵"
+  },
+  {
+   "person_id": "ma_dai",
+   "role_desc": "盘蛇谷埋地雷火炮，第七番生擒孟获"
+  },
+  {
+   "person_id": "wang_ping",
+   "role_desc": "南征副将，拒蛮兵伏路夹攻"
+  },
+  {
+   "person_id": "ma_su",
+   "role_desc": "奉诏犒军，献攻心为上之策"
+  }
+ ],
+ "passage_ids": [
+  87002,
+  87011,
+  87002,
+  90013,
+  90019,
+  90001,
+  90001
+ ],
+ "battle_ids": [
+  "qiqin_menghuo_battle"
+ ]
+}

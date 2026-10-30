@@ -1,0 +1,86 @@
+{
+ "id": "guan_yu",
+ "name": "关羽",
+ "courtesy": "云长",
+ "display_aliases": [
+  "关公",
+  "美髯公",
+  "汉寿亭侯"
+ ],
+ "birth": 160,
+ "death": 220,
+ "date_precision": "approx",
+ "date_note": "生年史无明文，约生于桓帝延熹年间；卒于建安二十四年末（220 年初）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "verified",
+ "summary": "关羽，群雄武将，别部司马、下邳太守。关羽、张飞、赵云、马超、黄忠为五虎大将，魏延为汉中太守。",
+ "bio": "关羽字云长，本字长生，河东解良人。身长九尺，髯长二尺，面如重枣，丹凤眼卧蚕眉，威风凛凛。因本处势豪倚势凌人被其所杀，逃难江湖五六年，闻涿郡招军破贼特来应募，遂与刘备、张飞桃园结义。第一回即展神威：大兴山之战舞大刀斩黄巾贼将程远志于马下。此后随刘备辗转半生，白马斩颜良封汉寿亭侯，挂印封金千里寻兄，镇荆州、水淹七军威震华夏，终败走麦城遇害。死后屡次显圣，按规则其神异表现只作时间线节点，不改其蜀汉·武将的身份归属。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 200,
+   "lord_id": "liu_bei",
+   "title": "别部司马、下邳太守",
+   "basis": "第一回随刘备讨黄巾；刘备为群雄期间关羽为其部曲将领。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 200,
+   "title": "偏将军、汉寿亭侯",
+   "basis": "第二十五回约三事暂归曹操，白马斩颜良后封汉寿亭侯；汉寿亭侯系汉献帝所封，归魏系技术性处理，confidence 压低。",
+   "confidence": 0.55,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 208,
+   "lord_id": "liu_bei",
+   "title": "偏将军",
+   "basis": "第二十六回挂印封金归刘备；208 年前刘备尚无固定地盘，故记群雄·刘备部。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "襄阳太守、荡寇将军、前将军、假节钺",
+   "basis": "208 年刘备取荆南四郡，关羽镇江陵督荆州事，属蜀汉势力（形成年 208）；建安二十四年拜前将军假节钺。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "桃园结义",
+   "description": "与刘备、张飞结为兄弟，行二。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "大兴山斩程远志",
+   "description": "舞动大刀，将黄巾贼将程远志挥为两段。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "解青州之围",
+   "description": "伏兵山左，三路夹攻破黄巾。",
+   "importance": 2
+  }
+ ],
+ "history_conflict_type": "功劳归属",
+ "history_conflict_note": "演义作关羽于汜水关温酒斩华雄，为其成名之战；史实斩华雄者为孙坚，关羽此时尚在刘备麾下未预此役。另：第二十七回「过五关斩六将」为演义虚构的重大叙事——史书仅载关羽离曹归刘，无过关斩将事，孔秀等六将皆无其人，路线在地理上亦绕远千里。",
+ "mention_count": 1008
+}

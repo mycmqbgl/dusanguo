@@ -1,0 +1,33 @@
+{
+ "id": "wei_zhao",
+ "name": "韦昭",
+ "courtesy": null,
+ "display_aliases": [
+  "韦曜"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "韦昭（正史人物，演义未载）：韦昭官至中书仆射，撰《吴书》。演义未载。",
+ "bio": "《三国志·吴书·韦曜传》：韦昭官至中书仆射，撰《吴书》。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 273,
+   "title": "中书仆射",
+   "basis": "韦昭（韦曜）字弘嗣，吴末史学家，官至中书仆射、领国史，273 年为孙皓所杀。演义正文未出场（0 次）。",
+   "confidence": 0.4,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

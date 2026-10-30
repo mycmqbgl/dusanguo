@@ -1,0 +1,29 @@
+{
+ "id": "shi_huan",
+ "name": "史涣",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 19,
+ "review_status": "auto_mined",
+ "summary": "史涣，曹魏武将，部将。操闻报，即遣史涣追斩眭固。",
+ "bio": "官职「部将」据原文上下文提取。原文第 19 回相关片段：「张杨心腹将眭固所杀，反投犬城去了。”操闻报，即遣史涣追斩眭固。因聚众将曰：“张杨虽幸自灭，然北有袁绍」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 204,
+   "title": "部将",
+   "basis": "第十九回原文：操闻报，即遣史涣追斩眭固。 职任「部将」据此；★任期按末见回目收敛：全书最后一次提及在第 32 回（204 年），原 198—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

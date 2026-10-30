@@ -1,0 +1,29 @@
+{
+ "id": "zhang_ming",
+ "name": "张明",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "auto_mined",
+ "summary": "张明，曹魏武将。第 110 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 110 回相关片段：「无故废主，邻邦理宜问罪，何况仇敌之国乎？”经回顾张明、花永、刘达、朱芳四将曰：“蜀兵背水为阵。败则皆」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 255,
+   "end_year": 255,
+   "basis": "第110回魏将张明与花永、刘达、朱芳四将随王经御姜维。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

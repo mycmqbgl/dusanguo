@@ -1,0 +1,29 @@
+{
+ "id": "li_fu_5",
+ "name": "李伏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 79,
+ "review_status": "auto_mined",
+ "summary": "李伏，曹魏武将，中郎将。李伏奏曰：自魏王即位以来，麒麟降生，凤凰来仪，黄龙出现，嘉禾蔚生，甘露下降。",
+ "bio": "官职「中郎将」据原文上下文提取。原文第 79 回相关片段：「凰来仪，临淄城麒麟出现，黄龙现于邺郡。于是中郎将李伏、太史丞许芝商议：种种瑞徵，乃魏当代汉之兆，可安」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 220,
+   "end_year": 229,
+   "title": "中郎将",
+   "basis": "第79回中郎将李伏与太史丞许芝议，称种种瑞徵乃魏当代汉之兆。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

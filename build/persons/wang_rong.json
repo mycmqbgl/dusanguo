@@ -1,0 +1,29 @@
+{
+ "id": "wang_rong",
+ "name": "王戎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "王戎，西晋武将，晋奋威将军。琊王司马伷并王戎大兵皆至，见王濬成了大功，心中忻喜。",
+ "bio": "第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "晋奋威将军",
+   "basis": "第一百二十回原文：琅琊王司马伷并王戎大兵皆至，见王濬成了大功，心中忻喜。 职任「晋奋威将军」据此；★任期按末见回目收敛：全书最后一次提及在第 120 回（280 年），原 280—316 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

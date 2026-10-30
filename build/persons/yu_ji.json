@@ -1,0 +1,53 @@
+{
+ "id": "yu_ji",
+ "name": "于吉",
+ "display_aliases": [
+  "琅琊道士",
+  "太平道人"
+ ],
+ "birth": null,
+ "death": 199,
+ "date_precision": "exact",
+ "date_note": "生年不详；卒年 199（第 29 回为孙策所杀）。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "reviewed",
+ "summary": "于吉，琅琊道人，太平清领道传人，为孙策所杀。",
+ "bio": "于吉，琅琊人，太平清领道之传人，往来吴会，烧香治病，吴人会聚者无数。孙策忌之，谓其迷惑众心，命斩之，且取其尸陈于市，人犹拜祝；后孙策每见其形影，因而病笃，遂卒。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 190,
+   "end_year": 199,
+   "title": "太平道人",
+   "basis": "N3 定案：于吉入神怪阵营。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "符水济人",
+   "description": "往来吴会，以符水为人治病，吴人多事之。",
+   "importance": 1
+  },
+  {
+   "year": 199,
+   "title": "城楼受斩",
+   "description": "众将下楼拜吉，孙策怒其妖惑，收斩于市，悬首示众。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "死后显灵",
+   "description": "策每见吉影，疮痛大作，镜中现吉，终至不起。",
+   "importance": 2
+  }
+ ],
+ "history_conflict_type": "生死结局",
+ "history_conflict_note": "演义作孙策于建安四年（199）怒斩于市；史传为汉顺帝时（125–144）已在琅琊宫学道之方士，卒年不详。",
+ "history_life_dates": "演义卒于建安四年（199）；史书（《三国志·孙策传》注引《江表传》）卒年不详，顺帝时已在琅琊学道。",
+ "mention_count": 29
+}

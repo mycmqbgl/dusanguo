@@ -1,0 +1,75 @@
+{
+ "id": "xiahou_dun",
+ "name": "夏侯惇",
+ "courtesy": "元让",
+ "display_aliases": [
+  "盲夏侯",
+  "伏波将军",
+  "大将军"
+ ],
+ "birth": null,
+ "death": 220,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安二十五年（220）。沛国谯人，夏侯婴之后。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "verified",
+ "summary": "夏侯惇，群雄武将，裨将、司马。夏侯惇正走之间，见于禁从后军奔来，便问何故。",
+ "bio": "夏侯惇字元让，沛国谯人，夏侯婴之后。年十四从师学武，有人辱骂其师，惇杀之，逃于外方。曹操起兵，惇与族弟夏侯渊各引壮士千人来会。曹操讨董卓于荥阳大败，为徐荣伏兵所困，惇、渊引数十骑飞至，惇挺枪刺徐荣于马下，杀散余兵。征吕布时，惇为流矢所中，伤左目，演义写其「拔矢啖睛」曰「父精母血，不可弃也」。惇性清俭，有余财辄以分施，不足资之于官，不治产业。曹操为魏王，诸将皆受魏官号，惇独不受，曰「吾受汉家厚恩，岂可以魏官相屈」，曹操乃拜其为前将军。曹丕即位，拜大将军，数月而卒。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 196,
+   "title": "裨将、司马",
+   "lord_id": "cao_cao",
+   "basis": "189 年曹操起兵时与夏侯渊各引壮士千人来会；此时曹操未建号，属群雄之一。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 220,
+   "title": "建武将军、伏波将军、前将军、大将军、高安乡侯",
+   "basis": "196 年曹魏势力形成后为曹操主将；220 年曹丕即位拜大将军，数月而卒。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "十四岁杀人",
+   "description": "有人辱骂其师，惇杀之，逃于外方。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "来投曹操",
+   "description": "与族弟夏侯渊各引壮士千人来会曹操起兵。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "荥阳救操",
+   "description": "曹操为徐荣伏兵所困，惇、渊引数十骑飞至，惇刺徐荣于马下。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "拔矢啖睛",
+   "description": "征吕布为流矢所中伤左目，曰「父精母血，不可弃也」，遂啖之。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "拜大将军",
+   "description": "曹丕即位拜大将军，数月而卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 114
+}

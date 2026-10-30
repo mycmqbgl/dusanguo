@@ -1,0 +1,29 @@
+{
+ "id": "xin_chang",
+ "name": "辛敞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "辛敞，曹魏文臣，参军。马懿饶了辛敞等，仍出榜晓谕：但有曹爽门下一应人等，尽皆免死；有官者照旧复职。",
+ "bio": "。第 107 回：司马懿饶了辛敞等，仍出榜晓谕：但有曹爽门下一应人等，尽皆免死。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "参军",
+   "basis": "第107回曹爽手下参军辛敞与司马鲁芝商议，引本部兵出城去见天子。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

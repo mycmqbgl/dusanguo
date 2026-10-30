@@ -1,0 +1,29 @@
+{
+ "id": "ceng_xuan",
+ "name": "曾宣",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "曾宣，曹魏武将，守将。将曾宣献了北门，放魏兵入城。",
+ "bio": "原文第 112 回相关片段：「矣。”昭大喜，遂激三军，四面云集，一齐攻打。守将曾宣献了北门，放魏兵入城。诞知魏兵已入；慌引麾下数百」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "守将",
+   "basis": "第112回诸葛诞据寿春，守将曾宣献北门，放魏兵入城。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

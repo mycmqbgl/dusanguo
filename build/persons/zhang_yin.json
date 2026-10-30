@@ -1,0 +1,29 @@
+{
+ "id": "zhang_yin",
+ "name": "张音",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "张音，东汉文臣，高庙使、御史大夫。丕大喜，即令张音赍回玺绶，仍作表谦辞。",
+ "bio": "官职「御史大夫」据原文上下文提取。原文第 80 回相关片段：「魏王自当允从。”帝不得已，又令桓阶草诏，遣高庙使张音，持节奉玺至魏王宫。曹丕开读诏曰：」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 220,
+   "title": "高庙使、御史大夫",
+   "basis": "220 年献帝遣高庙使张音持节奉玺至魏王宫行禅让之礼。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

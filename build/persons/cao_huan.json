@@ -1,0 +1,55 @@
+{
+ "id": "cao_huan",
+ "name": "曹奂",
+ "courtesy": null,
+ "display_aliases": [
+  "魏元帝",
+  "常道乡公",
+  "陈留王"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 114,
+ "review_status": "auto_mined",
+ "summary": "曹奂，原名曹璜，燕王曹宇之子，魏元帝。咸熙二年（265）禅位司马炎，降封陈留王。",
+ "bio": "第 114 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "其他",
+   "start_year": 258,
+   "end_year": 260,
+   "title": "曹操之孙，常道乡公（燕王曹宇之子）",
+   "basis": "第114回：司马昭立曹奂为帝，时封常道乡公。奂为燕王曹宇之子，魏室之亲。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "皇帝",
+   "start_year": 260,
+   "end_year": 265,
+   "title": "魏元帝",
+   "basis": "第114回：立高贵乡公曹髦……髦死，立常道乡公曹奂为帝。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "jin",
+   "role": "客君",
+   "start_year": 265,
+   "end_year": 302,
+   "title": "陈留王（魏元帝禅位后受晋封）",
+   "basis": "第119回：晋帝司马炎封魏主曹奂为陈留王。曹奂本是魏帝，禅位后受晋封，为晋之宾而非司马氏之亲，故归客君。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "homonym_note": "魏元帝曹奂受封「陈留王」，与汉献帝刘协早年的爵号「陈留王」同号不同人。",
+ "span_post_state": true,
+ "mention_count": 6
+}

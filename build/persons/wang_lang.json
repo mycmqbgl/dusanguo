@@ -1,0 +1,85 @@
+{
+ "id": "wang_lang",
+ "name": "王朗",
+ "courtesy": "景兴",
+ "display_aliases": [
+  "会稽太守",
+  "司空",
+  "兰陵侯"
+ ],
+ "birth": 152,
+ "death": 228,
+ "date_precision": "approx",
+ "date_note": "史载太和二年（228）十一月卒；生年据《魏书》年七十七反推。演义中于诸葛亮出祁山时被骂死，同在 228。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "王朗，东汉文臣，菑丘长、治中从事。王朗奏曰：自古以来，有兴必有废，有盛必有衰，岂有不亡之国、不败之家乎。",
+ "bio": "王朗字景兴，东海郯人，以通经拜郎中，菑丘长。陶谦察其茂才，为治中，与别驾赵昱建议遣使奉迎天子，献帝拜朗会稽太守。孙策渡江攻会稽，朗率兵固守力战，败绩，泛海而逃，为策追降——策以儒雅不加害。后曹操表征之，朗自曲阿展转江海，历数岁乃至，拜谏议大夫、参司空军事。魏国建，以军祭酒领魏郡太守；文帝时累迁至司空，封兰陵侯。著《易》《春秋》《孝经》《周官》传，各有传。太和二年卒，谥成侯。演义第九十三回北伐之役阵前被诸葛亮「皓首匹夫，苍髯老贼」骂死，坠马而亡，为纯虚构。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 175,
+   "end_year": 192,
+   "title": "菑丘长、治中从事",
+   "basis": "仕州郡。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 192,
+   "end_year": 196,
+   "title": "会稽太守",
+   "basis": "献帝拜会稽太守，据郡自守。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 228,
+   "title": "谏议大夫、司空、兰陵侯",
+   "basis": "196 年后历转归曹，累至司空。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "拜会稽太守",
+   "description": "与陶谦遣使奉迎天子，献帝拜朗为会稽太守。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "会稽之战",
+   "description": "孙策渡江攻会稽，朗固守力战，败降，策以儒雅不害。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "北归曹操",
+   "description": "自曲阿辗转江海至许，拜谏议大夫。",
+   "importance": 2
+  },
+  {
+   "year": 220,
+   "title": "曹魏开国",
+   "description": "文帝时累迁司空，封兰陵侯，以经学显。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "卒（演义：骂死阵前）",
+   "description": "史实太和二年病卒；演义虚构被诸葛亮骂死。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载太和二年（228）十一月卒；生年据《魏书》年七十七反推｜演：于诸葛亮出祁山时被骂死，同在 228",
+ "mention_count": 32
+}

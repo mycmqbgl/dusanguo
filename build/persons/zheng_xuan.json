@@ -1,0 +1,56 @@
+{
+ "id": "zheng_xuan",
+ "name": "郑玄",
+ "courtesy": "康成",
+ "display_aliases": [
+  "经学大师"
+ ],
+ "birth": 127,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "顺帝永建二年（127）生，建安五年（200）卒，史有明载。演义第 22 回为刘备作书通袁绍。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "郑玄，东汉人物，（未仕）。叹曰：得我学之秘者，惟郑玄一人耳。",
+ "bio": "郑玄，字康成，北海高密人。师事马融，学成辞归，融叹曰「郑生今去，吾道东矣」。党锢之祸被禁，遂隐修经业，遍注《周易》《尚书》《毛诗》《仪礼》《礼记》《论语》诸经，兼采今古文，号「郑学」，天下学子宗之。孔融为北海相，深敬礼之，尝叹「得我学之秘者，惟郑玄一人耳」，其家中侍婢俱通《毛诗》。建安四年，刘备欲联袁绍拒曹操，亲至郑玄家中求其作书，玄慨然依允。建安五年，袁绍逼其随军官渡，行至元城病卒，门人自远方来送葬者千余人。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 200,
+   "title": "当世大儒（刘备师事之）",
+   "basis": "无政治归属，以经学为业。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—200 年内被称引之时。）",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 166,
+   "title": "师事马融",
+   "description": "入关从马融学古文经，三年不得见师面。",
+   "importance": 1
+  },
+  {
+   "year": 169,
+   "title": "辞归注经",
+   "description": "学成辞归，马融叹「吾道东矣」，党禁中遍注群经。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "为刘备作书",
+   "description": "刘备联袁抗曹，亲至其家求作书，玄慨然允之。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "卒于元城",
+   "description": "被袁绍逼随军，行至元城病卒，门人千余送葬。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 6
+}

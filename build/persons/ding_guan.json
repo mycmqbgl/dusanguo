@@ -1,0 +1,38 @@
+{
+ "id": "ding_guan",
+ "name": "丁管",
+ "courtesy": null,
+ "display_aliases": [
+  "尚书"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平元年（190）。",
+ "gender": "male",
+ "first_chapter": 4,
+ "review_status": "reviewed",
+ "summary": "丁管，东汉文臣，尚书。尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：今上乃聪明之主，汝何取出此乱言。",
+ "bio": "丁管，为尚书。初平元年九月，董卓大会文武于嘉德殿，命李儒读策废少帝为弘农王。读策毕，卓叱左右扶帝下殿，解其玺绶，帝后皆号哭，群臣无不悲惨。阶下一大臣愤怒高叫曰「贼臣董卓，敢为欺天之谋，吾当以颈血溅之」，挥手中象简直击董卓。卓大怒，喝武士拿下，乃尚书丁管也。卓命牵出斩之，管骂不绝口，至死神色不变。演义有诗叹曰「满朝臣宰皆囊括，惟有丁公是丈夫」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "尚书",
+   "basis": "尚书掌文书政令，以谋略内政为主归文臣；190 年为董卓所斩。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "象简击卓",
+   "description": "董卓废少帝，丁管挥象简直击董卓，被牵出斩之，骂不绝口。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 1
+}

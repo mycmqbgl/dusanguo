@@ -1,0 +1,39 @@
+{
+ "source": "persons_ch071_080.json",
+ "total": 4,
+ "passed": 4,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 0,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "sim_yi",
+   "name": "司马懿",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "guan_ping",
+   "name": "关平",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "liu_feng",
+   "name": "刘封",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "hua_tuo",
+   "name": "华佗",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  }
+ ]
+}

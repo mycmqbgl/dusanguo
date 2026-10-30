@@ -1,0 +1,29 @@
+{
+ "id": "wei_miao",
+ "name": "魏邈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "魏邈，孙吴武将，吴将。奉、魏邈、施朔等，擒孙綝兄弟至，休命尽斩于市。",
+ "bio": "第 113 回：丁奉、魏邈、施朔等，擒孙綝兄弟至，休命尽斩于市。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 255,
+   "end_year": 255,
+   "title": "吴将",
+   "basis": "第一百十三回原文：于是，将军魏邈、武卫士施朔二人密奏孙休曰：“綝调兵在外，又搬尽武库内军器，早晚必为变矣。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 113 回（255 年），原 255—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,83 @@
+{
+ "id": "jizhou_pingding_guojia",
+ "name": "冀州平定·郭嘉遗计",
+ "kind": "征伐",
+ "start_year": 203,
+ "end_year": 205,
+ "date_text": "建安八年至十年（203–205）",
+ "summary": "操决漳河灌邺城擒审配；谭背约被斩于南皮；尚熙投辽东，郭嘉病亡遗计，公孙康斩二袁首献曹，河北平定。",
+ "detail": "曹操会谭攻尚，决漳河之水灌邺城，城中粮尽，审配被侄审荣开门献城，擒而骂曹死。谭趁操攻冀州掠取甘陵等县并攻尚于中山，操责其负约进兵讨之，谭溃逃南皮，为曹洪所斩，王修乞收其尸。尚熙穷蹙投辽东公孙康，时郭嘉已病死于易州，操哀恸。嘉临终遗书：勿加兵辽东，公孙康与二袁必自相图。操按兵不动，康果然伏兵斩尚熙，首级献许。操引兵西击乌桓始定河北，于铜雀台大会诸将。",
+ "place_id": "ye_cheng",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "司空，决漳灭邺，纳郭嘉遗计定辽东"
+  },
+  {
+   "person_id": "yuan_tan",
+   "role_desc": "背约掠地，败死南皮"
+  },
+  {
+   "person_id": "yuan_shang",
+   "role_desc": "邺城陷后与熙奔辽东，为公孙康所斩"
+  },
+  {
+   "person_id": "yuan_xi",
+   "role_desc": "与尚同奔辽东，同被斩"
+  },
+  {
+   "person_id": "shen_pei",
+   "role_desc": "守邺被擒，骂曹而死"
+  },
+  {
+   "person_id": "xin_pi",
+   "role_desc": "降操，其侄审荣开门献城之见证者（辛毗家在城中）"
+  },
+  {
+   "person_id": "guo_jia",
+   "role_desc": "从征乌桓病亡，遗计使辽东自相图"
+  },
+  {
+   "person_id": "gongsun_kang",
+   "role_desc": "辽东太守，伏兵斩二袁献首"
+  },
+  {
+   "person_id": "wang_xiu",
+   "role_desc": "乞收袁谭尸，操义之"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 204,
+   "title": "决漳灌邺",
+   "description": "操决漳河灌邺城，审荣献门，审配被擒死。",
+   "importance": 3
+  },
+  {
+   "year": 205,
+   "title": "谭死南皮",
+   "description": "谭背约，操进兵，谭为曹洪所斩于南皮。",
+   "importance": 3
+  },
+  {
+   "year": 205,
+   "title": "郭嘉病亡",
+   "description": "从征途中病死于易州，临终遗书定辽东之策。",
+   "importance": 3
+  },
+  {
+   "year": 205,
+   "title": "二袁授首",
+   "description": "公孙康伏兵斩尚熙献首，河北平定。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  32021,
+  32002,
+  33022,
+  33015
+ ]
+}

@@ -1,0 +1,33 @@
+{
+ "id": "ding_feng_zhan_sunlin",
+ "name": "丁奉定计斩孙綝",
+ "kind": "政变",
+ "start_year": 258,
+ "end_year": 258,
+ "date_text": "永安元年（258）",
+ "summary": "孙綝专权废亮立休；孙休与丁奉、张布设计，腊日以祭祀为名缚斩孙綝。",
+ "detail": "孙綝骄横专政，废孙亮为会稽王，迎立孙休。休阳示恩宠而阴与丁奉、张布谋。丁奉曰：欲除綝，宜以腊日会为名。至腊日，綝托疾不赴，被强请入宫，武士齐出缚之，休历数其罪，斩之，夷三族。吴政始归孙休。",
+ "place_id": "jian_ye",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sun_xiu",
+   "role_desc": "吴景帝，阳示恩宠阴与定计，历数綝罪而斩之"
+  },
+  {
+   "person_id": "ding_feng",
+   "role_desc": "定腊日之计，伏兵缚斩孙綝"
+  },
+  {
+   "person_id": "sun_chen",
+   "role_desc": "专权废立，腊日被缚斩，夷三族"
+  }
+ ],
+ "passage_ids": [
+  113007,
+  113007,
+  113002,
+  113007
+ ],
+ "battle_ids": []
+}

@@ -1,0 +1,117 @@
+{
+ "id": "shi_chang_shi_zhi_luan",
+ "name": "十常侍之乱",
+ "kind": "宫廷政变",
+ "start_year": 189,
+ "end_year": 189,
+ "date_text": "中平六年（189）四月—八月",
+ "summary": "灵帝崩，蹇硕谋立刘协不成；大将军何进谋诛宦官反被张让所杀，袁绍尽诛宦官，张让劫少帝出奔北邙山——外兵董卓趁虚入京。",
+ "detail": "十常侍（张让、赵忠、封谞、段珪等）把持朝政，卖官鬻爵。灵帝崩后蹇硕欲先诛何进再立皇子协，事泄被袁绍收斩。何进既立外甥刘辩，欲尽诛宦官，太后不许；袁绍献策召外兵入京胁迫，曹操谏「但付一狱吏足矣」，进不听，密诏董卓等进京。张让等先发制人，诱何进入宫杀之。袁绍、曹操引兵入宫，见宦者皆杀，张让、段珪劫少帝与陈留王夜奔北邙山，闵贡追及，张让投水自尽。帝还宫途中，董卓率西凉大军迎驾——外戚与宦官同归于尽，朝权落入董卓之手。",
+ "place_id": "luo_yang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "he_jin",
+   "role_desc": "大将军，谋诛宦官反被杀"
+  },
+  {
+   "person_id": "zhang_rang",
+   "role_desc": "十常侍之首，诱杀何进后投水自尽"
+  },
+  {
+   "person_id": "jian_shuo",
+   "role_desc": "上军校尉，欲先诛何进再立刘协，事泄被杀"
+  },
+  {
+   "person_id": "he_taihou",
+   "role_desc": "何太后，袒护宦官，拒诛常侍"
+  },
+  {
+   "person_id": "dong_taihou",
+   "role_desc": "董太后，与何后争权，被鸩杀于河间驿庭"
+  },
+  {
+   "person_id": "yuan_shao",
+   "role_desc": "司隶校尉，献召外兵之策，入宫尽诛宦官"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "典军校尉，谏「但付一狱吏足矣」，不听"
+  },
+  {
+   "person_id": "liu_bian",
+   "role_desc": "少帝，被劫出奔北邙山"
+  },
+  {
+   "person_id": "liu_xie",
+   "role_desc": "陈留王，随少帝出奔，应对从容"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "灵帝崩，蹇硕谋废立",
+   "description": "帝召何进入宫托后事而崩。蹇硕与十常侍密议先诛何进再立皇子协，潘隐告变，何进称病不入。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "少帝即位，蹇硕被收",
+   "description": "刘辩即位，何太后临朝。袁绍入宫收蹇硕，禁军尽投顺。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "鸩杀董后",
+   "description": "何进使人鸩杀董太后于河间驿庭。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "召外兵胁迫",
+   "description": "袁绍献「召四方英雄之士，勒兵来京」之策，曹操谏而不纳，何进密诏董卓等进京。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "何进被杀",
+   "description": "张让、段珪诱何进入嘉德殿，左右围而杀之。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "尽诛宦官",
+   "description": "袁绍、曹操引兵入宫，见宦者皆杀，无须者误杀无数。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "帝奔北邙山",
+   "description": "张让、段珪劫少帝与陈留王夜奔北邙山，闵贡追及，张让投水，段珪被杀。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "董卓迎驾",
+   "description": "董卓以「护驾」之名迎帝还宫，自此兵权在手。",
+   "importance": 3
+  }
+ ],
+ "passage_ids": [
+  2017,
+  2019,
+  2020,
+  2013,
+  2014,
+  2024,
+  3007,
+  3008,
+  3010,
+  3011,
+  3012,
+  3013
+ ],
+ "battle_ids": [
+  "bei_mang_shan_bian"
+ ]
+}

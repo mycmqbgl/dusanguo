@@ -1,0 +1,29 @@
+{
+ "id": "su_you",
+ "name": "苏由",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "苏由，群雄武将，大将。第 32 回一笔带过，事迹仅存其名。",
+ "bio": "第 32 回：乃留审配并大将苏由固守冀州，自领大军来黎阳救谭。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 229,
+   "basis": "第32回袁尚留审配并大将苏由固守冀州。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "大将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

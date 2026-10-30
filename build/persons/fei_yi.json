@@ -1,0 +1,29 @@
+{
+ "id": "fei_yi",
+ "name": "费祎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "费祎，蜀汉文臣，蜀将。费祎拜谢曰：诚如此，则中原不日自破矣。",
+ "bio": "第 65 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 239,
+   "title": "蜀将",
+   "basis": "第六十五回原文：霍峻、邓芝、杨洪、周群、费祎、费诗、孟达，文武投降官员，共六十余人，并皆擢用。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 214—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 35
+}

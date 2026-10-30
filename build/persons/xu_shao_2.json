@@ -1,0 +1,29 @@
+{
+ "id": "xu_shao_2",
+ "name": "许韶",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "许韶，异族武将，许昌之子。第 2 回一笔带过，事迹仅存其名。",
+ "bio": "第 2 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "许昌之子",
+   "basis": "第二回原文：坚与郡司马招募勇士千余人，会合州郡破之，斩许昌并其子许韶。 职任「许昌之子」据此；★任期按末见回目收敛：全书最后一次提及在第 2 回（184 年），原 195—280 系取势力年份上限，非本人退场之年；★阵营改判：第 2 回原文「斩许昌并其子许韶」，会稽妖贼许昌之子，非吴。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

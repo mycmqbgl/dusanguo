@@ -1,0 +1,29 @@
+{
+ "id": "bian_rang",
+ "name": "边让",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "边让，字文礼，陈留人，东汉名士，为曹操所杀。",
+ "bio": "边让，字文礼，陈留浚仪人，汉末名士，以文才著称。何进召为令史，后为九江太守。恃才傲物，轻慢曹操，操为兖州牧时杀之，由是兖州士人离心。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 195,
+   "title": "九江太守",
+   "basis": "第10回九江太守边让与陶谦交厚，闻徐州有难，自引兵五千来救，为曹操所杀。 193 年曹操征徐州，边让引兵来救陶谦，为操所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,29 @@
+{
+ "id": "lv_qian",
+ "name": "吕虔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "吕虔，曹魏武将，武城人。吕虔、满宠亦曰：丞相既引兵至此，安可复舍表而助谭。",
+ "bio": "第 11 回：操使吕虔、曹洪战之，不利。第 12 回：却被吕虔飞马赶来，一箭射于马下，军皆溃散。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 225,
+   "title": "武城人",
+   "basis": "第十回原文：满宠、吕虔共荐一人，乃陈留平邱人，姓毛，名玠，字孝先。 职任「武城人」据此；★任期按末见回目收敛：全书最后一次提及在第 86 回（225 年），原 196—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 16
+}

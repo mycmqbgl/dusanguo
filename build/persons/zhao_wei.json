@@ -1,0 +1,29 @@
+{
+ "id": "zhao_wei",
+ "name": "赵韪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 59,
+ "review_status": "auto_mined",
+ "summary": "赵韪，蜀汉武将，益州吏。第 59 回一笔带过，事迹仅存其名。",
+ "bio": "第 59 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 212,
+   "end_year": 212,
+   "title": "益州吏",
+   "basis": "第五十九回原文：后焉官至益州牧，兴平元年患病疽而死，州大吏赵韪等，共保璋为益州牧。 职任「益州吏」据此；★任期按末见回目收敛：全书最后一次提及在第 59 回（212 年），原 212—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

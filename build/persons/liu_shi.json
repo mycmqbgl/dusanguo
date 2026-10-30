@@ -1,0 +1,29 @@
+{
+ "id": "liu_shi",
+ "name": "刘氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 9,
+ "review_status": "auto_mined",
+ "summary": "刘氏，曹魏女眷，曹操妾。刘氏生子曹昂，因征张绣时死于宛城。",
+ "bio": "第 9 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 196,
+   "end_year": 266,
+   "title": "曹操妾",
+   "basis": "第九回原文：肃曰：\"亦只是言刘氏灭、董氏兴之意。 职任「曹操妾」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

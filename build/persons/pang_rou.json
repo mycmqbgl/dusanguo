@@ -1,0 +1,29 @@
+{
+ "id": "pang_rou",
+ "name": "庞柔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 74,
+ "review_status": "auto_mined",
+ "summary": "庞柔，蜀汉文臣，蜀官。第 74 回一笔带过，事迹仅存其名。",
+ "bio": "第 74 回：况其亲兄庞柔亦在西川为官，今使他为先锋，是泼油救火也。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 229,
+   "basis": "第74回庞德之亲兄庞柔在西川为官，故曹操疑庞德为先锋不妥。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "蜀官"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

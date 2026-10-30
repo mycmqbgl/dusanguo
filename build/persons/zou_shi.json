@@ -1,0 +1,29 @@
+{
+ "id": "zou_shi",
+ "name": "邹氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 16,
+ "review_status": "auto_mined",
+ "summary": "邹氏，群雄人物，张济妻。邹氏拜曰：实感再生之恩。",
+ "bio": "第 16 回：邹氏曰：久闻丞相威名，今夕幸得瞻拜。第 16 回：邹氏拜曰：实感再生之恩。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 196,
+   "end_year": 197,
+   "title": "张济之妻",
+   "basis": "第十六回原文：妾乃张济之妻邹氏也。曹操纳之，张绣怒而反，建安二年（197）宛城之变。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

@@ -1,0 +1,29 @@
+{
+ "id": "hu_chi_er",
+ "name": "胡赤儿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "auto_mined",
+ "summary": "胡赤儿，群雄文臣，牛辅亲随。问起情由，从人出首：\"胡赤儿谋杀牛辅，夺其金宝。",
+ "bio": "第 9 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 192,
+   "end_year": 192,
+   "title": "牛辅亲随",
+   "basis": "第九回原文：是夜牛辅唤心腹人胡赤儿商议曰：\"吕布骁勇，万不能敌。 职任「牛辅亲随」据此；★任期按末见回目收敛：全书最后一次提及在第 9 回（192 年），原 192—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

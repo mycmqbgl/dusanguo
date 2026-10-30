@@ -1,0 +1,29 @@
+{
+ "id": "guan_yong",
+ "name": "官雝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "官雝，蜀汉武将，典军中郎将、后护军。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回：「后护军——典军中郎将官雝」。原文第 91 回相关片段：「丁咸；右护军——偏将军刘敏；后护军——典军中郎将官雝；行参军——昭武中郎将胡济；行参军——谏议将军阎」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 234,
+   "title": "典军中郎将、后护军",
+   "basis": "第 91 回：「后护军——典军中郎将官雝」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

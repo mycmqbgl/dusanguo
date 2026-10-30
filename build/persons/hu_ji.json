@@ -1,0 +1,29 @@
+{
+ "id": "hu_ji",
+ "name": "胡济",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "胡济，蜀汉武将，昭武中郎将、行参军。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 229,
+   "title": "昭武中郎将、行参军",
+   "basis": "第91回孔明出师表列官：行参军——昭武中郎将胡济。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

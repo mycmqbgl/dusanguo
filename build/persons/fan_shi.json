@@ -1,0 +1,29 @@
+{
+ "id": "fan_shi",
+ "name": "樊氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 52,
+ "review_status": "auto_mined",
+ "summary": "樊氏，群雄人物，赵范之嫂。范曰：家嫂樊氏也。",
+ "bio": "第 52 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 209,
+   "end_year": 209,
+   "title": "赵范之嫂",
+   "basis": "第五十二回原文：赵范欲以其嫂樊氏嫁赵云，云不从。樊氏为桂阳守将赵范之嫂，赵范 209 年降刘备。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

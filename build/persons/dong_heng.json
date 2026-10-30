@@ -1,0 +1,29 @@
+{
+ "id": "dong_heng",
+ "name": "董衡",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 74,
+ "review_status": "auto_mined",
+ "summary": "董衡，曹魏武将，领军将校。员领军将校：一名董衡，一名董超；当日引各头目参拜于禁。",
+ "bio": "第 74 回：董衡、董超见势已危，乃告庞德曰：军士折伤大半，四下无路，不如投降。第 74 回：遂亲斩董衡、董超于前，厉声曰：再说降者，以此二人为例。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 219,
+   "title": "领军将校",
+   "basis": "第七十四回原文：董衡曰：“今将军提七枝重兵，去解樊城之厄，期在必胜，乃用庞德为先锋，岂不误事。 职任「领军将校」据此；★任期按末见回目收敛：全书最后一次提及在第 74 回（219 年），原 219—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

@@ -1,0 +1,29 @@
+{
+ "id": "liu_mao",
+ "name": "刘瑁",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详，卒于 220 年（第 77 回）以前（原文「瑁早夭」）。",
+ "gender": "male",
+ "first_chapter": 77,
+ "review_status": "auto_mined",
+ "summary": "刘瑁，益州牧刘焉之子，早夭，吴氏曾许嫁之。",
+ "bio": "第 77 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "亲族",
+   "start_year": 196,
+   "end_year": 212,
+   "title": "刘焉之子（益州牧刘焉之子，早夭）",
+   "basis": "第77回：先曾许刘焉之子刘瑁，瑁早夭。刘焉为汉室宗亲、益州牧，其子归于汉室宗亲之列，未及受职而早亡。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

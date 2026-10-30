@@ -1,0 +1,46 @@
+{
+ "id": "sima_hui",
+ "name": "司马徽",
+ "courtesy": "德操",
+ "display_aliases": [
+  "水镜先生",
+  "好好先生"
+ ],
+ "birth": null,
+ "death": 208,
+ "date_precision": "exact",
+ "date_note": "生年不详；史载建安十三年（208）卒。演义未载其卒。",
+ "gender": "male",
+ "first_chapter": 35,
+ "review_status": "reviewed",
+ "summary": "司马徽，群雄文臣，（未仕）。水镜请入草堂，分宾主坐定。",
+ "bio": "颍川人，避乱寓居襄阳，于南漳水镜庄隐居。刘备跃马檀溪后误入其庄，闻琴音、得点拨「卧龙凤雏得一可安天下」「好谋无断不足成大事，刘表善善不能用，恶恶不能去」。徐庶被迫归曹前亦先荐之于备。后向刘备再荐名士，促成三顾草庐。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 220,
+   "title": "（未仕）",
+   "basis": "避乱荆州，隐居不仕。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "水镜荐贤",
+   "description": "刘备误入水镜庄，得「伏龙凤雏」之语。",
+   "importance": 3
+  },
+  {
+   "year": 207,
+   "title": "再荐名士",
+   "description": "徐庶归曹后，向刘备力荐诸葛亮。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载卒于建安十三年（208）｜演：生卒年演义未载",
+ "mention_count": 39
+}

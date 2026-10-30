@@ -1,0 +1,68 @@
+{
+ "id": "chang_xi",
+ "name": "昌豨",
+ "courtesy": null,
+ "display_aliases": [
+  "东海昌霸"
+ ],
+ "birth": null,
+ "death": 206,
+ "date_precision": "approx",
+ "date_note": "史载卒于建安十一年（206），于禁讨斩之；演义活跃至第十九回。",
+ "gender": "male",
+ "first_chapter": 19,
+ "review_status": "reviewed",
+ "summary": "昌豨，群雄武将，泰山群盗。第 19 回一笔带过，事迹仅存其名。",
+ "bio": "昌豨（一名昌霸），东海人，泰山群盗之一。先附陶谦，后随吕布，布灭降曹。其人反复：官渡时从刘备反于东海，官渡后叛降复叛，建安十一年再叛，曹操遣于禁征讨，豨降，于禁数斩之以正军法。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 198,
+   "title": "泰山群盗",
+   "lord_id": "lv_bu",
+   "basis": "东海豪强，先后依陶谦、吕布。",
+   "confidence": 0.7,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 206,
+   "title": "东海太守",
+   "basis": "降曹后数叛，206 年为于禁斩。",
+   "confidence": 0.65,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "东海豪强",
+   "description": "泰山群盗之一，附陶谦。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "降曹",
+   "description": "吕布灭，降曹操。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "从刘备反",
+   "description": "官渡之际从刘备反于东海。",
+   "importance": 2
+  },
+  {
+   "year": 206,
+   "title": "为于禁所斩",
+   "description": "再叛，于禁讨降后数斩之。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载卒于建安十一年（206），于禁讨斩之｜演：活跃至第十九回",
+ "mention_count": 2
+}

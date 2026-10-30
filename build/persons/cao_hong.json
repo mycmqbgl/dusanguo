@@ -1,0 +1,62 @@
+{
+ "id": "cao_hong",
+ "name": "曹洪",
+ "courtesy": "子廉",
+ "display_aliases": [
+  "骠骑将军",
+  "乐城侯"
+ ],
+ "birth": null,
+ "death": 232,
+ "date_precision": "approx",
+ "date_note": "生年不详，史载卒于太和六年（232）。演义中为曹操从弟。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "曹洪，群雄武将，裨将、都尉。曹洪从之，即遣夏侯惇之侄夏侯尚并降将韩玄之弟韩浩，二人引五千兵，前来助战。",
+ "bio": "曹洪字子廉，曹操从弟，弓马熟娴，武艺精通。曹操起兵时与曹仁各引兵千余来助。讨董之役曹操追董卓至荥阳，中徐荣伏兵，肩中一箭、马中箭倒，被两个军士拿住，洪翻身杀散军士，曰「天下可无洪，不可无公」，操曰「吾若再生，汝之力也」，洪让马与操，操曰「吾若再生，汝之力也」，洪曰「公急上马，洪愿步行」，操上马疾走，洪脱衣袍遮掩操身，护主得脱。后随操征战，史实累迁至骠骑将军、封乐城侯；曹丕时以吝啬下狱几死，赖卞太后得免，明帝时复官。演义中此处救主，是其最著一笔。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 196,
+   "title": "裨将、都尉",
+   "lord_id": "cao_cao",
+   "basis": "189 年与曹仁各引兵千余来助曹操起兵；此时曹操未建号，属群雄之一。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 232,
+   "title": "鹰扬校尉、扬武中郎将、谏议大夫、都护将军、骠骑将军、乐城侯",
+   "basis": "196 年曹魏势力形成后为曹操主将；史载卒于太和六年（232）。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "起兵来助",
+   "description": "与曹仁各引兵千余来助曹操起兵，弓马熟娴，武艺精通。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "荥阳让马救主",
+   "description": "曹操中徐荣伏兵马倒被擒，洪杀散军士，让马与操曰「天下可无洪，不可无公」。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "史实：下狱与复官",
+   "description": "曹丕时以吝啬下狱几死，赖卞太后得免；明帝时复为骠骑将军。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 96
+}

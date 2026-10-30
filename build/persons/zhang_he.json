@@ -1,0 +1,68 @@
+{
+ "id": "zhang_he",
+ "name": "张郃",
+ "courtesy": "儁乂",
+ "display_aliases": [
+  "车骑将军",
+  "鄚侯"
+ ],
+ "birth": null,
+ "death": 231,
+ "date_precision": "exact",
+ "date_note": "太和五年（231）木门道中伏，为诸葛亮军飞矢所中而卒。生年不详（约 170）。",
+ "gender": "male",
+ "first_chapter": 22,
+ "review_status": "reviewed",
+ "summary": "张郃，群雄武将，宁国中郎将。飞只顾引军冲突，张郃大败，死命杀开条路，走上瓦口关，收聚败兵，坚守不出。",
+ "bio": "张郃，字儁乂，河间鄚人。应募讨黄巾，为韩馥军司马，馥败后属袁绍，为宁国中郎将。建安五年官渡相持，乌巢粮草被焚，郃主张急救乌巢，郭图力主攻曹营，营不下，图谮之，郃与高览惧诛，降曹操。操闻郃来，喜曰「如微子去殷，韩信归汉也」，拜偏将军。此后为曹操东西征讨：破马超、围安定、讨张鲁皆在行阵，与夏侯渊共守汉中。定军山渊死，郃收残军拒刘备。曹丕即位，拜左将军；诸葛亮北伐，郃大破马谡于街亭，迁车骑将军。太和五年，追蜀军至木门，中伏，飞矢贯右膝而卒，谥壮侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "宁国中郎将",
+   "lord_id": "yuan_shao",
+   "basis": "先属韩馥，馥败归袁绍。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 231,
+   "title": "偏将军、荡寇将军、车骑将军、鄚侯",
+   "basis": "官渡遭谮降曹，屡为西线统帅，官至车骑将军。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "官渡降曹",
+   "description": "乌巢被焚，主张急救乌巢，遭郭图谮害，与高览降曹。",
+   "importance": 3
+  },
+  {
+   "year": 215,
+   "title": "汉中对峙",
+   "description": "定军山夏侯渊战死，郃收残军拒刘备。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "街亭破谡",
+   "description": "大破马谡于街亭，诸葛亮首次北伐退兵。",
+   "importance": 3
+  },
+  {
+   "year": 231,
+   "title": "木门中伏",
+   "description": "追蜀军至木门道，飞矢贯膝而卒，谥壮侯。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 262
+}

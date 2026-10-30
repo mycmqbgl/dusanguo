@@ -1,0 +1,29 @@
+{
+ "id": "cheng_ji",
+ "name": "成济",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 114,
+ "review_status": "auto_mined",
+ "summary": "成济，曹魏文臣，魏将。伯挺枪来迎，被成济一戟刺死。",
+ "bio": "第 114 回：成济撚戟直奔辇前。第 114 回：言未讫，被成济一戟刺中前胸，撞出辇来。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "魏将",
+   "basis": "第一百十四回原文：只见贾充戎服乘马，左有成倅，右有成济，引数千铁甲禁兵，呐喊杀来。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 114 回（258 年），原 258—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

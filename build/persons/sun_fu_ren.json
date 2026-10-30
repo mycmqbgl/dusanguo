@@ -1,0 +1,30 @@
+{
+ "id": "sun_fu_ren",
+ "name": "孙夫人",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 54,
+ "review_status": "auto_mined",
+ "summary": "孙夫人，蜀汉女眷，刘备妻。孙夫人在吴，闻猇亭兵败，讹传先主死于军中，遂驱车至江边，望西遥哭，投江而死。",
+ "bio": "。第 55 回：孙夫人笑曰：厮杀半生，尚惧兵器乎。第 55 回：孙夫人劝曰：丈夫休得烦恼。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 209,
+   "end_year": 222,
+   "title": "孙夫人，刘备妻",
+   "basis": "第五十四回原文：数日之内，大排筵会，孙夫人与玄德结亲。 职任「孙夫人，刘备妻」据此；★任期按末见回目收敛：全书最后一次提及在第 84 回（222 年），原 209—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "span_pre_state": true,
+ "mention_count": 32
+}

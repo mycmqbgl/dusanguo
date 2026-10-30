@@ -1,0 +1,44 @@
+{
+ "id": "hao_meng",
+ "name": "郝萌",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 196,
+ "date_precision": "approx",
+ "date_note": "史载建安元年（196）郝萌受袁术策动反吕布，被高顺斩杀；演义中活跃至第十八回（198）。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "郝萌，群雄武将，八健将。先令侯成、郝萌、曹性引二百余骑接应高顺，使离沛城三十里去迎曹军，自引大军随后接应。",
+ "bio": "郝萌，吕布八健将之一，河内人。史载建安元年受袁术策动，夜攻吕布治所下邳府，布仓皇逃出投高顺营，顺率兵平乱，萌将曹性反萌，顺斩萌。演义未演此段，郝萌作为八健将活跃于袭徐州、战濮阳诸役，至第十八回濮阳之战尚在其列。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 196,
+   "title": "八健将",
+   "lord_id": "lv_bu",
+   "basis": "吕布部将。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "属吕布",
+   "description": "为吕布八健将之一。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "受术策动反布",
+   "description": "史载夜反吕布，兵败为高顺所斩（演义未演）。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：建安元年（196）被高顺斩｜演：活跃至第十八回（198）",
+ "mention_count": 14
+}

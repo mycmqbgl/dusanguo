@@ -1,0 +1,38 @@
+{
+ "id": "li_tong",
+ "name": "李通",
+ "courtesy": "文达",
+ "display_aliases": null,
+ "birth": null,
+ "death": 211,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义潼关之战为马超所杀（211）。史书卒于建安十四年（209），病卒于道，与演义异。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "李通，曹魏武将，曹操部将、汝南太守。第 18 回一笔带过，事迹仅存其名。",
+ "bio": "李通字文达，江夏平春人。曹操起兵即来投，屡随征伐。潼关之战操为马超所追割须弃袍，通飞马来救，与超交战，为超一枪刺于马下（演义）。史载通官至汝南太守、都亭侯，卒于建安十四年。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 211,
+   "title": "曹操部将、汝南太守",
+   "lord_id": "cao_cao",
+   "basis": "随操征战；卒年从演义 211 年潼关战死（史书为 209 病卒，演义异说）。｜阵营据百科势力分组校正：wei。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "潼关救操",
+   "description": "操被马超追杀，通飞马来救，被超一枪刺死。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒年按演义潼关之战为马超所杀（211）；史书卒于建安十四年（209），病卒于道，与演义异",
+ "mention_count": 3
+}

@@ -1,0 +1,96 @@
+{
+ "id": "xuzhou_fu_chou",
+ "name": "徐州屠城之战",
+ "year": 194,
+ "date_text": "兴平元年（194）",
+ "place_id": "xu_zhou",
+ "event_id": "cao_tao_xuzhou_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹操军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "cao_cao",
+    "yu_jin"
+   ],
+   "troops_desc": "兖州大军倾巢而出"
+  },
+  {
+   "side": "徐州守军与援军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "tao_qian",
+    "liu_bei",
+    "kong_rong",
+    "tian_kai"
+   ],
+   "troops_desc": "陶谦本部 + 孔融田楷援军 + 刘备赵云"
+  }
+ ],
+ "result": "曹操屠城连下数城，因吕布袭兖州被迫退兵",
+ "casualties_note": "泗水为之不流；管亥为关羽所斩。",
+ "summary": "曹操为父复仇东征，所过屠戮；刘备孔融驰援不支，吕布袭兖州令操罢兵——徐州之祸暂解。",
+ "detail": "操军攻拔徐州所过之处鸡犬不留。陶谦欲缚己送操营请罪未成；孔融被围北海遣太史慈突围求救，刘备借兵来援，阵前关羽数十合斩管亥解北海之围，遂与田楷为掎角赴徐州。操怒攻愈急，恰陈宫张邈迎吕布入兖州，操只得退兵；陶谦三让徐州，备初辞，谦卒后备始领徐州牧。",
+ "front_line": [
+  {
+   "time": 194,
+   "time_seq": 1,
+   "kind": "出兵",
+   "label": "起大军东征",
+   "desc": "留荀彧程昱守鄄城，尽起大军令屠城。",
+   "lng": 116.08,
+   "lat": 35.35,
+   "pixel_x": 881.2,
+   "pixel_y": 399.2
+  },
+  {
+   "time": 194,
+   "time_seq": 2,
+   "kind": "攻伐",
+   "label": "所过屠戮",
+   "desc": "攻拔徐州城池，鸡犬不留，泗水不流。",
+   "lng": 117.18,
+   "lat": 34.26,
+   "pixel_x": 924.7,
+   "pixel_y": 449.5
+  },
+  {
+   "time": 194,
+   "time_seq": 3,
+   "kind": "救援",
+   "label": "北海解围",
+   "desc": "刘备关羽驰援，数十合斩管亥，与田楷会徐州。",
+   "lng": 119.2,
+   "lat": 36.68,
+   "pixel_x": 1004.6,
+   "pixel_y": 337.8
+  },
+  {
+   "time": 194,
+   "time_seq": 4,
+   "kind": "对峙",
+   "label": "徐州城下",
+   "desc": "陶谦让徐州，刘备初辞不受。",
+   "lng": 117.13,
+   "lat": 34.28,
+   "pixel_x": 922.7,
+   "pixel_y": 448.6
+  },
+  {
+   "time": 194,
+   "time_seq": 5,
+   "kind": "结局",
+   "label": "吕布袭兖州",
+   "desc": "陈宫张邈迎吕布，操退兵回救，徐州暂解。",
+   "lng": 115.54,
+   "lat": 35.54,
+   "pixel_x": 859.8,
+   "pixel_y": 390.5
+  }
+ ],
+ "place_name": "徐州"
+}

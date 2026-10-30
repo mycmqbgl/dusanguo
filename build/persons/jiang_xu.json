@@ -1,0 +1,29 @@
+{
+ "id": "jiang_xu",
+ "name": "姜叙",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "姜叙，群雄武将，抚彝将军。日，杨阜入姜叙内宅，拜见其姑，哭告曰：阜守城不能保，主亡不能死，愧无面目见姑。",
+ "bio": "官职「将军」据原文上下文提取。原文第 64 回相关片段：「归葬其妻便回。马超从之。杨阜过历城，来见抚彝将军姜叙。叙与阜是姑表兄弟：叙之母是阜之姑，时年已八十二」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 229,
+   "title": "抚彝将军",
+   "basis": "第64回杨阜过历城，来见抚彝将军姜叙；叙与阜是姑表兄弟，共讨马超。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

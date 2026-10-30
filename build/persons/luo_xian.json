@@ -1,0 +1,31 @@
+{
+ "id": "luo_xian",
+ "name": "罗宪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "罗宪（正史人物，演义未载）：罗宪为霍峻子霍弋之副，守永安拒吴。演义未载。",
+ "bio": "《三国志·蜀书·霍峻传》附：罗宪为霍峻子霍弋之副，守永安拒吴。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 263,
+   "title": "巴东太守",
+   "basis": "罗宪字令则，蜀汉巴东太守，后降魏，《晋书》有传，演义正文未出场（0 次）。 罗宪为蜀巴东太守，263 年蜀亡时守永安拒吴。",
+   "confidence": 0.4,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

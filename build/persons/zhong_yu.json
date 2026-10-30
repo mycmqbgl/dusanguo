@@ -1,0 +1,33 @@
+{
+ "id": "zhong_yu",
+ "name": "钟毓",
+ "courtesy": null,
+ "display_aliases": [
+  "锺毓"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "钟毓（正史人物，演义未载）：钟毓为钟繇长子、钟会之兄，官至青州刺史。演义未载。",
+ "bio": "《三国志·魏书·钟繇传》：钟毓为钟繇长子、钟会之兄，官至青州刺史。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "青州刺史、都督荆州诸军事",
+   "basis": "钟毓字稚叔，钟繇之子、钟会之兄，《三国志·魏书》附见。演义正文未出场（0 次）。",
+   "confidence": 0.4,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 1
+}

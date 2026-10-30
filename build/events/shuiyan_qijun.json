@@ -1,0 +1,57 @@
+{
+ "id": "shuiyan_qijun",
+ "name": "水淹七军",
+ "kind": "征伐",
+ "start_year": 219,
+ "end_year": 219,
+ "date_text": "建安二十四年八月（219）",
+ "summary": "关羽决襄江水淹于禁七军于罾口川，庞德抬榇死战被擒殉节，关羽威震华夏，曹操议迁都。",
+ "detail": "详见战役「水淹七军」。此役之后公复围樊城，曹仁弩箭中其右臂，毒已入骨，华佗刮骨疗毒；操用司马懿蒋济之谋，遣使联吴袭荆州，形势由此逆转。史载于禁督七军救樊，秋大霖雨汉水泛溢，禁降羽、庞德不降而死，与演义相合。",
+ "place_id": "fan_cheng",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "guan_yu",
+   "role_desc": "统帅，观水势决襄江，威震华夏"
+  },
+  {
+   "person_id": "guan_ping",
+   "role_desc": "攻樊城前锋，阵战庞德，救父中箭"
+  },
+  {
+   "person_id": "zhou_cang",
+   "role_desc": "乘大筏撞翻庞德小船，水中生擒庞德"
+  },
+  {
+   "person_id": "yu_jin",
+   "role_desc": "征南将军督七军，屯罾口川被淹，拜伏乞降"
+  },
+  {
+   "person_id": "pang_de",
+   "role_desc": "先锋抬榇死战，箭中关公；被擒立而不跪，引颈受刑"
+  },
+  {
+   "person_id": "cao_ren",
+   "role_desc": "困守樊城，欲弃城，赖满宠谏固守"
+  },
+  {
+   "person_id": "hua_tuo",
+   "role_desc": "自江东来为关公刮骨疗毒"
+  },
+  {
+   "person_id": "sim_yi",
+   "role_desc": "谏曹操勿迁都，密陈联吴袭荆州之计"
+  }
+ ],
+ "passage_ids": [
+  74001,
+  74001,
+  74009,
+  74011,
+  75002,
+  75006
+ ],
+ "battle_ids": [
+  "shuiyan_qijun_battle"
+ ]
+}

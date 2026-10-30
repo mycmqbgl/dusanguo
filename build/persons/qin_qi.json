@@ -1,0 +1,38 @@
+{
+ "id": "qin_qi",
+ "name": "秦琪",
+ "display_aliases": [
+  "黄河渡口守将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）于黄河渡口为关羽所斩。生年不详。蔡阳外甥。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "reviewed",
+ "summary": "秦琪，群雄武将，黄河渡口守将。秦琪大怒，纵马提刀，直取关公。",
+ "bio": "秦琪，曹操部将蔡阳外甥，守黄河渡口。建安五年，关羽渡河寻兄至渡口，秦琪索要公文，又曰「若要过去，须有曹丞相文凭」。关羽答以「我奉丞相钧命，差送夫人至此，何曾再有文凭」，琪不许，喝「你便插翅也飞不过去」。关羽怒曰：「你比颜良、文丑如何？」琪大怒，纵马提刀来战，二马相交只一合，关羽刀起，秦琪头落。关羽遂夺船渡河。此事后蔡阳请兵报仇，引出古城相会时关羽斩蔡阳。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "黄河渡口守将",
+   "lord_id": "cao_cao",
+   "basis": "曹操部将，守黄河渡口。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "渡口被斩",
+   "description": "索文凭拦渡河，口比颜良文丑，一合被关羽斩杀，关羽夺船渡河。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 11
+}

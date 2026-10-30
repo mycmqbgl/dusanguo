@@ -1,0 +1,29 @@
+{
+ "id": "sun_he",
+ "name": "孙和",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "孙和，孙吴宗亲，孙权次子。第 108 回一笔带过，事迹仅存其名。",
+ "bio": "第 108 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "亲族",
+   "start_year": 241,
+   "end_year": 280,
+   "title": "孙权第三子（曾立为太子，后封南阳王）",
+   "basis": "第一百零八回原文：却说吴主孙权，先有太子孙登，乃徐夫人所生，于吴赤乌四年身亡，遂立次子孙和为太子，乃琅琊王夫人。 职任「孙权次子」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

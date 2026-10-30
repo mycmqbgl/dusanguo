@@ -1,0 +1,54 @@
+{
+ "id": "wang_jun",
+ "name": "王濬",
+ "courtesy": "士治",
+ "display_aliases": [
+  "弘农湖人",
+  "龙骧将军",
+  "楼船之将"
+ ],
+ "birth": 206,
+ "death": 286,
+ "date_precision": "exact",
+ "date_note": "史载生于建安十一年（206），卒于太康七年（286）。生卒年《晋书》本传可考。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "reviewed",
+ "summary": "王濬，西晋武将，益州刺史、龙骧将军。龙骧将军王濬率水兵顺流而下。",
+ "bio": "王濬字士治，弘农湖人。博涉坟典，美姿貌，多谋略。羊祜奇其才，荐为益州刺史，密令修舟楫为伐吴之备；造大船连舫，方百二十步，可容二千余人，以木为城起楼橹，舟楫之盛自古未有。太康元年奉杜预节度，率水师顺流东下：吴人以铁索横江、铁锥置水，濬作大筏拔锥，燃炬烧索，须臾融断，所至无前。克牛渚，进逼石头城，吴将张象开城请降，孙皓舆榇出降，濬释缚焚榇，以王礼待之。贾充曾劾其不受节度，炎不问，封辅国大将军。演义写其在三山叱舟师：吾目下欲取石头城，何言住耶！史称濬晚节玉树临风，卒年八十。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "武将",
+   "start_year": 272,
+   "end_year": 280,
+   "title": "益州刺史、龙骧将军",
+   "lord_id": null,
+   "basis": "羊祜所荐，造楼船备吴；280 年率水师先入石头城，灭吴首功。司马炎非旧主，按体例 lord_id 置空。",
+   "confidence": 0.85,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 272,
+   "title": "受荐修船",
+   "description": "羊祜荐为益州刺史，密修舟楫，造楼船七年。",
+   "importance": 2
+  },
+  {
+   "year": 280,
+   "title": "烧索拔锥",
+   "description": "顺流破吴铁索铁锥之防，所向克捷，直抵建业。",
+   "importance": 3
+  },
+  {
+   "year": 280,
+   "title": "石头受降",
+   "description": "先入石头城，孙皓舆榇出降；三国至此归一。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 15
+}

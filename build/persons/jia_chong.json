@@ -1,0 +1,66 @@
+{
+ "id": "jia_chong",
+ "name": "贾充",
+ "courtesy": "公闾",
+ "display_aliases": [
+  "贾逵之子",
+  "中护军",
+  "晋司空、太尉"
+ ],
+ "birth": 217,
+ "death": 282,
+ "date_precision": "approx",
+ "date_note": "史载生于建安二十二年（217），卒于晋太康三年（282）。演义止于咸宁末平吴前，卒年从史补。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "reviewed",
+ "summary": "贾充，曹魏文臣，中护军、左仆射。贾充等闻言，已知司马昭留意于子司马炎矣，遂不复劝进。",
+ "bio": "贾充字公闾，平阳襄陵人，豫州刺史贾逵之子。逵忠魏而有名于曹操之世，充却为司马氏死力，时人讥之。充初仕魏为尚书郎，司马氏执政后为司马师腹心，师目瘤迸出时以充监军；昭时愈见亲任。260 年曹髦率僮仆数百鼓噪讨昭，昭问计，充曰：司马公养汝等，正为今日之事也！遂使太子舍人成济抽戈犯跸，弑帝于南阙。事后昭归罪成济，充转左仆射，专以谄媚固宠。263 年预灭蜀之谋；晋立后官至司空、侍中、尚书令，力主伐吴，为平吴大计之赞画。282 年卒，追赠太宰。其女贾南风嫁晋惠帝，酿成八王之乱。充尝问庾纯：父老不归供养，卿何以自安？纯对曰：天下岂有贾充父老而无子归养者！讥其父忠于魏而子弑魏君也。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 251,
+   "end_year": 265,
+   "title": "中护军、左仆射",
+   "lord_id": "sim_yi",
+   "basis": "为司马师、司马昭腹心，主使成济弑曹髦，预灭蜀之谋。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "权臣心腹"
+  },
+  {
+   "faction_id": "jin",
+   "role": "文臣",
+   "start_year": 265,
+   "end_year": 282,
+   "title": "司空、太尉、太宰",
+   "lord_id": null,
+   "basis": "晋朝开国元勋，赞画灭吴，282 年卒。晋主未立卡，lord_id 置空。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 260,
+   "title": "主使弑君",
+   "description": "曹髦讨昭，充叱成济：司马公养汝正为今日！济抽戈弑帝于南阙。",
+   "importance": 3
+  },
+  {
+   "year": 263,
+   "title": "赞画伐蜀",
+   "description": "预钟会邓艾三路伐蜀之谋，蜀亡，充以功增邑。",
+   "importance": 2
+  },
+  {
+   "year": 280,
+   "title": "力主平吴",
+   "description": "晋伐吴之议，充初沮而后赞，吴平天下一统。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载生于建安二十二年（217），卒于晋太康三年（282）｜演：止于咸宁末平吴前，卒年从史补",
+ "mention_count": 43
+}

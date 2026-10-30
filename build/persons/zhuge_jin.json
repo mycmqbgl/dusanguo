@@ -1,0 +1,54 @@
+{
+ "id": "zhuge_jin",
+ "name": "诸葛瑾",
+ "courtesy": "子瑜",
+ "display_aliases": null,
+ "birth": 174,
+ "death": 241,
+ "date_precision": "exact",
+ "date_note": "生于熹平三年（174），卒于赤乌四年（241）。史载确切。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "reviewed",
+ "summary": "诸葛瑾，字子瑜，琅琊阳都人，诸葛亮之兄，仕吴为大将军。",
+ "bio": "诸葛瑾，字子瑜，琅琊阳都人，诸葛亮之兄。避乱江东，孙权待为上宾，官至大将军、左都护。与弟亮分事两国，「君臣之分，公义不顾私恩」，孙权深重之。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 208,
+   "title": "孙权宾待",
+   "lord_id": "sun_quan",
+   "basis": "200年避乱江东投权。｜阵营据主君（孙权）归属校正为wu，200-208→200-208。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "吴长史",
+   "lord_id": "sun_quan",
+   "basis": "赤壁后随权建号前为孙氏臣属；孙氏名义仍汉臣。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "避乱江东",
+   "description": "孙权宾待，与鲁肃并进。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "奉使荆州",
+   "description": "赤壁前后数使刘备处，兄弟各为其主。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 73
+}

@@ -1,0 +1,79 @@
+{
+ "id": "chen_zhen",
+ "name": "陈震",
+ "courtesy": "孝起",
+ "display_aliases": [
+  "南阳陈震",
+  "尚书令"
+ ],
+ "birth": null,
+ "death": 235,
+ "date_precision": "exact",
+ "date_note": "青龙三年（235）卒。生年不详。演义第 26 回为袁绍使，后归刘备。",
+ "gender": "male",
+ "first_chapter": 26,
+ "review_status": "reviewed",
+ "summary": "陈震，群雄文臣，袁绍谋士。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+ "bio": "陈震，字孝起，南阳人。初事袁绍为谋士。建安五年，刘备在袁绍军中，关羽在曹操营中尚未知备所在，震奉袁绍命持密信至曹营见关羽，告知刘备消息，遂有关羽挂印封金千里寻兄。后袁绍败亡，震南归刘备，辟为从事，随刘备入蜀。诸葛亮北伐时，震以侍中转任尚书令，奉命使吴庆孙权称帝，与吴人约盟分天下。青龙三年卒。演义中后期常为蜀汉信使与外交使臣。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "袁绍谋士",
+   "lord_id": "yuan_shao",
+   "basis": "初事袁绍。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 201,
+   "end_year": 208,
+   "title": "刘备从事",
+   "lord_id": "liu_bei",
+   "basis": "袁绍败后南归刘备（此时刘备仍为群雄）。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 235,
+   "title": "从事、侍中、尚书令",
+   "basis": "随刘备取荆益，官至尚书令。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "送信促关归刘",
+   "description": "奉袁绍命持密信至曹营见关羽，告知刘备所在。",
+   "importance": 2
+  },
+  {
+   "year": 201,
+   "title": "南归刘备",
+   "description": "袁绍败后归刘备，辟为从事。",
+   "importance": 1
+  },
+  {
+   "year": 229,
+   "title": "使吴贺称帝",
+   "description": "孙权称帝，震奉命使吴，与吴约盟分天下。",
+   "importance": 2
+  },
+  {
+   "year": 235,
+   "title": "卒",
+   "description": "青龙三年卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 22
+}

@@ -1,0 +1,54 @@
+{
+ "id": "ji_ping",
+ "name": "吉平",
+ "courtesy": "称平",
+ "display_aliases": [
+  "太医",
+  "太医令"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "生年不详；卒年 200（第 23 回事泄被拷掠而死）。",
+ "gender": "male",
+ "first_chapter": 23,
+ "review_status": "reviewed",
+ "summary": "吉平，汉献帝随朝太医，谋以毒药鸩曹操，事泄被杀。",
+ "bio": "吉平，演义中为太医，精医术。建安四年冬，董承染病，吉平日夜医治，承感其诚。吉平早知承有讨曹之心，尝于药中下毒欲杀操，承惊问，平咬指为誓：「恐天下人皆负君，平独负之乎！」遂与承共谋。承密诏吉平俟曹操冬日头疾发时进药毒之。事前秦庆童怀恨告密，曹操将计就计，诈病召吉平，药中验出毒。平骂不绝口，操截其九指，平曰：「尚有口可以吞贼，有舌可以骂贼！」操令割其舌，平撞阶而死。曹操因此穷究董承，衣带诏事泄。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "随朝太医（太医令丞属官）",
+   "basis": "第23回：令随朝太医前去医治。此医乃洛阳人，姓吉，名太，字称平，人皆呼为吉平。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "受诏盟誓",
+   "description": "为董承治病，知其讨曹之志，咬指为誓共谋。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "下毒事泄",
+   "description": "俟操头疾进药，为秦庆童告密，操诈病验毒。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "触阶殉义",
+   "description": "被截九指割舌，骂不绝口，触阶而死。",
+   "importance": 3
+  }
+ ],
+ "history_conflict_type": "事件有无",
+ "history_conflict_note": "演义作建安五年（200）衣带诏事泄、下毒不成被拷死；史实原型为太医令吉本，反曹事在建安二十三年（218）。",
+ "history_life_dates": "演义卒于建安五年（200）；史书原型太医令吉本卒于建安二十三年（218）许都起事。",
+ "mention_count": 36
+}

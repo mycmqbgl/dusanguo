@@ -1,0 +1,29 @@
+{
+ "id": "bian_hong",
+ "name": "边洪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "边洪，孙翊从人，与妫览、戴员谋杀孙翊。",
+ "bio": "边洪，丹阳太守孙翊之从人。第38回妫览、戴员因孙翊欲杀之，遂与边洪结为心腹，乘孙翊宴罢送客、不带刀剑之际，边洪「带刀跟出门外，即抽刀砍死孙翊」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "其他",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "孙翊从人",
+   "basis": "第三十八回原文：乃与翊从人边洪结为心腹，共谋杀翊。翊指孙翊，时为丹阳太守，故边洪属吴。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

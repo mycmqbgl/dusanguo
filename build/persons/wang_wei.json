@@ -1,0 +1,29 @@
+{
+ "id": "wang_wei",
+ "name": "王威",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "王威，群雄武将，刘表部将。有故将王威相随，其余官员俱送至江口而回。",
+ "bio": "第 34 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 207,
+   "end_year": 218,
+   "title": "刘表部将",
+   "basis": "第三十四回原文：越曰：“可使文聘、王威二人另设一席于外厅，以待武将。 职任「刘表部将」据此；★任期按末见回目收敛：全书最后一次提及在第 69 回（218 年），原 207—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

@@ -1,0 +1,90 @@
+{
+ "id": "chang_ban_zhi_zhan",
+ "name": "长坂坡之战·携民渡江",
+ "kind": "战役",
+ "start_year": 208,
+ "end_year": 208,
+ "date_text": "建安十三年（208）秋",
+ "summary": "曹操南征荆州，刘琮投降。刘备不忍弃十余万百姓，日行十里于当阳长坂被五千虎豹骑追及，妻子失散；赵云单骑救主七进七出，张飞据水断桥一声喝退曹军，刘备走汉津与关羽船队会合，与刘琦合兵江夏。",
+ "detail": "操自统大军南征，刘琮出降而不告备。备屯樊城，不忍弃百姓，携十余万众扶老携幼渡江赴江陵，日行十余里。操令五千精骑一日一夜追及当阳长坂。备兵溃，家眷失散：赵云单骑往救，糜夫人身被数枪抱阿斗藏于断墙，托孤投井；云推墙掩井，怀抱阿斗七进七出，刺杀曹营名将五十余员，砍倒大旗夺槊三条，直透重围。张飞立于长坂桥，睁目横矛大喝「燕人张翼德在此！谁敢来决死战」，喝死夏侯杰，惊退曹军。备由汉津渡得关羽船队接应，刘琦引江夏兵来接，遂屯江夏。",
+ "place_id": "chang_ban",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_bei",
+   "role_desc": "携民渡江，长坂溃围走汉津"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "单骑救主，七进七出刺名将五十余员"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "据水断桥，一声喝退曹军"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "率船队于汉津接应"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "献计赴江夏结连刘琦"
+  },
+  {
+   "person_id": "mi_furen",
+   "role_desc": "怀抱阿斗托孤赵云，投井殉难"
+  },
+  {
+   "person_id": "liu_qi",
+   "role_desc": "引江夏兵万余人接应"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "亲统大军南征，遣五千虎豹骑追击"
+  },
+  {
+   "person_id": "xu_chu",
+   "role_desc": "曹军先锋将领追击"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "琮降备走",
+   "description": "刘琮不告而降，备携十余万百姓南走江陵。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "长坂追及",
+   "description": "五千虎豹骑一日一夜追及当阳，备军大溃。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "云救阿斗",
+   "description": "赵云怀抱阿斗七进七出，糜夫人投井。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "飞喝断桥",
+   "description": "张飞据长坂桥喝退曹军，拆桥而走。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "汉津会合",
+   "description": "关羽船队汉津接应，与刘琦合兵屯江夏。",
+   "importance": 2
+  }
+ ],
+ "battle_ids": [
+  "chang_ban_battle"
+ ],
+ "passage_ids": [
+  41015,
+  41016,
+  42009
+ ]
+}

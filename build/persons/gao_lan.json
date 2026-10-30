@@ -1,0 +1,55 @@
+{
+ "id": "gao_lan",
+ "name": "高览",
+ "display_aliases": [
+  "偏将军"
+ ],
+ "birth": null,
+ "death": 201,
+ "date_precision": "approx",
+ "date_note": "建安六年（201）穰山之战（演义第 31 回）为赵云所杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 22,
+ "review_status": "reviewed",
+ "summary": "高览，群雄武将，袁绍大将。说张郃、高览攻打曹营，左边夏侯惇、右边曹仁，中路曹洪，一齐冲出：三下攻击，袁军大败。",
+ "bio": "高览，袁绍大将，与张郃齐名。建安五年官渡相持，乌巢粮草被焚，览与郃主张急救乌巢，郭图谮之，惧诛，遂同降曹操，引军反攻袁绍大营。曹操拜览偏将军、东莱侯。建安六年（演义第 31 回），览随曹操征汝南刘备，奉命攻刘备大寨，正冲杀间，赵云冲阵，一枪刺死高览，余军溃散。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "袁绍大将",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 201,
+   "title": "偏将军、东莱侯",
+   "basis": "官渡与张郃同降曹。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "官渡降曹",
+   "description": "遭郭图谮害，与张郃惧诛降曹，引军反攻袁营。",
+   "importance": 2
+  },
+  {
+   "year": 201,
+   "title": "穰山殒命",
+   "description": "攻刘备大寨，为赵云一枪刺死。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：建安六年（201）穰山之战（演义第 31 回）为赵云所杀",
+ "mention_count": 22
+}

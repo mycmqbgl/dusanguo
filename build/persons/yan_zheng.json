@@ -1,0 +1,29 @@
+{
+ "id": "yan_zheng",
+ "name": "严政",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "严政，群雄武将，黄巾军，杀，降汉。势危急，贼将严政刺杀张宝，献首投降。",
+ "bio": "。第 2 回：贼势危急，贼将严政刺杀张宝，献首投降。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄巾军，杀，降汉",
+   "basis": "第二回原文：贼势危急，贼将严政刺杀张宝，献首投降。 职任「黄巾军，杀，降汉」据此；★任期按末见回目收敛：全书最后一次提及在第 2 回（184 年），原 184—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,67 @@
+{
+ "id": "guo_tu",
+ "name": "郭图",
+ "courtesy": "公则",
+ "display_aliases": [
+  "颍川郭图"
+ ],
+ "birth": null,
+ "death": 205,
+ "date_precision": "approx",
+ "date_note": "建安十年（205）曹操破南皮，图与袁谭同死。生年不详。",
+ "gender": "male",
+ "first_chapter": 19,
+ "review_status": "reviewed",
+ "summary": "郭图，群雄文臣，袁绍谋士。郭图曰：三子之中，谭为长，今又居外；主公若废长立幼，此乱萌也。",
+ "bio": "郭图，字公则，颍川人，袁绍谋士。建安四年，袁绍议伐许都，图与审强力主「以明公之神武，拥河朔之强众，举兵南向，河洛可定」，驳沮授持重之议。建安五年官渡相持，乌巢被焚，张郃言「急救乌巢」，图力主攻曹营，营不下，图反谮郃览「有降曹之心」，二人遂降曹，袁军大溃。袁绍死后，图先劝袁谭迎立，后谭尚相攻，图佐谭降曹借兵攻邺。建安十年南皮城破，图与谭同死于乱军。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 202,
+   "title": "袁绍谋士",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍幕府谋臣。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 202,
+   "end_year": 205,
+   "title": "袁谭谋士",
+   "basis": "袁绍死后辅袁谭，先劝迎立，后佐降曹借兵。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "力主南征",
+   "description": "与审配力主举兵南向，驳沮授持重之议。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "谮郃览",
+   "description": "乌巢被焚，力主攻曹营不下，反谮张郃高览致其降曹。",
+   "importance": 3
+  },
+  {
+   "year": 202,
+   "title": "佐谭争位",
+   "description": "劝袁谭争位，后佐谭降曹借兵攻邺。",
+   "importance": 2
+  },
+  {
+   "year": 205,
+   "title": "死于南皮",
+   "description": "南皮城破，与袁谭同死于乱军。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 38
+}

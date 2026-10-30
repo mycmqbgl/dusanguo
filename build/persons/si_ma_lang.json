@@ -1,0 +1,29 @@
+{
+ "id": "si_ma_lang",
+ "name": "司马朗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 39,
+ "review_status": "reviewed",
+ "summary": "司马朗，曹魏文臣，主簿。第 39 回一笔带过，事迹仅存其名。",
+ "bio": "第 39 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 217,
+   "title": "主簿",
+   "basis": "第39回：「主簿司马朗之弟也」，为曹操幕职，汉相府属官。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

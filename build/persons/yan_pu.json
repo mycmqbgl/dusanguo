@@ -1,0 +1,29 @@
+{
+ "id": "yan_pu",
+ "name": "阎圃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 59,
+ "review_status": "auto_mined",
+ "summary": "阎圃，蜀汉文臣，谋士。阎圃曰：汉川之民户出十万余众，财富粮足，四面险固；今马超新败，西凉之民，从子午谷奔入汉中者，不下数万。",
+ "bio": "第 59 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 212,
+   "end_year": 215,
+   "title": "谋士",
+   "basis": "第五十九回原文：阎圃曰：“汉川之民户出十万余众，财富粮足，四面险固。 职任「谋士」据此；★任期按末见回目收敛：全书最后一次提及在第 67 回（215 年），原 212—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

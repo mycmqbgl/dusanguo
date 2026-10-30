@@ -1,0 +1,36 @@
+{
+ "id": "yang_ren",
+ "name": "杨任",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 67,
+ "review_status": "auto_mined",
+ "summary": "杨任，群雄武将，张鲁大将。及雾散，杨任领兵来救，与夏侯渊战不数合，背后张郃兵到。",
+ "bio": "第 67 回：「张鲁依言，遣大将杨昂、杨任」。原文第 67 回相关片段：「兄在汉宁，多拨粮草应付。”张鲁依言，遣大将杨昂、杨任，与其弟即日起程。军马到阳平关，下寨已定。夏侯渊」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 219,
+   "title": "张鲁大将",
+   "basis": "第 67 回：「张鲁依言，遣大将杨昂、杨任」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 214,
+   "title": "第 67 回",
+   "description": "鲁大怒，欲斩杨任",
+   "importance": 1
+  }
+ ],
+ "mention_count": 16
+}

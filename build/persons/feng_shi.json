@@ -1,0 +1,31 @@
+{
+ "id": "feng_shi",
+ "name": "冯氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "female",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "冯氏（正史人物，演义未载）：冯氏为袁术妻。演义未载。",
+ "bio": "《三国志·魏书·袁术传》：冯氏为袁术妻。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 197,
+   "end_year": 199,
+   "title": "袁术妻（演义词无载名）",
+   "basis": "袁术建安二年（197）僭号，四年（199）败亡。毛本演义未载其妻姓氏，「冯氏」为后人所补。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

@@ -1,0 +1,57 @@
+{
+ "id": "zhang_yang",
+ "name": "张杨",
+ "courtesy": "稚叔",
+ "display_aliases": [
+  "上党太守",
+  "河内太守"
+ ],
+ "birth": null,
+ "death": 198,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安三年（198）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "张杨，群雄君主。报：河内太守张杨出兵东市，欲救吕布；部将杨丑杀之，欲将头献丞相，却被张杨心腹将眭固所杀，反投犬城去了。",
+ "bio": "张杨字稚叔，云中人。以武勇为并州从事，属丁原。何进遣其归并州募兵，会进败，遂留上党，众至数千。讨董时列第十五镇，为上党太守。董卓迁都后，杨率军屯河内。献帝东归，杨以粮饷供之，拜大司马。建安三年曹操围吕布于下邳，杨素与布善，出兵东市遥为声援，为其将杨丑所杀，杨丑以众归曹操。演义写其部将穆顺在虎牢关为吕布一戟刺于马下。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 198,
+   "title": "并州从事、上党太守、建义将军、大司马、晋阳侯",
+   "basis": "据上党、河内一带自成一系，为群雄之一；198 年为部将所杀。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "留据上党",
+   "description": "何进遣归并州募兵，进败后遂留上党，众至数千。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "列第十五镇",
+   "description": "以上党太守起兵讨董；部将穆顺为吕布所刺。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "供饷献帝",
+   "description": "献帝东归，杨以粮饷供之，拜大司马。",
+   "importance": 2
+  },
+  {
+   "year": 198,
+   "title": "为部将所杀",
+   "description": "出兵遥援吕布，为其将杨丑所杀，众归曹操。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 14
+}

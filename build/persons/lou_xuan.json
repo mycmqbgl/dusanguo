@@ -1,0 +1,29 @@
+{
+ "id": "lou_xuan",
+ "name": "楼玄",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "楼玄，孙吴武将，吴大司农。相万彧、将军留平、大司农楼玄三人见皓无道，直言苦谏，皆被所杀。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "吴大司农",
+   "basis": "第一百二十回原文：丞相万彧、将军留平、大司农楼玄三人见皓无道，直言苦谏，皆被所杀。 职任「吴大司农」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,36 @@
+{
+ "id": "zou_jing",
+ "name": "邹靖",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生平卒年俱不详，仅见于中平元年（184）讨黄巾事。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "邹靖，东汉武将，校尉。焉令邹靖引玄德等三人，统兵五百，前去破敌。",
+ "bio": "邹靖，幽州校尉。黄巾犯幽州，向太守刘焉献「贼兵众，我兵寡，明公宜作速招军应敌」之策，遂有出榜招军之举。引玄德等三人大兴山破程远志，又领兵五千同救青州，设伏破贼。广宗之役后引军自回，此后事不详。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "校尉",
+   "basis": "以统兵讨贼为业；史料仅载此年事迹。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "献招军之策",
+   "description": "向刘焉进言出榜招军应敌。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 11
+}

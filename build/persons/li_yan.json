@@ -1,0 +1,84 @@
+{
+ "id": "li_yan",
+ "name": "李严",
+ "courtesy": "正方",
+ "display_aliases": [
+  "尚书令",
+  "中都护",
+  "南阳人"
+ ],
+ "birth": null,
+ "death": 234,
+ "date_precision": "approx",
+ "date_note": "史载卒于建兴十二年（234），闻诸葛亮卒而激愤发病死。生年无载。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "reviewed",
+ "summary": "李严，群雄文臣，刘璋帐下成都令。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+ "bio": "李严字正方，南阳人。本刘璋成都令，以才干称，降刘备为犍为太守，有治名。章武三年备病笃永安宫，严与诸葛亮并受遗诏辅少主，为尚书令、中都护，统内外军事，留镇永安。建兴四年封都乡侯，假节，加光禄勋。八年迁骠骑将军，更名平。亮北伐，平主运粮，秋夏之际值天霖雨，运粮不继，遣参军狐忠喻亮还军；亮退，平反表言军粮饶足、大军伪退以诱贼。亮出其前后手书，平辞穷，废为民，徙梓潼郡。闻亮卒，激愤发病死，常冀亮复收己用。演义写其与孟达有生死之交，安居平五路时作书退孟达一路，从史附会。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "刘璋帐下成都令",
+   "lord_id": "liu_zhang",
+   "basis": "本刘璋部属，以才干称。",
+   "confidence": 0.8,
+   "review_status": "reviewed",
+   "_role_orig": "县令"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 231,
+   "title": "犍为太守、尚书令、中都护、骠骑将军",
+   "lord_id": "liu_bei",
+   "basis": "归刘历太守；白帝托孤与诸葛亮并受遗诏，统内外军事留镇永安。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "托孤大臣"
+  },
+  {
+   "faction_id": "shu",
+   "role": "其他",
+   "start_year": 231,
+   "end_year": 234,
+   "title": "废为民徙梓潼",
+   "lord_id": "liu_shan",
+   "basis": "运粮欺罔，为亮所废；闻亮卒激愤病死。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "平民"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 223,
+   "title": "白帝受遗诏",
+   "description": "与诸葛亮并受托孤，为尚书令、中都护，留镇永安。",
+   "importance": 3
+  },
+  {
+   "year": 223,
+   "title": "书退孟达",
+   "description": "孔明假其笔迹作书致旧交孟达，达称病不进，五路退一路（演义）。",
+   "importance": 2
+  },
+  {
+   "year": 231,
+   "title": "运粮废黜",
+   "description": "督运北伐军粮欺罔，前后手书对照辞穷，废为民。",
+   "importance": 3
+  },
+  {
+   "year": 234,
+   "title": "闻亮卒而卒",
+   "description": "常冀亮复用，闻亮卒于五丈原，激愤发病而死。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 32
+}

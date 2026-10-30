@@ -1,0 +1,48 @@
+{
+ "id": "sun_huan",
+ "name": "孙桓",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "孙桓，孙吴武将，安东将军。说朱然听知孙桓损兵折将，正欲来救，忽伏路军引几个小卒上船投降。",
+ "bio": "第 82 回：「权视之，乃孙桓也。桓字叔武，其父名河」。原文第 82 回相关片段：「颇习兵书。愿乞数万之兵，以破蜀兵。”权视之，乃孙桓也。桓字叔武，其父名河，本姓俞氏，孙策爱之，赐姓」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 223,
+   "title": "安东将军",
+   "basis": "第 82 回：「权视之，乃孙桓也。桓字叔武，其父名河」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 222,
+   "title": "第 82 回",
+   "description": "势掩杀，孙桓大败",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 83 回",
+   "description": "泰曰：“目今安东将军孙桓，乃主上之侄，现困于彝陵城中，内无粮草，外无救兵；请都督早施良策，救出孙桓，以安主上之心",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 84 回",
+   "description": "冯二将正行之间，前面吴兵杀来，背后孙桓从彝陵城杀出，两下夹攻",
+   "importance": 1
+  }
+ ],
+ "mention_count": 23
+}

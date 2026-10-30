@@ -1,0 +1,51 @@
+{
+ "id": "kuai_liang",
+ "name": "蒯良",
+ "courtesy": "子柔",
+ "display_aliases": [
+  "延平人"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。蒯越之兄。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "reviewed",
+ "summary": "蒯良，群雄文臣，谋主。蒯良曰：嵩未去之前，先有此言矣。",
+ "bio": "蒯良字子柔，延平人，蒯越之兄。刘表初为荆州刺史，单马入宜城，蒯良与蒯越同为谋主。表问「宗贼甚盛，群众不附，袁术因之，祸今至矣，吾欲征兵，恐不集，其策安出」，良曰「众不附者，仁不足也；附而不治者，义不足也」，劝表行仁义。孙坚围襄阳，蒯良夜观天象，见一将星欲坠，以分野度之当应在孙坚，劝刘表致书袁绍求援，又授健将吕公以诱敌之计，孙坚遂死于岘山。孙坚死后，良劝刘表乘虚取江东，表以黄祖在坚营中、不忍弃之而不从。演义第六回写其与蒯越同为刘表「为辅」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "谋主",
+   "lord_id": "liu_biao",
+   "basis": "刘表谋主，以谋略为主归文臣；卒年不详，时间片止于刘表卒年（208）这一可考下限。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "定荆州之策",
+   "description": "劝刘表行仁义以附众，与蒯越同为谋主。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "观星断孙坚",
+   "description": "夜观天象见将星欲坠，度之当应在孙坚，授吕公诱敌之计，孙坚遂死岘山。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "劝取江东",
+   "description": "孙坚死后劝刘表乘虚取江东，表以黄祖在坚营中而不从。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 13
+}

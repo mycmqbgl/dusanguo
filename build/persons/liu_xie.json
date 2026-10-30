@@ -1,0 +1,78 @@
+{
+ "id": "liu_xie",
+ "name": "刘协",
+ "display_aliases": [
+  "陈留王",
+  "献帝",
+  "汉献帝",
+  "山阳公"
+ ],
+ "birth": 181,
+ "death": 234,
+ "date_precision": "approx",
+ "date_note": "生于光和四年（181），卒于青龙二年（234），在位三十一年。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "刘协，东汉末代皇帝，在位三十一年。九岁为董卓所立，后受制于李傕、曹操，建安二十五年禅位曹丕，降封山阳公，汉祚终。",
+ "bio": "刘协，灵帝次子，王美人所生，由董太后养于宫中，封陈留王。董卓入京，以其「聪明好学」废少帝而立之，是为献帝，时年九岁。初平元年董卓挟之迁都长安，焚洛阳宫室，二百里内无复鸡犬。建安元年曹操迎帝都许，自此「挟天子以令诸侯」。在位三十一年，先后受制于董卓、李傕郭汜、曹操，建安二十五年曹丕代汉，废为山阳公，汉四百余年之祚终。演义第三回写少帝与陈留王流落北邙，陈留王对董卓「汝来保驾耶，汝来劫驾耶」一问，是其一生仅有的锋芒。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 181,
+   "end_year": 189,
+   "title": "灵帝次子，陈留王",
+   "basis": "第2回：皇子协养于董太后宫中，封陈留王。为灵帝次子。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "han",
+   "role": "皇帝",
+   "start_year": 189,
+   "end_year": 220,
+   "title": "汉献帝",
+   "basis": "第3回：董卓废少帝，立陈留王协为帝，是为献帝。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "客君",
+   "start_year": 220,
+   "end_year": 234,
+   "title": "山阳公（汉献帝降封）",
+   "basis": "第80回：丕降旨封帝为山阳公。刘协本是汉朝皇帝，禅位后受魏封为山阳公，为魏之宾而非魏之宗亲，故归客君；卒于魏青龙二年（234），未及晋。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "北邙山遇卓",
+   "description": "与少帝流落北邙，厉声问董卓「汝来保驾耶，汝来劫驾耶」。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "被立为帝",
+   "description": "董卓废少帝，立陈留王协，年九岁。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "迁都许",
+   "description": "曹操迎帝都许，自此政归曹氏。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "禅位",
+   "description": "曹丕代汉，废为山阳公。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 75
+}

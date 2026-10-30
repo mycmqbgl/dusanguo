@@ -1,0 +1,29 @@
+{
+ "id": "zhang_jie",
+ "name": "张节",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 119,
+ "review_status": "auto_mined",
+ "summary": "张节，曹魏文臣，魏黄门侍郎。叱武士将张节乱棍打死于殿下。",
+ "bio": "第 119 回：叱武士将张节乱棍打死于殿下。第 119 回：张节可怜忠国死，一拳怎障泰山高。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 264,
+   "end_year": 264,
+   "title": "魏黄门侍郎",
+   "basis": "第一百十九回原文：傍有黄门侍郎张节大喝曰：“晋王之言差矣。 职任「魏黄门侍郎」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 264—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

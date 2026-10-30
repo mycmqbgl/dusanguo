@@ -1,0 +1,29 @@
+{
+ "id": "lu_jing",
+ "name": "陆景",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "陆景，孙吴武将，吴将。第 120 回一笔带过，事迹仅存其名。",
+ "bio": "。第 120 回：陆景大惊，欲上岸逃命，被晋将张尚马到斩之。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "吴将",
+   "basis": "第一百二十回原文：陆景在船上，望见江南岸上一片火起，巴山上风飘出一面大旗，上书：“晋镇南大将军杜预。 职任「吴将」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

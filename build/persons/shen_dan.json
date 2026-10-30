@@ -1,0 +1,54 @@
+{
+ "id": "shen_dan",
+ "name": "申耽",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 73,
+ "review_status": "auto_mined",
+ "summary": "申耽，曹魏文臣，上庸太守。第 73 回一笔带过，事迹仅存其名。",
+ "bio": "第 73 回：先降刘备，第 79 回「吾已……」据城拒刘封，复归魏。原文第 73 回相关片段：「且说玄德命刘封、孟达、王平等，攻取上庸诸郡，申耽等闻操已弃汉中而走，遂皆投降，玄德安民已定，大赏」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 228,
+   "title": "上庸太守",
+   "basis": "第 73 回：先降刘备，第 79 回「吾已……」据城拒刘封，复归魏。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "第 73 回",
+   "description": "说玄德命刘封、孟达、王平等，攻取上庸诸郡，申耽等闻操已弃汉中而走，遂皆投降，玄德安民已定，大赏三军，人心大悦",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 76 回",
+   "description": "说刘封、孟达自取上庸，太守申耽率众归降，因此汉中王加刘封为副将军，与孟达同守上庸",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "第 94 回",
+   "description": "达夺路而走，申耽赶来",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "第 95 回",
+   "description": "明急唤入问之，细作告曰：“司马懿倍道而行，八日已到新城，孟达措手不及；又被申耽、申仪、李辅、邓贤为内应：孟达被乱军所杀",
+   "importance": 1
+  }
+ ],
+ "mention_count": 14
+}

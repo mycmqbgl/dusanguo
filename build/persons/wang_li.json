@@ -1,0 +1,29 @@
+{
+ "id": "wang_li",
+ "name": "王立",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 14,
+ "review_status": "auto_mined",
+ "summary": "王立，东汉文臣，侍中、太史令。侍中太史令王立私谓宗正刘艾曰：吾仰观天文，自去春太白犯镇星于斗牛，过天津，荧惑又逆行，与太白会于天关，金火交会，必有新天子出。",
+ "bio": "第 14 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "侍中、太史令",
+   "basis": "第14回侍中太史令王立私谓宗正刘艾，言仰观天文当有易代之事。 196 年后为汉侍中太史令，私谓宗正刘艾论天文。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

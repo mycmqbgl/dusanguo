@@ -1,0 +1,114 @@
+{
+ "id": "chi_bi_zhi_zhan",
+ "name": "赤壁之战·火烧连环",
+ "kind": "战役",
+ "start_year": 208,
+ "end_year": 208,
+ "date_text": "建安十三年（208）冬",
+ "summary": "群英会蒋干盗书反间、草船借箭、黄盖苦肉计、阚泽献书、庞统献连环、孔明七星坛借东风，周瑜火攻大破曹军八十三万，曹操华容道遇关羽义释。",
+ "detail": "操83万大军屯江北，周瑜3万水军屯三江口。蒋干过江盗伪书，操误斩水军都督蔡瑁张允；瑜妒亮之才，限期造十万箭，亮草船借箭得十余万。黄盖苦肉计当众受杖，阚泽献诈降书过江；蒋干再访引庞统入曹营，统献连环计锁大小战船。操横槊赋诗刺死刘馥。冬至东南风起，孔明七星坛祭风（演义），瑜令黄盖降船实载硫磺干柴，火起东南风烈，满江火滚，曹军烧死溺死者不计其数，操从华容道走，为关羽所拦——云长义释故主，操得脱，走南郡留曹仁守之。",
+ "place_id": "chi_bi",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "大都督，总指挥，火攻破敌"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "草船借箭、七星坛借风，赤壁方略关键"
+  },
+  {
+   "person_id": "huang_gai",
+   "role_desc": "苦肉计诈降，纵火烧曹船"
+  },
+  {
+   "person_id": "kan_ze",
+   "role_desc": "献诈降书，说曹操回天"
+  },
+  {
+   "person_id": "pang_tong",
+   "role_desc": "诈入曹营献连环计"
+  },
+  {
+   "person_id": "jiang_gan",
+   "role_desc": "两度过江，盗书中反间计"
+  },
+  {
+   "person_id": "lu_su",
+   "role_desc": "往来传信，维系孙刘协作"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "统 83 万大军南下，兵败华容道"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "华容道义释曹操"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "乌林截杀曹军"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "截击曹军溃兵"
+  },
+  {
+   "person_id": "cao_ren",
+   "role_desc": "受命守南郡接应败军"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "群英会反间",
+   "description": "蒋干盗书，操误斩蔡瑁张允。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "草船借箭",
+   "description": "亮三日得箭十余万，瑜自叹不如。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "苦肉连环",
+   "description": "黄盖受杖诈降，庞统献连环锁船。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "七星坛借风",
+   "description": "冬至风起，孔明祭风，瑜火攻之计成。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "火烧赤壁",
+   "description": "黄盖纵火，八十三万大军灰飞烟灭。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "华容义释",
+   "description": "操走华容道遇关羽，云长念旧义释。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [
+  "chi_bi_battle",
+  "huarong_battle"
+ ],
+ "passage_ids": [
+  45017,
+  46003,
+  47008,
+  48004,
+  49004,
+  49003,
+  50008,
+  50010
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "lu_kai",
+ "name": "陆凯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "陆凯，孙吴文臣，吴丞相。改宝鼎元年，以陆凯、万彧为左右丞相。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "吴丞相",
+   "basis": "第一百二十回原文：又改宝鼎元年，以陆凯、万彧为左右丞相。 职任「吴丞相」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

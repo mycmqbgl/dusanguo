@@ -1,0 +1,32 @@
+{
+ "id": "tian_yu",
+ "name": "田豫",
+ "courtesy": null,
+ "display_aliases": [
+  "田预"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 103,
+ "review_status": "auto_mined",
+ "summary": "田豫，曹魏文臣，曹将。第 103 回一笔带过，事迹仅存其名。",
+ "bio": "第 103 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 234,
+   "end_year": 234,
+   "title": "曹将",
+   "basis": "第一百零三回原文：孔明请入问之，祎曰：“魏主曹睿闻东吴三路进兵，乃自引大军至合淝，令满宠、田豫、刘劭分兵三路迎。 职任「曹将」据此；★任期按末见回目收敛：全书最后一次提及在第 103 回（234 年），原 234—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "notice": "异写：田预",
+ "mention_count": 2
+}

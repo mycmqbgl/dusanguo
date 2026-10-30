@@ -1,0 +1,29 @@
+{
+ "id": "yue_ji",
+ "name": "越吉",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 94,
+ "review_status": "auto_mined",
+ "summary": "越吉，异族武将，西羌元帅。越吉引兵至寨前，但见孔明携琴上车，引数骑入寨，望后而走。",
+ "bio": "。第 94 回：兴提刀待砍越吉，吉跃水而走。第 94 回：越吉引兵至寨前，但见孔明携琴上车，引数骑入寨，望后而走。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "西羌元帅",
+   "basis": "第九十四回原文：手下有一文一武：文乃雅丹丞相，武乃越吉元帅。 职任「西羌元帅」据此；★任期按末见回目收敛：全书最后一次提及在第 94 回（228 年），原 228—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 16
+}

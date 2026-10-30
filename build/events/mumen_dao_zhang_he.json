@@ -1,0 +1,36 @@
+{
+ "id": "mumen_dao_zhang_he",
+ "name": "木门道张郃之死",
+ "kind": "人物",
+ "start_year": 231,
+ "end_year": 231,
+ "date_text": "建兴九年（231）",
+ "summary": "诸葛亮第四次北伐退军，以伏兵诱张郃追至剑阁木门道，万弩齐发，郃死于乱箭之下。",
+ "detail": "孔明知祁山兵已回，令杨仪、马忠引一万弓弩手伏于剑阁木门道，又令魏延、关兴轮流诈败诱敌。张郃怒追不舍，一追再追，直入木门道中；一声炮响，大石乱柴滚下截断归路，两下万弩齐发，郃并百余部将皆射死于木门道中。诗曰：伏弩齐飞万点星，木门道上射雄兵。张郃之死，魏国良将折损，诸葛亮北伐以此收束第四次出师。",
+ "place_id": "jian_ge",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhang_he",
+   "role_desc": "奉司马懿命追击，中伏死于木门道"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "设伏授计，以魏延关兴诱郃入木门道"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "诈败诱敌，引郃深入"
+  },
+  {
+   "person_id": "wang_ping",
+   "role_desc": "受密计断后设伏（演义部署之一）"
+  }
+ ],
+ "passage_ids": [
+  101019,
+  101003,
+  101005
+ ],
+ "battle_ids": []
+}

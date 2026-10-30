@@ -1,0 +1,66 @@
+{
+ "id": "yi_ji",
+ "name": "伊籍",
+ "courtesy": "机伯",
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载；史载卒年不详。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "reviewed",
+ "summary": "伊籍，群雄文臣，刘表幕宾。伊籍退出，权问计于众谋士。",
+ "bio": "山阳巨野人，刘表同乡旧识，为表幕宾。蔡瑁于襄阳宴上欲害刘备，籍暗以「请更衣」示警，刘备得以逃席跃马檀溪。刘表死后随刘备，赤壁后奉使东吴，吴人欲以「君事无道之君」讥之，籍对答如流。后入蜀为昭文将军。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 201,
+   "end_year": 208,
+   "title": "刘表幕宾",
+   "lord_id": "liu_biao",
+   "basis": "201年前后为表宾客。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 223,
+   "title": "蜀汉从事中郎",
+   "lord_id": "liu_bei",
+   "basis": "summary「后随刘备入蜀为蜀汉从事」；据 summary 与百科基准（蜀汉）补。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 223,
+   "end_year": 231,
+   "title": "蜀汉昭文将军",
+   "lord_id": "liu_shan",
+   "basis": "后主朝与诸葛亮、法正等共造蜀科；据百科基准（蜀汉）补。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "暗示警",
+   "description": "襄阳宴上以更衣为名救刘备脱身。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "随备",
+   "description": "刘表死后归属刘备。",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：史载卒年不详｜演：生卒年演义未载",
+ "mention_count": 34
+}

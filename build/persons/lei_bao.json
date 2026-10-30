@@ -1,0 +1,43 @@
+{
+ "id": "lei_bao",
+ "name": "雷薄",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；袁术败亡后无事迹。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "雷薄，群雄武将，部将、灊山草寇。子回报：袁术奢侈太过，雷薄、陈兰皆投嵩山去了。",
+ "bio": "雷薄，袁术部将。七路伐徐为一路。术败后薄与陈兰等走灊山为寇。建安四年术势穷欲投薄，薄闭门不纳，术只得北投袁绍，途中为刘备邀击。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 199,
+   "title": "部将、灊山草寇",
+   "lord_id": "yuan_shu",
+   "basis": "袁术部将，后自立于灊山。",
+   "confidence": 0.7,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "属袁术",
+   "description": "为袁术部将。",
+   "importance": 1
+  },
+  {
+   "year": 199,
+   "title": "闭门不纳袁术",
+   "description": "术势穷来投，薄闭门不纳，术途穷而亡。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 7
+}

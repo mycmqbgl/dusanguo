@@ -1,0 +1,47 @@
+{
+ "id": "xiaoyaojin_zhi_zhan",
+ "name": "逍遥津之战",
+ "kind": "征伐",
+ "start_year": 215,
+ "end_year": 215,
+ "date_text": "建安二十年（215）",
+ "summary": "曹操西征汉中，张辽以八百人破孙权十万之众于合肥，威震逍遥津。",
+ "detail": "详见战役「逍遥津之战」。此战之后魏置扬州重兵于合肥，吴终曹操之世不能逾雷池一步。",
+ "place_id": "he_fei",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhang_liao",
+   "role_desc": "八百勇士突阵，威震逍遥津"
+  },
+  {
+   "person_id": "sun_quan",
+   "role_desc": "十万众围合肥，几被擒，飞渡断桥得脱"
+  },
+  {
+   "person_id": "ling_tong",
+   "role_desc": "率三百亲卫陷围死战，身被数创救主"
+  },
+  {
+   "person_id": "gan_ning",
+   "role_desc": "厉声奋击引弓射敌，助权突围"
+  },
+  {
+   "person_id": "li_dian",
+   "role_desc": "随辽出城突阵，护辽突围复入"
+  },
+  {
+   "person_id": "yue_jin",
+   "role_desc": "守护军拒守合肥城"
+  }
+ ],
+ "passage_ids": [
+  67017,
+  67015,
+  67013,
+  67013
+ ],
+ "battle_ids": [
+  "xiaoyaojin_battle"
+ ]
+}

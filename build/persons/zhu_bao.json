@@ -1,0 +1,29 @@
+{
+ "id": "zhu_bao",
+ "name": "朱褒",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "朱褒，异族武将，蜀牂牁太守，结连孟获反。牁郡太守朱褒、越嶲郡太守高定，二人献了城。",
+ "bio": "。第 87 回：牂牁郡太守朱褒、越嶲郡太守高定，二人献了城。第 87 回：现今雍闿、朱褒、高定三人部下人马，皆与孟获为向导官，攻打永昌郡。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "蜀牂牁太守，结连孟获反",
+   "basis": "第八十七回原文：现今雍闿、朱褒、高定三人部下人马，皆与孟获为向导官，攻打永昌郡。 职任「蜀牂牁太守，结连孟获反」据此；★任期按末见回目收敛：全书最后一次提及在第 87 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

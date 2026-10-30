@@ -1,0 +1,29 @@
+{
+ "id": "xia_hou_he",
+ "name": "夏侯和",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "夏侯和，曹魏文臣，行军司马。说夏侯惠、夏侯和二人入寨告司马懿曰：今蜀兵四散结营，各处屯田，以为久计；若不趁此时除之，纵令安居日久，深根固蒂，难以摇动。",
+ "bio": "第 103 回：夏侯惠、夏侯和二人入寨告司马懿曰：今蜀兵四散结营，各处屯田，以为久计。第 103 回：夏侯和曰：何不杀之。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 234,
+   "end_year": 234,
+   "title": "行军司马",
+   "basis": "第一百零二回原文：夏侯和为行军司马，共赞军机，以退蜀兵。 职任「行军司马」据此；★任期按末见回目收敛：全书最后一次提及在第 103 回（234 年），原 234—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

@@ -1,0 +1,29 @@
+{
+ "id": "sui_gu",
+ "name": "眭固",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 19,
+ "review_status": "auto_mined",
+ "summary": "眭固，群雄武将，张杨心腹将。操闻报，即遣史涣追斩眭固。",
+ "bio": "第 19 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 229,
+   "title": "张杨心腹将",
+   "basis": "第19回张杨心腹将眭固杀杨丑，反投犬城，为史涣追斩。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

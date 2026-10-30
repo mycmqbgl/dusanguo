@@ -1,0 +1,29 @@
+{
+ "id": "guo_gui_fei",
+ "name": "郭贵妃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "郭贵妃，曹魏女眷，曹丕妻。大怒，遂将甄夫人赐死，立郭贵妃为后。",
+ "bio": "。第 91 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 227,
+   "end_year": 266,
+   "title": "郭贵妃，曹丕妻",
+   "basis": "第九十一回原文：自丕纳为贵妃，因甄夫人失宠，郭贵妃欲谋为后，却与幸臣张韬商议。 职任「郭贵妃，曹丕妻」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

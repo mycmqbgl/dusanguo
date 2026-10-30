@@ -1,0 +1,29 @@
+{
+ "id": "pei_xiu",
+ "name": "裴秀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "裴秀，曹魏文臣，散骑长史。说吴兵大半降魏，裴秀告司马昭曰：吴兵老小，尽在东南江、淮之地，今若留之，久必为变；不如坑之。",
+ "bio": "。第 112 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "散骑长史",
+   "basis": "第112回司马昭召散骑长史裴秀、黄门侍郎钟会议破敌之策。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

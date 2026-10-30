@@ -1,0 +1,516 @@
+{
+  "comment": "P2-B（2026-10-28）：第 41–50 回的 3 组事件 + 3 场战役。passage_ids 由 scripts/gen_events_p2b.py 解析生成，禁止手改。",
+  "events": [
+    {
+      "id": "chang_ban_zhi_zhan",
+      "name": "长坂坡之战·携民渡江",
+      "kind": "战役",
+      "start_year": 208,
+      "end_year": 208,
+      "date_text": "建安十三年（208）秋",
+      "summary": "曹操南征荆州，刘琮投降。刘备不忍弃十余万百姓，日行十里于当阳长坂被五千虎豹骑追及，妻子失散；赵云单骑救主七进七出，张飞据水断桥一声喝退曹军，刘备走汉津与关羽船队会合，与刘琦合兵江夏。",
+      "detail": "操自统大军南征，刘琮出降而不告备。备屯樊城，不忍弃百姓，携十余万众扶老携幼渡江赴江陵，日行十余里。操令五千精骑一日一夜追及当阳长坂。备兵溃，家眷失散：赵云单骑往救，糜夫人身被数枪抱阿斗藏于断墙，托孤投井；云推墙掩井，怀抱阿斗七进七出，刺杀曹营名将五十余员，砍倒大旗夺槊三条，直透重围。张飞立于长坂桥，睁目横矛大喝「燕人张翼德在此！谁敢来决死战」，喝死夏侯杰，惊退曹军。备由汉津渡得关羽船队接应，刘琦引江夏兵来接，遂屯江夏。",
+      "place_id": "chang_ban",
+      "parent_event_id": null,
+      "participants": [
+        {
+          "person_id": "liu_bei",
+          "role_desc": "携民渡江，长坂溃围走汉津"
+        },
+        {
+          "person_id": "zhao_yun",
+          "role_desc": "单骑救主，七进七出刺名将五十余员"
+        },
+        {
+          "person_id": "zhang_fei",
+          "role_desc": "据水断桥，一声喝退曹军"
+        },
+        {
+          "person_id": "guan_yu",
+          "role_desc": "率船队于汉津接应"
+        },
+        {
+          "person_id": "zhuge_liang",
+          "role_desc": "献计赴江夏结连刘琦"
+        },
+        {
+          "person_id": "mi_furen",
+          "role_desc": "怀抱阿斗托孤赵云，投井殉难"
+        },
+        {
+          "person_id": "liu_qi",
+          "role_desc": "引江夏兵万余人接应"
+        },
+        {
+          "person_id": "cao_cao",
+          "role_desc": "亲统大军南征，遣五千虎豹骑追击"
+        },
+        {
+          "person_id": "xu_chu",
+          "role_desc": "曹军先锋将领追击"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 208,
+          "title": "琮降备走",
+          "description": "刘琮不告而降，备携十余万百姓南走江陵。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "长坂追及",
+          "description": "五千虎豹骑一日一夜追及当阳，备军大溃。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "云救阿斗",
+          "description": "赵云怀抱阿斗七进七出，糜夫人投井。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "飞喝断桥",
+          "description": "张飞据长坂桥喝退曹军，拆桥而走。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "汉津会合",
+          "description": "关羽船队汉津接应，与刘琦合兵屯江夏。",
+          "importance": 2
+        }
+      ],
+      "battle_ids": [
+        "chang_ban_battle"
+      ],
+      "passage_ids": [
+        41015,
+        41016,
+        42009
+      ]
+    },
+    {
+      "id": "sunliu_lianmeng",
+      "name": "孙刘联盟缔结",
+      "kind": "外交",
+      "start_year": 208,
+      "end_year": 208,
+      "date_text": "建安十三年（208）冬",
+      "summary": "曹操檄文威胁江东，主降主战相持。鲁肃过江吊丧引诸葛亮同赴柴桑，亮舌战群儒、智激孙权周瑜，孙权拔剑砍案决计抗曹，孙刘联盟自此缔结。",
+      "detail": "曹操下檄文「今统雄师百万，与将军会猎于江夏」，张昭为首主降，鲁肃独陈「众人皆可降，惟将军不可降」。肃以吊丧为名过江请孔明同见孙权。亮于柴桑舌战群儒，张昭、虞翻、步骘、薛综、陆绩、严畯、程秉皆被驳倒。见权，亮佯言曹兵百万何不投降以激之；复以曹丕坐大曹操「此天以君授之」点破权心。周瑜自鄱阳还，亮诵铜雀台赋「揽二乔于东南兮」激瑜决战之志，瑜拔剑砍案：「再有言降者必斩！」权拜瑜为大都督，与备合兵共抗曹操。",
+      "place_id": "chai_sang",
+      "parent_event_id": null,
+      "participants": [
+        {
+          "person_id": "zhuge_liang",
+          "role_desc": "舌战群儒、智激孙权周瑜，促成联盟"
+        },
+        {
+          "person_id": "sun_quan",
+          "role_desc": "拔剑砍案，决计抗曹，拜瑜为都督"
+        },
+        {
+          "person_id": "lu_su",
+          "role_desc": "力主联刘抗曹，引亮过江"
+        },
+        {
+          "person_id": "zhang_zhao",
+          "role_desc": "文官之首主降，舌战中被亮驳倒"
+        },
+        {
+          "person_id": "zhou_yu",
+          "role_desc": "自鄱阳还，力主决战，拜大都督"
+        },
+        {
+          "person_id": "liu_bei",
+          "role_desc": "屯夏口，遣亮结盟"
+        },
+        {
+          "person_id": "cao_cao",
+          "role_desc": "檄文威胁，曹军压境"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 208,
+          "title": "檄文压境",
+          "description": "操下檄威胁江东，张昭主降。",
+          "importance": 2
+        },
+        {
+          "year": 208,
+          "title": "舌战群儒",
+          "description": "孔明柴桑力驳张昭等七儒。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "智激孙权",
+          "description": "亮佯言劝降反激权抗曹之志。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "瑜砍案立誓",
+          "description": "亮诵铜雀台赋激瑜，瑜拔剑砍案，孙刘联盟成。",
+          "importance": 3
+        }
+      ],
+      "battle_ids": [],
+      "passage_ids": [
+        43001,
+        43004,
+        44001,
+        44001
+      ]
+    },
+    {
+      "id": "chi_bi_zhi_zhan",
+      "name": "赤壁之战·火烧连环",
+      "kind": "战役",
+      "start_year": 208,
+      "end_year": 208,
+      "date_text": "建安十三年（208）冬",
+      "summary": "群英会蒋干盗书反间、草船借箭、黄盖苦肉计、阚泽献书、庞统献连环、孔明七星坛借东风，周瑜火攻大破曹军八十三万，曹操华容道遇关羽义释。",
+      "detail": "操83万大军屯江北，周瑜3万水军屯三江口。蒋干过江盗伪书，操误斩水军都督蔡瑁张允；瑜妒亮之才，限期造十万箭，亮草船借箭得十余万。黄盖苦肉计当众受杖，阚泽献诈降书过江；蒋干再访引庞统入曹营，统献连环计锁大小战船。操横槊赋诗刺死刘馥。冬至东南风起，孔明七星坛祭风（演义），瑜令黄盖降船实载硫磺干柴，火起东南风烈，满江火滚，曹军烧死溺死者不计其数，操从华容道走，为关羽所拦——云长义释故主，操得脱，走南郡留曹仁守之。",
+      "place_id": "chi_bi",
+      "parent_event_id": null,
+      "participants": [
+        {
+          "person_id": "zhou_yu",
+          "role_desc": "大都督，总指挥，火攻破敌"
+        },
+        {
+          "person_id": "zhuge_liang",
+          "role_desc": "草船借箭、七星坛借风，赤壁方略关键"
+        },
+        {
+          "person_id": "huang_gai",
+          "role_desc": "苦肉计诈降，纵火烧曹船"
+        },
+        {
+          "person_id": "kan_ze",
+          "role_desc": "献诈降书，说曹操回天"
+        },
+        {
+          "person_id": "pang_tong",
+          "role_desc": "诈入曹营献连环计"
+        },
+        {
+          "person_id": "jiang_gan",
+          "role_desc": "两度过江，盗书中反间计"
+        },
+        {
+          "person_id": "lu_su",
+          "role_desc": "往来传信，维系孙刘协作"
+        },
+        {
+          "person_id": "cao_cao",
+          "role_desc": "统 83 万大军南下，兵败华容道"
+        },
+        {
+          "person_id": "guan_yu",
+          "role_desc": "华容道义释曹操"
+        },
+        {
+          "person_id": "zhang_fei",
+          "role_desc": "乌林截杀曹军"
+        },
+        {
+          "person_id": "zhao_yun",
+          "role_desc": "截击曹军溃兵"
+        },
+        {
+          "person_id": "cao_ren",
+          "role_desc": "受命守南郡接应败军"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 208,
+          "title": "群英会反间",
+          "description": "蒋干盗书，操误斩蔡瑁张允。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "草船借箭",
+          "description": "亮三日得箭十余万，瑜自叹不如。",
+          "importance": 2
+        },
+        {
+          "year": 208,
+          "title": "苦肉连环",
+          "description": "黄盖受杖诈降，庞统献连环锁船。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "七星坛借风",
+          "description": "冬至风起，孔明祭风，瑜火攻之计成。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "火烧赤壁",
+          "description": "黄盖纵火，八十三万大军灰飞烟灭。",
+          "importance": 3
+        },
+        {
+          "year": 208,
+          "title": "华容义释",
+          "description": "操走华容道遇关羽，云长念旧义释。",
+          "importance": 3
+        }
+      ],
+      "battle_ids": [
+        "chi_bi_battle",
+        "huarong_battle"
+      ],
+      "passage_ids": [
+        45017,
+        46003,
+        47008,
+        48004,
+        49004,
+        49003,
+        50008,
+        50010
+      ]
+    }
+  ],
+  "battles": [
+    {
+      "id": "chang_ban_battle",
+      "name": "长坂坡之战",
+      "year": 208,
+      "date_text": "建安十三年（208）九月",
+      "place_id": "chang_ban",
+      "event_id": "chang_ban_zhi_zhan",
+      "belligerents": [
+        {
+          "side": "曹军",
+          "faction_ids": [
+            "wei"
+          ],
+          "commanders": [
+            "cao_cao",
+            "xu_chu"
+          ],
+          "troops_desc": "五千精骑（虎豹骑）一日一夜三百里追击"
+        },
+        {
+          "side": "刘备军",
+          "faction_ids": [
+            "shu"
+          ],
+          "commanders": [
+            "liu_bei",
+            "zhao_yun",
+            "zhang_fei",
+            "guan_yu"
+          ],
+          "troops_desc": "步卒数千 + 十余万难民，溃而不灭"
+        }
+      ],
+      "result": "刘备军大溃而主力得存，家眷失而复得，退保江夏",
+      "casualties_note": "随行军民死伤无数；曹营名将五十余员为赵云所刺。",
+      "summary": "五千虎豹骑追及当阳长坂，备军溃。赵云单骑救阿斗七进七出，张飞断桥喝退追兵，刘备走汉津会关羽船队。",
+      "detail": "操以五千精骑急追，备拥十余万百姓辎重日行十余里，于当阳长坂被追及。备弃妻子先走，赵云反身杀入重围寻得主母幼主；糜夫人托孤投井，云抱阿斗夺路，七进七出斩将夺旗。行至长坂桥，张飞横矛立马，三喝喝死夏侯杰、喝退曹军，随即拆桥。操疑桥后有伏，缓追。备得关羽船队于汉津接应，刘琦引兵来会，同屯江夏。",
+      "front_line": [
+        {
+          "time": 208,
+          "time_seq": 1,
+          "kind": "追击",
+          "label": "虎豹骑追及",
+          "desc": "五千精骑一日一夜三百里，追及当阳长坂。",
+          "lng": 111.75,
+          "lat": 30.83
+        },
+        {
+          "time": 208,
+          "time_seq": 2,
+          "kind": "冲阵",
+          "label": "云救阿斗",
+          "desc": "赵云七进七出，怀抱阿斗突围。",
+          "lng": 111.75,
+          "lat": 30.83
+        },
+        {
+          "time": 208,
+          "time_seq": 3,
+          "kind": "断后",
+          "label": "飞喝断桥",
+          "desc": "张飞长坂桥三喝退敌，拆桥而走。",
+          "lng": 111.8,
+          "lat": 30.8
+        },
+        {
+          "time": 208,
+          "time_seq": 4,
+          "kind": "结局",
+          "label": "汉津会师",
+          "desc": "关羽船队接应渡汉水，与刘琦合兵江夏。",
+          "lng": 112.6,
+          "lat": 30.7
+        }
+      ]
+    },
+    {
+      "id": "chi_bi_battle",
+      "name": "赤壁之战",
+      "year": 208,
+      "date_text": "建安十三年（208）冬（十一月二十甲子祭风，火攻随后）",
+      "place_id": "chi_bi",
+      "event_id": "chi_bi_zhi_zhan",
+      "belligerents": [
+        {
+          "side": "曹军",
+          "faction_ids": [
+            "wei"
+          ],
+          "commanders": [
+            "cao_cao",
+            "cao_ren",
+            "xu_chu"
+          ],
+          "troops_desc": "号称八十三万（北军十五六万 + 荆州降军七八万），战船连锁"
+        },
+        {
+          "side": "孙刘联军",
+          "faction_ids": [
+            "wu",
+            "shu"
+          ],
+          "commanders": [
+            "zhou_yu",
+            "zhuge_liang",
+            "huang_gai",
+            "lu_su",
+            "guan_yu",
+            "zhang_fei",
+            "zhao_yun"
+          ],
+          "troops_desc": "周瑜三万水军 + 刘备刘琦二万，黄盖诈降火船二十只"
+        }
+      ],
+      "result": "火烧连环，曹军八十三万溃败，三分天下之势自此定",
+      "casualties_note": "曹军烧死溺死者不计其数；周瑜督战诸将分头掩杀。",
+      "summary": "东南风大作，黄盖诈降火船直入曹军水寨，连环船一炬俱焚，火趁风威风助火势，曹军大溃。",
+      "detail": "操军战船连锁，人马如潮。周瑜登高一望，见曹军旌旗无空，急火攻心呕血，得孔明「欲破曹公，宜用火攻；万事俱备，只欠东风」点破。冬至后甲子，孔明七星坛借得东南风（演义）。瑜令黄盖诈降船二十只实载芦苇干柴硫磺焰硝，二更直插水寨，火船一齐点着，风助火势，曹军船烧寨烧岸上营寨皆着，太史慈等分头掩杀，操自乌林败走。",
+      "front_line": [
+        {
+          "time": 208,
+          "time_seq": 1,
+          "kind": "布阵",
+          "label": "连环锁船",
+          "desc": "曹军战船连锁屯江北，联军屯三江口。",
+          "lng": 113.6,
+          "lat": 29.83
+        },
+        {
+          "time": 208,
+          "time_seq": 2,
+          "kind": "借风",
+          "label": "七星坛祭风",
+          "desc": "孔明坛上祭风，东南风大起。",
+          "lng": 113.9,
+          "lat": 29.75
+        },
+        {
+          "time": 208,
+          "time_seq": 3,
+          "kind": "火攻",
+          "label": "黄盖纵火",
+          "desc": "诈降火船直入水寨，连环船一炬俱焚。",
+          "lng": 113.6,
+          "lat": 29.83
+        },
+        {
+          "time": 208,
+          "time_seq": 4,
+          "kind": "溃败",
+          "label": "乌林败走",
+          "desc": "曹军全面溃败，操自乌林陆路西走。",
+          "lng": 113.7,
+          "lat": 29.9
+        }
+      ]
+    },
+    {
+      "id": "huarong_battle",
+      "name": "华容道之战",
+      "year": 208,
+      "date_text": "建安十三年（208）冬",
+      "place_id": "huarong_dao",
+      "event_id": "chi_bi_zhi_zhan",
+      "belligerents": [
+        {
+          "side": "曹军残部",
+          "faction_ids": [
+            "wei"
+          ],
+          "commanders": [
+            "cao_cao",
+            "xu_chu"
+          ],
+          "troops_desc": "溃兵三百余骑，人困马乏，衣甲淋雨"
+        },
+        {
+          "side": "刘备军",
+          "faction_ids": [
+            "shu"
+          ],
+          "commanders": [
+            "guan_yu"
+          ],
+          "troops_desc": "五百校刀手伏华容道"
+        }
+      ],
+      "result": "关羽义释曹操——亮明知操命不当绝而故意遣之",
+      "casualties_note": "曹军残部十不存一；关羽部未损一人。",
+      "summary": "操败走乌林、葫芦口、华容道三处伏兵皆过，最后华容道遇关羽。云长念昔日恩义，甘违军令状，放操一条生路。",
+      "detail": "亮算定操必走华容，遣关羽守之，云长立军令状。操过乌林遇赵云、葫芦口遇张飞，损兵折将。至华容道泥泞难行，人马陷于泥中。关羽提刀纵马而出，曹军人尽丧胆。操用程昱之策向云长求情，云长见曹军惶惶皆欲垂泪，一发心中不忍，放去。回营请死，亮以其「不忘故主之情」释之（实知操命不当绝）。",
+      "front_line": [
+        {
+          "time": 208,
+          "time_seq": 1,
+          "kind": "败走",
+          "label": "乌林遇伏",
+          "desc": "操自乌林西走，赵云截杀。",
+          "lng": 113.7,
+          "lat": 29.9
+        },
+        {
+          "time": 208,
+          "time_seq": 2,
+          "kind": "再败",
+          "label": "葫芦口再败",
+          "desc": "张飞截杀，曹军疲敝。",
+          "lng": 113.4,
+          "lat": 29.95
+        },
+        {
+          "time": 208,
+          "time_seq": 3,
+          "kind": "断后",
+          "label": "华容对峙",
+          "desc": "关羽五百校刀手拦路，曹军丧胆。",
+          "lng": 112.9,
+          "lat": 29.9
+        },
+        {
+          "time": 208,
+          "time_seq": 4,
+          "kind": "结局",
+          "label": "义释曹操",
+          "desc": "云长念旧恩放行，操走南郡。",
+          "lng": 112.9,
+          "lat": 29.9
+        }
+      ]
+    }
+  ]
+}

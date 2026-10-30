@@ -1,0 +1,29 @@
+{
+ "id": "yang_huai",
+ "name": "杨怀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 61,
+ "review_status": "auto_mined",
+ "summary": "杨怀，群雄武将，白水都督。杨怀曰：此计大妙。",
+ "bio": "第 62 回：来到关前，杨怀、高沛闻知此事，遂教高沛守关，杨怀同使者入成都，见刘璋呈上书信。第 62 回：仍令杨怀、高沛紧守关隘。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 212,
+   "title": "白水都督",
+   "basis": "第六十一回原文：璋初时不从，后因众人苦劝，乃令白水都督杨怀、高沛二人，守把涪水关。 职任「白水都督」据此；★任期按末见回目收敛：全书最后一次提及在第 62 回（212 年），原 211—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

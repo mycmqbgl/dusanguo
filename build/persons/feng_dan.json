@@ -1,0 +1,29 @@
+{
+ "id": "feng_dan",
+ "name": "冯紞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "冯紞，西晋文臣，侍中。充、荀顗、冯紞三人，力言不可，炎因此不行。",
+ "bio": "原文第 120 回相关片段：「司马炎观表，大喜，便令兴师。贾充、荀顗、冯紞三人，力言不可，炎因此不行。祜闻上不允其请，叹曰」。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "文臣",
+   "start_year": 265,
+   "end_year": 290,
+   "title": "侍中",
+   "basis": "第120回晋武帝司马炎欲兴师伐吴，侍中冯紞力言不可，事在 265 年之后。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

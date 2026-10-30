@@ -1,0 +1,87 @@
+{
+ "id": "meng_de_xian_dao",
+ "name": "孟德献刀",
+ "kind": "刺杀事件",
+ "start_year": 189,
+ "end_year": 189,
+ "date_text": "中平六年（189）冬",
+ "summary": "曹操持王允七宝刀入相府行刺董卓，事败托名献刀，逃出洛阳，中牟被擒得陈宫相释，误杀吕伯奢一家——「宁教我负天下人」定其枭雄底色。",
+ "detail": "董卓欺主弄权，王允寿宴上旧臣痛哭。曹操自请借七宝刀入相府刺卓：卓倒身而卧，操拔刀欲刺，卓见衣镜中刀光回身，吕布已牵马至阁外。操急持刀跪下曰「操有宝刀一口，献上恩相」，托词脱身，出城飞马而逃。卓省悟，画影图形遍行文书捉拿。操至中牟为县令陈宫所擒，宫闻其讨贼之志，弃官同逃。至成皋吕伯奢庄上，闻磨刀之声疑其加害，遂杀其家八口；出见伯奢沽酒归来，亦杀之。宫责之，操曰「宁教我负天下人，休教天下人负我」。宫见操是狼心之徒，弃之而走。",
+ "place_id": "luo_yang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "行刺者，事败后亡命兖州"
+  },
+  {
+   "person_id": "dong_zhuo",
+   "role_desc": "被刺者，衣镜中见刀光"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "牵马至阁外，恰好撞破行刺时机"
+  },
+  {
+   "person_id": "li_ru",
+   "role_desc": "谏卓「操无家小，宜召问之」"
+  },
+  {
+   "person_id": "wang_yun",
+   "role_desc": "借出七宝刀（寿宴定计）"
+  },
+  {
+   "person_id": "chen_gong",
+   "role_desc": "中牟县令，释操并弃官同逃，后弃之而去"
+  },
+  {
+   "person_id": "cao_song",
+   "role_desc": "操父，操亡命时投奔陈留其家（起兵资助出自卫弘）"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "寿宴定计",
+   "description": "王允寿宴上旧臣相对而哭，曹操自请借七宝刀往刺董卓。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "献刀脱身",
+   "description": "操拔刀欲刺，卓见镜中刀光回身；布牵马至。操托名献刀，飞马出东门。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "画影图形",
+   "description": "李儒提醒「操必有异」，卓悟，遍行文书捉拿曹操。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "中牟被擒",
+   "description": "操为中牟军士所获，县令陈宫闻其志，亲释其缚，弃官同逃。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "误杀吕伯奢",
+   "description": "成皋庄上闻磨刀声而尽杀其家，复杀伯奢。「宁教我负天下人」出自此处。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "陈宫弃操",
+   "description": "宫见操「狼心之徒」，本欲杀之，念「为国家可惜此人」，弃之自去。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  4022,
+  4023,
+  4024,
+  4027
+ ],
+ "battle_ids": []
+}

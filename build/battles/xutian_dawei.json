@@ -1,0 +1,70 @@
+{
+ "id": "xutian_dawei",
+ "name": "许田打围",
+ "year": 199,
+ "date_text": "建安四年（199）",
+ "place_id": "xu_tian",
+ "event_id": "yidai_zhao",
+ "belligerents": [
+  {
+   "side": "曹操与汉臣",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao"
+   ],
+   "troops_desc": "借天子仪仗"
+  },
+  {
+   "side": "汉室（帝与诸臣）",
+   "faction_ids": [
+    "han"
+   ],
+   "commanders": [
+    "liu_xie"
+   ],
+   "troops_desc": "随驾"
+  }
+ ],
+ "result": "曹操僭越毕露，汉臣自此知操必篡",
+ "casualties_note": "无交战；关羽拔剑欲杀操被刘备摇手止之。",
+ "summary": "操借天子仪仗打围，受贺僭越「遮前欺后」；关羽拍弓欲杀，备止之——汉曹决裂的标志性一幕。",
+ "detail": "操请天子田猎以观动静。围场中操纵马直出遮于帝前迎受「万岁」之贺，僭越毕露。关羽剔起卧蚕眉、拍弓搭箭欲斩操，备摇手送目止之。操自此知帝与诸臣不平，遂有「许田打围」之议的朝局。",
+ "front_line": [
+  {
+   "time": 199,
+   "time_seq": 1,
+   "kind": "出猎",
+   "label": "借天子仪仗",
+   "desc": "操请帝田猎，帝曰「欲观卿之武艺」。",
+   "lng": 114.03,
+   "lat": 34.03,
+   "pixel_x": 800.1,
+   "pixel_y": 460.2
+  },
+  {
+   "time": 199,
+   "time_seq": 2,
+   "kind": "僭越",
+   "label": "遮帝受贺",
+   "desc": "操纵马遮于帝前受「万岁」之贺。",
+   "lng": 114.07,
+   "lat": 34.05,
+   "pixel_x": 801.7,
+   "pixel_y": 459.2
+  },
+  {
+   "time": 199,
+   "time_seq": 3,
+   "kind": "杀机",
+   "label": "云长欲斩",
+   "desc": "关羽拍弓欲杀，备摇手止之。",
+   "lng": 113.99,
+   "lat": 34.0,
+   "pixel_x": 798.5,
+   "pixel_y": 461.5
+  }
+ ],
+ "place_name": "许田"
+}

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>读三国 · 地图</title>
+<style>
+  :root{--paper:#f6f2e9;--ink:#2b2620;--ink2:#6b6357;--ink3:#9a9284;--line:#ddd4c2;--accent:#9c2b1f;--water:#6f8fa3;--person:#8a5a1f;--paper2:#fffdf8}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:100vh;display:flex;flex-direction:column;background:var(--paper);color:var(--ink);font-family:"Noto Serif SC",STSong,SimSun,serif;overflow:hidden}
+  /* 地图上的文字是图形注记：禁止选中（否则点击拖动出现蓝色选区），点击穿透由各组 pointer-events 控制 */
+  svg{user-select:none;-webkit-user-select:none}
+  svg text{user-select:none;-webkit-user-select:none}
+  button{font-family:inherit}
+
+  /* ---------- 顶栏 ---------- */
+  .top{display:flex;align-items:center;gap:14px;padding:9px 18px;border-bottom:1px solid var(--line);background:var(--paper2);flex:none}
+  .top .t{font-size:15px;letter-spacing:2px}
+  .top .meta{font-size:11.5px;color:var(--ink3)}
+  .grow{flex:1}
+  .zc{display:flex;align-items:center;gap:2px;border:1px solid var(--line);border-radius:4px;background:#fff;overflow:hidden}
+  .zc button{width:28px;height:26px;border:0;background:transparent;color:var(--ink2);font-size:15px;cursor:pointer;line-height:1}
+  .zc button:hover{background:#f4ead9;color:var(--accent)}
+  .zc .fit{width:auto;padding:0 10px;font-size:12px;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+  .zc .lb{font-size:11.5px;color:var(--ink2);padding:0 9px;min-width:52px;text-align:center;font-variant-numeric:tabular-nums}
+  .tag{font-size:11px;padding:3px 9px;border-radius:20px;border:1px solid var(--line);color:var(--ink3)}
+
+  /* ---------- 布局 ---------- */
+  .main{flex:1;display:flex;min-height:0}
+  .side{width:300px;flex:none;border-right:1px solid var(--line);display:flex;flex-direction:column;background:var(--paper2)}
+  .tabs{display:flex;border-bottom:1px solid var(--line);flex:none}
+  .tabs div{flex:1;text-align:center;padding:9px 0;font-size:12.5px;cursor:pointer;color:var(--ink2)}
+  .tabs div.on{color:var(--accent);box-shadow:inset 0 -2px 0 var(--accent)}
+  .search{padding:8px 10px;border-bottom:1px solid var(--line);flex:none}
+  .search input{width:100%;padding:6px 9px;border:1px solid var(--line);border-radius:4px;font-family:inherit;font-size:13px;background:#fff;color:var(--ink)}
+  .search input:focus{outline:none;border-color:var(--accent)}
+  .list{flex:1;overflow-y:auto;font-size:13px;min-height:80px}
+  .item{padding:7px 12px;cursor:pointer;border-bottom:1px dashed var(--line);display:flex;gap:8px;align-items:baseline}
+  .item:hover{background:#f4efe3}
+  .item.on{background:#f2e5cd;box-shadow:inset 3px 0 0 var(--accent)}
+  .item .nm{font-size:13.5px}
+  .item .ty{font-size:10.5px;color:var(--ink3);margin-left:auto;white-space:nowrap}
+  .item .sub{display:block;font-size:10.5px;color:var(--ink3);margin-top:1px}
+
+  /* ---------- 侧栏底部：原卡片文字内容改放这里 ---------- */
+  .detail{flex:none;border-top:1px solid var(--line);background:#fbf7ee;max-height:46%;overflow-y:auto;padding:12px 14px;font-size:12.5px}
+  .detail.empty{color:var(--ink3);font-size:12px;line-height:1.9;max-height:none;padding:14px}
+  .detail h4{font-size:15px;font-weight:400;margin-bottom:2px;display:flex;align-items:baseline;gap:7px}
+  .detail h4 .k{font-size:10.5px;color:var(--ink3);border:1px solid var(--line);border-radius:3px;padding:1px 5px}
+  .detail .rows{margin-top:8px;display:grid;grid-template-columns:auto 1fr;gap:4px 10px;line-height:1.6}
+  .detail .rows .k{color:var(--ink3);font-size:11.5px;white-space:nowrap}
+  .detail .rows .v{color:#4a443b}
+  .detail .desc{margin-top:9px;padding-top:9px;border-top:1px dashed var(--line);color:#4a443b;line-height:1.75}
+  .detail .lit{font-size:11px;color:var(--accent)}
+  .detail .nd{padding:3px 0 3px 11px;border-left:2px solid var(--line);position:relative;color:var(--ink2);line-height:1.6}
+  .detail .nd.on{border-color:var(--accent);color:var(--ink)}
+  .detail .nd::before{content:"";position:absolute;left:-4px;top:9px;width:6px;height:6px;border-radius:50%;background:var(--line)}
+  .detail .nd.on::before{background:var(--accent)}
+  .detail .nd b{color:var(--accent);font-weight:600;margin-right:5px}
+  .btn{font-size:11.5px;padding:3px 10px;border:1px solid var(--accent);color:var(--accent);border-radius:3px;cursor:pointer;background:transparent;font-family:inherit}
+  .btn:hover{background:rgba(156,43,31,.07)}
+
+  /* ---------- 地图 ---------- */
+  .stage{flex:1;position:relative;min-width:0;background:#f3ede0;overflow:hidden}
+  #svg{width:100%;height:100%;display:block;cursor:grab;touch-action:none}
+  #svg.grabbing{cursor:grabbing}
+  .hint{position:absolute;left:14px;bottom:14px;font-size:11.5px;color:var(--ink2);background:rgba(255,253,248,.9);
+        padding:6px 11px;border-radius:4px;border:1px solid var(--line);pointer-events:none;line-height:1.7}
+  .hint b{font-weight:400;color:var(--accent)}
+  .scale{position:absolute;right:14px;bottom:14px;font-size:11px;color:var(--ink2);background:rgba(255,253,248,.9);
+         padding:5px 10px;border-radius:4px;border:1px solid var(--line);pointer-events:none}
+
+  /* ═══ 与 reader 的「绢本设色 v2」对齐（2026-10-30）：顶栏/侧栏用深木色，
+         纸色留给地图与详情，两页不像两个产品 ═══ */
+  body{background:#e9dfc4}
+  .top{background:
+      linear-gradient(180deg,rgba(255,240,205,.10),rgba(255,240,205,0) 46%),
+      linear-gradient(180deg,#3a2f1e 0%,#2c2315 58%,#241c10 100%);
+    border-bottom:2px solid #6d5730;
+    box-shadow:inset 0 1px 0 rgba(240,215,160,.16),0 2px 0 rgba(194,160,92,.16),0 3px 18px rgba(28,20,10,.42)}
+  .top .t{color:#e0c68c;letter-spacing:4px;font-weight:700;text-shadow:0 1px 2px rgba(0,0,0,.6)}
+  .top .meta{color:#a08c65}
+  .tag{color:#a08c65;border-color:rgba(194,160,92,.28);background:rgba(255,240,205,.05)}
+  .zc{background:rgba(253,249,238,.96);border-color:#6d5730}
+  .zc button{color:#6b5f4c}
+  .zc button:hover{background:#f2e6cc;color:#a3442f}
+  .zc .lb{color:#6b5f4c}
+  .side{background:
+      linear-gradient(180deg,rgba(255,238,200,.05),transparent 30%),
+      linear-gradient(180deg,#332a1a 0%,#3b301f 55%,#332a1a 100%);
+    border-right:1px solid #5c4a2c;
+    box-shadow:inset -1px 0 0 rgba(194,160,92,.14),3px 0 16px rgba(28,20,10,.18)}
+  .tabs{border-bottom:1px solid rgba(194,160,92,.24)}
+  .tabs div{color:#c4b48e}
+  .tabs div:hover{background:rgba(232,206,150,.07);color:#f2e3c0}
+  .tabs div.on{color:#f7e8c2;background:linear-gradient(180deg,rgba(194,160,92,.22),rgba(194,160,92,.04));
+    box-shadow:inset 0 -2px 0 #c2a05c}
+  .search{border-bottom:1px solid rgba(194,160,92,.18)}
+  .search input{background:rgba(253,249,238,.95);border-color:#5c4a2c;color:#2b2620}
+  .item{color:#c4b48e;border-bottom:1px dashed rgba(194,160,92,.15)}
+  .item:hover{background:rgba(232,206,150,.08);color:#f2e3c0}
+  .item.on{background:linear-gradient(90deg,rgba(163,52,42,.34),rgba(163,52,42,.04));
+    color:#f8e9c6;box-shadow:inset 3px 0 0 #bd4a35}
+  .item .nm{color:inherit}
+  .item .ty,.item .sub{color:#9d8a63}
+  .item.on .ty,.item.on .sub{color:#cbb894}
+  .detail{background:
+      repeating-linear-gradient(90deg,rgba(150,120,70,.05) 0 1px,transparent 1px 27px),
+      linear-gradient(180deg,#fdf8ec,#f8f1de);
+    border-top:1px solid #cdb98d}
+  .detail.empty{color:#9a8a6c;background:
+      repeating-linear-gradient(90deg,rgba(150,120,70,.05) 0 1px,transparent 1px 27px),
+      linear-gradient(180deg,#faf3e1,#f4ead4)}
+  .stage{background:#e6dcc2;box-shadow:inset 0 0 40px rgba(90,72,45,.12)}
+  .hint,.scale{background:rgba(253,249,238,.92);border-color:#d6c39c;color:#6b5f4c;
+    box-shadow:0 1px 4px rgba(60,45,25,.1)}
+  .btn{color:#8c3a2a;border-color:#a3442f}
+  .btn:hover{background:rgba(163,52,42,.08)}
+</style>
+</head>
+<body>
+<div class="top">
+  <div class="t">地图</div>
+  <div class="meta" id="canvas-meta"></div>
+  <div class="grow"></div>
+  <div class="tag">可缩放</div>
+  <div class="zc">
+    <button id="zo" title="缩小">−</button>
+    <div class="lb" id="zlb">1.00×</div>
+    <button id="zi" title="放大">＋</button>
+    <button class="fit" id="zfit" title="回到全图">全图</button>
+  </div>
+</div>
+<div class="main">
+  <div class="side">
+    <div class="tabs">
+      <div class="on" data-tab="place">地名（<span id="cnt-place"></span>）</div>
+      <div data-tab="county">县邑（<span id="cnt-county"></span>）</div>
+      <div data-tab="battle">战役</div>
+    </div>
+    <div class="search"><input id="q" placeholder="检索地名 / 今地 / 州郡…"></div>
+    <div class="list" id="list"></div>
+    <div class="detail empty" id="detail">点击左侧列表或地图上的点位，此处显示该地详情。地图可自由缩放：滚轮、双击、拖拽。</div>
+  </div>
+  <div class="stage">
+    <svg id="svg"></svg>
+    <div class="hint">滚轮 / 双击 <b>缩放</b>　·　拖拽 <b>平移</b>　·　点击点位 <b>定位</b></div>
+    <div class="scale" id="scale"></div>
+  </div>
+</div>
+<script>/*__MAPCORE__*/</script>
+<script>if (/[?&]shot=1/.test(location.search)) { const s = document.createElement('style');
+  s.textContent = '*,*::before,*::after{transition:none!important;animation:none!important}';
+  document.head.appendChild(s); }</script>
+<script>
+/* 本页只负责「列表 / 详情 / 深链 / 播放调度」，底图与缩放全部走 MapCore。
+   任何看起来像底图或注记分级的代码都不该出现在这里——它在 app/map_core.js。 */
+const DATA = /*__DATA__*/null;
+const C = DATA.canvas, GEO = DATA.geo;
+const MC = MapCore;
+const el = MC.el, esc = MC.esc;
+const svg = document.getElementById('svg');
+
+const REFS = MC.drawBase(svg, C, GEO);
+
+/* ---------- 点位 ---------- */
+const gPlaces = el('g', {}); svg.appendChild(gPlaces);
+const DOT = new Map();
+DATA.places.forEach(p => {
+  const c = el('circle', { cx: p.x, cy: p.y, r: 3.4, fill: '#b3a690' });
+  c.style.cursor = 'pointer';
+  c.addEventListener('click', e => { e.stopPropagation(); selectPlace(p); });
+  gPlaces.appendChild(c); DOT.set(p.id, c);
+});
+const gFocus = el('g', {}); svg.appendChild(gFocus);
+const gBattle = el('g', {}); svg.appendChild(gBattle);
+
+/* ---------- 视图 ----------
+   pz（感知缩放）由 MapCore 按「显示宽 / 画布宽」折算：窗口不是 1400px 宽时，
+   注记与选中名牌仍然保持设定的屏幕像素尺寸。 */
+let view = null;
+const FOCUS = MC.makeFocus(gFocus, C, () => (view ? view.pz() : 1), REFS);
+const zlb = document.getElementById('zlb');
+const scaleBox = document.getElementById('scale');
+
+view = MC.createView(svg, C, {
+  min: 1, max: 14,
+  onApply: (V, pz) => {
+    DOT.forEach(c => c.setAttribute('r', (3.4 / pz).toFixed(3)));
+    MC.decorScale(REFS, svg, C, V.s);
+    MC.applySpacing(gBattle, pz);
+    FOCUS.place();
+    const w = C.w / V.s, h = C.h / V.s;
+    scaleBox.textContent = `视野 ${Math.round(w)}×${Math.round(h)} / 全图 ${C.w}×${C.h}`;
+  },
+  onZoomLabel: s => { zlb.textContent = s.toFixed(2) + '×'; }
+});
+view.bind({ zi: 'zi', zo: 'zo' });
+document.getElementById('zfit').onclick = () => { stopAutoplay(); view.animateTo(C.w / 2, C.h / 2, 1); };
+
+/* ---------- 详情面板 ---------- */
+const detail = document.getElementById('detail');
+function setDetail(html) { detail.className = 'detail'; detail.innerHTML = html; }
+
+/* ---------- 地名定位：直接缩放过去 ---------- */
+function selectPlace(p) {
+  stopAutoplay();
+  clearBattle();
+  FOCUS.clear();
+  FOCUS.add(p.x, p.y, p.name, '#9c2b1f');
+  view.animateTo(p.x, p.y, p.zoom || 3);
+
+  setDetail(`
+    <h4>${esc(p.name)}<span class="k">${esc(p.type)}</span></h4>
+    <div class="rows">
+      <span class="k">今地</span><span class="v">${esc(p.modern || '—')}</span>
+      <span class="k">时属</span><span class="v">${esc(p.adm || '—')}</span>
+      <span class="k">经纬</span><span class="v">${p.lng.toFixed(2)}°E, ${p.lat.toFixed(2)}°N <span class="lit">${esc(p.prec || '')}</span></span>
+      <span class="k">首见</span><span class="v">${p.ch ? '第 ' + p.ch + ' 回' : '—'}</span>
+      <span class="k">像素</span><span class="v">(${p.x}, ${p.y})　${esc(C.tile_sheet)}</span>
+    </div>
+    <div class="desc">已定位到该点位，比例 ${(p.zoom || 3).toFixed(1)}×。地图可继续自由缩放，或拖拽查看周边。</div>`);
+
+  document.querySelectorAll('.item.on').forEach(e => e.classList.remove('on'));
+  const it = document.querySelector(`.item[data-id="${p.id}"]`);
+  if (it) { it.classList.add('on'); it.scrollIntoView({ block: 'nearest' }); }
+}
+/* ---------- 县邑定位 ---------- */
+function selectCounty(c) {
+  stopAutoplay();
+  clearBattle();
+  FOCUS.clear();
+  FOCUS.add(c.x, c.y, c.name, '#8a5a1f');
+  view.animateTo(c.x, c.y, 5.5);
+  setDetail(`
+    <h4>${esc(c.name)}<span class="k">${c.tier === '都' ? '郡国治所' : '县邑'}</span></h4>
+    <div class="rows">
+      <span class="k">属郡</span><span class="v">${esc(c.adm)}</span>
+      <span class="k">属州</span><span class="v">${esc(c.zhou)}</span>
+    </div>
+    <div class="desc">东汉县邑点位（据《后汉书·郡国志》比定，示意精度）。点击主点位可看该地在演义中的出典。</div>`);
+  document.querySelectorAll('.item.on').forEach(e => e.classList.remove('on'));
+  const it = document.querySelector(`.item[data-c="${c.name}|${c.adm}"]`);
+  if (it) { it.classList.add('on'); it.scrollIntoView({ block: 'nearest' }); }
+}
+
+/* ---------- 战线动画 ---------- */
+let timer = null;
+function stopAutoplay() { if (timer) { clearInterval(timer); timer = null; } }
+function clearBattle() { gBattle.innerHTML = ''; }
+
+function playBattle(b) {
+  stopAutoplay();
+  FOCUS.clear();
+  const xs = b.nodes.map(n => n.x), ys = b.nodes.map(n => n.y);
+  const cx = (Math.min(...xs) + Math.max(...xs)) / 2, cy = (Math.min(...ys) + Math.max(...ys)) / 2;
+  const w = Math.max(...xs) - Math.min(...xs) + 140, h = Math.max(...ys) - Math.min(...ys) + 140;
+  const sFit = Math.min(C.w / w, C.h / h, 9);
+  gBattle.innerHTML = '';
+  /* 全线虚影：给观众一条「整场推进」的参照，避免只看到当前一段 */
+  MC.battlePath(gBattle, b.nodes, { ghost: true, sz: 2.2, dash: '9 7' });
+
+  const ev = DATA.events.find(e => e.id === b.event_id);
+  const head = `<h4>${esc(b.name)}<span class="k">战役</span></h4>
+    <div class="rows"><span class="k">父事件</span><span class="v">${esc(ev ? ev.name : '—')}</span>
+    <span class="k">时间</span><span class="v">${esc(b.date_text || b.year || '')}</span>
+    <span class="k">地点</span><span class="v">${esc(b.place_name || '')}</span></div>
+    <div style="margin:10px 0 6px;display:flex;align-items:center;gap:8px">
+      <span style="font-size:11.5px;color:var(--ink3)" id="nst">0 / ${b.nodes.length}</span>
+      <button class="btn" id="replay">重播</button>
+      <span style="font-size:10.5px;color:var(--ink3)">滚轮/拖拽可接管镜头</span>
+    </div>`;
+
+  const draw = upto => {
+    gBattle.querySelectorAll('.live').forEach(e => e.remove());
+    const live = el('g', { class: 'live' });
+    const pts = b.nodes.slice(0, upto + 1);
+    if (pts.length > 1) MC.battlePath(live, pts, { sz: 2.6 });
+    pts.forEach((n, idx) => {
+      MC.battleNode(live, n, view.pz(), {
+        past: idx !== upto, up: idx % 2 === 0,
+        label: `${n.seq}. ${n.label}`
+      });
+    });
+    gBattle.appendChild(live);
+    MC.applySpacing(gBattle, view.pz());
+    const n = b.nodes[upto];
+    view.animateTo(n.x, n.y, 7, 700);
+    setDetail(head + `<div style="margin-top:4px">`
+      + b.nodes.map((x, k) => `<div class="nd${k <= upto ? ' on' : ''}"><b>${x.seq}</b>${esc(x.kind)}·${esc(x.label)}</div>`).join('')
+      + `</div><div class="desc"><b style="font-weight:400;color:var(--accent)">${n.seq}. ${esc(n.kind)}·${esc(n.label)}</b>　${esc(n.desc)}</div>`);
+    const st = document.getElementById('nst'); if (st) st.textContent = (upto + 1) + ' / ' + b.nodes.length;
+    const rp = document.getElementById('replay'); if (rp) rp.onclick = () => playBattle(b);
+  };
+
+  view.animateTo(cx, cy, sFit, 600);
+  setDetail(head + b.nodes.map(x => `<div class="nd"><b>${x.seq}</b>${esc(x.kind)}·${esc(x.label)}</div>`).join(''));
+  if (window.__snap) { draw(b.nodes.length - 1); return; }   // 回归：直接落最终帧
+  let i = 0;
+  setTimeout(() => {
+    if (!document.getElementById('nst')) return;   // 用户已切走
+    draw(0);
+    timer = setInterval(() => {
+      i++;
+      if (i >= b.nodes.length) { stopAutoplay(); return; }
+      draw(i);
+    }, 1300);
+  }, 700);
+}
+
+/* ---------- 列表与检索 ---------- */
+const list = document.getElementById('list'), q = document.getElementById('q');
+document.getElementById('cnt-place').textContent = DATA.places.length;
+document.getElementById('cnt-county').textContent = (GEO.counties || []).length;
+let tab = 'place';
+function render() {
+  const kw = q.value.trim();
+  if (tab === 'place') {
+    const arr = DATA.places.filter(p => !kw || p.name.includes(kw) || (p.modern || '').includes(kw) || (p.adm || '').includes(kw));
+    list.innerHTML = arr.map(p => `<div class="item" data-id="${p.id}">
+        <div><span class="nm">${esc(p.name)}</span><span class="sub">${esc(p.modern || '')}</span></div>
+        <span class="ty">${esc(p.type)}</span></div>`).join('')
+      || '<div style="padding:14px;color:var(--ink3);font-size:12px">无匹配地名</div>';
+    list.querySelectorAll('.item').forEach(e => e.onclick = () => selectPlace(DATA.places.find(p => p.id === e.dataset.id)));
+  } else if (tab === 'county') {
+    const arr = (GEO.counties || []).filter(c => !kw || c.name.includes(kw) || (c.adm || '').includes(kw) || (c.zhou || '').includes(kw));
+    list.innerHTML = arr.map(c => `<div class="item" data-c="${esc(c.name)}|${esc(c.adm)}">
+        <div><span class="nm">${esc(c.name)}</span><span class="sub">${esc(c.adm)} · ${esc(c.zhou)}</span></div>
+        <span class="ty">${c.tier === '都' ? '治所' : '县'}</span></div>`).join('')
+      || '<div style="padding:14px;color:var(--ink3);font-size:12px">无匹配县邑</div>';
+    list.querySelectorAll('.item').forEach(e => e.onclick = () =>
+      selectCounty((GEO.counties || []).find(c => c.name + '|' + c.adm === e.dataset.c)));
+  } else {
+    list.innerHTML = DATA.battles.map(b => `<div class="item" data-b="${b.id}">
+        <div><span class="nm">${esc(b.name)}</span><span class="sub">${esc(b.date_text)} · ${esc(b.place_name)}</span></div>
+        <span class="ty">${b.nodes.length} 节点</span></div>`).join('');
+    list.querySelectorAll('.item').forEach(e => e.onclick = () => {
+      document.querySelectorAll('.item.on').forEach(x => x.classList.remove('on'));
+      e.classList.add('on');
+      playBattle(DATA.battles.find(b => b.id === e.dataset.b));
+    });
+  }
+}
+document.querySelectorAll('.tabs div').forEach(t => t.onclick = () => {
+  document.querySelectorAll('.tabs div').forEach(x => x.classList.remove('on'));
+  t.classList.add('on'); tab = t.dataset.tab;
+  stopAutoplay();
+  render();
+});
+q.oninput = render;
+
+document.getElementById('canvas-meta').textContent = `${C.name}　${C.w}×${C.h}px　经纬 ${C.lng0}–${C.lng1}°E / ${C.lat0}–${C.lat1}°N`;
+render();
+view.apply();
+
+/* 深链：#place=ID 定位某地，#county=县名 定位县邑，#battle=ID 播放战役；
+   另支持 ?z=&cx=&cy= 确定性设置视野、?snap=1 瞬时落位（无头截图/回归脚本用，
+   跳过动画与播放定时器，保证任何环境下截到的是最终状态而非中途帧） */
+(function () {
+  const qs = new URLSearchParams(location.search);
+  if (qs.get('snap') != null) {
+    /* 瞬时模式：animateTo 直接落位；战线自动播放改为只画最终一帧 */
+    const jump = (cx, cy, s) => {
+      view.V.cx = cx; view.V.cy = cy;
+      view.V.s = Math.min(14, Math.max(1, s));
+      view.clamp(); view.apply();
+    };
+    view.animateTo = jump;
+    window.__snap = true;
+  }
+  if (qs.has('z')) {
+    view.V.s = Math.min(14, Math.max(1, parseFloat(qs.get('z')) || 1));
+    view.V.cx = parseFloat(qs.get('cx')) || C.w / 2;
+    view.V.cy = parseFloat(qs.get('cy')) || C.h / 2;
+    view.clamp(); view.apply();
+  }
+  const h = location.hash || '';
+  let m = h.match(/^#place=(.+)$/);
+  if (m) { const p = DATA.places.find(x => x.id === m[1]); if (p) setTimeout(() => selectPlace(p), 80); return; }
+  m = h.match(/^#county=(.+)$/);
+  if (m) { const nm = decodeURIComponent(m[1]); const c = (GEO.counties || []).find(x => x.name === nm); if (c) setTimeout(() => selectCounty(c), 80); return; }
+  m = h.match(/^#battle=(.+)$/);
+  if (m) { const b = DATA.battles.find(x => x.id === m[1]); if (b) setTimeout(() => playBattle(b), 80); }
+})();
+</script>
+</body>
+</html>

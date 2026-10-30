@@ -1,0 +1,29 @@
+{
+ "id": "dong_chao_2",
+ "name": "董朝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "董朝，孙吴文臣，中书郎。綝遣宗正孙楷、中书郎董朝，往虎林迎请琅琊王孙休为君。",
+ "bio": "。第 113 回：孙楷、董朝至，拜请回都。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "中书郎",
+   "basis": "第113回孙綝遣宗正孙楷、中书郎董朝往虎林迎请琅琊王孙休为君。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

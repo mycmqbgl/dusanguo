@@ -1,0 +1,29 @@
+{
+ "id": "lu_zhao",
+ "name": "路昭",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 21,
+ "review_status": "auto_mined",
+ "summary": "路昭，曹魏武将，曹将。说朱灵、路昭回许都见曹操，说玄德留下军马。",
+ "bio": "第 21 回：朱灵、路昭回许都见曹操，说玄德留下军马。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 200,
+   "title": "曹将",
+   "basis": "第二十一回原文：却说玄德知袁术已丧，写表申奏朝廷，书呈曹操，令朱灵、路昭回许都，留下军马保守徐州。 职任「曹将」据此；★任期按末见回目收敛：全书最后一次提及在第 21 回（200 年），原 200—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

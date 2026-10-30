@@ -1,0 +1,61 @@
+{
+ "id": "wu_jing",
+ "name": "吴景",
+ "courtesy": null,
+ "display_aliases": [
+  "丹杨太守"
+ ],
+ "birth": null,
+ "death": 203,
+ "date_precision": "approx",
+ "date_note": "史载卒于建安八年（203）前；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "吴景，孙吴武将，骑都尉、丹杨太守。第 15 回一笔带过，事迹仅存其名。",
+ "bio": "吴景，吴郡钱塘人，吴夫人之弟，孙策之舅。随孙坚征战，以功骑都尉。袁术表景为丹杨太守，令与孙贲合众——孙策起事之兵即出自丹杨。景佐策渡江，为策取横江、当利，遂定江东。策卒景累迁丹杨太守，为权重臣。建安八年前卒。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 195,
+   "title": "骑都尉、丹杨太守",
+   "lord_id": "sun_ce",
+   "basis": "袁术所表丹杨太守，为策起兵之资。｜阵营据主君（孙策）归属校正为wu，191-195→195-195。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 203,
+   "title": "丹杨太守、扬武将军",
+   "basis": "佐策定江东，为权重臣。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "随孙坚",
+   "description": "随孙坚征战，为骑都尉。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "丹杨起兵",
+   "description": "为丹杨太守，与孙贲合众，为孙策起事之兵资。",
+   "importance": 3
+  },
+  {
+   "year": 203,
+   "title": "约卒",
+   "description": "建安八年前卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

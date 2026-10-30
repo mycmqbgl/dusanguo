@@ -1,0 +1,29 @@
+{
+ "id": "jiao_chu",
+ "name": "焦触",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "焦触，曹魏武将，袁绍部将。焦触、张南欣喜而退。",
+ "bio": "第 33 回：操用其言，随差焦触、张南、吕旷、吕翔、马延、张顗，各引本部兵，分三路进攻幽州。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 205,
+   "end_year": 208,
+   "title": "袁绍部将",
+   "basis": "第三十三回原文：忽有一彪军来到，乃袁熙部将焦触、张南也。 职任「袁绍部将」据此；★任期按末见回目收敛：全书最后一次提及在第 48 回（208 年），原 205—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 12
+}

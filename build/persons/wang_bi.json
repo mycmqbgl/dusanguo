@@ -1,0 +1,42 @@
+{
+ "id": "wang_bi",
+ "name": "王必",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "王必，曹魏文臣，长史，总督御林军马。王必已被箭疮发而死，操命厚葬之。",
+ "bio": "第 69 回：「又教长史王必总督御林军马」。原文第 69 回相关片段：「侯惇领兵三万，于许都来往巡警，以备不虞；又教长史王必总督御林军马。主簿司马懿曰；“王必嗜酒性宽，恐不」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 218,
+   "title": "长史，总督御林军马",
+   "basis": "第 69 回：「又教长史王必总督御林军马」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 215,
+   "title": "第 69 回",
+   "description": "王必已被箭疮发而死，操命厚葬之",
+   "importance": 1
+  },
+  {
+   "year": 216,
+   "title": "第 72 回",
+   "description": "进不能胜，退恐人笑，在此无益，不如早归：来日魏王必班师矣",
+   "importance": 1
+  }
+ ],
+ "mention_count": 30
+}

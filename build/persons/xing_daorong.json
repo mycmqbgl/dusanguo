@@ -1,0 +1,32 @@
+{
+ "id": "xing_daorong",
+ "name": "邢道荣",
+ "courtesy": null,
+ "display_aliases": [
+  "零陵上将"
+ ],
+ "birth": null,
+ "death": 209,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义为赵云所刺（209）。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "邢道荣，群雄武将，零陵上将。告曰：邢道荣教某如此，实非本心也。",
+ "bio": "邢道荣，零陵太守刘度部将，号「上将」，使开山大斧，自夸力敌万人。孔明车驾至阵前，道荣大喝安敢侵吾郡，被赵云数合杀败，逃中计被张飞擒。诈言愿为内应赚孔明，孔明将计就计，道荣夜袭反伏，为赵云一枪刺于马下。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "零陵上将",
+   "basis": "刘度部将；209 年战死（演义）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：卒年按演义为赵云所刺（209）",
+ "mention_count": 4
+}

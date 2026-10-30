@@ -1,0 +1,29 @@
+{
+ "id": "zhang_mao",
+ "name": "张茂",
+ "courtesy": "彦材",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "张茂，曹魏文臣，太子舍人。时有太子舍人张茂，字彦材，亦上表切谏，睿命斩之。",
+ "bio": "官职「舍人」据原文上下文提取。原文第 105 回相关片段：「义，今且废为庶人。再有妄言者必斩！”时有太子舍人张茂，字彦材，亦上表切谏，睿命斩之。即日召马钧问曰：」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "太子舍人",
+   "basis": "第105回太子舍人张茂上表切谏魏主毋营宫室，睿命斩之。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

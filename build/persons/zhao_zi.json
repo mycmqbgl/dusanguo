@@ -1,0 +1,36 @@
+{
+ "id": "zhao_zi",
+ "name": "赵咨",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "赵咨，孙吴文臣，中大夫。权大喜，即写表称臣，令赵咨为使。",
+ "bio": "第 82 回：「视之，乃中大夫赵咨也」，使魏。原文第 82 回相关片段：「一人进曰：“某有一计，可解此危。”视之，乃中大夫赵咨也。权曰：“德度有何良策？”咨曰：“主公可作一表」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 222,
+   "end_year": 222,
+   "title": "中大夫",
+   "basis": "第 82 回：「视之，乃中大夫赵咨也」，使魏。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 222,
+   "title": "第 82 回",
+   "description": "日早朝，贾诩出班奏曰：“东吴遣中大夫赵咨上表",
+   "importance": 1
+  }
+ ],
+ "mention_count": 5
+}

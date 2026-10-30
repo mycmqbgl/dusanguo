@@ -1,0 +1,29 @@
+{
+ "id": "xun_yi",
+ "name": "荀顗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 114,
+ "review_status": "auto_mined",
+ "summary": "荀顗，曹魏文臣，尚书仆射。荀顗曰：邓艾乃世之良材，更得钟会为副将，大事成矣。",
+ "bio": "官职「尚书」据原文上下文提取。原文第 114 回相关片段：「群臣皆至，独有尚书仆射陈泰不至。昭令泰之舅尚书荀顗召之。泰大哭曰：“论者以泰比舅，今舅实不如泰也」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "尚书仆射",
+   "basis": "第114回司马昭召群臣会议，令陈泰之舅尚书荀顗召泰。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

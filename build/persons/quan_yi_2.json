@@ -1,0 +1,29 @@
+{
+ "id": "quan_yi_2",
+ "name": "全祎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "全祎，孙吴武将，全端子。责全端子全祎曰：若退不得魏兵，汝父子休来见我。",
+ "bio": "。第 112 回：全祎引兵欲入寿春，见魏兵势大，寻思进退无路，遂降司马昭。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "全端子",
+   "basis": "第112回孙綝责全端子全祎曰「若退不得魏兵，汝父子休来见我」。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

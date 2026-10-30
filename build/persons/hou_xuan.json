@@ -1,0 +1,29 @@
+{
+ "id": "hou_xuan",
+ "name": "侯选",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 58,
+ "review_status": "auto_mined",
+ "summary": "侯选，群雄武将，韩遂部将。秋、侯选皆封列侯，令守渭口。",
+ "bio": "第 59 回：杨秋、侯选皆劝求和，于是韩遂遣杨秋为使，直往操寨下书，言割地请和之事。第 59 回：杨秋、侯选皆封列侯，令守渭口。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 212,
+   "title": "韩遂部将",
+   "basis": "第五十八回原文：乃侯选、程银、李堪、张横、梁兴、成宜、马玩、杨秋也。 职任「韩遂部将」据此；★任期按末见回目收敛：全书最后一次提及在第 59 回（212 年），原 211—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

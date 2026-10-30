@@ -1,0 +1,74 @@
+{
+ "comment": "补一张史有其人、为势力年表所引、而本版演义正文未直书其名者（士燮）。",
+ "persons": [
+  {
+   "id": "shi_xie",
+   "name": "士燮",
+   "courtesy": "威彦",
+   "match_surfaces": [],
+   "display_aliases": [
+    "士威彦"
+   ],
+   "birth": 137,
+   "death": 226,
+   "date_precision": "year",
+   "date_note": "（137—226）字威彦，苍梧广信人。汉末交趾太守，据有交州四十余年。史有其人；《三国演义》本版正文未直书其名，仅见于势力年表。此人见正史，毛本演义 120 回无其名。",
+   "gender": "male",
+   "first_chapter": null,
+   "review_status": "reviewed",
+   "summary": "士燮（正史人物，演义未载）：士燮为交趾太守，兄弟分据交州七郡，后归附孙权。演义未载。",
+   "bio": "《三国志·吴书·士燮传》：士燮为交趾太守，兄弟分据交州七郡，后归附孙权。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 187,
+     "end_year": 226,
+     "title": "交趾太守、安远将军、龙编侯",
+     "basis": "据《三国志·吴书·士燮传》：中平四年拜交趾太守，吴加左将军封龙编侯，黄武五年卒。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [],
+   "is_mentioned_only": true,
+   "is_novel_absent": true
+  },
+  {
+   "id": "han_huan_di",
+   "name": "刘志",
+   "courtesy": null,
+   "match_surfaces": [
+    "汉桓帝",
+    "桓帝",
+    "刘志"
+   ],
+   "display_aliases": [
+    "汉桓帝",
+    "桓帝"
+   ],
+   "birth": 132,
+   "death": 168,
+   "date_precision": "year",
+   "date_note": "生卒年据史为 132-168（本初元年至永康元年），演义仅开篇一提，未载生卒。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "刘志，东汉皇帝，汉桓帝。桓帝崩，灵帝即位，大将军窦武、太傅陈蕃共相辅佐。",
+   "bio": "与灵帝并称，演义开篇即言「推其致乱之由，殆始于桓、灵二帝」。本卡依演义提及建档，正文无独立事迹。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "皇帝",
+     "start_year": 146,
+     "end_year": 168,
+     "title": "汉桓帝",
+     "basis": "演义第 1 回「殆始于桓、灵二帝」；史载 146-168 在位。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": []
+  }
+ ]
+}

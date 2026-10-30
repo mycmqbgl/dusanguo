@@ -1,0 +1,29 @@
+{
+ "id": "tao_jun",
+ "name": "陶濬",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "陶濬，孙吴武将，吴将。皓从其言，遂拨御林诸军与陶濬上流迎敌。",
+ "bio": "。第 120 回：陶濬奏曰：臣领战船皆小，愿得二万兵乘大船以战，自足破之。第 120 回：陶濬兵不战自溃。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "吴将",
+   "basis": "第一百二十回原文：陶濬奏曰：“臣领战船皆小，愿得二万兵乘大船以战，自足破之。 职任「吴将」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,29 @@
+{
+ "id": "liu_ning",
+ "name": "刘宁",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "刘宁，蜀汉武将，洞溪汉将。将杜路，刘宁尽皆降吴。",
+ "bio": "原文第 82 回相关片段：「国大兵，及蛮王沙摩柯番兵数万，又有洞溪汉将杜路、刘宁二枝兵，水陆并进，声势震天。水路军已出巫口，旱路」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 229,
+   "title": "洞溪汉将",
+   "basis": "第82回蜀主引大兵及蛮王沙摩柯番兵，又有洞溪汉将杜路、刘宁二枝兵，水陆并进。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

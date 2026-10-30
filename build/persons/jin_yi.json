@@ -1,0 +1,29 @@
+{
+ "id": "jin_yi",
+ "name": "金祎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "金祎，曹魏武将，京兆尹。来金祎一面使人于营中放火，一面亲领家僮随后助战，只留妇女在家。",
+ "bio": "第 69 回：金祎一面使人于营中放火，一面亲领家僮随后助战，只留妇女在家。第 69 回：王必大惊，方悟金祎同谋，径投曹休家，报知金祎、耿纪等同谋反。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 218,
+   "end_year": 218,
+   "title": "京兆尹",
+   "basis": "第六十九回原文：原来金祎一面使人于营中放火，一面亲领家僮随后助战，只留妇女在家。 职任「京兆尹」据此；★任期按末见回目收敛：全书最后一次提及在第 69 回（218 年），原 218—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

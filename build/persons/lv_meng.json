@@ -1,0 +1,55 @@
+{
+ "id": "lv_meng",
+ "name": "吕蒙",
+ "courtesy": "子明",
+ "display_aliases": null,
+ "birth": 178,
+ "death": 219,
+ "date_precision": "exact",
+ "date_note": "生于光和元年（178），卒于建安二十四年（219）。史载确切；演义写其夺荆州后暴卒。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "reviewed",
+ "summary": "吕蒙，孙吴武将，孙权部将。子明设计定谋，立取荆州，胜子敬、周郎多矣。",
+ "bio": "汝南富陂人，少依姊夫邓当，孙策爱之。孙权统事后渐擢为将，劝其读书，遂笃志不倦，鲁肃叹曰「非复吴下阿蒙」。江夏之战献策破黄祖水军，赤壁与周瑜、程普并力，取南郡时与凌统争先锋。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 208,
+   "title": "孙权部将",
+   "lord_id": "sun_quan",
+   "basis": "200年前后已随孙权征伐。｜阵营据主君（孙权）归属校正为wu，200-208→200-208。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 219,
+   "title": "偏将军",
+   "lord_id": "sun_quan",
+   "basis": "赤壁后随权。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 203,
+   "title": "刮目相待",
+   "description": "从孙权劝学，鲁肃叹「非复吴下阿蒙」。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "破黄祖水军",
+   "description": "江夏之战为前锋，献策断黄祖水军退路。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生于光和元年（178），卒于建安二十四年（219）；史载确切｜演：写其夺荆州后暴卒",
+ "mention_count": 106
+}

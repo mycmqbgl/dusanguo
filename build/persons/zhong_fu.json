@@ -1,0 +1,29 @@
+{
+ "id": "zhong_fu",
+ "name": "种拂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "auto_mined",
+ "summary": "种拂，东汉文臣，太常卿。常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀皆死于国难。",
+ "bio": "。第 9 回：太常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀皆死于国难。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 192,
+   "end_year": 192,
+   "title": "太常卿",
+   "basis": "第9回李傕郭汜之乱，太常卿种拂死于国难。 192 年太常卿种拂死于李傕郭汜之乱。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,83 @@
+{
+ "id": "huang_jin_qi_yi",
+ "name": "黄巾起义",
+ "kind": "军事行动",
+ "start_year": 184,
+ "end_year": 184,
+ "date_text": "中平元年（184）正月起",
+ "summary": "张角以太平道聚众数十万，八州同时举事，官军望风而靡，汉室自此动摇。",
+ "detail": "张角得南华老仙《太平要术》，以符水治病聚众，立三十六方，讹言「苍天已死，黄天当立」。弟子唐周告变，马元义被擒斩，张角遂星夜举兵，自称天公将军，张宝、张梁称地公、人公将军。四方百姓裹黄巾从之者四五十万，青、幽、徐、冀、荆、扬、兖、豫八州皆乱。汉廷以何进为大将军总镇京师，遣卢植、皇甫嵩、朱儁三路讨之，又令各处招募义兵——刘备、关羽、张飞正在涿郡应募而起。本事件为「军事行动」类统摄事件，下挂大兴山、青州、长社、广宗等战斗（N7 定案：轻量父事件可挂多场战役）。",
+ "place_id": "ju_lu",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhang_jiao",
+   "role_desc": "首事者，自称天公将军"
+  },
+  {
+   "person_id": "zhang_bao",
+   "role_desc": "地公将军，颍川一路"
+  },
+  {
+   "person_id": "zhang_liang",
+   "role_desc": "人公将军，颍川一路"
+  },
+  {
+   "person_id": "he_jin",
+   "role_desc": "大将军，主持讨贼调度"
+  },
+  {
+   "person_id": "lu_zhi",
+   "role_desc": "北中郎将，围张角于广宗"
+  },
+  {
+   "person_id": "huang_fu_song",
+   "role_desc": "中郎将，长社火攻破贼"
+  },
+  {
+   "person_id": "zhu_jun",
+   "role_desc": "右中郎将，与皇甫嵩并力"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "应募义兵，转战幽州、青州"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "唐周告变",
+   "description": "弟子唐周驰书告变，马元义被擒斩，封谞等下狱。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "八州举事",
+   "description": "张角星夜举兵，裹黄巾者四五十万。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "三路讨贼",
+   "description": "卢植、皇甫嵩、朱儁分三路出兵，各地招募义兵。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "广宗相拒",
+   "description": "卢植围张角于广宗，因左丰索贿被诬，槛车征还。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  1005,
+  1006,
+  1007,
+  1023
+ ],
+ "review_status": "reviewed",
+ "battle_ids": [
+  "da_xing_shan_zhi_zhan",
+  "qing_zhou_jie_wei"
+ ]
+}

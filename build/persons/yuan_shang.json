@@ -1,0 +1,50 @@
+{
+ "id": "yuan_shang",
+ "name": "袁尚",
+ "courtesy": "显甫",
+ "display_aliases": [
+  "三公子"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年史载不详（或谓生卒年皆缺确切记载），演义未载生卒。",
+ "gender": "male",
+ "first_chapter": 30,
+ "review_status": "reviewed",
+ "summary": "袁尚，群雄君主，冀州牧。说袁尚、袁熙知曹兵将至，料难迎敌，乃弃城引兵，星夜奔辽西投乌桓去了。",
+ "bio": "袁绍第三子，绍因后妻刘氏之爱欲立为嗣。建安七年（202）绍死，刘氏与逢纪矫遗命立尚为冀州牧。兄袁谭索兵不得，兄弟交兵，谭降曹操求援。尚败走中山，又奔幽州依袁熙，再走辽东投公孙康。建安十二年（207）康恐袁氏并己，诱斩尚、熙，首级献许都——郭嘉遗计所料。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 202,
+   "end_year": 207,
+   "title": "冀州牧",
+   "basis": "202年袁绍死，刘氏与逢纪矫遗命立尚；群雄阵营按规则手册§一。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 202,
+   "title": "矫命嗣位",
+   "description": "袁绍死，母刘氏与逢纪立尚为冀州牧，袁谭不得立，兄弟生隙。",
+   "importance": 3
+  },
+  {
+   "year": 204,
+   "title": "邺城陷落",
+   "description": "曹操决漳河灌邺，审配死守不支，城破。",
+   "importance": 2
+  },
+  {
+   "year": 207,
+   "title": "辽东殒命",
+   "description": "奔公孙康，康诱斩之，与袁熙首级献许。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 57
+}

@@ -1,0 +1,29 @@
+{
+ "id": "wu_zhi",
+ "name": "吴质",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 72,
+ "review_status": "auto_mined",
+ "summary": "吴质，东汉武将，汉朝歌长。慌告吴质，质曰：无忧也：明日用大簏装绢再入以惑之。",
+ "bio": "第 72 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 219,
+   "title": "汉朝歌长",
+   "basis": "第七十二回原文：操与众商议，欲立植为世子，曹丕知之，密请朝歌长吴质入内府商议。 职任「汉朝歌长」据此；★任期按末见回目收敛：全书最后一次提及在第 72 回（219 年），原 219—220 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

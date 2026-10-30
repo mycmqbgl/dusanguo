@@ -1,0 +1,112 @@
+{
+ "id": "li_jue_guo_si_zhi_luan",
+ "name": "李傕郭汜之乱",
+ "kind": "军事行动",
+ "start_year": 192,
+ "end_year": 196,
+ "date_text": "初平三年（192）—兴平、建安之际（196 前）",
+ "summary": "贾诩一言激起凉州兵反攻长安，吕布出走、王允殉难；此后李傕郭汜把持朝政、自相攻杀，献帝颠沛——汉室名存实亡，曹操得迎奉之机。",
+ "detail": "董卓既诛，李傕、郭汜、张济、樊稠逃居陕西，使人求赦，王允不许——「卓之跋扈，皆此四人助之」。贾诩时为卓校尉，献策「激众西攻长安，事济，奉国家以正天下；不济，走亦未迟」。四人遂聚十余万西凉兵杀奔长安。吕布迎战失利，城内叱降兵反戈，长安遂破。王允拒降，坠楼而死，宗族被戮。此后四将把持朝政，朱儁忧死；马腾、韩遂兴兵讨贼，为贾诩所败，马超阵斩李蒙、王方；继而傕汜自相攻杀，劫帝劫臣，长安化为丘墟——献帝颠沛流离，为后来曹操「奉天子以令不臣」留下空位。",
+ "place_id": "chang_an",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "li_jue",
+   "role_desc": "首恶，自为大司马车骑将军"
+  },
+  {
+   "person_id": "guo_si",
+   "role_desc": "同恶，后与傕相攻杀"
+  },
+  {
+   "person_id": "jia_xu",
+   "role_desc": "献「激众攻长安」之策（文和乱武）"
+  },
+  {
+   "person_id": "zhang_ji",
+   "role_desc": "四将之一"
+  },
+  {
+   "person_id": "fan_chou",
+   "role_desc": "四将之一，后为傕所杀"
+  },
+  {
+   "person_id": "wang_yun",
+   "role_desc": "拒赦激变，城破坠楼殉难"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "迎战失利，弃家出走投袁术"
+  },
+  {
+   "person_id": "liu_xie",
+   "role_desc": "献帝，为傕汜所挟"
+  },
+  {
+   "person_id": "ma_teng",
+   "role_desc": "西凉太守，兴兵讨贼"
+  },
+  {
+   "person_id": "han_sui",
+   "role_desc": "与腾同讨，兵败"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "求赦不许",
+   "description": "四将使人求赦，王允不许——「四人助卓为虐，必当赦之不可」之争。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "文和乱武",
+   "description": "贾诩献策激众西攻：「事济，奉国家以正天下」。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "长安城破",
+   "description": "吕布迎战失利，城内降兵反戈，长安遂破。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "王允殉难",
+   "description": "允拒降坠楼而死，宗族老幼被戮，士民下泪。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "四将专权",
+   "description": "李傕自为大司马车骑将军，郭汜、张济、樊稠各领兵权，把持朝政。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "马腾韩遂讨贼",
+   "description": "西凉兵起，为贾诩所败；马超阵斩李蒙、王方，威名初显。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "傕汜相攻",
+   "description": "二贼自相攻杀，劫帝劫臣，长安化为丘墟，帝东逃洛阳。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  9013,
+  9016,
+  9017,
+  9020,
+  9023,
+  10001,
+  10002,
+  10004,
+  10006
+ ],
+ "battle_ids": [
+  "chang_an_zhi_zhan"
+ ]
+}

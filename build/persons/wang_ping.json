@@ -1,0 +1,82 @@
+{
+ "id": "wang_ping",
+ "name": "王平",
+ "courtesy": "子均",
+ "display_aliases": [
+  "巴西宕渠人",
+  "裨将军",
+  "无当飞军督"
+ ],
+ "birth": null,
+ "death": 248,
+ "date_precision": "approx",
+ "date_note": "史载卒于延熙十一年（248）。生年无载。",
+ "gender": "male",
+ "first_chapter": 71,
+ "review_status": "reviewed",
+ "summary": "王平，曹魏武将，代理校尉。孔明从其言，即令王平，李恢，引二枝兵守街亭小路；魏延引一军守陈仓口。",
+ "bio": "王平字子均，巴西宕渠人。本养外家何氏，后复姓王。随杜濩、朴胡诣洛阳，为代理校尉，从曹操征汉中，降刘备，拜牙门将、裨将军。一出祁山随马谡守街亭，力谏当道下寨，谡不听，平引五千人离山十里下寨。谡败后平鸣鼓自持，张郃疑有伏兵不敢逼，收合残兵而还。亮请自贬后特进平讨寇将军，封亭侯，督五部兼当营事。平手不能书，所识不过十字，而口授作书皆有意理；使人读史汉诸纪传听之备知大意。后讨魏延之乱、镇汉中，却曹爽十万之众于兴势，官至镇北将军、汉中太守，卒于 248。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 219,
+   "title": "代理校尉",
+   "lord_id": "cao_cao",
+   "basis": "与杜濩朴胡诣洛从曹操，汉中之战降刘。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 234,
+   "title": "牙门将、裨将军、讨寇将军",
+   "lord_id": "zhuge_liang",
+   "basis": "降备后历北伐，街亭力谏独全，亮特进其职。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 234,
+   "end_year": 248,
+   "title": "安汉将军、镇北将军、汉中太守",
+   "lord_id": "liu_shan",
+   "basis": "讨魏延、镇汉中，兴势拒曹爽，248 年卒。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "汉中归刘",
+   "description": "从曹操征汉中，阵前降刘备，拜牙门将。",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "力谏街亭",
+   "description": "谏马谡当道下寨不听，自率千人鸣鼓自持，全军而还。",
+   "importance": 3
+  },
+  {
+   "year": 234,
+   "title": "讨平魏延",
+   "description": "魏延作乱，平阵前叱散其众，延败死。",
+   "importance": 2
+  },
+  {
+   "year": 244,
+   "title": "兴势拒爽",
+   "description": "守汉中拒曹爽大军于兴势，魏军无功而退。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 111
+}

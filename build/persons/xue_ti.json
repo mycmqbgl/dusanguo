@@ -1,0 +1,29 @@
+{
+ "id": "xue_ti",
+ "name": "薛悌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 67,
+ "review_status": "auto_mined",
+ "summary": "薛悌，曹魏武将，曹操差官。曹操差薛悌送木匣一个，上有操封，傍书云：贼来乃发。",
+ "bio": "第 67 回：忽曹操差薛悌送木匣一个，上有操封，傍书云：贼来乃发。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 215,
+   "title": "曹操差官",
+   "basis": "第六十七回原文：忽曹操差薛悌送木匣一个，上有操封，傍书云：“贼来乃发。 职任「曹操差官」据此；★任期按末见回目收敛：全书最后一次提及在第 67 回（215 年），原 215—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

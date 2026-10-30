@@ -1,0 +1,64 @@
+{
+ "id": "hua_xin",
+ "name": "华歆",
+ "courtesy": "子鱼",
+ "display_aliases": [
+  "豫州刺史",
+  "相国",
+  "司徒"
+ ],
+ "birth": 157,
+ "death": 232,
+ "date_precision": "approx",
+ "date_note": "史载生于汉本初元年（157），卒于魏太和五年（232），演义作逼宫后位至司徒，卒年从史补。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "reviewed",
+ "summary": "华歆，孙吴文臣，豫章太守。司徒有七宝刀一口，愿借与操入相府刺杀之，虽死不恨。",
+ "bio": "华歆字子鱼，平原高唐人。少与管宁同席读书，宁割席分坐曰：子非吾友也！歆后举孝廉，为孙策所获，策以宾礼待之，孙权时征为豫章太守，曹操表征歆，权不遣；赤壁前夕演义写歆在许都为御史大夫，实乃移花接木。歆最著者两事：其一，曹操欲废伏后，歆引五百甲兵入后殿，破壁牵后而出，帝抚后大恸，歆手格杀之；其二，曹丕欲受禅，华歆等谄媚造势，与王朗、贾诩辈屡劝进，受禅台上歆登台捧玺绶奉上，丕登基为帝，歆拜相国。入魏历司徒、太尉，位列三公。史称歆清淡无欲、处议持平，演义则专取其助纣为虐一面，割席之典与牵后之凶并置，成士节与利禄之绝好对照。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 195,
+   "end_year": 199,
+   "title": "豫章太守",
+   "lord_id": "sun_ce",
+   "basis": "195-199 年江东为孙策所据（孙权 200 年才继位）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 199,
+   "end_year": 232,
+   "title": "御史大夫、相国、司徒",
+   "lord_id": "cao_pi",
+   "basis": "归曹历操、丕、叡三世，收伏后、助受禅，位至三公，232 年卒。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "归曹北去",
+   "description": "曹操表征华歆，宾礼待之，歆遂离江东入许都。",
+   "importance": 1
+  },
+  {
+   "year": 214,
+   "title": "牵杀伏后",
+   "description": "引甲兵入宫破壁收伏皇后，手格杀之，操得以立曹女为后。",
+   "importance": 2
+  },
+  {
+   "year": 220,
+   "title": "助丕受禅",
+   "description": "受禅台上登台奉玺绶，曹丕代汉称帝，歆拜相国。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 40
+}

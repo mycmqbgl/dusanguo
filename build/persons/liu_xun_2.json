@@ -1,0 +1,29 @@
+{
+ "id": "liu_xun_2",
+ "name": "刘循",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "auto_mined",
+ "summary": "刘循，蜀汉武将，刘璋长子。说刘循逃回见父，说雒城已陷，刘璋慌聚众官商议。",
+ "bio": "第 62 回：长子刘循进曰：儿愿领兵前去守雒城。第 64 回：玄德军马入雒城，刘循开西门走脱，投成都去了。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 212,
+   "end_year": 214,
+   "title": "刘璋长子",
+   "basis": "第六十二回原文：长子刘循进曰：“儿愿领兵前去守雒城。 职任「刘璋长子」据此；★任期按末见回目收敛：全书最后一次提及在第 64 回（214 年），原 212—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

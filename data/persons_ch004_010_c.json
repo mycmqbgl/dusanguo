@@ -1,0 +1,1407 @@
+{
+ "meta": {
+  "version": "1.0",
+  "batch": "P1-B3",
+  "chapters": [
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10
+  ],
+  "note": "第4–10回批产第三批 25 人：夏侯惇、汉室三公与殉难朝臣、河北谋臣、董卓宗族与部将、荆州与徐州配角。",
+  "count": 25
+ },
+ "persons": [
+  {
+   "id": "xiahou_dun",
+   "name": "夏侯惇",
+   "courtesy": "元让",
+   "match_surfaces": [
+    "夏侯惇",
+    "夏侯元让"
+   ],
+   "display_aliases": [
+    "盲夏侯",
+    "伏波将军",
+    "大将军"
+   ],
+   "birth": null,
+   "death": 220,
+   "date_precision": "exact",
+   "date_note": "生年不详，卒于建安二十五年（220）。沛国谯人，夏侯婴之后。",
+   "gender": "male",
+   "first_chapter": 5,
+   "review_status": "verified",
+   "summary": "夏侯惇，群雄武将，裨将、司马。夏侯惇正走之间，见于禁从后军奔来，便问何故。",
+   "bio": "夏侯惇字元让，沛国谯人，夏侯婴之后。年十四从师学武，有人辱骂其师，惇杀之，逃于外方。曹操起兵，惇与族弟夏侯渊各引壮士千人来会。曹操讨董卓于荥阳大败，为徐荣伏兵所困，惇、渊引数十骑飞至，惇挺枪刺徐荣于马下，杀散余兵。征吕布时，惇为流矢所中，伤左目，演义写其「拔矢啖睛」曰「父精母血，不可弃也」。惇性清俭，有余财辄以分施，不足资之于官，不治产业。曹操为魏王，诸将皆受魏官号，惇独不受，曰「吾受汉家厚恩，岂可以魏官相屈」，曹操乃拜其为前将军。曹丕即位，拜大将军，数月而卒。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 189,
+     "end_year": 196,
+     "title": "裨将、司马",
+     "lord_id": "cao_cao",
+     "basis": "189 年曹操起兵时与夏侯渊各引壮士千人来会；此时曹操未建号，属群雄之一。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 220,
+     "title": "建武将军、伏波将军、前将军、大将军、高安乡侯",
+     "basis": "196 年曹魏势力形成后为曹操主将；220 年曹丕即位拜大将军，数月而卒。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "十四岁杀人",
+     "description": "有人辱骂其师，惇杀之，逃于外方。",
+     "importance": 2
+    },
+    {
+     "year": 189,
+     "title": "来投曹操",
+     "description": "与族弟夏侯渊各引壮士千人来会曹操起兵。",
+     "importance": 3
+    },
+    {
+     "year": 190,
+     "title": "荥阳救操",
+     "description": "曹操为徐荣伏兵所困，惇、渊引数十骑飞至，惇刺徐荣于马下。",
+     "importance": 3
+    },
+    {
+     "year": 195,
+     "title": "拔矢啖睛",
+     "description": "征吕布为流矢所中伤左目，曰「父精母血，不可弃也」，遂啖之。",
+     "importance": 3
+    },
+    {
+     "year": 220,
+     "title": "拜大将军",
+     "description": "曹丕即位拜大将军，数月而卒。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "wu_fu",
+   "name": "伍孚",
+   "courtesy": "德瑜",
+   "match_surfaces": [
+    "伍孚",
+    "伍德瑜"
+   ],
+   "display_aliases": [
+    "越骑校尉"
+   ],
+   "birth": null,
+   "death": 190,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平元年（190）。汝南吴房人。",
+   "gender": "male",
+   "first_chapter": 4,
+   "review_status": "reviewed",
+   "summary": "伍孚，字德瑜，东汉越骑校尉，刺杀董卓未遂而死。",
+   "bio": "伍孚，字德瑜，汝南吴房人，东汉末为越骑校尉。董卓专权，伍孚常怀刺杀之心，乃朝服藏刃见卓，语毕刺之，卓力大格拒，孚被执，大骂而死。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 190,
+     "title": "大将军东曹属、侍中、河南尹、越骑校尉",
+     "basis": "最高官职为越骑校尉（武职），按「职责不明时按最高官职名判断」归武将；190 年刺董卓不成被杀。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "迁越骑校尉",
+     "description": "历大将军东曹属、侍中、河南尹，迁越骑校尉。",
+     "importance": 1
+    },
+    {
+     "year": 190,
+     "title": "朝服藏刃",
+     "description": "于朝服内披小铠、藏短刀，欲伺便刺董卓。",
+     "importance": 3
+    },
+    {
+     "year": 190,
+     "title": "刺卓死节",
+     "description": "拔刀直刺董卓，为吕布揪倒，被剖剐，至死骂不绝口。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhang_wen",
+   "name": "张温",
+   "courtesy": "伯慎",
+   "match_surfaces": [
+    "张温",
+    "张伯慎"
+   ],
+   "display_aliases": [
+    "司空",
+    "车骑将军",
+    "汉司空"
+   ],
+   "birth": null,
+   "death": 191,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平二年（191）。南阳穰人。",
+   "gender": "male",
+   "first_chapter": 8,
+   "review_status": "reviewed",
+   "summary": "张温，东汉文臣，大司农、车骑将军、司空。曾平定凉州边章、韩遂之乱，后为董卓诬以通袁术，于筵席上被吕布揪下斩首。",
+   "bio": "张温字伯慎，南阳穰人。少有名誉，累登公卿。中平二年为车骑将军，与皇甫嵩讨凉州边章、韩遂，破之；孙坚、董卓皆在其麾下。董卓骄横不逊，温不能制。后为司空。董卓专权，疑温与袁术交通，乃于省台大会百官时，命吕布于筵上揪司空张温下堂，少顷侍从以红盘托张温头入献。卓笑曰「张温结连袁术，欲图害我，因使人寄书来，错下在吾儿奉先处，故斩之」。演义第八回写此段，为董卓残暴之极的写照。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 185,
+     "end_year": 191,
+     "title": "大司农、车骑将军、司空",
+     "basis": "以太尉、司徒、司空三公之位主掌朝政，以谋略内政为主归文臣；191 年为董卓所杀。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 185,
+     "title": "讨凉州",
+     "description": "为车骑将军，与皇甫嵩讨边章、韩遂，破之；孙坚、董卓皆在麾下。",
+     "importance": 3
+    },
+    {
+     "year": 189,
+     "title": "为司空",
+     "description": "累登公卿，官至司空。",
+     "importance": 2
+    },
+    {
+     "year": 191,
+     "title": "筵上被斩",
+     "description": "董卓疑其通袁术，命吕布于筵上揪下，斩首以红盘献于众官。",
+     "importance": 3
+    }
+   ],
+   "homonym_note": "汉司空张温（字伯慎），与东吴中郎将张温（字惠恕）同名异人。本卡为汉司空，第 8 回出场，为董卓所杀。"
+  },
+  {
+   "id": "yang_biao",
+   "name": "杨彪",
+   "courtesy": "文先",
+   "match_surfaces": [
+    "杨彪",
+    "杨文先"
+   ],
+   "display_aliases": [
+    "司徒",
+    "太尉",
+    "临晋侯"
+   ],
+   "birth": 142,
+   "death": 225,
+   "date_precision": "exact",
+   "date_note": "生于汉安元年（142），卒于黄初六年（225），年八十四。弘农华阴人，杨修之父。",
+   "gender": "male",
+   "first_chapter": 3,
+   "review_status": "reviewed",
+   "summary": "杨彪，东汉文臣，京兆尹、司空、司徒、太尉、尚书令。杨彪曰：一劫天子，一劫公卿，意欲何为。",
+   "bio": "杨彪字文先，弘农华阴人，杨震曾孙、杨赐之子，杨修之父。少传家学，初举孝廉，州举茂才，辟公府，皆不应。熹平中征拜议郎，迁侍中、京兆尹。光和二年黄门令王甫贪暴，彪发其奸，甫下狱死，天下快之。后历司空、司徒、太尉。董卓议迁都长安，彪曰「关中残破零落，今无故捐宗庙、弃皇陵，恐百姓惊动。天下动之至易，安之至难」，卓怒，即日罢彪为庶民。曹操迎帝都许，彪为尚书令。建安十年，曹操忌其名望，诬以大逆，下狱，孔融力救得免。曹丕代汉，待以客礼。黄初六年卒，年八十四。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 184,
+     "end_year": 220,
+     "title": "京兆尹、司空、司徒、太尉、尚书令",
+     "basis": "四世三公之家，以朝政谋议为主归文臣；190 年谏阻迁都被罢，后仍居汉廷。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 220,
+     "end_year": 225,
+     "title": "太尉",
+     "basis": "曹丕代汉后待以客礼，虽不授魏官而身居其境，按 N5「无政治集团归属者随所在政权」记曹魏；225 年卒，年八十四。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "发王甫之奸",
+     "description": "为京兆尹，发黄门令王甫贪暴，甫下狱死，天下快之。",
+     "importance": 2
+    },
+    {
+     "year": 190,
+     "title": "谏阻迁都",
+     "description": "谏董卓勿迁都，曰「天下动之至易，安之至难」，卓怒罢为庶民。",
+     "importance": 3
+    },
+    {
+     "year": 205,
+     "title": "下狱获免",
+     "description": "曹操诬以大逆下狱，孔融力救得免。",
+     "importance": 3
+    },
+    {
+     "year": 225,
+     "title": "卒",
+     "description": "曹丕待以客礼，黄初六年卒，年八十四。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "huang_wan",
+   "name": "黄琬",
+   "courtesy": "子琰",
+   "match_surfaces": [
+    "黄琬",
+    "黄子琰"
+   ],
+   "display_aliases": [
+    "太尉",
+    "司徒",
+    "关内侯"
+   ],
+   "birth": 141,
+   "death": 192,
+   "date_precision": "exact",
+   "date_note": "生于永和六年（141），卒于初平三年（192）。江夏安陆人，黄琼之孙。",
+   "gender": "male",
+   "first_chapter": 6,
+   "review_status": "reviewed",
+   "summary": "黄琬，东汉文臣，议郎、侍中、尚书、太尉、司隶校尉、关内侯。司徒有七宝刀一口，愿借与操入相府刺杀之，虽死不恨。",
+   "bio": "黄琬字子琰，江夏安陆人，黄琼之孙。少失父母，而早惠。建和元年正月日食，京师不见而琼以状闻，太后诏问所食多少，琼未知所况，琬年七岁在傍曰「何不言日食之余，如月之初」，琼大惊，即以其言应诏。后为五官中郎将，举奏权贵，被诬禁锢近二十年。光和末征拜议郎，迁侍中、尚书。董卓议迁都，琬为太尉，与杨彪同谏，卓怒罢为庶民。后董卓死，李傕、郭汜攻长安，琬为司隶校尉，与王允同守，城破被杀。演义第六回写其与杨彪、荀爽同谏迁都。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 184,
+     "end_year": 192,
+     "title": "议郎、侍中、尚书、太尉、司隶校尉、关内侯",
+     "basis": "三公之位，以朝政谋议为主归文臣；192 年李傕郭汜之乱中被杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 147,
+     "title": "七岁辩日食",
+     "description": "日食，太后问所食多少，琬曰「何不言日食之余，如月之初」。",
+     "importance": 2
+    },
+    {
+     "year": 185,
+     "title": "举奏权贵被锢",
+     "description": "为五官中郎将，举奏权贵，被诬禁锢近二十年。",
+     "importance": 2
+    },
+    {
+     "year": 190,
+     "title": "谏阻迁都",
+     "description": "为太尉，与杨彪同谏董卓迁都，罢为庶民。",
+     "importance": 3
+    },
+    {
+     "year": 192,
+     "title": "死于长安之乱",
+     "description": "李傕、郭汜攻长安，城破被杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "xun_shuang",
+   "name": "荀爽",
+   "courtesy": "慈明",
+   "match_surfaces": [
+    "荀爽",
+    "荀慈明"
+   ],
+   "display_aliases": [
+    "司空",
+    "硕儒"
+   ],
+   "birth": 128,
+   "death": 190,
+   "date_precision": "exact",
+   "date_note": "生于永建三年（128），卒于初平元年（190），年六十三。颍川颍阴人，荀彧之叔父。",
+   "gender": "male",
+   "first_chapter": 6,
+   "review_status": "reviewed",
+   "summary": "荀爽，东汉文臣，平原相、光禄勋、司空。司徒荀爽谏曰：\"丞相若欲迁都，百姓骚动不宁矣。",
+   "bio": "荀爽字慈明，一名谞，颍川颍阴人，荀彧之叔父。幼而好学，年十二能通《春秋》《论语》。太尉杜乔见而称之曰「可为人师」。耽思经书，庆吊不行，征命不应，著《礼》《易传》《诗传》《尚书正经》《春秋条例》，又集汉事成败可为鉴戒者，谓之《汉语》，当世称为「硕儒」。董卓专权，复征爽，爽欲遁去，吏持之急，不得已就拜平原相，行至宛，进位光禄勋，视事三日，进拜司空，自布衣至三公凡九十五日。董卓议迁都，爽与杨彪、黄琬同谏，卓罢之。事毕病卒，年六十三。演义第六回写「司徒荀爽谏曰：丞相若欲迁都，百姓骚动不宁矣」。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 190,
+     "title": "平原相、光禄勋、司空",
+     "basis": "以经术、朝政谋议为主归文臣；189 年董卓强征，九十五日由布衣至三公；190 年卒。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 160,
+     "title": "著书称硕儒",
+     "description": "耽思经书，征命不应，著《易传》《汉语》等，当世称硕儒。",
+     "importance": 2
+    },
+    {
+     "year": 189,
+     "title": "九十五日至三公",
+     "description": "董卓强征，自布衣至司空凡九十五日。",
+     "importance": 3
+    },
+    {
+     "year": 190,
+     "title": "谏阻迁都",
+     "description": "与杨彪、黄琬同谏董卓迁都，被罢；事毕病卒，年六十三。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "ma_ridi",
+   "name": "马日磾",
+   "courtesy": "翁叔",
+   "match_surfaces": [
+    "马日磾"
+   ],
+   "display_aliases": [
+    "太傅",
+    "太尉"
+   ],
+   "birth": null,
+   "death": 194,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于兴平元年（194）。扶风茂陵人，马融族子。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "马日磾，东汉文臣，太傅、太尉。太傅司马孚入内，见髦尸，首枕其股而哭曰：弑陛下者，臣之罪也。",
+   "bio": "马日磾字翁叔，扶风茂陵人，马融之族子。少传融业，以才学进，与杨彪、蔡邕等典校中书，历位九卿，遂登三公。董卓挟献帝西迁，日磾为太傅。袁绍与公孙瓒相攻于磐河，李儒献计「假天子之诏，差人往和解之」，董卓遂使太傅马日磾、太仆赵岐赍诏前去，二人至河北，绍出迎百里，再拜奉诏，瓒亦遣使讲和。蔡邕下狱时，日磾密谓王允曰「伯喈旷世逸才，若使续成汉史，诚为盛事」，允不听。后奉使袁术，术轻侮之，借节观之而不还，日磾失节，求去不得，遂呕血而死。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 194,
+     "title": "太傅、太尉",
+     "basis": "三公之位，以经术、朝政谋议为主归文臣；194 年使袁术被夺节，呕血死。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "典校中书",
+     "description": "与杨彪、蔡邕等典校中书，历位九卿，遂登三公。",
+     "importance": 2
+    },
+    {
+     "year": 191,
+     "title": "奉诏解斗",
+     "description": "与赵岐赍诏往河北，调解袁绍与公孙瓒之争，二人讲和。",
+     "importance": 3
+    },
+    {
+     "year": 192,
+     "title": "力救蔡邕",
+     "description": "密谓王允「伯喈旷世逸才」，请使续成汉史，王允不听。",
+     "importance": 2
+    },
+    {
+     "year": 194,
+     "title": "呕血而死",
+     "description": "奉使袁术，术借节不还，日磾失节，求去不得，呕血而死。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhao_qi",
+   "name": "赵岐",
+   "courtesy": "邠卿",
+   "match_surfaces": [
+    "赵岐",
+    "赵邠卿"
+   ],
+   "display_aliases": [
+    "太仆",
+    "著《孟子章句》"
+   ],
+   "birth": null,
+   "death": 201,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于建安六年（201），年九十余。京兆长陵人。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "赵岐，东汉文臣，并州刺史、太仆、太常。次日便使太傅马日磾、太仆赵岐，赍诏前去。",
+   "bio": "赵岐字邠卿，京兆长陵人，原名嘉，字台卿，后避难改名。少明经，有才艺。娶马融兄女，鄙融为人，不与相见。仕州郡，以廉直疾恶见惮。永兴二年为皮氏长，时河东太守刘祐去郡，中常侍左悺之弟左敏为河东太守，岐耻之，即日弃官西归。后避仇，隐于北海，卖饼市中，孙嵩见而异之，载归，藏于复壁数年，著《孟子章句》。后为并州刺史，坐党事免。董卓时拜太仆。与马日磾奉诏使河北，调解袁绍与公孙瓒，二人讲和，各遣使致书。建安六年卒，年九十余。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 201,
+     "title": "并州刺史、太仆、太常",
+     "basis": "以经术、朝政谋议为主归文臣；201 年卒，年九十余。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 158,
+     "title": "藏于复壁",
+     "description": "避仇隐于北海卖饼，为孙嵩所藏，于复壁中著《孟子章句》。",
+     "importance": 3
+    },
+    {
+     "year": 189,
+     "title": "拜太仆",
+     "description": "董卓时拜太仆。",
+     "importance": 1
+    },
+    {
+     "year": 191,
+     "title": "奉诏解斗",
+     "description": "与马日磾赍诏往河北，调解袁绍与公孙瓒，二人讲和。",
+     "importance": 3
+    },
+    {
+     "year": 201,
+     "title": "卒",
+     "description": "建安六年卒，年九十余。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zhou_bi",
+   "name": "周毖",
+   "courtesy": null,
+   "match_surfaces": [
+    "周毖"
+   ],
+   "display_aliases": [
+    "侍中"
+   ],
+   "birth": null,
+   "death": 190,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平元年（190）。",
+   "gender": "male",
+   "first_chapter": 4,
+   "review_status": "reviewed",
+   "summary": "周毖，东汉文臣，侍中。周毖曰：\"袁绍忿忿而去，若购之急，势必为变。",
+   "bio": "周毖，为侍中，与城门校尉伍琼同佐董卓。董卓欲追杀袁绍，周毖曰「袁绍忿忿而去，若购之急，势必为变。且袁氏树恩四世，门生故吏遍于天下，倘收豪杰以聚徒众，英雄因之而起，山东非公有也。不如赦之，拜为一郡守，则绍喜于免罪，必无患矣」，卓从之，拜绍为渤海太守。后袁绍起兵讨卓，董卓怒曰「我始初听你两个，保用袁绍；今绍已反，是汝等一党」，叱武士推出都门斩首。演义第四、六回两处写其事。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 190,
+     "title": "侍中",
+     "basis": "侍中为近侍谋议之职，以谋略内政为主归文臣；190 年为董卓所斩。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "劝授袁绍郡守",
+     "description": "谏董卓勿急购袁绍，宜拜为一郡守以安之，卓从之，拜绍为渤海太守。",
+     "importance": 3
+    },
+    {
+     "year": 190,
+     "title": "被斩",
+     "description": "袁绍起兵，董卓怒其「一党」，推出都门斩首。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wu_qiong",
+   "name": "伍琼",
+   "courtesy": null,
+   "match_surfaces": [
+    "伍琼"
+   ],
+   "display_aliases": [
+    "城门校尉"
+   ],
+   "birth": null,
+   "death": 190,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平元年（190）。",
+   "gender": "male",
+   "first_chapter": 4,
+   "review_status": "reviewed",
+   "summary": "伍琼，东汉武将，城门校尉。伍琼曰：\"袁绍好谋无断，不足为虑；诚不若加之一郡守，以收民心。",
+   "bio": "伍琼，为城门校尉。与侍中周毖同佐董卓。董卓问袁绍此去若何，琼曰「袁绍好谋无断，不足为虑；诚不若加之一郡守，以收民心」，卓从之。后袁绍起兵讨董，董卓迁都之前，周毖、伍琼望车而揖，谏曰「今闻丞相欲迁都长安，故来谏耳」，卓大怒曰「我始初听你两个，保用袁绍；今绍已反，是汝等一党」，叱武士推出都门斩首。二人之死，为「献策者反受其祸」的典型。注意与伍孚（字德瑜）非同一人。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 189,
+     "end_year": 190,
+     "title": "城门校尉",
+     "basis": "最高官职为城门校尉（武职），按「职责不明时按最高官职名判断」归武将；190 年为董卓所斩。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "劝授袁绍郡守",
+     "description": "曰「袁绍好谋无断，不足为虑」，劝董卓加以郡守以收民心。",
+     "importance": 2
+    },
+    {
+     "year": 190,
+     "title": "谏阻迁都",
+     "description": "与周毖同谏董卓勿迁都。",
+     "importance": 2
+    },
+    {
+     "year": 190,
+     "title": "被斩",
+     "description": "董卓怒其为袁绍一党，推出都门斩首。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "ding_guan",
+   "name": "丁管",
+   "courtesy": null,
+   "match_surfaces": [
+    "丁管"
+   ],
+   "display_aliases": [
+    "尚书"
+   ],
+   "birth": null,
+   "death": 190,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平元年（190）。",
+   "gender": "male",
+   "first_chapter": 4,
+   "review_status": "reviewed",
+   "summary": "丁管，东汉文臣，尚书。尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：今上乃聪明之主，汝何取出此乱言。",
+   "bio": "丁管，为尚书。初平元年九月，董卓大会文武于嘉德殿，命李儒读策废少帝为弘农王。读策毕，卓叱左右扶帝下殿，解其玺绶，帝后皆号哭，群臣无不悲惨。阶下一大臣愤怒高叫曰「贼臣董卓，敢为欺天之谋，吾当以颈血溅之」，挥手中象简直击董卓。卓大怒，喝武士拿下，乃尚书丁管也。卓命牵出斩之，管骂不绝口，至死神色不变。演义有诗叹曰「满朝臣宰皆囊括，惟有丁公是丈夫」。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 190,
+     "title": "尚书",
+     "basis": "尚书掌文书政令，以谋略内政为主归文臣；190 年为董卓所斩。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 190,
+     "title": "象简击卓",
+     "description": "董卓废少帝，丁管挥象简直击董卓，被牵出斩之，骂不绝口。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "liu_dai",
+   "name": "刘岱",
+   "courtesy": "公山",
+   "match_surfaces": [
+    "刘岱",
+    "刘公山"
+   ],
+   "display_aliases": [
+    "兖州刺史"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平三年（192）。东平人，刘繇之兄。",
+   "gender": "male",
+   "first_chapter": 5,
+   "review_status": "reviewed",
+   "summary": "刘岱，群雄君主，侍中、兖州刺史。刘岱、王忠连声告退曰：便丞相诛我三族，也不来了。",
+   "bio": "刘岱字公山，东平人，刘繇之兄。为侍中，董卓使为兖州刺史。讨董时列第四镇。董卓迁都后，曹操追董卓败回，诸侯各自分散，刘岱向东郡太守乔瑁借粮，乔瑁推辞不与，刘岱引军突入其营，杀死乔瑁，尽降其众。后青州黄巾入兖州，刘岱欲击之，济北相鲍信谏曰「今贼众百万，百姓皆震恐，士卒无斗志，不可敌也」，岱不听，遂与战，果为黄巾所杀。鲍信乃与陈宫等迎曹操领兖州。演义第六回写其杀乔瑁事。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 189,
+     "end_year": 192,
+     "title": "侍中、兖州刺史",
+     "basis": "以兖州刺史自据一州，为群雄之一；192 年为黄巾所杀。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 190,
+     "title": "列第四镇",
+     "description": "以兖州刺史起兵讨董。",
+     "importance": 2
+    },
+    {
+     "year": 190,
+     "title": "杀乔瑁",
+     "description": "借粮不成，引军突入乔瑁营中杀之，尽降其众。",
+     "importance": 3
+    },
+    {
+     "year": 192,
+     "title": "战黄巾死",
+     "description": "不听鲍信之谏，与黄巾战，败死。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "xun_chen",
+   "name": "荀谌",
+   "courtesy": "友若",
+   "match_surfaces": [
+    "荀谌",
+    "荀友若"
+   ],
+   "display_aliases": [
+    "韩馥谋士"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。颍川颍阴人，荀彧之弟。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "荀谌，群雄文臣，谋士。慌聚荀谌、辛评二谋士商议。",
+   "bio": "荀谌字友若，颍川颍阴人，荀彧之弟。为韩馥谋士。袁绍用逢纪之谋，暗结公孙瓒使攻冀州，韩馥慌聚荀谌、辛评商议。谌曰「公孙瓒将燕、代之众，长驱而来，其锋不可当，兼有刘备、关、张助之，难以抵敌。今袁本初智勇过人，手下名将极广，将军可请彼同治州事，彼必厚待将军」。韩馥从其言，遂迎袁绍入冀州，尽失其权。荀谌后归袁绍，官至别驾。演义第七回写其说韩馥一段。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 191,
+     "title": "谋士",
+     "lord_id": "han_fu",
+     "basis": "韩馥谋士，以谋略为主归文臣；191 年韩馥失冀州。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 191,
+     "end_year": 202,
+     "title": "别驾",
+     "lord_id": "yuan_shao",
+     "basis": "韩馥让州后归袁绍，为别驾；卒年不详，暂记至袁绍卒年（202）。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "说韩馥让州",
+     "description": "以公孙瓒之锋不可当、袁绍智勇过人说动韩馥，迎袁绍入冀州。",
+     "importance": 3
+    },
+    {
+     "year": 191,
+     "title": "归袁绍",
+     "description": "韩馥失州后归袁绍，官至别驾。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "xin_ping",
+   "name": "辛评",
+   "courtesy": "仲治",
+   "match_surfaces": [
+    "辛评",
+    "辛仲治"
+   ],
+   "display_aliases": [
+    "韩馥谋士"
+   ],
+   "birth": null,
+   "death": 204,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于建安九年（204）。颍川阳翟人。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "辛评，群雄文臣，谋士。辛评曰：审、逢二人，必预定机谋。",
+   "bio": "辛评字仲治，颍川阳翟人，辛毗之兄。为韩馥谋士，与荀谌同劝韩馥让冀州于袁绍。后归袁绍，为谋士。袁绍死，审配、逢纪矫绍遗命立袁尚，辛评与郭图则附袁谭，兄弟阋墙由此起。曹操围邺，审配守城，辛评家在城中，审配以其通曹操，杀评全家。辛评后归袁谭，建安九年袁谭败死，评为曹操所杀（一说为谭所杀）。演义第七回写韩馥「慌聚荀谌、辛评二谋士商议」。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 191,
+     "title": "谋士",
+     "lord_id": "han_fu",
+     "basis": "韩馥谋士，以谋略为主归文臣；191 年韩馥失冀州。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 191,
+     "end_year": 204,
+     "title": "谋士、都督",
+     "lord_id": "yuan_shao",
+     "basis": "韩馥让州后归袁绍为谋士；绍死后附袁谭；204 年为曹操所杀。",
+     "confidence": 0.75,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "劝让冀州",
+     "description": "与荀谌同劝韩馥让州于袁绍。",
+     "importance": 2
+    },
+    {
+     "year": 202,
+     "title": "附袁谭",
+     "description": "袁绍死后，与郭图附袁谭，与审配、逢纪对立。",
+     "importance": 2
+    },
+    {
+     "year": 204,
+     "title": "家破身死",
+     "description": "审配杀其全家；袁谭败死后评为曹操所杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "geng_wu",
+   "name": "耿武",
+   "courtesy": "文威",
+   "match_surfaces": [
+    "耿武"
+   ],
+   "display_aliases": [
+    "长史"
+   ],
+   "birth": null,
+   "death": 191,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平二年（191）。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "耿武，群雄文臣，长史。长史杨大将力谏方止。",
+   "bio": "耿武字文威，为韩馥长史。韩馥欲迎袁绍同治州事，耿武谏曰「袁绍孤客穷军，仰我鼻息，譬如婴儿在股掌之上，绝其乳哺，立可饿死。奈何欲以州事委之？此引虎入羊群也」，韩馥曰「吾乃袁氏之故吏，才能又不如本初，古者择贤者而让之，诸君何嫉妒耶」，耿武叹曰「冀州休矣」，于是弃职而去者三十余人，独耿武与关纯伏于城外以待袁绍。袁绍引兵至，耿武、关纯拔刀而出欲刺杀绍，绍将颜良立斩耿武，文丑砍死关纯。演义第七回写此事，为「忠言不用、以身殉之」的写照。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 191,
+     "title": "长史",
+     "lord_id": "han_fu",
+     "basis": "长史为州府文职之长，以谋略内政为主归文臣；191 年为颜良所斩。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "引虎入羊群之谏",
+     "description": "力谏韩馥勿以州事委袁绍，曰「此引虎入羊群也」，不听。",
+     "importance": 3
+    },
+    {
+     "year": 191,
+     "title": "伏城刺杀",
+     "description": "与关纯伏于城外，待袁绍至而拔刀刺之，为颜良立斩。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "guan_chun",
+   "name": "关纯",
+   "courtesy": null,
+   "match_surfaces": [
+    "关纯"
+   ],
+   "display_aliases": [
+    "别驾"
+   ],
+   "birth": null,
+   "death": 191,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平二年（191）。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "关纯，群雄文臣，别驾。别驾王修自青州来，谭将此计告之。",
+   "bio": "关纯，为韩馥别驾。韩馥欲请袁绍同治冀州，即差别驾关纯去请袁绍。长史耿武力谏不听，关纯与耿武同弃职，伏于城外以待袁绍。袁绍引兵至，二人拔刀而出欲刺杀绍，绍将颜良立斩耿武，文丑砍死关纯。演义第七回写其事，与耿武并称「冀州二义」。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 191,
+     "title": "别驾",
+     "lord_id": "han_fu",
+     "basis": "别驾为州府佐吏，以谋略内政为主归文臣；191 年为文丑所斩。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "往请袁绍",
+     "description": "奉韩馥命往请袁绍同治州事。",
+     "importance": 2
+    },
+    {
+     "year": 191,
+     "title": "伏城刺杀",
+     "description": "与耿武伏于城外拔刀刺绍，为文丑砍死。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "feng_ji",
+   "name": "逢纪",
+   "courtesy": "元图",
+   "match_surfaces": [
+    "逢纪",
+    "逢元图"
+   ],
+   "display_aliases": [
+    "谋士"
+   ],
+   "birth": null,
+   "death": 202,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于建安七年（202）。南阳人。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "逢纪，群雄文臣，谋士。谋士曰：丞相于虎窟中逃难之时，全无惧怯；今到城中，人已得食，马已得料，正须整顿军马复仇，何反痛哭。",
+   "bio": "逢纪字元图，南阳人。袁绍为渤海太守时，逢纪与许攸、田丰、沮授同为谋主。袁绍屯兵河内缺少粮草，逢纪说绍曰「大丈夫纵横天下，何待人送粮为食！冀州乃钱粮广盛之地，将军何不取之」，绍问良策，纪曰「可暗使人驰书与公孙瓒，令进兵取冀州，约以夹攻，瓒必兴兵。韩馥无谋之辈，必请将军领州事，就中取事，唾手可得」。绍从其计，果得冀州。袁绍死，逢纪与审配矫遗命立袁尚，后为袁谭所杀。演义第七回写其献计取冀州。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 202,
+     "title": "谋士",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍谋主之一，以谋略为主归文臣；202 年为袁谭所杀。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "献计取冀州",
+     "description": "劝袁绍暗结公孙瓒逼韩馥让州，一举取得冀州钱粮之地。",
+     "importance": 3
+    },
+    {
+     "year": 191,
+     "title": "分掌州事",
+     "description": "袁绍入冀州，以田丰、沮授、许攸、逢纪分掌州事。",
+     "importance": 1
+    },
+    {
+     "year": 202,
+     "title": "矫命立尚",
+     "description": "与审配矫袁绍遗命立袁尚，后为袁谭所杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "xu_you",
+   "name": "许攸",
+   "courtesy": "子远",
+   "match_surfaces": [
+    "许攸",
+    "许子远"
+   ],
+   "display_aliases": [
+    "谋士",
+    "南阳人"
+   ],
+   "birth": null,
+   "death": 204,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于建安九年（204）。南阳人。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "verified",
+   "summary": "许攸，群雄文臣，谋士。谋士曰：丞相于虎窟中逃难之时，全无惧怯；今到城中，人已得食，马已得料，正须整顿军马复仇，何反痛哭。",
+   "bio": "许攸字子远，南阳人。少与曹操及袁绍相善。为袁绍谋主，与田丰、沮授、逢纪分掌州事。官渡之战，许攸献计于袁绍曰「曹操兵少，而悉师拒我，许下余守，势必空弱。若分遣轻军，星行掩袭，许拔则操成禽矣」，绍不能用。会攸家人犯法，为审配所收，攸怒，遂奔曹操。曹操闻攸来，跣出迎之，抚掌笑曰「子远，卿来，吾事济矣」。攸曰「今袁氏辎重有万余乘，在故市、乌巢，屯军无严备，今以轻兵袭之，燔其积聚，不过三日，袁氏自败也」，曹操从之，遂破袁绍。后许攸恃功骄慢，尝于众坐呼曹操小字曰「阿瞒，卿不得我，不得冀州也」，曹操笑曰「汝言是也」，而内不能平，后竟杀之。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 189,
+     "end_year": 200,
+     "title": "谋士",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍谋主之一，以谋略为主归文臣；200 年官渡之役投曹操。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 200,
+     "end_year": 204,
+     "title": "谋士",
+     "lord_id": "cao_cao",
+     "basis": "200 年投曹操，献烧乌巢之策（曹魏势力形成年 196）；后以骄慢为曹操所杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "分掌州事",
+     "description": "袁绍入冀州，与田丰、沮授、逢纪分掌州事。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "献袭许之计",
+     "description": "劝袁绍分兵掩袭许都，绍不能用。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "夜奔曹操",
+     "description": "家人犯法为审配所收，怒而奔曹，曹操跣出迎之曰「子远，卿来，吾事济矣」。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "献烧乌巢",
+     "description": "劝曹操轻兵袭乌巢，燔其积聚，袁氏自败，操从之遂破袁绍。",
+     "importance": 3
+    },
+    {
+     "year": 204,
+     "title": "以骄慢被杀",
+     "description": "于众坐呼曹操小字「阿瞒」，操内不能平，后竟杀之。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "niu_fu",
+   "name": "牛辅",
+   "courtesy": null,
+   "match_surfaces": [
+    "牛辅"
+   ],
+   "display_aliases": [
+    "中郎将"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "exact",
+   "date_note": "生年不详，卒于初平三年（192）。董卓之婿。",
+   "gender": "male",
+   "first_chapter": 3,
+   "review_status": "reviewed",
+   "summary": "牛辅，群雄武将，中郎将。牛辅如何敌得吕布，仍复大败而走。",
+   "bio": "牛辅，董卓之婿，为中郎将，屯兵陕县。董卓死，李傕、郭汜等攻长安，路逢牛辅引军五千欲为丈人报仇，遂合兵以为前驱。王允遣吕布、李肃迎战，李肃当先与牛辅相遇，大杀一阵，牛辅抵敌不过败走；是夜二更，牛辅乘肃不备劫寨，肃军乱窜，吕布怒斩李肃。次日吕布进兵，牛辅复大败。是夜牛辅唤心腹胡赤儿商议曰「吕布骁勇，万不能敌，不如瞒了李傕等四人，暗藏金珠，与亲随三五人弃军而去」，胡赤儿应允。将渡一河，赤儿欲谋取金珠，竟杀牛辅，将头献吕布。演义第九回写其事。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 192,
+     "title": "中郎将",
+     "lord_id": "dong_zhuo",
+     "basis": "董卓之婿及部将，无独立势力，以军事指挥为主归武将；192 年为部下所杀。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 192,
+     "title": "合兵报仇",
+     "description": "引军五千欲为董卓报仇，与李傕合兵为前驱。",
+     "importance": 2
+    },
+    {
+     "year": 192,
+     "title": "劫寨斩李肃",
+     "description": "夜劫李肃营寨，肃军乱窜，吕布怒斩李肃。",
+     "importance": 3
+    },
+    {
+     "year": 192,
+     "title": "为亲信所杀",
+     "description": "弃军携金珠而逃，胡赤儿谋其金宝，杀之献首吕布。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "dong_min",
+   "name": "董旻",
+   "courtesy": null,
+   "match_surfaces": [
+    "董旻"
+   ],
+   "display_aliases": [
+    "左将军",
+    "鄠侯"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "exact",
+   "date_note": "生年不详，卒于初平三年（192）。董卓之弟。",
+   "gender": "male",
+   "first_chapter": 3,
+   "review_status": "reviewed",
+   "summary": "董旻，群雄武将，左将军、鄠侯。弟董旻、侄董璜皆斩首号令。",
+   "bio": "董旻，董卓之弟。董卓自号「尚父」，出入僭天子仪仗，封弟董旻为左将军、鄠侯，侄董璜为侍中总领禁军，董氏宗族不问长幼皆封列侯。董卓死后，王允命吕布同皇甫嵩、李肃领兵五万至郿坞抄籍董卓家产人口，皇甫嵩「但系董卓亲属，不分老幼，悉皆诛戮」，卓母亦被杀，卓弟董旻、侄董璜皆斩首号令。演义第八、九回写其事。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 192,
+     "title": "左将军、鄠侯",
+     "lord_id": "dong_zhuo",
+     "basis": "董卓之弟及部属，左将军为武职，按「职责不明时按最高官职名判断」归武将；192 年为皇甫嵩所杀。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "封左将军",
+     "description": "董卓专政，封弟董旻为左将军、鄠侯，宗族皆封列侯。",
+     "importance": 2
+    },
+    {
+     "year": 192,
+     "title": "郿坞被诛",
+     "description": "皇甫嵩至郿坞，凡董卓亲属不分老幼悉皆诛戮，董旻斩首号令。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "dong_huang",
+   "name": "董璜",
+   "courtesy": null,
+   "match_surfaces": [
+    "董璜"
+   ],
+   "display_aliases": [
+    "侍中",
+    "总领禁军"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "exact",
+   "date_note": "生年不详，卒于初平三年（192）。董卓之侄。",
+   "gender": "male",
+   "first_chapter": 8,
+   "review_status": "reviewed",
+   "summary": "董璜，群雄武将，侍中、总领禁军。侍中太史令王立私谓宗正刘艾曰：吾仰观天文，自去春太白犯镇星于斗牛，过天津，荧惑又逆行，与太白会于天关，金火交会，必有新天子出。",
+   "bio": "董璜，董卓之侄。董卓专政时封为侍中，总领禁军，董氏宗族不问长幼皆封列侯。董卓死，吕布同皇甫嵩至郿坞抄籍，凡系董卓亲属不分老幼悉皆诛戮，董璜与董旻皆斩首号令。演义第八回写「侄董璜为侍中，总领禁军」。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 189,
+     "end_year": 192,
+     "title": "侍中、总领禁军",
+     "lord_id": "dong_zhuo",
+     "basis": "虽为侍中（文职），但实际职掌为「总领禁军」，按实际职责归武将；192 年为皇甫嵩所杀。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "总领禁军",
+     "description": "董卓封侄董璜为侍中，总领禁军。",
+     "importance": 2
+    },
+    {
+     "year": 192,
+     "title": "郿坞被诛",
+     "description": "皇甫嵩至郿坞，凡董卓亲属悉皆诛戮，董璜斩首号令。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "li_meng",
+   "name": "李蒙",
+   "courtesy": null,
+   "match_surfaces": [
+    "李蒙"
+   ],
+   "display_aliases": [
+    "校尉"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "exact",
+   "date_note": "生年不详，卒于兴平元年（192）。",
+   "gender": "male",
+   "first_chapter": 9,
+   "review_status": "reviewed",
+   "summary": "李蒙，群雄武将，校尉。李蒙、王方齐声曰：\"若吾二人败，情愿斩首；吾若战胜，公亦当输首级与我。",
+   "bio": "李蒙，董卓余党，为校尉。董卓死，与王方在长安城中为李傕内应，偷开城门。马腾、韩遂引西凉兵来讨，李蒙与王方出曰「此非好计，愿借精兵万人，立斩马腾、韩遂之头」，且与贾诩赌曰「若吾二人败，情愿斩首；吾若战胜，公亦当输首级与我」。二人引兵迎敌，王方为马超一枪刺于马下，李蒙自马超背后赶来，马超故意俄延，待其马近举枪刺来时将身一闪，李蒙搠个空，两马相并，被马超轻舒猿臂生擒过去，后斩首号令。演义第十回写其事。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 189,
+     "end_year": 192,
+     "title": "校尉",
+     "lord_id": "dong_zhuo",
+     "basis": "董卓余党，校尉为武职，以战斗为主归武将；192 年为马超所擒斩。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 192,
+     "title": "为内应开城",
+     "description": "与王方在长安城中为李傕内应，偷开城门。",
+     "importance": 2
+    },
+    {
+     "year": 192,
+     "title": "与贾诩赌头",
+     "description": "自请精兵万人击西凉军，与贾诩赌「若败情愿斩首」。",
+     "importance": 2
+    },
+    {
+     "year": 192,
+     "title": "被马超生擒",
+     "description": "追击马超，反被其轻舒猿臂生擒，后斩首号令。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wang_fang",
+   "name": "王方",
+   "courtesy": null,
+   "match_surfaces": [
+    "王方"
+   ],
+   "display_aliases": [
+    "校尉"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "exact",
+   "date_note": "生年不详，卒于兴平元年（192）。",
+   "gender": "male",
+   "first_chapter": 9,
+   "review_status": "reviewed",
+   "summary": "王方，群雄武将，校尉。蒙见王方刺死，一骑马从马超背后赶来。",
+   "bio": "王方，董卓余党，为校尉。董卓死，与李蒙在长安城中为李傕内应偷开城门。马腾、韩遂引西凉兵十余万来讨，李傕、郭汜问计，李蒙、王方自请精兵万人往击。两军对阵，马腾指之骂曰「反国之贼」，马超从阵中飞出。王方欺马超年幼，跃马迎战，战不到数合，早被马超一枪刺于马下。演义第十回写其「欺他年幼，跃马迎战，战不到数合，早被马超一枪刺于马下」，为马超初阵立威的陪衬。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 189,
+     "end_year": 192,
+     "title": "校尉",
+     "lord_id": "dong_zhuo",
+     "basis": "董卓余党，校尉为武职，以战斗为主归武将；192 年为马超所刺。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 192,
+     "title": "为内应开城",
+     "description": "与李蒙在长安城中为李傕内应，偷开城门。",
+     "importance": 2
+    },
+    {
+     "year": 192,
+     "title": "被马超刺死",
+     "description": "欺马超年幼跃马迎战，战不到数合被一枪刺于马下。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "lv_gong_jingzhou",
+   "name": "吕公",
+   "courtesy": null,
+   "match_surfaces": [
+    "吕公"
+   ],
+   "display_aliases": [
+    "健将"
+   ],
+   "birth": null,
+   "death": 191,
+   "date_precision": "approx",
+   "date_note": "生年不详，卒于初平二年（191）。",
+   "gender": "male",
+   "first_chapter": 7,
+   "review_status": "reviewed",
+   "summary": "吕公，群雄武将，健将。吕公勒回马来战孙坚。",
+   "bio": "吕公，刘表帐下健将。孙坚围襄阳，蒯良夜观天象见将星欲坠，劝刘表求援于袁绍，又问谁敢突围。吕公应声愿往，蒯良授计曰「与汝军马五百，多带能射者冲出阵去，即奔岘山。他必引军来赶，汝分一百人上山寻石子准备，一百人执弓弩伏于林中，引到埋伏之处，矢石俱发」。吕公依计，黄昏密开东门引兵出城，孙坚果只引三十余骑追来，吕公勒回马战一合便走，闪入山路。孙坚赶入，一声锣响，山上石子乱下，林中乱箭齐发，孙坚脑浆迸流，人马皆死于岘山之内。后程普保孙策寻路，正遇吕公，战不到数合，一矛刺吕公于马下。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 191,
+     "title": "健将",
+     "lord_id": "liu_biao",
+     "basis": "刘表部将，无独立势力，以战斗为主归武将；191 年为程普所刺。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "受计突围",
+     "description": "应声愿往，蒯良授以诱敌入岘山、矢石齐发之计。",
+     "importance": 2
+    },
+    {
+     "year": 191,
+     "title": "岘山射坚",
+     "description": "引孙坚入岘山，山上石子乱下、林中乱箭齐发，孙坚死于是役。",
+     "importance": 3
+    },
+    {
+     "year": 191,
+     "title": "被程普刺死",
+     "description": "程普保孙策寻路正遇吕公，战不到数合被一矛刺于马下。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zhang_kai",
+   "name": "张闿",
+   "courtesy": null,
+   "match_surfaces": [
+    "张闿"
+   ],
+   "display_aliases": [
+    "都尉"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。本为黄巾余党。",
+   "gender": "male",
+   "first_chapter": 10,
+   "review_status": "reviewed",
+   "summary": "张闿，群雄武将，都尉。都尉杨奉大怒，谓宋果曰：吾等出生入死，身冒矢石，功反不及女巫耶。",
+   "bio": "张闿，本为黄巾余党，勉强降顺陶谦，为都尉。曹操遣应劭往琅琊迎父曹嵩，陶谦欲结好曹操，特差都尉张闿将部兵五百护送。曹嵩行到华、费间，大雨骤至，投一古寺歇宿，张闿将军马屯于两廊，众军衣装皆被雨打湿，同声嗟怨。张闿唤手下头目于静处商议曰「我们本是黄巾余党，勉强降顺陶谦，未有好处。如今曹家辎重车辆无数，你们欲得富贵不难，只就今夜三更大家砍将入去，把曹嵩一家杀了，取了财物，同往山中落草」。是夜风雨未息，曹德提剑出看被搠死，曹嵩与一妾躲于厕中被乱军所杀。张闿杀尽曹嵩全家，放火烧寺，与五百人逃奔淮南。此事为曹操屠徐州的直接导火索。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 193,
+     "title": "都尉",
+     "lord_id": "tao_qian",
+     "basis": "陶谦部将，都尉为武职，以军事为主归武将；193 年杀曹嵩后奔淮南，此后不在演义主线。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "奉命护送曹嵩",
+     "description": "陶谦欲结好曹操，差张闿将部兵五百护送曹嵩。",
+     "importance": 2
+    },
+    {
+     "year": 193,
+     "title": "见财起意",
+     "description": "与众头目商议夜三更砍入，杀曹嵩一家取财物落草。",
+     "importance": 3
+    },
+    {
+     "year": 193,
+     "title": "杀嵩全家",
+     "description": "曹德被搠死，曹嵩与妾躲厕中被杀，张闿放火烧寺奔淮南。",
+     "importance": 3
+    }
+   ]
+  }
+ ]
+}

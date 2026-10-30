@@ -1,0 +1,29 @@
+{
+ "id": "shi_bao",
+ "name": "石苞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "石苞，曹魏文臣，魏将。第 111 回一笔带过，事迹仅存其名。",
+ "bio": "第 112 回：昭从其言，遂令石苞、州泰先引两军于石头城埋伏，王基、陈骞领精兵在后，却令偏将成倅引兵数万先去诱敌。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 253,
+   "end_year": 264,
+   "title": "魏将",
+   "basis": "第一百十一回原文：昭遂下诏，尽起两都之兵二十六万，命镇南将军王基为正先锋，安东将军陈骞为副先锋，监军石苞为左军。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 253—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

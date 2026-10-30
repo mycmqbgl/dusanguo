@@ -1,0 +1,29 @@
+{
+ "id": "du_xi",
+ "name": "杜袭",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 66,
+ "review_status": "auto_mined",
+ "summary": "杜袭，曹魏文臣，汉侍中。说杜袭引军逃回，见夏侯渊，说黄忠夺了对山。",
+ "bio": "第 66 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 215,
+   "end_year": 219,
+   "title": "汉侍中",
+   "basis": "第六十六回原文：于是侍中王粲、杜袭、卫凯、和洽四人，议欲尊曹操为魏王。 职任「汉侍中」据此；★任期按末见回目收敛：全书最后一次提及在第 71 回（219 年），原 215—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

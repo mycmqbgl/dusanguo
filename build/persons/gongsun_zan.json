@@ -1,0 +1,57 @@
+{
+ "id": "gongsun_zan",
+ "name": "公孙瓒",
+ "courtesy": "伯珪",
+ "display_aliases": [
+  "白马将军",
+  "北平太守"
+ ],
+ "birth": null,
+ "death": 199,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安四年（199）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "公孙瓒，群雄君主。公孙瓒曾与羌人战，尽选白马为先锋，号为白马将军；羌人但见白马便走，因此白马极多。",
+ "bio": "公孙瓒字伯珪，辽西令支人。少为郡吏，美姿貌，大声音，为涿郡太守刘其女所识，资遣受业于卢植。后以孝廉为郎，除辽东属国长史。尝与数十骑出行遇鲜卑数百骑，瓒自持矛两端刃，驰马刺伤数十人，由是鲜卑远避。每与羌人战，尽选白马为先锋，号「白马将军」，羌人见白马便走。讨董时为北平太守，列第十四镇。后与袁绍争冀州，磐河、界桥连战，先胜后败，退保易京。建安四年为袁绍所围，尽焚楼橹，自焚而死。演义中于磐河识拔赵云，刘备见而爱之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 184,
+   "end_year": 199,
+   "title": "辽东属国长史、骑都尉、中郎将、奋武将军、北平太守、易侯",
+   "basis": "自据幽州右北平一带，为群雄之一，至 199 年自焚而死。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 187,
+   "title": "塞外退鲜卑",
+   "description": "与数十骑遇鲜卑数百骑，持两端矛驰马刺伤数十人，敌乃退。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "列第十四镇",
+   "description": "以北平太守起兵讨董，路经平原遇刘备，叹其埋没英雄。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "磐河界桥之战",
+   "description": "与袁绍争冀州，先为文丑所窘，得赵云救；后于界桥先胜后败。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "易京自焚",
+   "description": "为袁绍久围，尽杀妻子姊妹，引火自焚。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 44
+}

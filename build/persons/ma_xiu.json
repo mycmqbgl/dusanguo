@@ -1,0 +1,29 @@
+{
+ "id": "ma_xiu",
+ "name": "马休",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 57,
+ "review_status": "auto_mined",
+ "summary": "马休，群雄武将，奉车都尉。腾骂不绝口，与其子马休及黄奎，一同遇害。",
+ "bio": "第 57 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "奉车都尉",
+   "basis": "第五十七回原文：腾曰：“汝自统羌兵保守西凉，只教次子马休、马铁并侄马岱随我同往。 职任「奉车都尉」据此；★任期按末见回目收敛：全书最后一次提及在第 57 回（211 年），原 211—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

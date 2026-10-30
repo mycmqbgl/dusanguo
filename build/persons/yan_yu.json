@@ -1,0 +1,42 @@
+{
+ "id": "yan_yu",
+ "name": "严舆",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 196,
+ "date_precision": "approx",
+ "date_note": "演义第十五回（约 196）请和被孙策掷接之瞬杀之。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "严舆，群雄武将，白虎之弟、部将。日白虎闻策兵至，令弟严舆出兵，会于枫桥。",
+ "bio": "严舆，严白虎之弟。白虎使舆拒孙策于枫桥，横刀立马桥上，为韩当部射倒岸上军后退走。后奉白虎命出城请和，与策会饮，酒酣言「欲与将军平分江东」，策怒「鼠辈安敢与吾相等」，舆拨剑起身，策飞剑砍之，应手而倒，首级送入城中，白虎遂弃城走。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 196,
+   "title": "白虎之弟、部将",
+   "basis": "随兄聚众。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "枫桥拒策",
+   "description": "拒孙策于枫桥，兵败。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "请和被杀",
+   "description": "奉命请和，席间拨剑起身，被策飞剑砍倒，首级送入城中。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 6
+}

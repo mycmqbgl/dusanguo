@@ -1,0 +1,29 @@
+{
+ "id": "yuan_yi_2",
+ "name": "元义",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "元义，曹魏文臣，黄巾渠帅。召大将军何进调兵擒马元义，斩之；次收封谞等一干人下狱。",
+ "bio": "第 1 回：角遣其党马元义，暗赍金帛，结交中涓封谞，以为内应。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 266,
+   "title": "黄巾渠帅",
+   "basis": "第一回原文：角遣其党马元义，暗赍金帛，结交中涓封谞，以为内应。 职任「黄巾渠帅」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

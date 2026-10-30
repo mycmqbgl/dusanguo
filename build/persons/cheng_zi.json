@@ -1,0 +1,29 @@
+{
+ "id": "cheng_zi",
+ "name": "程咨",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 44,
+ "review_status": "auto_mined",
+ "summary": "程咨，孙吴武将，程普长子。第 44 回一笔带过，事迹仅存其名。",
+ "bio": "第 44 回：「令长子程咨自代」。原文第 44 回相关片段：「今瑜爵居其上，心中不乐：是日乃托病不出，令长子程咨自代。瑜令众将曰：“王法无亲，诸君各守乃职。方今」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "程普长子",
+   "basis": "第 44 回：「令长子程咨自代」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

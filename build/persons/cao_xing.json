@@ -1,0 +1,43 @@
+{
+ "id": "cao_xing",
+ "name": "曹性",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 198,
+ "date_precision": "exact",
+ "date_note": "演义第十八回（建安三年，198）濮阳阵前射夏侯惇左目，被惇拔矢啖睛后一枪搠死。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "曹性，群雄武将，部将。先令侯成、郝萌、曹性引二百余骑接应高顺，使离沛城三十里去迎曹军，自引大军随后接应。",
+ "bio": "曹性，吕布部将。建安三年濮阳之战，高顺诈败诱夏侯惇绕阵而追，性于阵上暗放冷箭，正中惇左目。惇大呼「父精母血，不可弃也」，纳矢于口啖之，复挺枪直取曹性；性不及提防，被一枪搠透面门而死。两军骇然。（演义虚构；史载曹性为郝萌部将，反萌有功，布以其为都尉。）",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "部将",
+   "lord_id": "lv_bu",
+   "basis": "吕布部将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "属吕布",
+   "description": "吕布部将。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "射惇左目而亡",
+   "description": "濮阳阵前射夏侯惇左目，被啖睛之惇搠死（演义）。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 7
+}

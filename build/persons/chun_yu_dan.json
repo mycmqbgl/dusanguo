@@ -1,0 +1,36 @@
+{
+ "id": "chun_yu_dan",
+ "name": "淳于丹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 84,
+ "review_status": "auto_mined",
+ "summary": "淳于丹，孙吴武将，吴将。淳于丹引兵去了，又唤徐盛、丁奉曰：汝等各领兵三千，屯于寨外五里，如淳于丹败回，有兵赶来，当出救之，却不可追去。",
+ "bio": "第 84 回：淳于丹引兵去了，又唤徐盛、丁奉曰：汝等各领兵三千，屯于寨外五里，如淳于丹败回，有兵赶来，当出救之，却…。第 84 回：淳于丹于黄昏时分，领兵前进，到蜀寨时，已三更之后。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 222,
+   "title": "吴将",
+   "basis": "第八十四回原文：淳于丹引兵去了，又唤徐盛、丁奉曰：“汝等各领兵三千，屯于寨外五里，如淳于丹败回，有兵赶来，当。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 84 回（222 年），原 222—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 222,
+   "title": "第 84 回",
+   "description": "说淳于丹于黄昏时分，领兵前进，到蜀寨时，已三更之后",
+   "importance": 1
+  }
+ ],
+ "mention_count": 6
+}

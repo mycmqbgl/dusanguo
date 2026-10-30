@@ -1,0 +1,62 @@
+{
+ "id": "zhu_zhi",
+ "name": "朱治",
+ "courtesy": "君理",
+ "display_aliases": [
+  "吴郡太守",
+  "安国将军"
+ ],
+ "birth": 156,
+ "death": 224,
+ "date_precision": "exact",
+ "date_note": "史载黄武三年（224）卒，年六十九。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "朱治，孙吴武将，司马、督军校尉。第 15 回一笔带过，事迹仅存其名。",
+ "bio": "朱治字君理，丹杨故鄣人。初为县吏，后从孙坚征战，为司马。坚卒，治与孙策共谋渡江，实主其议，破严白虎、定吴郡。策以治为吴郡太守，在任三十年，抚定民夷，钱粮丰足。权时累迁至安国将军、毗陵侯。黄武三年卒，年六十九。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 195,
+   "title": "司马、督军校尉",
+   "lord_id": "sun_ce",
+   "basis": "孙坚旧部。｜阵营据主君（孙策）归属校正为wu，191-195→195-195。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 224,
+   "title": "吴郡太守、扶义将军、安国将军、毗陵侯",
+   "basis": "195 年后为吴郡太守。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "随孙坚",
+   "description": "为孙坚司马。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "佐策定吴郡",
+   "description": "劝孙策取江东，破严白虎，遂为吴郡太守。",
+   "importance": 3
+  },
+  {
+   "year": 224,
+   "title": "卒",
+   "description": "为吴郡太守三十年，年六十九卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 6
+}

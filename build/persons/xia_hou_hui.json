@@ -1,0 +1,29 @@
+{
+ "id": "xia_hou_hui",
+ "name": "夏侯惠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "夏侯惠，曹魏武将，行军司马。说夏侯惠、夏侯和二人入寨告司马懿曰：今蜀兵四散结营，各处屯田，以为久计；若不趁此时除之，纵令安居日久，深根固蒂，难以摇动。",
+ "bio": "。第 103 回：夏侯惠、夏侯和二人入寨告司马懿曰：今蜀兵四散结营，各处屯田，以为久计。第 103 回：夏侯惠等，不时截杀，半月之间，连胜数阵。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "行军司马",
+   "basis": "第102回夏侯惠与夏侯和同为行军司马，共赞军机以退蜀兵。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

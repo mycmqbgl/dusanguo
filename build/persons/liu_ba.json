@@ -1,0 +1,74 @@
+{
+ "id": "liu_ba",
+ "name": "刘巴",
+ "courtesy": "子初",
+ "display_aliases": [
+  "零陵烝阳人",
+  "尚书令"
+ ],
+ "birth": null,
+ "death": 222,
+ "date_precision": "approx",
+ "date_note": "史载卒于章武二年（222）。生年无载。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "reviewed",
+ "summary": "刘巴，东汉文臣，曹公掾使、招纳三郡。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+ "bio": "刘巴字子初，零陵烝阳人。少有名，备在新野，巴走依曹公，使招纳长沙零陵桂阳三郡，会备已略地，巴欲由交州还曹，诸葛亮留之不从，遂南入交趾，辗转依刘璋。璋迎刘备，巴谏：备，雄才也，入必为害。璋不听。备围成都，令军中：有害巴者，诛三族。城破巴乃谢罪归备，为左将军西曹掾。备称帝，巴为尚书令。备伐吴议，巴谏不听。章武二年卒。巴退还益州民用虚币之弊，平诸物价，为蜀理财能臣。演义出场甚简。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 210,
+   "title": "曹公掾使、招纳三郡",
+   "lord_id": "cao_cao",
+   "basis": "赤壁前依曹操，使招长沙零陵桂阳，事败南走。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 210,
+   "end_year": 214,
+   "title": "刘璋帐下",
+   "lord_id": "liu_zhang",
+   "basis": "由交趾入蜀依璋，谏迎备不听。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 222,
+   "title": "左将军西曹掾、尚书令",
+   "lord_id": "liu_bei",
+   "basis": "成都下归备，历西曹掾，称帝后为尚书令，222 年卒。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "谏璋拒备",
+   "description": "谏刘璋：刘备入蜀必为后患。璋不听。",
+   "importance": 2
+  },
+  {
+   "year": 214,
+   "title": "闭门谢罪归刘",
+   "description": "备令三军有害巴者诛三族，巴乃归降，署左将军西曹掾。",
+   "importance": 2
+  },
+  {
+   "year": 221,
+   "title": "尚书令理财",
+   "description": "平益州虚币物价之乱，佐备称帝建国。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

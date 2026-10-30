@@ -1,0 +1,32 @@
+{
+ "id": "liu_bin",
+ "name": "刘邠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "刘邠（正史人物，演义未载）：刘邠字令元，官至监军。演义未载。",
+ "bio": "《三国志·蜀书·杨戏传》附：刘邠字令元，官至监军。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 184,
+   "basis": "原文未见此人（0 次），疑为「刘邠」与「刘邠」异写或名录误收，官职无考。 原文未见此人，暂记汉末。",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title": "（正史人物，演义未载）",
+   "title_unknown_verified": false
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

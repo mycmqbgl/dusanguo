@@ -1,0 +1,29 @@
+{
+ "id": "li_hui",
+ "name": "李恢",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "auto_mined",
+ "summary": "李恢，蜀汉文臣，功曹。孔明从其言，即令王平，李恢，引二枝兵守街亭小路；魏延引一军守陈仓口。",
+ "bio": "第 60 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 234,
+   "title": "功曹",
+   "basis": "第六十回原文：叱左右推出李恢。 职任「功曹」据此；★任期按末见回目收敛：全书最后一次提及在第 102 回（234 年），原 211—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

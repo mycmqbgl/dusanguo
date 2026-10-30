@@ -1,0 +1,461 @@
+{
+ "comment": "P4-D（2026-10-29）：第 101–110 回新登场人物 8 卡（含孙亮、诸葛恪、孙峻等）。史实以《三国志》为准，演义按毛本。",
+ "persons": [
+  {
+   "id": "cao_shuang",
+   "name": "曹爽",
+   "courtesy": "昭伯",
+   "match_surfaces": [
+    "曹爽",
+    "曹昭伯"
+   ],
+   "display_aliases": [
+    "大将军曹爽",
+    "曹真之子"
+   ],
+   "birth": null,
+   "death": 249,
+   "date_precision": "exact",
+   "date_note": "史载卒于嘉平元年正月（249）高平陵之变，与司马懿同日被诛三族。生年无确载。",
+   "gender": "male",
+   "first_chapter": 106,
+   "review_status": "reviewed",
+   "summary": "曹爽，曹魏文臣，大将军、录尚书事。说魏殿中校尉尹大目，乃曹爽心腹之人，因爽被司马懿谋杀，故事司马师，常有杀师报爽之心；又素与文钦交厚。",
+   "bio": "曹爽字昭伯，曹真长子。明帝寝疾，引爽卧内，执其手与司马懿并受遗诏辅少主。芳即位，加侍中、武安侯，都督中外诸军事，与懿各领兵三千。爽用何晏、邓飏、丁谧等谋，尊懿为太傅而夺其实权，弟羲训彦皆典禁兵，出猎饮食僭拟宫禁。正始间伐蜀败于骆谷而还。懿称病不朝，爽信之，不复设备。嘉平元年，爽兄弟从芳谒高平陵，懿闭城据武库、屯洛水浮桥，遣蒋济等许以指洛水为誓、但免兵权。桓范劝爽奉天子幸许昌发兵，爽怯懦不决，流涕曰：我不起兵，情愿弃官，但为富家翁足矣！范哭骂曹子丹之子豚犊耳。爽纳印绶归府，旬日坐罪与何晏等俱斩于市曹，夷三族。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 239,
+     "end_year": 249,
+     "title": "大将军、录尚书事",
+     "lord_id": "cao_rui",
+     "basis": "明帝托孤与大将军事，专权十年；249 年高平陵之变被司马懿诛灭三族。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "辅政大臣"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 239,
+     "title": "受遗辅政",
+     "description": "明帝执手托孤，与大将军事，与司马懿共辅少主曹芳。",
+     "importance": 2
+    },
+    {
+     "year": 244,
+     "title": "骆谷败还",
+     "description": "从邓飏等谋伐蜀，入骆谷数百里，为蜀军所拒，兵败退还。",
+     "importance": 1
+    },
+    {
+     "year": 249,
+     "title": "高平陵被诛",
+     "description": "从驾谒陵被懿闭城所赚，弃兵权归府，卒被斩于市曹夷三族。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "gongsun_yuan",
+   "name": "公孙渊",
+   "courtesy": null,
+   "match_surfaces": [
+    "公孙渊"
+   ],
+   "display_aliases": [
+    "辽东太守",
+    "燕王",
+    "公孙度之孙"
+   ],
+   "birth": null,
+   "death": 238,
+   "date_precision": "exact",
+   "date_note": "史载卒于景初二年（238），司马懿围襄平破城，渊父子被斩。生年无载。",
+   "gender": "male",
+   "first_chapter": 105,
+   "review_status": "reviewed",
+   "summary": "公孙渊，群雄君主，辽东太守。驱兵掩杀，公孙渊引败兵奔入襄平城去，闭门坚守不出。",
+   "bio": "公孙渊，辽东襄平人，公孙度之孙、公孙康之子。康死，二子年幼，叔恭继职；渊长，文武兼备，性刚好斗，夺恭位，魏拜扬烈将军、辽东太守。孙权遣使封渊为燕王，渊惧中原，斩吴使送首于魏，进封大司马乐浪公。渊心不足，终自称燕王，改元绍汉。贾范、伦直谏止，皆被杀。渊令卑衍、杨祚将辽兵十五万杀奔中原。魏主曹睿命司马懿率四万兵东征。懿弃辽隧径趋襄平，围城；时秋雨连绵，平地水深三尺，运粮船直抵城下，懿绝不移营。渊粮尽请降不许，与子修突围南走，行不及十里为魏兵四面围困，父子下马就缚，被斩；宗族同谋七十余首级号令，传首洛阳。贾范伦直之墓受封荣。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 228,
+     "end_year": 229,
+     "title": "辽东太守",
+     "lord_id": null,
+     "basis": "夺叔公孙恭位割据辽东，238 年自称燕王改元，同年司马懿东征，襄平城破被斩。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "割据君主"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 228,
+     "title": "夺叔继位",
+     "description": "性刚好斗，夺公孙恭之位，魏封扬烈将军、辽东太守。",
+     "importance": 1
+    },
+    {
+     "year": 233,
+     "title": "斩吴使献首",
+     "description": "斩孙权所遣张弥许晏，送首与魏，进封大司马乐浪公。",
+     "importance": 2
+    },
+    {
+     "year": 238,
+     "title": "自称燕王败亡",
+     "description": "僭号燕王起兵十五万；司马懿围襄平，粮尽突围被擒，父子受戳。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "sun_liang",
+   "name": "孙亮",
+   "courtesy": "子明",
+   "match_surfaces": [
+    "孙亮"
+   ],
+   "display_aliases": [
+    "吴少帝",
+    "吴主孙亮"
+   ],
+   "birth": 243,
+   "death": 260,
+   "date_precision": "exact",
+   "date_note": "史载生于赤乌六年（243），吴太平三年（258）被废为会稽王，260 年自杀于侯官。在位 252–258。",
+   "gender": "male",
+   "first_chapter": 108,
+   "review_status": "reviewed",
+   "summary": "孙亮，孙权少子，在位六年。太平三年（258）为孙綝所废，降为会稽王。",
+   "bio": "孙亮，字子明，孙权少子，母潘夫人。太元二年即位，年十岁，诸葛恪、孙峻、孙綝相继辅政。太平三年（258）孙綝专权，孙亮与全尚、刘丞谋诛之，事泄，孙綝引兵围内苑，废亮为会稽王，另立琅琊王孙休。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "皇帝",
+     "start_year": 252,
+     "end_year": 258,
+     "title": "孙权少子，吴废帝",
+     "basis": "第113回：吴主孙亮，时年方十六，见綝杀戮太过，心甚不然。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wu",
+     "role": "亲族",
+     "start_year": 258,
+     "end_year": 260,
+     "title": "会稽王（废黜后降封）",
+     "basis": "第113回：綝大怒，自拔剑斩之，即入内指吴主孙亮骂曰……看先帝之面，废汝为会稽王。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 252,
+     "title": "权崩即位",
+     "description": "孙权死，亮以太子即位，改元建兴，诸葛恪辅政。",
+     "importance": 3
+    },
+    {
+     "year": 253,
+     "title": "宴诛诸葛恪",
+     "description": "与孙峻合谋，伏兵宫宴杀诸葛恪，夷其族。",
+     "importance": 2
+    },
+    {
+     "year": 258,
+     "title": "被废为会稽王",
+     "description": "谋诛孙綝事泄，反被綝所废，迎立孙休。",
+     "importance": 2
+    }
+   ],
+   "span_post_state": true
+  },
+  {
+   "id": "zhuge_ke",
+   "name": "诸葛恪",
+   "courtesy": "元逊",
+   "match_surfaces": [
+    "诸葛恪",
+    "诸葛元逊"
+   ],
+   "display_aliases": [
+    "吴太傅",
+    "诸葛瑾之子"
+   ],
+   "birth": 203,
+   "death": 253,
+   "date_precision": "exact",
+   "date_note": "史载生于建安八年（203），卒于建兴二年十月（253）宫宴为孙峻所杀，年五十一。",
+   "gender": "male",
+   "first_chapter": 98,
+   "review_status": "reviewed",
+   "summary": "诸葛恪，孙吴文臣，太傅、辅立孙亮。说诸葛恪连月攻打新城不下，下令众将：并力攻城，怠慢者立斩。",
+   "bio": "诸葛恪字元逊，诸葛瑾长子，少以机辩知名，权尝试之，对答敏捷，谓蓝田生玉。历丹阳太守，征讨山越得兵数万。权病笃，托以后事，恪辅立孙亮，为太傅。建兴元年魏三路来犯，恪遣丁奉雪中破敌于东兴，大捷封阳都侯；旋恃胜起兵二十万围新城，连月不下，士卒病死者众，还军怨声载道。恪愈骄，更严刑峻法，独断专行，欲再图北伐。孙峻与吴主亮设计，于宫中设伏，酒半杀之，夷三族。演义写恪谓人曰：诸葛恪乃诸葛瑾之子，未必不如其叔父诸葛孔明；又幼时答权「食仲家饼」之辩，皆见其辩才。评曰：恪有才而骄，功成而矜，此其所以败也。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 252,
+     "end_year": 253,
+     "title": "太傅、辅立孙亮",
+     "lord_id": "sun_liang",
+     "basis": "孙权托孤辅立孙亮，东兴之战自将大兵，新城败还后 253 年为孙峻所诛。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "辅政大臣"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 252,
+     "title": "托孤辅政",
+     "description": "孙权病笃托孤，恪辅立孙亮为太傅，总理国政。",
+     "importance": 3
+    },
+    {
+     "year": 252,
+     "title": "东兴大捷",
+     "description": "遣丁奉雪夜短兵袭魏营，大破魏军三路，封阳都侯。",
+     "importance": 2
+    },
+    {
+     "year": 253,
+     "title": "新城败还被诛",
+     "description": "恃胜伐魏围新城不下，士卒多病亡；还朝骄横，宫宴为孙峻所杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wen_yang",
+   "name": "文鸯",
+   "courtesy": "次骞",
+   "match_surfaces": [
+    "文鸯",
+    "文次骞",
+    "文淑"
+   ],
+   "display_aliases": [
+    "文钦之子",
+    "小赵云（小说评语）"
+   ],
+   "birth": 238,
+   "death": 291,
+   "date_precision": "approx",
+   "date_note": "史载生于正始年间（约 238），卒于元康元年（291）为诸葛诞故吏所诬，被夷三族。",
+   "gender": "male",
+   "first_chapter": 110,
+   "review_status": "reviewed",
+   "summary": "文鸯，曹魏武将，魏将。将连追四五番，皆被文鸯一人杀退。",
+   "bio": "文鸯，谯郡人，文钦中子，小名阿鸯，史名俶（淑），字次骞。正元二年（255）毌丘俭、文钦起兵淮南讨司马师，鸯年十八，骁勇绝人，与父分兵夜袭师营，鸯单骑先入，在魏营中左冲右突，所到之处人不敢当；师惊得眼珠迸出。追兵至，鸯单骑冲入魏将阵中，钢鞭起处纷纷落马，退而复往者五六次（一作十余次），杀得追兵不敢逼，时人比之赵云。兵败随父奔吴。后吴诸葛诞反于淮南，文钦为诞所杀，鸯与弟文虎逾城降魏，司马昭赦而用之，使招降城内。入晋后都督凉秦雍州，破鲜卑有功；终以诞故吏之诬遇害。演义写其夜袭魏营一节，最为生色。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 255,
+     "end_year": 255,
+     "title": "魏将",
+     "lord_id": null,
+     "basis": "随父文钦与毌丘俭举兵淮南讨司马师，单骑退追兵；兵败奔吴。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 255,
+     "title": "夜袭司马师大营",
+     "description": "与父分兵夜袭，鸯单骑先入魏营，大呼厮杀，师惊骇目疮迸发。",
+     "importance": 3
+    },
+    {
+     "year": 255,
+     "title": "单骑退追兵",
+     "description": "单骑五复入魏将阵中，鞭到处人马俱倒，追兵不敢逼。",
+     "importance": 3
+    },
+    {
+     "year": 257,
+     "title": "降魏招城",
+     "description": "父为诸葛诞所杀，与弟文虎逾城降魏，受昭赦免，登城招降其众。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "cao_fang",
+   "name": "曹芳",
+   "courtesy": "兰卿",
+   "match_surfaces": [
+    "曹芳"
+   ],
+   "display_aliases": [
+    "魏少帝",
+    "魏齐王"
+   ],
+   "birth": 232,
+   "death": 274,
+   "date_precision": "approx",
+   "date_note": "史载生于太和六年（232，一说 233），卒于泰始十年（274）。正始元年（240）即位，嘉平六年（254）为司马师所废。",
+   "gender": "male",
+   "first_chapter": 106,
+   "review_status": "reviewed",
+   "summary": "曹芳，魏明帝养子，在位十五年。嘉平六年（254）为司马师所废，降复齐王。",
+   "bio": "曹芳，字兰卿，魏明帝曹叡养子，青龙三年立为齐王，景初三年即位，年八岁。在位期间曹爽、司马懿共辅，正始十年高平陵之变后政权尽归司马氏。嘉平六年（254）中书令李丰等谋以夏侯玄辅政，事泄，司马师遂废曹芳，「当纳下玺绶，复齐王之爵」，迎立高贵乡公曹髦。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "皇帝",
+     "start_year": 239,
+     "end_year": 254,
+     "title": "魏明帝曹叡养子，齐王（废黜后降复王爵）",
+     "basis": "第109回：魏主曹芳每见师入朝，战栗不已，如针刺背。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "亲族",
+     "start_year": 254,
+     "end_year": 274,
+     "title": "齐王（废黜后降复王爵）",
+     "basis": "第109回：召芳责之曰……当纳下玺绶，复齐王之爵，目下起程，非宣召不许入朝。废后仍居魏土，为魏室之亲。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 239,
+     "title": "八岁即位",
+     "description": "明帝托孤而崩，芳即皇帝位，改元正始，曹爽司马懿辅政。",
+     "importance": 3
+    },
+    {
+     "year": 249,
+     "title": "谒陵遭变",
+     "description": "从曹爽谒高平陵，懿闭城发难；爽纳印归府被诛，政归司马氏。",
+     "importance": 3
+    },
+    {
+     "year": 254,
+     "title": "被废为齐王",
+     "description": "司马师以芳荒淫失德奏废，遣归齐地，迎立曹髦。",
+     "importance": 2
+    }
+   ],
+   "span_post_state": true
+  },
+  {
+   "id": "sun_jun",
+   "name": "孙峻",
+   "courtesy": "子远",
+   "match_surfaces": [
+    "孙峻"
+   ],
+   "display_aliases": [
+    "吴侍中、丞相大将军",
+    "孙静曾孙"
+   ],
+   "birth": null,
+   "death": 256,
+   "date_precision": "approx",
+   "date_note": "史载卒于太平元年（256），演义系于 253 诛诸葛恪后不久病亡。生年无载。",
+   "gender": "male",
+   "first_chapter": 108,
+   "review_status": "reviewed",
+   "summary": "孙峻，孙吴文臣，丞相、大将军、富春侯。孙峻曰：太傅府中常服药酒，可取饮乎。",
+   "bio": "孙峻字子远，孙坚叔父孙静之曾孙，为吴宗室疏属。性骁果，有胆力，历侍中。诸葛恪新城败还，骄横日甚，峻知人心怨恪，与吴主亮定计，置酒宫中伏兵，恪入坐，峻以更衣为号，杀恪于厕侧，夷恪三族。峻自为大将军，封富春侯，专吴政。峻负贵倨傲，多行虐刑，宗室大臣侧目。后领兵伐魏，败于合肥新城，还军病笃，以后事托从弟孙綝而死。演义写其刺恪一节与史合；峻在演义中为恪死后续写吴政之关键人物。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 253,
+     "end_year": 256,
+     "title": "丞相、大将军、富春侯",
+     "lord_id": "sun_liang",
+     "basis": "设计诛诸葛恪后自领吴政，专权约二年，病笃托政孙綝。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "辅政大臣"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 253,
+     "title": "宫宴杀恪",
+     "description": "与吴主亮定计，伏兵宫中，酒半杀诸葛恪，夷其三族。",
+     "importance": 3
+    },
+    {
+     "year": 253,
+     "title": "专断吴政",
+     "description": "自为大将军封富春侯，负贵倨傲，多行虐刑。",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：生年无载｜演：史载卒于太平元年（256），演义系于 253 诛诸葛恪后不久病亡"
+  },
+  {
+   "id": "yang_yi",
+   "name": "杨仪",
+   "courtesy": "威公",
+   "match_surfaces": [
+    "杨仪"
+   ],
+   "display_aliases": [
+    "杨威公",
+    "丞相长史"
+   ],
+   "birth": null,
+   "death": 235,
+   "date_precision": "approx",
+   "date_note": "史载卒于建兴十三年（235），诸葛亮死后一年，以怨望诽谤下狱自杀。生年无载。",
+   "gender": "male",
+   "first_chapter": 91,
+   "review_status": "reviewed",
+   "summary": "杨仪，蜀汉文臣，丞相长史、绥军将军。维、杨仪遵孔明遗命，不敢举哀，依法成殓，安置龛中，令心腹将卒三百人守护；随传密令，使魏延断后，各处营寨一一退去。",
+   "bio": "杨仪字威公，襄阳人。初为关羽功曹，使诣先帝，备与语大悦，辟为左将军兵曹掾，后从亮汉中为长史。亮数出军，仪常规画分部、筹度粮谷、简汰法令，不假思虑，斯须便了，军戎节度取办于仪。亮卒于五丈原，遗令以仪总军退，魏延不奉命拒后，仪按亮锦囊之授，阵前诱延曰：汝敢在马上连叫三声「谁敢杀我」，延声未绝，马岱应声而斩之。仪自谓功高，当代亮秉政，而亮密表以蒋琬为后，仪拜中军师无所统领，怨愤形于声色，语费祎曰：往者丞相亡没之际，吾若举军以就魏氏，处世宁当落度如此！祎密表其言，废仪为民，徙汉嘉郡；仪又上书诽谤，下狱，自杀。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 227,
+     "end_year": 234,
+     "title": "丞相长史、绥军将军",
+     "lord_id": "zhuge_liang",
+     "basis": "为亮长史筹度粮谷、办理军戎节度；亮卒受遗总军退兵，斩魏延。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 230,
+     "title": "军戎节度取办于仪",
+     "description": "亮数出军，仪规画分部筹度粮谷，才干敏速，倚为股肱。",
+     "importance": 2
+    },
+    {
+     "year": 234,
+     "title": "总军退兵斩魏延",
+     "description": "亮卒五丈原，仪奉遗令总军徐退；按锦囊令马岱阵斩魏延。",
+     "importance": 3
+    },
+    {
+     "year": 235,
+     "title": "怨望下狱自尽",
+     "description": "自谓当代亮秉政而不获，怨愤诽谤，废为民后下狱自杀。",
+     "importance": 2
+    }
+   ]
+  }
+ ]
+}

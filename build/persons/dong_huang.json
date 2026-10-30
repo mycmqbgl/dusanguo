@@ -1,0 +1,46 @@
+{
+ "id": "dong_huang",
+ "name": "董璜",
+ "courtesy": null,
+ "display_aliases": [
+  "侍中",
+  "总领禁军"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于初平三年（192）。董卓之侄。",
+ "gender": "male",
+ "first_chapter": 8,
+ "review_status": "reviewed",
+ "summary": "董璜，群雄武将，侍中、总领禁军。侍中太史令王立私谓宗正刘艾曰：吾仰观天文，自去春太白犯镇星于斗牛，过天津，荧惑又逆行，与太白会于天关，金火交会，必有新天子出。",
+ "bio": "董璜，董卓之侄。董卓专政时封为侍中，总领禁军，董氏宗族不问长幼皆封列侯。董卓死，吕布同皇甫嵩至郿坞抄籍，凡系董卓亲属不分老幼悉皆诛戮，董璜与董旻皆斩首号令。演义第八回写「侄董璜为侍中，总领禁军」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "侍中、总领禁军",
+   "lord_id": "dong_zhuo",
+   "basis": "虽为侍中（文职），但实际职掌为「总领禁军」，按实际职责归武将；192 年为皇甫嵩所杀。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "总领禁军",
+   "description": "董卓封侄董璜为侍中，总领禁军。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "郿坞被诛",
+   "description": "皇甫嵩至郿坞，凡董卓亲属悉皆诛戮，董璜斩首号令。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

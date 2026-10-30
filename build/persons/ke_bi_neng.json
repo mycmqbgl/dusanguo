@@ -1,0 +1,29 @@
+{
+ "id": "ke_bi_neng",
+ "name": "轲比能",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 85,
+ "review_status": "auto_mined",
+ "summary": "轲比能，鲜卑单于。魏初屡犯边，诸葛亮北伐时曾约其起兵，为马超伏兵所退。",
+ "bio": "轲比能，鲜卑大人，汉末据云中、五原以东，部落强盛，自称单于，演义作「西番国王」。第85回刘备新丧，魏调五路兵伐蜀，轲比能引兵十万犯西平关，诸葛亮遣马超伏兵于关外，羌兵素畏马超，不战自退。后为魏将所杀。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 225,
+   "end_year": 229,
+   "title": "鲜卑单于（演化作西番国王）",
+   "basis": "第85回：老臣先知西番国王轲比能，引兵犯西平关。轲比能为鲜卑大人，自称单于，演义作「西番国王」。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

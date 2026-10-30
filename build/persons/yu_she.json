@@ -1,0 +1,29 @@
+{
+ "id": "yu_she",
+ "name": "俞涉",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "auto_mined",
+ "summary": "俞涉，群雄武将，骁将。时报来：\"俞涉与华雄战不三合，被华雄斩了。",
+ "bio": "第 5 回：即时报来：俞涉与华雄战不三合，被华雄斩了。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 190,
+   "title": "骁将",
+   "basis": "第五回原文：即时报来：\"俞涉与华雄战不三合，被华雄斩了。 职任「骁将」据此；★任期按末见回目收敛：全书最后一次提及在第 5 回（190 年），原 190—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

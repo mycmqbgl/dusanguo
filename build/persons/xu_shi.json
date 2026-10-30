@@ -1,0 +1,29 @@
+{
+ "id": "xu_shi",
+ "name": "徐氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "徐氏，孙吴女眷，孙翊妻。徐氏曰：夫死未几，不忍便相从；可待至晦日，设祭除服，然后成亲未迟。",
+ "bio": "第 38 回：翊妻徐氏美而慧，极善卜《易》，是日卜一卦，其象大凶，劝翊勿出会客。第 38 回：徐氏曰：夫死未几，不忍便相从。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "女眷",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "孙翊妻",
+   "basis": "孙翊之妻，设计诛妫览、戴员为夫报仇。孙翊为吴丹阳太守，故归孙吴，保留女眷身份。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

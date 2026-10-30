@@ -1,0 +1,45 @@
+{
+ "id": "xiaoting_zhi_zhan",
+ "name": "猇亭之战",
+ "kind": "征伐",
+ "start_year": 221,
+ "end_year": 222,
+ "date_text": "章武元年至二年（221–222）",
+ "summary": "刘备为关张复仇御驾伐吴，陆逊火烧连营七百里，蜀汉主力尽丧，三国鼎立格局至此定型。",
+ "detail": "详见战役「猇亭之战」。81 回张飞因鞭挞士卒为范疆张达所害，首级投吴，备怒气弥甚。此役蜀汉精锐尽丧，五虎凋零，备崩于永安，蜀汉自此转为联吴抗魏。",
+ "place_id": "xiao_ting",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_bei",
+   "role_desc": "御驾亲征，连营七百里致败，退保白帝城"
+  },
+  {
+   "person_id": "lu_xun",
+   "role_desc": "吴大都督，坚守待敝，火烧连营"
+  },
+  {
+   "person_id": "huang_quan",
+   "role_desc": "谏勿亲征不听，督江北军，败后道绝降魏"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "后应，自江州杀入重围救先主"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "81 回开篇为部将范疆张达所害，首级投吴，直接激化此战"
+  }
+ ],
+ "passage_ids": [
+  81001,
+  81002,
+  83020,
+  83006,
+  84006,
+  84007
+ ],
+ "battle_ids": [
+  "xiaoting_battle"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "du_yi",
+ "name": "杜义",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "杜义，蜀汉武将，裨将军。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回：「行参军——裨将军杜义」。原文第 91 回相关片段：「将军阎晏；行参军——偏将军爨习；行参军——裨将军杜义，武略中郎将杜祺，绥戎都尉盛勃；从事——武略中郎」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 234,
+   "title": "裨将军",
+   "basis": "第 91 回：「行参军——裨将军杜义」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

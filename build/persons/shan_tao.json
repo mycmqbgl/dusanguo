@@ -1,0 +1,29 @@
+{
+ "id": "shan_tao",
+ "name": "山涛",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 119,
+ "review_status": "auto_mined",
+ "summary": "山涛，西晋文臣，晋吏部尚书、司徒。第 119 回一笔带过，事迹仅存其名。",
+ "bio": "第 119 回：「司马昭受封晋王，欲立攸为世子。山涛谏曰：废长立幼，违礼不祥」。竹林七贤之一。原文第 119 回相关片段：「兄之天下也。”于是司马昭受封晋王，欲立攸为世子。山涛谏曰：“废长立幼，违礼不祥。”贾充、何曾、裴秀亦」。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "文臣",
+   "start_year": 265,
+   "end_year": 283,
+   "title": "晋吏部尚书、司徒",
+   "basis": "第 119 回：「司马昭受封晋王，欲立攸为世子。山涛谏曰：废长立幼，违礼不祥」。竹林七贤之一。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

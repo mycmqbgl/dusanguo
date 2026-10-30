@@ -1,0 +1,61 @@
+{
+ "id": "jiang_qin",
+ "name": "蒋钦",
+ "courtesy": "公奕",
+ "display_aliases": [
+  "右护军"
+ ],
+ "birth": null,
+ "death": 219,
+ "date_precision": "exact",
+ "date_note": "史载建安二十四年（219）还都道病卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "蒋钦，孙吴武将，别部司马。蒋钦、周泰领命，随后引一千军赶来。",
+ "bio": "蒋钦字公奕，九江寿春人。与周泰随孙策，为别部司马。贵守约、素节约，权尝入其内母疏布帐，妻子衣服皆布。徐盛曾劾钦吏，及权论盛，钦荐盛可用，谓「盛忠于国，勤于事」，权服其公。随贺齐讨黟贼有功，迁荡寇将军领濡须督。随吕蒙袭荆州有功，还都道中病卒。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "别部司马",
+   "lord_id": "sun_ce",
+   "basis": "随孙策。｜阵营据主君（孙策）归属校正为wu，194-200→195-200。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 219,
+   "title": "荡寇将军、右护军、濡须督",
+   "basis": "孙权时代累迁。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "随孙策",
+   "description": "与周泰随孙策为别部司马。",
+   "importance": 1
+  },
+  {
+   "year": 203,
+   "title": "举徐盛",
+   "description": "不念私怨举荐徐盛，权服其公。",
+   "importance": 2
+  },
+  {
+   "year": 219,
+   "title": "袭荆州",
+   "description": "随吕蒙袭荆州有功；还都道中病卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 29
+}

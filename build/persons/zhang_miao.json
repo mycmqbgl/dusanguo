@@ -1,0 +1,50 @@
+{
+ "id": "zhang_miao",
+ "name": "张邈",
+ "courtesy": "孟卓",
+ "display_aliases": [
+  "陈留太守"
+ ],
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于兴平二年（195）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "张邈，群雄君主，陈留太守。张邈大喜，便令吕布袭破兖州，随据濮阳。",
+ "bio": "张邈字孟卓，东平寿张人。少以侠闻，赈穷救急，倾家无爱，士多归之，为「八厨」之一。讨董时列第六镇，为陈留太守，与曹操素厚。曹操初起，邈实助之；曹操征徐州，语家人曰「我若不还，往依孟卓」。后陈宫说邈迎吕布袭兖州，邈从之，曹操几至覆灭。兴平二年吕布败走，邈随之奔徐州，为其部下所杀。演义写其收留韩馥，韩馥疑其图己而自杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 195,
+   "title": "陈留太守",
+   "basis": "以陈留太守自据一郡，后迎吕布袭兖州自成一系，为群雄之一；195 年为部下所杀。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "列第六镇",
+   "description": "以陈留太守起兵讨董。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "迎吕布袭兖州",
+   "description": "用陈宫之谋迎吕布，兖州郡县皆应，曹操几至覆灭。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "败亡",
+   "description": "吕布败走，邈随之奔徐州，为部下所杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 10
+}

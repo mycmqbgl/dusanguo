@@ -1,0 +1,894 @@
+{
+ "comment": "P5（2026-10-29）：71–120 回关键人物补卡 15 张。",
+ "persons": [
+  {
+   "id": "sim_zhao",
+   "name": "司马昭",
+   "courtesy": "子尚",
+   "match_surfaces": [
+    "司马昭",
+    "司马子尚",
+    "子尚"
+   ],
+   "display_aliases": [
+    "晋公",
+    "晋王",
+    "大将军"
+   ],
+   "birth": 211,
+   "death": 265,
+   "date_precision": "approx",
+   "date_note": "史载生于魏正始年间推为 211，卒于魏咸熙二年八月（265）洛阳，旋司马炎代魏建晋。演义卒年与史合。",
+   "gender": "male",
+   "first_chapter": 31,
+   "review_status": "reviewed",
+   "summary": "司马昭，曹魏权臣，大将军、相国、晋王。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+   "bio": "司马昭字子尚，司马懿次子。高平陵之变与父兄同谋，随父征王凌。255 年兄师病卒于许昌，昭继为大将军录尚书事，总揽朝政。260 年曹髦不堪权柄下移，率殿中宿卫僮仆鼓噪而出讨昭，昭问计于贾充，充使成济抽戈弑帝于南阙，昭归罪成济夷其族，另立曹奂。263 年遣钟会、邓艾、诸葛绪三路伐蜀，邓艾偷度阴平，刘禅面缚舆榇出降，蜀汉亡。265 年进位相国，封晋王，加九锡；同年八月病卒。其子炎嗣位，旋受魏禅，国号晋。成语「司马昭之心，路人皆知」即出曹髦之口，为权臣篡国最著名之注脚。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "权臣",
+     "start_year": 249,
+     "end_year": 265,
+     "title": "大将军、相国、晋王",
+     "lord_id": "cao_mao",
+     "basis": "名义为魏臣，历事曹芳、曹髦、曹奂；高平陵后与父兄共掌朝政，255 年独秉国政，实则魏政尽归司马氏。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "jin",
+     "role": "追谥",
+     "start_year": 266,
+     "end_year": 316,
+     "title": "晋文帝",
+     "basis": "司马炎追尊为文皇帝。",
+     "confidence": 0.9
+    }
+   ],
+   "timeline": [
+    {
+     "year": 249,
+     "title": "高平陵共谋",
+     "description": "随父懿、兄师袭杀曹爽，司马氏自此专魏政。",
+     "importance": 2
+    },
+    {
+     "year": 255,
+     "title": "继掌魏政",
+     "description": "兄司马师病卒许昌，昭继为大将军，总揽朝纲。",
+     "importance": 3
+    },
+    {
+     "year": 260,
+     "title": "南阙弑帝",
+     "description": "曹髦率众讨昭，贾充使成济抽戈弑帝，昭归罪成济族之，改立曹奂。",
+     "importance": 3
+    },
+    {
+     "year": 263,
+     "title": "兴兵灭蜀",
+     "description": "遣钟会邓艾诸葛绪三路伐蜀，刘禅出降，蜀汉亡；昭以功进位晋公。",
+     "importance": 3
+    },
+    {
+     "year": 265,
+     "title": "晋王薨逝",
+     "description": "进封晋王后病卒，子司马炎旋受禅代魏，三分归一统。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史载生于魏正始年间推为 211，卒于魏咸熙二年八月（265）洛阳，旋司马炎代魏建晋｜演：卒年与史合"
+  },
+  {
+   "id": "sim_shi",
+   "name": "司马师",
+   "courtesy": "子元",
+   "match_surfaces": [
+    "司马师",
+    "司马子元",
+    "子元"
+   ],
+   "display_aliases": [
+    "大将军",
+    "抚军大将军"
+   ],
+   "birth": 208,
+   "death": 255,
+   "date_precision": "approx",
+   "date_note": "史载生于建安十三年前后（208），卒于魏正元二年闰正月（255）许昌，眼疾瘤破而亡，演义同。生年据卒时四十八逆推。",
+   "gender": "male",
+   "first_chapter": 78,
+   "review_status": "reviewed",
+   "summary": "司马师，曹魏权臣，大将军、录尚书事。司马师擅行废立之事，心中大怒。",
+   "bio": "司马师字子元，司马懿长子，张春华所生。沉毅有大略，少与夏侯玄齐名。249 年高平陵之变，师阴养死士三千一朝而集，控制京师，与其父共诛曹爽。251 年懿卒，师继为大将军录尚书事。254 年中书令李丰、张缉等谋以夏侯玄代师，事泄，师夷三族，废帝曹芳为齐王，立高贵乡公曹髦。255 年淮南二叛，毌丘俭、文钦起兵讨师，师抱病亲征，文鸯夜袭魏营，师惊瘤目迸出，咬被皆破。乱平，行至许昌，目痛不治而卒，年四十八。弟昭继掌其权。史称师「肃重机敏」，为司马代魏最关键的中枢奠基者。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "权臣",
+     "start_year": 249,
+     "end_year": 255,
+     "title": "大将军、录尚书事",
+     "lord_id": "cao_fang",
+     "basis": "历事曹芳、曹髦：诛曹爽、废曹芳，名虽魏臣而实执国柄。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "jin",
+     "role": "追谥",
+     "start_year": 266,
+     "end_year": 316,
+     "title": "晋景帝",
+     "basis": "司马炎追尊为景皇帝。",
+     "confidence": 0.9
+    }
+   ],
+   "timeline": [
+    {
+     "year": 249,
+     "title": "高平陵之变",
+     "description": "阴养死士三千一朝而起，助父懿袭杀曹爽，控制京师。",
+     "importance": 3
+    },
+    {
+     "year": 254,
+     "title": "废曹芳立曹髦",
+     "description": "李丰张缉谋诛师事泄，师废芳为齐王，立高贵乡公髦。",
+     "importance": 3
+    },
+    {
+     "year": 255,
+     "title": "淮南平叛",
+     "description": "毌丘俭文钦起兵讨师，师抱病亲征破之，文鸯夜袭惊破瘤目。",
+     "importance": 3
+    },
+    {
+     "year": 255,
+     "title": "卒于许昌",
+     "description": "目痛不治，卒于许昌，弟司马昭继掌魏政。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年据卒时四十八逆推｜演：史载生于建安十三年前后（208），卒于魏正元二年闰正月（255）许昌，眼疾瘤破而亡，演义同"
+  },
+  {
+   "id": "xiahou_ba",
+   "name": "夏侯霸",
+   "courtesy": "仲权",
+   "match_surfaces": [
+    "夏侯霸",
+    "夏侯仲权",
+    "仲权"
+   ],
+   "display_aliases": [
+    "夏侯渊次子",
+    "车骑将军",
+    "征蜀护军"
+   ],
+   "birth": null,
+   "death": 259,
+   "date_precision": "approx",
+   "date_note": "史载降蜀后官至车骑将军，延熙十二年（259）卒于蜀。生年无载。演义止于 115 回随姜维洮西而后渐不见。",
+   "gender": "male",
+   "first_chapter": 102,
+   "review_status": "reviewed",
+   "summary": "夏侯霸，曹魏武将，讨蜀护军、右将军。镇守雍州刺史郭淮，听知夏侯霸反，即率本部兵来，与夏侯霸交战。",
+   "bio": "夏侯霸字仲权，夏侯渊次子。渊定军山为黄忠所斩，霸常切齿欲报。魏以为讨蜀护军，屯陇西，养士有恩。249 年司马懿发动高平陵之变诛曹爽，征其表兄征西将军夏侯玄还京，以郭淮代之。霸素与郭淮不睦，惧祸及己，遂奔蜀。入蜀时于阴平迷失道，刘禅遣人迎之，相见曰：卿父自遇害于行间耳，非我先人之手刃也；指其子曰：此夏侯氏之甥也。厚加爵宠，拜车骑将军。霸感其恩，屡随姜维北伐，以其熟知陇西地理人情为向导，255 年洮西之战劝维乘魏督雍凉王经新任之隙大举，遂有洮西大捷。后卒于蜀。曹魏宗室姻亲转而为蜀汉死力，为后三国最富戏剧性的降将。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 219,
+     "end_year": 249,
+     "title": "讨蜀护军、右将军",
+     "lord_id": "cao_rui",
+     "basis": "继父兵屯陇西防蜀，历事曹丕、曹叡、曹芳。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 249,
+     "end_year": 259,
+     "title": "车骑将军",
+     "lord_id": "liu_shan",
+     "basis": "惧司马氏诛戮降蜀，刘禅厚待之，随姜维北伐为向导，259 年卒。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 249,
+     "title": "惧祸降蜀",
+     "description": "司马懿诛曹爽、收夏侯玄，霸奔蜀，刘禅以舅氏恩义厚待之。",
+     "importance": 3
+    },
+    {
+     "year": 255,
+     "title": "洮西献策",
+     "description": "劝姜维乘魏将新任、雍凉未固大举出师，遂有洮西大捷。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "xiahou_mao",
+   "name": "夏侯楙",
+   "courtesy": "子休",
+   "match_surfaces": [
+    "夏侯楙",
+    "夏侯子休",
+    "子休"
+   ],
+   "display_aliases": [
+    "夏侯惇之子",
+    "安西将军、镇长安",
+    "清河公主之婿"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "史载楙尚清河公主，魏文帝时镇长安，后以弟诬谋反夺兵，官至尚书仆射，卒年无考。演义作 228 年祁山兵起后被曹叡召回。",
+   "gender": "male",
+   "first_chapter": 81,
+   "review_status": "reviewed",
+   "summary": "夏侯楙，曹魏武将，安西将军、都督关中镇长安。说韩德引败军回见夏侯楙，哭告其事。",
+   "bio": "夏侯楙字子休，夏侯惇之子。自幼与曹丕交好，丕即位以为安西将军、持节都督关中，镇长安。楙素懦弱无谋，惟凭姻亲贵宠，好营宫室服玩。诸葛亮一出祁山，魏延献子午谷奇计，谓楙怯而无谋，延愿得精兵五千循秦岭而东，不过十日可到长安，楙必弃城而走，孔明以为悬危不用。蜀兵出祁山，赵云邓芝为疑兵据箕谷，声势撼关右，楙不设守御；蜀将乘虚来攻，西凉诸郡望风而降，楙竟束手无策。曹叡遂诏楙回洛阳，别遣曹真、张郃御蜀。演义写其怯懦，正见孔明不用魏延计之失机。史载楙后为尚书仆射，以富贵自处而已。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 220,
+     "end_year": 228,
+     "title": "安西将军、都督关中镇长安",
+     "lord_id": "cao_pi",
+     "basis": "以姻亲贵戚都督关中，怯而无谋，一出祁山被疑兵所慑，被叡召回。",
+     "confidence": 0.85,
+     "review_status": "reviewed",
+     "_role_orig": "都督"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 228,
+     "title": "祁山惊惧",
+     "description": "赵云疑兵出箕谷，蜀军连下三郡，楙无计可施，被曹叡召回洛阳。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "jia_chong",
+   "name": "贾充",
+   "courtesy": "公闾",
+   "match_surfaces": [
+    "贾充",
+    "贾公闾",
+    "公闾"
+   ],
+   "display_aliases": [
+    "贾逵之子",
+    "中护军",
+    "晋司空、太尉"
+   ],
+   "birth": 217,
+   "death": 282,
+   "date_precision": "approx",
+   "date_note": "史载生于建安二十二年（217），卒于晋太康三年（282）。演义止于咸宁末平吴前，卒年从史补。",
+   "gender": "male",
+   "first_chapter": 111,
+   "review_status": "reviewed",
+   "summary": "贾充，曹魏文臣，中护军、左仆射。贾充等闻言，已知司马昭留意于子司马炎矣，遂不复劝进。",
+   "bio": "贾充字公闾，平阳襄陵人，豫州刺史贾逵之子。逵忠魏而有名于曹操之世，充却为司马氏死力，时人讥之。充初仕魏为尚书郎，司马氏执政后为司马师腹心，师目瘤迸出时以充监军；昭时愈见亲任。260 年曹髦率僮仆数百鼓噪讨昭，昭问计，充曰：司马公养汝等，正为今日之事也！遂使太子舍人成济抽戈犯跸，弑帝于南阙。事后昭归罪成济，充转左仆射，专以谄媚固宠。263 年预灭蜀之谋；晋立后官至司空、侍中、尚书令，力主伐吴，为平吴大计之赞画。282 年卒，追赠太宰。其女贾南风嫁晋惠帝，酿成八王之乱。充尝问庾纯：父老不归供养，卿何以自安？纯对曰：天下岂有贾充父老而无子归养者！讥其父忠于魏而子弑魏君也。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 251,
+     "end_year": 265,
+     "title": "中护军、左仆射",
+     "lord_id": "sim_yi",
+     "basis": "为司马师、司马昭腹心，主使成济弑曹髦，预灭蜀之谋。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "权臣心腹"
+    },
+    {
+     "faction_id": "jin",
+     "role": "文臣",
+     "start_year": 265,
+     "end_year": 282,
+     "title": "司空、太尉、太宰",
+     "lord_id": null,
+     "basis": "晋朝开国元勋，赞画灭吴，282 年卒。晋主未立卡，lord_id 置空。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 260,
+     "title": "主使弑君",
+     "description": "曹髦讨昭，充叱成济：司马公养汝正为今日！济抽戈弑帝于南阙。",
+     "importance": 3
+    },
+    {
+     "year": 263,
+     "title": "赞画伐蜀",
+     "description": "预钟会邓艾三路伐蜀之谋，蜀亡，充以功增邑。",
+     "importance": 2
+    },
+    {
+     "year": 280,
+     "title": "力主平吴",
+     "description": "晋伐吴之议，充初沮而后赞，吴平天下一统。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：史载生于建安二十二年（217），卒于晋太康三年（282）｜演：止于咸宁末平吴前，卒年从史补"
+  },
+  {
+   "id": "hua_xin",
+   "name": "华歆",
+   "courtesy": "子鱼",
+   "match_surfaces": [
+    "华歆",
+    "华子鱼",
+    "华兴"
+   ],
+   "display_aliases": [
+    "豫州刺史",
+    "相国",
+    "司徒"
+   ],
+   "birth": 157,
+   "death": 232,
+   "date_precision": "approx",
+   "date_note": "史载生于汉本初元年（157），卒于魏太和五年（232），演义作逼宫后位至司徒，卒年从史补。",
+   "gender": "male",
+   "first_chapter": 29,
+   "review_status": "reviewed",
+   "summary": "华歆，孙吴文臣，豫章太守。司徒有七宝刀一口，愿借与操入相府刺杀之，虽死不恨。",
+   "bio": "华歆字子鱼，平原高唐人。少与管宁同席读书，宁割席分坐曰：子非吾友也！歆后举孝廉，为孙策所获，策以宾礼待之，孙权时征为豫章太守，曹操表征歆，权不遣；赤壁前夕演义写歆在许都为御史大夫，实乃移花接木。歆最著者两事：其一，曹操欲废伏后，歆引五百甲兵入后殿，破壁牵后而出，帝抚后大恸，歆手格杀之；其二，曹丕欲受禅，华歆等谄媚造势，与王朗、贾诩辈屡劝进，受禅台上歆登台捧玺绶奉上，丕登基为帝，歆拜相国。入魏历司徒、太尉，位列三公。史称歆清淡无欲、处议持平，演义则专取其助纣为虐一面，割席之典与牵后之凶并置，成士节与利禄之绝好对照。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 195,
+     "end_year": 199,
+     "title": "豫章太守",
+     "lord_id": "sun_ce",
+     "basis": "195-199 年江东为孙策所据（孙权 200 年才继位）。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 199,
+     "end_year": 232,
+     "title": "御史大夫、相国、司徒",
+     "lord_id": "cao_pi",
+     "basis": "归曹历操、丕、叡三世，收伏后、助受禅，位至三公，232 年卒。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "归曹北去",
+     "description": "曹操表征华歆，宾礼待之，歆遂离江东入许都。",
+     "importance": 1
+    },
+    {
+     "year": 214,
+     "title": "牵杀伏后",
+     "description": "引甲兵入宫破壁收伏皇后，手格杀之，操得以立曹女为后。",
+     "importance": 2
+    },
+    {
+     "year": 220,
+     "title": "助丕受禅",
+     "description": "受禅台上登台奉玺绶，曹丕代汉称帝，歆拜相国。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wang_jing",
+   "name": "王经",
+   "courtesy": "彦纬",
+   "match_surfaces": [
+    "王经",
+    "王彦纬"
+   ],
+   "display_aliases": [
+    "冀城人",
+    "尚书",
+    "雍州刺史"
+   ],
+   "birth": null,
+   "death": 260,
+   "date_precision": "exact",
+   "date_note": "卒于魏甘露五年五月（260）南阙之变，与曹髦同死。史载出身寒门冀州清苑，演义作冀城人，取其与陇西姜维战事相系。生年无载。",
+   "gender": "male",
+   "first_chapter": 110,
+   "review_status": "reviewed",
+   "summary": "王经，曹魏武将，雍州刺史、征西将军。尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：今上乃聪明之主，汝何取出此乱言。",
+   "bio": "王经字彦纬，出身寒微，母贫无以为生，历官而至二千石，为魏名臣。253 年为雍州刺史时拒姜维，255 年洮西之战，经新督雍凉，轻进为维所败，退保狄道，维围之，陈泰、邓艾驰救乃解。后入为尚书。260 年曹髦不甘傀儡，率殿中宿卫僮仆鼓噪出讨司马昭，尚书王经谏曰：昔鲁昭公不忍季氏，败走失国，为天下笑；今权在其门为日久矣，朝野四方皆为之致死，不顾逆顺，殆非一日之故，愿陛下详之！髦怀中出黄绢诏掷地曰：行之决矣！经涕泣固谏不从，遂扈从而出。南阙之下成济弑帝，经与王沈、王业同被召而经独不去；昭收经及其母，母子俱死于东市。临刑经从容谓母：不孝之子，累及母亲！母笑曰：为忠臣而死，何恨之有！士为之泣。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 253,
+     "end_year": 255,
+     "title": "雍州刺史、征西将军",
+     "lord_id": "cao_mao",
+     "basis": "拒姜维于陇西，洮西大败退保狄道，赖陈泰邓艾解围。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 255,
+     "end_year": 260,
+     "title": "尚书",
+     "lord_id": "cao_mao",
+     "basis": "入为尚书，260 年曹髦讨昭时扈从赴死，母子俱死东市。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 255,
+     "title": "洮西之败",
+     "description": "新任雍凉为姜维所败，退保狄道，陈泰邓艾驰援解围。",
+     "importance": 2
+    },
+    {
+     "year": 260,
+     "title": "泣谏不从",
+     "description": "曹髦出讨司马昭，经引鲁昭公事泣谏，髦掷诏曰行之决矣。",
+     "importance": 3
+    },
+    {
+     "year": 260,
+     "title": "母子殉义",
+     "description": "南阙弑帝，经不逃不诿，与母俱死东市，其母笑曰为忠臣死何恨。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "guanqiu_jian",
+   "name": "毌丘俭",
+   "courtesy": "仲恭",
+   "match_surfaces": [
+    "毌丘俭",
+    "毌丘仲恭",
+    "毋丘俭"
+   ],
+   "display_aliases": [
+    "闻喜人",
+    "镇东将军",
+    "征东将军"
+   ],
+   "birth": null,
+   "death": 255,
+   "date_precision": "exact",
+   "date_note": "卒于魏正元二年正月（255）淮南二叛兵败，演义作殁于慎县城外，为水草所绊被杀；史载为安风津民张属所杀。生年无载。",
+   "gender": "male",
+   "first_chapter": 105,
+   "review_status": "reviewed",
+   "summary": "毌丘俭，曹魏武将，幽州刺史、镇东将军、征东将军。说毌丘俭在项城内，听知寿春已失，文钦势败，城外三路兵到，俭遂尽撤城中之兵出战。",
+   "bio": "毌丘俭字仲恭，河东闻喜人，明帝时为尚书郎，帝念其父毌丘兴旧恩，亲遇之。235 年为幽州刺史，238 年从司马懿平辽东公孙渊，后再破高句丽、刻石纪功，魏东北之功第一。曹叡托孤后感魏室厚恩，与夏侯玄李丰皆曹魏之懿亲旧臣。254 年司马师废曹芳，李丰张缉之变后俭闻之伤感；扬州都督任上得师废立之报，泣曰：吾受魏厚恩，安忍废黜！遂与扬州刺史文钦定计，矫太后诏，歃血为盟，起淮南之兵讨司马师，移檄州郡，声罪致讨。师抱病亲征，俭钦兵败，钦先走，俭走至慎县，左右兵散，藏于水草中，为追兵所杀，二子俱死。淮南三叛之首役，俭忠魏而败，时人以俭父子忠烈比之诸葛诞之前驱。史称其「结事魏室，感帝之顾托」，为曹魏殉国之重臣。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 238,
+     "end_year": 255,
+     "title": "幽州刺史、镇东将军、征东将军",
+     "lord_id": "cao_rui",
+     "basis": "平辽东征高句丽，历叡、芳两朝；师废立后感魏恩起兵讨之，兵败身死。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 238,
+     "title": "从平辽东",
+     "description": "从司马懿征公孙渊，功迁镇东将军，后破高句丽刻石纪功。",
+     "importance": 2
+    },
+    {
+     "year": 255,
+     "title": "淮南起兵",
+     "description": "与文钦矫太后诏起兵讨司马师，移檄州郡，歃血为盟。",
+     "importance": 3
+    },
+    {
+     "year": 255,
+     "title": "兵败殁于慎县",
+     "description": "师亲征破其军，俭走慎县藏水草中，为追兵所杀，二子俱死。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史载为安风津民张属所杀；生年无载｜演：卒于魏正元二年正月（255）淮南二叛兵败，演义作殁于慎县城外，为水草所绊被杀"
+  },
+  {
+   "id": "zhuge_xu",
+   "name": "诸葛绪",
+   "courtesy": null,
+   "match_surfaces": [
+    "诸葛绪"
+   ],
+   "display_aliases": [
+    "雍州刺史",
+    "征西将军"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "史载伐蜀后以进军失略，为钟会构陷槛车征还，后仕晋为太常、光禄大夫，卒年无考。演义同槛车之遇，其后不书。",
+   "gender": "male",
+   "first_chapter": 116,
+   "review_status": "reviewed",
+   "summary": "诸葛绪，曹魏武将，征西将军、伐蜀中路统帅。征西将军司马钧，钧生豫章太守司马量，量生颍川太守司马隽，隽生京兆尹司马防，防生宣帝司马懿，懿生景帝司马师、文帝司马昭：是为七庙也。",
+   "bio": "诸葛绪，琅琊人，魏雍州刺史。263 年司马昭大举伐蜀，遣三路：钟会统十余万趋汉中，邓艾三万自狄道攻沓中姜维，绪三万自祁山断维归路。维闻汉中告急自沓中东撤，绪进至桥头截击；维佯作北道之势，绪乃分兵北截，维却疾还阴平桥头，从容过桥而遁。会与绪合兵，会专权欲专其功，密奏绪畏懦不进，槛车征还，其军悉并会，三路遂并为二。绪以拥兵三万之统帅，一纸密奏而失军，钟会跋扈于此已见端倪。后仕晋，官至太常。演义止于槛车北去，此后不复见。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 263,
+     "end_year": 263,
+     "title": "征西将军、伐蜀中路统帅",
+     "lord_id": "cao_huan",
+     "basis": "263 年魏帝为曹奂（258-266），曹髦已于 260 年被杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 263,
+     "title": "断维归路",
+     "description": "自祁山出断桥头，为姜维佯动所绐，维全师东归剑阁。",
+     "importance": 2
+    },
+    {
+     "year": 263,
+     "title": "被诬失军",
+     "description": "钟会密奏其畏懦不进，槛车征还，三万之众尽并于会。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "deng_zhong",
+   "name": "邓忠",
+   "courtesy": null,
+   "match_surfaces": [
+    "邓忠"
+   ],
+   "display_aliases": [
+    "邓艾之子",
+    "惠唐亭侯"
+   ],
+   "birth": null,
+   "death": 264,
+   "date_precision": "approx",
+   "date_note": "史载与其父邓艾同于咸熙元年（264）为卫瓘遣田续杀于绵竹西，演义同。生年无载。",
+   "gender": "male",
+   "first_chapter": 111,
+   "review_status": "reviewed",
+   "summary": "邓忠，曹魏武将，惠唐亭侯、随父征蜀诸将。纂、邓忠两军杀出，维且战且走，前面喊声大震，邓艾引兵杀到：三路夹攻，蜀兵大败。",
+   "bio": "邓忠，邓艾之子。随父在陇西御姜维，254 年段谷之战，艾令忠与师纂各引五千兵埋伏段谷，维中伏大败，蜀兵死者无数，忠以功封亭侯。255 年洮西之役随父驰援狄道。263 年伐蜀，艾取阴平小道，忠开路先行，裹毡推转而下，直取江油。涪城之战忠与蜀师战，父子两度进退，卒下涪绵竹。绵竹之战忠力战诸葛瞻，与父分兵夹击，瞻父子俱死。蜀亡后钟会构陷邓艾父子谋反，槛车征还；264 年卫瓘恐艾复起，遣田续追之，父子俱死于绵竹西。忠随父转战陇西巴蜀十年，功成一朝而父子同殒，为邓艾悲剧之续章。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 254,
+     "end_year": 264,
+     "title": "惠唐亭侯、随父征蜀诸将",
+     "lord_id": "cao_mao",
+     "basis": "随邓艾拒姜维、度阴平、灭蜀；父被构陷，264 年同遇害。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 254,
+     "title": "段谷设伏",
+     "description": "与师纂各引五千兵伏于段谷，大破姜维，以功封侯。",
+     "importance": 2
+    },
+    {
+     "year": 263,
+     "title": "偷度阴平",
+     "description": "为先锋开路，裹毡滚崖，直取江油，为灭蜀第一功之先行。",
+     "importance": 3
+    },
+    {
+     "year": 264,
+     "title": "父子同死",
+     "description": "邓艾被诬槛车，卫瓘遣田续追杀，忠与父同死绵竹西。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "sun_li",
+   "name": "孙礼",
+   "courtesy": "德达",
+   "match_surfaces": [
+    "孙礼",
+    "孙德达"
+   ],
+   "display_aliases": [
+    "涿郡容城人",
+    "虎侯",
+    "并州刺史、司隶校尉"
+   ],
+   "birth": null,
+   "death": 250,
+   "date_precision": "approx",
+   "date_note": "史载卒于魏嘉平二年（250），官至司隶校尉。生年无载。演义止于 100 回受命截击蜀军。",
+   "gender": "male",
+   "first_chapter": 95,
+   "review_status": "reviewed",
+   "summary": "孙礼，曹魏武将，扬州刺史、并州刺史、司隶校尉。报孙礼引雍、凉人马二十万来助战，去袭剑阁，司马懿自引兵来攻卤城了。",
+   "bio": "孙礼字德达，涿郡容城人。少遭乱，践行礼义。曹叡为平原侯时礼为书侍郎，叡猎于大石山，虎突乘舆，礼投刀欲击虎，叡壮之，以为忠勇，历将军、扬州刺史。礼治军严明，以刚直忤权贵。曹爽专政，礼为爽所轻；司马懿称疾不出，礼往视之，懿伴狂诈病，礼退而愤叹：司马公尸居余气，形神已离，不足虑也！爽由是遂不复忌懿，实中懿之计。礼后为并州刺史，临别见懿泣曰：社稷将危，天下汹汹，礼常怀忧愤！懿以卿何不见察也慰之。100 回演义写孔明四出祁山，魏遣孙礼、辛毗截住箕谷道口为疑兵之应。250 年卒，赠太尉。刚直搏虎、面折权门，魏臣中之粗中有骨者。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 228,
+     "end_year": 250,
+     "title": "扬州刺史、并州刺史、司隶校尉",
+     "lord_id": "cao_rui",
+     "basis": "搏虎受叡知遇，历叡、芳两朝；爽专政礼愤懑不平，250 年卒。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 227,
+     "title": "搏虎救驾",
+     "description": "大石山虎突乘舆，礼投刀欲击，曹叡壮其忠勇。",
+     "importance": 1
+    },
+    {
+     "year": 244,
+     "title": "愤叹权门",
+     "description": "曹爽专政，懿诈疾，礼往视愤叹爽遂不忌，正中懿计。",
+     "importance": 2
+    },
+    {
+     "year": 250,
+     "title": "卒于任上",
+     "description": "官至司隶校尉卒，赠太尉。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "wu_tugu",
+   "name": "兀突骨",
+   "courtesy": null,
+   "match_surfaces": [
+    "兀突骨"
+   ],
+   "display_aliases": [
+    "乌戈国国主",
+    "藤甲兵之帅"
+   ],
+   "birth": null,
+   "death": 225,
+   "date_precision": "none",
+   "date_note": "演义虚构人物，无史可考。生卒皆无；演义中 225 年南征之役被孔明盘蛇谷火烧而死。",
+   "gender": "male",
+   "first_chapter": 90,
+   "review_status": "reviewed",
+   "is_fictional": true,
+   "summary": "兀突骨，异族君主，乌戈国国主。兀突骨曰：大王说的有理。",
+   "bio": "兀突骨，乌戈国国主，孟获六番救兵之最。身长丈二，不食五谷，以生蛇恶兽为饭；身有鳞甲，刀箭不能侵。其军士俱穿藤甲：生于山涧，盘于石壁，采藤浸油，半年方成，穿在身上渡江不沉、经水不湿，刀箭皆不能入，号藤甲军，三万之众。孟获六败之后，引兀突骨来犯，蜀兵刀砍箭射皆不能伤，魏延连败十五阵。孔明观其蛮兵恃藤甲恃水，乃定火攻之计：令魏延弃盘蛇谷而走，诱藤甲兵入谷，谷中堆柴干草，油车填路，两头放火，三万藤甲兵烧死于盘蛇谷，臭不可闻，孔明垂泪曰：吾虽有功于社稷，必损寿矣！兀突骨亦没于火中。孟获七擒遂平。乌戈藤甲为演义南征最奇诡之章节。",
+   "tenure": [
+    {
+     "faction_id": "barbarian",
+     "role": "君主",
+     "start_year": 225,
+     "end_year": 225,
+     "title": "乌戈国国主",
+     "lord_id": "meng_huo",
+     "basis": "应孟获之邀率藤甲兵三万助战，盘蛇谷火攻中全军覆没。",
+     "confidence": 1.0,
+     "review_status": "reviewed",
+     "_role_orig": "国主"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 225,
+     "title": "藤甲助获",
+     "description": "应孟获之请引三万藤甲兵犯境，刀箭不入，蜀军连败。",
+     "importance": 2
+    },
+    {
+     "year": 225,
+     "title": "盘蛇谷焚身",
+     "description": "孔明诱入盘蛇谷，两头举火，三万藤甲兵俱没于火中。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生卒皆无｜演：虚构人物，无史可考；演义中 225 年南征之役被孔明盘蛇谷火烧而死"
+  },
+  {
+   "id": "mulu_dawang",
+   "name": "木鹿大王",
+   "courtesy": null,
+   "match_surfaces": [
+    "木鹿大王"
+   ],
+   "display_aliases": [
+    "八纳洞主",
+    "驱兽之主"
+   ],
+   "birth": null,
+   "death": 225,
+   "date_precision": "none",
+   "date_note": "演义虚构人物，无史可考。演义中 225 年南征之役为蜀军假兽所破，死于乱军。",
+   "gender": "male",
+   "first_chapter": 90,
+   "review_status": "reviewed",
+   "is_fictional": true,
+   "summary": "木鹿大王，异族君主，八纳洞主。木鹿大王口中念咒，手摇蒂钟。",
+   "bio": "木鹿大王，八纳洞主，孟获三洞之援。深通法术，出则骑象，能呼风唤雨，常有虎豹豺狼毒蛇恶蝎跟随，手执蒂钟，摇动则百兽奔出。孟获四番败后请木鹿来助，木鹿驱野兽毒虫冲阵，蜀兵大败，孔明叹曰：吾未尝见此奇事！亮乃令人掘陷坑、备假兽：以彩画巨兽披皮狮象，腹中藏烟火器械，孔明自摇羽扇布风。再战之日木鹿驱兽而来，亮军佯退，假兽一出，口喷烟火、张牙舞爪，真兽见假兽烟火，皆返奔回洞，反冲木鹿之阵，蛮兵大乱，木鹿死于乱军之中。以兽攻兽、以幻破真，为南征诸战最富神异色彩之役。",
+   "tenure": [
+    {
+     "faction_id": "barbarian",
+     "role": "君主",
+     "start_year": 225,
+     "end_year": 225,
+     "title": "八纳洞主",
+     "lord_id": "meng_huo",
+     "basis": "应孟获之邀驱兽助战，为孔明假兽之计所破，死于乱军。",
+     "confidence": 1.0,
+     "review_status": "reviewed",
+     "_role_orig": "洞主"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 225,
+     "title": "驱兽破敌",
+     "description": "摇蒂钟呼风雨驱虎豹，蜀兵大败，孔明惊叹未见此奇。",
+     "importance": 2
+    },
+    {
+     "year": 225,
+     "title": "假兽破真兽",
+     "description": "孔明以腹藏烟火的假兽惊散真兽，兽反冲阵，木鹿死于乱军。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "duosi_dawang",
+   "name": "朵思大王",
+   "courtesy": null,
+   "match_surfaces": [
+    "朵思大王",
+    "朵思"
+   ],
+   "display_aliases": [
+    "秃龙洞主",
+    "四毒泉之主"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "演义虚构人物，无史可考。生卒皆无；演义中 225 年降蜀后不复见。",
+   "gender": "male",
+   "first_chapter": 89,
+   "review_status": "reviewed",
+   "is_fictional": true,
+   "summary": "朵思大王，异族君主，秃龙洞主。朵思曰：若大王兵败，吾妻子亦休矣。",
+   "bio": "朵思大王，秃龙洞主，与孟获弟孟优交厚。孟获五番兵败，朵思献计：秃龙洞前有四泉，曰哑泉、灭泉、黑泉、柔泉，其水皆毒，人若饮之则哑、则死、则黑、则骨软；山有瘴气，更有银冶洞杨锋之蛮为援，蜀兵至此必死于泉瘴之间。孟获从之，退保秃龙洞。孔明军至，王平口渴误饮哑泉，不能言语，赖孟节（实为孟获之兄孟节）指迷，引至万安隐者处，饮安乐泉水解其毒。孔明虔诚致祭，山神显灵，毒泉遂涸。杨锋反戈，朵思洞破，孟获五擒。获再败后朵思复荐乌戈国兀突骨藤甲兵，终亦无救。朵思以毒泉瘴地为南征添最险一章，而「得人心者天亦助之」之意愈显。",
+   "tenure": [
+    {
+     "faction_id": "barbarian",
+     "role": "君主",
+     "start_year": 225,
+     "end_year": 225,
+     "title": "秃龙洞主",
+     "lord_id": "meng_huo",
+     "basis": "助孟获据四毒泉抗蜀，计败后降；复荐兀突骨藤甲兵。",
+     "confidence": 1.0,
+     "review_status": "reviewed",
+     "_role_orig": "洞主"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 225,
+     "title": "献四毒泉计",
+     "description": "劝孟获退保秃龙洞，恃哑泉灭泉黑泉柔泉与瘴气以困蜀军。",
+     "importance": 2
+    },
+    {
+     "year": 225,
+     "title": "毒泉计败归降",
+     "description": "孔明祭泉泉涸、杨锋反戈，洞破获擒；朵思降，后荐藤甲兵。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "sha_moke",
+   "name": "沙摩柯",
+   "courtesy": null,
+   "match_surfaces": [
+    "沙摩柯"
+   ],
+   "display_aliases": [
+    "武陵蛮王",
+    "五溪蛮首领"
+   ],
+   "birth": null,
+   "death": 222,
+   "date_precision": "exact",
+   "date_note": "卒于蜀章武二年（222）猇亭之败，为周泰所斩。史载五溪蛮遣使助备，沙摩柯之名出演义；生年无载。",
+   "gender": "male",
+   "first_chapter": 82,
+   "review_status": "reviewed",
+   "summary": "沙摩柯，五溪番王。夷陵之战助刘备攻吴，兵败死于乱军。",
+   "bio": "沙摩柯，五溪番王。第83回刘备伐吴，遣使结五溪诸蛮，番王沙摩柯引番兵数万来助，面如噀血，碧眼突出，使一个铁蒺藜骨朵，腰带两张弓。夷陵之战蜀军大败，沙摩柯死于乱军之中。",
+   "tenure": [
+    {
+     "faction_id": "barbarian",
+     "role": "君主",
+     "start_year": 221,
+     "end_year": 222,
+     "title": "番王（五溪番王）",
+     "lord_id": "liu_bei",
+     "basis": "第83回：五溪番王沙摩柯，引番兵数万来助先主。番王者，一族之主。",
+     "confidence": 0.85,
+     "review_status": "reviewed",
+     "_role_orig": "番兵统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 221,
+     "title": "结盟助战",
+     "description": "马良赍金帛入五溪，沙摩柯率蛮兵万余助刘备伐吴。",
+     "importance": 1
+    },
+    {
+     "year": 222,
+     "title": "射死甘宁",
+     "description": "甘宁抱病迎战，柯一箭中其头颅，宁带箭死于富池口。",
+     "importance": 2
+    },
+    {
+     "year": 222,
+     "title": "猇亭殒命",
+     "description": "陆逊火烧连营，柯奔走遇周泰，战二十余合被斩。",
+     "importance": 2
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "guan_yi",
+ "name": "关彝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 119,
+ "review_status": "auto_mined",
+ "summary": "关彝，关羽之孙，关兴之子，袭汉寿亭侯。蜀亡死于乱军。",
+ "bio": "关彝，河东解人，关羽之孙、关兴之子。父死袭汉寿亭侯；炎兴元年（263）邓艾破成都，钟会之乱中为庞会所杀，关氏遂绝。第119回：「关彝为关兴之子，袭汉寿亭侯爵，蜀亡时为庞会所杀。」",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 263,
+   "title": "汉寿亭侯（袭关羽爵）",
+   "basis": "第119回：关彝为关兴之子，袭汉寿亭侯爵，蜀亡时为庞会所杀。关彝为关羽之孙、功臣之后袭爵，非刘氏帝系之亲，故归蜀·武将。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

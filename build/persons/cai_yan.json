@@ -1,0 +1,29 @@
+{
+ "id": "cai_yan",
+ "name": "蔡琰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 71,
+ "review_status": "auto_mined",
+ "summary": "蔡琰，东汉女眷，（女眷）。贤王惧操之势，送蔡琰还汉。",
+ "bio": "第 71 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 219,
+   "end_year": 219,
+   "title": "（女眷）",
+   "basis": "第七十一回原文：问于蔡琰，琰答曰：“此乃曹娥之碑也。 职任「（女眷）」据此；★任期按末见回目收敛：全书最后一次提及在第 71 回（219 年），原 219—220 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

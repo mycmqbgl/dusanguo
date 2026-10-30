@@ -1,0 +1,29 @@
+{
+ "id": "liang_qian",
+ "name": "梁虔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "梁虔，蜀汉文臣，天水主记。绪曰：此城乃某亲弟梁虔守之，愿招来降。",
+ "bio": "第 93 回：绪当日到上邽唤梁虔出城来降孔明。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "天水主记",
+   "basis": "第九十二回原文：功曹梁绪、主簿尹赏、主记梁虔等曰：“夏侯驸马乃金枝玉叶，倘有疏虞，难逃坐视之罪。 职任「天水主记」据此；★任期按末见回目收敛：全书最后一次提及在第 93 回（228 年），原 228—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

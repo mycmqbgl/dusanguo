@@ -1,0 +1,29 @@
+{
+ "id": "li_shi",
+ "name": "李氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 74,
+ "review_status": "auto_mined",
+ "summary": "李氏，蜀汉女眷，庞德妻。唤其妻李氏与其子庞会出，谓其妻曰：吾今为先锋，义当效死疆场。",
+ "bio": "第 74 回：德唤其妻李氏与其子庞会出，谓其妻曰：吾今为先锋，义当效死疆场。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 219,
+   "end_year": 263,
+   "title": "庞德妻",
+   "basis": "第七十四回原文：德唤其妻李氏与其子庞会出，谓其妻曰：“吾今为先锋，义当效死疆场。 职任「庞德妻」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

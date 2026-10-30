@@ -1,0 +1,31 @@
+{
+ "id": "xun_gun",
+ "name": "荀绲",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，卒于 193 年以前（第 10 回时荀彧已称其父在乡）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "荀绲，东汉人物。第 10 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 10 回相关片段：「侄二人来投操：乃颍川颍阴人，姓荀，名彧，字文若，荀绲之子也；旧事袁绍，今弃绍投操；操与语大悦，曰：\"」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 193,
+   "basis": "第10回：姓荀，名彧，字文若，荀绲之子也。为荀彧之父，未任汉职。",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title_unknown_verified": true,
+   "title": "颍川名士（荀彧之父）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 1
+}

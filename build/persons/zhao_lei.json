@@ -1,0 +1,42 @@
+{
+ "id": "zhao_lei",
+ "name": "赵累",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 73,
+ "review_status": "auto_mined",
+ "summary": "赵累，蜀汉文臣，粮料官。赵累曰：上庸救兵不至，乃刘封、孟达按兵不动之故。",
+ "bio": "第 76 回：管粮都督赵累曰：今事急矣，可一面差人往成都求救，一面从旱路去取荆州。第 76 回：赵累曰：此处相近上庸，现有刘封、孟达在彼把守，可速差人往求救兵。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 220,
+   "title": "粮料官",
+   "basis": "第七十三回原文：可差军前都督粮料官赵累代之。 职任「粮料官」据此；★任期按末见回目收敛：全书最后一次提及在第 77 回（220 年），原 219—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "第 76 回",
+   "description": "管粮都督赵累曰：“今事急矣，可一面差人往成都求救，一面从旱路去取荆州",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 77 回",
+   "description": "后关平赶来，报说赵累已死于乱军中",
+   "importance": 1
+  }
+ ],
+ "mention_count": 9
+}

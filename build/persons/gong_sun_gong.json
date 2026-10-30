@@ -1,0 +1,29 @@
+{
+ "id": "gong_sun_gong",
+ "name": "公孙恭",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "公孙恭，群雄君主，弟。第 33 回一笔带过，事迹仅存其名。",
+ "bio": "第 33 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 205,
+   "end_year": 229,
+   "title": "弟",
+   "basis": "第三十三回原文：公孙恭曰：“袁绍在日，常有吞辽东之心。 职任「弟」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

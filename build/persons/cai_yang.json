@@ -1,0 +1,44 @@
+{
+ "id": "cai_yang",
+ "name": "蔡阳",
+ "display_aliases": [
+  "蔡阳将军"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）古城外为关羽一通鼓间斩杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 26,
+ "review_status": "reviewed",
+ "summary": "蔡阳，群雄武将，曹操部将。卒告说：蔡阳闻将军杀了他外甥，十分忿怒，要来河北与将军交战。",
+ "bio": "蔡阳，曹操部将，外甥秦琪守黄河渡口。建安五年，秦琪为关羽所杀，蔡阳请兵报仇，曹操不允。后关羽与张飞会于古城，张飞疑关羽降曹有诈，擂三通鼓为限令斩曹操来将自证。适蔡阳奉命引军追关羽至，关羽不忍斩其使张辽先退兵，乃一通鼓未尽斩蔡阳于马下，兄弟释疑。张飞请关羽入城，主臣聚义。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "曹操部将",
+   "lord_id": "cao_cao",
+   "basis": "曹操部将，追击关羽至古城。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "请兵报仇",
+   "description": "外甥秦琪被关羽所杀，请兵报仇，操不允。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "古城被斩",
+   "description": "追关羽至古城，适张飞擂鼓令斩来将自证，一通鼓内被关羽斩杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 8
+}

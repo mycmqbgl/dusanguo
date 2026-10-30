@@ -1,0 +1,29 @@
+{
+ "id": "han_yin",
+ "name": "韩胤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "auto_mined",
+ "summary": "韩胤，群雄文臣，袁术使者。袁术从之，即日遣韩胤为媒，赍礼物往徐州求亲。",
+ "bio": "原文第 16 回相关片段：「后图吕布，徐州可得也。”术喜，便具粟二十万斛，令韩胤赍密书往见吕布。吕布甚喜，重待韩胤。胤回告袁术，」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 197,
+   "end_year": 229,
+   "title": "袁术使者",
+   "basis": "第16回袁术遣韩胤赍密书见吕布，为子求婚；后为曹操所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

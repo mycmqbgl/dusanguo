@@ -1,0 +1,29 @@
+{
+ "id": "qiao_guo_lao",
+ "name": "乔国老",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 54,
+ "review_status": "auto_mined",
+ "summary": "乔国老，孙吴人物，二乔之父。乔国老曰：令爱已许刘玄德为夫人，今玄德已到，何故相瞒。",
+ "bio": "第 54 回：乔国老劝曰：事已如此，刘皇叔乃汉室宗亲，不如真个招他为婿，免得出丑。第 54 回：乔国老也相劝。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "其他",
+   "start_year": 209,
+   "end_year": 210,
+   "title": "二乔之父、东吴国老",
+   "basis": "第54回乔国老乃二乔之父，居于南徐，为吴国太姻亲，非在朝之官。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

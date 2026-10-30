@@ -1,0 +1,29 @@
+{
+ "id": "lv_wei_huang",
+ "name": "吕威璜",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 30,
+ "review_status": "auto_mined",
+ "summary": "吕威璜，曹魏武将，袁绍将。第 30 回一笔带过，事迹仅存其名。",
+ "bio": "第 30 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 201,
+   "end_year": 201,
+   "title": "袁绍将",
+   "basis": "第三十回原文：袁绍遣大将淳于琼，部领督将眭元进、韩莒子、吕威璜、赵睿等，引二万人马，守乌巢。 职任「袁绍将」据此；★任期按末见回目收敛：全书最后一次提及在第 30 回（201 年），原 201—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

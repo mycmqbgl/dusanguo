@@ -1,0 +1,29 @@
+{
+ "id": "ding_yi",
+ "name": "丁仪",
+ "courtesy": "正礼",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 79,
+ "review_status": "auto_mined",
+ "summary": "丁仪，曹魏文臣，与兄弟，曹植友，沛郡人，为擒，曹丕杀。下令，先将丁仪、丁廙等尽行诛戮。",
+ "bio": "。第 79 回：丁仪骂曰：昔者先王本欲立吾主为世子，被谗臣所阻。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 220,
+   "title": "与兄弟，曹植友，沛郡人，为擒，曹丕杀",
+   "basis": "第七十九回原文：丁仪字正礼，丁廙字敬礼，沛郡人，乃一时文士。 职任「与兄弟，曹植友，沛郡人，为擒，曹丕杀」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 220—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

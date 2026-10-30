@@ -1,0 +1,663 @@
+{
+ "comment": "P4-C（2026-10-29）：第 91–100 回（227–231，诸葛亮北伐前段）新登场人物 9 卡。史实以《三国志》为准，演义按毛本。邓艾首现于第 110 回，本卡系预登记。",
+ "persons": [
+  {
+   "id": "jiang_wei",
+   "name": "姜维",
+   "courtesy": "伯约",
+   "match_surfaces": [
+    "姜维",
+    "姜伯约",
+    "伯约"
+   ],
+   "display_aliases": [
+    "天水冀人",
+    "天水中郎将",
+    "蜀大将军"
+   ],
+   "birth": 202,
+   "death": 264,
+   "date_precision": "approx",
+   "date_note": "史载卒于魏景耀六年/咸熙元年（264）成都之乱；生年据本传卒时年六十二推为 202。",
+   "gender": "male",
+   "first_chapter": 92,
+   "review_status": "reviewed",
+   "summary": "姜维，曹魏武将，天水中郎将、参本郡军事。姜维问曰：若大军退，司马懿乘势掩杀，当复如何。",
+   "bio": "姜维字伯约，天水冀人。父囧为郡功曹，没于王事。维幼博览群书，兵法武艺无所不通，奉母至孝，郡人敬之，以中郎将参本郡军事。一出祁山时识破蜀军赚城之计，战赵云、困孔明，孔明叹为将才；后遭反间，为孔明诱降，亮执其手曰：吾欲传平生之学，今遇伯约，愿足矣。亮甚重之，授平生所学。亮卒后继掌兵权，历大将军，九伐中原，胜少败多而志不稍减。蜀亡，维假意降钟会，劝会杀诸将以图复兴，事败自刎，时年六十二。史称维粗有文武，志立功名，而玩众黩旅，明断不周，终致陨毙。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 227,
+     "end_year": 228,
+     "title": "天水中郎将、参本郡军事",
+     "lord_id": "cao_rui",
+     "basis": "为天水太守马遵部属，识破蜀军计，被反间计所迫降蜀。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "郡将"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 228,
+     "end_year": 234,
+     "title": "奉义将军、征西将军",
+     "lord_id": "zhuge_liang",
+     "basis": "冀城被困降亮，亮授以平生所学，历次北伐任先锋断后。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 234,
+     "end_year": 263,
+     "title": "大将军、录尚书事",
+     "lord_id": "liu_shan",
+     "basis": "亮死后继领北伐，九伐中原；蜀亡诈降钟会事败死。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 228,
+     "title": "计困赵云",
+     "description": "献计于马遵，伏兵夹击，赵云中计败走；孔明惊为将才。",
+     "importance": 3
+    },
+    {
+     "year": 228,
+     "title": "归降孔明",
+     "description": "遭反间被马遵、梁虔所拒，冀城粮尽兵败，被困降蜀。",
+     "importance": 3
+    },
+    {
+     "year": 229,
+     "title": "计赚曹真",
+     "description": "假密书诈降曹真，设伏斩魏将费耀，重挫魏军。",
+     "importance": 2
+    },
+    {
+     "year": 264,
+     "title": "成都殉国",
+     "description": "劝钟会杀魏将以图复国，事败自刎，一计害三贤。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "ma_su",
+   "name": "马谡",
+   "courtesy": "幼常",
+   "match_surfaces": [
+    "马谡",
+    "马幼常",
+    "幼常"
+   ],
+   "display_aliases": [
+    "襄阳宜城人",
+    "马良之弟",
+    "参军"
+   ],
+   "birth": 190,
+   "death": 228,
+   "date_precision": "approx",
+   "date_note": "卒于建兴六年夏五月（228）斩于街亭败后，亡年三十九，据此逆推生年约 190。",
+   "gender": "male",
+   "first_chapter": 52,
+   "review_status": "reviewed",
+   "summary": "马谡，蜀汉文臣，绵竹令、成都令、越嶲太守、丞相参军。马谡曰：何不急修书，令孟达提防。",
+   "bio": "马谡字幼常，襄阳宜城人，侍中马良之弟。兄弟五人并有才名，谡为最小。以荆州从事随刘备入蜀，历绵竹成都令、越嶲太守，才器过人，好论军计，丞相诸葛亮深加器异。备临终谓亮：马谡言过其实，不可大用，亮犹不谓然。一出祁山前献反间计，布流言使曹睿削司马懿之职。建兴六年请缨守街亭，立军令状而违亮节度：舍当道下寨，屯兵山上，王平苦谏不听。张郃断其汲道，围山放火，蜀兵自乱，街亭遂失。归汉中，亮明正军法斩之，时年三十九。亮痛哭者，非为谡，为不纳先帝遗言而深恨己之不明也。史载谡下狱物故，演义作辕门斩首。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 214,
+     "end_year": 227,
+     "title": "绵竹令、成都令、越嶲太守、丞相参军",
+     "lord_id": "liu_bei",
+     "basis": "随备入蜀历县令太守；亮南征时献攻心之策，用为参军。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 228,
+     "end_year": 228,
+     "title": "守街亭主将",
+     "lord_id": "zhuge_liang",
+     "basis": "立军令状守街亭，违令舍水上山，兵败被斩。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 227,
+     "title": "反间去仲达",
+     "description": "献计布散流言，使曹睿削司马懿兵权，为亮北伐扫除心腹之患。",
+     "importance": 2
+    },
+    {
+     "year": 228,
+     "title": "违令守街亭",
+     "description": "舍当道要路屯兵山上，王平力谏不听，张郃断水围山，大败失亭。",
+     "importance": 3
+    },
+    {
+     "year": 228,
+     "title": "挥泪斩马谡",
+     "description": "归汉中伏法，亮流涕祭之，厚抚其家小；痛悔不纳先帝之言。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wang_ping",
+   "name": "王平",
+   "courtesy": "子均",
+   "match_surfaces": [
+    "王平",
+    "王子均",
+    "子均"
+   ],
+   "display_aliases": [
+    "巴西宕渠人",
+    "裨将军",
+    "无当飞军督"
+   ],
+   "birth": null,
+   "death": 248,
+   "date_precision": "approx",
+   "date_note": "史载卒于延熙十一年（248）。生年无载。",
+   "gender": "male",
+   "first_chapter": 71,
+   "review_status": "reviewed",
+   "summary": "王平，曹魏武将，代理校尉。孔明从其言，即令王平，李恢，引二枝兵守街亭小路；魏延引一军守陈仓口。",
+   "bio": "王平字子均，巴西宕渠人。本养外家何氏，后复姓王。随杜濩、朴胡诣洛阳，为代理校尉，从曹操征汉中，降刘备，拜牙门将、裨将军。一出祁山随马谡守街亭，力谏当道下寨，谡不听，平引五千人离山十里下寨。谡败后平鸣鼓自持，张郃疑有伏兵不敢逼，收合残兵而还。亮请自贬后特进平讨寇将军，封亭侯，督五部兼当营事。平手不能书，所识不过十字，而口授作书皆有意理；使人读史汉诸纪传听之备知大意。后讨魏延之乱、镇汉中，却曹爽十万之众于兴势，官至镇北将军、汉中太守，卒于 248。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 215,
+     "end_year": 219,
+     "title": "代理校尉",
+     "lord_id": "cao_cao",
+     "basis": "与杜濩朴胡诣洛从曹操，汉中之战降刘。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 219,
+     "end_year": 234,
+     "title": "牙门将、裨将军、讨寇将军",
+     "lord_id": "zhuge_liang",
+     "basis": "降备后历北伐，街亭力谏独全，亮特进其职。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 234,
+     "end_year": 248,
+     "title": "安汉将军、镇北将军、汉中太守",
+     "lord_id": "liu_shan",
+     "basis": "讨魏延、镇汉中，兴势拒曹爽，248 年卒。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 219,
+     "title": "汉中归刘",
+     "description": "从曹操征汉中，阵前降刘备，拜牙门将。",
+     "importance": 1
+    },
+    {
+     "year": 228,
+     "title": "力谏街亭",
+     "description": "谏马谡当道下寨不听，自率千人鸣鼓自持，全军而还。",
+     "importance": 3
+    },
+    {
+     "year": 234,
+     "title": "讨平魏延",
+     "description": "魏延作乱，平阵前叱散其众，延败死。",
+     "importance": 2
+    },
+    {
+     "year": 244,
+     "title": "兴势拒爽",
+     "description": "守汉中拒曹爽大军于兴势，魏军无功而退。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "cao_rui",
+   "name": "曹叡",
+   "courtesy": "元仲",
+   "match_surfaces": [
+    "曹叡",
+    "曹睿",
+    "曹元仲",
+    "元仲"
+   ],
+   "display_aliases": [
+    "魏明帝",
+    "大魏皇帝"
+   ],
+   "birth": 205,
+   "death": 239,
+   "date_precision": "approx",
+   "date_note": "史载生于建安十年前后，卒于景初三年（239），在位 226–239。演义作丕崩之次年即位，与史合。",
+   "gender": "male",
+   "first_chapter": 91,
+   "review_status": "reviewed",
+   "summary": "曹叡，曹魏皇帝，魏明帝。说曹睿闻孙权分兵三路而来，亦起兵三路迎之：令刘劭引兵救江夏，田豫引兵救襄阳，睿自与满宠率大军救合淝。",
+   "bio": "曹叡字元仲，曹丕长子，母甄氏。自幼聪明而丕不甚爱之。丕携其出猎，射倒母鹿令叡射其子，叡泣曰：陛下已杀其母，臣安忍复杀其子！丕掷弓叹为仁德之主，立为平原王。226 年丕崩，叡即位，是为明帝，以曹真、陈群、司马懿、曹休辅政。诸葛亮数出祁山，叡先后用夏侯楙、曹真、司马懿、张郃御之，亲送大军出征；街亭之捷、陈仓之守皆赖其知人善任。晚年大兴宫室，崇华靡而政归权臣。239 年崩，托孤于司马懿、曹爽，为日后魏政之变伏笔。史称叡料简功能，任贤用能，而奢淫过度，魏之衰自此始。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "皇帝",
+     "start_year": 226,
+     "end_year": 239,
+     "title": "魏明帝",
+     "basis": "文帝太子，226 年即位，曹魏第二代皇帝。",
+     "confidence": 0.95
+    }
+   ],
+   "timeline": [
+    {
+     "year": 226,
+     "title": "即位为帝",
+     "description": "丕崩，叡继立，以曹真、司马懿、曹休、陈群辅政。",
+     "importance": 2
+    },
+    {
+     "year": 228,
+     "title": "遣将御蜀",
+     "description": "命司马懿张郃出关拒蜀，街亭大捷，复陇西三郡。",
+     "importance": 3
+    },
+    {
+     "year": 231,
+     "title": "再任仲达",
+     "description": "曹真病，以司马懿代其都督关西，西线自此归仲达。",
+     "importance": 2
+    },
+    {
+     "year": 239,
+     "title": "托孤崩逝",
+     "description": "崩于洛阳，幼子曹芳嗣位，司马懿曹爽同辅政。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "hao_zhao",
+   "name": "郝昭",
+   "courtesy": "伯道",
+   "match_surfaces": [
+    "郝昭",
+    "郝伯道",
+    "伯道"
+   ],
+   "display_aliases": [
+    "太原人",
+    "镇西将军",
+    "守陈仓"
+   ],
+   "birth": null,
+   "death": 229,
+   "date_precision": "approx",
+   "date_note": "演义卒于建兴七年初（229）陈仓城破之前，惊病而亡；生年无载。",
+   "gender": "male",
+   "first_chapter": 96,
+   "review_status": "reviewed",
+   "summary": "郝昭，曹魏武将，镇西将军、守陈仓道口。睿从之，加郝昭为镇西将军，命守把陈仓道口，遣使持诏去讫。",
+   "bio": "郝昭字伯道，太原人。身长九尺，猿臂善射，深有谋略，官为杂号将军镇守河西。曹真再拜大都督后，懿料诸葛亮必效韩信暗度陈仓之计，举昭筑城守陈仓道口，加镇西将军。229 年亮大军至，昭以三千人守孤城，魏延连攻不克。旧交靳祥两度入城说降，昭厉声拒之：吾事魏，汝事蜀，各事其主，但有死而已！亮起云梯，昭以火箭射烧之；用冲车，昭以绳系石飞打折之；亮掘地道，昭重壕横截之。相持二十余日，魏军竟不能下，为王双解围争得时日。后昭病重，亮乘虚取城，昭惊病而死。亮怜其忠，令妻小扶柩归魏。正史载陈仓之守事同，昭旋卒于任。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 228,
+     "end_year": 229,
+     "title": "镇西将军、守陈仓道口",
+     "lord_id": "cao_rui",
+     "basis": "司马懿举荐筑城守陈仓，三千人拒亮大军二十余日，病卒。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 228,
+     "title": "受命筑城",
+     "description": "司马懿料亮必出陈仓，举昭筑城守道口，加镇西将军。",
+     "importance": 1
+    },
+    {
+     "year": 229,
+     "title": "孤城拒亮",
+     "description": "三千人守陈仓，拒说降、烧云梯、折冲车、截地道，坚守二十余日。",
+     "importance": 3
+    },
+    {
+     "year": 229,
+     "title": "病殁陈仓",
+     "description": "亮乘其病重袭城，昭惊病而亡；亮怜其忠，扶柩归魏。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年无载｜演：卒于建兴七年初（229）陈仓城破之前，惊病而亡"
+  },
+  {
+   "id": "wang_shuang",
+   "name": "王双",
+   "courtesy": "子全",
+   "match_surfaces": [
+    "王双",
+    "王子全",
+    "子全"
+   ],
+   "display_aliases": [
+    "陇西狄道人",
+    "虎威将军、前部大先锋"
+   ],
+   "birth": null,
+   "death": 229,
+   "date_precision": "exact",
+   "date_note": "卒于建兴七年春（229）陈仓道口，为魏延所斩；生年无载。",
+   "gender": "male",
+   "first_chapter": 41,
+   "review_status": "reviewed",
+   "summary": "王双，曹魏武将，虎威将军、前部大先锋。知王双斩将立功，大喜，乃令中护军大将费耀，权摄前部总督，诸将各自守把隘口。",
+   "bio": "王双字子全，陇西狄道人。身长九尺，面黑睛黄，熊腰虎背。使六十斤大刀，开两石铁胎弓，暗藏三个流星锤，百发百中，有万夫不当之勇。曹真保为先锋，曹睿赐锦袍金甲，封虎威将军、前部大先锋。陈仓告急，双引二万兵救之，连斩蜀将谢雄、龚起，流星锤重伤张嶷，蜀兵折伤甚多，孔明为之退屯二十里。亮退兵时密授魏延计：先伏三十骑于双营侧，双起兵追蜀军，营中火起；双勒马回，行至山坡，魏延骤出，一刀砍于马下。曹真闻之伤感成疾。演义止写其勇而无谋，恃勇轻进，遂殒于伏。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 228,
+     "end_year": 229,
+     "title": "虎威将军、前部大先锋",
+     "lord_id": "cao_zhen",
+     "basis": "曹真保为先锋救陈仓，斩将立功；追蜀军中伏被魏延斩。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 228,
+     "title": "受封先锋",
+     "description": "曹真举荐，曹睿赐金甲封虎威将军，引兵救陈仓。",
+     "importance": 1
+    },
+    {
+     "year": 229,
+     "title": "连斩蜀将",
+     "description": "三合斩谢雄龚起，流星锤重伤张嶷，蜀军为之夺气。",
+     "importance": 2
+    },
+    {
+     "year": 229,
+     "title": "陈仓道口殒命",
+     "description": "追击魏延时营中火起回军，山坡上被魏延伏兵一刀斩之。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "jiang_wan",
+   "name": "蒋琬",
+   "courtesy": "公琰",
+   "match_surfaces": [
+    "蒋琬",
+    "蒋公琰",
+    "公琰"
+   ],
+   "display_aliases": [
+    "零陵湘乡人",
+    "丞相参军",
+    "蜀大司马"
+   ],
+   "birth": null,
+   "death": 246,
+   "date_precision": "approx",
+   "date_note": "史载卒于延熙九年（246）。生年无载。",
+   "gender": "male",
+   "first_chapter": 63,
+   "review_status": "reviewed",
+   "summary": "蒋琬，蜀汉文臣，广都长、尚书郎、丞相府东曹掾。蒋琬奏曰：臣敢保王平、张嶷引兵数万屯于永安，以防不测。",
+   "bio": "蒋琬字公琰，零陵湘乡人。随先主入蜀，为广都长时众事不理且沉醉，备欲加罪，亮曰：琬社稷之器，非百里之才，其政以安民为本，请勿加罪。备遂仅罢官。亮北伐，琬与张裔统留府事；街亭之败，琬自成都驰军中，高叫留人，引楚杀得臣文公喜之典救马谡，不听。亮密表后主：臣若不幸，后事付琬。亮卒，琬为尚书令，寻加大司马，开府治事。夷陵后蜀元气未复，琬承亮成规，不喜横议，裁制有方，休士息民，虽用兵不成而国本不摇，人服其忠。246 年病卒。演义中其伐魏之议、救谡之谏皆与史相合。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 214,
+     "end_year": 227,
+     "title": "广都长、尚书郎、丞相府东曹掾",
+     "lord_id": "liu_bei",
+     "basis": "随备入蜀为广都长，赖亮之救得免罪，累迁。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 227,
+     "end_year": 234,
+     "title": "尚书令",
+     "lord_id": "zhuge_liang",
+     "basis": "亮出驻汉中，琬留成都参赞军机；亮密表以身后事付之。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 234,
+     "end_year": 246,
+     "title": "尚书令、大司马",
+     "lord_id": "liu_shan",
+     "basis": "亮死后执政九年，休士息民，246 年卒。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "辅政"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 227,
+     "title": "留府参政",
+     "description": "亮上出师表北驻汉中，琬为参军居成都统留府事。",
+     "importance": 1
+    },
+    {
+     "year": 228,
+     "title": "辕门救谡",
+     "description": "自成都驰至，引楚杀得臣典力谏勿斩马谡，亮不从。",
+     "importance": 2
+    },
+    {
+     "year": 234,
+     "title": "受遗执政",
+     "description": "亮卒于五丈原，琬依遗表继掌国政，尚书令加大司马。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "deng_ai",
+   "name": "邓艾",
+   "courtesy": "士载",
+   "match_surfaces": [
+    "邓艾",
+    "邓士载",
+    "士载"
+   ],
+   "display_aliases": [
+    "义阳棘阳人",
+    "口吃将军",
+    "征西将军"
+   ],
+   "birth": 197,
+   "death": 264,
+   "date_precision": "approx",
+   "date_note": "卒于咸熙元年（264）被卫瓘遣田续杀于绵竹西；生年无载，据事迹推约 197。演义首现于第 110 回，本卡为北伐段预登记。",
+   "gender": "male",
+   "first_chapter": 107,
+   "review_status": "reviewed",
+   "summary": "邓艾，曹魏文臣，司马懿掾属、尚书郎、南安太守、讨寇将军。邓士载，当与决一死战，安肯降之乎。",
+   "bio": "邓艾字士载，义阳棘阳人。少孤，为稻田守丛草吏，口吃，每语艾自称艾艾，司马懿戏之：卿云艾艾，定几艾？答曰：凤兮凤兮，故是一凤。每见高山大泽，辄指画规度军营处所，时人笑之。后为司马懿掾属，议开河渠、筹淮南屯田，功著朝野。姜维九伐中原，艾屡出当其锋，段谷大破维军，迁镇西将军。263 年魏大举伐蜀，艾自阴平道行无人之地七百余里，凿山通道，裹毡推转而下，破诸葛瞻于绵竹，兵至成都，刘禅出降，蜀汉亡。后为钟会所构，与子忠同被杀，权臣之祸及于功臣，识者悲之。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 240,
+     "end_year": 250,
+     "title": "司马懿掾属、尚书郎、南安太守、讨寇将军",
+     "lord_id": "cao_fang",
+     "basis": "240-250 年魏帝为曹芳（239-254），非曹叡（226-239）。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 250,
+     "end_year": 264,
+     "title": "征西将军",
+     "lord_id": "sim_yi",
+     "basis": "受司马懿识拔之恩所自出，段谷破维、阴平灭蜀；264 年遭构杀。",
+     "confidence": 0.75,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 256,
+     "title": "段谷破维",
+     "description": "与姜维战于段谷，大破之，维军星散流离，死者甚众。",
+     "importance": 2
+    },
+    {
+     "year": 263,
+     "title": "偷渡阴平",
+     "description": "自阴平行无人之地七百里，裹毡而下，直取江油涪城。",
+     "importance": 3
+    },
+    {
+     "year": 263,
+     "title": "灭蜀受降",
+     "description": "破诸葛瞻于绵竹，兵临成都，刘禅舆榇出降。",
+     "importance": 3
+    },
+    {
+     "year": 264,
+     "title": "含冤被杀",
+     "description": "遭钟会构陷，槛车征还，被杀于绵竹西。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "guo_huai",
+   "name": "郭淮",
+   "courtesy": "伯济",
+   "match_surfaces": [
+    "郭淮",
+    "郭伯济",
+    "伯济"
+   ],
+   "display_aliases": [
+    "太原阳曲人",
+    "射阳亭侯",
+    "雍州刺史"
+   ],
+   "birth": null,
+   "death": 255,
+   "date_precision": "approx",
+   "date_note": "史载卒于正元二年（255），为姜维射死于洮西军中；生年无载。",
+   "gender": "male",
+   "first_chapter": 70,
+   "review_status": "reviewed",
+   "summary": "郭淮，东汉文臣，丞相兵曹议令史、夏侯渊司马。郭淮从之，遂令陈泰引五千兵，径到羌王寨内，解甲而入，泣拜曰：郭淮妄自尊大，常有杀泰之心，故来投降。",
+   "bio": "郭淮字伯济，太原阳曲人。出身名门，曹操时举孝廉，历丞相兵曹议令史、夏侯渊司马，渊死，淮收散卒推张郃为主以定军心，备惮之。文帝时为雍州刺史。一出祁山，曹真拜大都督，淮保为副都督，随真出关御蜀。骂阵折了王朗后，淮谋劫寨反中孔明之计；街亭既失，恐司马懿全获大功，引兵袭列柳城，与魏延高翔王平大战。此后长镇雍凉，与蜀相攻：陈仓之役建议教王双巡哨断亮粮道；亮卒后与陈泰、邓艾御姜维北伐，累迁征西将军、车骑将军。255 年洮西之败，维射杀淮于阵。史载淮以善处羌胡、料敌制胜闻，卒于任上，追赠大将军。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 211,
+     "end_year": 219,
+     "title": "丞相兵曹议令史、夏侯渊司马",
+     "lord_id": "cao_cao",
+     "basis": "举孝廉入仕，渊死后收散卒定军心。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 220,
+     "end_year": 228,
+     "title": "雍州刺史、射阳亭侯",
+     "lord_id": "cao_pi",
+     "basis": "文帝时出镇雍凉，一出祁山任曹真副都督。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 228,
+     "end_year": 255,
+     "title": "车骑将军",
+     "lord_id": "cao_rui",
+     "basis": "长镇西陲御蜀，255 年洮西败于姜维被射杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 228,
+     "title": "副都督出关",
+     "description": "曹真拜大都督，淮保为副都督，与王朗同出御蜀。",
+     "importance": 2
+    },
+    {
+     "year": 228,
+     "title": "袭取列柳城",
+     "description": "恐仲达全功，引兵袭列柳城，与魏延等军大战。",
+     "importance": 2
+    },
+    {
+     "year": 229,
+     "title": "断蜀粮道",
+     "description": "建议王双巡哨小路断亮运粮，亮粮尽夜退。",
+     "importance": 1
+    },
+    {
+     "year": 255,
+     "title": "洮西殒命",
+     "description": "洮西大败，为姜维射死于阵前。",
+     "importance": 2
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,75 @@
+{
+ "id": "xun_yu",
+ "name": "荀彧",
+ "courtesy": "文若",
+ "display_aliases": [
+  "荀令君",
+  "尚书令",
+  "子房"
+ ],
+ "birth": 163,
+ "death": 212,
+ "date_precision": "exact",
+ "date_note": "生于延熹六年（163），卒于建安十七年（212），年五十。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "verified",
+ "summary": "荀彧，群雄文臣，奋武司马。荀彧曰：郭奉孝十胜十败之说，正与愚见相合。",
+ "bio": "荀彧字文若，颍川颍阴人，荀子之后。少有才名，何颙见而异之曰「王佐才也」。举孝廉，为亢父令。董卓乱起，弃官归乡，率宗族迁冀州，袁绍待以上宾，彧度绍终不能成大事，遂去绍从曹操。操与语大悦曰「吾之子房也」，以为奋武司马。张邈、陈宫迎吕布袭兖州，彧与程昱设计保全鄄城、范、东阿三城，为曹操保住根本。又劝曹操迎献帝都许，挟天子以令诸侯，此策定曹魏二十年之基。官渡相持时，曹操欲退兵，彧书止之曰「此用奇之时，不可失也」。后曹操欲进爵魏公、加九锡，彧以为「本兴义兵以匡朝宁国，君子爱人以德」，操心不能平，彧遂以忧薨（一说饮药而卒），年五十。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 196,
+   "title": "奋武司马",
+   "lord_id": "cao_cao",
+   "basis": "初平二年（191）去袁绍投曹操，为奋武司马；此时曹操未建号，属群雄之一。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 212,
+   "title": "侍中、守尚书令、万岁亭侯",
+   "basis": "196 年曹操迎帝都许，曹魏势力形成（de_facto_start=196），彧任尚书令居中持重十余年；212 年忧死。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "去绍从操",
+   "description": "度袁绍不能成大事，去绍投曹操，操曰「吾之子房也」。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "保全三城",
+   "description": "张邈、陈宫迎吕布袭兖州，彧与程昱设计保全鄄城、范、东阿，为曹操保住根本。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "劝迎天子",
+   "description": "劝曹操迎献帝都许，挟天子以令诸侯，定二十年之基。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "官渡止退",
+   "description": "曹操欲退兵，彧书止之曰「此用奇之时，不可失也」。",
+   "importance": 3
+  },
+  {
+   "year": 212,
+   "title": "忧死",
+   "description": "反对进爵魏公，操心不能平，遂以忧薨，年五十。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 59
+}

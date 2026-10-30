@@ -1,0 +1,29 @@
+{
+ "id": "xiao_qiao",
+ "name": "小乔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 44,
+ "review_status": "auto_mined",
+ "summary": "小乔，孙吴女眷，周瑜妻。君丰度，佳配小乔；汉臣之婿，不愧当朝，吊君气概，谏阻纳质；始不垂翅，终能奋翼。",
+ "bio": "第 44 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "女眷",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "周瑜妻",
+   "basis": "乔公次女、周瑜之妻。周瑜为吴大都督，故归孙吴，保留女眷身份。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

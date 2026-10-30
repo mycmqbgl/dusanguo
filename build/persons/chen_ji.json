@@ -1,0 +1,29 @@
+{
+ "id": "chen_ji",
+ "name": "陈纪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "陈纪，群雄武将，袁术部将。第 17 回一笔带过，事迹仅存其名。",
+ "bio": "第 17 回：李丰、陈纪、乐就、梁刚都被生擒，操令皆斩于市。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 198,
+   "title": "袁术部将",
+   "basis": "第十七回原文：李丰、陈纪、乐就、梁刚都被生擒，操令皆斩于市。 职任「袁术部将」据此；★任期按末见回目收敛：全书最后一次提及在第 17 回（198 年），原 198—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

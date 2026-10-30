@@ -1,0 +1,30 @@
+{
+ "id": "yuan_qing",
+ "name": "爰青",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "爰青，曹魏武将。第 116 回一笔带过，事迹仅存其名。",
+ "bio": "爰靑，仅见于人物名录，演义正文 120 回中未出现，无事迹可述。此卡为自动建档，生卒、字号、官职均无考，未作任何补写。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 264,
+   "basis": "第116回钟会下寨，监军卫瓘、护军胡烈，大将田续、庞会、田章、爰青等八十余员听令。 第116回爰青为钟会麾下大将，263-264 年伐蜀之役。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "mention_count": 1
+}

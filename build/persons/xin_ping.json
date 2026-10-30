@@ -1,0 +1,62 @@
+{
+ "id": "xin_ping",
+ "name": "辛评",
+ "courtesy": "仲治",
+ "display_aliases": [
+  "韩馥谋士"
+ ],
+ "birth": null,
+ "death": 204,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安九年（204）。颍川阳翟人。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "辛评，群雄文臣，谋士。辛评曰：审、逢二人，必预定机谋。",
+ "bio": "辛评字仲治，颍川阳翟人，辛毗之兄。为韩馥谋士，与荀谌同劝韩馥让冀州于袁绍。后归袁绍，为谋士。袁绍死，审配、逢纪矫绍遗命立袁尚，辛评与郭图则附袁谭，兄弟阋墙由此起。曹操围邺，审配守城，辛评家在城中，审配以其通曹操，杀评全家。辛评后归袁谭，建安九年袁谭败死，评为曹操所杀（一说为谭所杀）。演义第七回写韩馥「慌聚荀谌、辛评二谋士商议」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "谋士",
+   "lord_id": "han_fu",
+   "basis": "韩馥谋士，以谋略为主归文臣；191 年韩馥失冀州。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 204,
+   "title": "谋士、都督",
+   "lord_id": "yuan_shao",
+   "basis": "韩馥让州后归袁绍为谋士；绍死后附袁谭；204 年为曹操所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "劝让冀州",
+   "description": "与荀谌同劝韩馥让州于袁绍。",
+   "importance": 2
+  },
+  {
+   "year": 202,
+   "title": "附袁谭",
+   "description": "袁绍死后，与郭图附袁谭，与审配、逢纪对立。",
+   "importance": 2
+  },
+  {
+   "year": 204,
+   "title": "家破身死",
+   "description": "审配杀其全家；袁谭败死后评为曹操所杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 9
+}

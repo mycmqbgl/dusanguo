@@ -1,0 +1,43 @@
+{
+ "id": "wang_kai",
+ "name": "王楷",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详。",
+ "gender": "male",
+ "first_chapter": 19,
+ "review_status": "reviewed",
+ "summary": "王楷，群雄文臣，幕僚。说许汜、王楷至寿春，拜见袁术，呈上书信。",
+ "bio": "王楷，吕布幕僚。下邳被围时与许汜同劝吕布以外结袁术为救，同往淮南见袁术说亲事，术以「布女既至」为条件允诺发兵，然布女未至而曹军攻急。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "幕僚",
+   "lord_id": "lv_bu",
+   "basis": "吕布幕僚。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "佐吕布",
+   "description": "为吕布幕僚。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "使袁术求援",
+   "description": "与许汜同往淮南说亲求援。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 7
+}

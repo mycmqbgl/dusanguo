@@ -1,0 +1,29 @@
+{
+ "id": "gao_gan",
+ "name": "高干",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 31,
+ "review_status": "auto_mined",
+ "summary": "高干，群雄武将，并州刺史。高干未信，只教二将自上关说话。",
+ "bio": "第 31 回：外甥高干亦引兵五万，自并州来：各至冀州助战。第 32 回：不一日，袁熙、高干皆领军到城外，屯兵三处，每日出兵与操相持。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 202,
+   "end_year": 205,
+   "title": "并州刺史",
+   "basis": "第三十一回原文：令袁熙仍回幽州，高干仍回并州：各去收拾人马，以备调用。 职任「并州刺史」据此；★任期按末见回目收敛：全书最后一次提及在第 33 回（205 年），原 202—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

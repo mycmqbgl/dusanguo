@@ -1,0 +1,29 @@
+{
+ "id": "he_zong",
+ "name": "何宗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "何宗，字彦英，蜀郡人，蜀汉大儒，官至大鸿胪。",
+ "bio": "何宗，字彦英，蜀郡郫人，从任安学，精究《大戴礼》。刘备定蜀，以为从事祭酒；后主时官至大鸿胪，与杜琼、许慈等同掌礼制。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 221,
+   "end_year": 229,
+   "title": "祭酒",
+   "basis": "第80回汉中王受贺，祭酒何宗与许靖、糜竺等一班文武列名劝进。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

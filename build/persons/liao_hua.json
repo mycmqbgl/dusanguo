@@ -1,0 +1,54 @@
+{
+ "id": "liao_hua",
+ "name": "廖化",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "auto_mined",
+ "summary": "廖化，蜀汉武将，前将军、并州刺史。关平奋力冲杀，奉败走，廖化乘势杀出重围。",
+ "bio": "第 27 回：「廖化怎生救夫人？」，后归蜀为后期重将。原文第 27 回相关片段：「若非廖将军保全，已被杜远所辱。”关公问左右曰：“廖化怎生救夫人？”左右曰：“杜远劫上山去，就要与廖化」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 263,
+   "title": "前将军、并州刺史",
+   "basis": "第 27 回：「廖化怎生救夫人？」，后归蜀为后期重将。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "第 27 回",
+   "description": "关公听言，乃拜谢廖化",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 74 回",
+   "description": "大怒，令廖化去攻樊城，自己亲来迎敌庞德",
+   "importance": 1
+  },
+  {
+   "year": 234,
+   "title": "第 104 回",
+   "description": "到帐中，病转沉重，乃唤杨仪分付曰：“王平、廖化、张嶷、张翼、吴懿等，皆忠义之士，久经战阵，多负勤劳，堪可委用",
+   "importance": 1
+  },
+  {
+   "year": 263,
+   "title": "第 118 回",
+   "description": "于剑阁关遍竖降旗，先令人报入钟会寨中，说姜维引张翼、廖化、董厥等来降",
+   "importance": 1
+  }
+ ],
+ "mention_count": 90
+}

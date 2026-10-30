@@ -1,0 +1,544 @@
+{
+ "meta": {
+  "name": "读三国 · 样例数据",
+  "version": "0.4",
+  "purpose": "展示四类实体应填充到什么颗粒度，同时作为 LLM 批产的 few-shot 范例",
+  "warning": "本文件中的 passage 文本为示意片段，非原文录入；pixel 坐标为示意值，待谭图配准后替换。人物、事件、战役的文字内容为可用的真实示例。"
+ },
+ "chapter": {
+  "id": 50,
+  "no": 50,
+  "title": "诸葛亮智算华容 关云长义释曹操",
+  "char_count": 5320
+ },
+ "passage": [
+  {
+   "id": 50231,
+   "chapter_id": 50,
+   "seq": 47,
+   "text": "（示意段落）却说关云长领了将令，引五百校刀手，往华容小路埋伏。云长曰：昔日曹操待我不薄，今日之事，安忍杀之？",
+   "immutable": true
+  }
+ ],
+ "mention": [
+  {
+   "passage_id": 50231,
+   "start": 5,
+   "end": 8,
+   "surface": "关云长",
+   "entity_type": "person",
+   "entity_id": "guan_yu",
+   "source": "dictionary",
+   "confidence": 0.99,
+   "is_weak_link": false,
+   "reviewed": true
+  },
+  {
+   "passage_id": 50231,
+   "start": 32,
+   "end": 35,
+   "surface": "华容",
+   "entity_type": "place",
+   "entity_id": "huarong_dao",
+   "source": "dictionary",
+   "confidence": 0.95,
+   "is_weak_link": false,
+   "reviewed": true
+  },
+  {
+   "passage_id": 50231,
+   "start": 38,
+   "end": 40,
+   "surface": "云长",
+   "entity_type": "person",
+   "entity_id": "guan_yu",
+   "source": "llm",
+   "confidence": 0.92,
+   "is_weak_link": false,
+   "reviewed": true,
+   "note": "单称（字）。决策 #2 定案：全称+单称+别称均链卡"
+  },
+  {
+   "passage_id": 50231,
+   "start": 44,
+   "end": 46,
+   "surface": "曹操",
+   "entity_type": "person",
+   "entity_id": "cao_cao",
+   "source": "dictionary",
+   "confidence": 0.99,
+   "is_weak_link": false,
+   "reviewed": true
+  }
+ ],
+ "person": {
+  "id": "guan_yu",
+  "name": "关羽",
+  "courtesy": "云长",
+  "aliases": [
+   "关公",
+   "关云长",
+   "美髯公",
+   "汉寿亭侯",
+   "关将军",
+   "关某",
+   "寿亭侯"
+  ],
+  "birth": 160,
+  "death": 220,
+  "date_precision": "approx",
+  "date_note": "生年史无明文，约生于桓帝延熹三年（160）前后；卒于建安二十四年十二月（公元 220 年初）。",
+  "native_place_id": "xie_xian",
+  "portrait": null,
+  "portrait_note": "艺术想象，非史料画像",
+  "summary": "刘备集团的首席战将，以忠义与勇烈著称，在演义中被塑造为「义绝」的化身。",
+  "bio": "关羽字云长，河东解县人。早年因事亡命奔涿郡，与张飞共事刘备，三人寝则同床、恩若兄弟。随刘备辗转徐州、小沛之间，屡败屡起。建安五年，刘备败于曹操，关羽被围土山，约三事而降，曹操表为偏将军；白马之战中于万众之中刺颜良，解白马之围，封汉寿亭侯。然其心终在刘备，尽封所赐，拜书告辞，千里寻兄。赤壁之后，刘备收荆州四郡，以关羽为襄阳太守、荡寇将军，镇江陵，督荆州事——这是他一生成就与败亡的共同起点。建安二十四年，刘备称汉中王，拜关羽为前将军、假节钺。是年秋，关羽率众攻樊城，水淹七军，擒于禁、斩庞德，威震华夏，曹操一度议迁都以避其锋。然其性矜傲，与东吴交恶，又轻慢糜芳、傅士仁，致后方离心。孙权遣吕蒙袭取荆州，糜芳、士仁降吴，关羽腹背受敌，败走麦城，突围至临沮被擒，与子关平同遇害。演义写其死后屡次显圣，并以其忠义成为后世庙祀之主，是全书唯一被推向神格的人物。",
+  "is_fictional": false,
+  "is_mentioned_only": false,
+  "gender": "male",
+  "first_chapter": 1,
+  "review_status": "verified",
+  "tenure": [
+   {
+    "person_id": "guan_yu",
+    "faction_id": "warlord",
+    "role": "武将",
+    "start_year": 184,
+    "end_year": 200,
+    "lord_id": "liu_bei",
+    "title": "别部司马、下邳太守（皆刘备所署）",
+    "basis": "第一回随刘备讨黄巾；此时刘备为群雄之一，未建号。",
+    "passage_id": null,
+    "confidence": 0.9,
+    "review_status": "verified"
+   },
+   {
+    "person_id": "guan_yu",
+    "faction_id": "wei",
+    "role": "武将",
+    "start_year": 200,
+    "end_year": 200,
+    "title": "偏将军、汉寿亭侯",
+    "basis": "第二十五回屯土山约三事，曹操表为偏将军；汉寿亭侯系汉献帝所封，归曹魏为技术性处理，confidence 0.55。",
+    "passage_id": null,
+    "confidence": 0.55,
+    "review_status": "reviewed"
+   },
+   {
+    "person_id": "guan_yu",
+    "faction_id": "warlord",
+    "role": "武将",
+    "start_year": 200,
+    "end_year": 208,
+    "lord_id": "liu_bei",
+    "title": "偏将军",
+    "basis": "第二十六回挂印封金归刘备；208 年前刘备无固定地盘，记群雄·刘备部。",
+    "passage_id": null,
+    "confidence": 0.85,
+    "review_status": "reviewed"
+   },
+   {
+    "person_id": "guan_yu",
+    "faction_id": "shu",
+    "role": "武将",
+    "start_year": 208,
+    "end_year": 220,
+    "title": "襄阳太守、荡寇将军、前将军、假节钺",
+    "basis": "208 年刘备取荆南四郡，属蜀汉势力；建安二十四年拜前将军假节钺。",
+    "passage_id": null,
+    "confidence": 0.95,
+    "review_status": "verified"
+   }
+  ],
+  "timeline": [
+   {
+    "year": 184,
+    "date_text": "中平元年",
+    "title": "涿郡从军",
+    "description": "与张飞共事刘备，讨黄巾有功。",
+    "place_id": "zhuo_jun",
+    "importance": 2
+   },
+   {
+    "year": 200,
+    "date_text": "建安五年",
+    "title": "屯土山约三事",
+    "description": "兵败被围，约「降汉不降曹」等三事而暂归曹操。",
+    "place_id": null,
+    "importance": 3
+   },
+   {
+    "year": 200,
+    "date_text": "建安五年",
+    "title": "白马斩颜良",
+    "description": "单骑入万众，刺颜良于麾盖之下，解白马之围，封汉寿亭侯。",
+    "place_id": "bai_ma",
+    "importance": 3
+   },
+   {
+    "year": 200,
+    "date_text": "建安五年",
+    "title": "挂印封金",
+    "description": "尽封曹操所赐，拜书告辞，护二嫂千里寻兄。",
+    "place_id": "xu_du",
+    "importance": 3
+   },
+   {
+    "year": 209,
+    "date_text": "建安十四年",
+    "title": "督荆州事",
+    "description": "刘备收荆州四郡，以关羽为襄阳太守、荡寇将军，镇江陵。",
+    "place_id": "jiang_ling",
+    "importance": 2
+   },
+   {
+    "year": 215,
+    "date_text": "建安二十年",
+    "title": "单刀赴会",
+    "description": "与鲁肃会于益阳，争荆州三郡归属，仅携周仓与数名亲随。",
+    "place_id": "yi_yang",
+    "importance": 2
+   },
+   {
+    "year": 219,
+    "date_text": "建安二十四年秋",
+    "title": "水淹七军",
+    "description": "攻樊城，汉水暴涨，擒于禁、斩庞德，威震华夏。",
+    "place_id": "fan_cheng",
+    "importance": 3
+   },
+   {
+    "year": 219,
+    "date_text": "建安二十四年冬",
+    "title": "荆州失守",
+    "description": "吕蒙白衣渡江，糜芳、傅士仁降吴，后方尽失。",
+    "place_id": "jiang_ling",
+    "importance": 3
+   },
+   {
+    "year": 219,
+    "date_text": "建安二十四年十二月",
+    "title": "败走麦城",
+    "description": "突围至临沮，被吴将马忠所擒。",
+    "place_id": "mai_cheng",
+    "importance": 3
+   },
+   {
+    "year": 220,
+    "date_text": "建安二十四年末",
+    "title": "遇害",
+    "description": "与子关平同被害，孙权传首于曹操，曹操以诸侯礼葬之。",
+    "place_id": null,
+    "importance": 3
+   }
+  ]
+ },
+ "event": {
+  "id": "yi_dai_zhao",
+  "name": "衣带诏",
+  "kind": "政治",
+  "start_year": 199,
+  "end_year": 200,
+  "date_text": "建安四年春至建安五年正月",
+  "summary": "汉献帝以血书密诏藏于衣带，付国舅董承谋诛曹操，事泄后董承等被夷三族，董贵人遇害。",
+  "detail": "建安四年，献帝不甘为傀儡，咬破指尖写血书密诏，藏于玉带之内，召国舅董承入宫赐带。董承归家拆带得诏，遂联络偏将军王子服、长水校尉种辑、议郎吴硕、西凉太守马腾及刘备，共谋诛曹。刘备恐曹操见疑，借截击袁术之机请兵离许都，实则一去不返。建安五年正月，董承家奴秦庆童告密，曹操搜出衣带诏，董承、王子服、种辑、吴硕皆被夷三族，董贵人时已有孕，献帝求免不得，亦被杀。此事件是全书「汉贼之辨」的枢纽：它把刘备推离许都、正式与曹操决裂，也为后来「讨汉贼」的政治正当性提供了叙事起点。演义中刘备列名诏书一节，正史无载，系小说家为强化刘备正统立场而增饰。",
+  "place_id": "xu_du",
+  "parent_event_id": null,
+  "participants": [
+   {
+    "person_id": "han_xiandi",
+    "role_desc": "主谋，血书授诏"
+   },
+   {
+    "person_id": "dong_cheng",
+    "role_desc": "奉诏联络，事泄被夷三族"
+   },
+   {
+    "person_id": "liu_bei",
+    "role_desc": "署名列诏，借机离许都"
+   },
+   {
+    "person_id": "ma_teng",
+    "role_desc": "署名，西凉外援"
+   },
+   {
+    "person_id": "wang_zi_fu",
+    "role_desc": "同谋，被杀"
+   },
+   {
+    "person_id": "cao_cao",
+    "role_desc": "被谋对象，事泄后清算"
+   }
+  ],
+  "passage_ids": [],
+  "timeline": [
+   {
+    "year": 199,
+    "title": "血书授带",
+    "description": "献帝赐董承玉带，血诏藏于带内。",
+    "importance": 3
+   },
+   {
+    "year": 199,
+    "title": "董承聚谋",
+    "description": "联结王子服、种辑、吴硕、马腾、刘备署名。",
+    "importance": 2
+   },
+   {
+    "year": 199,
+    "title": "刘备请兵离许",
+    "description": "借截袁术之名脱身，实则与曹操决裂。",
+    "importance": 3
+   },
+   {
+    "year": 200,
+    "title": "事泄被诛",
+    "description": "家奴告密，董承等夷三族，董贵人遇害。",
+    "importance": 3
+   }
+  ],
+  "review_status": "verified"
+ },
+ "battle": {
+  "id": "chi_bi_zhi_zhan",
+  "name": "赤壁之战",
+  "year": 208,
+  "date_text": "建安十三年冬",
+  "place_id": "chi_bi",
+  "event_id": "chi_bi",
+  "belligerents": [
+   {
+    "side": "孙刘联军",
+    "faction_ids": [
+     "wu",
+     "shu"
+    ],
+    "commanders": [
+     "zhou_yu",
+     "cheng_pu",
+     "lu_su",
+     "zhuge_liang"
+    ],
+    "troops_desc": "约五万（周瑜请兵三万，加刘备部众）"
+   },
+   {
+    "side": "曹魏",
+    "faction_ids": [
+     "wei"
+    ],
+    "commanders": [
+     "cao_cao",
+     "cao_ren",
+     "zhang_liao"
+    ],
+    "troops_desc": "演义称八十三万，史家多估二十余万，且多北方步骑，不习水战"
+   }
+  ],
+  "result": "败",
+  "casualties_note": "曹军伤亡与疫病减员惨重，具体数字史载不一；演义「大半死于火」为文学夸张。",
+  "summary": "曹操南下取荆州后东进，孙权遣周瑜与刘备合力拒之，黄盖诈降纵火，曹军连舟尽焚，曹操退保南郡，三分之势由此奠定。",
+  "detail": "建安十三年秋，曹操南征荆州，刘琮举州而降，刘备败走当阳，退至夏口与刘琦合兵。曹操得荆州水军，顺江东下，致书孙权称「今治水军八十万众」。孙权从鲁肃、周瑜之议，决计抗曹，以周瑜、程普为左右督，将三万兵与刘备并力。两军初遇于赤壁，曹军小败，退屯江北乌林，因北兵不习水战、军中疫病流行，遂以铁索连舟以稳之。黄盖献诈降火攻之策，取蒙冲斗舰十艘，载燥荻枯柴、灌膏油，裹以帷幕，建牙旗于上；东南风急，火船同时发火，直冲曹军水寨，连环之舟一时俱燃，延及岸上营落。周瑜、刘备水陆并进，曹军大溃，曹操引军自华容道步走，遇泥泞，死者甚众，仅得脱还江陵，留曹仁守之，自还北方。此战之后，刘备取荆南四郡、孙权据江东，三分格局成形。演义在此基础上增饰了舌战群儒、草船借箭、苦肉计、借东风、华容释曹等情节，使其成为全书篇幅最长、最富戏剧性的战役。",
+  "front_line": [
+   {
+    "time": 208,
+    "time_seq": 1,
+    "kind": "集结",
+    "label": "江陵集结",
+    "desc": "曹操收降荆州水军，自江陵沿江东下，水陆并进。",
+    "pixel_x": 3200,
+    "pixel_y": 2400,
+    "tile_sheet": "s3-19"
+   },
+   {
+    "time": 208,
+    "time_seq": 2,
+    "kind": "遭遇",
+    "label": "三江口初战",
+    "desc": "两军初遇于赤壁江面，曹军小败，退屯江北。",
+    "pixel_x": 3560,
+    "pixel_y": 2380,
+    "tile_sheet": "s3-19"
+   },
+   {
+    "time": 208,
+    "time_seq": 3,
+    "kind": "屯驻",
+    "label": "乌林连舟",
+    "desc": "曹军战船首尾相连，屯于乌林北岸，岸上立营。",
+    "pixel_x": 3620,
+    "pixel_y": 2300,
+    "tile_sheet": "s3-19"
+   },
+   {
+    "time": 208,
+    "time_seq": 4,
+    "kind": "火攻",
+    "label": "黄盖纵火",
+    "desc": "东南风起，十艘火船冲入水寨，连环之舟一时俱燃。",
+    "pixel_x": 3640,
+    "pixel_y": 2310,
+    "tile_sheet": "s3-19"
+   },
+   {
+    "time": 208,
+    "time_seq": 5,
+    "kind": "溃退",
+    "label": "华容道北撤",
+    "desc": "曹操引军自华容道步走，遇泥泞，死者甚众。",
+    "pixel_x": 3400,
+    "pixel_y": 2260,
+    "tile_sheet": "s3-19"
+   },
+   {
+    "time": 208,
+    "time_seq": 6,
+    "kind": "追击",
+    "label": "水陆追击",
+    "desc": "周瑜、刘备水陆并进，追至南郡。",
+    "pixel_x": 3300,
+    "pixel_y": 2380,
+    "tile_sheet": "s3-19"
+   }
+  ],
+  "passage_ids": [],
+  "timeline": [
+   {
+    "year": 208,
+    "title": "诸葛亮舌战群儒",
+    "description": "随鲁肃赴柴桑，说孙权抗曹。",
+    "importance": 2
+   },
+   {
+    "year": 208,
+    "title": "蒋干中计",
+    "description": "曹操误杀蔡瑁、张允，失水军统领。",
+    "importance": 2
+   },
+   {
+    "year": 208,
+    "title": "草船借箭",
+    "description": "诸葛亮以二十船受箭十万，演义增饰情节。",
+    "importance": 2
+   },
+   {
+    "year": 208,
+    "title": "苦肉计·黄盖诈降",
+    "description": "周瑜打黄盖，阚泽下诈降书。",
+    "importance": 2
+   },
+   {
+    "year": 208,
+    "title": "庞统献连环",
+    "description": "教曹军以铁索连舟，为火攻伏笔。",
+    "importance": 2
+   },
+   {
+    "year": 208,
+    "title": "借东风",
+    "description": "诸葛亮筑坛祭风，东南风起。",
+    "importance": 3
+   },
+   {
+    "year": 208,
+    "title": "火烧赤壁",
+    "description": "火船冲寨，曹军大溃。",
+    "importance": 3
+   },
+   {
+    "year": 208,
+    "title": "华容道释曹",
+    "description": "关羽念旧情放曹操北归，演义核心情节。",
+    "importance": 3
+   }
+  ],
+  "review_status": "verified"
+ },
+ "place": {
+  "id": "chi_bi",
+  "name": "赤壁",
+  "aliases": [
+   "赤壁矶",
+   "蒲圻赤壁",
+   "武赤壁"
+  ],
+  "type": "战场",
+  "modern_name": "湖北省赤壁市西北，长江南岸",
+  "province": "湖北",
+  "lng": 113.9,
+  "lat": 29.724,
+  "pixel_x": null,
+  "pixel_y": null,
+  "tile_sheet": "s3-19",
+  "ancient_admin": "荆州·江夏郡",
+  "first_chapter": 44,
+  "coord_precision": "存疑",
+  "coord_note": "赤壁所在有蒲圻说与黄州说之争。演义所述与蒲圻（今赤壁市）更合，今取此说；黄州赤壁（东坡赤壁）为文赤壁，非战场。",
+  "geometry": null
+ },
+ "llm_output_schema": {
+  "comment": "批产 prompt 要求模型直接输出的结构。字段缺失或类型错误即重试，重试两次仍失败入人工队列。",
+  "person": {
+   "id": "string，拼音下划线，与主档一致",
+   "summary": "string，30-60 字",
+   "bio": "string，核心人物 500-800 字，次要 200-300 字",
+   "tenure": [
+    {
+     "faction_id": "枚举八选一",
+     "role": "枚举，受阵营约束",
+     "start_year": "integer",
+     "end_year": "integer",
+     "title": "string，官职名，无则 null",
+     "basis": "string，必填，说明判定依据",
+     "confidence": "0-1"
+    }
+   ],
+   "timeline": [
+    {
+     "year": "integer",
+     "date_text": "string 或 null",
+     "title": "string ≤10 字",
+     "description": "string ≤40 字",
+     "importance": "1-3"
+    }
+   ]
+  },
+  "hard_rules_for_llm": [
+   "birth / death 不确定时必须输出 null 且 date_precision 输出 unknown，禁止推测年份",
+   "tenure 的时间片必须首尾相接、不得重叠",
+   "faction_id 为群雄或异族时，role 只能取 君主/文臣/武将（无「宗亲」，决策 #8.2）",
+   "死后被本阵营皇帝追尊为帝者，该阵营时间片 role 输出「追谥」，且仅限 wei/wu/shu/jin（N4 定案）；追尊为王/侯者不算，如孙策谥长沙桓王不入追谥",
+   "timeline 每年最多 2 条，只保留对理解人物关键的事件",
+   "不得引入原文与史书之外的人物、官职或事件"
+  ]
+ },
+ "person_posthumous_example": {
+  "comment": "追谥身份示例（N4 few-shot）。司马懿：曹魏时间片是权臣，晋时间片是追谥，两片独立",
+  "id": "sima_yi",
+  "name": "司马懿",
+  "courtesy": "仲达",
+  "tenure": [
+   {
+    "person_id": "sima_yi",
+    "faction_id": "wei",
+    "role": "权臣",
+    "start_year": 220,
+    "end_year": 251,
+    "title": "抚军大将军、大将军、太傅、录尚书事",
+    "basis": "曹丕遗诏辅政；高平陵之变（249）后军政大权归于司马氏，满足权臣 B 组判据（废立、专权）。",
+    "confidence": 0.95,
+    "review_status": "reviewed"
+   },
+   {
+    "person_id": "sima_yi",
+    "faction_id": "jin",
+    "role": "追谥",
+    "start_year": 265,
+    "end_year": 316,
+    "title": "宣皇帝",
+    "basis": "265 年晋武帝司马炎代魏建晋，追尊司马懿为宣皇帝。追谥时间片约定为 [阵营建立年, 阵营灭亡年]。",
+    "confidence": 1.0,
+    "review_status": "reviewed"
+   }
+  ]
+ }
+}

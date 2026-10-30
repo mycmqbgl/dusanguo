@@ -1,0 +1,700 @@
+{
+ "comment": "第 51–60 回批产人物卡（2026-10-28）。范围：南郡之争→周瑜殒命→合肥之战→马超雪恨→许褚斗马超→张松献图。",
+ "persons": [
+  {
+   "id": "huang_zhong",
+   "name": "黄忠",
+   "courtesy": "汉升",
+   "match_surfaces": [
+    "黄忠",
+    "黄汉升"
+   ],
+   "display_aliases": [
+    "长沙降将",
+    "讨虏将军",
+    "后将军"
+   ],
+   "birth": null,
+   "death": 220,
+   "date_precision": "approx",
+   "date_note": "生年不详，演义出场已年近六旬；卒年按演义伐吴中箭身亡（220），史书卒于建安二十五年（220）。",
+   "gender": "male",
+   "first_chapter": 53,
+   "review_status": "reviewed",
+   "summary": "黄忠，字汉升，南阳人，定军山斩夏侯渊，官至蜀汉后将军。",
+   "bio": "黄忠，字汉升，南阳人。初事刘表为中郎将，守长沙；后归刘备，入蜀作战，勇冠三军。建安二十四年（219）定军山之役，黄忠「推锋必进，劝率士卒」，斩夏侯渊于马下，升征西将军，后封后将军、关内侯，谥刚侯。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 209,
+     "title": "刘表中郎将、长沙裨将军",
+     "basis": "刘表旧将守长沙；209 年魏延杀韩玄献城后随降。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 209,
+     "end_year": 220,
+     "title": "讨虏将军、征西将军、后将军",
+     "lord_id": "liu_bei",
+     "basis": "随备入川取汉中，拜后将军；220 年伐吴中箭身亡（演义）。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 209,
+     "title": "长沙战关羽",
+     "description": "与云长三日不分胜负，箭下留情，随城而降。",
+     "importance": 3
+    },
+    {
+     "year": 219,
+     "title": "定军山斩渊",
+     "description": "法正指挥，忠冲阵斩曹魏名将夏侯渊，汉中之局逆转。",
+     "importance": 3
+    },
+    {
+     "year": 220,
+     "title": "伐吴殉难",
+     "description": "随备伐吴，中箭退营，殁于军中。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "wei_yan",
+   "name": "魏延",
+   "courtesy": "文长",
+   "match_surfaces": [
+    "魏延",
+    "魏文长"
+   ],
+   "display_aliases": [
+    "义阳魏文长",
+    "汉中太守",
+    "征西大将军"
+   ],
+   "birth": null,
+   "death": 234,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年按演义诸葛亮死后反叛被马岱斩于马下（234），史书同记延熙十二年（234）兵败被杀。",
+   "gender": "male",
+   "first_chapter": 41,
+   "review_status": "reviewed",
+   "summary": "魏延，字文长，义阳人，蜀汉名将，诸葛亮卒后争权被杀。",
+   "bio": "魏延，字文长，义阳人。以部曲随刘备入蜀，汉中既定，超擢为督汉中镇远将军、汉中太守，一军皆惊。诸葛亮北伐，魏延每请精兵万人出子午谷，亮不许。亮卒后与杨仪争权，兵败被马岱追杀，夷三族。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 209,
+     "end_year": 234,
+     "title": "牙门将军、镇远将军汉中太守、征西大将军",
+     "lord_id": "liu_bei",
+     "basis": "209 年长沙来降（演义），佐备入川镇汉中；234 年亮死后兵败被杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 209,
+     "title": "长沙救黄忠",
+     "description": "杀韩玄救黄忠献城，初归刘备。",
+     "importance": 2
+    },
+    {
+     "year": 219,
+     "title": "镇守汉中",
+     "description": "破格拜汉中太守，一军皆惊。",
+     "importance": 3
+    },
+    {
+     "year": 234,
+     "title": "反叛伏诛",
+     "description": "亮死后与杨仪争权，为马岱斩于马下。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年按演义诸葛亮死后反叛被马岱斩于马下（234），史书同记延熙十二年（234）兵败被杀"
+  },
+  {
+   "id": "ma_chao",
+   "name": "马超",
+   "courtesy": "孟起",
+   "match_surfaces": [
+    "马超",
+    "马孟起",
+    "锦马超"
+   ],
+   "display_aliases": [
+    "西凉锦马超",
+    "骠骑将军",
+    "五虎上将"
+   ],
+   "birth": 176,
+   "death": 222,
+   "date_precision": "exact",
+   "date_note": "史书生卒年明确（176–222）；演义同记伐吴前病故，白帝托孤前后（演义 222 前后）。",
+   "gender": "male",
+   "first_chapter": 10,
+   "review_status": "reviewed",
+   "summary": "马超，群雄君主，西凉联军统帅、偏将军。马超大怒，意欲突前擒之，见操背后一人，睁圆怪眼，手提钢刀，勒马而立。",
+   "bio": "马超字孟起，扶风茂陵人，马腾长子，人称锦马超。曹操诱马腾入京害之，超与韩遂起西凉兵报仇，破长安占潼关，杀得曹操割须弃袍而逃；渭水之战与许褚裸衣大战二百余合。操用贾诩反间计离间超与韩遂，超败走羌中。后攻冀城为杨阜所败，走汉中依张鲁；备攻成都，超来降兵临城下，刘璋出降。备为汉中王拜超为左将军，后为骠骑将军领凉州牧，镇守西平，222 年病故。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 211,
+     "end_year": 213,
+     "title": "西凉联军统帅、偏将军",
+     "basis": "211 年为父报仇自领西凉联军，与操决战关中；败后依张鲁。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 214,
+     "end_year": 222,
+     "title": "平西将军、左将军、骠骑将军领凉州牧",
+     "lord_id": "liu_bei",
+     "basis": "214 年兵临成都刘璋出降，五虎上将之一；222 年病故。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "起兵雪恨",
+     "description": "为马腾之死起西凉兵二十万，破潼关，操割须弃袍而逃。",
+     "importance": 3
+    },
+    {
+     "year": 212,
+     "title": "渭水大战许褚",
+     "description": "与许褚裸衣大战二百余合不分胜负。",
+     "importance": 2
+    },
+    {
+     "year": 214,
+     "title": "兵临成都",
+     "description": "自汉中来降刘备，兵临成都，刘璋出降。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "ma_dai",
+   "name": "马岱",
+   "courtesy": null,
+   "match_surfaces": [
+    "马岱"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。马腾之侄、马超堂弟。",
+   "gender": "male",
+   "first_chapter": 10,
+   "review_status": "reviewed",
+   "summary": "马岱，蜀汉武将，偏将军、平北将军。马岱欣然去了，领兵前到沙口，驱兵渡水；因见水浅，大半不下筏，只裸衣而过，半渡皆倒；急救傍岸，口鼻出血而死。",
+   "bio": "马岱，扶风茂陵人，马腾之侄。随马超起兵报仇，同投张鲁，同归刘备。诸葛亮北伐为先锋偏将，屡立战功。亮临终授密计：魏延若反，令岱出其不意斩之。234 年魏延烧栈道反，岱阵前应之，一刀斩延于马下。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 214,
+     "end_year": 234,
+     "title": "偏将军、平北将军",
+     "lord_id": "liu_bei",
+     "basis": "随超归刘，佐亮北伐；亮死后斩魏延，其后无载。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 234,
+     "title": "阵斩魏延",
+     "description": "奉亮遗计，阵前斩反叛魏延。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "xiahou_yuan",
+   "name": "夏侯渊",
+   "courtesy": "妙才",
+   "match_surfaces": [
+    "夏侯渊",
+    "夏侯妙才"
+   ],
+   "display_aliases": [
+    "征西将军"
+   ],
+   "birth": null,
+   "death": 219,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年建安二十四年（219）定军山之战，史演义一致。",
+   "gender": "male",
+   "first_chapter": 5,
+   "review_status": "reviewed",
+   "summary": "夏侯渊，曹魏武将，典军校尉、征西将军。征西将军司马钧，钧生豫章太守司马量，量生颍川太守司马隽，隽生京兆尹司马防，防生宣帝司马懿，懿生景帝司马师、文帝司马昭：是为七庙也。",
+   "bio": "夏侯渊字妙才，沛国谯人，曹操同族兄弟（夏侯氏与曹氏世为婚姻）。陈留起兵即随操征战，善急行军，军中语「典军校尉夏侯渊，三日五百，六日一千」。汉中之战代张郃都督汉中诸军，据定军山。建安二十四年（219），黄忠依法正之计居高临下冲阵，渊措手不及，被忠连头带肩砍为两段。操闻之大哭，亲统大军复仇不得。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 219,
+     "title": "典军校尉、征西将军",
+     "lord_id": "cao_cao",
+     "basis": "自操起兵随征，后都督汉中；219 年定军山战死。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 219,
+     "title": "定军山殒命",
+     "description": "黄忠居高突袭，渊被斩于定军山。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年建安二十四年（219）定军山之战，史演义一致"
+  },
+  {
+   "id": "pang_de",
+   "name": "庞德",
+   "courtesy": "令明",
+   "match_surfaces": [
+    "庞德",
+    "庞令明"
+   ],
+   "display_aliases": [
+    "白马将军"
+   ],
+   "birth": null,
+   "death": 219,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年建安二十四年（219）襄樊之战水淹七军被擒不降，史演义一致。",
+   "gender": "male",
+   "first_chapter": 58,
+   "review_status": "reviewed",
+   "summary": "庞德，群雄武将，马超部将。庞德闻之，免冠顿首，流血满面而告曰：某自汉中投降大王，每感厚恩，虽肝脑涂地，不能补报；大王何疑于德也。",
+   "bio": "庞德字令明，南安狟道人。初为马腾、马超部将，随超征战；渭水之战斩钟进救曹仁。超败后随张鲁降曹，操闻其骁勇拜立义将军。建安二十四年曹仁守樊城，德自请为先锋，抬榇（棺）决战，与关羽大战百余合不分胜负，箭射关羽左臂。后七军为水所淹，德被擒，立而不跪，骂羽不屈而死。操闻流涕。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 215,
+     "title": "马超部将",
+     "basis": "随马腾马超征战关中；马超败后依张鲁。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 215,
+     "end_year": 219,
+     "title": "立义将军、关内亭侯",
+     "lord_id": "cao_cao",
+     "basis": "张鲁降后归曹；219 年襄樊之战战死。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 219,
+     "title": "抬榇战关羽",
+     "description": "自请为先锋抬棺决战，与关羽百余合不分胜负。",
+     "importance": 3
+    },
+    {
+     "year": 219,
+     "title": "水淹七军",
+     "description": "七军被淹被擒，立而不跪骂羽而死。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年建安二十四年（219）襄樊之战水淹七军被擒不降，史演义一致"
+  },
+  {
+   "id": "li_tong",
+   "name": "李通",
+   "courtesy": "文达",
+   "match_surfaces": [
+    "李通",
+    "李文达"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 211,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年按演义潼关之战为马超所杀（211）。史书卒于建安十四年（209），病卒于道，与演义异。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "李通，曹魏武将，曹操部将、汝南太守。第 18 回一笔带过，事迹仅存其名。",
+   "bio": "李通字文达，江夏平春人。曹操起兵即来投，屡随征伐。潼关之战操为马超所追割须弃袍，通飞马来救，与超交战，为超一枪刺于马下（演义）。史载通官至汝南太守、都亭侯，卒于建安十四年。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 211,
+     "title": "曹操部将、汝南太守",
+     "lord_id": "cao_cao",
+     "basis": "随操征战；卒年从演义 211 年潼关战死（史书为 209 病卒，演义异说）。｜阵营据百科势力分组校正：wei。",
+     "confidence": 0.75,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "潼关救操",
+     "description": "操被马超追杀，通飞马来救，被超一枪刺死。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年按演义潼关之战为马超所杀（211）；史书卒于建安十四年（209），病卒于道，与演义异"
+  },
+  {
+   "id": "cao_xiu",
+   "name": "曹休",
+   "courtesy": "文烈",
+   "match_surfaces": [
+    "曹休",
+    "曹文烈"
+   ],
+   "display_aliases": [
+    "大司马"
+   ],
+   "birth": null,
+   "death": 228,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年太和二年（228）石亭之战兵败后背疽发而亡，史演义一致。",
+   "gender": "male",
+   "first_chapter": 56,
+   "review_status": "reviewed",
+   "summary": "曹休，曹魏武将，虎豹骑宿卫至大司马。报扬州司马大都督曹休上表，说东吴鄱阳太守周鲂，愿以郡来降，密遣人陈言七事，说东吴可破，乞早发兵取之。",
+   "bio": "曹休字文烈，沛国谯人，曹操族子。操见而叹「此吾家千里驹也」，使与曹丕同游处。铜雀台大宴，休与文聘、张郃、徐晃、许褚等比武夺锦袍。后领虎豹骑宿卫，曹丕时官至镇南将军、大司马都督扬州。太和二年率十万大军伐吴，石亭之战为陆逊大破，惭恨成疾，背疽发而死。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 228,
+     "title": "虎豹骑宿卫至大司马",
+     "lord_id": "cao_cao",
+     "basis": "曹操族子，历操、丕、叡三朝；228 年石亭败后病亡。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 210,
+     "title": "铜雀夺袍",
+     "description": "铜雀台比武，休与诸将夺锦袍。",
+     "importance": 1
+    },
+    {
+     "year": 228,
+     "title": "石亭之败",
+     "description": "率十万伐吴，为陆逊大破于石亭，惭恨病亡。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年太和二年（228）石亭之战兵败后背疽发而亡，史演义一致"
+  },
+  {
+   "id": "yang_xiu",
+   "name": "杨修",
+   "courtesy": "德祖",
+   "match_surfaces": [
+    "杨修",
+    "杨德祖"
+   ],
+   "display_aliases": [
+    "主簿杨德祖"
+   ],
+   "birth": 175,
+   "death": 219,
+   "date_precision": "exact",
+   "date_note": "史书生卒年明确（175–219）；演义同记汉中之战以「鸡肋」泄密被操所杀。",
+   "gender": "male",
+   "first_chapter": 23,
+   "review_status": "reviewed",
+   "summary": "杨修，曹魏文臣，丞相主簿。操既杀杨修，佯怒夏侯惇，亦欲斩之。",
+   "bio": "杨修字德祖，弘农华阴人，太尉杨彪之子，博学能文，才思敏捷。为曹操主簿，数犯操之忌：解「活」字于相府门、分食一合酥、点破操梦中杀人之伪，操忌而恶之。操惑于立嗣，修暗助曹植，操深恨。汉中之战操口令「鸡肋」，修教军士收拾行装，操以「乱我军心」斩之，年四十四。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 219,
+     "title": "丞相主簿",
+     "lord_id": "cao_cao",
+     "basis": "曹操主簿，219 年汉中之战被杀。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 219,
+     "title": "鸡肋之祸",
+     "description": "教军士收拾行装，操以乱军心罪斩之。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史书生卒年明确（175–219）｜演：同记汉中之战以「鸡肋」泄密被操所杀"
+  },
+  {
+   "id": "zhang_song",
+   "name": "张松",
+   "courtesy": "永年",
+   "match_surfaces": [
+    "张松",
+    "张永年"
+   ],
+   "display_aliases": [
+    "别驾张永年"
+   ],
+   "birth": null,
+   "death": 212,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年按演义献图事泄被兄张肃告发，为刘璋斩于市（212）。",
+   "gender": "male",
+   "first_chapter": 60,
+   "review_status": "reviewed",
+   "summary": "张松，群雄文臣，益州别驾。至成都，张松听得说刘玄德欲回荆州，只道是真心，乃修书一封，欲令人送与玄德，却值亲兄广汉太守张肃到，松急藏书于袖中，与肃相陪说话。",
+   "bio": "张松字永年，益州别驾，身长不满五尺而声音洪亮，博闻强记，观《孟德新书》一遍即能背诵而讥其「战国无名公所作」。刘璋闻操欲取汉中张鲁，遣松使曹，操慢待之，松讥讽顶撞，操乱棒打出。亮遣赵云、关羽道中接应，松感备之礼，暗画西川地图献备，与法正、孟达约为内应。后事泄，为其兄张肃所告，璋杀之。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 212,
+     "title": "益州别驾",
+     "basis": "刘璋帐下别驾；212 年献图事泄被杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "献图刘备",
+     "description": "操慢待乱棒打出，转献西川地图于刘备。",
+     "importance": 3
+    },
+    {
+     "year": 212,
+     "title": "事泄被杀",
+     "description": "兄张肃告发，为刘璋斩于市。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年按演义献图事泄被兄张肃告发，为刘璋斩于市（212）"
+  },
+  {
+   "id": "liu_zhang",
+   "name": "刘璋",
+   "courtesy": "季玉",
+   "match_surfaces": [
+    "刘璋",
+    "刘季玉"
+   ],
+   "display_aliases": [
+    "益州牧"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。刘焉幼子，继领益州牧。",
+   "gender": "male",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "刘璋，字季玉，刘焉之子，继为益州牧。建安十九年（214）降刘备，迁居公安。",
+   "bio": "刘璋字季玉，江夏竟陵人，刘焉幼子。焉死，璋继领益州牧，性柔弱多疑。张鲁犯界，听张松之言迎刘备入川相助；备至葭萌反攻涪关、雒城，围成都。214 年马超兵临城下，璋开城出降，备迁之于公安。史载孙权取荆州后以璋为益州牧，迁秭归。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 220,
+     "title": "益州牧（降刘备后受表振威将军，居公安）",
+     "basis": "第60回：刘璋字季玉，刘焉之子，继为益州牧（194 年袭位）。第65回刘备入成都，刘璋出降，迁于公安，刘备表为振威将军。刘璋为汉室宗亲而非蜀汉之亲。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "迎备入川",
+     "description": "听张松之言迎刘备入川拒张鲁，法正献策，自此引狼入室。",
+     "importance": 3
+    },
+    {
+     "year": 214,
+     "title": "成都出降",
+     "description": "马超兵临城下，璋开城出降，益州易主。",
+     "importance": 3
+    }
+   ],
+   "span_pre_state": true
+  },
+  {
+   "id": "fa_zheng",
+   "name": "法正",
+   "courtesy": "孝直",
+   "match_surfaces": [
+    "法正",
+    "法孝直"
+   ],
+   "display_aliases": [
+    "蜀郡太守",
+    "尚书令"
+   ],
+   "birth": 176,
+   "death": 220,
+   "date_precision": "exact",
+   "date_note": "史书生卒年明确（176–220）；演义未明写卒年，叙事至汉中王立后无大事。",
+   "gender": "male",
+   "first_chapter": 60,
+   "review_status": "reviewed",
+   "summary": "法正，群雄文臣，刘璋军议校尉。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+   "bio": "法正字孝直，扶风郿人。刘璋遣使迎刘备入川，正与张松同谋，暗以益州地图献备。备攻益州，正为内应，璋出降后正为蜀郡太守、扬武将军。汉中之战正为谋主，定军山之战教黄忠「以逸待劳、居高临下」，阵斩夏侯渊。备为汉中王，正为尚书令、护军将军。备伐吴败后叹「若法孝直在，必能制主上东行」。亮视正为奇谋之才。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 211,
+     "title": "刘璋军议校尉",
+     "basis": "刘璋帐下谋士，与张松同谋迎备。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 211,
+     "end_year": 220,
+     "title": "蜀郡太守、尚书令护军将军",
+     "lord_id": "liu_bei",
+     "basis": "备入川后为谋主，汉中定策；220 年病故（史）。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "献图内应",
+     "description": "与张松同谋，暗迎刘备入川为内应。",
+     "importance": 3
+    },
+    {
+     "year": 219,
+     "title": "定军山定策",
+     "description": "教黄忠以逸待劳，阵斩夏侯渊。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：史书生卒年明确（176–220）｜演：未明写卒年，叙事至汉中王立后无大事"
+  },
+  {
+   "id": "meng_da",
+   "name": "孟达",
+   "courtesy": "子度",
+   "match_surfaces": [
+    "孟达",
+    "孟子度"
+   ],
+   "display_aliases": [
+    "建武将军"
+   ],
+   "birth": null,
+   "death": 228,
+   "date_precision": "approx",
+   "date_note": "生年不详；卒年太和二年（228）司马懿围上庸，为申耽所杀（演义），史书同记为司马懿所破后伏诛。",
+   "gender": "male",
+   "first_chapter": 60,
+   "review_status": "reviewed",
+   "summary": "孟达，群雄文臣，刘璋部下。说刘封、孟达自取上庸，太守申耽率众归降，因此汉中王加刘封为副将军，与孟达同守上庸。",
+   "bio": "孟达字子度，扶风郿人。与法正同仕刘璋，同迎刘备入川。备取益州后为宜都太守。荆州之战不救关羽，惧罪降曹丕，丕拜新城太守，与刘晔相善。曹丕死，达与诸葛亮暗通欲归蜀，司马懿克日进军，八日抵新城，达为申耽所杀。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 211,
+     "title": "刘璋部下",
+     "basis": "刘璋帐下，与法正同谋迎备。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 211,
+     "end_year": 220,
+     "title": "宜都太守",
+     "lord_id": "liu_bei",
+     "basis": "备入川后为宜都太守；荆州之役不救关羽。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 220,
+     "end_year": 228,
+     "title": "新城太守、建武将军",
+     "basis": "降曹丕拜新城太守；228 年反正归蜀事泄被杀。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "第 60 回",
+     "description": "不数程，孟达接着，拜见玄德，说刘益州令某领兵五千远来迎接",
+     "importance": 1
+    },
+    {
+     "year": 215,
+     "title": "第 71 回",
+     "description": "曰：“今定军山已被刘封、孟达夺了",
+     "importance": 1
+    },
+    {
+     "year": 220,
+     "title": "第 79 回",
+     "description": "既死，有人报知孟达",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒年太和二年（228）司马懿围上庸，为申耽所杀（演义），史书同记为司马懿所破后伏诛"
+  }
+ ]
+}

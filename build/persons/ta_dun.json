@@ -1,0 +1,29 @@
+{
+ "id": "ta_dun",
+ "name": "蹋顿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "蹋顿，乌桓单于。据柳城，收袁绍二子，建安十二年（207）为曹操破于白狼山，阵亡。",
+ "bio": "蹋顿，乌桓单于，据柳城，为辽西乌桓之首。袁绍死后，袁尚、袁熙往依之，蹋顿助其扰边。建安十二年（207）曹操北征，田畴献策出卢龙塞，白狼山一战，张辽斩蹋顿于阵前，乌桓遂平。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 205,
+   "end_year": 207,
+   "title": "乌桓单于",
+   "basis": "第33回：乌桓单于蹋顿。单于为一族之主。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

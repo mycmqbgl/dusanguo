@@ -1,0 +1,29 @@
+{
+ "id": "song_qian",
+ "name": "宋谦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "auto_mined",
+ "summary": "宋谦，孙吴武将，东吴将。典搭上箭，望宋谦心窝里便射，应弦落马。",
+ "bio": "第 53 回：左宋谦，右贾华，二将使方天画戟，两边护卫。第 53 回：李典搭上箭，望宋谦心窝里便射，应弦落马。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 209,
+   "title": "东吴将",
+   "basis": "第五十三回原文：权因伤感宋谦之死，急要报仇，遂令太史慈引兵五千，去为外应。 职任「东吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 53 回（209 年），原 209—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

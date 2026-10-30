@@ -1,0 +1,54 @@
+{
+ "id": "wei_guan",
+ "name": "卫瓘",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "卫瓘，曹魏武将，魏将。卫瓘守成都，乃迁后主赴洛阳。",
+ "bio": "第 116 回：时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、句安等八十余员。第 119 回：留卫瓘守成都，乃迁后主赴洛阳。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 262,
+   "end_year": 264,
+   "title": "魏将",
+   "basis": "第一百十六回原文：时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、句安等八十余。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 262—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 262,
+   "title": "第 116 回",
+   "description": "有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、句安等八十余员",
+   "importance": 1
+  },
+  {
+   "year": 263,
+   "title": "第 117 回",
+   "description": "军卫瓘曰：“绪虽有罪，乃邓征西所督之人；不争将军杀之，恐伤和气",
+   "importance": 1
+  },
+  {
+   "year": 263,
+   "title": "第 118 回",
+   "description": "昭从其议，遣使赍诏封会为司徒，就令卫瓘监督两路军马，以手书付瓘，使与会伺察邓艾，以防其变",
+   "importance": 1
+  },
+  {
+   "year": 265,
+   "title": "第 119 回",
+   "description": "卫瓘守成都，乃迁后主赴洛阳",
+   "importance": 1
+  }
+ ],
+ "mention_count": 13
+}

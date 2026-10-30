@@ -1,0 +1,80 @@
+{
+ "id": "yu_fan",
+ "name": "虞翻",
+ "courtesy": "仲翔",
+ "display_aliases": [
+  "骑都尉",
+  "交州刺史"
+ ],
+ "birth": 164,
+ "death": 233,
+ "date_precision": "exact",
+ "date_note": "史载嘉禾七年/赤乌六年（233）卒于交州谪所，年七十。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "虞翻，群雄文臣，会稽功曹。骑都尉杨奉谏曰：今郭汜未除，而杀天使，则汜兴兵有名，诸侯皆助之矣。",
+ "bio": "虞翻字仲翔，会稽余姚人，家传《易》学。仕郡为功曹，会稽太守王朗之旧。演义中董袭身遭数枪得翻荐医者（华佗）而愈，策闻之令张昭与董袭同往聘请，翻至，策优礼相待，拜为攻曹。孙权时翻直言敢谏，吕蒙袭荆州时言「二城可折檄而定」，劝降傅士仁、糜芳。权为吴王后翻性疏直，数犯颜忤旨，谪徙交州，虽处罪放而讲学不倦，门徒常数百人，注《易》《老子》《论语》传世。年七十卒于贬所。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 196,
+   "title": "会稽功曹",
+   "lord_id": "wang_lang",
+   "basis": "仕郡为王朗功曹。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 233,
+   "title": "功曹、骑都尉、交州刺史",
+   "basis": "196 年佐孙策。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "仕郡功曹",
+   "description": "为王朗会稽郡功曹。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "归孙氏",
+   "description": "董袭举荐、张昭与袭同往聘请，翻至，策优礼相待，拜为攻曹，并荐华佗医策箭伤（演义）。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "谏迎曹操",
+   "description": "赤壁之议翻反对迎曹（演义中力主决战一派）。",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "言中荆州",
+   "description": "吕蒙袭荆州，翻预言二城可下，劝降士仁、糜芳。",
+   "importance": 3
+  },
+  {
+   "year": 231,
+   "title": "谪交州",
+   "description": "直言忤权，谪徙交州。",
+   "importance": 2
+  },
+  {
+   "year": 233,
+   "title": "卒于贬所",
+   "description": "年七十，讲学不倦而卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 16
+}

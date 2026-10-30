@@ -1,0 +1,23 @@
+{
+ "id": "zuoci_zhibei",
+ "name": "左慈掷杯戏曹操",
+ "kind": "神异",
+ "start_year": 216,
+ "end_year": 216,
+ "date_text": "建安二十一年（216）",
+ "summary": "左慈于宴间掷杯化鹤飞去，化羊遁走，操捕之不得，惊而成疾。",
+ "detail": "左慈显异于王屋山取柑、进柑于操，操欲杀之，慈掷杯于空，杯化白鹤绕殿而飞；寻慈不见，遍城捕之。后有牧羊小儿见慈化羊，操令捕羊，群羊皆跪作人语，刀斧不能施。操自是惊惧成疾。（左慈未建卡，参与者暂记曹操。）",
+ "place_id": "xu_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "宴中受左慈戏弄，惊惧成疾（左慈未建卡）"
+  }
+ ],
+ "passage_ids": [
+  68018,
+  68016
+ ],
+ "battle_ids": []
+}

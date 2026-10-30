@@ -1,0 +1,85 @@
+{
+ "id": "chang_ban_battle",
+ "name": "长坂坡之战",
+ "year": 208,
+ "date_text": "建安十三年（208）九月",
+ "place_id": "chang_ban",
+ "event_id": "chang_ban_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao",
+    "xu_chu"
+   ],
+   "troops_desc": "五千精骑（虎豹骑）一日一夜三百里追击"
+  },
+  {
+   "side": "刘备军",
+   "faction_ids": [
+    "shu"
+   ],
+   "commanders": [
+    "liu_bei",
+    "zhao_yun",
+    "zhang_fei",
+    "guan_yu"
+   ],
+   "troops_desc": "步卒数千 + 十余万难民，溃而不灭"
+  }
+ ],
+ "result": "刘备军大溃而主力得存，家眷失而复得，退保江夏",
+ "casualties_note": "随行军民死伤无数；曹营名将五十余员为赵云所刺。",
+ "summary": "五千虎豹骑追及当阳长坂，备军溃。赵云单骑救阿斗七进七出，张飞断桥喝退追兵，刘备走汉津会关羽船队。",
+ "detail": "操以五千精骑急追，备拥十余万百姓辎重日行十余里，于当阳长坂被追及。备弃妻子先走，赵云反身杀入重围寻得主母幼主；糜夫人托孤投井，云抱阿斗夺路，七进七出斩将夺旗。行至长坂桥，张飞横矛立马，三喝喝死夏侯杰、喝退曹军，随即拆桥。操疑桥后有伏，缓追。备得关羽船队于汉津接应，刘琦引兵来会，同屯江夏。",
+ "front_line": [
+  {
+   "time": 208,
+   "time_seq": 1,
+   "kind": "追击",
+   "label": "虎豹骑追及",
+   "desc": "五千精骑一日一夜三百里，追及当阳长坂。",
+   "lng": 111.75,
+   "lat": 30.83,
+   "pixel_x": 709.9,
+   "pixel_y": 607.8
+  },
+  {
+   "time": 208,
+   "time_seq": 2,
+   "kind": "冲阵",
+   "label": "云救阿斗",
+   "desc": "赵云七进七出，怀抱阿斗突围。",
+   "lng": 111.75,
+   "lat": 30.83,
+   "pixel_x": 709.9,
+   "pixel_y": 607.8
+  },
+  {
+   "time": 208,
+   "time_seq": 3,
+   "kind": "断后",
+   "label": "飞喝断桥",
+   "desc": "张飞长坂桥三喝退敌，拆桥而走。",
+   "lng": 111.8,
+   "lat": 30.8,
+   "pixel_x": 711.9,
+   "pixel_y": 609.2
+  },
+  {
+   "time": 208,
+   "time_seq": 4,
+   "kind": "结局",
+   "label": "汉津会师",
+   "desc": "关羽船队接应渡汉水，与刘琦合兵江夏。",
+   "lng": 112.6,
+   "lat": 30.7,
+   "pixel_x": 743.5,
+   "pixel_y": 613.8
+  }
+ ],
+ "place_name": "长坂坡"
+}

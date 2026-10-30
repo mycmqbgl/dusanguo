@@ -1,0 +1,29 @@
+{
+ "id": "fei_shi",
+ "name": "费诗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "费诗，蜀汉文臣，蜀将。汉中王大喜，即差前部司马费诗为使，赍捧诰命投荆州来。",
+ "bio": "第 65 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "蜀将",
+   "basis": "第六十五回原文：霍峻、邓芝、杨洪、周群、费祎、费诗、孟达，文武投降官员，共六十余人，并皆擢用。 职任「蜀将」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 20
+}

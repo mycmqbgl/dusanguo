@@ -1,0 +1,29 @@
+{
+ "id": "chen_sun",
+ "name": "陈孙",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "陈孙，群雄武将，降将。飞大喝一声，挺矛直出，将陈孙刺死。",
+ "bio": "原文第 34 回相关片段：「刘表待之甚厚。一日，正相聚饮酒，忽报降将张武、陈孙在江夏掳掠人民，共谋造反。表惊曰：“二贼又反，为」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 207,
+   "end_year": 229,
+   "basis": "第34回陈孙与张武同为江夏叛将。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "降将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

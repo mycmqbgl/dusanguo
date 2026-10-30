@@ -1,0 +1,29 @@
+{
+ "id": "wang_yi",
+ "name": "王邑",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "王邑，东汉文臣，河东太守。第 13 回一笔带过，事迹仅存其名。",
+ "bio": "第 13 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 195,
+   "end_year": 196,
+   "title": "河东太守",
+   "basis": "第13回岁大荒，河东太守王邑献绢帛，帝稍得宁。 195 年河东太守王邑献绢帛于流亡之帝。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

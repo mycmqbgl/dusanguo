@@ -1,0 +1,579 @@
+{
+ "comment": "第 21–24 回新出场人物（衣带诏余波—徐州—许都线）。批产口径：演义事实为准，史实差异入 date_note/bio 注明。",
+ "persons": [
+  {
+   "id": "che_zhou",
+   "name": "车胄",
+   "match_surfaces": [
+    "车胄",
+    "胄"
+   ],
+   "display_aliases": [
+    "徐州刺史"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）初，刘备据徐州前夜为关羽所斩（演义第 21 回）。生年不详。",
+   "gender": "male",
+   "first_chapter": 20,
+   "review_status": "reviewed",
+   "summary": "车胄，曹魏文臣，徐州刺史。有一计，可杀车胄：乘夜扮作曹军到徐州，引车胄出迎，袭而杀之。",
+   "bio": "为曹操所署。建安四年冬，曹操恐刘备久留徐州为患，密令车胄就内图之。车胄请陈登商议，陈登表面应允而暗报刘备。次日曹操使者复至，催促动手，车胄议定三更起事。陈登先以「夜不可入」诓其不备，又密告关羽。关羽领兵扮作曹军赚开城门，车胄出迎，措手不及，被关羽手起一刀斩于马下。刘备遂据徐州，传檄四方。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "徐州刺史",
+     "lord_id": "cao_cao",
+     "basis": "曹操所署徐州刺史，受其密令。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "受密令图刘备",
+     "description": "曹操密令车胄就内图之，车胄请陈登商议，登暗报刘备。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "被关羽所斩",
+     "description": "起事前夜，关羽赚开城门，车胄措手不及被斩，刘备遂据徐州。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wang_zhong",
+   "name": "王忠",
+   "courtesy": "子文",
+   "match_surfaces": [
+    "王忠",
+    "忠"
+   ],
+   "display_aliases": [
+    "扬武将军"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。史载其扶风人，少为饿贼所获，后归曹操，官至轻车将军，卒年无考。",
+   "gender": "male",
+   "first_chapter": 22,
+   "review_status": "reviewed",
+   "summary": "王忠，群雄武将，扬武将军、轻车将军。王忠拈着“先”字，只得分一半军马，来攻徐州。",
+   "bio": "王忠，扶风人，曹操部将。建安五年，曹操命其与刘岱引军五万攻徐州刘备，二人不敢进，只虚张旗鼓。刘备令关羽守路截杀刘岱，张飞用计假扮劫寨，生擒王忠。刘备本欲留其性命以示不敢抗曹之意，尽释所获，放其还许都。后随曹操征袁绍，无显著事迹。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 220,
+     "title": "扬武将军、轻车将军",
+     "lord_id": "cao_cao",
+     "basis": "曹操部将，奉命攻徐州。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "攻徐州被擒",
+     "description": "与刘岱攻刘备，不敢进；张飞设计生擒之，刘备放归许都。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "chen_lin",
+   "name": "陈琳",
+   "courtesy": "孔璋",
+   "match_surfaces": [
+    "陈琳",
+    "陈孔璋",
+    "孔璋",
+    "琳"
+   ],
+   "display_aliases": [
+    "记室",
+    "司空军谋祭酒"
+   ],
+   "birth": null,
+   "death": 217,
+   "date_precision": "exact",
+   "date_note": "建安二十二年（217）大疫中病卒。生年不详（约 160）。",
+   "gender": "male",
+   "first_chapter": 2,
+   "review_status": "reviewed",
+   "summary": "陈琳，群雄文臣，袁绍记室，作讨曹檄文。绍从之，遂令书记陈琳草檄。",
+   "bio": "陈琳，字孔璋，广陵射阳人，建安七子之一。初为何进主簿，进欲诛宦官，琳谏不宜召外兵，不听。董卓乱后避难冀州，入袁绍幕。建安五年，为袁绍作讨曹操檄文，铺陈曹氏罪状，并骂及其父祖，文气峻烈。时琳头风正发，檄文成而疾愈。袁绍败后琳归曹操，左右劝诛之，操爱其才而不咎，署司空军谋祭酒，管记室，军国书檄多出其手。后徙门下督。建安二十二年，大疫，与徐干、刘桢等同卒。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 191,
+     "end_year": 200,
+     "title": "袁绍记室，作讨曹檄文",
+     "lord_id": "yuan_shao",
+     "basis": "避难冀州入袁绍幕，为作檄文。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 200,
+     "end_year": 217,
+     "title": "司空军谋祭酒、门下督，管记室",
+     "basis": "袁绍败后降曹，操爱其才不咎。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "谏何进勿召外兵",
+     "description": "为何进主簿，谏召四方猛将入京必致大乱，不听。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "作讨曹檄文",
+     "description": "为袁绍作檄，骂及曹操父祖，一文愈头风。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "归曹不咎",
+     "description": "袁绍败，降曹。操怜其才释用，军国书檄多出其手。",
+     "importance": 2
+    },
+    {
+     "year": 217,
+     "title": "卒于大疫",
+     "description": "建安二十二年疫，与徐干、刘桢等同殁。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zheng_xuan",
+   "name": "郑玄",
+   "courtesy": "康成",
+   "match_surfaces": [
+    "郑玄",
+    "郑康成",
+    "康成",
+    "玄"
+   ],
+   "display_aliases": [
+    "经学大师"
+   ],
+   "birth": 127,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "顺帝永建二年（127）生，建安五年（200）卒，史有明载。演义第 22 回为刘备作书通袁绍。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "郑玄，东汉人物，（未仕）。叹曰：得我学之秘者，惟郑玄一人耳。",
+   "bio": "郑玄，字康成，北海高密人。师事马融，学成辞归，融叹曰「郑生今去，吾道东矣」。党锢之祸被禁，遂隐修经业，遍注《周易》《尚书》《毛诗》《仪礼》《礼记》《论语》诸经，兼采今古文，号「郑学」，天下学子宗之。孔融为北海相，深敬礼之，尝叹「得我学之秘者，惟郑玄一人耳」，其家中侍婢俱通《毛诗》。建安四年，刘备欲联袁绍拒曹操，亲至郑玄家中求其作书，玄慨然依允。建安五年，袁绍逼其随军官渡，行至元城病卒，门人自远方来送葬者千余人。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "其他",
+     "start_year": 184,
+     "end_year": 200,
+     "title": "当世大儒（刘备师事之）",
+     "basis": "无政治归属，以经学为业。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—200 年内被称引之时。）",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 166,
+     "title": "师事马融",
+     "description": "入关从马融学古文经，三年不得见师面。",
+     "importance": 1
+    },
+    {
+     "year": 169,
+     "title": "辞归注经",
+     "description": "学成辞归，马融叹「吾道东矣」，党禁中遍注群经。",
+     "importance": 2
+    },
+    {
+     "year": 199,
+     "title": "为刘备作书",
+     "description": "刘备联袁抗曹，亲至其家求作书，玄慨然允之。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "卒于元城",
+     "description": "被袁绍逼随军，行至元城病卒，门人千余送葬。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "mi_heng",
+   "name": "祢衡",
+   "courtesy": "正平",
+   "match_surfaces": [
+    "祢衡",
+    "祢正平",
+    "正平",
+    "衡"
+   ],
+   "display_aliases": [
+    "击鼓郎"
+   ],
+   "birth": 173,
+   "death": 203,
+   "date_precision": "approx",
+   "date_note": "据卒时年二十六推生年；遇害年份学界通说建安八年（203）。演义第 23 回骂曹后转送刘表、黄祖。",
+   "gender": "male",
+   "first_chapter": 23,
+   "review_status": "reviewed",
+   "summary": "祢衡，东汉人物，鼓史。表曰：祢衡数辱曹操，操不杀者，恐失人望；故令作使于我，欲借我手杀之，使我受害贤之名也。",
+   "bio": "祢衡，字正平，平原般县人。少有才辩而尚气刚傲，好矫时抗俗。兴平年间避难荆州，建安初北游许都，有人问其何以不结交陈群、司马朗，答曰「屠沽儿」；又讥荀彧可使吊丧、赵融可使监厨。孔融深爱其才，上疏荐之，衡称融为「大儿孔文举」。曹操欲见之，衡称狂病不肯往；操怀忿，遣为鼓史，欲辱之。衡于正月十五操宴宾客时击《渔阳三挝》，音节殊妙，裸身而立，复著岑牟单绞之衣击鼓骂曹。操不杀，遣送刘表；衡对表轻慢，表转送江夏黄祖。祖长子黄射深敬之，衡作《鹦鹉赋》。后于宴上忤祖，祖怒而杀之，时年二十六，黄射救之不及，归葬鹦鹉洲。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "其他",
+     "start_year": 196,
+     "end_year": 203,
+     "title": "鼓史",
+     "basis": "无政治归属。N5 定案：无政治归属者按职业归东汉·其他（点名祢衡）。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "北游许都",
+     "description": "与孔融结交，融上疏荐之，衡称「大儿孔文举」。",
+     "importance": 2
+    },
+    {
+     "year": 199,
+     "title": "击鼓骂曹",
+     "description": "正月十五宴上击《渔阳三挝》，裸身骂曹操，操遣送刘表。",
+     "importance": 3
+    },
+    {
+     "year": 202,
+     "title": "转送黄祖",
+     "description": "对刘表轻慢，表送江夏黄祖，作《鹦鹉赋》。",
+     "importance": 2
+    },
+    {
+     "year": 203,
+     "title": "死于鹦鹉洲",
+     "description": "宴上忤黄祖被杀，年二十六。归葬鹦鹉洲。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "ji_ping",
+   "name": "吉平",
+   "courtesy": "称平",
+   "match_surfaces": [
+    "吉平",
+    "吉称平",
+    "称平",
+    "平"
+   ],
+   "display_aliases": [
+    "太医",
+    "太医令"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "生年不详；卒年 200（第 23 回事泄被拷掠而死）。",
+   "gender": "male",
+   "first_chapter": 23,
+   "review_status": "reviewed",
+   "summary": "吉平，汉献帝随朝太医，谋以毒药鸩曹操，事泄被杀。",
+   "bio": "吉平，演义中为太医，精医术。建安四年冬，董承染病，吉平日夜医治，承感其诚。吉平早知承有讨曹之心，尝于药中下毒欲杀操，承惊问，平咬指为誓：「恐天下人皆负君，平独负之乎！」遂与承共谋。承密诏吉平俟曹操冬日头疾发时进药毒之。事前秦庆童怀恨告密，曹操将计就计，诈病召吉平，药中验出毒。平骂不绝口，操截其九指，平曰：「尚有口可以吞贼，有舌可以骂贼！」操令割其舌，平撞阶而死。曹操因此穷究董承，衣带诏事泄。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "随朝太医（太医令丞属官）",
+     "basis": "第23回：令随朝太医前去医治。此医乃洛阳人，姓吉，名太，字称平，人皆呼为吉平。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "受诏盟誓",
+     "description": "为董承治病，知其讨曹之志，咬指为誓共谋。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "下毒事泄",
+     "description": "俟操头疾进药，为秦庆童告密，操诈病验毒。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "触阶殉义",
+     "description": "被截九指割舌，骂不绝口，触阶而死。",
+     "importance": 3
+    }
+   ],
+   "history_conflict_type": "事件有无",
+   "history_conflict_note": "演义作建安五年（200）衣带诏事泄、下毒不成被拷死；史实原型为太医令吉本，反曹事在建安二十三年（218）。",
+   "history_life_dates": "演义卒于建安五年（200）；史书原型太医令吉本卒于建安二十三年（218）许都起事。"
+  },
+  {
+   "id": "qin_qingtong",
+   "name": "秦庆童",
+   "match_surfaces": [
+    "秦庆童",
+    "庆童"
+   ],
+   "display_aliases": [
+    "董承家奴"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）衣带诏事泄后为曹操所杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 23,
+   "review_status": "reviewed",
+   "summary": "秦庆童，东汉人物，董承家奴。庆童曰：你回避了众人，六人在一处画字，如何赖得。",
+   "bio": "秦庆童，董承家奴。建安四年冬与董承侍妾云英暗处私语，被承觉察，杖四十锁于冷房。庆童怀恨，夜脱铁锁越墙而走，径投曹操府中告密，尽出董承与王子服、吴子兰、种辑、吴硕、马腾五家密谋衣带诏之事。曹操以庆童之言为据，诈病诱吉平验毒，遂兴大狱，穷究董承一党，夷三族。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "其他",
+     "start_year": 199,
+     "end_year": 200,
+     "title": "董承家奴",
+     "basis": "董承府中仆隶，后告密投曹。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "私通被杖",
+     "description": "与董承侍妾云英私语被察，杖四十锁冷房。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "告密破诏",
+     "description": "越墙投曹操，尽出衣带诏密谋，事由此败露。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhong_ji",
+   "name": "种辑",
+   "match_surfaces": [
+    "种辑",
+    "辑"
+   ],
+   "display_aliases": [
+    "长水校尉"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）衣带诏事泄，与董承等同日族诛。生年不详。",
+   "gender": "male",
+   "first_chapter": 20,
+   "review_status": "reviewed",
+   "summary": "种辑，东汉武将，长水校尉。种辑怒曰：忠臣不怕死。",
+   "bio": "建安四年，董承受献帝衣带诏，约集王子服、种辑、吴硕、吴子兰、马腾、刘备共谋诛曹，歃血为盟。建安五年春事泄（家奴秦庆童告密），曹操兴大狱，种辑与董承等同日被诛，夷三族。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "长水校尉",
+     "basis": "汉廷武职，受衣带诏。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "受衣带诏",
+     "description": "与董承等六人歃血盟誓谋诛曹操。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "事泄族诛",
+     "description": "衣带诏败露，与董承同日被诛，夷三族。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wu_shuo",
+   "name": "吴硕",
+   "match_surfaces": [
+    "吴硕",
+    "硕"
+   ],
+   "display_aliases": [
+    "议郎"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）衣带诏事泄被族诛。生年不详。",
+   "gender": "male",
+   "first_chapter": 20,
+   "review_status": "reviewed",
+   "summary": "吴硕，东汉文臣，议郎。吴硕曰：此事不宜太速，当从容商议。",
+   "bio": "建安四年，与董承、王子服、种辑、吴子兰等同受献帝衣带诏，密谋诛曹。会上吴硕谏曰「此事不宜太速，当从容商议」。建安五年春，董承家奴秦庆童告密，事泄，与董承等同日族诛。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "议郎",
+     "basis": "汉廷文职，受衣带诏。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "受衣带诏",
+     "description": "与董承等密盟诛曹，谏「不宜太速」。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "事泄族诛",
+     "description": "事败露，与董承同日被诛。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "wu_zilan",
+   "name": "吴子兰",
+   "match_surfaces": [
+    "吴子兰",
+    "子兰"
+   ],
+   "display_aliases": [
+    "昭信将军"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）衣带诏事泄被族诛。生年不详。",
+   "gender": "male",
+   "first_chapter": 20,
+   "review_status": "reviewed",
+   "summary": "吴子兰，东汉武将，昭信将军。毕，子服曰：将军吴子兰，与吾至厚，可与同谋。",
+   "bio": "建安四年，与董承、王子服、种辑、吴硕、马腾等同受献帝衣带诏，歃血谋曹。建安五年春事泄（秦庆童告密），与董承等同日被诛，夷三族。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "昭信将军",
+     "basis": "汉廷武职，受衣带诏。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "受衣带诏",
+     "description": "与董承等六人歃血盟誓。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "事泄族诛",
+     "description": "事败露，与董承同日被诛。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "dong_guifei",
+   "name": "董妃",
+   "match_surfaces": [
+    "董妃",
+    "董贵妃",
+    "贵妃"
+   ],
+   "display_aliases": [
+    "董贵妃"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）春，身怀五月身孕被曹操缢杀。生年不详。",
+   "gender": "female",
+   "first_chapter": 9,
+   "review_status": "reviewed",
+   "summary": "董贵妃，汉献帝贵妃，董承之妹，衣带诏事泄被曹操所杀。",
+   "bio": "董贵妃，董承之妹，汉献帝之妃。建安五年（200）衣带诏事泄，曹操带剑入宫，命左右将董妃牵出，献帝求止不得，操曰「不杀此女，必为后患」，遂缢死于宫门之外。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "女眷",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "贵妃",
+     "basis": "献帝宠妃，董承之妹。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "传诏通声息",
+     "description": "董承托吴硕入宫密报，妃传语「陛下自爱，万勿泄漏」。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "被缢杀",
+     "description": "衣带诏事泄，曹操当帝面将其勒死，株连全族。",
+     "importance": 3
+    }
+   ]
+  }
+ ]
+}

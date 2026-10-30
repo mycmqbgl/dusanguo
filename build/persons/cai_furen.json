@@ -1,0 +1,46 @@
+{
+ "id": "cai_furen",
+ "name": "蔡夫人",
+ "courtesy": null,
+ "display_aliases": [
+  "蔡瑁之妹",
+  "刘表后妻"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载。",
+ "gender": "female",
+ "first_chapter": 34,
+ "review_status": "reviewed",
+ "summary": "蔡夫人，刘表后妻，蔡瑁之妹。素忌刘备，屡劝刘表远之，并密召蔡瑁谋害；刘表死后立子刘琮，降曹操。",
+ "bio": "刘表后妻，蔡瑁之姊。因刘琦似其母刘氏? 演义写刘琦相貌酷肖刘表，蔡夫人忌之，常进谗言欲立亲子刘琮。刘备劝表立长子，蔡夫人窃听于屏后，遂与蔡瑁谋害刘备——先宴席伏兵、后追至檀溪。刘表死，与蔡瑁、张允篡改遗嘱立刘琮，举荆州降曹操；曹操许以青州刺史，随行途中被于禁奉命杀于途中。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "刘表后妻",
+   "lord_id": "liu_biao",
+   "basis": "第三十四回原文：后妻蔡氏所生少子琼，颇聪明…原来蔡夫人素疑玄德。蔡氏乃密召蔡瑁入，商议能事。刘表 208 年卒。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "屏后窃听",
+   "description": "刘备劝立刘琦，窃听于屏后，遂与蔡瑁谋害备。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "篡遗嘱降曹",
+   "description": "刘表死，立刘琮举州降曹；随行赴青州途中被于禁所杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 27
+}

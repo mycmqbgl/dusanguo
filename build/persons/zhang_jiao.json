@@ -1,0 +1,53 @@
+{
+ "id": "zhang_jiao",
+ "name": "张角",
+ "courtesy": null,
+ "display_aliases": [
+  "天公将军",
+  "大贤良师",
+  "太平道人"
+ ],
+ "birth": null,
+ "death": 184,
+ "date_precision": "approx",
+ "date_note": "卒于中平元年（184）秋冬之交，兵败后病死军中（第二回）；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "张角，群雄君主，天公将军。张角之棺，戮尸枭首，送往京师。",
+ "bio": "张角，巨鹿人，不第秀才。入山采药遇南华老仙，授《太平要术》三卷，晓夜攻习，能呼风唤雨，号太平道人。中平元年疫气流行，散施符水为人治病，自称大贤良师，徒众数十万，立三十六方，讹言「苍天已死，黄天当立，岁在甲子，天下大吉」。事泄后星夜举兵，自称天公将军，二弟张宝、张梁称地公、人公将军，裹黄巾者四五十万，八州响应。官军望风而靡，先败董卓。按规则（N3 定案），其超自然能力不改政治归属——张角始终是黄巾政治军事集团的「君主」，不入神怪阵营。第二回兵败广宗，病死军中，黄巾主力同年扑灭。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "天公将军",
+   "basis": "中平元年自称天公将军举兵，为黄巾集团之首。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "举兵称天公将军",
+   "description": "事泄后星夜举兵，四方百姓裹黄巾者四五十万。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "败董卓",
+   "description": "杀败中郎将董卓，乘势追击。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "广宗被围",
+   "description": "卢植围之于广宗；植去职后官军终破广宗。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒于中平元年（184）秋冬之交，兵败后病死军中（第二回）",
+ "mention_count": 21
+}

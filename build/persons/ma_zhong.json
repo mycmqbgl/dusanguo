@@ -1,0 +1,54 @@
+{
+ "id": "ma_zhong",
+ "name": "马忠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 77,
+ "review_status": "auto_mined",
+ "summary": "马忠，蜀汉武将，潘璋部将。蜀主所恨者马忠耳；何不杀了他，将首级去献蜀主，告称：我等不得已而降吴，今知御驾前来，特地诣营请罪。",
+ "bio": "。第 77 回：「被潘璋部将马忠所获」，擒关羽者。原文第 77 回相关片段：「举，先把关公坐下马绊倒。关公翻身落马，被潘璋部将马忠所获。关平知父被擒，火速来救；背后潘璋、朱然率兵」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 222,
+   "title": "潘璋部将",
+   "basis": "第 77 回：「被潘璋部将马忠所获」，擒关羽者。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 222,
+   "title": "第 83 回",
+   "description": "不数里，前面糜芳、傅士仁引兵来寻马忠",
+   "importance": 1
+  },
+  {
+   "year": 225,
+   "title": "第 88 回",
+   "description": "臾，马岱擒孟获至；赵云擒孟优至；魏延、马忠、王平、关索擒诸洞酋长至",
+   "importance": 1
+  },
+  {
+   "year": 230,
+   "title": "第 100 回",
+   "description": "急回寨后看时，关兴、廖化、吴班、吴懿四将，指麾蜀军，就营前杀将进来；马岱、王平从后面杀来；马忠、张翼亦引兵杀到",
+   "importance": 1
+  },
+  {
+   "year": 231,
+   "title": "第 102 回",
+   "description": "下火把齐明，喊声震地：左有王平、张嶷，右有马岱、马忠，两路兵杀来",
+   "importance": 1
+  }
+ ],
+ "mention_count": 50
+}

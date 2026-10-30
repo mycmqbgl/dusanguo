@@ -1,0 +1,29 @@
+{
+ "id": "gu_li",
+ "name": "谷利",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 67,
+ "review_status": "auto_mined",
+ "summary": "谷利，孙吴武将，牙将。将谷利大呼曰：主公可约马退后，再放马向前，跳过桥去。",
+ "bio": "第 67 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 215,
+   "title": "牙将",
+   "basis": "第六十七回原文：权乃重赏凌统、谷利，收军回濡须，整顿船只，商议水陆并进。 职任「牙将」据此；★任期按末见回目收敛：全书最后一次提及在第 67 回（215 年），原 215—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,29 @@
+{
+ "id": "du_rui",
+ "name": "杜睿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "杜睿，曹魏武将，裨将。孔明回到帐中，唤裨将杜睿、胡忠二人，附耳授以密计。",
+ "bio": "官职「裨将」据原文上下文提取。原文第 102 回相关片段：「“此名上方谷，又号葫芦谷。”孔明回到帐中，唤裨将杜睿、胡忠二人，附耳授以密计。令唤集随军匠作一千余人」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "裨将",
+   "basis": "第102回孔明唤裨将杜睿、胡忠，附耳授以密计，令于葫芦谷造木牛流马。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

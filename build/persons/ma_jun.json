@@ -1,0 +1,29 @@
+{
+ "id": "ma_jun",
+ "name": "马钧",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "马钧，曹魏人物，博士。征西将军司马钧，钧生豫章太守司马量，量生颍川太守司马隽，隽生京兆尹司马防，防生宣帝司马懿，懿生景帝司马师、文帝司马昭：是为七庙也。",
+ "bio": "官职「博士」据原文上下文提取。原文第 105 回相关片段：「十丈；又立崇华殿、青霄阁、凤凰楼、九龙池，命博士马钧监造，极其华丽：雕梁画栋，碧瓦金砖，光辉耀日。选」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 239,
+   "title": "博士、给事中",
+   "basis": "第一百五回原文：即日召马钧问曰「朕建高台峻阁」，马钧为魏之巧匠，官博士。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

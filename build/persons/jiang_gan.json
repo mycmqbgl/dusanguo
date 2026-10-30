@@ -1,0 +1,38 @@
+{
+ "id": "jiang_gan",
+ "name": "蒋干",
+ "courtesy": "子翼",
+ "display_aliases": [
+  "九江蒋干"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。九江人，曹操帐下幕宾。",
+ "gender": "male",
+ "first_chapter": 45,
+ "review_status": "reviewed",
+ "summary": "蒋干，曹魏文臣，曹操帐下幕宾。蒋干再欲开言，周瑜已入帐后去了。",
+ "bio": "蒋干字子翼，九江人，曹操帐下幕宾，自夸与周瑜有布衣之交。赤壁战前自请过江说降周瑜，瑜设群英会款待，佯醉佯怒绝其说辞，夜与同榻。蒋干盗得桌上伪造蔡瑁张允降书，天明遁回江北献曹。曹操盛怒立斩蔡、张，旋即醒悟中计，然首级已落。此为赤壁之战东吴反间计关键一环。后华容道前，干复荐故人庞统往曹营（演义作「再荐凤雏」），间接促成连环计。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "曹操帐下幕宾",
+   "basis": "曹操幕宾，208 年过江说降周瑜中反间计。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "群英会盗书",
+   "description": "自荐说周瑜，反盗伪书而归，致曹操误斩蔡瑁张允。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 17
+}

@@ -1,0 +1,29 @@
+{
+ "id": "gong_qi",
+ "name": "龚起",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 97,
+ "review_status": "auto_mined",
+ "summary": "龚起，蜀汉武将，裨将。裨将龚起应声要去。",
+ "bio": "。第 97 回：龚起接着，交马只三合，办被双所斩。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "裨将",
+   "basis": "第97回孔明问谁敢迎敌，裨将龚起应声要去，后为魏兵所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

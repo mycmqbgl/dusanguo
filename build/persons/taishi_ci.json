@@ -1,0 +1,89 @@
+{
+ "id": "taishi_ci",
+ "name": "太史慈",
+ "courtesy": "子义",
+ "display_aliases": [
+  "建昌都尉"
+ ],
+ "birth": 166,
+ "death": 206,
+ "date_precision": "approx",
+ "date_note": "史载建安十一年（206）卒，年四十一。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "太史慈，东汉武将，郡奏曹史。阵圆处，孙策把枪挑太史慈的小戟于阵前，令军士大叫曰：太史慈若不是走的快，已被刺死了。",
+ "bio": "太史慈字子义，东莱黄人。少好学，仕郡奏曹史，郡与州相劾，慈毁州章而全郡章，由是知名。北海孔融被围，慈冒白刃突围，三日三夜到平原请刘备援兵，备惊叹「北海知世间有刘备耶」。后归扬州刺史刘繇，神亭之战单骑与孙策酣斗，夺策兜鍪。繇败，慈收众于泾县，为孙策所擒；策亲解其缚，慈遂降。刘表从子磐屡扰艾县，策以慈为建昌都尉督诸将拒之，磐绝迹不复为寇。临终叹曰「丈夫生世，当带七尺之剑，以升天子之阶。今所志未从，奈何而死乎」。年四十一卒。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 193,
+   "title": "郡奏曹史",
+   "basis": "仕郡。",
+   "confidence": 0.7,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 195,
+   "title": "助孔融守北海、依刘繇",
+   "lord_id": "liu_yao",
+   "basis": "先后助孔融、依刘繇。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 206,
+   "title": "建昌都尉、折冲中郎将",
+   "basis": "神亭之战后被孙策收服。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "毁章全郡",
+   "description": "郡州相劾，慈毁州章全郡章，由是知名。",
+   "importance": 1
+  },
+  {
+   "year": 193,
+   "title": "突围救孔融",
+   "description": "北海被围，冒白刃突围乞师于刘备，备遂出兵解围。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "神亭酣斗",
+   "description": "单骑与孙策战于神亭，夺策兜鍪；策亦夺其手戟。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "归孙氏",
+   "description": "泾县为策所擒，策亲解其缚，遂降。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "射右手于城楼",
+   "description": "攻会稽，一箭射中城楼上人之手，三军称奇。",
+   "importance": 2
+  },
+  {
+   "year": 206,
+   "title": "病卒",
+   "description": "建昌都尉任上病卒，年四十一。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 63
+}

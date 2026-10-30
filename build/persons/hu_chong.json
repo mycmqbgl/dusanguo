@@ -1,0 +1,29 @@
+{
+ "id": "hu_chong",
+ "name": "胡冲",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "胡冲，孙吴文臣，吴中书令。书今胡冲、光禄勋薛莹奏曰：陛下何不效安乐公刘禅乎。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "吴中书令",
+   "basis": "第一百二十回原文：中书今胡冲、光禄勋薛莹奏曰：“陛下何不效安乐公刘禅乎。 职任「吴中书令」据此。；★阵营改判：第 120 回原文「中书令胡冲、光禄勋薛莹奏曰」，晋军入石头城时的东吴中书令，非群雄。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

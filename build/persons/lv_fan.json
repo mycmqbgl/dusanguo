@@ -1,0 +1,73 @@
+{
+ "id": "lv_fan",
+ "name": "吕范",
+ "courtesy": "子衡",
+ "display_aliases": [
+  "大司马"
+ ],
+ "birth": null,
+ "death": 228,
+ "date_precision": "exact",
+ "date_note": "史载黄武七年（228）拜大司马后未拜而卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "吕范，孙吴武将，征虏中郎将。吕范曰：某请卜其休咎。",
+ "bio": "吕范字子衡，汝南细阳人。少为县吏，避乱寿春，孙策见而奇之，范遂将私客百人归策。渡江征讨有功，从破严白虎、王朗。范与策从容博戏、升堂拜母，情若兄弟。策卒范掌兵事。赤壁之战范与周瑜同领水军。屡任丹杨、吴郡，曹丕伐吴时范督洞口、拒曹休有功。权拜范为大司马，印绶未下而卒。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "征虏中郎将",
+   "lord_id": "sun_ce",
+   "basis": "194 年率私客百人归策。｜阵营据主君（孙策）归属校正为wu，194-200→195-200。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 228,
+   "title": "平南将军、前将军、大司马",
+   "basis": "孙权时代累迁。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "归孙策",
+   "description": "率私客百人归策，策与升堂拜母。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "从定江东",
+   "description": "从破严白虎、王朗。",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "赤壁参战",
+   "description": "与周瑜同领水军。",
+   "importance": 2
+  },
+  {
+   "year": 222,
+   "title": "洞口拒曹休",
+   "description": "曹丕伐吴，范督洞口拒曹休有功。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "拜大司马未拜而卒",
+   "description": "权将拜范为大司马，印绶未下而卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 26
+}

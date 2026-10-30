@@ -1,0 +1,73 @@
+{
+ "id": "liu_bei_juxuzhou",
+ "name": "刘备据徐州反曹",
+ "kind": "政治事件",
+ "start_year": 200,
+ "end_year": 200,
+ "date_text": "建安五年（200）",
+ "summary": "刘备借截击袁术脱身，斩车胄据徐州，令郑玄作书联袁绍，合力抗曹。",
+ "detail": "刘备恐煮酒后遭曹操忌害，请命截击北投袁绍的袁术。军至徐州，刺史车胄出迎；刘备留小沛，遣人守邳。袁术败亡后，曹操密令车胄就内图之，陈登暗告刘备。关羽赚开城门斩车胄，刘备遂领徐州，传檄四方联袁抗曹：孙乾先结袁绍，备又亲至郑玄家中求作书，玄慨然为书通绍。曹操遣刘岱、王忠攻徐州，虚张声势不敢进，关羽张飞分头擒之，刘备尽释俘虏放还，以示不敢负曹——实则与袁绍南北呼应，全据徐州。操大怒，遂有东征之举。",
+ "place_id": "xu_zhou",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_bei",
+   "role_desc": "豫州牧，斩车胄据徐州，主盟联袁"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "赚开城门斩车胄，擒刘岱"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "设计生擒王忠"
+  },
+  {
+   "person_id": "che_zhou",
+   "role_desc": "徐州刺史，受密令图刘备，事泄被斩"
+  },
+  {
+   "person_id": "chen_deng",
+   "role_desc": "表面附车胄，暗告刘备"
+  },
+  {
+   "person_id": "zheng_xuan",
+   "role_desc": "为刘备作书通袁绍"
+  },
+  {
+   "person_id": "yuan_shao",
+   "role_desc": "得书许以合势"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "密令车胄图备，遣刘岱王忠攻徐州"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "借截袁术脱身",
+   "description": "刘备请命截击袁术，领兵离许都，从此不复为操所制。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "斩车胄据徐州",
+   "description": "操密令车胄图备，事泄；关羽赚城斩胄，备领徐州。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "联袁抗曹",
+   "description": "郑玄作书，袁绍许以合力；刘岱王忠来攻被擒被释。",
+   "importance": 2
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  21009,
+  21014,
+  22002,
+  22018
+ ]
+}

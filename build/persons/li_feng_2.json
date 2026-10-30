@@ -1,0 +1,29 @@
+{
+ "id": "li_feng_2",
+ "name": "李丰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "李丰，群雄武将，袁术部将。将李丰挺枪来迎；战不三合，被布刺伤其手，丰弃枪而走。",
+ "bio": "第 17 回：术用其言，留李丰、乐就、梁刚、陈纪四人分兵十万，坚守寿春。第 17 回：李丰、陈纪、乐就、梁刚都被生擒，操令皆斩于市。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 229,
+   "title": "袁术部将",
+   "basis": "第十七回原文：李丰、陈纪、乐就、梁刚都被生擒，操令皆斩于市。 职任「袁术部将」据此。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 12
+}

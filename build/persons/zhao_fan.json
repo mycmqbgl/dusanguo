@@ -1,0 +1,38 @@
+{
+ "id": "zhao_fan",
+ "name": "赵范",
+ "courtesy": null,
+ "display_aliases": [
+  "桂阳太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "赵范，群雄文臣，桂阳太守。今不杀汝，放汝回去；说与赵范，早来投降。",
+ "bio": "赵范，荆南桂阳太守。赵云领兵取桂阳，范与云同为常山真定人、结为兄弟，开城出降。范设宴欲以有国色之寡嫂樊氏许云，云大怒斥之：「既与汝结为兄弟，汝嫂即吾嫂也，岂可乱伦！」范惭而出，后疑云图己，设计不遂奔走。云不追。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "桂阳太守",
+   "basis": "荆南四郡之一；209 年降刘备（演义）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 209,
+   "title": "第 52 回",
+   "description": "有探马报知桂阳太守赵范",
+   "importance": 1
+  }
+ ],
+ "mention_count": 15
+}

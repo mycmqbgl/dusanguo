@@ -1,0 +1,29 @@
+{
+ "id": "ya_dan",
+ "name": "雅丹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 94,
+ "review_status": "auto_mined",
+ "summary": "雅丹，异族武将，西羌丞相。明升帐，马岱押过雅丹来。",
+ "bio": "。第 94 回：雅丹曰：我与魏国素相往来，今曹都督求救，且许和亲，理合依允。第 94 回：雅丹丞相早被马岱活捉，解投大寨来。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "西羌丞相",
+   "basis": "第九十四回原文：手下有一文一武：文乃雅丹丞相，武乃越吉元帅。 职任「西羌丞相」据此；★任期按末见回目收敛：全书最后一次提及在第 94 回（228 年），原 228—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 12
+}

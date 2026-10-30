@@ -1,0 +1,36 @@
+{
+ "id": "zhuge_jun",
+ "name": "诸葛均",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载。",
+ "gender": "male",
+ "first_chapter": 36,
+ "review_status": "reviewed",
+ "summary": "诸葛均，群雄文臣，隆中躬耕。玄卒，亮与弟诸葛均躬耕于南阳。",
+ "bio": "诸葛亮之弟，与兄亮同依叔父玄居襄阳，玄死后躬耕隆中。刘备三顾草庐时均或留守庄内。亮出山后均留庄，亮临行嘱其「待我功成名就归隐于此」。后随亮入蜀为官。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 207,
+   "end_year": 220,
+   "title": "隆中躬耕",
+   "basis": "与兄同耕，亮出山后留守。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "留守草庐",
+   "description": "兄长出山后仍耕于隆中。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 8
+}

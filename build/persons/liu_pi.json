@@ -1,0 +1,50 @@
+{
+ "id": "liu_pi",
+ "name": "刘辟",
+ "display_aliases": [
+  "汝南黄巾首领"
+ ],
+ "birth": null,
+ "death": 201,
+ "date_precision": "approx",
+ "date_note": "建安六年（201）曹操南征汝南，史载为曹仁所斩；演义后文（第 31 回）为高览所杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 26,
+ "review_status": "reviewed",
+ "summary": "刘辟，群雄武将，汝南黄巾首领。丞相提军出征河北，乃令刘辟守汝南，备亲自引兵乘虚来攻许昌。",
+ "bio": "刘辟，汝南黄巾首领。建安五年，袁绍南征，刘辟与龚都据汝南响应袁绍，袭扰曹操后方。袁绍遣刘备往汝南联络，刘辟龚都迎之，众至数万。关羽寻兄至汝南，刘辟龚都告知刘备消息，遂有关羽挂印封金之决。建安六年，曹操亲征汝南，刘备败走荆州依刘表，刘辟死于曹军之手（演义第 31 回为高览所杀，史载为曹仁斩于汝南）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 188,
+   "end_year": 201,
+   "title": "汝南黄巾首领",
+   "basis": "黄巾余部据汝南，后响应袁绍、助刘备。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "响应袁绍",
+   "description": "与龚都据汝南响应袁绍，迎刘备至汝南。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "告知备讯",
+   "description": "关羽过汝南，辟与龚都告知刘备所在，关羽遂辞曹寻兄。",
+   "importance": 2
+  },
+  {
+   "year": 201,
+   "title": "败亡",
+   "description": "曹操南征汝南，辟死于曹军之手。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：建安六年（201）曹操南征汝南，史载为曹仁所斩；生年不详｜演：后文（第 31 回）为高览所杀",
+ "mention_count": 18
+}

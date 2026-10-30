@@ -1,0 +1,48 @@
+{
+ "id": "mulu_dawang",
+ "name": "木鹿大王",
+ "courtesy": null,
+ "display_aliases": [
+  "八纳洞主",
+  "驱兽之主"
+ ],
+ "birth": null,
+ "death": 225,
+ "date_precision": "none",
+ "date_note": "演义虚构人物，无史可考。演义中 225 年南征之役为蜀军假兽所破，死于乱军。",
+ "gender": "male",
+ "first_chapter": 90,
+ "review_status": "reviewed",
+ "is_fictional": true,
+ "summary": "木鹿大王，异族君主，八纳洞主。木鹿大王口中念咒，手摇蒂钟。",
+ "bio": "木鹿大王，八纳洞主，孟获三洞之援。深通法术，出则骑象，能呼风唤雨，常有虎豹豺狼毒蛇恶蝎跟随，手执蒂钟，摇动则百兽奔出。孟获四番败后请木鹿来助，木鹿驱野兽毒虫冲阵，蜀兵大败，孔明叹曰：吾未尝见此奇事！亮乃令人掘陷坑、备假兽：以彩画巨兽披皮狮象，腹中藏烟火器械，孔明自摇羽扇布风。再战之日木鹿驱兽而来，亮军佯退，假兽一出，口喷烟火、张牙舞爪，真兽见假兽烟火，皆返奔回洞，反冲木鹿之阵，蛮兵大乱，木鹿死于乱军之中。以兽攻兽、以幻破真，为南征诸战最富神异色彩之役。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "八纳洞主",
+   "lord_id": "meng_huo",
+   "basis": "应孟获之邀驱兽助战，为孔明假兽之计所破，死于乱军。",
+   "confidence": 1.0,
+   "review_status": "reviewed",
+   "_role_orig": "洞主"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "驱兽破敌",
+   "description": "摇蒂钟呼风雨驱虎豹，蜀兵大败，孔明惊叹未见此奇。",
+   "importance": 2
+  },
+  {
+   "year": 225,
+   "title": "假兽破真兽",
+   "description": "孔明以腹藏烟火的假兽惊散真兽，兽反冲阵，木鹿死于乱军。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 8
+}

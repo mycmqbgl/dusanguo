@@ -1,0 +1,37 @@
+{
+ "id": "weiyan_zhisi",
+ "name": "魏延之死",
+ "kind": "人物",
+ "start_year": 234,
+ "end_year": 234,
+ "date_text": "建兴十二年（234）",
+ "summary": "武侯遗计，杨仪依锦囊激马岱，魏延「谁敢杀我」三呼而斩。",
+ "detail": "亮卒于五丈原，遗命退军，魏延不服断后，烧绝栈道、拥兵南归，与杨仪各表称反。仪依亮锦囊之计，于阵前问延：敢三声谁敢杀我？延方呼毕，马岱应声出刀，斩于马下——盖亮先已密嘱岱也。夷延三族。演义写延脑后反骨，实为亮死后蜀将内讧之首祸；史载延本意夺权诛仪，非降魏。",
+ "place_id": "wu_zhang_yuan",
+ "parent_event_id": "wu_zhang_yuan_zhi_zhan",
+ "participants": [
+  {
+   "person_id": "wei_yan",
+   "role_desc": "不服断后，三呼「谁敢杀我」被斩"
+  },
+  {
+   "person_id": "yang_yi",
+   "role_desc": "依锦囊激延，夷其三族"
+  },
+  {
+   "person_id": "ma_dai",
+   "role_desc": "受亮密嘱，阵前出刀斩延"
+  },
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "拥后军断后退兵"
+  }
+ ],
+ "passage_ids": [
+  105001,
+  105009,
+  105009,
+  105001
+ ],
+ "battle_ids": []
+}

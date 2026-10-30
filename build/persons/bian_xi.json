@@ -1,0 +1,45 @@
+{
+ "id": "bian_xi",
+ "name": "卞喜",
+ "display_aliases": [
+  "汜水关守将",
+  "善使流星锤"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）于汜水关镇国寺为关羽所斩。生年不详。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "reviewed",
+ "summary": "卞喜，群雄武将，汜水关守将。卞喜见普净叙出乡里之情，恐有走泄，乃叱之曰：吾欲请将军赴宴，汝僧人何得多言。",
+ "bio": "卞喜，原黄巾余党，后降曹操，守汜水关，善使流星锤。建安五年，关羽至汜水关，卞喜在镇国寺设宴，暗伏二百余刀斧手于廊下，以掷杯为号欲害关羽。寺僧普净识其计，以手灯照关公并示意。关羽识破，卞喜知事泄，喝左右下手，自己取流星锤掷关羽。关羽以刀隔开，直入杀散伏兵，斩卞喜于阶下。普净后为关羽指引行路。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "汜水关守将",
+   "lord_id": "cao_cao",
+   "basis": "原黄巾余党降曹，守汜水关。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "镇国寺伏兵",
+   "description": "设宴伏刀斧手于镇国寺，以掷杯为号欲害关羽。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "事泄被斩",
+   "description": "普净示意泄计，关羽杀散伏兵，斩卞喜于阶下。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 17
+}

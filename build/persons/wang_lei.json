@@ -1,0 +1,36 @@
+{
+ "id": "wang_lei",
+ "name": "王累",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "auto_mined",
+ "summary": "王累，群雄武将，刘璋帐前从事官。报从事王累，自用绳索倒吊于城门之上，一手执谏章，一手仗剑，口称如谏不从，自割断其绳索，撞死于此地。",
+ "bio": "第 60 回：人报从事王累，自用绳索倒吊于城门之上，一手执谏章，一手仗剑，口称如谏不从，自割断其绳索，撞死于此地。第 60 回：王累大叫一声，自割断其索，撞死于地，后人有诗叹曰：倒挂城门捧谏章，拚将一死报刘璋。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "刘璋帐前从事官",
+   "basis": "第六十回原文：璋视之，乃帐前从事官王累也。 职任「刘璋帐前从事官」据此；★任期按末见回目收敛：全书最后一次提及在第 60 回（211 年），原 211—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "第 60 回",
+   "description": "璋视之，乃帐前从事官王累也",
+   "importance": 1
+  }
+ ],
+ "mention_count": 6
+}

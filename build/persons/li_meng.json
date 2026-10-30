@@ -1,0 +1,51 @@
+{
+ "id": "li_meng",
+ "name": "李蒙",
+ "courtesy": null,
+ "display_aliases": [
+  "校尉"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于兴平元年（192）。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "reviewed",
+ "summary": "李蒙，群雄武将，校尉。李蒙、王方齐声曰：\"若吾二人败，情愿斩首；吾若战胜，公亦当输首级与我。",
+ "bio": "李蒙，董卓余党，为校尉。董卓死，与王方在长安城中为李傕内应，偷开城门。马腾、韩遂引西凉兵来讨，李蒙与王方出曰「此非好计，愿借精兵万人，立斩马腾、韩遂之头」，且与贾诩赌曰「若吾二人败，情愿斩首；吾若战胜，公亦当输首级与我」。二人引兵迎敌，王方为马超一枪刺于马下，李蒙自马超背后赶来，马超故意俄延，待其马近举枪刺来时将身一闪，李蒙搠个空，两马相并，被马超轻舒猿臂生擒过去，后斩首号令。演义第十回写其事。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "校尉",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓余党，校尉为武职，以战斗为主归武将；192 年为马超所擒斩。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "为内应开城",
+   "description": "与王方在长安城中为李傕内应，偷开城门。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "与贾诩赌头",
+   "description": "自请精兵万人击西凉军，与贾诩赌「若败情愿斩首」。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "被马超生擒",
+   "description": "追击马超，反被其轻舒猿臂生擒，后斩首号令。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 13
+}

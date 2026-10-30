@@ -1,0 +1,57 @@
+{
+ "id": "ma_ridi",
+ "name": "马日磾",
+ "courtesy": "翁叔",
+ "display_aliases": [
+  "太傅",
+  "太尉"
+ ],
+ "birth": null,
+ "death": 194,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于兴平元年（194）。扶风茂陵人，马融族子。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "马日磾，东汉文臣，太傅、太尉。太傅司马孚入内，见髦尸，首枕其股而哭曰：弑陛下者，臣之罪也。",
+ "bio": "马日磾字翁叔，扶风茂陵人，马融之族子。少传融业，以才学进，与杨彪、蔡邕等典校中书，历位九卿，遂登三公。董卓挟献帝西迁，日磾为太傅。袁绍与公孙瓒相攻于磐河，李儒献计「假天子之诏，差人往和解之」，董卓遂使太傅马日磾、太仆赵岐赍诏前去，二人至河北，绍出迎百里，再拜奉诏，瓒亦遣使讲和。蔡邕下狱时，日磾密谓王允曰「伯喈旷世逸才，若使续成汉史，诚为盛事」，允不听。后奉使袁术，术轻侮之，借节观之而不还，日磾失节，求去不得，遂呕血而死。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 194,
+   "title": "太傅、太尉",
+   "basis": "三公之位，以经术、朝政谋议为主归文臣；194 年使袁术被夺节，呕血死。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "典校中书",
+   "description": "与杨彪、蔡邕等典校中书，历位九卿，遂登三公。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "奉诏解斗",
+   "description": "与赵岐赍诏往河北，调解袁绍与公孙瓒之争，二人讲和。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "力救蔡邕",
+   "description": "密谓王允「伯喈旷世逸才」，请使续成汉史，王允不听。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "呕血而死",
+   "description": "奉使袁术，术借节不还，日磾失节，求去不得，呕血而死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 3
+}

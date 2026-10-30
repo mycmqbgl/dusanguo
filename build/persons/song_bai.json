@@ -1,0 +1,29 @@
+{
+ "id": "song_bai",
+ "name": "宋白",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "auto_mined",
+ "summary": "宋白，曹魏文臣，慎县县令。大醉，被宋白令人杀了，将头献与魏兵。",
+ "bio": "。第 110 回：俭大醉，被宋白令人杀了，将头献与魏兵。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "慎县县令",
+   "basis": "第110回毌丘俭败走至慎县城下，县令宋白开门接入，醉而杀之，献头于魏。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

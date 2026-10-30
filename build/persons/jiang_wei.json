@@ -1,0 +1,83 @@
+{
+ "id": "jiang_wei",
+ "name": "姜维",
+ "courtesy": "伯约",
+ "display_aliases": [
+  "天水冀人",
+  "天水中郎将",
+  "蜀大将军"
+ ],
+ "birth": 202,
+ "death": 264,
+ "date_precision": "approx",
+ "date_note": "史载卒于魏景耀六年/咸熙元年（264）成都之乱；生年据本传卒时年六十二推为 202。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "reviewed",
+ "summary": "姜维，曹魏武将，天水中郎将、参本郡军事。姜维问曰：若大军退，司马懿乘势掩杀，当复如何。",
+ "bio": "姜维字伯约，天水冀人。父囧为郡功曹，没于王事。维幼博览群书，兵法武艺无所不通，奉母至孝，郡人敬之，以中郎将参本郡军事。一出祁山时识破蜀军赚城之计，战赵云、困孔明，孔明叹为将才；后遭反间，为孔明诱降，亮执其手曰：吾欲传平生之学，今遇伯约，愿足矣。亮甚重之，授平生所学。亮卒后继掌兵权，历大将军，九伐中原，胜少败多而志不稍减。蜀亡，维假意降钟会，劝会杀诸将以图复兴，事败自刎，时年六十二。史称维粗有文武，志立功名，而玩众黩旅，明断不周，终致陨毙。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 228,
+   "title": "天水中郎将、参本郡军事",
+   "lord_id": "cao_rui",
+   "basis": "为天水太守马遵部属，识破蜀军计，被反间计所迫降蜀。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "郡将"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 234,
+   "title": "奉义将军、征西将军",
+   "lord_id": "zhuge_liang",
+   "basis": "冀城被困降亮，亮授以平生所学，历次北伐任先锋断后。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 234,
+   "end_year": 263,
+   "title": "大将军、录尚书事",
+   "lord_id": "liu_shan",
+   "basis": "亮死后继领北伐，九伐中原；蜀亡诈降钟会事败死。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 228,
+   "title": "计困赵云",
+   "description": "献计于马遵，伏兵夹击，赵云中计败走；孔明惊为将才。",
+   "importance": 3
+  },
+  {
+   "year": 228,
+   "title": "归降孔明",
+   "description": "遭反间被马遵、梁虔所拒，冀城粮尽兵败，被困降蜀。",
+   "importance": 3
+  },
+  {
+   "year": 229,
+   "title": "计赚曹真",
+   "description": "假密书诈降曹真，设伏斩魏将费耀，重挫魏军。",
+   "importance": 2
+  },
+  {
+   "year": 264,
+   "title": "成都殉国",
+   "description": "劝钟会杀魏将以图复国，事败自刎，一计害三贤。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 399
+}

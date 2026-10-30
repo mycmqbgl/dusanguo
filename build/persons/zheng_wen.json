@@ -1,0 +1,29 @@
+{
+ "id": "zheng_wen",
+ "name": "郑文",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "郑文，曹魏武将，将军。郑文只得诉告其实是诈降，泣求免死。",
+ "bio": "官职「将军」据原文上下文提取。原文第 102 回相关片段：「魏将来投降。孔明唤入问之，答曰：“某乃魏国偏将军郑文也。近与秦朗同领人马，听司马懿调用，不料懿徇私偏」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 234,
+   "end_year": 234,
+   "title": "将军",
+   "basis": "第一百零二回原文：郑文特托某来献书，约于明日晚间，举火为号，望乞都督尽提大军前来劫寨，郑文在内为应。 职任「将军」据此；★任期按末见回目收敛：全书最后一次提及在第 102 回（234 年），原 234—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 19
+}

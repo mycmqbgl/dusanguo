@@ -1,0 +1,42 @@
+{
+ "id": "si_ma_yan",
+ "name": "司马炎",
+ "courtesy": "安世",
+ "display_aliases": [
+  "晋武帝",
+  "晋王世子"
+ ],
+ "birth": 236,
+ "death": 290,
+ "date_precision": "year",
+ "date_note": "生卒：236—290。265 年受禅建晋，290 年崩。",
+ "gender": "male",
+ "first_chapter": 114,
+ "review_status": "reviewed",
+ "summary": "司马炎，司马昭长子，晋王世子。咸熙二年（265）受魏禅，建立晋朝，是为晋武帝。",
+ "bio": "司马炎，字安世，司马昭长子。魏景元年间封北平亭侯，后立为晋王世子。咸熙二年（265）司马昭卒，炎嗣晋王，同年受魏元帝曹奂禅让，即皇帝位，改元泰始，是为晋武帝。即位后追尊司马懿为宣帝、司马师为景帝、司马昭为文帝，立七庙；太康元年（280）灭吴，天下一统。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 264,
+   "title": "晋王世子（司马昭长子）",
+   "basis": "第114回：司马昭立长子司马炎为世子。炎为魏臣司马昭之子，非曹氏之亲，故入魏文臣。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "jin",
+   "role": "皇帝",
+   "start_year": 265,
+   "end_year": 290,
+   "title": "晋武帝",
+   "basis": "第119回：帝司马炎，追谥司马懿为宣帝，伯父司马师为景帝，父司马昭为文帝，立七庙以光祖宗。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 26
+}

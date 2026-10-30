@@ -1,0 +1,34 @@
+{
+ "id": "sun_dan",
+ "name": "孙单",
+ "courtesy": null,
+ "display_aliases": [
+  "孙单"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "孙单（正史人物，演义未载）：孙单为孙坚子。演义未载。",
+ "bio": "《三国志·吴书·宗室传》：孙单为孙坚子。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "其他",
+   "start_year": 196,
+   "end_year": 200,
+   "basis": "原文未见此人（0 次），「単」为「单」之异体，疑为孙氏宗族，官职无考。 原文未见此人；「単」为「单」之异体，疑为孙氏宗族，暂记孙吴立国前后。",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title": "孙坚之子",
+   "title_unknown_verified": false
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 1
+}

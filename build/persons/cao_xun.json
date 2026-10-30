@@ -1,0 +1,29 @@
+{
+ "id": "cao_xun",
+ "name": "曹训",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "曹训，曹魏文臣，武卫将军。命弟曹羲为中领军，曹训为武卫将军，曹彦为散骑常侍，各引三千御林军，任其出入禁宫。",
+ "bio": "第 106 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 238,
+   "end_year": 239,
+   "title": "武卫将军",
+   "basis": "第一百零六回原文：爽命弟曹羲为中领军，曹训为武卫将军，曹彦为散骑常侍，各引三千御林军，任其出入禁宫。 职任「武卫将军」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

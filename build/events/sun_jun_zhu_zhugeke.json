@@ -1,0 +1,32 @@
+{
+ "id": "sun_jun_zhu_zhugeke",
+ "name": "孙峻诛诸葛恪",
+ "kind": "政变",
+ "start_year": 253,
+ "end_year": 253,
+ "date_text": "建兴二年（253）",
+ "summary": "诸葛恪新城大败而归，反更骄横专权，孙峻与吴主孙亮设计，宴间杀之，夷其三族。",
+ "detail": "诸葛恪围新城不克，士卒死伤大半而退，归后不自咎，反杀害忠谏、更换宿卫、骄横日甚。孙峻与吴主孙亮密谋，置酒设宴，伏武士于帷内，恪入席，酒行数巡，峻掷杯为号，武士出而斩恪，割首张示，夷三族。吴政遂归于峻。",
+ "place_id": "jian_ye",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_ke",
+   "role_desc": "新城兵败归而骄横，宴间被诛，夷三族"
+  },
+  {
+   "person_id": "sun_jun",
+   "role_desc": "与吴主密谋，宴间掷杯为号伏杀诸葛恪"
+  },
+  {
+   "person_id": "sun_liang",
+   "role_desc": "吴主，与孙峻定计诛恪"
+  }
+ ],
+ "passage_ids": [
+  108003,
+  108012,
+  108010
+ ],
+ "battle_ids": []
+}

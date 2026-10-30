@@ -1,0 +1,52 @@
+{
+ "id": "chunyu_qiong",
+ "name": "淳于琼",
+ "courtesy": "仲简",
+ "display_aliases": [
+  "西园八校尉之一",
+  "乌巢督将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）乌巢被焚，为乐进所擒、曹操所杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "淳于琼，群雄武将，袁绍大将。淳于琼方与众将饮了酒，醉卧帐中；闻鼓噪之声，连忙跳起问：何故喧闹。",
+ "bio": "淳于琼，字仲简，颍川人。灵帝时为西园八校尉之一（与蹇硕、袁绍、曹操同列）。后归袁绍，为有大将之才。建安五年官渡相持，许攸叛投曹操献计奇袭乌巢，袁绍不听张郃增援之谏，反遣轻骑攻曹营，而以琼督乌巢。琼性嗜酒，是夜大醉。曹操亲率精兵诈打袁军旗号夜至乌巢，四面纵火，粮草尽焚。袁军大溃，琼为乐进所擒，操割其鼻而释之，琼大骂，操令斩之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "袁绍大将",
+   "lord_id": "yuan_shao",
+   "basis": "西园旧校尉归袁绍，官渡督粮。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 188,
+   "title": "西园八校尉",
+   "description": "灵帝置西园八校尉，琼与袁绍、曹操同列。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "醉酒失乌巢",
+   "description": "督乌巢粮草，夜饮大醉，曹操奇袭纵火，粮草尽焚。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "被擒骂死",
+   "description": "为乐进所擒，操割其鼻，琼大骂被斩。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 12
+}

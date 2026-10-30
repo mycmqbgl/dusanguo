@@ -1,0 +1,33 @@
+{
+ "id": "fan_bang",
+ "name": "范谤",
+ "courtesy": null,
+ "display_aliases": [
+  "范滂"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "auto_mined",
+ "summary": "范谤，东汉人物。第 6 回一笔带过，事迹仅存其名。",
+ "bio": "江夏八俊之一。第 6 回叙刘表少年交游，与同郡范滂（演化作范谤）、陈翔、孔昱等合称江夏八俊。此人在演义中着墨极少，正史别有其传。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 191,
+   "basis": "范滂（「谤」为「滂」之讹）字孟博，东汉党锢名士，见《后汉书·党锢列传》。演义正文未出场（0 次）。 范滂为东汉党锢名士，169 年死狱中。第6回与张俭等同列「江夏八俊」。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—184 年内被称引之时。）",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title_unknown_verified": true,
+   "title": "江夏八俊之一"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "mention_count": 1
+}

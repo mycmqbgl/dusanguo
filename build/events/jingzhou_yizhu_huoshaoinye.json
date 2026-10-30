@@ -1,0 +1,84 @@
+{
+ "id": "jingzhou_yizhu_huoshaoinye",
+ "name": "荆州易主·火烧新野",
+ "kind": "政权更替",
+ "start_year": 208,
+ "end_year": 208,
+ "date_text": "建安十三年（208）",
+ "summary": "刘表病亡，蔡瑁张允矫诏立刘琮降曹；刘备携民渡江不忍弃百姓，遂走江夏；曹仁入新野中孔明之火，狼狈败退。",
+ "detail": "刘表病重托荆州于备，备固辞。表死，蔡夫人与蔡瑁张允伪造遗嘱立幼子刘琮，未告备即举荆州降曹操，遣宋忠赍降书赴宛城。备大惊，孔明定计：先取江陵。备不忍弃随行百姓，携民渡江日行十余里。孔明引兵袭新野，留空城，曹仁大军入城屯扎，半夜火起，满县皆火，曹军自相践踏，出城又遇关张截杀，弃樊城退走。荆州六郡至此易主曹操，备退保江夏，赤壁之役自此而起。",
+ "place_id": "xin_ye",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_bei",
+   "role_desc": "携民渡江不忍弃百姓，退保江夏"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "定计火烧新野"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "截杀溃军，水淹后续接应"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "新野城外截杀曹军"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "护卫家眷随行"
+  },
+  {
+   "person_id": "cai_furen",
+   "role_desc": "伪造遗嘱立刘琮"
+  },
+  {
+   "person_id": "cai_mao",
+   "role_desc": "与张允矫诏立琮，主降曹"
+  },
+  {
+   "person_id": "cao_ren",
+   "role_desc": "领大军入新野中计，惨败"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "受荆州之降，挥师南下"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "刘表病亡",
+   "description": "表托国于备而卒。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "琮举州降曹",
+   "description": "蔡瑁等矫诏立琮，即降曹操。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "火烧新野",
+   "description": "孔明空城诱敌，火起满县，曹仁大败。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "携民渡江",
+   "description": "备不忍弃百姓，携民渡江赴江夏。",
+   "importance": 2
+  }
+ ],
+ "battle_ids": [
+  "xin_ye_battle"
+ ],
+ "passage_ids": [
+  40009,
+  40001,
+  40014
+ ]
+}

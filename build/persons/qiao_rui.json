@@ -1,0 +1,43 @@
+{
+ "id": "qiao_rui",
+ "name": "桥蕤",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 197,
+ "date_precision": "approx",
+ "date_note": "史载建安二年（197）袁术攻吕布，蕤战殁；演义第十七回同役败亡。生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "桥蕤，群雄武将，部将。术知操兵至，令大将桥蕤引兵五万作先锋。",
+ "bio": "桥蕤，袁术部将。术欲称帝时蕤为宿将之一。建安二年七路伐徐州，蕤为一路，兵败身死（史载为吕布部将所杀；演义于大战中败亡）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 197,
+   "title": "部将",
+   "lord_id": "yuan_shu",
+   "basis": "袁术部将。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "属袁术",
+   "description": "为袁术部将。",
+   "importance": 1
+  },
+  {
+   "year": 197,
+   "title": "伐徐败亡",
+   "description": "七路伐徐州，兵败身死。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 6
+}

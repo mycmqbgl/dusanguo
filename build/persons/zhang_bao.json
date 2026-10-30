@@ -1,0 +1,45 @@
+{
+ "id": "zhang_bao",
+ "name": "张宝",
+ "courtesy": null,
+ "display_aliases": [
+  "地公将军"
+ ],
+ "birth": null,
+ "death": 184,
+ "date_precision": "approx",
+ "date_note": "卒于中平元年（184）末至次年，为官军所破（第二回）；生卒年俱不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "张宝，群雄武将，地公将军。势危急，贼将严政刺杀张宝，献首投降。",
+ "bio": "张宝，巨鹿人，张角二弟。黄巾起兵，称地公将军。与张梁率军在颍川与皇甫嵩、朱儁对垒，战不利退入长社，依草结营，遭官军火攻，大军溃散。死战得脱后曹操拦击，斩首万余级。此后为皇甫嵩所破（第二回），黄巾主力覆灭。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "地公将军",
+   "basis": "第一回自称地公将军，统兵一方。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "颍川对垒",
+   "description": "与张梁在颍川与皇甫嵩、朱儁对垒。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "长社火攻溃败",
+   "description": "依草结营遭火攻，四散奔走，死战得脱。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生卒年俱不详｜演：卒于中平元年（184）末至次年，为官军所破（第二回）",
+ "mention_count": 23
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zhang_da",
+ "name": "张达",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "张达，蜀汉武将，末将。张达曰：比如他杀我，不如我杀他。",
+ "bio": "官职「末将」据原文上下文提取。原文第 81 回相关片段：「白旗白甲，三军挂孝伐吴。次日，帐下两员末将范疆、张达，入帐告曰：“白旗白甲，一时无措，须宽限方可。飞」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 229,
+   "title": "末将",
+   "basis": "第81回张飞帐下末将范疆、张达因办白旗白甲不及被责，遂刺杀张飞投吴。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

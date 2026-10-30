@@ -1,0 +1,46 @@
+{
+ "id": "cao_xiu",
+ "name": "曹休",
+ "courtesy": "文烈",
+ "display_aliases": [
+  "大司马"
+ ],
+ "birth": null,
+ "death": 228,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年太和二年（228）石亭之战兵败后背疽发而亡，史演义一致。",
+ "gender": "male",
+ "first_chapter": 56,
+ "review_status": "reviewed",
+ "summary": "曹休，曹魏武将，虎豹骑宿卫至大司马。报扬州司马大都督曹休上表，说东吴鄱阳太守周鲂，愿以郡来降，密遣人陈言七事，说东吴可破，乞早发兵取之。",
+ "bio": "曹休字文烈，沛国谯人，曹操族子。操见而叹「此吾家千里驹也」，使与曹丕同游处。铜雀台大宴，休与文聘、张郃、徐晃、许褚等比武夺锦袍。后领虎豹骑宿卫，曹丕时官至镇南将军、大司马都督扬州。太和二年率十万大军伐吴，石亭之战为陆逊大破，惭恨成疾，背疽发而死。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 228,
+   "title": "虎豹骑宿卫至大司马",
+   "lord_id": "cao_cao",
+   "basis": "曹操族子，历操、丕、叡三朝；228 年石亭败后病亡。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 210,
+   "title": "铜雀夺袍",
+   "description": "铜雀台比武，休与诸将夺锦袍。",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "石亭之败",
+   "description": "率十万伐吴，为陆逊大破于石亭，惭恨病亡。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒年太和二年（228）石亭之战兵败后背疽发而亡，史演义一致",
+ "mention_count": 47
+}

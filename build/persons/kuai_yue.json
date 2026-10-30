@@ -1,0 +1,68 @@
+{
+ "id": "kuai_yue",
+ "name": "蒯越",
+ "courtesy": "异度",
+ "display_aliases": [
+  "章陵太守",
+  "樊亭侯"
+ ],
+ "birth": null,
+ "death": 214,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安十九年（214）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "reviewed",
+ "summary": "蒯越，群雄文臣，东曹掾、章陵太守、谋主。时看了袁绍书，随令蒯越、蔡瑁引兵一万来截孙坚。",
+ "bio": "蒯越字异度，延平人，蒯良之弟。有大志，深中足智。何进当权时为东曹掾，劝进诛宦官，进不从，越知进必败，求出为汝阳令。刘表为荆州刺史，越与良同为其谋主。表问计，越曰「治平者先仁义，治乱者先权谋」，请以利诱宗贼帅而并其众，遂诱斩宗贼帅十五人，尽收其众，江南悉平。孙坚围襄阳，越奉命引兵截孙坚归路。建安十三年曹操南征，越与傅巽等劝刘琮举州降。曹操得荆州，曰「不喜得荆州，喜得蒯异度耳」，拜为光禄勋，封樊亭侯。建安十九年卒。演义第六回写孙坚问「蒯异度何故引兵截吾去路」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "东曹掾、章陵太守、谋主",
+   "lord_id": "liu_biao",
+   "basis": "刘表谋主，以谋略为主归文臣；208 年随刘琮降曹操。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 214,
+   "title": "光禄勋、樊亭侯",
+   "basis": "208 年随刘琮降曹操，拜光禄勋；214 年卒。曹魏势力形成年 196，208 在区间内。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "诱斩宗贼",
+   "description": "以利诱宗贼帅而并其众，斩十五人，江南悉平。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "截击孙坚",
+   "description": "奉命引兵截孙坚归路，孙坚怒问「蒯异度何故引兵截吾去路」。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "劝降曹操",
+   "description": "与傅巽等劝刘琮举州降曹，曹操曰「不喜得荆州，喜得蒯异度耳」。",
+   "importance": 3
+  },
+  {
+   "year": 214,
+   "title": "卒",
+   "description": "官至光禄勋，封樊亭侯，建安十九年卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 15
+}

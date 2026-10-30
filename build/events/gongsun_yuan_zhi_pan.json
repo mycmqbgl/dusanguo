@@ -1,0 +1,35 @@
+{
+ "id": "gongsun_yuan_zhi_pan",
+ "name": "公孙渊之叛",
+ "kind": "叛乱",
+ "start_year": 238,
+ "end_year": 238,
+ "date_text": "景初二年（238）",
+ "summary": "辽东公孙渊自立燕王起兵反魏，司马懿奉命东征，襄平城破斩渊，辽东复平。",
+ "detail": "详见战役「襄平之战」。渊斩孙权使者、受魏上公之爵而心不足，终僭号叛乱；贾范、伦直谏止皆被杀，懿破城后封其墓而荣其子孙。此役之后辽东公孙氏割据五十年终结，魏东北遂安。",
+ "place_id": "xiang_ping",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "gongsun_yuan",
+   "role_desc": "自立燕王起兵，襄平兵败被斩"
+  },
+  {
+   "person_id": "sim_yi",
+   "role_desc": "奉命东征统帅，捣虚围城斩渊"
+  },
+  {
+   "person_id": "cao_rui",
+   "role_desc": "魏主，命懿兴师征讨"
+  }
+ ],
+ "passage_ids": [
+  106001,
+  106001,
+  106001,
+  106001
+ ],
+ "battle_ids": [
+  "xiang_ping_battle"
+ ]
+}

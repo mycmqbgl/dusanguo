@@ -1,0 +1,29 @@
+{
+ "id": "chang_xi_2",
+ "name": "昌稀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 18,
+ "review_status": "auto_mined",
+ "summary": "昌稀，群雄武将，泰山寇。第 18 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 18 回相关片段：「首。先使陈宫、臧霸、结连泰山寇孙观、吴敦、尹礼、昌稀，东取山东兖州诸郡。令高顺、张辽取沛城，攻玄德」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 229,
+   "title": "泰山寇",
+   "basis": "第18回陈宫、臧霸结连泰山寇孙观、吴敦、尹礼、昌稀，东取山东兖州诸郡。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

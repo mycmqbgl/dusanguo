@@ -1,0 +1,29 @@
+{
+ "id": "dong_jue",
+ "name": "董厥",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "董厥，字龚袭，义阳人，蜀汉重臣，官至辅国大将军。",
+ "bio": "董厥，字龚袭，义阳人，蜀汉重臣。诸葛亮称其「良实」，累迁尚书令；后主末年为辅国大将军，与姜维、诸葛瞻并掌国政，蜀亡随主东迁。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 225,
+   "end_year": 229,
+   "title": "掾史、丞相令史、尚书令",
+   "basis": "第87回孔明令蒋琬为参军、费祎为长史，董厥、樊建二人为掾史。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

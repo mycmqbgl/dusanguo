@@ -1,0 +1,29 @@
+{
+ "id": "guan_ning",
+ "name": "关宁",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 28,
+ "review_status": "auto_mined",
+ "summary": "关宁，东汉人物，关定长子。第 28 回一笔带过，事迹仅存其名。",
+ "bio": "第 28 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 201,
+   "end_year": 220,
+   "title": "关定长子",
+   "basis": "第28回关定有二子：长子关宁学文，次子关平学武，关平随关公。 第28回关定长子关宁学文，随父居沂水。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

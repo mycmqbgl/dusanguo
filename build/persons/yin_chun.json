@@ -1,0 +1,29 @@
+{
+ "id": "yin_chun",
+ "name": "殷纯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "殷纯，蜀汉文臣，大司马。第 80 回一笔带过，事迹仅存其名。",
+ "bio": "第 80 回：「大司马殷纯」。原文第 80 回相关片段：「光禄卿黄权、祭酒何宗、学士尹默、司业谯周、大司马殷纯、偏将军张裔、少府王谋、昭文博士伊籍、从事郎秦宓」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 221,
+   "end_year": 223,
+   "title": "大司马",
+   "basis": "第 80 回：「大司马殷纯」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

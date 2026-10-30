@@ -1,0 +1,36 @@
+{
+ "id": "qin_lang",
+ "name": "秦朗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "秦朗，曹魏武将，骁骑将军。懿从之，遂令秦朗引一万兵，去劫蜀寨，懿自引兵接应。",
+ "bio": "第 102 回：近与秦朗同领人马，听司马懿调用，不料懿徇私偏向，加秦朗为前将军，而视文如草芥，因此不平，特来投降丞相。第 102 回：言未已，人报秦朗引兵在寨外，单搦郑文交战。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 234,
+   "end_year": 234,
+   "title": "骁骑将军",
+   "basis": "第一百零二回原文：近与秦朗同领人马，听司马懿调用，不料懿徇私偏向，加秦朗为前将军，而视文如草芥，因此不平，特来。 职任「骁骑将军」据此；★任期按末见回目收敛：全书最后一次提及在第 102 回（234 年），原 234—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 231,
+   "title": "第 102 回",
+   "description": "文拜告曰：“此实秦朗之弟秦明也",
+   "importance": 1
+  }
+ ],
+ "mention_count": 17
+}

@@ -1,0 +1,40 @@
+{
+ "id": "yang_xiu",
+ "name": "杨修",
+ "courtesy": "德祖",
+ "display_aliases": [
+  "主簿杨德祖"
+ ],
+ "birth": 175,
+ "death": 219,
+ "date_precision": "exact",
+ "date_note": "史书生卒年明确（175–219）；演义同记汉中之战以「鸡肋」泄密被操所杀。",
+ "gender": "male",
+ "first_chapter": 23,
+ "review_status": "reviewed",
+ "summary": "杨修，曹魏文臣，丞相主簿。操既杀杨修，佯怒夏侯惇，亦欲斩之。",
+ "bio": "杨修字德祖，弘农华阴人，太尉杨彪之子，博学能文，才思敏捷。为曹操主簿，数犯操之忌：解「活」字于相府门、分食一合酥、点破操梦中杀人之伪，操忌而恶之。操惑于立嗣，修暗助曹植，操深恨。汉中之战操口令「鸡肋」，修教军士收拾行装，操以「乱我军心」斩之，年四十四。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 219,
+   "title": "丞相主簿",
+   "lord_id": "cao_cao",
+   "basis": "曹操主簿，219 年汉中之战被杀。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "鸡肋之祸",
+   "description": "教军士收拾行装，操以乱军心罪斩之。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：史书生卒年明确（175–219）｜演：同记汉中之战以「鸡肋」泄密被操所杀",
+ "mention_count": 33
+}

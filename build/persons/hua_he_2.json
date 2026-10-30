@@ -1,0 +1,45 @@
+{
+ "id": "hua_he_2",
+ "name": "华覈",
+ "courtesy": null,
+ "display_aliases": [
+  "华核"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 119,
+ "review_status": "auto_mined",
+ "summary": "华覈，孙吴文臣，中书丞。皓大喜，谓中书丞华覈曰：先帝纳卿之言，分头命将，沿江一带，屯数百营，命老将丁奉总之。",
+ "bio": "第 119 回：「中书丞华覈奏吴主孙休曰」。原文第 119 回相关片段：「年，春三月，吴将丁奉见蜀已亡，遂收兵还吴。中书丞华覈奏吴主孙休曰：“吴、蜀乃唇齿也，唇亡则齿寒；臣料」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 264,
+   "title": "中书丞",
+   "basis": "第 119 回：「中书丞华覈奏吴主孙休曰」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 265,
+   "title": "第 119 回",
+   "description": "书丞华覈奏吴主孙休曰：“吴、蜀乃唇齿也，唇亡则齿寒；臣料司马昭伐吴在即，乞陛下深加防御",
+   "importance": 1
+  },
+  {
+   "year": 280,
+   "title": "第 120 回",
+   "description": "皓大喜，谓中书丞华覈曰：“先帝纳卿之言，分头命将，沿江一带，屯数百营，命老将丁奉总之",
+   "importance": 1
+  }
+ ],
+ "notice": "异写：华核",
+ "mention_count": 4
+}

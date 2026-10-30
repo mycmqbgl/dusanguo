@@ -1,0 +1,29 @@
+{
+ "id": "pan_yin",
+ "name": "潘隐",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "潘隐，东汉武将，司马。至宫门，司马潘隐谓进曰：不可入宫。",
+ "bio": "官职「司马」据原文上下文提取。原文第 2 回相关片段：「以绝后患。”帝然其说，因宣进入宫。进至宫门，司马潘隐谓进曰：“不可入宫。蹇硕欲谋杀公。”进大惊，急归」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 189,
+   "title": "司马",
+   "basis": "第2回何进入宫前，司马潘隐告以蹇硕欲谋害，进乃急归私宅。 189 年司马潘隐告何进以蹇硕之谋。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

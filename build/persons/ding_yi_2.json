@@ -1,0 +1,29 @@
+{
+ "id": "ding_yi_2",
+ "name": "丁廙",
+ "courtesy": "敬礼",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 79,
+ "review_status": "auto_mined",
+ "summary": "丁廙，曹魏文臣，临淄侯属官。下令，先将丁仪、丁廙等尽行诛戮。",
+ "bio": "原文第 79 回相关片段：「又过了一日，临淄使者回报，说：“临淄侯日与丁仪、丁廙兄弟二人酣饮，悖慢无礼，闻使命至，临淄侯端坐不动」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 220,
+   "basis": "第七十九回原文：丁仪字正礼，丁廙字敬礼，沛郡人，乃一时文士。 职任「临淄侯属官」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 220—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto",
+   "title": "临淄侯属官"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

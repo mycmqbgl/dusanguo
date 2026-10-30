@@ -1,0 +1,29 @@
+{
+ "id": "ren_kui",
+ "name": "任夔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "任夔，蜀汉武将，蜀牙将。吴兰曰：任夔不听吾言，故有此败。",
+ "bio": "第 69 回：吴兰曰：任夔不听吾言，故有此败。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 218,
+   "end_year": 218,
+   "title": "蜀牙将",
+   "basis": "第六十九回原文：吴兰曰：“任夔不听吾言，故有此败。 职任「蜀牙将」据此；★任期按末见回目收敛：全书最后一次提及在第 69 回（218 年），原 218—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

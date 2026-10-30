@@ -1,0 +1,51 @@
+{
+ "id": "cheng_lian",
+ "name": "成廉",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "成廉，群雄武将，八健将。将成廉，被乐进一箭射死。",
+ "bio": "成廉，吕布八健将之一，骁勇。演义濮阳之战，与张辽、臧霸等分击曹营，随吕布冲阵，戟指曹操，几乎得手。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "八健将",
+   "lord_id": "lv_bu",
+   "basis": "吕布部将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "属吕布",
+   "description": "为吕布八健将之一。",
+   "importance": 1
+  },
+  {
+   "year": 194,
+   "title": "濮阳冲阵",
+   "description": "随吕布冲曹操军阵，几乎擒操（演义）。",
+   "importance": 2
+  },
+  {
+   "year": 198,
+   "title": "下邳被擒",
+   "description": "史载临阵为曹操所擒。",
+   "importance": 1
+  }
+ ],
+ "history_conflict_type": "生死结局",
+ "history_conflict_note": "史载建安三年下邳之战为曹操所擒；演义写其随吕布败走，未交代结局。",
+ "mention_count": 3
+}

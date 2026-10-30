@@ -1,0 +1,3440 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<title>读三国</title>
+<style>
+  :root{
+    --paper:#f1e9d5; --paper2:#fbf5e8; --ink:#2b2620; --ink2:#6b6357; --ink3:#9a9284;
+    --line:#ddd4c2; --accent:#9c2b1f; --person:#8a5a1f; --place:#2f6b52; --water:#6f8fa3;
+  }
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{height:100vh;display:flex;flex-direction:column;background:var(--paper);color:var(--ink);
+       font-family:"Noto Serif SC",STSong,SimSun,serif;overflow:hidden;-webkit-font-smoothing:antialiased}
+  /* 地图注记是图形文字：禁止选中（点击弹卡时不再出现蓝色选区） */
+  svg{user-select:none;-webkit-user-select:none}
+  svg text{user-select:none;-webkit-user-select:none}
+  button{font-family:inherit}
+
+  /* ═══════════ 史诗风增强层（2026-10 UI 全面升级）═══════════
+     主题：宣纸质感 · 朱砂印章 · 墨色层次 · 卷轴光影。仅覆盖观感，不改结构与逻辑。 */
+  /* 宣纸底纹（双层 feTurbulence：粗纤维 + 细噪）+ 四周墨晕暗角 */
+  body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background-image:
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='420' height='420'%3E%3Cfilter id='f'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.012 .05' numOctaves='3' seed='7' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .55 0 0 0 0 .47 0 0 0 0 .32 0 0 0 .10 0'/%3E%3C/filter%3E%3Crect width='420' height='420' filter='url(%23f)'/%3E%3C/svg%3E"),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='260' height='260'%3E%3Cfilter id='p'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 .42 0 0 0 0 .37 0 0 0 0 .28 0 0 0 .12 0'/%3E%3C/filter%3E%3Crect width='260' height='260' filter='url(%23p)'/%3E%3C/svg%3E")}
+  body::after{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
+    background:radial-gradient(ellipse at 50% 42%,transparent 44%,rgba(70,56,36,.20) 100%)}
+  header,main{position:relative;z-index:1}
+  ::selection{background:rgba(156,43,31,.22)}
+  *::-webkit-scrollbar{width:10px;height:10px}
+  *::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#c9bb9d,#b9aa89);border-radius:5px;border:2px solid var(--paper2)}
+  *::-webkit-scrollbar-thumb:hover{background:#a8987a}
+  *::-webkit-scrollbar-track{background:transparent}
+
+  /* 顶栏：卷轴横幅 + 朱砂印 */
+  header{background:linear-gradient(180deg,#f7edd6 0%,#f0e2c2 55%,#e7d5ad 100%);
+    border-bottom:1px solid #c8b184;
+    box-shadow:inset 0 1px 0 rgba(255,255,255,.7),inset 0 -1px 0 rgba(255,252,240,.5),0 2px 12px rgba(85,66,40,.14)}
+  .brand::after{content:"演義";position:absolute;right:0;top:0;width:21px;height:21px;
+    background:linear-gradient(160deg,#b03426,#8f2418);color:#f9f3e6;font-size:10px;line-height:1;
+    display:flex;flex-wrap:wrap;align-items:center;justify-content:center;text-align:center;
+    border-radius:2.5px;box-shadow:0 1px 3px rgba(120,20,10,.45),inset 0 0 0 1px rgba(249,243,230,.4),inset 0 0 5px rgba(0,0,0,.25);
+    padding:2px;letter-spacing:0}
+  nav div{transition:background .15s,color .15s}
+  nav div.on{background:linear-gradient(180deg,#f6ecda,#f1e4c9)}
+
+  /* 章节卷首：墨色标题 + 云纹分隔 */
+  .ch-title h1{text-shadow:0 1px 0 rgba(255,253,248,.9),0 2px 10px rgba(80,60,35,.28);color:#1f1a13}
+  .ch-rule{width:150px;background:linear-gradient(90deg,transparent,var(--line) 18%,var(--line) 82%,transparent);height:1.5px}
+  .ch-rule::after{content:"◆";top:-8.5px;font-size:12px;color:rgba(156,43,31,.45);text-shadow:0 0 6px rgba(156,43,31,.25)}
+
+  /* 人物卡：宣纸渐变 + 悬浮抬升 */
+  .pcard{background:linear-gradient(160deg,#fffdf8,#f9f3e4);border:1px solid #e2d7be;
+    box-shadow:0 1px 3px rgba(90,72,45,.08);transition:transform .18s,box-shadow .18s,border-color .18s}
+  .pcard:hover{transform:translateY(-2px);box-shadow:0 5px 14px rgba(90,70,40,.16);border-color:rgba(156,43,31,.55)}
+
+  /* 侧栏头部：墨章式小标 */
+  .side-hd{background:linear-gradient(180deg,#faf5e9,#f5efe0);letter-spacing:2px}
+  .fgroup .fh{transition:opacity .15s}
+  .yearbar,.pwpane-top{background:linear-gradient(180deg,#fbf6ea,#f6f0e1)}
+  input[type=range]{accent-color:var(--accent)}
+  .ava{box-shadow:inset 0 0 0 1.5px rgba(255,253,248,.4)}
+
+
+  /* ---------- 顶栏 ---------- */
+  header{display:flex;align-items:center;gap:18px;padding:9px 20px;border-bottom:1px solid var(--line);background:var(--paper2);flex:none}
+  .brand{font-size:19px;letter-spacing:4px;color:var(--accent);position:relative;padding-right:36px;font-weight:700}
+  .brand small{font-size:12px;letter-spacing:1px;color:var(--ink3);margin-left:8px;font-weight:400}
+  nav{display:flex;gap:2px}
+  nav div{padding:5px 15px;font-size:15px;color:var(--ink2);cursor:pointer;border-radius:3px}
+  nav div:hover{background:#f2ecdf}
+  nav div.on{color:var(--accent);background:#f4ead9;box-shadow:inset 0 -2px 0 var(--accent)}
+  .grow{flex:1}
+
+  /* ---------- 布局 ---------- */
+  main{flex:1;display:flex;min-height:0}
+  aside{width:262px;flex:none;border-right:1px solid var(--line);background:var(--paper2);display:flex;flex-direction:column}
+  /* 原文页章回名单行不换行：该视图下侧栏加宽 */
+  body.readview aside{width:318px}
+  .ch-item span{white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .side-hd{padding:9px 14px;font-size:13.5px;letter-spacing:1px;color:var(--ink3);border-bottom:1px solid var(--line)}
+  .side-bd{flex:1;overflow-y:auto}
+  .side-ft{border-top:1px solid var(--line);padding:8px 12px;font-size:13.5px;color:var(--ink2);line-height:1.9}
+  .side-ft label{display:flex;align-items:center;gap:6px;cursor:pointer}
+  .ch-item{padding:9px 14px;font-size:15px;cursor:pointer;border-bottom:1px dashed var(--line);color:var(--ink2);display:flex;gap:8px}
+  .ch-item:hover{background:#f4ead9;color:var(--ink)}
+  .ch-item.on{background:#f2e5cd;color:var(--accent);box-shadow:inset 3px 0 0 var(--accent)}
+  .ch-item b{font-size:13px;color:var(--ink3);font-weight:400;flex:none;padding-top:2px}
+  .ch-item.on b{color:var(--accent)}
+
+  .stage{flex:1;min-width:0;display:flex;flex-direction:column;position:relative}
+  .view{display:none;flex:1;min-height:0;overflow-y:auto}
+  .view.on{display:flex;flex-direction:column}
+
+  /* ---------- 正文 ---------- */
+  .readwrap{max-width:760px;margin:0 auto;padding:38px 40px 120px;width:100%}
+  .ch-title{text-align:center;margin-bottom:8px}
+  .ch-title h1{font-size:25px;font-weight:400;letter-spacing:3px;line-height:1.6}
+  .ch-title .no{font-size:14px;color:var(--ink3);letter-spacing:3px;margin-bottom:9px}
+  .ch-rule{width:54px;height:1px;background:var(--line);margin:20px auto 30px;position:relative}
+  .ch-rule::after{content:"◆";position:absolute;left:50%;top:-9px;transform:translateX(-50%);font-size:11px;color:var(--line)}
+  .p{font-size:18.5px;line-height:2.15;text-indent:2em;margin-bottom:15px;text-align:justify}
+  .p.flash{background:#f7ecd2;box-shadow:0 0 0 6px #f7ecd2;border-radius:2px;transition:background .5s}
+
+  .ent{cursor:pointer;border-bottom:1px dotted;padding-bottom:1px;transition:background .15s}
+  .ent.p{color:var(--person);border-color:rgba(138,90,31,.55)}
+  .ent.l{color:var(--place);border-color:rgba(47,107,82,.5)}
+  .ent:hover{background:rgba(156,43,31,.09)}
+  /* 回指锚点：字面只有一个字（如「嵩」「表」），靠同段前文的最近全称定人。
+     仍可点击，但用更淡的虚线与稍弱的不透明度标出来，读者一眼能分辨哪处是「按上下文推定」。 */
+  .ent.weak{border-bottom-style:dashed;opacity:.86}
+  .ent.weak:hover{opacity:1}
+  /* is_weak_link：证据不足以撑起整张卡的锚点（如单姓回指「绍」「表」遇到同名多人）。
+     与上面的 anaphora 是两件事：anaphora 是「推定过程可解释」，weak-link 是「推定结果不可靠」。
+     视觉用点线（比虚线更虚一档）+ 点击不弹全卡，只给一句轻提示，避免用一张确定的卡掩盖不确定的推理。 */
+  .ent.wl{border-bottom-style:dotted;border-bottom-color:rgba(120,110,96,.55);opacity:.72}
+  .ent.wl:hover{opacity:1;background:rgba(120,110,96,.10)}
+  /* 轻提示：跟随被点锚点就地浮现，不抢卡片浮层的层级 */
+  .wltip{position:fixed;z-index:60;max-width:260px;padding:6px 9px;font-size:14px;line-height:1.6;
+    background:var(--paper,#fbf8f2);color:var(--ink2);border:1px solid var(--line);
+    border-radius:3px;box-shadow:0 3px 12px rgba(0,0,0,.10);pointer-events:none}
+  .wltip b{font-weight:400;color:var(--person)}
+  body.hide-p .ent.p{border-bottom:1px dotted transparent;color:inherit}
+  body.hide-p .ent.p:hover{color:var(--person)}
+  body.hide-l .ent.l{border-bottom:1px dotted transparent;color:inherit}
+  body.hide-l .ent.l:hover{color:var(--place)}
+
+  .chnav{display:flex;justify-content:space-between;max-width:760px;margin:0 auto;padding:0 40px 60px;font-size:15px}
+  .chnav span{cursor:pointer;color:var(--ink2);border-bottom:1px dotted var(--line);padding-bottom:2px}
+  .chnav span:hover{color:var(--accent);border-color:var(--accent)}
+  .chnav span.dim{color:#c8c0b0;cursor:default;border-color:transparent}
+
+  /* ---------- 人物库 ---------- */
+  .libwrap{padding:22px 26px 90px}
+  .yearbar{display:flex;align-items:center;gap:14px;padding:12px 26px;border-bottom:1px solid var(--line);background:#faf6ec;flex:none;flex-wrap:wrap}
+  .yearbar .lab{font-size:14px;color:var(--ink2)}
+  .yearbar input[type=range]{width:300px;accent-color:var(--accent)}
+  .yearbar .yr{font-size:21px;color:var(--accent);min-width:78px;letter-spacing:1px}
+  .yearbar .sw{font-size:14px;color:#6b5f4c;display:flex;align-items:center;gap:6px;cursor:pointer}
+  .fgroup{margin-bottom:24px}
+  .fh{display:flex;align-items:center;gap:9px;margin-bottom:10px;padding-bottom:7px;border-bottom:1px solid var(--line)}
+  .fh .dot{width:9px;height:9px;border-radius:50%}
+  .fh .nm{font-size:17px;letter-spacing:2px}
+  .fh .cnt{font-size:13px;color:var(--ink3)}
+  .rh{font-size:13.5px;color:var(--ink3);letter-spacing:2px;margin:14px 0 8px}
+  .grid{display:flex;flex-wrap:wrap;gap:9px}
+  .pcard{display:flex;gap:10px;align-items:center;width:205px;padding:8px 10px;background:var(--paper2);
+         border:1px solid var(--line);border-radius:4px;cursor:pointer;transition:.15s}
+  .pcard:hover{border-color:var(--accent);transform:translateY(-1px);box-shadow:0 3px 10px rgba(60,50,35,.09)}
+  .ava{width:38px;height:38px;border-radius:50%;flex:none;display:flex;align-items:center;justify-content:center;
+       font-size:18px;color:#fffdf8;background:radial-gradient(circle at 34% 30%, var(--c), #3a332a 145%);
+       box-shadow:inset 0 0 0 1px rgba(255,253,248,.35), 0 0 0 1px var(--c);letter-spacing:0}
+  .ava.lg{width:72px;height:72px;font-size:34px;box-shadow:inset 0 0 0 1.5px rgba(255,253,248,.4), 0 0 0 1.5px var(--c)}
+  .ava{position:relative;overflow:hidden}
+  .ava img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;object-position:top center;border-radius:inherit}
+  .pcard .meta{min-width:0}
+  .pcard .nm{font-size:16px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  .pcard .tz{font-size:12.5px;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+
+  /* ---------- 地图视图 ---------- */
+  .mapsplit{flex:1;display:flex;min-height:0}
+  .mapstage{flex:1;position:relative;background:#f3ede0;min-width:0}
+  .mapstage svg{width:100%;height:100%;display:block}
+  .plist{width:272px;flex:none;border-left:1px solid var(--line);background:var(--paper2);display:flex;flex-direction:column}
+  .plist .sr{padding:8px 10px;border-bottom:1px solid var(--line)}
+  .plist .sr input{width:100%;padding:5px 8px;border:1px solid var(--line);border-radius:3px;font-family:inherit;font-size:14.5px}
+  .plist .bd{flex:1;overflow-y:auto;font-size:14.5px}
+  .plist .it{padding:6px 11px;cursor:pointer;border-bottom:1px dashed var(--line);display:flex;gap:7px;align-items:baseline}
+  .plist .it:hover{background:#f4ead9}
+  .plist .it .sub{font-size:12.5px;color:var(--ink3);display:block}
+  .plist .it .ty{font-size:12.5px;color:var(--ink3);margin-left:auto;white-space:nowrap}
+  .maphint{position:absolute;left:14px;bottom:14px;font-size:13px;color:var(--ink2);
+           background:rgba(255,253,248,.9);padding:5px 10px;border-radius:3px;border:1px solid var(--line);pointer-events:none}
+  .maphint b{font-weight:400;color:var(--accent)}
+  /* 地图视图：可自由缩放（阅读页的地点卡大图与事件战线图则锁定，见 lockZoom） */
+  #bigmap{cursor:grab;touch-action:none}
+  #bigmap.grabbing{cursor:grabbing}
+  .mzoom{position:absolute;right:14px;top:12px;display:flex;align-items:center;gap:2px;
+         border:1px solid var(--line);border-radius:4px;background:rgba(255,253,248,.95);overflow:hidden}
+  .mzoom button{width:26px;height:25px;border:0;background:transparent;color:var(--ink2);font-size:16px;cursor:pointer;line-height:1;font-family:inherit}
+  .mzoom button:hover{background:#f4ead9;color:var(--accent)}
+  .mzoom .fit{width:auto;padding:0 9px;font-size:13.5px;border-left:1px solid var(--line);border-right:1px solid var(--line)}
+  .mzoom .lb{font-size:13px;color:var(--ink2);padding:0 8px;min-width:46px;text-align:center;font-variant-numeric:tabular-nums}
+  /* 地名详情：原浮动卡片里的文字改放这里 */
+  .plist .dt{flex:none;border-top:1px solid var(--line);background:#fbf7ee;max-height:52%;overflow-y:auto;padding:11px 13px;font-size:14px;line-height:1.7}
+  .plist .dt .e{color:var(--ink3);font-size:13.5px;line-height:1.9}
+  .plist .dt h5{font-size:15.5px;font-weight:400;margin-bottom:2px;display:flex;align-items:baseline;gap:6px}
+  .plist .dt h5 span{font-size:12px;color:var(--ink3);border:1px solid var(--line);border-radius:3px;padding:0 4px}
+  .plist .dt .r{display:grid;grid-template-columns:auto 1fr;gap:3px 9px;margin-top:6px}
+  .plist .dt .r .k{color:var(--ink3);font-size:13px;white-space:nowrap}
+  .plist .dt .r .v{color:#4a443b}
+  .plist .dt .n{margin-top:8px;padding-top:8px;border-top:1px dashed var(--line);color:#4a443b}
+  .plist .dt .lit{color:var(--accent)}
+  /* 左列表（地名/战役页签）与右侧详情栏 */
+  .plist.left{border-left:0;border-right:1px solid var(--line)}
+  .plist .tabs{display:flex;border-bottom:1px solid var(--line);flex:none}
+  .plist .tabs button{flex:1;border:0;background:transparent;font-family:inherit;font-size:14px;
+    color:var(--ink2);padding:8px 0;cursor:pointer;border-bottom:2px solid transparent}
+  .plist .tabs button:hover{background:#f4ead9}
+  .plist .tabs button.on{color:var(--accent);border-bottom-color:var(--accent);background:#fbf7ee}
+  /* 战役卡小图：悬停提示单击放大 */
+  .bwrap{position:relative;cursor:zoom-in}
+  .bwrap .zhint{position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    background:rgba(30,24,14,.8);color:#f5edda;font-size:14.5px;padding:7px 15px;border-radius:16px;
+    opacity:0;transition:opacity .18s;pointer-events:none;white-space:nowrap}
+  .bwrap:hover .zhint{opacity:1}
+  /* 全屏战线推演页 */
+  .bmask{position:fixed;inset:0;z-index:300;background:rgba(22,17,10,.94);display:none;flex-direction:column}
+  .bmask.on{display:flex}
+  .bmask .btop{flex:none;display:flex;align-items:center;gap:12px;padding:10px 18px;color:#f5edda}
+  .bmask .btop b{font-weight:400;font-size:17px}
+  .bmask .btop .btn{background:#3a3125;color:#f5edda;border:1px solid #5c4f39;cursor:pointer}
+  .bmask svg{flex:1;min-height:0;width:100%}
+  .bmask .bdesc{flex:none;min-height:46px;padding:9px 18px 13px;color:#e8ddc4;font-size:18.5px;line-height:1.8;
+                display:flex;align-items:center;gap:14px;position:relative}
+  .bmask .bdesc .btn{background:#3a3125;color:#f5edda;border:1px solid #5c4f39;cursor:pointer;padding:6px 22px;flex:none}
+  .bmask .bdesc #bmpn{flex:none;color:#cbbd9d;font-size:18px}
+  /* 地图页底部战线推演条 */
+  .bmpbar{position:absolute;left:50%;bottom:14px;transform:translateX(-50%);display:none;
+    align-items:center;gap:10px;background:rgba(251,247,238,.96);border:1px solid var(--line);
+    border-radius:6px;padding:7px 13px;font-size:14px;max-width:76%;box-shadow:0 2px 10px rgba(40,30,15,.18)}
+  .bmpbar b{font-weight:400;color:var(--accent);white-space:nowrap}
+  .bmpbar .btn{cursor:pointer}
+  .bmpbar .d{color:#4a443b;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:400px}
+  /* 地图页有自己的左列表：隐藏全局侧栏 */
+  body.noside aside{display:none}
+  /* 右栏：详情 + 恒定信息 footer */
+  .plist .dtcol{display:flex;flex-direction:column;flex:1;min-height:0;width:100%}
+  .plist .dtcol .dt{flex:1;max-height:none;min-height:0}
+  .plist .dtcol .dt.pdfoot{flex:none;border-top:1px solid var(--line);color:var(--ink2);font-size:13.5px;line-height:1.9}
+  /* ---- 地名三级树（州—郡—县） ---- */
+  .ptree{font-size:14.5px}
+  .ptree .row{display:flex;align-items:baseline;gap:6px;padding:5px 10px 5px 0;cursor:pointer;
+    border-bottom:1px dashed rgba(200,185,160,.5);position:relative;user-select:none}
+  .ptree .row:hover{background:#f4ead9}
+  .ptree .row.on{background:rgba(156,43,31,.09)}
+  .ptree .row.on::before{content:"";position:absolute;left:0;top:0;bottom:0;width:2px;background:var(--accent)}
+  .ptree .tw{width:13px;flex:none;text-align:center;color:var(--ink3);font-size:11px;line-height:1.6;transition:transform .16s}
+  .ptree .row.open .tw{transform:rotate(90deg)}
+  .ptree .row.leaf .tw{visibility:hidden}
+  .ptree .nm{color:#3a342b;white-space:nowrap}
+  .ptree .sub{color:var(--ink3);font-size:12.5px}
+  .ptree .seat{font-size:11.5px;color:#8a6a2a;border:1px solid rgba(160,130,60,.45);
+    border-radius:2px;padding:0 3px;margin-left:2px;white-space:nowrap;background:rgba(200,170,100,.1)}
+  .ptree .cnt{margin-left:auto;color:var(--ink3);font-size:12px;flex:none}
+  /* 三级配色：州=深褐 郡=墨绿 县=常规；非行政县级用浅灰斜体并加虚线框 */
+  .ptree .row.lv-zhou{background:linear-gradient(180deg,#f7f1e3,#fbf7ee);font-weight:600}
+  .ptree .row.lv-zhou .nm{color:#6b3f1d;letter-spacing:1px}
+  .ptree .row.lv-jun{padding-left:14px}
+  .ptree .row.lv-jun .nm{color:#4a5a3c}
+  .ptree .row.lv-xian{padding-left:28px;border-bottom-style:none}
+  .ptree .row.lv-xian .nm{color:#4a443b}
+  .ptree .row.nonadm .nm{color:#8a8172;font-style:italic}
+  .ptree .row.nonadm .ty{font-size:11.5px;color:#a09480;border:1px dashed rgba(150,135,110,.6);
+    border-radius:2px;padding:0 3px;margin-left:3px;font-style:normal}
+  .ptree .hidden{display:none}
+  .ptree .grp{border-bottom:1px solid rgba(190,175,150,.55)}
+  /* 跨区域地理：与州平级但语义不同——地理分区跨郡而不等于州。
+     用青灰（非州褐）＋左斜纹，视觉上明确「这不是一个州」。 */
+  .ptree .grp-region .row.lv-zhou{background:linear-gradient(180deg,#eef2f1,#f7f9f8)}
+  .ptree .grp-region .row.lv-zhou .nm{color:#3d5a5c}
+  .ptree .grp-river .row.lv-zhou{background:linear-gradient(180deg,#edf1f4,#f6f8fa)}
+  .ptree .grp-river .row.lv-zhou .nm{color:#2e5d80}
+  .ptree .row.lv-river .nm{color:#2e5d80}
+  .ptree .row.lv-river:hover{background:#eef3f7}
+  .ptree .row.lv-region{padding-left:14px}
+  .ptree .row.lv-region .nm{color:#4d6b6d}
+  .ptree .row.lv-region .sub{color:#7f9a9b}
+
+  /* ---------- 大势视图：年份 → 州域归属 ---------- */
+  .pwbar{display:flex;align-items:center;gap:12px;padding:9px 18px;border-bottom:1px solid var(--line);background:#fbf7ee;flex:none}
+  .pwbar .lab{font-size:13px;color:var(--ink3);letter-spacing:3px}
+  .pwbar .yr{font-family:serif;font-size:25px;color:var(--accent);min-width:92px;letter-spacing:1px;font-variant-numeric:tabular-nums;line-height:1}
+  .pwbar .yr small{font-size:13.5px;color:var(--ink3);letter-spacing:2px;margin-left:2px;font-family:inherit}
+  .pwbar input[type=range]{width:340px;accent-color:var(--accent)}
+  .pwbar .snap{font-size:13px;color:var(--ink3);border:1px solid var(--line);border-radius:20px;padding:1px 9px;white-space:nowrap}
+  .pwbar .pbtn{font-size:13.5px;padding:4px 11px;border:1px solid var(--accent);color:var(--accent);
+               background:transparent;border-radius:3px;cursor:pointer;letter-spacing:1px}
+  .pwbar .pbtn:hover{background:var(--accent);color:var(--paper2)}
+  .pwsplit{flex:1;display:flex;min-height:0}
+  .pwmap{flex:1;position:relative;background:#f3ede0;min-width:0}
+  .pwmap svg{width:100%;height:100%;display:block}
+  .pwpane{width:302px;flex:none;border-left:1px solid var(--line);background:var(--paper2);overflow-y:auto;padding:13px 15px 40px}
+  .pwnote{font-size:14.5px;line-height:1.9;color:#413b32;background:#faf6ec;border-left:2px solid var(--accent);
+          padding:9px 11px;border-radius:0 3px 3px 0}
+  .pwsec{font-size:13px;letter-spacing:3px;color:var(--ink3);margin:16px 0 7px;display:flex;align-items:center;gap:8px}
+  .pwsec::after{content:"";flex:1;height:1px;background:var(--line)}
+  .pwlord{display:flex;gap:8px;align-items:flex-start;padding:6px 7px;border-radius:3px;cursor:pointer;font-size:14.5px;line-height:1.55}
+  .pwlord:hover{background:#f4ead9}
+  .pwlord i{width:8px;height:8px;border-radius:50%;flex:none;margin-top:5px}
+  .pwlord .nm{color:var(--ink)}
+  .pwlord .ti{color:var(--ink2);font-size:13px;display:block;line-height:1.5}
+  .pwlord em{margin-left:auto;font-style:normal;font-size:12.5px;color:var(--ink3);white-space:nowrap;padding-top:1px}
+  .pwev{font-size:14.5px;padding:6px 7px;border-radius:3px;cursor:pointer;display:flex;gap:7px;line-height:1.6}
+  .pwev:hover{background:#f4ead9}
+  .pwev .k{border:1px solid var(--line);border-radius:2px;font-size:12px;padding:0 4px;color:var(--ink3);flex:none;margin-top:2px;height:16px;line-height:15px}
+  .pwlegend{position:absolute;left:14px;bottom:14px;font-size:12.5px;color:var(--ink2);max-width:300px}
+  .pwlegend .lgt{cursor:pointer;width:max-content;background:rgba(255,253,248,.82);border:1px solid var(--line);
+                 border-radius:4px;padding:3px 10px;user-select:none}
+  .pwlegend .lgt:hover{border-color:var(--accent);color:var(--accent)}
+  .pwlegend .lgb{display:none;margin-top:4px;background:rgba(255,253,248,.93);border:1px solid var(--line);
+                 border-radius:4px;padding:7px 10px;line-height:1.8;max-height:46%;overflow-y:auto}
+  .pwlegend.open .lgb{display:block}
+  .pwlegend .lg{display:flex;gap:6px;align-items:center;white-space:nowrap}
+  .pwlegend .lg em{font-style:normal;font-size:12px;color:var(--ink3);margin-left:-2px}
+  .pwlegend .sw{width:10px;height:10px;border-radius:2px;flex:none}
+  .pwlegend .zz{color:var(--ink3);font-size:12px;border-top:1px dashed var(--line);
+                margin-top:3px;padding-top:3px;line-height:1.55}
+  .pwhint{display:none}
+  .pwhint b{font-weight:400;color:var(--accent)}
+  /* 时点：垂直时间轴 */
+  .side-bd.pwlist{position:relative}
+  .side-bd.pwlist::before{content:"";position:absolute;left:19.5px;top:18px;bottom:12px;width:1px;background:var(--line)}
+  .snapitem{position:relative;padding:11px 14px 12px 37px;cursor:pointer;border-bottom:1px dashed var(--line)}
+  .snapitem:hover{background:#f4ead9}
+  .snapitem .dot{position:absolute;left:15.5px;top:18px;width:8px;height:8px;border-radius:50%;background:#cfc4ad;border:2px solid var(--paper2);box-sizing:content-box;transition:.18s;z-index:1}
+  .snapitem:hover .dot{background:var(--accent)}
+  .snapitem.on{background:#f2e5cd;box-shadow:inset 2px 0 0 rgba(156,43,31,.45)}
+  .snapitem.on .dot{background:var(--accent);box-shadow:0 0 0 3.5px rgba(156,43,31,.16)}
+  .snapitem .yr{font-family:serif;font-size:19px;color:var(--ink2);letter-spacing:.5px;line-height:1.25;font-variant-numeric:tabular-nums}
+  .snapitem.on .yr{color:var(--accent);font-weight:600}
+  .snapitem .yr .ylab{font-size:13px;color:var(--ink3);margin-left:3px;letter-spacing:2px;font-family:inherit}
+  .snapitem .nt{display:-webkit-box;-webkit-line-clamp:1;-webkit-box-orient:vertical;overflow:hidden;font-size:13px;color:var(--ink3);line-height:1.7;margin-top:2px}
+  .snapitem.on .nt{-webkit-line-clamp:4;color:#4a443b}
+  .snapitem .fp{display:flex;gap:4px;margin-top:6px}
+  .snapitem .fp i{width:9px;height:9px;border-radius:2px;opacity:.7;flex:none}
+  .snapitem.on .fp i{opacity:1}
+
+  /* ---------- 事件视图 ---------- */  #v-events{overflow:hidden}
+  .evsplit{flex:1;display:grid;grid-template-columns:2fr 3fr;min-height:0;height:100%}
+  .evwrap{min-width:0;overflow-y:auto;padding:22px 22px 90px}
+  .evdt{border-left:1px solid var(--line);background:var(--paper2);
+        overflow-y:auto;padding:22px 26px 40px;min-width:0}
+  .evdt .hd{display:flex;align-items:baseline;gap:9px}
+  .evdt .hd h3{font-size:22px;font-weight:400;letter-spacing:1px}
+  .evdt .sum{font-size:15.5px;line-height:1.9;color:#413b32}
+  .evdt .hd .x{margin-left:auto;font-size:18px;color:var(--ink3);cursor:pointer;padding:2px 6px}
+  .evdt .hd .x:hover{color:var(--accent)}
+  .evdt .sec{margin-top:16px}
+  .evdt .sec h4{font-size:13px;letter-spacing:3px;color:var(--ink3);font-weight:400;margin-bottom:8px}
+  .evdt .sum{font-size:15.5px;line-height:1.9;color:#413b32}
+  .evdt .empty{color:var(--ink3);font-size:14.5px;line-height:2;padding-top:30px;text-align:center}
+  .evdt .minimap{width:100%;border:1px solid var(--line);border-radius:4px;background:#f3ede0}
+  .bmwrap{position:relative;cursor:pointer}
+  .bmwrap::after{content:"🔍 点击进入全屏推演";position:absolute;inset:0;display:flex;align-items:center;justify-content:center;
+    background:rgba(30,24,16,0);color:transparent;transition:.18s;font-size:15px;letter-spacing:1px;pointer-events:none}
+  .bmwrap:hover::after{background:rgba(30,24,16,.38);color:#f5edda}
+  .evsec{margin-bottom:26px}
+  .evsec h3{font-size:13.5px;letter-spacing:3px;color:var(--ink3);font-weight:400;margin-bottom:11px}
+  .evcard{border:1px solid var(--line);border-radius:5px;background:var(--paper2);padding:14px 16px;margin-bottom:11px;cursor:pointer;transition:.15s}
+  .evcard:hover{border-color:var(--accent);box-shadow:0 3px 12px rgba(60,50,35,.08)}
+  .evcard .t{font-size:17px;display:flex;align-items:baseline;gap:9px}
+  .evcard .k{font-size:12.5px;color:var(--accent);border:1px solid rgba(156,43,31,.35);border-radius:2px;padding:1px 5px}
+  /* 类型标签五色：军事靛 / 政治朱 / 外交绿 / 神异紫 / 人物赭 */
+  .evcard .k-mil{color:#3b5c79;border-color:rgba(59,92,121,.38);background:rgba(59,92,121,.07)}
+  .evcard .k-pol{color:#a3442f;border-color:rgba(163,68,47,.38);background:rgba(163,68,47,.07)}
+  .evcard .k-dip{color:#3c6a4e;border-color:rgba(60,106,78,.38);background:rgba(60,106,78,.07)}
+  .evcard .k-mys{color:#5a4770;border-color:rgba(90,71,112,.38);background:rgba(90,71,112,.07)}
+  .evcard .k-per{color:#8a6a3a;border-color:rgba(138,106,58,.38);background:rgba(138,106,58,.07)}
+  .evcard .s{font-size:14.5px;color:var(--ink2);margin-top:6px;line-height:1.75}
+  .evcard .m{font-size:13px;color:var(--ink3);margin-top:7px}
+  /* 编年时间轴（事件页主视图） */
+  .evstats{display:flex;gap:22px;align-items:baseline;border:1px solid var(--line);border-radius:5px;
+           background:var(--paper2);padding:13px 18px;margin-bottom:16px}
+  .evstats b{font-size:23px;font-weight:400;color:var(--accent)}
+  .evstats span{font-size:13.5px;color:var(--ink3)}
+  .evfilt{display:flex;gap:8px;margin-bottom:20px}
+  .evfilt button{font-size:14px;border:1px solid var(--line);background:var(--paper2);border-radius:14px;
+                 padding:3px 14px;cursor:pointer;color:var(--ink2)}
+  .evfilt button.on{border-color:var(--accent);color:var(--accent);background:rgba(156,43,31,.06)}
+  .evera{font-size:14px;letter-spacing:3px;color:#8a6a3a;margin:26px 0 14px;display:flex;align-items:center;gap:10px}
+  .evera::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,#c8b184,transparent)}
+  .evt{position:relative;display:grid;grid-template-columns:66px 1fr;gap:0 14px;padding-bottom:14px}
+  .evt::before{content:"";position:absolute;left:74px;top:6px;bottom:-4px;width:1px;background:var(--line)}
+  .evt:last-child::before{bottom:auto;height:10px}
+  .evt .yy{font-size:15px;color:#8a6a3a;text-align:right;padding-top:14px;letter-spacing:1px;white-space:nowrap}
+  .evt .nd{position:absolute;left:70.5px;top:21px;width:8px;height:8px;border-radius:50%;
+           background:var(--paper);border:2px solid #b9a778;z-index:1}
+  .evt.bt .nd{border-color:var(--accent)}
+  /* 战役卡作为事件卡的附属：拐线（L 形）从主轴节点连到卡片 */
+  .evt.bt .evcard{margin-left:38px;position:relative;background:#fbf6ea}
+  .evt.bt .evcard::before{content:"";position:absolute;left:-30px;top:4px;width:30px;
+    height:calc(50% + 4px);border-left:1.5px solid #b3946a;border-bottom:1.5px solid #b3946a;
+    border-bottom-left-radius:8px;pointer-events:none}
+  .evt .evcard{margin-bottom:0}
+
+  .evt .yrange{font-size:13px;color:var(--ink3);margin-left:auto}
+
+  /* ---------- 卡片弹窗 ---------- */
+  .mask{position:fixed;inset:0;background:rgba(38,32,24,.42);z-index:100;display:none;align-items:center;justify-content:center;padding:26px}
+  .mask.on{display:flex}
+  .card{background:var(--paper2);border-radius:6px;width:100%;max-width:720px;max-height:88vh;overflow-y:auto;
+        box-shadow:0 24px 70px rgba(30,24,16,.34);position:relative;animation:up .18s ease-out}
+  @keyframes up{from{transform:translateY(12px);opacity:0}to{transform:none;opacity:1}}
+  .card .x{position:absolute;right:12px;top:10px;font-size:21px;color:var(--ink3);cursor:pointer;line-height:1;padding:4px 8px;z-index:2}
+  .card .x:hover{color:var(--accent)}
+  .chd{display:flex;gap:15px;padding:22px 26px 16px;border-bottom:1px solid var(--line)}
+  .chd .who{min-width:0}
+  .chd h2{font-size:24px;font-weight:400;letter-spacing:2px;display:flex;align-items:baseline;gap:10px;flex-wrap:wrap}
+  .chd h2 em{font-size:14px;font-style:normal;color:var(--ink3);letter-spacing:1.5px}
+  .chd .life{font-size:14px;color:var(--ink2);margin-top:6px}
+  .chd .lifeh{font-size:13px;color:#8a6a3a;margin-top:2px}
+  .chd .life b{color:var(--accent);font-weight:400}
+  .chd .sum{font-size:15.5px;line-height:1.85;color:#413b32;margin-top:9px}
+  .cbd{padding:18px 26px 26px}
+  .sec{margin-bottom:20px}
+  .sec:last-child{margin-bottom:0}
+  .sec h4{font-size:13px;letter-spacing:3px;color:var(--ink3);font-weight:400;margin-bottom:10px;
+          display:flex;align-items:center;gap:8px}
+  .sec h4::after{content:"";flex:1;height:1px;background:var(--line)}
+  .tn{display:flex;gap:10px;align-items:flex-start;padding:8px 10px;border-radius:3px;background:#faf6ec;margin-bottom:7px;font-size:14.5px}
+  .tn .fl{flex:none;font-size:13px;padding:2px 7px;border-radius:2px;color:#fffdf8;letter-spacing:1px}
+  .tn .bd{min-width:0;flex:1}
+  .tn .yr{font-size:13px;color:var(--ink3);margin-left:6px}
+  .tn .ti{color:var(--ink);margin-top:2px}
+  .tn .bs{font-size:13px;color:var(--ink2);margin-top:3px;line-height:1.7}
+  .tline{position:relative;padding-left:15px}
+  .tline::before{content:"";position:absolute;left:3px;top:6px;bottom:6px;width:1px;background:var(--line)}
+  .tli{position:relative;margin-bottom:11px;font-size:14.5px}
+  .tli::before{content:"";position:absolute;left:-15px;top:6px;width:6px;height:6px;border-radius:50%;background:var(--paper2);border:1.5px solid var(--line)}
+  .tli.hi::before{background:var(--accent);border-color:var(--accent)}
+  .tli b{color:var(--accent);font-weight:400;font-size:14px;margin-right:7px}
+  .tli .d{color:var(--ink2);font-size:13.5px;margin-top:2px;line-height:1.75}
+  .bio{font-size:15.5px;line-height:2;color:#413b32;text-align:justify}
+  .hcwrap{border-left:2px solid #c9b48c;background:#f7f2e6;padding:8px 12px;margin:0 0 14px}
+  .hcwrap .hchd{font-size:13px;letter-spacing:3px;color:var(--ink3);display:flex;align-items:center;gap:6px}
+  .hcwrap .hctype{font-size:12px;letter-spacing:1px;color:#8a6a3a;border:1px solid #d8c9a8;border-radius:3px;padding:1px 5px}
+  .hcwrap .hcnote{font-size:14.5px;line-height:1.95;color:#4a4136;margin-top:8px;text-align:justify}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:14px;padding:4px 9px;border:1px solid var(--line);border-radius:20px;cursor:pointer;background:#faf6ec;transition:.15s}
+  .chip:hover{border-color:var(--accent);color:var(--accent)}
+  .chip .r{color:var(--ink3);font-size:12.5px;margin-left:4px}
+  .lnk{font-size:14.5px;color:var(--ink2);border-bottom:1px dotted var(--line);cursor:pointer}
+  .lnk:hover{color:var(--accent);border-color:var(--accent)}
+  .minimap{width:100%;height:230px;border:1px solid var(--line);border-radius:4px;background:#f3ede0;display:block}
+  .kv{display:grid;grid-template-columns:64px 1fr;gap:5px 10px;font-size:14.5px;line-height:1.7}
+  .kv .k{color:var(--ink3)}
+  .locked{display:inline-flex;align-items:center;gap:4px;font-size:12.5px;color:var(--accent);
+          border:1px solid rgba(156,43,31,.35);border-radius:20px;padding:1px 8px;margin-left:6px}
+  .playbar{display:flex;align-items:center;gap:10px;margin-top:9px}
+  .btn{font-size:13.5px;padding:4px 12px;border:1px solid var(--accent);color:var(--accent);
+       background:transparent;border-radius:3px;cursor:pointer;letter-spacing:1px}
+  .btn:hover{background:var(--accent);color:var(--paper2)}
+  .nsteps{font-size:13.5px;color:var(--ink3)}
+  .stepdesc{font-size:14.5px;color:var(--ink2);line-height:1.8;margin-top:8px;min-height:44px;background:#faf6ec;padding:8px 11px;border-radius:3px}
+  .note{font-size:13px;color:var(--ink3);line-height:1.7;margin-top:7px}
+  .empty{padding:60px 20px;text-align:center;color:var(--ink3);font-size:15px;line-height:2}
+  /* ---------- 关系图谱视图 ---------- */
+  .gytype{font-size:14px;color:var(--ink2);display:flex;align-items:center;gap:4px}
+  .gwrap{flex:1;min-height:0;position:relative;background:linear-gradient(#fbf8f2,#f6f0e2)}
+  #graph{width:100%;height:100%;display:block}
+  #graph .gnode{cursor:pointer}
+  #graph .gnode circle{stroke:#fbf8f2;stroke-width:1.5;transition:r .15s}
+  #graph .gnode:hover circle{stroke:var(--accent);stroke-width:2.5}
+  #graph .gnode text{font-size:12.5px;fill:var(--ink);pointer-events:none;paint-order:stroke;stroke:rgba(251,248,242,.85);stroke-width:2.5}
+  #graph .gedge{transition:opacity .15s}
+  #graph .gedge.lord{stroke:#9b8f76;stroke-opacity:.5}
+  #graph .gedge.foe{stroke:rgba(156,43,31,.55);stroke-dasharray:5 4}
+  #graph .gedge:hover{stroke-opacity:1}
+  #graph .gnode.dim, #graph .gedge.dim{opacity:.15}
+  #graph .gnode.focus circle{stroke:var(--accent);stroke-width:3}
+  #graph .gnode.focus text{font-size:15px;font-weight:700}
+  #graph .gnode.focus2 circle{stroke:#c9a24b;stroke-width:2.5}
+  #graph .gnode.focus2 text{font-size:14px}
+  #gclear{display:none;cursor:pointer;border:1px solid var(--line);border-radius:10px;padding:1px 9px;font-size:13px;color:var(--ink3)}
+  #gclear.on{display:inline-block}
+  #gclear:hover{color:var(--accent);border-color:var(--accent)}
+  #graph.grabbing{cursor:grabbing}
+  .ghint{position:absolute;left:0;right:0;bottom:10px;text-align:center;font-size:13px;color:var(--ink3);pointer-events:none}
+  .glegend{position:absolute;top:8px;right:10px;background:rgba(251,248,242,.92);border:1px solid var(--line);border-radius:8px;padding:5px 10px;font-size:13px;color:var(--ink3);display:flex;gap:12px;pointer-events:none}
+  .glegend .li{display:inline-flex;align-items:center;gap:4px}
+  .glegend .ln{display:inline-block;width:22px;height:0;border-top:2px solid #9b8f76}
+  .glegend .ln.foe{border-top-style:dashed;border-top-color:rgba(156,43,31,.75)}
+  .glegend .dot{display:inline-block;width:8px;height:8px;border-radius:50%}
+  .glegend .dot.d1{background:var(--accent)}
+  .glegend .dot.d2{background:#c9a24b}
+  #graph text.elab{font-size:12px;fill:var(--ink2);paint-order:stroke;stroke:rgba(251,248,242,.9);stroke-width:3}
+  .ghint b{color:var(--ink2);font-weight:400}
+
+  /* ═══════════════════════════════════════════════════════════════════
+     绢本设色 v2（2026-10-30）
+     ─────────────────────────────────────────────────────────────────
+     问题：顶栏、侧栏、工具条、卡片原本全是同一档米色
+     （#f1e9d5 / #fbf5e8 / #faf6ec），层级只靠 1px 细线区分，
+     屏幕大面积是「白」，没有书卷的实体感。
+     做法：把界面拆成「框」与「面」两层——
+       框 = 顶栏 / 侧栏 / 卡片工具条：深木漆色 #241d13→#43371f，泥金描边；
+       面 = 正文 / 卡片 / 地图：保持宣纸米色，可读性不动。
+     再补三样具象元素：朱砂印、泥金线、远山雾岚（全部内联 SVG，无外链）。
+     仅覆盖观感，不改结构、不改逻辑、不动任何数据。
+     ═══════════════════════════════════════════════════════════════════ */
+  :root{
+    --wood1:#241d13; --wood2:#2e2517; --wood3:#3a2e1d; --wood4:#4a3b24;
+    --gold:#c2a05c; --gold2:#e0c68c; --gold3:#8a6f3c;
+    --sealc:#a3342a; --seal2:#bd4a35;
+    --paper3:#fdf9ee; --on-bg:linear-gradient(90deg,rgba(163,52,42,.34),rgba(163,52,42,.04));
+  }
+
+  /* ---------- 纸面：加深一点底色，让卡片（更亮）浮得起来 ---------- */
+  body{background:#e9dfc4}
+  body::after{background:radial-gradient(ellipse at 50% 40%,transparent 46%,rgba(74,58,34,.22) 100%)}
+  ::selection{background:rgba(163,52,42,.26)}
+
+  /* ---------- 顶栏：深木漆 + 泥金压边 + 朱砂印 ---------- */
+  header{
+    background:
+      linear-gradient(180deg,rgba(255,240,205,.10),rgba(255,240,205,0) 46%),
+      linear-gradient(180deg,#3a2f1e 0%,#2c2315 58%,#241c10 100%);
+    border-bottom:2px solid #6d5730;
+    box-shadow:inset 0 1px 0 rgba(240,215,160,.16), 0 2px 0 rgba(194,160,92,.16), 0 3px 18px rgba(28,20,10,.42);
+    padding:10px 20px 11px;
+  }
+  .brand{color:var(--gold2);padding-right:42px;padding-left:44px;letter-spacing:5px;
+         text-shadow:0 1px 2px rgba(0,0,0,.6),0 0 16px rgba(224,198,140,.22)}
+  /* 印章：竖排两字，方寸之间才像真的藏书印 */
+  /* 印章两字须严格居中：竖排（writing-mode）下 text-align 管的是竖轴，横轴没有对齐依据，
+     两字会整体偏左上。改用显式换行 + 行高等于盒高的一半，横竖两轴同时居中。 */
+  /* 两方印（三國 / 演義）用同一组尺寸与字级，只靠 align-self 对齐中线，
+     不再各自写 width/height/font-size——那样看着像大小两枚，不齐。 */
+  /* 印面 28px 放两字，「三國」笔画疏、「演義」笔画密，同字号下密字会顶满
+     边框而疏字留白，看上去像字号不同。统一收到 9.5px / 行高 14px，两印
+     上下各留 0px、左右各留 4px 左右的余白，观感才对得上。 */
+  .brand::before,.brand::after{
+    --seal-s:32px;--seal-fs:11px;--seal-lh:15.5px;
+    position:absolute;top:50%;transform:translateY(-50%);
+    display:flex;align-items:center;justify-content:center;
+    width:var(--seal-s);height:var(--seal-s);padding:0;box-sizing:border-box;
+    background:linear-gradient(158deg,#bd4a35,#8d2118);
+    color:#f8eed6;font-family:inherit;font-size:var(--seal-fs);font-weight:400;
+    line-height:var(--seal-lh);letter-spacing:0;
+    text-align:center;white-space:pre;
+    font-synthesis:none;-webkit-font-smoothing:antialiased;
+    border-radius:3px;
+    box-shadow:0 1px 4px rgba(0,0,0,.45),inset 0 0 0 1px rgba(248,238,214,.45),inset 0 0 6px rgba(0,0,0,.3)}
+  .brand::before{content:"三\A國";left:1px}
+  .brand::after{content:"演\A義";right:2px}
+  .brand small{color:#9d8b68}
+  /* 顶栏右侧：版本小字，填住原来空着的一段 */
+  .hdnote{font-size:12.5px;color:#8d7c5c;letter-spacing:2.5px;white-space:nowrap;
+    padding-left:14px;border-left:1px solid rgba(194,160,92,.22)}
+  nav div{color:#b6a684;padding:5px 15px;letter-spacing:1px}
+  nav div:hover{background:rgba(232,206,150,.10);color:#f0e0bb}
+  nav div.on{color:#f7e8c2;
+    background:linear-gradient(180deg,rgba(194,160,92,.26),rgba(194,160,92,.05));
+    box-shadow:inset 0 -2px 0 var(--gold),inset 0 1px 0 rgba(224,198,140,.3);
+    text-shadow:0 0 14px rgba(224,198,140,.4)}
+
+  /* ---------- 侧栏：书匣内壁 ---------- */
+  aside{
+    background:
+      linear-gradient(180deg,rgba(255,238,200,.05),transparent 30%),
+      linear-gradient(180deg,#332a1a 0%,#3b301f 55%,#332a1a 100%);
+    border-right:1px solid #5c4a2c;
+    box-shadow:inset -1px 0 0 rgba(194,160,92,.14), 3px 0 16px rgba(28,20,10,.18);
+  }
+  body.readview aside{box-shadow:inset -1px 0 0 rgba(194,160,92,.14), 4px 0 20px rgba(28,20,10,.22)}
+  .side-hd{color:var(--gold);border-bottom:1px solid rgba(194,160,92,.26);letter-spacing:3px;
+    background:linear-gradient(180deg,rgba(255,240,200,.055),transparent);
+    text-shadow:0 1px 0 rgba(0,0,0,.5)}
+  .ch-item{color:#c4b48e;border-bottom:1px dashed rgba(194,160,92,.15)}
+  .ch-item:hover{background:rgba(232,206,150,.08);color:#f2e3c0}
+  .ch-item.on{color:#f8e9c6;background:linear-gradient(90deg,rgba(163,52,42,.38),rgba(163,52,42,.04));
+    box-shadow:inset 3px 0 0 var(--seal2)}
+  .ch-item b{color:#9d8a63}
+  .ch-item.on b{color:var(--gold2)}
+  .side-ft{border-top:1px solid rgba(194,160,92,.22);color:#c4b48e}
+  .side-ft input[type=checkbox]{accent-color:var(--gold)}
+  /* 大势页的时点轴也在侧栏里，同一套木色 */
+  .side-bd.pwlist::before{background:linear-gradient(180deg,rgba(194,160,92,.05),rgba(194,160,92,.3) 12%,rgba(194,160,92,.3) 88%,rgba(194,160,92,.05))}
+  .snapitem{border-bottom:1px dashed rgba(194,160,92,.15)}
+  .snapitem:hover{background:rgba(232,206,150,.07)}
+  .snapitem .yr{color:#d3c19d}
+  .snapitem .yr .ylab{color:#a08c65}
+  .snapitem .nt{color:#a3926c}
+  .snapitem .dot{background:#6b5b3e;border-color:#332a1a}
+  .snapitem:hover .dot{background:var(--seal2)}
+  .snapitem.on{background:linear-gradient(90deg,rgba(163,52,42,.34),rgba(163,52,42,.03));
+    box-shadow:inset 2px 0 0 var(--seal2)}
+  .snapitem.on .yr{color:#f8e9c6}
+  .snapitem.on .yr .ylab{color:var(--gold2)}
+  .snapitem.on .nt{color:#d9c9a4}
+  .snapitem.on .dot{background:var(--seal2);box-shadow:0 0 0 3.5px rgba(189,74,53,.24)}
+  .snapitem .fp i{box-shadow:0 0 0 1px rgba(0,0,0,.25)}
+
+  /* ---------- 正文：正文做成一张「纸页」，浮在案头之上 ---------- */
+  .readwrap{position:relative;max-width:792px;margin:22px auto 46px;
+    background:linear-gradient(180deg,#fdfaf1 0%,#fbf6e8 55%,#f8f1de 100%);
+    border:1px solid #e0d0ac;border-radius:2px;
+    box-shadow:0 1px 0 rgba(255,253,246,.9) inset,0 0 0 1px rgba(194,160,92,.16),
+               0 10px 34px rgba(70,54,30,.13),0 2px 8px rgba(70,54,30,.07)}
+  /* 纸页两侧的「书耳」竖线：古籍版心的界行 */
+  .readwrap::before,.readwrap::after{content:"";position:absolute;top:20px;bottom:26px;width:1px;pointer-events:none;
+    background:linear-gradient(180deg,transparent,rgba(176,146,88,.45) 8%,rgba(176,146,88,.45) 92%,transparent)}
+  .readwrap::before{left:15px}
+  .readwrap::after{right:15px}
+  /* 纸页之外（两侧案头）：远山雾岚，钉在视口底部，不随正文滚动 */
+  aside{position:relative;z-index:2}
+  body.readview .stage::before{content:"";position:fixed;left:0;right:0;bottom:0;height:300px;pointer-events:none;z-index:0;
+    opacity:.9;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1000 300'%3E%3Cdefs%3E%3ClinearGradient id='r1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%237a6a4c' stop-opacity='.20'/%3E%3Cstop offset='1' stop-color='%237a6a4c' stop-opacity='0'/%3E%3C/linearGradient%3E%3ClinearGradient id='r2' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%235f5138' stop-opacity='.16'/%3E%3Cstop offset='1' stop-color='%235f5138' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M0 196 C70 192 96 128 168 118 C244 108 268 172 340 164 C416 156 440 78 516 70 C592 62 620 150 692 152 C760 154 800 112 860 106 C920 100 962 128 1000 132 L1000 300 L0 300 Z' fill='url(%23r1)'/%3E%3Cpath d='M0 246 C86 244 118 196 200 190 C286 184 318 232 398 226 C484 220 512 168 596 174 C676 180 716 226 792 224 C868 222 918 196 1000 200 L1000 300 L0 300 Z' fill='url(%23r2)'/%3E%3C/svg%3E")
+    no-repeat center bottom/120% auto}
+  .ch-title h1{color:#1d1811;letter-spacing:4px}
+  .ch-title .no{color:#9a6f3f;letter-spacing:4px}
+  .ch-rule{width:170px;height:1.5px;
+    background:linear-gradient(90deg,transparent,rgba(176,146,88,.75) 20%,rgba(176,146,88,.75) 80%,transparent)}
+  .ch-rule::after{color:rgba(163,52,42,.6);text-shadow:0 0 8px rgba(163,52,42,.3)}
+  .p{color:#241f18}
+  .p.flash{background:#f2e2b8;box-shadow:0 0 0 6px #f2e2b8}
+
+  /* ---------- 人物库：卡片按阵营着色，分组标题带色带 ---------- */
+  .yearbar{background:linear-gradient(180deg,#f8f0dc,#f1e5c9);
+    border-bottom:1px solid #cdb98d;box-shadow:inset 0 -1px 0 rgba(255,253,246,.6),0 1px 6px rgba(90,72,45,.07)}
+  .yearbar .yr{color:var(--sealc);text-shadow:0 1px 0 rgba(255,253,246,.8)}
+  .libwrap{padding:20px 26px 90px}
+  .fgroup{margin-bottom:22px;padding:12px 14px 15px;border-radius:6px;
+    background:linear-gradient(180deg,rgba(194,160,92,.17),rgba(194,160,92,.05) 55%,rgba(194,160,92,0));
+    box-shadow:inset 0 0 0 1px rgba(176,146,88,.20)}
+  /* 图谱侧栏也复用 .fgroup 做折叠分组，那边是深色书匣，不要色块卡片 */
+  .side-bd .fgroup{margin:0;padding:0;border-radius:0;background:none;box-shadow:none}
+  .side-bd .fgroup + .fgroup{border-top:1px solid rgba(194,160,92,.13)}
+  .side-bd .fh{background:none;border-bottom:1px solid rgba(194,160,92,.18);margin-bottom:0}
+  .side-bd .fh .nm{color:#d3c19d;letter-spacing:2px}
+  .side-bd .fh .cnt{color:#9d8a63}
+  /* 有阵营色时改用该阵营自己的淡染：东汉土褐、曹魏靛、蜀汉朱、孙吴墨绿、晋紫、异族赭 */
+  @supports (background:color-mix(in srgb,red 10%,transparent)){
+    .fgroup{background:linear-gradient(180deg,
+        color-mix(in srgb,var(--fc,#c2a05c) 15%,transparent) 0%,
+        color-mix(in srgb,var(--fc,#c2a05c) 5%,transparent) 55%,
+        transparent 100%);
+      box-shadow:inset 0 0 0 1px color-mix(in srgb,var(--fc,#c2a05c) 24%,transparent)}
+    .fh{background:none;border-bottom:1px solid color-mix(in srgb,var(--fc,#8a6f3c) 38%,transparent)}
+    .rh::before{color:color-mix(in srgb,var(--fc,#a3342a) 55%,transparent)}
+  }
+  .fh{background:linear-gradient(90deg,rgba(194,160,92,.18),rgba(194,160,92,.03) 70%,transparent);
+    border-bottom:1px solid rgba(176,146,88,.42);padding:7px 12px 6px;border-radius:3px 3px 0 0;margin-bottom:12px}
+  .fh .nm{color:#2a2318;letter-spacing:3px}
+  .fh .dot{box-shadow:0 0 0 3px rgba(255,253,246,.7),0 0 8px currentColor}
+  .rh{color:#8a6a3f;letter-spacing:3px}
+  .rh::before{content:"▍";color:rgba(163,52,42,.5);margin-right:5px;font-size:11px}
+  .pcard{width:206px;background:linear-gradient(152deg,#fdf8e8,#f6ecd4);
+    border:1px solid #ded0b0;border-left:4px solid var(--c,#b09a6a);border-radius:3px 4px 4px 3px;
+    box-shadow:0 1px 2px rgba(90,72,45,.08),0 2px 9px rgba(90,72,45,.05)}
+  .pcard:hover{border-color:#c8a05c;border-left-color:var(--c,#b09a6a);
+    box-shadow:0 4px 14px rgba(90,70,40,.18),0 0 0 1px rgba(194,160,92,.35)}
+  .pcard .nm{color:#241f18}
+  .ava{background:radial-gradient(circle at 34% 28%,var(--c,#8a5a1f),#2b2318 150%)}
+  .empty{padding:60px 20px;text-align:center;color:#9a8a6c;font-size:15px;line-height:2}
+  /* 人物少的时候右下会留一大片空：给滚动容器挂一幅淡远山。
+     滚动容器的背景不随内容滚动，正好当固定底纹，也不需要算高度。 */
+  #v-persons > div[style*="overflow-y"]{
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 560 240'%3E%3Cdefs%3E%3ClinearGradient id='a' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%237f6d4a' stop-opacity='.26'/%3E%3Cstop offset='1' stop-color='%237f6d4a' stop-opacity='.01'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%235c4c30' stop-opacity='.20'/%3E%3Cstop offset='1' stop-color='%235c4c30' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M0 152 C52 148 70 104 116 96 C164 88 180 136 228 130 C280 124 296 64 346 58 C396 52 414 112 462 114 C500 116 530 98 560 90 L560 240 L0 240 Z' fill='url(%23a)'/%3E%3Cpath d='M0 184 C62 182 86 150 140 144 C196 138 216 176 272 170 C330 164 352 126 406 132 C456 138 494 168 560 166 L560 240 L0 240 Z' fill='url(%23b)'/%3E%3Cpath d='M392 50 q8 -7 16 0 q8 -7 16 0' fill='none' stroke='%237a6a4c' stroke-opacity='.26' stroke-width='1.6' stroke-linecap='round'/%3E%3Cpath d='M442 32 q6 -5 12 0 q6 -5 12 0' fill='none' stroke='%237a6a4c' stroke-opacity='.20' stroke-width='1.4' stroke-linecap='round'/%3E%3C/svg%3E")
+    no-repeat right 8px bottom 0/470px auto}
+  input[type=checkbox]{accent-color:var(--sealc)}
+  input[type=range]{accent-color:var(--sealc)}
+
+  /* ---------- 空态：远山雾岚（事件页右栏 / 地图右栏） ---------- */
+  .emptyfig{width:100%;max-width:430px;height:186px;margin:0 auto 18px;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 360 158'%3E%3Cdefs%3E%3ClinearGradient id='m1' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%237e6d4c' stop-opacity='.46'/%3E%3Cstop offset='1' stop-color='%238b7a5a' stop-opacity='.02'/%3E%3C/linearGradient%3E%3ClinearGradient id='m2' x1='0' y1='0' x2='0' y2='1'%3E%3Cstop offset='0' stop-color='%235c4c30' stop-opacity='.36'/%3E%3Cstop offset='1' stop-color='%236b5a3c' stop-opacity='0'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cpath d='M0 108 C34 104 44 74 74 68 C104 62 112 96 142 92 C176 87 186 46 222 42 C256 38 268 78 300 80 C326 82 344 68 360 62 L360 158 L0 158 Z' fill='url(%23m1)'/%3E%3Cpath d='M0 128 C40 126 56 104 92 100 C130 96 144 122 182 118 C222 114 238 88 276 92 C310 96 334 118 360 116 L360 158 L0 158 Z' fill='url(%23m2)'/%3E%3Ccircle cx='266' cy='40' r='17' fill='none' stroke='%23a3442f' stroke-opacity='.14' stroke-width='1.2'/%3E%3Cpath d='M112 46 q7 -6 14 0 q7 -6 14 0' fill='none' stroke='%238a7a58' stroke-opacity='.30' stroke-width='1.5' stroke-linecap='round'/%3E%3Cpath d='M150 30 q5 -4 10 0 q5 -4 10 0' fill='none' stroke='%238a7a58' stroke-opacity='.24' stroke-width='1.3' stroke-linecap='round'/%3E%3Cpath d='M186 46 q4 -3 8 0 q4 -3 8 0' fill='none' stroke='%238a7a58' stroke-opacity='.18' stroke-width='1.1' stroke-linecap='round'/%3E%3C/svg%3E")
+    center bottom/contain no-repeat;opacity:.95;
+    -webkit-mask-image:linear-gradient(90deg,transparent 0,#000 13%,#000 87%,transparent 100%);
+    mask-image:linear-gradient(90deg,transparent 0,#000 13%,#000 87%,transparent 100%)}
+  .evdt .empty{text-align:center}
+  .plist .dt .e{text-align:center;display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:2px;color:#8a7a58}
+  /* 空态时让整块详情栏纵向居中，图不再贴顶 */
+  .plist .dt:has(> .e:only-child){display:flex;flex-direction:column;justify-content:center}
+  .plist .dt{background:
+      repeating-linear-gradient(90deg,rgba(150,120,70,.05) 0 1px,transparent 1px 27px),
+      linear-gradient(180deg,#fdf8ec,#f8f1de)}
+
+  /* ---------- 事件页：右栏换成稍深的纸，与左栏分层 ---------- */
+  .evdt{background:
+      repeating-linear-gradient(90deg,rgba(150,120,70,.055) 0 1px,transparent 1px 27px),
+      linear-gradient(180deg,#f8f0dd,#f2e7ce);border-left:1px solid #cdb98d;
+    box-shadow:inset 6px 0 18px -12px rgba(90,72,45,.3)}
+  .evstats{background:linear-gradient(180deg,#fdf9ef,#f7efdc);border:1px solid #ded0b0;
+    box-shadow:0 1px 3px rgba(90,72,45,.06)}
+  .evcard{background:linear-gradient(160deg,#fffdf7,#f9f2e1);border:1px solid #ded0b0;
+    box-shadow:0 1px 2px rgba(90,72,45,.06)}
+  .evcard:hover{border-color:#c8a05c;box-shadow:0 4px 14px rgba(90,70,40,.14)}
+  .evcard .t{color:#241f18;letter-spacing:.5px}
+  .evt.bt .evcard{background:linear-gradient(160deg,#fdf7e8,#f6edd8)}
+  .evfilt button{background:linear-gradient(180deg,#fdf9ef,#f6eedc);border-color:#d6c39c}
+  .evfilt button.on{background:linear-gradient(180deg,rgba(163,52,42,.12),rgba(163,52,42,.04));
+    border-color:var(--sealc);box-shadow:inset 0 0 0 1px rgba(163,52,42,.18)}
+  .evera{color:#9a6f3f}
+  .evt .yy{color:#9a6f3f}
+
+  /* ---------- 地图页：地形图外框做成挂轴 ---------- */
+  .mapstage{background:#e6dcc2;box-shadow:inset 0 0 40px rgba(90,72,45,.12)}
+  .plist{background:
+      repeating-linear-gradient(90deg,rgba(150,120,70,.05) 0 1px,transparent 1px 27px),
+      linear-gradient(180deg,#faf3e1,#f5ecd6)}
+  .plist .sr input{background:#fffdf7;border-color:#d6c39c}
+  .plist .it:hover{background:#f2e6cc}
+  .plist .dt{background:linear-gradient(180deg,#fdf8ec,#f8f1de);border-top:1px solid #d6c39c}
+  .maphint{background:rgba(253,249,238,.92);border-color:#d6c39c;color:#6b5f4c;
+    box-shadow:0 1px 4px rgba(60,45,25,.1)}
+  .mzoom{background:rgba(253,249,238,.96);border-color:#d6c39c}
+
+  /* ---------- 大势页右栏 ---------- */
+  .pwpane{background:linear-gradient(180deg,#faf3e1,#f5ecd6);border-left:1px solid #cdb98d}
+  .pwbar{background:linear-gradient(180deg,#f8f0dc,#f1e5c9);border-bottom:1px solid #cdb98d}
+  .pwnote{background:linear-gradient(160deg,#fdf7e8,#f8efd9);border-left:2px solid var(--sealc);
+    box-shadow:0 1px 3px rgba(90,72,45,.06)}
+  .pwlord:hover,.pwev:hover{background:#f2e6cc}
+  .pwsec{color:#9a7c4a;letter-spacing:3px}
+
+  /* ═══ 事件页 / 地图页的左侧列表：同样是「书匣内壁」 ═══
+     这两页原来左栏是整片浅纸（#f8f0dd / #faf3e1），与人物库、图谱的深木侧栏
+     差了一个明度台阶，切页时屏幕右半边会「闪白」。改为同一套木色后，
+     三页的左栏是同一个东西：一具装着脸谱卡的书匣。 */
+  #v-events .evwrap,
+  #v-places .plist.left{
+    background:
+      linear-gradient(180deg,rgba(255,238,200,.05),transparent 26%),
+      linear-gradient(180deg,#332a1a 0%,#3b301f 55%,#332a1a 100%);
+    box-shadow:inset -1px 0 0 rgba(194,160,92,.14),inset 0 0 70px rgba(18,12,4,.30)}
+  #v-events .evwrap{border-right:1px solid #5c4a2c}
+  #v-events .evdt{
+    border-left:1px solid #5c4a2c;
+    box-shadow:inset 10px 0 22px -14px rgba(18,12,4,.55)}
+
+  /* --- 事件页：统计块做成木匣上的嵌金牌 --- */
+  #v-events .evstats{
+    background:linear-gradient(180deg,rgba(255,240,205,.10),rgba(255,240,205,.028));
+    border:1px solid rgba(194,160,92,.32);
+    box-shadow:inset 0 1px 0 rgba(255,240,205,.10),0 1px 3px rgba(18,12,4,.25)}
+  #v-events .evstats b{color:#e8c98a}
+  #v-events .evstats span{color:#a3926c}
+
+  /* --- 事件页：筛选胶囊与检索框 --- */
+  #v-events .evfilt button{
+    background:rgba(255,240,205,.05);border-color:rgba(194,160,92,.30);color:#c4b48e}
+  #v-events .evfilt button:hover{background:rgba(232,206,150,.10);color:#f2e3c0}
+  #v-events .evfilt button.on{
+    color:#f8e9c6;border-color:#bd4a35;
+    background:linear-gradient(180deg,rgba(163,52,42,.44),rgba(163,52,42,.12));
+    box-shadow:inset 0 0 0 1px rgba(194,160,92,.18)}
+  #v-events .evsearch{
+    background:rgba(253,249,238,.94);border:1px solid #5c4a2c;color:#2b2620;
+    border-radius:14px;outline:none;font-family:inherit}
+  #v-events .evsearch::placeholder{color:#8d7c5c}
+  #v-events .evsearch:focus{border-color:#c2a05c;box-shadow:0 0 0 2px rgba(194,160,92,.22)}
+
+  /* --- 事件页：年代标题 / 年份列 / 时间轴竖线与节点 --- */
+  #v-events .evera{color:#d3b478}
+  #v-events .evera::after{background:linear-gradient(90deg,rgba(194,160,92,.55),transparent)}
+  #v-events .evt::before{background:rgba(194,160,92,.26)}
+  #v-events .evt .yy{color:#c9ae7c}
+  #v-events .evt .nd{background:#3b301f;border-color:#8f7a4e}
+  #v-events .evt.bt .nd{border-color:#bd4a35}
+  #v-events .evt.bt .evcard::before{border-color:rgba(194,160,92,.55)}
+
+  /* --- 事件页：卡片是从匣里抽出来的纸片，需要投影才浮得起来 --- */
+  #v-events .evcard{
+    border-color:#cdb98d;
+    box-shadow:0 2px 10px rgba(18,12,4,.30),0 1px 2px rgba(18,12,4,.14)}
+  #v-events .evcard:hover{
+    border-color:#c2a05c;
+    box-shadow:0 5px 18px rgba(18,12,4,.42),0 0 0 1px rgba(194,160,92,.30)}
+
+  /* --- 地图页左栏：页签 / 检索 / 地名行 --- */
+  #v-places .plist.left .tabs{border-bottom:1px solid rgba(194,160,92,.24)}
+  #v-places .plist.left .tabs button{color:#c4b48e;background:transparent}
+  #v-places .plist.left .tabs button:hover{background:rgba(232,206,150,.08);color:#f2e3c0}
+  #v-places .plist.left .tabs button.on{
+    color:#f8e9c6;border-bottom-color:#bd4a35;
+    background:linear-gradient(180deg,rgba(194,160,92,.20),rgba(194,160,92,.03))}
+  #v-places .plist.left .sr{border-bottom:1px solid rgba(194,160,92,.18)}
+  #v-places .plist.left .sr input{
+    background:rgba(253,249,238,.94);border-color:#5c4a2c;color:#2b2620}
+  #v-places .plist.left .sr input::placeholder{color:#8d7c5c}
+  #v-places .plist.left .bd{color:#c4b48e}
+  #v-places .plist.left .it{
+    color:#c4b48e;border-bottom:1px dashed rgba(194,160,92,.15)}
+  #v-places .plist.left .it:hover{background:rgba(232,206,150,.08);color:#f2e3c0}
+  #v-places .plist.left .it.on{
+    color:#f8e9c6;
+    background:linear-gradient(90deg,rgba(163,52,42,.34),rgba(163,52,42,.04));
+    box-shadow:inset 3px 0 0 #bd4a35}
+  #v-places .plist.left .it .sub,
+  #v-places .plist.left .it .ty{color:#9d8a63}
+  #v-places .plist.left .it.on .sub,
+  #v-places .plist.left .it.on .ty{color:#cbb894}
+
+  /* 地名页签用的是 .ptree 三级树，不是 .it —— 州级行自带一条浅色渐变底
+     （lv-zhou），铺满整个列表，这是左栏「看起来还是白的」的真正原因。
+     深底上州级改用金线分组头，郡县逐级提亮，靠明度而不是底色分层。 */
+  #v-places .plist.left .ptree .row{
+    color:#c4b48e;border-bottom:1px dashed rgba(194,160,92,.13)}
+  #v-places .plist.left .ptree .row:hover{background:rgba(232,206,150,.09)}
+  #v-places .plist.left .ptree .row.on{
+    background:linear-gradient(90deg,rgba(163,52,42,.36),rgba(163,52,42,.04));
+    box-shadow:inset 2px 0 0 #bd4a35}
+  #v-places .plist.left .ptree .row.on::before{background:#e0684c}
+  #v-places .plist.left .ptree .tw{color:#9d8a63}
+  #v-places .plist.left .ptree .nm{color:#d2c19c}
+  #v-places .plist.left .ptree .sub,
+  #v-places .plist.left .ptree .cnt{color:#9d8a63}
+  #v-places .plist.left .ptree .row.lv-zhou{
+    background:linear-gradient(180deg,rgba(194,160,92,.17),rgba(194,160,92,.02));
+    border-bottom:1px solid rgba(194,160,92,.26)}
+  #v-places .plist.left .ptree .row.lv-zhou:hover{
+    background:linear-gradient(180deg,rgba(194,160,92,.26),rgba(194,160,92,.06))}
+  #v-places .plist.left .ptree .row.lv-zhou .nm{color:#e8c98a;letter-spacing:1.5px}
+  #v-places .plist.left .ptree .row.lv-jun .nm{color:#cbb894}
+  #v-places .plist.left .ptree .row.lv-xian .nm{color:#bda98a}
+  #v-places .plist.left .ptree .row.nonadm .nm{color:#a08c65}
+  #v-places .plist.left .ptree .row.nonadm .ty{
+    color:#a08c65;border-color:rgba(194,160,92,.42)}
+  #v-places .plist.left .ptree .seat{
+    color:#e0b96f;border-color:rgba(194,160,92,.48);background:rgba(200,170,100,.12)}
+  #v-places .plist.left .ptree .grp{border-bottom:1px solid rgba(194,160,92,.26)}
+
+  /* 水系 / 地区两组的分组头：通用规则 .row.lv-zhou 是浅纸渐变压在上面，
+     深色覆盖又只改了字号颜色、没改头行背景——「水系」「地区」两行一直是白底，
+     与 12 个州头行不一致。这里补上同款木色头行，颜色沿用原先的蓝 / 青语义。 */
+  #v-places .plist.left .ptree .grp-river .row.lv-zhou{
+    background:linear-gradient(180deg,rgba(120,165,200,.20),rgba(120,165,200,.03))}
+  #v-places .plist.left .ptree .grp-river .row.lv-zhou:hover{
+    background:linear-gradient(180deg,rgba(120,165,200,.30),rgba(120,165,200,.08))}
+  #v-places .plist.left .ptree .grp-river .row.lv-zhou .nm{color:#a8cfe6}
+  #v-places .plist.left .ptree .row.lv-river .nm{color:#9cc3da}
+  #v-places .plist.left .ptree .row.lv-river:hover{
+    background:linear-gradient(90deg,rgba(120,165,200,.16),rgba(120,165,200,.02))}
+  #v-places .plist.left .ptree .grp-region .row.lv-zhou{
+    background:linear-gradient(180deg,rgba(120,180,175,.18),rgba(120,180,175,.03))}
+  #v-places .plist.left .ptree .grp-region .row.lv-zhou:hover{
+    background:linear-gradient(180deg,rgba(120,180,175,.28),rgba(120,180,175,.07))}
+  #v-places .plist.left .ptree .grp-region .row.lv-zhou .nm{color:#9ecfc9}
+  #v-places .plist.left .ptree .row.lv-region .nm{color:#8fbfb9}
+  #v-places .plist.left .ptree .row.lv-region .sub{color:#7f9a97}
+
+  /* 深色书匣上的滚动条：系统默认是浅灰白，在木色底上像一道白缝 */
+  /* 只给深色容器换滚动条；事件右栏与地图详情栏是浅纸，沿用系统默认 */
+  .side-bd,#v-events .evwrap,#v-places .plist.left .bd{
+    scrollbar-width:thin;scrollbar-color:rgba(194,160,92,.42) transparent}
+  .side-bd::-webkit-scrollbar,#v-events .evwrap::-webkit-scrollbar,
+  #v-places .plist.left .bd::-webkit-scrollbar{width:9px;height:9px}
+  .side-bd::-webkit-scrollbar-track,#v-events .evwrap::-webkit-scrollbar-track,
+  #v-places .plist.left .bd::-webkit-scrollbar-track{background:rgba(0,0,0,.16)}
+  .side-bd::-webkit-scrollbar-thumb,#v-events .evwrap::-webkit-scrollbar-thumb,
+  #v-places .plist.left .bd::-webkit-scrollbar-thumb{
+    background:rgba(194,160,92,.34);border-radius:5px;border:2px solid transparent;
+    background-clip:padding-box}
+  .side-bd::-webkit-scrollbar-thumb:hover,#v-events .evwrap::-webkit-scrollbar-thumb:hover,
+  #v-places .plist.left .bd::-webkit-scrollbar-thumb:hover{background:rgba(194,160,92,.55);background-clip:padding-box}
+
+  /* ═══ 事件卡：与左栏同色系的「木匣内衬」，不再是白纸片 ═══
+     白底 + 纯黑标题在深木匣里对比过强（16:1），一屏十几张卡就是一片
+     刺眼的白块。改为比左栏亮一档的木色，标题转淡金，正文转米白，
+     靠描金细边区分卡片，而不是靠明度差。 */
+  #v-events .evcard{
+    background:linear-gradient(158deg,#453824,#3c3020 55%,#372c1d);
+    border:1px solid rgba(194,160,92,.30);
+    box-shadow:inset 0 1px 0 rgba(255,240,205,.07),0 2px 10px rgba(14,9,3,.28)}
+  #v-events .evcard:hover{
+    border-color:rgba(214,180,110,.62);
+    background:linear-gradient(158deg,#4d3f28,#433722 55%,#3d3121);
+    box-shadow:inset 0 1px 0 rgba(255,240,205,.10),0 5px 18px rgba(14,9,3,.42)}
+  #v-events .evt.bt .evcard{
+    background:linear-gradient(158deg,#3d3121,#352b1b 60%,#312818);
+    border-color:rgba(194,160,92,.24)}
+  #v-events .evcard .t{color:#f0dfba}
+  #v-events .evcard .s{color:#cdbc98}
+  #v-events .evcard .m{color:#9d8a63}
+  #v-events .evcard .t > span[style]{color:#9d8a63 !important}
+  /* 类型标签：深底上原五色的浅底版本读不清，改为高饱和描边 + 微弱自发光底 */
+  #v-events .evcard .k{color:#e2c48a;border-color:rgba(194,160,92,.55);background:rgba(194,160,92,.10)}
+  #v-events .evcard .k-mil{color:#9dc0e0;border-color:rgba(157,192,224,.48);background:rgba(59,92,121,.30)}
+  #v-events .evcard .k-pol{color:#f0a08c;border-color:rgba(240,160,140,.48);background:rgba(163,68,47,.32)}
+  #v-events .evcard .k-dip{color:#9ccfae;border-color:rgba(156,207,174,.48);background:rgba(60,106,78,.32)}
+  #v-events .evcard .k-mys{color:#c0aede;border-color:rgba(192,174,222,.48);background:rgba(90,71,112,.34)}
+  #v-events .evcard .k-per{color:#e0bb84;border-color:rgba(224,187,132,.48);background:rgba(138,106,58,.30)}
+  #v-events .evcard:hover .k{background-color:rgba(194,160,92,.16)}
+  /* 选中态：深底上原来那圈朱砂几乎看不见，改为金色光圈 + 提亮一档 */
+  #v-events .evt.flash .evcard{
+    border-color:rgba(226,190,120,.78);
+    background:linear-gradient(158deg,#54452c,#493b25 55%,#423522);
+    box-shadow:0 0 0 2px rgba(194,160,92,.34),0 0 22px rgba(194,160,92,.22),
+               inset 0 1px 0 rgba(255,240,205,.12)}
+  #v-events .evt.flash .evt .yy{color:#f0d9a8}
+
+  /* ---------- 卡片弹窗 ---------- */
+  .card{background:linear-gradient(180deg,#fdf9ef,#faf4e4);border:1px solid #d6c39c;
+    box-shadow:0 26px 76px rgba(25,18,8,.42),0 0 0 1px rgba(194,160,92,.3)}
+  .chd{background:linear-gradient(180deg,rgba(194,160,92,.12),transparent);
+    border-bottom:1px solid #d6c39c}
+  .chd h2{color:#1d1811}
+  .card .x:hover{color:var(--sealc)}
+
+  /* ---------- 图谱 ---------- */
+  .gwrap{background:radial-gradient(ellipse at 50% 45%,#fbf6ea 0%,#efe4ca 100%)}
+  .glegend{background:rgba(253,249,238,.94);border-color:#d6c39c}
+
+  /* ---------- 滚动条：木色系 ---------- */
+  *::-webkit-scrollbar-thumb{background:linear-gradient(180deg,#c2a574,#a98d5f);border:2px solid #efe6d0}
+  *::-webkit-scrollbar-thumb:hover{background:#94784c}
+  aside::-webkit-scrollbar-thumb,.side-bd::-webkit-scrollbar-thumb{
+    background:linear-gradient(180deg,#6b5a3c,#55462b);border:2px solid #332a1a}
+  .side-bd::-webkit-scrollbar-thumb:hover{background:#7d6a48}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="brand">读三国</div>
+  <nav id="nav">
+    <div data-v="read" class="on">阅读</div>
+    <div data-v="persons">人物</div>
+    <div data-v="places">地图</div>
+    <div data-v="power">大势</div>
+    <div data-v="events">事件</div>
+    <div data-v="graph">图谱</div>
+  </nav>
+  <div class="grow"></div>
+  <div class="hdnote">毛宗岗本 · 一百二十回</div>
+</header>
+
+<main>
+  <aside>
+    <div class="side-hd" id="side-hd">章节目录</div>
+    <div class="side-bd" id="side-bd"></div>
+    <div class="side-ft" id="side-ft">
+      <label><input type="checkbox" id="tg-p" checked> 人物锚点</label>
+      <label><input type="checkbox" id="tg-l" checked> 地名锚点</label>
+    </div>
+  </aside>
+
+  <section class="stage">
+    <div class="view on" id="v-read"><div class="readwrap" id="readwrap"></div></div>
+
+    <div class="view" id="v-persons">
+      <div class="yearbar">
+        <span class="lab">时点</span>
+        <span class="yr" id="yr">184 年</span>
+        <input type="range" id="yslider" min="184" max="280" value="184">
+        <label class="sw"><input type="checkbox" id="yfilter" checked> 只看该年在世/在任者</label>
+        <input type="text" id="psrch" placeholder="检索姓名 / 字 / 别称" style="width:170px;padding:4px 8px;border:1px solid var(--line);border-radius:3px;font-family:inherit;font-size:16.5px;background:#fffdf8">
+        <span class="grow"></span>
+        <span class="lab" id="pstat"></span>
+      </div>
+      <div style="flex:1;min-height:0;overflow-y:auto"><div class="libwrap" id="libwrap"></div></div>
+    </div>
+
+    <div class="view" id="v-places">
+      <div class="mapsplit">
+        <div class="plist left">
+          <div class="tabs" id="ptabs"><button data-t="place" class="on">地名</button><button data-t="battle">战役</button></div>
+          <div class="sr"><input id="pq" placeholder="检索地名 / 今地 / 战役"></div>
+          <div class="bd" id="plist"></div>
+        </div>
+        <div class="mapstage">
+          <svg id="bigmap" preserveAspectRatio="xMidYMid meet"></svg>
+          <div class="mzoom">
+            <button id="mzo" title="缩小">−</button>
+            <div class="lb" id="mzlb">1.00×</div>
+            <button id="mzi" title="放大">＋</button>
+            <button class="fit" id="mzfit" title="回到全图">全图</button>
+          </div>
+          <div class="bmpbar" id="bmpbar">
+            <b id="bmpname"></b><button class="btn" id="bmpplay">▶ 推演</button><span id="bmpn"></span><span class="d" id="bmpd"></span>
+          </div>
+          <div class="maphint">滚轮 / 双击 <b>缩放</b>　·　拖拽 <b>平移</b>　·　点击点位 <b>定位</b></div>
+        </div>
+        <div class="plist"><div class="dtcol">
+          <div class="dt" id="pdetail"><div class="e"><div class="emptyfig" style="height:128px;max-width:250px"></div>点击左侧列表（地名 / 战役页签）或地图上的点位，此处显示详情。</div></div>
+          <div class="dt pdfoot" id="pdfoot"></div>
+        </div></div>
+      </div>
+    </div>
+
+    <div class="view" id="v-power">
+      <div class="pwbar">
+        <span class="lab">时点</span>
+        <span class="yr" id="pwyr">190 年</span>
+        <input type="range" id="pwslider" min="184" max="280" value="190" step="1">
+        <span class="snap" id="pwsnap">据 190 年局势</span>
+        <button class="pbtn" id="pwplay">▶ 推演</button>
+        <span class="grow"></span>
+        <span class="lab" id="pwstat"></span>
+      </div>
+      <div class="pwsplit">
+        <div class="pwmap">
+          <svg id="pwmap" preserveAspectRatio="xMidYMid meet"></svg>
+          <div class="pwlegend" id="pwlegend"></div>
+        </div>
+        <div class="pwpane" id="pwpane"></div>
+      </div>
+    </div>
+
+    <div class="view" id="v-events"><div class="evsplit"><div class="evwrap" id="evwrap"></div><div class="evdt" id="evdt"></div></div></div>
+
+    <div class="view" id="v-graph">
+      <div class="yearbar">
+        <span class="lab">时点</span>
+        <span class="yr" id="gyyr">190 年</span>
+        <input type="range" id="gyslider" min="184" max="280" value="190"><span class="lab" id="gmode" style="display:none"></span>
+        <span class="gytype"><input type="checkbox" id="ge-lord" checked> 君臣</span>
+        <span class="gytype"><input type="checkbox" id="ge-foe" checked> 敌对</span>
+        <span class="gytype" style="opacity:.45" title="亲族边需 lord 级数据字段，暂未建：现有「亲族」时间片均无 lord_id">亲族（数据未建）</span>
+        <span class="grow"></span>
+        <span class="lab" id="gystat"></span>
+        <span id="gclear" title="取消选中，恢复全图">✕ 取消选中</span>
+      </div>
+      <div class="gwrap">
+        <svg id="graph" preserveAspectRatio="xMidYMid meet"></svg>
+        <div class="glegend">
+          <span class="li"><i class="ln lord"></i>君臣（实线）</span>
+          <span class="li"><i class="ln foe"></i>敌对（虚线，战役±1年）</span>
+          <span class="li"><i class="dot d1"></i>选中人物</span>
+          <span class="li"><i class="dot d2"></i>关联人物</span>
+        </div>
+        <div class="ghint">拖滑杆<b>切换时点</b>　·　单击节点/列表<b>看关系</b>　·　双击节点<b>弹人物卡</b>　·　拖拽/滚轮缩放　·　点空白取消</div>
+      </div>
+    </div>
+  </section>
+</main>
+
+<div class="mask" id="mask"><div class="card" id="card"></div></div>
+
+<div class="bmask" id="bmask">
+  <div class="btop"><b id="bmt"></b><span class="grow"></span>
+    <button class="btn" id="bmx">✕ 关闭</button></div>
+  <svg id="bmap" preserveAspectRatio="xMidYMid meet"></svg>
+  <div class="bdesc"><div style="flex:1"></div><button class="btn" id="bmp">▶ 推演战线</button><span id="bmpn"></span><div style="flex:1"></div><div id="bsd" style="position:absolute;left:18px;right:18px;bottom:2px;pointer-events:none"></div></div>
+</div>
+
+<script>/*__MAPCORE__*/</script>
+<script>const AVATARS = new Set(/*__AVATARS__*/[]);</script>
+<script>if (/[?&]shot=1/.test(location.search)) { const s = document.createElement('style');
+  s.textContent = '*,*::before,*::after{transition:none!important;animation:none!important}';
+  document.head.appendChild(s); }</script>
+<script>
+const DATA = /*__DATA__*/null;
+const C = DATA.canvas, GEO = DATA.geo;
+const MC = MapCore;
+const FCOL = {}; DATA.factions.forEach(f => FCOL[f.id] = f.color);
+const FNAME = {}; DATA.factions.forEach(f => FNAME[f.id] = f.name);
+const P = DATA.persons, L = DATA.places, EV = DATA.events, BT = DATA.battles;
+const $ = id => document.getElementById(id);
+/* el / esc 直接用内核里的同一份实现，避免两处行为分叉 */
+const el = MC.el, esc = MC.esc;
+const CN = ['一','二','三','四','五','六','七','八','九','十'];
+
+/* 锚点按回分组 */
+const byCh = {};
+DATA.mentions.forEach(m => { const c = Math.floor(m.passage_id / 1000); (byCh[c] = byCh[c] || []).push(m); });
+Object.values(byCh).forEach(a => a.sort((x, y) => x.passage_id - y.passage_id || x.start - y.start));
+
+let curCh = DATA.chapters[0].no, view = 'read';
+
+/* ================= 正文 ================= */
+function renderChapter(no, flashPassage) {
+  curCh = no;
+  const ch = DATA.chapters.find(c => c.no === no);
+  const ps = DATA.passages[no] || [];
+  const mps = {}; (byCh[no] || []).forEach(m => (mps[m.passage_id] = mps[m.passage_id] || []).push(m));
+
+  let h = `<div class="ch-title"><div class="no">第 ${CN[no-1] || no} 回</div>
+    <h1>${esc(ch ? ch.title : '')}</h1></div><div class="ch-rule"></div>`;
+
+  ps.forEach(p => {
+    const txt = p.text; let out = '', last = 0;
+    const ms = (mps[p.id] || []).slice().sort((a, b) => a.start - b.start);
+    ms.forEach(m => {
+      if (m.start < last) return;
+      out += esc(txt.slice(last, m.start));
+      // 两类标记互不替代：weak = anaphora（推定可解释，仍弹卡）；wl = is_weak_link（证据不足，不弹卡）
+      let cls = (m.entity_type === 'person' ? 'p' : 'l');
+      if (m.is_weak_link) cls += ' wl';
+      else if (m.source === 'anaphora') cls += ' weak';
+      const ttl = m.is_weak_link
+        ? ` title="证据不足的回指锚点，点击不展开人物卡"`
+        : m.source === 'anaphora'
+        ? ` title="按同段前文「${m.anaphora_basis || ''}」推定"` : '';
+      out += `<span class="ent ${cls}"${ttl} data-t="${m.entity_type}" data-id="${m.entity_id}"${
+        m.is_weak_link ? ' data-wl="1"' : ''}>${esc(txt.slice(m.start, m.end))}</span>`;
+      last = m.end;
+    });
+    out += esc(txt.slice(last));
+    h += `<p class="p${flashPassage === p.id ? ' flash' : ''}" id="p${p.id}">${out}</p>`;
+  });
+
+  const i = DATA.chapters.findIndex(c => c.no === no);
+  const prev = DATA.chapters[i - 1], next = DATA.chapters[i + 1];
+  h += `<div class="chnav">
+    <span class="${prev ? '' : 'dim'}" ${prev ? `onclick="goCh(${prev.no})"` : ''}>← ${prev ? esc(prev.title.split('　')[0]) : '已是首回'}</span>
+    <span class="${next ? '' : 'dim'}" ${next ? `onclick="goCh(${next.no})"` : ''}>${next ? esc(next.title.split('　')[0]) : '已是末回'} →</span></div>`;
+
+  $('readwrap').innerHTML = h;
+  $('readwrap').querySelectorAll('.ent').forEach(e => e.onclick = ev => {
+    if (e.dataset.wl) { showWeakTip(e, ev); return; }   // 弱链接：只提示，不弹全卡（D-7 口径）
+    openEntity(e.dataset.t, e.dataset.id);
+  });
+  renderChapterList();
+  if (flashPassage) {
+    const t = $('p' + flashPassage);
+    if (t) { t.scrollIntoView({ block: 'center', behavior: 'smooth' }); setTimeout(() => t.classList.remove('flash'), 2600); }
+  } else $('v-read').scrollTop = 0;
+}
+window.goCh = no => { setView('read'); renderChapter(no); };
+
+function renderChapterList() {
+  $('side-hd').textContent = '章节目录';
+  $('side-bd').innerHTML = DATA.chapters.map(c =>
+    `<div class="ch-item ${c.no === curCh ? 'on' : ''}" data-no="${c.no}"><b>${c.no}</b><span>${esc(c.title)}</span></div>`).join('');
+  $('side-bd').querySelectorAll('.ch-item').forEach(e => e.onclick = () => renderChapter(+e.dataset.no));
+  $('side-ft').style.display = '';
+}
+
+/* ================= 人物库 ================= */
+function primaryFaction(p) {
+  const t = (p.tenure || []).slice().sort((a, b) => b.end_year - a.end_year);
+  return t.length ? t[0].faction_id : 'han';
+}
+let pfFaction = null;   // P1-E：阵营筛选（null = 全部；再点一次同阵营取消）
+function personHit(p, kw) {
+  if (!kw) return true;
+  const k = kw.trim();
+  if (!k) return true;
+  return p.name.includes(k) || (p.courtesy || '').includes(k) ||
+    (p.display_aliases || []).some(a => a.includes(k)) ||
+    (p.match_surfaces || []).some(s => s.includes(k));
+}
+function renderPersons() {
+  const y = +$('yslider').value, filt = $('yfilter').checked, kw = ($('psrch').value || '').trim();
+  $('yr').textContent = y + ' 年';
+  $('side-hd').textContent = '阵营索引';
+  const nAll = filt ? countInAny(y, null) : Object.keys(P).length;
+  $('side-bd').innerHTML = `<div class="ch-item" data-f="*" style="${pfFaction ? '' : 'background:var(--on-bg);font-weight:600'}"
+      onclick="toggleFaction(null)">
+      <span style="width:9px;height:9px;border-radius:50%;background:var(--ink2);display:inline-block;margin-top:5px"></span>
+      <span>全部阵营</span><b style="margin-left:auto">${nAll}</b></div>`
+    + DATA.factions.map(f => {
+    const n = countIn(y, filt, f.id), on = pfFaction === f.id;
+    /* 开启年份过滤后隐藏该年无人的阵营（如 184 年的晋），不再灰显 */
+    if (filt && !n && pfFaction !== f.id) return '';
+    return `<div class="ch-item" data-f="${f.id}" style="${n ? '' : 'opacity:.38'}${on ? ';background:var(--on-bg);font-weight:600' : ''}"
+      onclick="toggleFaction('${f.id}')">
+      <span style="width:9px;height:9px;border-radius:50%;background:${f.color};display:inline-block;margin-top:5px"></span>
+      <span>${f.name}</span><b style="margin-left:auto">${n}</b></div>`;
+  }).join('');
+  $('side-ft').style.display = 'none';
+
+  let h = ''; let shown = 0;
+  DATA.factions.forEach(f => {
+    if (pfFaction && pfFaction !== f.id) return;
+    const groups = {}; let total = 0;
+    for (const id in P) {
+      const p = P[id];
+      if (!personHit(p, kw)) continue;
+      (p.tenure || []).forEach(t => {
+        if (t.faction_id !== f.id) return;
+        if (filt && !(y >= t.start_year && y <= t.end_year)) return;
+        (groups[t.role] = groups[t.role] || []).push({ p, t }); total++;
+      });
+    }
+    if (!total) return;
+    shown += total;
+    h += `<div class="fgroup" id="fg-${f.id}" style="--fc:${f.color}"><div class="fh"><span class="dot" style="background:${f.color}"></span>
+      <span class="nm">${f.name}</span><span class="cnt">${total} 个时间片${filt ? '（' + y + ' 年在任）' : ''}${kw ? '（检索中）' : ''}</span></div>`;
+    DATA.roles.forEach(r => {
+      const arr = groups[r]; if (!arr || !arr.length) return;
+      arr.sort((a, b) => b.t.confidence - a.t.confidence || a.p.name.localeCompare(b.p.name, 'zh'));
+      h += `<div class="rh">${r} · ${arr.length}</div><div class="grid">`;
+      arr.forEach(({ p, t }) => {
+        h += `<div class="pcard" data-id="${p.id}" style="--c:${FCOL[f.id]}">
+          <div class="ava" style="--c:${FCOL[f.id]}">${esc(p.name[0])}</div>
+          <div class="meta"><div class="nm">${esc(p.name)}${p.courtesy ? `<span style="font-size:15px;color:var(--ink3)"> ${esc(p.courtesy)}</span>` : ''}</div>
+          <div class="tz">${t.start_year}–${t.end_year}${t.title ? ' · ' + esc(String(t.title).split('、')[0]) : ''}</div></div></div>`;
+      });
+      h += '</div>';
+    });
+    h += '</div>';
+  });
+  $('libwrap').innerHTML = h || `<div class="empty">${kw ? `无匹配「${esc(kw)}」的人物。` : '该时点下没有已建档人物。<br>试试关闭「只看该年在任者」，或拖动时间轴。'}</div>`;
+  $('libwrap').querySelectorAll('.pcard').forEach(e => e.onclick = () => openEntity('person', e.dataset.id));
+  $('pstat').textContent = `已建档 ${Object.keys(P).length} 人 · 时间片 ${Object.values(P).reduce((s, p) => s + (p.tenure || []).length, 0)} 段${kw ? ` · 检索命中 ${shown}` : ''}`;
+}
+window.toggleFaction = fid => { pfFaction = pfFaction === fid ? null : fid; renderPersons(); };
+function countIn(y, filt, fid) {
+  let n = 0;
+  for (const id in P) (P[id].tenure || []).forEach(t => { if (t.faction_id === fid && (!filt || (y >= t.start_year && y <= t.end_year))) n++; });
+  return n;
+}
+function countInAny(y, fid) {
+  /* 该年「在世或在任」的人物数（在任按时间片，无时间片者按生卒年） */
+  let n = 0;
+  for (const id in P) {
+    const p = P[id];
+    let hit = false;
+    (p.tenure || []).forEach(t => { if ((fid == null || t.faction_id === fid) && y >= t.start_year && y <= t.end_year) hit = true; });
+    if (!hit && fid == null) {
+      const a = p.active_years || (p.birth != null || p.death != null ? [p.birth, p.death] : null);
+      if (a && a[0] != null && a[1] != null && y >= a[0] && y <= a[1]) hit = true;
+    }
+    if (hit) n++;
+  }
+  return n;
+}
+
+/* ================= 地图 =================
+   底图 / 注记分级 / 缩放 / 锁定视图的唯一实现在 MapCore（app/map_core.js）。
+   这里只保留阅读器专有的东西：点位层、详情面板、锁定式小图与战线推进。 */
+const zoomFor = p => MC.zoomFor(p.type, DATA.scale_by_type);
+
+/* 卡片小图取景：按「容器宽高比」直接算取景框，再交给 MapCore 分级注记。
+   旧实现是「画布比例 + preserveAspectRatio=slice」：745×230 的扁条里要把画布
+   1.17:1 的框铺满，上下被裁掉约三分之二，靶心按画布比例算出的 pz 也被低估，
+   14px 的红圈实际胀到 30px+。这里所见即所取：不裁切、不留边、pz 与屏幕 1:1。
+   wantW 给定时按该画布宽度取景（地点卡按地名类型定倍率），否则按对象外接框自适应。 */
+function cardFrame(svg, xs, ys, opt) {
+  opt = opt || {};
+  const W = svg.clientWidth || 720, H = svg.clientHeight || 230;
+  const pad = opt.pad || 1.14, minW = opt.minW || 260;
+  const x0 = Math.min(...xs), x1 = Math.max(...xs), y0 = Math.min(...ys), y1 = Math.max(...ys);
+  let vw = opt.wantW || 0;
+  if (!vw) {                            /* 自适应：两轴各算一次所需宽度，取大者 */
+    const sx = Math.max(x1 - x0, minW) * pad;
+    const sy = Math.max(y1 - y0, minW * H / W) * pad;
+    vw = sx / sy > W / H ? sx : sy * W / H;
+  }
+  vw = Math.max(vw, minW);
+  let vh = vw * H / W;
+  if (vw > C.w) { vw = C.w; vh = vw * H / W; }
+  if (vh > C.h) { vh = C.h; vw = vh * W / H; }
+  /* 取景框夹回画布内：贴近边界的点不再居中，但绝不把画布外的空白拉进来 */
+  const cx = Math.min(Math.max((x0 + x1) / 2, vw / 2), C.w - vw / 2);
+  const cy = Math.min(Math.max((y0 + y1) / 2, vh / 2), C.h - vh / 2);
+  svg.setAttribute('viewBox',
+    (cx - vw / 2).toFixed(1) + ' ' + (cy - vh / 2).toFixed(1) + ' ' + vw.toFixed(1) + ' ' + vh.toFixed(1));
+  svg.setAttribute('preserveAspectRatio', 'xMidYMid meet');
+  /* 拿取景框当「画布」喂给 decorScale：meet 且宽高比已对齐容器，
+     displayZoom 算出的 min(W/vw, H/vh) 就是屏幕上真实倍率，字号才不会失真 */
+  MC.decorScale(svg._refs, svg, { w: vw, h: vh }, 1);
+  MC.lockZoom(svg);
+  return MC.displayZoom(svg, { w: vw, h: vh }, 1);
+}
+function renderPlaces() {
+  stopBattleMapPlay();
+  $('pdfoot').innerHTML = `共 ${Object.keys(L).length} 个点位<br>已在本 ${DATA.chapters.length} 回中出现 ${DATA.stats.places_linked} 个<br>
+    <span style="color:var(--ink3)">地图可自由缩放，点击点位即定位</span>`;
+  const svg = $('bigmap');
+  svg._refs = MC.drawBase(svg, C, GEO);
+  /* 州界路径按名称索引（底图按 zhoupoly 顺序生成，每条 2 个 path：晕底 + 虚线） */
+  const zPoly = new Map();
+  const zPaths = Array.from(svg._refs.zhouPoly.children);
+  (GEO.zhoupoly || []).forEach((poly, i) => {
+    zPoly.set(poly.name, { halo: zPaths[i * 2], line: zPaths[i * 2 + 1] });
+  });
+  /* 郡界路径按郡名索引（底图每郡一个 <g data-jun>，内含主环+飞地环若干 path） */
+  const jPoly = new Map();
+  if (svg._refs.junPoly) Array.from(svg._refs.junPoly.children).forEach(g => {
+    jPoly.set(g.dataset.jun, Array.from(g.children));
+  });
+  /* 郡名别名表：地名页用简称（「颍川」），底图用全称（「颍川郡」）——两边都能查 */
+  const junAlias = new Map();
+  jPoly.forEach((_v, full) => {
+    const short = full.replace(/(郡|国|尹|属国)$/, '');
+    junAlias.set(full, full);
+    if (short !== full && !jPoly.has(short)) junAlias.set(short, full);
+  });
+  const gP = el('g', { style: 'display:none' });   /* 红点默认隐藏：选中地名后才出现一个 */
+  const dots = new Map();
+  Object.values(L).forEach(p => {
+    if (p.pixel_x == null) return;
+    const c = el('circle', { cx: p.pixel_x, cy: p.pixel_y, r: 3.4, fill: p.mention_count ? '#9c2b1f' : '#b3a690', style: 'cursor:pointer' });
+    c._r = p.mention_count ? 5 : 3.4;
+    c.onclick = e => { e.stopPropagation(); selectPlaceOnMap(p); };
+    gP.appendChild(c); dots.set(p.id, c);
+  });
+  const gF = el('g', {});
+  svg.append(gP, gF);
+  /* 可交互视图：滚轮/双击/拖拽/按钮由内核统一绑定；每次进入本视图重建，状态复位到全图 */
+  MV = MC.createView(svg, C, {
+    onApply: (V, pz) => {
+      if (MV) MV.pz = pz;
+      dots.forEach(c => c.setAttribute('r', (c._r || 3.4) / pz));
+      MC.decorScale(svg._refs, svg, C, V.s);
+      if (BM && BM.gPath) { MC.applySpacing(BM.gPath, pz); MC.applySpacing(BM.gLive, pz); }
+      if (MV && MV.focus) MV.focus.place();
+      const lb = $('mzlb'); if (lb) lb.textContent = V.s.toFixed(2) + '×';
+    }
+  });
+  MV.dots = dots;
+  MV.dotsWrap = gP;
+  MV.svgZhouLb = svg._refs.zhouLb;
+  MV.zPoly = zPoly;
+  MV.zHi = null;      /* 当前高亮的州 {name, halo, line} */
+  MV.jPoly = jPoly;
+  MV.junAlias = junAlias;
+  MV.jHi = null;      /* 当前高亮的郡 {name, paths} */
+  MV.svgJunLb = svg._refs.junLb;
+  /* 跨区域地理：名字 → 注记坐标（画名字用） */
+  MV.rPt = new Map((DATA.geo.regionpoly || []).map(r => {
+    const hit = Object.values(L).find(q => q.name === r.n && q.pixel_x != null);
+    return [r.n, hit ? { x: hit.pixel_x, y: hit.pixel_y } : null];
+  }));
+  MV.rHi = null;
+  MV.focus = MC.makeFocus(gF, C, () => (MV && MV.pz) || 1, svg._refs);   /* 选中地名：靶心 + 名牌 */
+  MV.focus.place();
+  MV.bind({ zi: 'mzi', zo: 'mzo' });
+  $('mzfit').onclick = () => MV.animateTo(C.w / 2, C.h / 2, 1);
+  MV.apply();
+  renderPList();
+}
+
+/* ===== 地图视图的缩放状态（仅此一处可缩放）：状态机交给 MapCore.createView ===== */
+let MV = null;
+let BM = null;            /* 主图上正在推演的战役 {b,gPath,gLive,N,XY,i,timer,fitZ} */
+let ptTab = 'place';      /* 左列表页签：place=地名 battle=战役 */
+let ptSelId = null;       /* 地名词条当前选中 id（树高亮用） */
+function applyMV() { if (MV) MV.apply(); }
+function mvTo(cx, cy, s, dur) { if (MV) MV.animateTo(cx, cy, s, dur); }
+/* 州界高亮：底图原州界描粗变色 + 州名加重放大；其余州界轻微淡出，凸显选区 */
+function zhouHighlight(name) {
+  const z = MV && MV.zPoly ? MV.zPoly.get(name) : null;
+  if (!z) return;
+  zhouClearHighlight();
+  MV.zHi = { name: name };
+  (GEO.zhoupoly || []).forEach(poly => {
+    const q = MV.zPoly.get(poly.name);
+    if (!q) return;
+    const on = poly.name === name;
+    q.line.setAttribute('stroke', on ? '#7d1f16' : '#8b5a9e');
+    q.line.setAttribute('stroke-width', on ? 2.4 : 1.1);
+    q.line.setAttribute('stroke-dasharray', on ? 'none' : '7 6');
+    q.line.setAttribute('opacity', on ? 1 : .26);
+    q.halo.setAttribute('stroke', on ? '#f6e3c8' : '#fdf8ea');
+    q.halo.setAttribute('opacity', on ? .85 : .16);
+    q.halo.setAttribute('stroke-width', on ? 6 : 3);
+  });
+  const ts = MV.svgZhouLb ? MV.svgZhouLb.querySelectorAll('text[data-zhou]') : [];
+  for (let i = 0; i < ts.length; i++) {
+    const on = ts[i].textContent === name;
+    ts[i].setAttribute('fill', on ? '#7d1f16' : '#5d3f6b');
+    ts[i].setAttribute('font-size', on ? 34 : 26);
+    ts[i].setAttribute('font-weight', on ? 700 : 400);
+    ts[i].setAttribute('opacity', on ? 1 : .5);
+  }
+}
+function zhouClearHighlight() {
+  if (!MV || !MV.zHi || !MV.zPoly) return;
+  MV.zHi = null;
+  MV.zPoly.forEach(q => {
+    q.line.setAttribute('stroke', '#8b5a9e');
+    q.line.setAttribute('stroke-width', 1.1);
+    q.line.setAttribute('stroke-dasharray', '7 6');
+    q.line.setAttribute('opacity', .62);
+    q.halo.setAttribute('stroke', '#fdf8ea');
+    q.halo.setAttribute('stroke-width', 3);
+    q.halo.setAttribute('opacity', .3);
+  });
+  const ts = MV.svgZhouLb ? MV.svgZhouLb.querySelectorAll('text[data-zhou]') : [];
+  for (let i = 0; i < ts.length; i++) {
+    ts[i].setAttribute('fill', '#5d3f6b');
+    ts[i].setAttribute('font-size', 26);
+    ts[i].setAttribute('font-weight', 400);
+    ts[i].setAttribute('opacity', .9);
+  }
+  if (typeof MC.decorScale === 'function' && MV.pz) MC.decorScale($('bigmap')._refs, $('bigmap'), C, MV.pz);
+}
+
+/* 郡界高亮：与州同一套「描粗变色 + 名字加重」的语言，但整体弱一档——
+   州是 #7d1f16 实线 2.4px + 6px 晕底 + 字 34；郡是 #a35a24 实线 1.6px + 2.6px 淡晕 + 字 18。
+   同屏若已高亮某州，郡高亮不覆盖州，二者可并存（州=背景行政域，郡=焦点分区）。 */
+function junHighlight(name) {
+  if (!MV || !MV.jPoly) return;
+  const full = MV.junAlias.get(name) || (MV.junAlias.has(name) ? name : null);
+  if (!full || !MV.jPoly.has(full)) return;
+  junClearHighlight();
+  MV.jHi = { name: full };
+  MV.jPoly.forEach((paths, k) => {
+    const on = k === full;
+    paths.forEach(p => {
+      p.setAttribute('stroke', on ? '#c2641f' : '#5c6f8e');
+      p.setAttribute('stroke-width', on ? 3.2 : 0.75);
+      p.setAttribute('stroke-dasharray', on ? 'none' : '3 3.5');
+      p.setAttribute('opacity', on ? 1 : .28);
+    });
+  });
+  const ts = MV.svgJunLb ? MV.svgJunLb.querySelectorAll('text') : [];
+  for (let i = 0; i < ts.length; i++) {
+    const on = ts[i].dataset.junlb === full;
+    ts[i].setAttribute('fill', on ? '#c2641f' : '#4f6280');
+    ts[i].setAttribute('font-weight', on ? 700 : 400);
+    ts[i].setAttribute('opacity', on ? 1 : .45);
+    ts[i]._fs = on ? 22 : 13;
+    if (MV.pz) ts[i].setAttribute('font-size', (ts[i]._fs / MV.pz).toFixed(3));
+  }
+  /* 郡高亮时强制显名：除设 opacity 外还打 force 标记，
+     让 decorScale 在后续缩放帧里不把这个状态覆盖回 0。 */
+  if (MV.svgJunLb) { MV.svgJunLb.dataset.force = '1'; MV.svgJunLb.setAttribute('opacity', 1); }
+}
+function junClearHighlight() {
+  if (!MV || !MV.jHi || !MV.jPoly) return;
+  MV.jHi = null;
+  MV.jPoly.forEach(paths => paths.forEach(p => {
+    p.setAttribute('stroke', '#5c6f8e');
+    p.setAttribute('stroke-width', 0.75);
+    p.setAttribute('stroke-dasharray', '3 3.5');
+    p.setAttribute('opacity', .42);
+  }));
+  const ts = MV.svgJunLb ? MV.svgJunLb.querySelectorAll('text') : [];
+  for (let i = 0; i < ts.length; i++) {
+    ts[i].setAttribute('fill', '#4f6280');
+    ts[i].setAttribute('font-weight', 400);
+    ts[i].setAttribute('opacity', .82);
+    ts[i]._fs = 13;
+  }
+  if (MV.svgJunLb) { delete MV.svgJunLb.dataset.force; MV.svgJunLb.setAttribute('opacity', 0); }
+  if (typeof MC.decorScale === 'function' && MV.pz) MC.decorScale($('bigmap')._refs, $('bigmap'), C, MV.pz);
+}
+/* 行政界线高亮统一复位（切地名/切战役/重绘时调用，避免残留） */
+function clearAdminHighlight() { zhouClearHighlight(); junClearHighlight(); regionClearHighlight(); riverClearHighlight(); }
+
+/* 跨区域地理高亮：江东/淮南是地理分区而非行政区，视觉语言必须与州（红实线）、
+   郡（橙实线）都拉开——用青灰 45° 斜纹填充 + 青虚线界 + 青色地名加重。
+   区域轮廓来自相关郡面的并集（build_regionpoly.py），只作示意。 */
+function regionHighlight(name) {
+  if (!MV) return;
+  regionClearHighlight();
+  const r = (DATA.geo.regionpoly || []).find(x => x.n === name);
+  if (!r) return;
+  const base = $('bigmap')._refs && $('bigmap')._refs.base;
+  if (!base) return;
+  const g = el('g', { 'pointer-events': 'none' });
+  [r.p].concat(r.e || []).forEach(ring => {
+    if (!ring || ring.length < 3) return;
+    g.appendChild(el('path', {
+      d: MC.dPoly(ring), fill: 'none', stroke: '#2f5153', 'stroke-width': 2.4,
+      'stroke-dasharray': '12 6', 'stroke-linejoin': 'round', opacity: .98,
+      'vector-effect': 'non-scaling-stroke'
+    }));
+    g.appendChild(el('path', {
+      d: MC.dPoly(ring), fill: 'url(#hatchRegion)', stroke: 'none', opacity: 1
+    }));
+  });
+  base.appendChild(g);
+  /* 名字加重：底图没有常驻分区注记，用点位/外接框中心画一个青色大字（同州名高亮字号） */
+  const p0 = MV.rPt && MV.rPt.get(name);
+  let lx, ly;
+  if (p0) { lx = p0.x; ly = p0.y; }
+  else {
+    const xs = r.p.map(q => q[0]), ys = r.p.map(q => q[1]);
+    lx = (Math.min(...xs) + Math.max(...xs)) / 2;
+    ly = (Math.min(...ys) + Math.max(...ys)) / 2;
+  }
+  const t = el('text', {
+    x: lx, y: ly, 'text-anchor': 'middle', fill: '#2f5153', 'font-size': 34,
+    'font-family': 'serif', opacity: 1, 'letter-spacing': 4, 'font-weight': 700,
+    stroke: '#f7f2e6', 'stroke-width': 2, 'paint-order': 'stroke', 'stroke-linejoin': 'round',
+    'vector-effect': 'non-scaling-stroke'
+  });
+  t.textContent = name;
+  g.appendChild(t);
+  MV.rHi = { name, g, t };
+}
+/* 树里点纯地理分区（无点位卡）：高亮 + 镜头对准分区外接框 */
+function regionFocus(name) {
+  if (!MV) return;
+  const r = (DATA.geo.regionpoly || []).find(x => x.n === name);
+  if (!r) return;
+  clearAdminHighlight();
+  MV.dots && MV.dots.forEach(c => { c.style.display = 'none'; });
+  regionHighlight(name);
+  const xs = r.p.map(q => q[0]), ys = r.p.map(q => q[1]);
+  const span = Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...ys) - Math.min(...ys), 60);
+  mvTo((Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2,
+       Math.max(1.4, Math.min(C.w * .6 / span, C.h * .6 / span, 2.4)));
+}
+
+/* ===== 跨州水系高亮：整条河加粗描蓝 + 浅蓝晕边，与州/郡/分区都不同语言 =====
+   opt.detail === false 时不动右侧详情面板（由 selectPlaceOnMap 自己写更全的地名信息）。 */
+function riverHighlight(name, opt) {
+  opt = opt || {};
+  if (!MV) return;
+  riverClearHighlight();
+  const segs = (DATA.geo.rivers || []).filter(r => r.name === name);
+  if (!segs.length) return;
+  clearAdminHighlight();
+  const base = $('bigmap')._refs && $('bigmap')._refs.base;
+  if (!base) return;
+  const g = el('g', { 'pointer-events': 'none' });
+  const xs = [], ys = [];
+  segs.forEach(r => {
+    r.pts.forEach(p => { xs.push(p[0]); ys.push(p[1]); });
+    /* 宽度按水系自身线宽放大（不写 non-scaling-stroke）：底图河宽是画布单位、
+       随缩放变粗，高亮若固定 2.6 屏幕像素，放大后反而比底图河线更细。 */
+    const w = r.w || 2;
+    g.appendChild(el('path', { d: MC.dLine(r.pts), fill: 'none', stroke: '#7fb4d0',
+      'stroke-width': (w * 3).toFixed(2), opacity: .30, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
+    g.appendChild(el('path', { d: MC.dLine(r.pts), fill: 'none', stroke: '#15659e',
+      'stroke-width': (w * 1.5).toFixed(2), opacity: .95, 'stroke-linecap': 'round', 'stroke-linejoin': 'round' }));
+  });
+  base.appendChild(g);
+  MV.rivHi = { name, g };
+  MV.dots && MV.dots.forEach(c => { c.style.display = 'none'; });
+  if (MV.focus) MV.focus.clear();
+  /* 取景按水系自身跨度自适应：旧版用 span 的 .6 再夹到 [1.2, 2.2]——长江贴着 1.2
+     露不出全貌，汉水被 2.2 死死按住，在整张图上只是一小段。 */
+  mvTo((Math.min(...xs) + Math.max(...xs)) / 2, (Math.min(...ys) + Math.max(...ys)) / 2,
+       MC.fitZoom(C, xs, ys, { pad: .86, minSpan: 320, maxZ: 6 }));
+  /* 详情面板给一条水系说明（多数水系没有地点卡） */
+  if (opt.detail !== false)
+    $('pdetail').innerHTML = `<h5>${esc(name)}<span>水系</span></h5><div class="n">已用蓝色高亮整条「${esc(name)}」的干流走向（底图数据所画段落）。跨州大河是汉末群雄割据的天然分界。</div>`;
+}
+function riverClearHighlight() {
+  if (!MV || !MV.rivHi) return;
+  MV.rivHi.g.remove();
+  MV.rivHi = null;
+}
+
+/* ===== 无地点卡的郡：点郡名 → 高亮郡界与郡名（与州/分区同一套语言） ===== */
+function junFocus(nm) {
+  if (!MV || !MV.jPoly) return;
+  const full = (MV.junAlias && MV.junAlias.get(nm)) || nm;
+  if (!MV.jPoly.has(full)) return;
+  zhouClearHighlight(); regionClearHighlight();
+  junHighlight(nm);
+  const jp = (GEO.junpoly || []).find(j => j.n === full);
+  if (jp && jp.s) mvTo(jp.s[0], jp.s[1], 2.6);
+}
+function regionClearHighlight() {
+  if (!MV || !MV.rHi) return;
+  MV.rHi.g.remove();
+  MV.rHi = null;
+}
+
+/* ===== 行政层级判定：州 / 郡（供高亮分支用） =====
+   不能只看 p.type：州的点位类型有「州域」「州治」两种（冀州是州域、徐州是州治），
+   按 type 判会漏。改为三路取证，任一命中即认：
+     1) 名字直接就是底图上的州名（冀州/徐州…）
+     2) 地名树里该 id 的 level==='zhou'
+     3) 该点位 modern_name/古属 里带「州」且去掉「州」后是州名
+   郡同理：名字去掉「郡/国/尹」后缀后能在郡界索引里查到。 */
+const zhouNameSet = new Set((DATA.geo.zhoupoly || []).map(z => z.name));
+/* PT / ptLevelById 在文件后半段才声明，这里必须惰性取用：
+   顶层立即引用会撞 TDZ（Cannot access 'PT' before initialization），
+   而 zhouOf/junOf 可能在初始化阶段就被调用。 */
+let _ptLv = null, _ptJun = null;
+function ptMaps() {
+  if (!_ptLv) {
+    _ptLv = new Map(PT.map(it => [it.id, it.level]));
+    _ptJun = new Map(PT.map(it => [it.id, it.jun || null]));
+  }
+  return [_ptLv, _ptJun];
+}
+function zhouOf(p) {
+  if (!p) return null;
+  if (zhouNameSet.has(p.name)) return p.name;
+  const [lv] = ptMaps();
+  if (lv.get(p.id) === 'zhou') {
+    /* 别称州（江东/淮南等已迁出州级，这里只兜真正的州节点） */
+    const n = p.name.replace(/州$/, '') + '州';
+    return zhouNameSet.has(n) ? n : null;
+  }
+  return null;
+}
+/* 跨区域地理（江东/淮南）：地名树 level==='region' 的节点 */
+function regionOf(p) {
+  if (!p) return null;
+  const [lv] = ptMaps();
+  return lv.get(p.id) === 'region' ? p.name : null;
+}
+function junOf(p) {
+  if (!p) return null;
+  const [lv, jm] = ptMaps();
+  /* 郡行（合成条目 __jun_*，无地点卡）→ 郡级，点它亮郡界。
+     同名郡治县（颍川/巨鹿/中山…）已独立成 xian 条目，走下方县点分支 → 落红点。 */
+  if (lv.get(p.id) === 'jun') return p.name;
+  /* 点位类型为郡治/郡域：古属字段形如「豫州·颍川郡」，取郡段 */
+  if (p.type === '郡治' || p.type === '郡域') {
+    /* 有地点卡的郡治县：定位这个县，不亮整个郡 */
+    if (p.pixel_x != null) return null;
+    const m = String(p.ancient_admin || '').split(/[·・\/]/).map(s => s.trim()).find(s => /(郡|国|尹)$/.test(s));
+    if (m) return m;
+    const jn = jm.get(p.id);
+    if (jn) return jn;
+    return p.name;
+  }
+  return null;
+}
+
+/* 点击点位：只缩放定位 + 右侧详情，不弹卡片 */
+function selectPlaceOnMap(p) {
+  if (p.pixel_x == null) return;
+  stopBattleMapPlay();
+  if (MV.focus) MV.focus.clear();
+  if (MV.dots) MV.dots.forEach(c => { c.style.display = 'none'; });   /* 一次只留一个红点 */
+  /* 州级：不再依赖 type==='州域'。徐州等州治点位 type 是「州治」，旧判据把它们挡在门外，
+     所以点冀州能亮、点徐州不能。改为「名字能在底图州界索引里查到」即视为州级——
+     底图 zhoupoly 才是唯一事实来源。郡级同样按「名字能在郡界索引里查到」判定。 */
+  const zhouName = zhouOf(p);
+  const junName = junOf(p);
+  const regName = regionOf(p);
+  const zHit = !!(zhouName && MV.zPoly && MV.zPoly.has(zhouName));
+  const jFull = junName ? (MV.junAlias.get(junName) || junName) : null;
+  const jHit = !zHit && !!(jFull && MV.jPoly && MV.jPoly.has(jFull));
+  const rHit = !zHit && !jHit && !!(regName && (DATA.geo.regionpoly || []).some(r => r.n === regName));
+  /* 水系地名（长江/汉水/淯水…）：整条水系高亮 + 自适应取景，绝不落红点。
+     放在最前：这些点位在底图州/郡索引里查不到，会掉进 else 分支变成一个红点。 */
+  const wt = p.type === '水系' ? waterSegs(p.name) : [];
+  if (wt.length) {
+    clearAdminHighlight();
+    if (MV.dotsWrap) MV.dotsWrap.style.display = 'none';
+    riverHighlight(p.name, { detail: false });
+  } else if (rHit) {
+    /* 跨区域地理优先于州判定：region 节点的名字不是州名不会撞 zHit，但
+       要把之前高亮的州/郡清掉——分区与行政界线不同时亮，避免语义混淆 */
+    clearAdminHighlight();
+    regionHighlight(regName);
+    if (MV.dotsWrap) MV.dotsWrap.style.display = 'none';
+    const r = (DATA.geo.regionpoly || []).find(x => x.n === regName);
+    /* 镜头对准区域质心，比例按区域跨度自适应（江东跨得远拉到 1.6×，淮南窄推到 2.4×） */
+    /* 镜头对准区域外接框中心（质心会被突出部带偏），比例按区域跨度自适应 */
+    const xs = r.p.map(q => q[0]), ys = r.p.map(q => q[1]);
+    const cx = (Math.min(...xs) + Math.max(...xs)) / 2;
+    const cy = (Math.min(...ys) + Math.max(...ys)) / 2;
+    const span = Math.max(Math.max(...xs) - Math.min(...xs), Math.max(...ys) - Math.min(...ys), 60);
+    mvTo(cx, cy, Math.max(1.4, Math.min(C.w * .6 / span, C.h * .6 / span, 2.4)));
+  } else if (zHit) {
+    riverClearHighlight(); regionClearHighlight();
+    zhouHighlight(zhouName);
+    junClearHighlight();
+    if (MV.dotsWrap) MV.dotsWrap.style.display = 'none';
+    const z = GEO.zhou.find(z => z.name === zhouName) || { x: p.pixel_x, y: p.pixel_y };
+    mvTo(z.x, z.y, 1.9);
+  } else if (jHit) {
+    /* 郡属州与当前高亮州一致才保留州界（如兖州亮着再点陈留郡），
+       否则清掉——上一轮点徐州再点颍川（豫州），徐州亮着纯属误导 */
+    riverClearHighlight(); regionClearHighlight();
+    const jp0 = (GEO.junpoly || []).find(j => j.n === jFull);
+    if (MV.zHi && (!jp0 || jp0.z !== MV.zHi.name)) zhouClearHighlight();
+    junHighlight(junName);
+    if (MV.dotsWrap) MV.dotsWrap.style.display = 'none';
+    const jp = (GEO.junpoly || []).find(j => j.n === jFull);
+    const c = jp ? jp.s : [p.pixel_x, p.pixel_y];
+    mvTo(c[0], c[1], 2.6);
+  } else {
+    clearAdminHighlight();
+    mvTo(p.pixel_x, p.pixel_y, zoomFor(p));
+    if (MV.dotsWrap) MV.dotsWrap.style.display = '';
+    const d = MV.dots && MV.dots.get(p.id); if (d) { d.style.display = ''; d.setAttribute('fill', '#9c2b1f'); }
+    if (MV.focus) MV.focus.add(p.pixel_x, p.pixel_y, p.name, '#9c2b1f');
+  }
+  $('pdetail').innerHTML = `
+    <h5>${esc(p.name)}<span>${esc(p.type)}</span></h5>
+    <div class="r">
+      <span class="k">今地</span><span class="v">${esc(p.modern_name || '—')}</span>
+      <span class="k">时属</span><span class="v">${esc(p.ancient_admin || '—')}</span>
+      <span class="k">经纬</span><span class="v">${p.lng.toFixed(2)}°E, ${p.lat.toFixed(2)}°N <span class="lit">${esc(p.coord_precision || '')}</span></span>
+      <span class="k">首见</span><span class="v">${p.first_chapter ? '第 ' + p.first_chapter + ' 回' : '—'}</span>
+      <span class="k">提及</span><span class="v">${p.mention_count || 0} 处</span>
+    </div>
+    <div class="n">${wt.length
+      ? '已用蓝色高亮整条「' + esc(p.name) + '」的干流走向（底图数据所画段落），取景按水系跨度自适应。跨州大河是汉末群雄割据的天然分界。'
+      : zHit
+      ? '已高亮该州州界与州名（底图原有注记），压暗其余州界以便辨认。可继续缩放或拖拽查看。'
+      : jHit
+        ? '已高亮该郡郡界与郡名，其余郡界压暗。郡界按治所最近邻剖分近似生成，只作分区示意。'
+        : rHit
+          ? '「' + esc(p.name) + '」是地理分区而非行政区，已用青色斜纹标出大致范围（由相关郡域并集近似，非精确界线）。'
+          : '已定位，比例 ' + zoomFor(p).toFixed(1) + '×。可继续缩放或拖拽查看周边。'}</div>`;
+  ptSelId = p.id;
+  $('plist').querySelectorAll('.row.on, .it.on').forEach(e => e.classList.remove('on'));
+  const it = $('plist').querySelector(`.row[data-pid="${p.id}"]`) || $('plist').querySelector(`.it[data-id="${p.id}"]`);
+  if (it) {
+    it.classList.add('on');
+    /* 逐级展开祖先，保证选中项可见 */
+    let par = it.parentElement;
+    it.scrollIntoView({ block: 'nearest' });
+  } else {
+    /* 命中被折叠的项：改由外部展开 */
+  }
+}
+function focusPlaceOnMap(p) {
+  if (p.pixel_x == null) return;
+  selectPlaceOnMap(p);
+}
+function renderPList() {
+  const kw = ($('pq').value || '').trim();
+  if (ptTab === 'battle') {
+    const arr = BT.filter(b => !kw || b.name.includes(kw) || (b.place_name || '').includes(kw) ||
+      ((EV.find(e => e.id === b.event_id) || { name: '' }).name || '').includes(kw));
+    $('plist').innerHTML = arr.map(b =>
+      `<div class="it" data-bid="${b.id}">
+        <div><span>${esc(b.name)}</span><span class="sub">${esc(b.place_name || '')}</span></div>
+        <span class="ty">${b.year} 年</span></div>`).join('') || '<div class="empty" style="font-size:16px">无匹配</div>';
+    $('plist').querySelectorAll('.it').forEach(e => e.onclick = () => selectBattleOnMap(BT.find(x => x.id === e.dataset.bid)));
+    return;
+  }
+  renderPTree(kw);
+}
+
+/* ===== 地名三级树：州 → 郡 → 县 =====
+   层级来自 DATA.place_tree（scripts/build_place_hierarchy.py 生成）：
+   · 州治/郡治置顶并标注，其余按「有提及 → 首见回数 → 名称」排序
+   · 非行政地名（山、关隘、战场…）一律挂在县级，斜体 + 虚线框与行政县区分
+   · 跨州水系（48 条）单列「跨州水系」组；跨郡地理名词单列「地区」组
+   折叠状态记在 ptOpen，切页签/检索都不丢。 */
+const PT = (DATA.place_tree && DATA.place_tree.items) || [];
+const ptOpen = new Set();          /* 展开的节点 key：'z:冀州' / 'j:冀州/魏郡'；默认全部收起 */
+
+function ptBuild() {
+  const nodes = new Map();
+  PT.forEach(it => {
+    /* 合成条目（州治县等）不在地点卡索引 L 里，用层级条目自带的像素坐标构造轻量 p */
+    let p = L[it.id];
+    if (!p && it.pixel_x != null) {
+      p = { id: it.id, name: it.name, type: it.type, pixel_x: it.pixel_x, pixel_y: it.pixel_y,
+            lng: it.lng, lat: it.lat, mention_count: 0, first_chapter: null, modern_name: '' };
+      PT_SYNTH.set(it.id, p);
+    }
+    if (!p) p = {};
+    const rec = { it, p, kids: [] };
+    nodes.set(it.id, rec);
+  });
+  const byZhou = new Map(), orphans = [], regions = [];
+  PT.forEach(it => {
+    const rec = nodes.get(it.id);
+    if (it.level === 'zhou') return;
+    if (it.level === 'region') { regions.push(rec); return; }   /* 江东/淮南：地理分区，独立成组 */
+    if (!it.zhou) { orphans.push(rec); return; }
+    if (!byZhou.has(it.zhou)) byZhou.set(it.zhou, { jun: new Map(), direct: [] });
+    const z = byZhou.get(it.zhou);
+    if (it.level === 'jun') {
+      if (!z.jun.has(it.jun)) z.jun.set(it.jun, { rec, kids: [] });
+    } else if (it.jun) {
+      if (!z.jun.has(it.jun)) z.jun.set(it.jun, { rec: null, kids: [] });
+      z.jun.get(it.jun).kids.push(rec);
+    } else {
+      z.direct.push(rec);       /* 州内无郡归属的点位，直接挂州下 */
+    }
+  });
+  /* 郡全集：三国时期实存的郡国（junpoly 底表+新置）全部列入树中，
+     即使该书没有提及任何下辖县点（如谯郡、上庸）也能点郡名亮郡界 */
+  (DATA.geo.junpoly || []).forEach(j => {
+    if (!byZhou.has(j.z)) byZhou.set(j.z, { jun: new Map(), direct: [] });
+    if (!byZhou.get(j.z).jun.has(j.n)) byZhou.get(j.z).jun.set(j.n, { rec: null, kids: [] });
+  });
+  const zhouRecs = PT.filter(it => it.level === 'zhou').map(it => nodes.get(it.id));
+  /* 州全集：没有州域地点卡的州（如豫州）也要出现在树里——
+     郡、县都挂在州名下，缺州行会整枝丢失。用 meta.juns 补合成州行。 */
+  const META_Z = (DATA.place_tree.meta && DATA.place_tree.meta.juns) || {};
+  const haveZ = new Set(zhouRecs.map(z => z.it.zhou || z.p.name || z.it.name));
+  Object.keys(META_Z).forEach(zn => {
+    if (haveZ.has(zn) || !zhouNameSet.has(zn)) return;   /* 只补真实州（meta 里混有把郡名当州名的脏键） */
+    zhouRecs.push({ it: { id: '', name: zn, level: 'zhou', zhou: zn, seat_of: null, kind: 'admin' },
+                    p: { name: zn }, kids: [] });
+  });
+  /* 跨州水系全集：底图上画了的水系全部列出（48 条），点击高亮完整水系而非红点 */
+  const riverSeen = new Map();
+  (DATA.geo.rivers || []).forEach(r => {
+    if (r.name && (!riverSeen.has(r.name) || r.pts.length > riverSeen.get(r.name).length)) riverSeen.set(r.name, r);
+  });
+  const orphanNames = new Set(orphans.map(o => o.p.name || o.it.name));
+  const mkRiver = nm => orphanNames.has(nm)
+    ? orphans.find(o => (o.p.name || o.it.name) === nm)
+    : { it: { id: '', name: nm, level: 'river', seat_of: null, kind: 'nonadmin' },
+        p: { name: nm }, kids: [] };
+  const rivers = ['黄河', '长江'].filter(nm => riverSeen.has(nm)).map(mkRiver)
+    .concat([...riverSeen.keys()].filter(nm => nm !== '黄河' && nm !== '长江')
+      .sort((a, b) => a.localeCompare(b, 'zh')).map(mkRiver));
+  /* 地理分区全集：以底图 regionpoly（11 个跨郡地理名词）为准， */
+  const REGION_ZHOU = { '河北': '冀·并·幽', '中原': '豫·兖·司隶', '关中': '司隶', '陇右': '凉州',
+    '河西': '凉州', '荆襄': '荆州', '巴蜀': '益州', '南中': '益州', '辽东': '幽州' };
+  const have = new Set(regions.map(r => r.p.name || r.it.name));
+  (DATA.geo.regionpoly || []).forEach(r => {
+    if (have.has(r.n)) return;
+    regions.push({ it: { id: '', name: r.n, level: 'region', region_of: REGION_ZHOU[r.n] || null,
+                         seat_of: null, kind: 'nonadmin' },
+                   p: { name: r.n }, kids: [] });
+  });
+  return { nodes, byZhou, zhouRecs, orphans, rivers, regions };
+}
+let ptData = null;
+const PT_SYNTH = new Map();        /* 合成条目（州治县等）→ 轻量地点对象 */
+
+const ptHit = (rec, kw) => !kw || (rec.p.name || rec.it.name || '').includes(kw) || (rec.p.modern_name || '').includes(kw) ||
+  (rec.p.ancient_admin || '').includes(kw) || (rec.it.jun || '').includes(kw) || (rec.it.zhou || '').includes(kw);
+
+function ptSort(a, b) {
+  const sa = !!a.it.seat_of, sb = !!b.it.seat_of;
+  if (sa !== sb) return sa ? -1 : 1;                       /* 治所置顶 */
+  const na = a.p.mention_count || 0, nb = b.p.mention_count || 0;
+  if (na !== nb) return nb - na;
+  const ca = a.p.first_chapter || 999, cb = b.p.first_chapter || 999;
+  if (ca !== cb) return ca - cb;
+  return a.p.name.localeCompare(b.p.name, 'zh');
+}
+
+/* 一行：返回 HTML；kind=zhou/jun/xian */
+function ptRow(rec, kind, key, opts) {
+  const p = rec.p, it = rec.it, o = opts || {};
+  const hasKids = o.hasKids;
+  const open = ptOpen.has(key) || (o.forceOpen);
+  const cls = ['row', 'lv-' + kind];
+  if (hasKids) { if (open) cls.push('open'); } else cls.push('leaf');
+  if (kind === 'xian' && it.kind === 'nonadmin') cls.push('nonadm');
+  if (ptSelId === it.id) cls.push('on');
+  const seat = it.seat_of ? `<span class="seat">${esc(it.seat_of.replace(/^.*?治$/, m => m))}</span>` : '';
+  const sub = kind === 'xian' && p.modern_name ? `<span class="sub">${esc(p.modern_name)}</span>`
+    : kind === 'region' ? `<span class="sub">${esc(it.region_of ? '地理分区 · 约当' + it.region_of + '一带' : '地理分区 · 跨郡')}</span>`
+    : kind === 'river' ? `<span class="sub">水系</span>` : '';
+  const ty = (kind === 'xian' && it.kind === 'nonadmin') ? `<span class="ty">${esc(p.type || '')}</span>` : '';
+  const cnt = hasKids ? `<span class="cnt">${o.n}</span>` : '';
+  return `<div class="${cls.join(' ')}" data-key="${key}" data-pid="${it.id}" data-kind="${kind}">
+    <span class="tw">▶</span><span class="nm">${esc(p.name || it.name)}</span>${seat}${sub}${ty}${cnt}</div>`;
+}
+
+function renderPTree(kw) {
+  if (!ptData) ptData = ptBuild();
+  const { byZhou, zhouRecs, orphans, rivers, regions } = ptData;
+  /* 首次进入不预展开任何节点——地图页默认全折叠，由用户逐级点开 */
+  const out = [];
+  zhouRecs.sort(ptSort).forEach(zr => {
+    const zn = zr.p.name || zr.it.name;
+    const z = byZhou.get(zr.it.zhou || zn) || { jun: new Map(), direct: [] };
+    const junList = [...z.jun.entries()].map(([jn, v]) => ({
+      jn, rec: v.rec, kids: v.kids.slice().sort(ptSort)
+    })).sort((a, b) => {
+      const sa = a.rec && a.rec.it.seat_of, sb = b.rec && b.rec.it.seat_of;
+      if (!!sa !== !!sb) return sa ? -1 : 1;
+      const ca = (a.rec && a.rec.p.mention_count) || 0, cb = (b.rec && b.rec.p.mention_count) || 0;
+      if (ca !== cb) return cb - ca;
+      return a.jn.localeCompare(b.jn, 'zh');
+    });
+    const direct = (z.direct || []).slice().sort(ptSort);
+    const zKey = 'z:' + zn;
+    const zTotal = junList.length + direct.length;
+    /* 检索模式：只保留「命中节点 + 祖先链」，全部展开；普通模式按折叠状态 */
+    const dHit = kw ? direct.filter(k => ptHit(k, kw)) : direct;
+    const jHit = kw ? junList.filter(j => (j.rec && ptHit(j.rec, kw)) || j.kids.some(k => ptHit(k, kw)))
+                    : junList;
+    const zMatch = ptHit(zr, kw);
+    if (kw && !zMatch && !dHit.length && !jHit.length) return;   /* 该州整枝无命中 → 隐藏 */
+    const zOpen = kw ? true : ptOpen.has(zKey);
+    const rows = [ptRow(zr, 'zhou', zKey, { hasKids: zTotal > 0, n: zTotal, forceOpen: zOpen })];
+    if (zTotal > 0 && zOpen) {
+      jHit.forEach(j => {
+        const jKey = 'j:' + zn + '/' + j.jn;
+        /* 郡行与郡治县行是两条独立条目（行政区 vs 地点）：
+           郡行无卡、点它亮郡界；郡治县有卡、点它落红点。二者不再合并。 */
+        const jRec = (j.rec && j.rec.it)
+          ? { it: j.rec.it, p: j.rec.p || {} }
+          : { it: { id: '__jun_' + j.jn, name: j.jn, jun: j.jn, level: 'jun', seat_of: null },
+              p: { name: j.jn } };
+        const kids = kw ? j.kids.filter(k => ptHit(k, kw)) : j.kids;
+        const nTotal = kids.length;
+        const jOpen = kw ? true : ptOpen.has(jKey);
+        rows.push(ptRow(jRec, 'jun', jKey, { hasKids: nTotal > 0, n: nTotal, forceOpen: jOpen }));
+        if (jOpen) {
+          kids.forEach(k => rows.push(ptRow(k, 'xian', 'x:' + k.it.id, {})));
+        }
+      });
+      /* 州下只挂郡：无郡归属的点位收进「未分郡」合成组，保持 州→郡→县 三级不乱 */
+      if (dHit.length) {
+        const dKey = 'j:' + zn + '/未分郡';
+        const dOpen = kw ? true : ptOpen.has(dKey);
+        rows.push(ptRow({ it: { id: '', name: '未分郡', jun: '未分郡', level: 'jun', seat_of: null },
+                          p: { name: '未分郡' } }, 'jun', dKey,
+                         { hasKids: true, n: dHit.length, forceOpen: dOpen }));
+        if (dOpen) dHit.forEach(k => rows.push(ptRow(k, 'xian', 'x:' + k.it.id, {})));
+      }
+    }
+    out.push(`<div class="grp">${rows.join('')}</div>`);
+  });
+  /* 跨州水系：底图所画水系全部列出（长江/黄河/汉水…48 条）。
+     点击行为见 bindPTree：高亮整条水系，而不是定位一个红点。 */
+  if (rivers.length) {
+    const rKey = 'z:跨州水系';
+    const oHit = kw ? rivers.filter(k => ptHit(k, kw)) : rivers;
+    if (!kw || oHit.length) {
+      const oOpen = kw ? true : ptOpen.has(rKey);
+      out.push(`<div class="grp grp-river">${ptRow({ it: { name: '水系', id: '' }, p: { name: '水系' } }, 'zhou', rKey, { hasKids: true, n: rivers.length, forceOpen: oOpen })}` +
+        (oOpen ? oHit.sort((a, b) => {
+          /* 黄河/长江恒置顶，其余按名称排序 */
+          const top = n => ({ '黄河': 0, '长江': 1 })[n];
+          const na = a.it.name || a.p.name, nb = b.it.name || b.p.name;
+          const ta = top(na), tb = top(nb);
+          if (ta !== undefined || tb !== undefined) return (ta ?? 9) - (tb ?? 9);
+          return na.localeCompare(nb, 'zh');
+        })
+          .map(k => ptRow(k, 'river', 'r:' + (k.it.name || k.p.name), {})).join('') : '') + `</div>`);
+    }
+  }
+  /* 跨区域地理（江东/淮南…）：单列一组，与行政州平级但样式区分——
+     这类是史书里的地理分区，跨郡而不等于州，混进州列表会误导读者以为是个州。 */
+  if (regions.length) {
+    const rKey = 'z:地区';
+    const rHit = kw ? regions.filter(k => ptHit(k, kw)) : regions;
+    if (!kw || rHit.length) {
+      const rOpen = kw ? true : ptOpen.has(rKey);   /* 地区组与州一致：默认收起，点 ▶ 展开 */
+      out.push(`<div class="grp grp-region">${ptRow({ it: { name: '地区', id: '' }, p: { name: '地区' } }, 'zhou', rKey, { hasKids: true, n: regions.length, forceOpen: rOpen, regionHead: true })}` +
+        (rOpen ? rHit.sort(ptSort).map(k => ptRow(k, 'region', 'x:' + k.it.id, {})).join('') : '') + `</div>`);
+    }
+  }
+  $('plist').innerHTML = out.length ? `<div class="ptree">${out.join('')}</div>`
+    : '<div class="empty" style="font-size:16px">无匹配</div>';
+  bindPTree();
+}
+
+function bindPTree() {
+  /* 手风琴：顶层组（州/水系/地区）同一时间只展开一个——换组时清掉旧州
+     及其下郡的展开态；州内郡级仍可正常逐级展开。 */
+  const ptToggleTop = key => {
+    if (ptOpen.has(key)) { ptOpen.delete(key); return; }
+    if (key.startsWith('z:')) {
+      const zn = key.slice(2);
+      [...ptOpen].forEach(k => {
+        if (k.startsWith('z:') ? k !== key : (k.startsWith('j:') && !k.startsWith('j:' + zn + '/'))) ptOpen.delete(k);
+      });
+    }
+    ptOpen.add(key);
+  };
+  $('plist').querySelectorAll('.row').forEach(r => {
+    r.onclick = e => {
+      const key = r.dataset.key, kind = r.dataset.kind;
+      const hasKids = !r.classList.contains('leaf');
+      const onTw = e.target.classList.contains('tw');
+      if (kind === 'xian') {                        /* 县级行：点击即定位（合成州治县走暂存对象） */
+        const p = (r.dataset.pid && (L[r.dataset.pid] || PT_SYNTH.get(r.dataset.pid))) || null;
+        if (p) selectPlaceOnMap(p);
+        return;
+      }
+      if (kind === 'region') {                      /* 跨区域地理行：高亮分区边界（有点位卡再带详情） */
+        const rnm = (r.querySelector('.nm') || {}).textContent || '';
+        if (r.dataset.pid && L[r.dataset.pid]) selectPlaceOnMap(L[r.dataset.pid]);
+        else regionFocus(rnm);
+        return;
+      }
+      if (kind === 'river') {                       /* 水系行：高亮完整水系，不落红点 */
+        riverHighlight(r.dataset.key.replace(/^r:/, ''));
+        return;
+      }
+      /* 州 / 郡 / 组行：点 ▶ 或组头切换折叠，全部默认收起、用 ptOpen 记展开 */
+      if (onTw) {
+        if (hasKids) {
+          ptToggleTop(key);
+          renderPTree(($('pq').value || '').trim());
+          const back = $('plist').querySelector(`.row[data-key="${key}"]`);
+          if (back) back.scrollIntoView({ block: 'nearest' });
+        }
+        return;
+      }
+      /* 郡行（行政区）：无论有无点位卡，点名字都高亮郡名与郡界——
+         郡治县是另一条 xian 行，点它才落红点。 */
+      if (kind === 'jun' && !onTw) { junFocus(r.dataset.jun || r.querySelector('.nm').textContent); return; }
+      if (!r.dataset.pid) {
+        if (hasKids) {
+          ptToggleTop(key);
+          renderPTree(($('pq').value || '').trim());
+        }
+        return;
+      }
+      if (hasKids && !ptOpen.has(key)) {
+        ptToggleTop(key);
+        renderPTree(($('pq').value || '').trim());
+      }
+      selectPlaceOnMap(L[r.dataset.pid]);
+    };
+  });
+}
+
+
+/* ===== 地图页 · 战役战线推演（左列表「战役」页签点入，主图播放） ===== */
+function drawMapStep(i) {
+  if (!BM) return;
+  BM.i = i;
+  BM.gLive.innerHTML = '';
+  const pz = (MV && MV.pz) ? MV.pz : 1;
+  const pts = BM.XY.slice(0, i + 1);
+  if (pts.length > 1) MC.battlePath(BM.gLive, pts, { sz: 2.4 });
+  pts.forEach((q, k) => MC.battleNode(BM.gLive, q, pz,
+    { past: k !== i, up: k % 2, label: k === i ? BM.N[k].time_seq + '. ' + BM.N[k].label : null }));
+  const n = BM.N[i];
+  $('bmpn').textContent = (i + 1) + ' / ' + BM.N.length;
+  $('bmpd').textContent = n.time_seq + '. ' + n.kind + '·' + n.label + '　' + n.desc;
+}
+function selectBattleOnMap(b) {
+  stopBattleMapPlay();
+  const svg = $('bigmap');
+  if (!svg._refs) return;
+  if (MV && MV.dotsWrap) MV.dotsWrap.style.display = 'none';   /* 推演时隐藏地名红点，减少遮挡 */
+  if (MV && MV.focus) MV.focus.clear();
+  if (MV && MV.dots) MV.dots.forEach(c => { c.style.display = 'none'; });
+  clearAdminHighlight();
+  const N = b.front_line;
+  const XY = N.map(n => ({ x: n.pixel_x, y: n.pixel_y }));
+  const xs = XY.map(q => q.x), ys = XY.map(q => q.y);
+  const midX = (Math.min(...xs) + Math.max(...xs)) / 2, midY = (Math.min(...ys) + Math.max(...ys)) / 2;
+  const fitZ = Math.min(C.w / (Math.max(...xs) - Math.min(...xs) + 160),
+                         C.h / (Math.max(...ys) - Math.min(...ys) + 160), 7);
+  const gPath = el('g', {}), gLive = el('g', {});
+  svg.append(gPath, gLive);
+  MC.battlePath(gPath, XY, { ghost: true, sz: 3, dash: '9 7' });
+  BM = { b, gPath, gLive, N, XY, i: -1, timer: null, fitZ };
+  drawMapStep(0);
+  mvTo(midX, midY, fitZ, 600);
+  $('bmpname').textContent = b.name;
+  $('bmpbar').style.display = 'flex';
+  const parent = EV.find(e => e.id === b.event_id);
+  $('pdetail').innerHTML = `
+    <h5>${esc(b.name)}<span>战役</span></h5>
+    <div class="r">
+      <span class="k">年份</span><span class="v">${b.year} 年　${esc(b.date_text || '')}</span>
+      <span class="k">交战</span><span class="v">${esc((b.belligerents || []).map(x => x.side || x).join(' × ') || '—')}</span>
+      <span class="k">结果</span><span class="v">${esc(b.result || '—')}</span>
+      ${b.casualties_note ? `<span class="k">伤亡</span><span class="v">${esc(b.casualties_note)}</span>` : ''}
+      <span class="k">地点</span><span class="v">${esc(b.place_name || '—')}</span>
+    </div>
+    <div class="n">${esc(b.summary || '')}${parent ? `<br><span class="lit">父事件 · ${esc(parent.name)}</span>` : ''}
+      <br><span class="lit">战线已在主图标出，点「▶ 推演」播放推进；地图可自由缩放。</span></div>`;
+  $('plist').querySelectorAll('.it.on').forEach(e => e.classList.remove('on'));
+  const it = $('plist').querySelector(`.it[data-bid="${b.id}"]`);
+  if (it) { it.classList.add('on'); it.scrollIntoView({ block: 'nearest' }); }
+}
+function stopBattleMapPlay() {
+  if (BM) {
+    if (BM.timer) clearInterval(BM.timer);
+    if (BM.gPath) BM.gPath.remove();
+    if (BM.gLive) BM.gLive.remove();
+    BM = null;
+  }
+  const pb = $('bmpbar'); if (pb) pb.style.display = 'none';
+}
+/* 主图每步镜头：本步与相邻节点的跨度自适应，长距离行军拉远、短距离事件推近；mvTo 自带缓动 */
+function battleStepCam(i) {
+  const N = BM.N;
+  const a = N[Math.max(0, i - 1)], c = N[i];
+  const span = Math.max(Math.abs(c.pixel_x - a.pixel_x), Math.abs(c.pixel_y - a.pixel_y), 30);
+  return {
+    cx: (a.pixel_x + c.pixel_x) / 2, cy: (a.pixel_y + c.pixel_y) / 2,
+    z: Math.max(2.5, Math.min(C.w * .5 / span, C.h * .5 / span, 14))
+  };
+}
+$('bmpplay').onclick = () => {
+  if (!BM) return;
+  if (BM.timer) { clearInterval(BM.timer); BM.timer = null; return; }   // 再点一次暂停
+  let i = 0;
+  drawMapStep(0);
+  const c0 = battleStepCam(0);
+  mvTo(c0.cx, c0.cy, c0.z, 700);
+  BM.timer = setInterval(() => {
+    i++;
+    if (i >= BM.N.length) { clearInterval(BM.timer); BM.timer = null; return; }
+    drawMapStep(i);
+    const c = battleStepCam(i);
+    mvTo(c.cx, c.cy, c.z, 700);
+  }, 1400);
+};
+
+/* ================= 大势：年份 → 十三州归属 =================
+   数据来自 build/power.json（脚本 build_power.py 整理）：13 州在 10 个快照年的主控势力，
+   逐年展示取「≤ 该年的最近快照」，界面上标出真实依据年，不假装中间年份也有独立考据。 */
+const POWER = DATA.power || null;
+const PWF = {}; ((POWER || {}).factions || []).forEach(f => PWF[f.id] = f);
+const PW = { year: 184, timer: null, built: false };
+
+function pwYears() { return POWER ? POWER.years : []; }
+function pwFidColor(fid) { return (PWF[fid] && PWF[fid].color) || '#b3a690'; }
+function pwFidName(fid) { return (PWF[fid] && PWF[fid].name) || fid; }
+
+function renderPower(y) {
+  if (!POWER) return;
+  const ys = pwYears();
+  y = Math.max(ys[0], Math.min(ys[ys.length - 1], Math.round(y)));
+  PW.year = y;
+  PW.built = true;
+  const d = POWER.byYear[y];
+  const snap = POWER.snapshots[d.from];
+  $('pwyr').innerHTML = y + '<small>年</small>';
+  if (+$('pwslider').value !== y) $('pwslider').value = y;
+  $('pwsnap').textContent = (+d.from === y) ? ('据 ' + y + ' 年局势') : ('据 ' + d.from + ' 年局势');
+  $('pwstat').textContent = Object.keys(snap.hold).length + ' 家 · ' + d.lords.length + ' 在位 · ' + d.events.length + ' 事';
+  syncPowerList();
+  drawPowerMap(y);
+  renderPowerPane(y);
+}
+
+/* 郡名 → 势力 id（按快照年缓存） */
+function pwOwnerMap(from) {
+  PW.ownCache = PW.ownCache || {};
+  if (PW.ownCache[from]) return PW.ownCache[from];
+  const snap = POWER.snapshots[from];
+  const m = {};
+  Object.keys(snap.hold).forEach(fid => snap.hold[fid].forEach(j => m[j] = fid));
+  PW.ownCache[from] = m;
+  return m;
+}
+
+/* 势力边界线段：浏览器实时拓扑——郡多边形每条边按顶点(0.1px)建键，
+   两郡共享且两侧归属不同的边即势力边界。返回 [[x,y],[x,y]] 数组。 */
+function pwBoundary(from) {
+  PW.edgeCache = PW.edgeCache || {};
+  if (PW.edgeCache[from]) return PW.edgeCache[from];
+  const own = pwOwnerMap(from);
+  const E = {};
+  (GEO.junpoly || []).forEach(j => {
+    const fid = own[j.n];
+    if (!fid) return;
+    [j.p].concat(j.e || []).forEach(r => {
+      for (let k = 0; k < r.length; k++) {
+        const a = r[k], b = r[(k + 1) % r.length];
+        const ka = Math.round(a[0] * 10) + ',' + Math.round(a[1] * 10);
+        const kb = Math.round(b[0] * 10) + ',' + Math.round(b[1] * 10);
+        if (ka === kb) continue;
+        const key = ka < kb ? ka + '|' + kb : kb + '|' + ka;
+        (E[key] = E[key] || []).push(fid);
+      }
+    });
+  });
+  const segs = [];
+  Object.keys(E).forEach(key => {
+    const fs = E[key];
+    if (fs.length >= 2 && fs.some(f => f !== fs[0])) {
+      segs.push(key.split('|').map(s => s.split(',').map(Number)));
+    }
+  });
+  PW.edgeCache[from] = segs;
+  return segs;
+}
+
+function drawPowerMap(y) {
+  const svg = $('pwmap');
+  const d = POWER.byYear[y];
+  const snap = POWER.snapshots[d.from];
+  const own = pwOwnerMap(d.from);
+  const W = svg.clientWidth || 880, H = svg.clientHeight || 640;
+  svg.setAttribute('viewBox', '0 0 ' + C.w + ' ' + C.h);
+  svg.innerHTML = '';
+  const s = Math.min(W / C.w, H / C.h) || 1;
+  const k = 1 / s;
+
+  /* 底图：地形 + 淡显水系（与主地图同一套内核图层） */
+  MC.terrainLayer(svg, C, GEO);
+  svg.appendChild(MC.waterLayer(GEO, .55));
+
+  /* 郡面：按势力填色（none=灰白「不属/不明」），悬停显示郡名+归属 */
+  const gj = el('g', {});
+  (GEO.junpoly || []).forEach(j => {
+    const fid = own[j.n];
+    if (!fid) return;
+    const p = el('path', {
+      d: MC.dPoly([j.p].concat(j.e || [])),
+      fill: pwFidColor(fid), 'fill-opacity': .62,
+      stroke: 'none', 'stroke-linejoin': 'round'
+    });
+    const ti = document.createElementNS('http://www.w3.org/2000/svg', 'title');
+    ti.textContent = j.n + ' · ' + pwFidName(fid);
+    p.appendChild(ti);
+    gj.appendChild(p);
+  });
+  svg.appendChild(gj);
+
+  /* 争夺郡：次主斜纹覆盖在主控底色上 */
+  const contest = snap.contest || {};
+  const cfids = Array.from(new Set(Object.values(contest)));
+  const defs = el('defs', {});
+  svg.appendChild(defs);
+  cfids.forEach((fid, i) => {
+    const pt = el('pattern', {
+      id: 'pwc' + i, width: 12, height: 12, patternUnits: 'userSpaceOnUse',
+      patternTransform: 'rotate(38)'
+    });
+    pt.appendChild(el('rect', { width: 12, height: 12, fill: 'none' }));
+    pt.appendChild(el('line', { x1: 0, y1: 0, x2: 0, y2: 12, stroke: pwFidColor(fid), 'stroke-width': 5, 'stroke-opacity': .6 }));
+    defs.appendChild(pt);
+  });
+  const gc = el('g', {});
+  Object.keys(contest).forEach(jn => {
+    const j = (GEO.junpoly || []).find(q => q.n === jn);
+    if (!j) return;
+    const pid = 'pwc' + cfids.indexOf(contest[jn]);
+    gc.appendChild(el('path', { d: MC.dPoly([j.p].concat(j.e || [])), fill: 'url(#' + pid + ')' }));
+  });
+  svg.appendChild(gc);
+
+  /* 州界：虚线，仅作参照；不画郡界（势力界即有效边界） */
+  const gz = el('g', { 'pointer-events': 'none' });
+  (GEO.zhoupoly || []).forEach(poly => {
+    gz.appendChild(el('path', {
+      d: MC.dPoly(poly.pts || poly), fill: 'none',
+      stroke: '#5f5540', 'stroke-opacity': .5, 'stroke-width': 1.1,
+      'stroke-dasharray': (7 * 1) + ' ' + (5 * 1), 'stroke-linejoin': 'round'
+    }));
+  });
+  svg.appendChild(gz);
+
+  /* 势力边界：实线深墨，一气呵成一条 path */
+  const segs = pwBoundary(d.from);
+  svg.appendChild(el('path', {
+    d: segs.map(sg => 'M' + sg[0][0] + ',' + sg[0][1] + 'L' + sg[1][0] + ',' + sg[1][1]).join(''),
+    fill: 'none', stroke: '#33291a', 'stroke-opacity': .8,
+    'stroke-width': 1.8, 'stroke-linecap': 'round', 'pointer-events': 'none'
+  }));
+
+  /* 注记：势力名（大字）+ 州名（小字灰色）。
+     州名锚点（州域质心）常与势力名锚点（郡面代表点）同落区域中心——
+     贪心避让：州名若与已放置标签的包围盒相撞，按候选偏移找空位，找不到才放弃。 */
+  const gl = el('g', { 'pointer-events': 'none' });
+  const placed = [];   // {x, y, hw, hh} 已放置标签的半宽/半高
+  const fontK = 1;     // 字号已乘 k，包围盒同用屏幕坐标
+  const place = (x, y, txt, fs, ls) => {
+    const hw = (txt.length * (fs + ls)) / 2 + 2, hh = fs / 2 + 2;
+    for (const p of placed) if (Math.abs(x - p.x) < hw + p.hw && Math.abs(y - p.y) < hh + p.hh) return false;
+    return true;
+  };
+  Object.keys(snap.labels || {}).forEach(fid => {
+    const f = PWF[fid];
+    if (!f) return;
+    const xy = snap.labels[fid];
+    const fs = 15 * k, ls = 1.5 * k;
+    if (!place(xy[0], xy[1], f.name, fs, ls)) return;   // 势力名互撞（少见）：后放者让位放弃
+    placed.push({ x: xy[0], y: xy[1], hw: (f.name.length * (fs + ls)) / 2 + 2, hh: fs / 2 + 2 });
+    const t = el('text', {
+      x: xy[0], y: xy[1], 'text-anchor': 'middle',
+      'font-size': fs.toFixed(2), fill: f.color, 'font-family': 'serif',
+      'font-weight': 700, 'letter-spacing': ls.toFixed(2),
+      stroke: '#f7f2e6', 'stroke-width': (3 * k).toFixed(2), 'paint-order': 'stroke', 'stroke-linejoin': 'round'
+    });
+    t.textContent = f.name;   // 写势力全名（韩遂不写「遂」），标签锚点按整域代表点预计算，可容纳 2–4 字
+    gl.appendChild(t);
+  });
+  const zfs = 13 * k, zls = 3 * k, zhw = z => (z.length * (zfs + zls)) / 2 + 2, zhh = zfs / 2 + 2;
+  const OFFS = [[0, 0], [0, 1], [-1, .6], [1, .6], [0, -1], [-1, -.6], [1, -.6], [-1, 0], [1, 0], [0, 2]];
+  Object.keys(POWER.zhou_labels || {}).forEach(z => {
+    const xy0 = POWER.zhou_labels[z];
+    const R = 30 * k;   // 候选偏移半径
+    let best = null;
+    for (const o of OFFS) {
+      const x = xy0[0] + o[0] * R, y = xy0[1] + o[1] * R * .7;
+      if (place(x, y, z, zfs, zls)) { best = [x, y]; break; }
+    }
+    if (!best) return;   // 全程无处安放：该时点略去此州名（仅参照信息，不画也不误读）
+    placed.push({ x: best[0], y: best[1], hw: zhw(z), hh: zhh });
+    const t = el('text', {
+      x: best[0].toFixed(1), y: best[1].toFixed(1), 'text-anchor': 'middle',
+      'font-size': zfs.toFixed(2), fill: '#6f6450', 'font-family': 'serif',
+      'letter-spacing': zls.toFixed(2), 'font-style': 'italic',
+      stroke: '#f7f2e6', 'stroke-width': (2.5 * k).toFixed(2), 'paint-order': 'stroke', 'stroke-linejoin': 'round'
+    });
+    t.textContent = z;
+    gl.appendChild(t);
+  });
+  svg.appendChild(gl);
+
+  /* 图例：当年出现的势力，按控制郡数降序 */
+  const cnt = {};
+  Object.keys(snap.hold).forEach(fid => { cnt[fid] = snap.hold[fid].length; });
+  const list = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a]);
+  let lg = list.map(f => `<span class="lg"><i class="sw" style="background:${pwFidColor(f)}"></i>${esc(pwFidName(f))}<em>${cnt[f]}</em></span>`).join('');
+  lg += `<div class="zz">色块为郡级实控（数字＝郡数）；实线＝势力边界，虚线＝州界（仅作参照）；斜纹＝两雄争夺之郡；灰白＝不属/史载不明。</div>`;
+  /* 默认收起：只留一枚小图例按钮，点开才铺开，避免遮挡地图 */
+  $('pwlegend').innerHTML = `<div class="lgt">图例 ▸</div><div class="lgb">${lg}</div>`;
+  $('pwlegend').querySelector('.lgt').onclick = function () {
+    const p = this.parentNode; p.classList.toggle('open');
+    this.textContent = '图例 ' + (p.classList.contains('open') ? '▾' : '▸');
+  };
+}
+
+function renderPowerPane(y) {
+  const d = POWER.byYear[y];
+  let h = `<div class="pwnote">${esc(d.note)}</div>`;
+  h += `<div class="pwsec">在位 · ${d.lords.length}</div>`;
+  if (!d.lords.length) h += `<div style="font-size:15.5px;color:var(--ink3);padding:2px 7px">本年无在任记录</div>`;
+  d.lords.forEach(l => {
+    const f = l.fid ? PWF[l.fid] : null;
+    const jl = (f && POWER.snapshots[d.from].hold[l.fid]) || [];
+    const has = l.person && P[l.person];
+    let ti = l.title || (f ? f.type : '');
+    if (ti.length > 22) ti = ti.slice(0, 21) + '…';
+    h += `<div class="pwlord" ${has ? `data-p="${l.person}"` : 'style="cursor:default;opacity:.72"'}>
+      <i style="background:${f ? f.color : '#b3a690'}"></i>
+      <div><span class="nm">${esc(l.name)}</span><span class="ti" title="${esc(l.title || '')}">${esc(ti)}</span></div>
+      <em ${jl.length ? `title="${esc(jl.join('、'))}"` : ''}>${jl.length ? jl.length + '郡' : ''}</em></div>`;
+  });
+  h += `<div class="pwsec">当年事 · ${d.events.length}</div>`;
+  if (!d.events.length) h += `<div style="font-size:15.5px;color:var(--ink3);padding:2px 7px">本年无已建档事件</div>`;
+  d.events.forEach(e => {
+    h += `<div class="pwev" data-e="${e.id}"><span class="k">${esc((e.kind || '').slice(0, 2))}</span>
+      <span>${esc(e.name)}${e.place ? `<span style="color:var(--ink3);font-size:15px">　${esc(e.place)}</span>` : ''}</span></div>`;
+  });
+  $('pwpane').innerHTML = h;
+  $('pwpane').querySelectorAll('.pwlord[data-p]').forEach(e => e.onclick = () => openEntity('person', e.dataset.p));
+  $('pwpane').querySelectorAll('.pwev[data-e]').forEach(e => e.onclick = () => openEntity('event', e.dataset.e));
+}
+
+function renderPowerList() {
+  $('side-hd').textContent = '大势 · 时点';
+  $('side-ft').style.display = 'none';
+  $('side-bd').innerHTML = POWER.snap_years.map(y => {
+    const d = POWER.byYear[y];
+    const snap = POWER.snapshots[d.from];
+    const cnt = {};
+    Object.keys(snap.hold).forEach(f => { cnt[f] = snap.hold[f].length; });
+    const top = Object.keys(cnt).sort((a, b) => cnt[b] - cnt[a]).slice(0, 6);
+    const fp = top.map(f => `<i style="background:${pwFidColor(f)}" title="${esc(pwFidName(f))}"></i>`).join('');
+    return `<div class="snapitem" data-y="${y}">
+      <span class="dot"></span>
+      <div class="yr">${y}<span class="ylab">年</span></div>
+      <span class="nt">${esc(d.note)}</span>
+      <div class="fp">${fp}</div></div>`;
+  }).join('');
+  $('side-bd').querySelectorAll('.snapitem').forEach(e =>
+    e.onclick = () => { pwStop(); renderPower(+e.dataset.y); });
+  syncPowerList();
+}
+function syncPowerList() {
+  const fit = POWER.snap_years.filter(y => y <= PW.year).pop() || POWER.snap_years[0];
+  $('side-bd').querySelectorAll('.snapitem').forEach(e =>
+    e.classList.toggle('on', +e.dataset.y === fit));
+}
+function pwStop() { if (PW.timer) { clearInterval(PW.timer); PW.timer = null; } }
+function pwPlay() {
+  if (PW.timer) { pwStop(); $('pwplay').textContent = '▶ 推演'; return; }
+  const ys = pwYears();
+  if (PW.year >= ys[ys.length - 1]) renderPower(ys[0]);
+  $('pwplay').textContent = '❙❙ 暂停';
+  PW.timer = setInterval(() => {
+    const next = PW.year + 1;
+    if (next > ys[ys.length - 1]) { pwStop(); $('pwplay').textContent = '▶ 推演'; return; }
+    renderPower(next);
+  }, 900);
+}
+function renderPowerView() {
+  if (!POWER) { $('pwpane').innerHTML = '<div class="pwnote">大势数据未生成，请先运行 scripts/build_power.py。</div>'; return; }
+  const ys = pwYears();
+  const sl = $('pwslider');
+  sl.min = ys[0]; sl.max = ys[ys.length - 1];
+  renderPowerList();
+  renderPower(PW.built ? PW.year : (POWER.snap_years.includes(190) ? 190 : ys[0]));
+}
+$('pwslider').oninput = e => { pwStop(); $('pwplay').textContent = '▶ 推演'; renderPower(+e.target.value); };
+$('pwplay').onclick = pwPlay;
+document.addEventListener('keydown', e => {
+  if (view !== 'power') return;
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowRight') {
+    e.preventDefault(); pwStop(); $('pwplay').textContent = '▶ 推演';
+    renderPower(PW.year + (e.key === 'ArrowRight' ? 1 : -1));
+  }
+});
+
+/* ================= 事件 ================= */
+const EV_ERAS = [
+  [184, 189, '乱起 · 黄巾与凉州'], [190, 199, '群雄割据'], [200, 207, '官渡与河北'],
+  [208, 219, '赤壁与三分前夜'], [220, 229, '三国鼎立'], [230, 249, '相持与内变'],
+  [250, 263, '北伐与蜀亡'], [264, 280, '三分归晋']
+];
+let EVFILT = 'all', EVKW = '';
+function evJump(id) {
+  /* 事件页内定位：确保筛选可见 → 滚动到卡片 → 高亮闪烁 + 右侧详情 */
+  if (EVFILT !== 'all') { EVFILT = 'all'; renderEvents(); }
+  const t = document.getElementById('evc-' + id);
+  if (t) { t.scrollIntoView({ block: 'center' }); t.classList.add('flash'); setTimeout(() => t.classList.remove('flash'), 1400); }
+  renderEvDetail(id);
+}
+/* 右栏详情：点击卡片就地展开，不再弹全屏卡 */
+function renderEvDetail(id) {
+  const e = EV.find(x => x.id === id), b = BT.find(x => x.id === id);
+  const dt = $('evdt');
+  let h = `<div class="hd">`;
+  if (e) h += `<h3>${esc(e.name)}</h3><span class="k" style="font-size:14.5px;color:var(--accent);border:1px solid rgba(156,43,31,.35);border-radius:2px;padding:1px 5px">${esc(e.kind)}</span>`;
+  else if (b) h += `<h3>${esc(b.name)}</h3><span class="k" style="font-size:14.5px;color:var(--accent);border:1px solid rgba(156,43,31,.35);border-radius:2px;padding:1px 5px">战役</span>`;
+  h += `<span class="x" title="关闭" onclick="renderEvDetail(null)">✕</span></div>`;
+  if (e) {
+    h += `<div class="sec"><div class="sum">${esc(e.date_text || (e.start_year + ' 年'))}　·　${esc(e.summary)}</div></div>`;
+    h += `<div class="sec"><h4>相关人物 · ${e.participants.length}</h4><div class="chips">`;
+    e.participants.forEach(x => {
+      const p = P[x.person_id];
+      h += `<span class="chip" ${p ? `onclick="openPerson('${x.person_id}')"` : 'style="opacity:.55" title="未建档"'}>${esc(p ? p.name : x.person_id)}<span class="r">${esc(x.role_desc || '')}</span></span>`;
+    });
+    h += `</div></div>`;
+    if ((e.timeline || []).length) {
+      h += `<div class="sec"><h4>事件发展</h4><div class="tline">`;
+      e.timeline.forEach(x => h += `<div class="tli ${x.importance >= 3 ? 'hi' : ''}"><b>${x.year}</b>${esc(x.title)}<div class="d">${esc(x.description)}</div></div>`);
+      h += `</div></div>`;
+    }
+    if (e.detail) h += `<div class="sec"><h4>事件详述</h4><div class="bio">${esc(e.detail)}</div></div>`;
+    if ((e.battle_ids || []).length)
+      h += `<div class="sec"><h4>下辖战役</h4><div class="chips">` +
+        e.battle_ids.map(bid => `<span class="chip" onclick="renderEvDetail('${bid}')">${esc((BT.find(x => x.id === bid) || {}).name || bid)}</span>`).join('') + `</div></div>`;
+    h += `<div class="sec"><h4>原文</h4><div class="chips">` +
+      e.passage_ids.map(pid => `<span class="chip" onclick="jump(${pid})">第 ${Math.floor(pid / 1000)} 回 · 段 ${pid % 1000}</span>`).join('') + `</div></div>`;
+  } else if (b) {
+    const parent = EV.find(x => x.id === b.event_id);
+    h += `<div class="sec"><div class="sum">${esc(b.date_text || b.year + ' 年')}${parent ? `　·　父事件 <span class="lnk" onclick="renderEvDetail('${parent.id}')">${esc(parent.name)}</span>` : ''}<br>${esc(b.summary)}</div></div>`;
+    h += `<div class="sec"><h4>战线推进 <span class="locked">比例锁定</span></h4>
+      <div class="bmwrap"><svg class="minimap" id="evbm" preserveAspectRatio="xMidYMid meet"></svg></div>
+      <div class="playbar"><button class="btn" id="evplay">▶ 推演战线</button><span class="nsteps" id="evnst"></span></div>
+      <div class="stepdesc" id="evsd"></div></div>`;
+    h += `<div class="sec"><h4>战况</h4><div class="kv">
+      <span class="k">交战</span><span>${esc((b.belligerents || []).map(x => x.side || x).join(' × ') || '—')}</span>
+      <span class="k">结果</span><span>${esc(b.result || '—')}</span>
+      ${b.casualties_note ? `<span class="k">伤亡</span><span>${esc(b.casualties_note)}</span>` : ''}
+      <span class="k">地点</span><span><span class="lnk" onclick="openPlace('${b.place_id}')">${esc(b.place_name)}</span></span>
+    </div></div>`;
+    if (b.detail) h += `<div class="sec"><h4>战斗详述</h4><div class="bio">${esc(b.detail)}</div></div>`;
+  } else {
+    h += `<div class="empty" style="height:calc(100vh - 140px);display:flex;flex-direction:column;align-items:center;justify-content:center">
+      <div class="emptyfig"></div>
+      <div>点击时间轴上的卡片，此处显示事件 / 战役详情。</div>
+      <div style="font-size:13.5px;color:#ab9871;margin-top:4px">战役卡会展开战线推演图</div></div>`;
+  }
+  dt.innerHTML = h; dt.scrollTop = 0;
+  if (b) {
+    const SNAP = /[?&]snap=1/.test(location.search || '');
+    const OPEN_MS = SNAP ? 0 : 700;
+    /* 事件页右栏的战线推演地图同样用大字号标注（用户要求「事件页的战线推演的地图里的战线说明文字加大」） */
+    MC.setBigNode(true);
+    const sc = buildBattleScene($('evbm'), b, (i, n) => {
+      $('evnst').textContent = (i + 1) + ' / ' + sc.N.length;
+      $('evsd').innerHTML = `<b style="color:var(--accent)">${n.time_seq}. ${esc(n.kind)}·${esc(n.label)}</b>　${esc(n.desc)}`;
+    });
+    MC.setBigNode(false);
+    MC.lockZoom($('evbm'));
+    sc.fit(0); sc.draw(0, OPEN_MS);
+    let bi = 0;
+    $('evplay').onclick = () => {
+      if (timer) { clearInterval(timer); timer = null; }
+      bi = 0; sc.draw(0, 700);
+      timer = setInterval(() => { bi++; if (bi >= sc.N.length) { clearInterval(timer); timer = null; return; } sc.draw(bi, 700); }, 1200);
+    };
+    /* 单击小地图 → 全屏战线推演（沿用原弹窗设计的 openBattleStage） */
+    $('evbm').onclick = () => openBattleStage(id);
+  }
+}
+/* 事件类型 → 五大类，用于时间轴标签配色（军事/政治/外交/神异/人物） */
+function kcls(k) {
+  k = k || '';
+  if (/军|战|伐|谋|叛|计/.test(k)) return 'k-mil';
+  if (/政|变|权|典制|更替/.test(k)) return 'k-pol';
+  if (/外交|归附/.test(k)) return 'k-dip';
+  if (/神|异|发明/.test(k)) return 'k-mys';
+  return 'k-per';
+}
+let EVCOMP = false, EVT = 0;        /* 事件检索：组词中标记 + 防抖定时器（全局，见 render） */
+
+function renderEvents() {
+  /* 事件页不使用左侧索引（与中轴重复）：搜索结果经 evJump 直接定位时间轴卡片 */
+  document.body.classList.add('noside');
+  /* 中栏 = 编年时间轴（战役卡紧随其父事件卡之后——附属关系即排版关系，不按年份全局混排） */
+  const evIds = new Set(EV.map(e => e.id));
+  const kidsOf = {};
+  const orphan = [];
+  BT.forEach(b => {
+    if (b.event_id && evIds.has(b.event_id)) (kidsOf[b.event_id] = kidsOf[b.event_id] || []).push(b);
+    else orphan.push({ y: b.year || b.start_year, tp: 'battle', o: b });
+  });
+  const items = EV.map(e => ({ y: e.start_year, tp: 'event', o: e }))
+    .concat(orphan).sort((a, b) => a.y - b.y);
+  let h = `<div class="evstats">
+      <div><b>${EV.length}</b><br><span>起事件</span></div>
+      <div><b>${BT.length}</b><br><span>场战役</span></div>
+      <div><b>184–280</b><br><span>时间跨度</span></div></div>
+    <div class="evfilt">${[['all', '全部'], ['event', '仅事件'], ['battle', '仅战役']].map(([v, t]) =>
+      `<button data-f="${v}" class="${EVFILT === v ? 'on' : ''}">${t}</button>`).join('')}
+      <input id="evsrch" class="evsearch" placeholder="模糊检索：事件 / 战役 / 人名 / 地名" value="${esc(EVKW || '')}"
+        style="margin-left:auto;width:250px;padding:4px 10px;font-size:13.5px"></div>`;
+  let era = '';
+  /* 检索（模糊 = 子串匹配）：命中事件 → 事件卡 + 全部子战役卡；命中战役 → 父事件卡 + 命中战役卡 */
+  const EVKW_ = (EVKW || '').trim().toLowerCase();
+  const hitB = b => !EVKW_ || (String(b.name) + (b.summary || '') + (b.place_name || '') +
+    (b.belligerents || []).map(x => x.side || x).join(' ')).toLowerCase().includes(EVKW_);
+  const hitE = e => !EVKW_ || (String(e.name) + (e.summary || '') + (e.place || '') +
+    e.participants.map(p => { const q = P[p.person_id]; return q ? q.name + ' ' + (q.display_aliases || []).join(' ') : p.person_id; }).join(' ')).toLowerCase().includes(EVKW_);
+  const eraHead = y => {
+    const e0 = EV_ERAS.find(r => y >= r[0] && y <= r[1]);
+    if (e0 && e0[2] !== era) { era = e0[2]; h += `<div class="evera">${esc(era)}</div>`; }
+  };
+  const btRow = (b, par) => {
+    /* 战役卡：无年份列、无节点圆点（附属卡）；仅当年份与父事件不一致时才标年份 */
+    const y = b.year || b.start_year;
+    const yDiffer = !par || par.start_year !== y;
+    return `<div class="evt bt" id="evc-${b.id}"><div class="yy">${yDiffer ? y : ''}</div>
+         <div class="evcard" data-b="${b.id}"><div class="t">${esc(b.name)}<span class="k k-mil">战役</span>
+         <span style="font-size:15px;color:var(--ink3);margin-left:auto">${esc(b.date_text || '')}</span></div>
+         <div class="s">${esc(b.summary)}</div>
+         <div class="m">战线 ${b.front_line.length} 个节点 · 结果 ${esc(b.result)}</div></div></div>`;
+  };
+  const evCardE = (e, y) => `<div class="evt" id="evc-${e.id}"><div class="yy">${y}</div><div class="nd"></div>
+         <div class="evcard" data-id="${e.id}"><div class="t">${esc(e.name)}<span class="k ${kcls(e.kind)}">${esc(e.kind)}</span>
+         <span style="font-size:15px;color:var(--ink3);margin-left:auto">${esc(e.date_text || '')}</span></div>
+         <div class="s">${esc(e.summary)}</div>
+         <div class="m">相关人物 ${e.participants.length} · 挂载战役 ${(e.battle_ids || []).length} · 原文 ${e.passage_ids.length} 处</div></div></div>`;
+  items.forEach(it => {
+    if (EVFILT === 'battle') return;
+    const e = it.o;
+    if (EVKW_) {
+      const eb = (kidsOf[e.id] || []).filter(hitB);
+      if (!hitE(e) && !eb.length) return;           /* 事件与子战役均未命中 → 整组隐藏 */
+      eraHead(it.y);
+      h += evCardE(e, it.y);
+      /* 命中事件 → 连同全部子战役展示；仅子战役命中 → 事件卡 + 命中战役卡 */
+      if (EVFILT === 'all') (hitE(e) ? (kidsOf[e.id] || []).slice() : eb)
+        .sort((a, b) => (a.year || 0) - (b.year || 0)).forEach(b => { h += btRow(b, e); });
+      return;
+    }
+    eraHead(it.y);
+    h += evCardE(e, it.y);
+    if (EVFILT === 'all') {
+      (kidsOf[e.id] || []).sort((a, b) => (a.year || 0) - (b.year || 0)).forEach(b => { h += btRow(b, e); });
+    }
+  });
+  if (EVFILT === 'battle')
+    BT.slice().sort((a, b) => (a.year || 0) - (b.year || 0))
+      .filter(b => hitB(b)).forEach(b => { eraHead(b.year || 0); h += btRow(b, EV.find(e => e.id === b.event_id)); });
+  $('evwrap').innerHTML = h;
+  const si = $('evsrch');
+  if (si && EVKW_) { si.focus(); si.setSelectionRange(si.value.length, si.value.length); }
+  if (si) {
+    /* 中文输入法保护：组词（composition）期间不重渲染，避免输入框被销毁打断 IME；
+       松散输入加 250ms 防抖。compositionend 才真正触发过滤。
+       ⚠ 定时器与组词标记都必须挂在模块级：renderEvents() 会把输入框整个重建，
+       若用局部 let，旧闭包里的定时器谁都 clearTimeout 不到，250ms 后会用旧值重渲染。 */
+    si.addEventListener('compositionstart', () => { EVCOMP = true; });
+    si.addEventListener('compositionend', () => { EVCOMP = false; EVKW = si.value; renderEvents(); });
+    si.oninput = () => {
+      if (EVCOMP) return;
+      clearTimeout(EVT);
+      EVT = setTimeout(() => { EVKW = $('evsrch') ? $('evsrch').value : EVKW; renderEvents(); }, 250);
+    };
+  }
+  $('evwrap').querySelectorAll('.evfilt button').forEach(b => b.onclick = () => { EVFILT = b.dataset.f; renderEvents(); });
+  $('evwrap').querySelectorAll('.evcard').forEach(e =>
+    e.onclick = () => { renderEvDetail(e.dataset.b || e.dataset.id); e.closest('.evt').classList.add('flash'); setTimeout(() => e.closest('.evt').classList.remove('flash'), 1400); });
+  if (!$('evdt').innerHTML) renderEvDetail(null);
+}
+
+/* ================= 卡片 ================= */
+function openEntity(t, id) {
+  if (t === 'person') openPerson(id);
+  else if (t === 'place') openPlace(id);
+  else if (t === 'event') openEvent(id);
+  else if (t === 'battle') openBattle(id);
+}
+
+// 弱链接轻提示：就地在锚点下方浮一句，说明「这里是按前文推定的，未展开」
+let wlTipEl = null, wlTipTimer = 0;
+function showWeakTip(el, ev) {
+  if (ev) ev.stopPropagation();
+  const p = P[el.dataset.id];
+  const name = p ? p.name : (el.textContent || '');
+  const basis = el.getAttribute('title') || '';
+  if (wlTipEl) { wlTipEl.remove(); wlTipEl = null; }
+  clearTimeout(wlTipTimer);
+  const tip = document.createElement('div');
+  tip.className = 'wltip';
+  tip.id = 'wltip';
+  tip.innerHTML = `此处按同段前文推定为 <b>${esc(name)}</b>，证据不足以展开人物卡`;
+  document.body.appendChild(tip);
+  const r = el.getBoundingClientRect();
+  const tw = tip.offsetWidth, th = tip.offsetHeight;
+  let left = r.left + r.width / 2 - tw / 2;
+  left = Math.max(8, Math.min(left, window.innerWidth - tw - 8));
+  let top = r.bottom + 6;
+  if (top + th > window.innerHeight - 8) top = r.top - th - 6;
+  tip.style.left = left + 'px';
+  tip.style.top = Math.max(8, top) + 'px';
+  wlTipEl = tip;
+  wlTipTimer = setTimeout(() => { if (wlTipEl) { wlTipEl.remove(); wlTipEl = null; } }, 2600);
+}
+window.showWeakTip = showWeakTip;
+document.addEventListener('click', () => { if (wlTipEl) { wlTipEl.remove(); wlTipEl = null; } });
+function showCard(html) {
+  $('card').innerHTML = `<div class="x" onclick="closeCard()">×</div>` + html;
+  $('mask').classList.add('on');
+  $('card').scrollTop = 0;
+}
+window.closeCard = () => $('mask').classList.remove('on');
+$('mask').onclick = e => { if (e.target.id === 'mask') closeCard(); };
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeCard(); });
+
+function openPerson(id) {
+  const p = P[id];
+  if (!p) return showCard('<div class="cbd"><div class="empty">该人物尚未建档</div></div>');
+  const f = primaryFaction(p);
+  const life = (p.birth || p.death) ? `${p.birth || '?'} — ${p.death || '?'}` : '生卒不详';
+  const prec = { exact: '', approx: '约', unknown: '不详', disputed: '存疑' }[p.date_precision] || '';
+  const avaHtml = `<div class="chd"><div class="ava lg" style="--c:${FCOL[f]}">${esc(p.name[0])}</div><div class="who">`;
+  /* 时间片块：独立成节放在正文最前 */
+  const tenureHtml = (p.tenure || []).length
+    ? `<div class="sec"><h4>阵营与官职 · 时间片</h4>` +
+      p.tenure.map(t => `<div class="tn"><span class="fl" style="background:${FCOL[t.faction_id]}">${FNAME[t.faction_id]}</span>
+      <div class="bd"><div><b style="font-weight:400">${esc(t.role)}</b><span class="yr">${t.start_year}–${t.end_year}</span></div>
+      ${t.title ? `<div class="ti">${esc(t.title)}</div>` : ''}
+      <div class="bs">${esc(t.basis || '')}</div></div></div>`).join('') + `</div>`
+    : '';
+  let h = avaHtml + `<h2>${esc(p.name)}${p.courtesy ? `<em>字 ${esc(p.courtesy)}</em>` : ''}</h2>
+    <div class="life"><b>${prec}</b> ${life}　<span style="color:var(--ink3)">${esc((p.display_aliases || []).join(' · '))}</span></div>
+    ${p.history_life_dates ? `<div class="lifeh">史书生卒：${esc(p.history_life_dates)}</div>` : ''}
+    <div class="sum">${esc(p.summary)}</div></div></div><div class="cbd">`;
+  h += tenureHtml;
+  if ((p.timeline || []).length) {
+    h += `<div class="sec"><h4>生平时间线</h4><div class="tline">`;
+    p.timeline.forEach(x => {
+      h += `<div class="tli ${x.importance >= 3 ? 'hi' : ''}"><b>${x.year}</b>${esc(x.title)}<div class="d">${esc(x.description)}</div></div>`;
+    });
+    h += `</div></div>`;
+  }
+  if (p.bio) h += `<div class="sec"><h4>生平详述</h4><div class="bio">${esc(p.bio)}</div></div>`;
+  // 2026-10-28 定案：史异注不折叠，固定放在卡片最底部（「出现位置」之前）
+  if (p.history_conflict_type && p.history_conflict_note) {
+    h += `<div class="hcwrap"><div class="hchd">史异注 <span class="hctype">${esc(p.history_conflict_type)}</span></div>` +
+      `<div class="hcnote">${esc(p.history_conflict_note)}</div></div>`;
+  }
+  h += `<div class="sec"><h4>出现位置</h4><div class="chips" id="appear"></div></div></div>`;
+  showCard(h);
+  const app = DATA.mentions.filter(m => m.entity_type === 'person' && m.entity_id === id)
+    .map(m => Math.floor(m.passage_id / 1000)).filter((v, i, a) => a.indexOf(v) === i);
+  $('appear').innerHTML = app.map(c => `<span class="chip" onclick="closeCard();goCh(${c})">第 ${c} 回</span>`).join('')
+    || '<span class="note">本批原文中未出现</span>';
+}
+window.openPerson = openPerson;
+
+/* 水系段：底图上同名河段 + 同名湖泊面。
+   阅读页点「长江 / 汉水 / 淯水」这类水系地名时，要亮的是整条水，不是某个坐标——
+   河是一条线，点位语义对它是错的。 */
+function waterSegs(name) {
+  const out = [];
+  (GEO.rivers || []).forEach(r => { if (r.name === name) out.push({ pts: r.pts, w: r.w }); });
+  (GEO.lakes || []).forEach(l => { if (l.name === name) out.push({ pts: l.pts, lake: true, w: 2 }); });
+  return out;
+}
+
+function openPlace(id) {
+  const p = L[id];
+  if (!p) return;
+  const wt = waterSegs(p.name);
+  const water = p.type === '水系' && wt.length > 0;
+  let h = `<div class="chd"><div class="who"><h2>${esc(p.name)}<em>${esc(p.type)}</em>
+     ${p.pixel_x == null ? '' : water ? '<span class="locked">整条高亮 · 自适应取景</span>'
+       : `<span class="locked">比例锁定 ${cardZoom(p)}×</span>`}</h2>
+    <div class="life">${esc(p.modern_name || '')}　<span style="color:var(--ink3)">${esc(p.province || '')}</span></div>
+    </div></div><div class="cbd">`;
+  if (p.pixel_x != null) {
+    h += `<div class="sec"><svg class="minimap" id="mm"></svg>
+      <div class="note">${water
+        ? `整条「${esc(p.name)}」按底图所画河段以蓝色高亮，取景按水系外接框自适应。`
+        : `该地点居中显示，比例由地名类型预设（${esc(p.type)} → ${cardZoom(p)}×），滚轮与双击缩放已禁用。`}</div></div>`;
+  }
+  h += `<div class="sec"><h4>地名信息</h4><div class="kv">
+    <span class="k">今地</span><span>${esc(p.modern_name || '—')}</span>
+    <span class="k">时属</span><span>${esc(p.ancient_admin || '—')}</span>
+    <span class="k">坐标</span><span>${p.lng != null ? p.lng.toFixed(2) + '°E, ' + p.lat.toFixed(2) + '°N' : '—'}
+      ${p.coord_precision ? `<span style="color:var(--accent);font-size:15px"> ${esc(p.coord_precision)}</span>` : ''}</span>
+    <span class="k">首现</span><span>${p.first_chapter ? '第 ' + p.first_chapter + ' 回' : '—'}</span>
+    <span class="k">本书</span><span>出现 ${p.mention_count} 次${(p.chapters || []).length ? '（第 ' + p.chapters.join('、') + ' 回）' : ''}</span>
+    ${p.coord_note ? `<span class="k">备注</span><span>${esc(p.coord_note)}</span>` : ''}
+  </div></div></div>`;
+  showCard(h);
+  if (p.pixel_x == null) return;
+  const svg = $('mm');
+  svg._refs = MC.drawBase(svg, C, GEO);
+  if (water) localWaterCard(svg, p.name, wt);
+  else localPlaceCard(svg, p);
+}
+
+/* 地点卡小图：底图 + 与地图页同源的选中态。
+   2026-10-30 定案：不再撒「全图棕点」——四百多个 3px 圆点把地形糊成一片麻子，
+   而且默认就该干净。位置参照改由底图郡名承担（见 junNamesForCard）。
+   州/郡不画靶心，改高亮行政界线，与地图页 selectPlaceOnMap 保持同一套语言。 */
+/* 卡片取景倍率：按地名类型；水系若底图没画河段（檀溪），退回 3.2——
+   1.2 是「看整条大河」的倍率，套在一条小溪上会退到几乎全图。 */
+const cardZoom = p => (p.type === '水系' && !waterSegs(p.name).length) ? 3.2 : zoomFor(p);
+
+function localPlaceCard(svg, p) {
+  const pz = cardFrame(svg, [p.pixel_x], [p.pixel_y], { wantW: C.w / cardZoom(p) });
+  const g = el('g', {});
+  svg.appendChild(g);
+  const zN = zhouOf(p), jN = junOf(p), rN = regionOf(p);
+  const lit = rN ? localRegionHighlight(svg._refs, rN) : localAdminHighlight(svg._refs, zN, jN);
+  if (!lit) {                       /* 普通点位：靶心 + 米白名牌 */
+    const f = MC.makeFocus(g, C, () => pz, svg._refs);
+    f.add(p.pixel_x, p.pixel_y, p.name, '#9c2b1f');
+  }
+  softenZhouLabels(svg._refs, pz, lit === 'zhou' ? zN : null);
+  junNamesForCard(svg._refs, pz);
+}
+
+/* 卡片小图里的州名收一档：底图 26px 的州名塞进 500×154 的取景框会喧宾夺主
+   （两三个紫字压住整张图），压到 17px、其余淡到 .32，只当地理背景；
+   当前高亮的那一州保持 .9，否则「点冀州却看不出哪个是冀州」。 */
+function softenZhouLabels(refs, pz, hi) {
+  if (!refs || !refs.zhouLb) return;
+  refs.zhouLb.setAttribute('opacity', 1);
+  refs.zhouLb.querySelectorAll('text[data-zhou]').forEach(t => {
+    const on = hi && t.textContent === hi;
+    t.setAttribute('font-size', ((on ? 20 : 17) / pz).toFixed(3));
+    t.setAttribute('opacity', on ? .92 : .4);
+  });
+}
+
+/* 卡片小图的郡名参照：底图郡名要 pz≥2.2 才显形，卡片永远到不了这个倍率，
+   「这个县城在哪一郡」就一点线索都没有（去掉棕点后尤其明显）。
+   这里把郡名放出来（12px 屏幕恒定），只显取景框内那几枚——不画点，也不喧宾夺主。 */
+function junNamesForCard(refs, pz) {
+  if (!refs || !refs.junLb) return;
+  /* 郡被高亮时（点的是郡名）已经是 1，别把它压回去 */
+  const cur = +(refs.junLb.getAttribute('opacity') || 0);
+  refs.junLb.dataset.force = '1';
+  refs.junLb.setAttribute('opacity', Math.max(cur, .75));
+  refs.junLb.querySelectorAll('text').forEach(t => t.setAttribute('font-size', (12 / pz).toFixed(3)));
+}
+
+/* 水系卡小图：整条水系高亮 + 按外接框自适应取景（与地图页 riverHighlight 同一套配色） */
+function localWaterCard(svg, name, segs) {
+  const xs = [], ys = [];
+  segs.forEach(s => s.pts.forEach(q => { xs.push(q[0]); ys.push(q[1]); }));   /* 长江 800+ 点 */
+  /* 求极值不用 Math.min(...xs)：上千个实参在 Safari 上会撞调用栈上限 */
+  const bx = MC.extent(xs), by = MC.extent(ys);
+  const pz = cardFrame(svg, [bx[0], bx[1]], [by[0], by[1]], { pad: 1.16, minW: 300 });
+  const g = el('g', { 'pointer-events': 'none' });
+  segs.forEach(s => {
+    const d = s.lake ? MC.dPoly(s.pts) : MC.dLine(s.pts);
+    /* 描边宽度按「水系自身线宽的倍数」给，且**随图缩放**（不加 non-scaling-stroke）：
+       底图河宽是画布单位（汉水 2.2、长江 3.0），放大后跟着变粗；
+       高亮若用固定屏幕像素，放大到 3× 时反倒比底图河线更细，等于没高亮。 */
+    const w = s.w || 2;
+    g.appendChild(el('path', {                      /* 浅蓝晕边：让河在晕渲地形上浮起来 */
+      d: d, fill: s.lake ? 'rgba(64,132,176,.22)' : 'none',
+      stroke: '#7fb4d0', 'stroke-width': (w * 3).toFixed(2), opacity: .30,
+      'stroke-linecap': 'round', 'stroke-linejoin': 'round'
+    }));
+    g.appendChild(el('path', {                      /* 干流：深蓝实线 */
+      d: d, fill: 'none', stroke: '#15659e', 'stroke-width': (w * 1.5).toFixed(2), opacity: .95,
+      'stroke-linecap': 'round', 'stroke-linejoin': 'round'
+    }));
+  });
+  svg._refs.base.appendChild(g);
+  /* 水名：在最长一段干流上挑一个离州名最远的落点，别让「长江」压在「荆州」上 */
+  const longest = segs.reduce((a, b) => (b.pts.length > a.pts.length ? b : a), segs[0]);
+  const spot = waterLabelSpot(longest.pts);
+  const t = el('text', {
+    x: spot[0], y: spot[1] - 13 / pz, 'text-anchor': 'middle', fill: '#0f5386',
+    'font-size': 18 / pz, 'font-family': 'serif', 'font-weight': 700, 'letter-spacing': 1 / pz,
+    stroke: '#fdfaf1', 'stroke-width': 3.6 / pz, 'paint-order': 'stroke', 'stroke-linejoin': 'round'
+  });
+  t.textContent = name;
+  g.appendChild(t);
+}
+
+/* 水名落点：沿干流取 5 个候选，选离所有州名（26px 大字）最远的一个。
+   州名是底图上最重的注记，水名压在它上面两边都读不清。y 方向权重放大，
+   因为汉字横排的视觉宽度远大于字高。 */
+function waterLabelSpot(pts) {
+  const anchors = (GEO.zhou || []).map(z => [z.x, z.y]);   /* GEO.zhou 只含 12 州，不含羌中注记 */
+  let best = pts[Math.floor(pts.length / 2)] || pts[0], bestD = -1;
+  [.28, .4, .52, .66, .8].forEach(f => {
+    const m = pts[Math.min(pts.length - 1, Math.round(pts.length * f))];
+    if (!m) return;
+    let d = 1e9;
+    anchors.forEach(a => { d = Math.min(d, Math.hypot(a[0] - m[0], (a[1] - m[1]) * 1.8)); });
+    if (d > bestD) { bestD = d; best = m; }
+  });
+  return best;
+}
+
+/* 小图（锁定比例）里的行政域高亮：与地图页同一套配色，只是不需要「压暗其余 + 定格缩放」那套交互。
+   返回 'zhou' / 'jun' 表示已按州/郡高亮，调用方就不再画红点靶心；false 表示无行政域可亮。 */
+function localAdminHighlight(refs, zN, jN) {
+  if (!refs) return false;
+  if (zN && refs.zhouPoly) {
+    const paths = Array.from(refs.zhouPoly.children);
+    (DATA.geo.zhoupoly || []).forEach((poly, i) => {
+      const on = poly.name === zN;
+      if (on) {
+        paths[i * 2].setAttribute('stroke', '#f6e3c8');
+        paths[i * 2].setAttribute('stroke-width', 6);
+        paths[i * 2].setAttribute('opacity', .85);
+        paths[i * 2 + 1].setAttribute('stroke', '#7d1f16');
+        paths[i * 2 + 1].setAttribute('stroke-width', 2.4);
+        paths[i * 2 + 1].setAttribute('stroke-dasharray', 'none');
+        paths[i * 2 + 1].setAttribute('opacity', 1);
+      } else {
+        paths[i * 2 + 1].setAttribute('opacity', .26);
+      }
+    });
+    if (refs.zhouLb) refs.zhouLb.querySelectorAll('text[data-zhou]').forEach(t => {
+      if (t.textContent === zN) { t.setAttribute('fill', '#7d1f16'); t.setAttribute('font-weight', 700); t.setAttribute('opacity', 1); }
+    });
+    return 'zhou';
+  }
+  if (jN && refs.junPoly) {
+    const full = [...refs.junPoly.children].map(g => g.dataset.jun)
+      .find(n => n === jN || n.replace(/(郡|国|尹|属国)$/, '') === jN);
+    if (!full) return false;
+    Array.from(refs.junPoly.children).forEach(gg => {
+      const on = gg.dataset.jun === full;
+      Array.from(gg.children).forEach(pa => {
+        pa.setAttribute('stroke', on ? '#c2641f' : '#5c6f8e');
+        pa.setAttribute('stroke-width', on ? 1.6 : 0.75);
+        pa.setAttribute('stroke-dasharray', on ? 'none' : '3 3.5');
+        pa.setAttribute('opacity', on ? .95 : .25);
+      });
+    });
+    if (refs.junLb) {
+      refs.junLb.setAttribute('opacity', 1);
+      refs.junLb.querySelectorAll('text').forEach(t => {
+        const on = t.dataset.junlb === full;
+        t.setAttribute('fill', on ? '#c2641f' : '#4f6280');
+        t.setAttribute('font-weight', on ? 700 : 400);
+        t.setAttribute('opacity', on ? 1 : .4);
+      });
+    }
+    return 'jun';
+  }
+  return false;
+}
+
+/* 小图里的跨区域地理高亮：斜纹 + 青虚线，与地图页 regionHighlight 同语言（无需状态管理） */
+function localRegionHighlight(refs, name) {
+  if (!refs || !refs.base) return false;
+  const r = (DATA.geo.regionpoly || []).find(x => x.n === name);
+  if (!r) return false;
+  const g = el('g', {});
+  [r.p].concat(r.e || []).forEach(ring => {
+    if (!ring || ring.length < 3) return;
+    g.appendChild(el('path', {
+      d: MC.dPoly(ring), fill: 'url(#hatchRegion)', stroke: '#3d5a5c', 'stroke-width': 1.6,
+      'stroke-dasharray': '10 5', 'stroke-linejoin': 'round', 'vector-effect': 'non-scaling-stroke'
+    }));
+  });
+  refs.base.appendChild(g);
+  return true;
+}
+
+function openEvent(id) {
+  const e = EV.find(x => x.id === id);
+  if (!e) return;
+  let h = `<div class="chd"><div class="who"><h2>${esc(e.name)}<em>${esc(e.kind)}</em></h2>
+    <div class="life">${esc(e.date_text || (e.start_year + ' 年'))}</div>
+    <div class="sum">${esc(e.summary)}</div></div></div><div class="cbd">`;
+  h += `<div class="sec"><h4>相关人物 · ${e.participants.length}</h4><div class="chips">`;
+  e.participants.forEach(x => {
+    const p = P[x.person_id];
+    h += `<span class="chip" ${p ? `onclick="openPerson('${x.person_id}')"` : 'style="opacity:.55" title="未建档"'}>${esc(p ? p.name : x.person_id)}<span class="r">${esc(x.role_desc || '')}</span></span>`;
+  });
+  h += `</div></div>`;
+  h += `<div class="sec"><h4>原文</h4><div class="chips">` +
+    e.passage_ids.map(pid => `<span class="chip" onclick="closeCard();jump(${pid})">第 ${Math.floor(pid / 1000)} 回 · 段 ${pid % 1000}</span>`).join('') + `</div></div>`;
+  if ((e.timeline || []).length) {
+    h += `<div class="sec"><h4>事件发展</h4><div class="tline">`;
+    e.timeline.forEach(x => h += `<div class="tli ${x.importance >= 3 ? 'hi' : ''}"><b>${x.year}</b>${esc(x.title)}<div class="d">${esc(x.description)}</div></div>`);
+    h += `</div></div>`;
+  }
+  if (e.detail) h += `<div class="sec"><h4>事件详述</h4><div class="bio">${esc(e.detail)}</div></div>`;
+  if ((e.battle_ids || []).length) {
+    h += `<div class="sec"><h4>下辖战役</h4><div class="chips">` +
+      e.battle_ids.map(bid => `<span class="chip" onclick="openBattle('${bid}')">${esc((BT.find(b => b.id === bid) || {}).name || bid)}</span>`).join('') + `</div></div>`;
+  }
+  h += `</div>`;
+  showCard(h);
+}
+window.openEvent = openEvent;
+
+let timer = null;
+function openBattle(id) {
+  const b = BT.find(x => x.id === id);
+  if (!b) return;
+  /* ?snap=1：回归专用，跳过开场推近动画直接落定（无头截图 rAF 相位不定，
+     700ms 推近会让基线对比漂移 5%+；map_test.html 的 snap 同语义） */
+  const SNAP = /[?&]snap=1/.test(location.search || '');
+  const OPEN_MS = SNAP ? 0 : 700;
+  const parent = EV.find(e => e.id === b.event_id);
+  let h = `<div class="chd"><div class="who"><h2>${esc(b.name)}<em>战役</em></h2>
+    <div class="life">${esc(b.date_text || b.year + ' 年')}　<span style="color:var(--ink3)">父事件 ·
+      <span class="lnk" onclick="openEvent('${b.event_id}')">${esc(parent ? parent.name : b.event_id)}</span></span></div>
+    <div class="sum">${esc(b.summary)}</div></div></div><div class="cbd">`;
+  h += `<div class="sec"><h4>战线推进 <span class="locked">比例锁定</span></h4>
+    <div class="bwrap"><svg class="minimap" id="bm" preserveAspectRatio="xMidYMid meet"></svg>
+      <div class="zhint">🔍 单击放大 · 可播放推演</div></div>
+    <div class="playbar"><button class="btn" id="play">▶ 推演战线</button><span class="nsteps" id="nst"></span></div>
+    <div class="stepdesc" id="sd"></div></div>`;
+  h += `<div class="sec"><h4>战况</h4><div class="kv">
+    <span class="k">交战</span><span>${esc((b.belligerents || []).map(x => x.side || x).join(' × ') || '—')}</span>
+    <span class="k">结果</span><span>${esc(b.result || '—')}</span>
+    ${b.casualties_note ? `<span class="k">伤亡</span><span>${esc(b.casualties_note)}</span>` : ''}
+    <span class="k">地点</span><span><span class="lnk" onclick="openPlace('${b.place_id}')">${esc(b.place_name)}</span></span>
+  </div></div>`;
+  /* 战役档无 passage_ids，回链父事件的原文段落 */
+  const blit = b.passage_ids || (parent && parent.passage_ids) || [];
+  if (blit.length)
+    h += `<div class="sec"><h4>原文</h4><div class="chips">` +
+      blit.map(pid => `<span class="chip" onclick="closeCard();jump(${pid})">第 ${Math.floor(pid / 1000)} 回 · 段 ${pid % 1000}</span>`).join('') + `</div></div>`;
+  if (b.detail) h += `<div class="sec"><h4>战斗详述</h4><div class="bio">${esc(b.detail)}</div></div>`;
+  h += `</div>`;
+  showCard(h);
+
+  /* 先全局，再推演（小图锁定镜头）；单击放大进全屏推演页 */
+  const sc = buildBattleScene($('bm'), b, (i, n) => {
+    $('nst').textContent = (i + 1) + ' / ' + sc.N.length;
+    $('sd').innerHTML = `<b style="color:var(--accent)">${n.time_seq}. ${esc(n.kind)}·${esc(n.label)}</b>　${esc(n.desc)}`;
+  });
+  MC.lockZoom($('bm'));        // 小图镜头由脚本推进，用户不能缩放
+  sc.fit(0);               // 先全局总览（标全部节点）
+  sc.draw(0, OPEN_MS);         // 再平滑推近第一步（snap=1 时瞬时落定）
+  let bi = 0;
+  $('play').onclick = () => {
+    if (timer) { clearInterval(timer); timer = null; }
+    bi = 0; sc.draw(0, 700);
+    timer = setInterval(() => { bi++; if (bi >= sc.N.length) { clearInterval(timer); timer = null; return; } sc.draw(bi, 700); }, 1200);
+  };
+  $('bm').onclick = () => openBattleStage(id);
+}
+
+/* ===== 战线推演场景构建器：卡片小图 / 全屏页共用（底图 + 幽灵全程线 + 实况层） =====
+   节点走同一套「data-sz 屏幕像素」协议；draw(upto) 镜头推进，fit() 回全局。 */
+function buildBattleScene(svg, b, hook) {
+  svg.innerHTML = '';
+  svg._refs = MC.drawBase(svg, C, GEO);
+  const gPath = el('g', {}), gLive = el('g', {});
+  svg.append(gPath, gLive);
+  const N = b.front_line;
+  const XY = N.map(n => ({ x: n.pixel_x, y: n.pixel_y }));
+  const xs = XY.map(q => q.x), ys = XY.map(q => q.y);
+  const midX = (Math.min(...xs) + Math.max(...xs)) / 2, midY = (Math.min(...ys) + Math.max(...ys)) / 2;
+  const fitZ = Math.min(C.w / (Math.max(...xs) - Math.min(...xs) + 150),
+                         C.h / (Math.max(...ys) - Math.min(...ys) + 150), 15);
+  MC.battlePath(gPath, XY, { ghost: true, sz: 3, dash: '9 7' });
+  /* 节点层：allLab=全局总览时标全部节点，推演中只标当前步，减少遮挡 */
+  const renderNodes = (upto, allLab) => {
+    gLive.innerHTML = '';
+    const pts = XY.slice(0, upto + 1);
+    if (pts.length > 1) MC.battlePath(gLive, pts, { sz: 2.4 });
+    pts.forEach((q, k) => MC.battleNode(gLive, q, 1, {
+      past: k !== upto, up: k % 2,
+      label: (allLab || k === upto) ? N[k].time_seq + '. ' + N[k].label : null
+    }));
+  };
+  /* viewBox 平滑插值（对数缩放 + 缓出），锁定场景的镜头动画 */
+  let cur = null, anim = null;
+  const applyVB = () => {
+    svg.setAttribute('viewBox', MC.viewBoxStr(cur.cx, cur.cy, cur.z, C.w, C.h));
+    const pz = MC.displayZoom(svg, C, cur.z);
+    MC.decorScale(svg._refs, svg, C, cur.z);
+    MC.applySpacing(gPath, pz); MC.applySpacing(gLive, pz);
+  };
+  const setVB = (t, dur) => {
+    if (anim) { cancelAnimationFrame(anim); anim = null; }
+    if (!cur || !dur) { cur = { cx: t.cx, cy: t.cy, z: t.z }; applyVB(); return; }
+    const a = { ...cur }, t0 = performance.now();
+    const step = now => {
+      const k = Math.min(1, (now - t0) / dur), e = 1 - Math.pow(1 - k, 3);
+      cur = { cx: a.cx + (t.cx - a.cx) * e, cy: a.cy + (t.cy - a.cy) * e,
+              z: Math.exp(Math.log(a.z) + (Math.log(t.z) - Math.log(a.z)) * e) };
+      applyVB();
+      if (k < 1) anim = requestAnimationFrame(step); else anim = null;
+    };
+    anim = requestAnimationFrame(step);
+  };
+  /* 每步镜头自适应：本步与相邻节点的跨度决定比例，长距离行军拉远、短距离事件推近 */
+  const camFor = i => {
+    const a = XY[Math.max(0, i - 1)], c = XY[i];
+    const span = Math.max(Math.abs(c.x - a.x), Math.abs(c.y - a.y), 30);
+    return { cx: (a.x + c.x) / 2, cy: (a.y + c.y) / 2,
+             z: Math.max(2.5, Math.min(C.w * .55 / span, C.h * .55 / span, 14)) };
+  };
+  return {
+    N, fitZ, midX, midY, gPath, gLive,
+    draw(upto, dur) {
+      this._i = upto;
+      renderNodes(upto, false);
+      setVB(camFor(upto), dur || 0);
+      if (hook) hook(upto, N[upto]);
+    },
+    fit(dur) {
+      renderNodes(this._i == null ? 0 : this._i, true);
+      setVB({ cx: midX, cy: midY, z: fitZ }, dur || 0);
+    }
+  };
+}
+
+/* ===== 全屏战线推演页（卡片小图「单击放大」进入） ===== */
+let stageTimer = null;
+function stopStage() { if (stageTimer) { clearInterval(stageTimer); stageTimer = null; } }
+function openBattleStage(id) {
+  const b = BT.find(x => x.id === id);
+  if (!b) return;
+  stopBattleMapPlay();
+  stopStage();
+  $('bmt').textContent = b.name + ' · 战线推演';
+  $('bmpn').textContent = '';
+  $('bmask').classList.add('on');
+  MC.setBigNode(true);     /* 全屏推演用大字号战线标注 */
+  const sc = buildBattleScene($('bmap'), b, (i, n) => {
+    $('bmpn').textContent = (i + 1) + ' / ' + sc.N.length;
+    $('bsd').innerHTML = `<b style="color:#e0b25c">${n.time_seq}. ${esc(n.kind)}·${esc(n.label)}</b>　${esc(n.desc)}`;
+  });
+  MC.setBigNode(false);    /* 几何构建完即复位，后续每帧 applySpacing 读实例级节点快照即可 */
+  sc.fit(0);               // 先全局总览（标全部节点）
+  sc.draw(0, 700);         // 再平滑推近第一步
+  let si = 0;
+  /* 播放/暂停一体：点击进入即自动开始推演，可随时暂停续播 */
+  const stagePlay = () => {
+    stopStage();
+    if (si >= sc.N.length - 1) si = 0;
+    sc.draw(si, 700);
+    $('bmp').textContent = '⏸ 暂停';
+    stageTimer = setInterval(() => {
+      si++;
+      if (si >= sc.N.length) { stopStage(); $('bmp').textContent = '▶ 重新推演'; return; }
+      sc.draw(si, 700);
+    }, 1200);
+  };
+  const stagePause = () => {
+    stopStage();
+    $('bmp').textContent = '▶ 继续推演';
+  };
+  $('bmp').onclick = () => stageTimer ? stagePause() : stagePlay();
+  stagePlay();             // 进入全屏即自动开始
+}
+$('bmx').onclick = () => { stopStage(); MC.setBigNode(false); $('bmask').classList.remove('on'); };
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && $('bmask').classList.contains('on')) $('bmx').onclick(); });
+window.openBattleStage = openBattleStage;
+
+/* ================= 跳转 ================= */
+window.jump = pid => { const ch = Math.floor(pid / 1000); setView('read'); renderChapter(ch, pid); };
+
+/* ================= 关系图谱 ================= */
+/* v1（2026-10-28）：君臣边（tenure.lord_id，随时间片起止显隐）+ 敌对边（战役 belligerents
+   双方主帅，±1 年内显隐）。亲族边数据未建（亲族时间片无 lord_id），界面留位置灰。
+   力导向自绘 SVG（Fruchterman-Reingold 简化版），不引外部库；节点半径按提及次数；
+   节点 >300 时按提及次数截断显主干。 */
+const GM = {};   // person_id -> 提及次数
+DATA.mentions.forEach(m => { if (m.entity_type === 'person') GM[m.entity_id] = (GM[m.entity_id] || 0) + 1; });
+// person_id -> 首末登场回（从 mentions×passages 反推）
+const PID_CH = {};
+Object.keys(DATA.passages).forEach(ch => DATA.passages[ch].forEach(p => { PID_CH[p.id] = +ch; }));
+const APP = {};  // person_id -> [first_ch, last_ch]
+DATA.mentions.forEach(m => {
+  if (m.entity_type !== 'person') return;
+  const ch = PID_CH[m.passage_id]; if (!ch) return;
+  const a = APP[m.entity_id] || (APP[m.entity_id] = [ch, ch]);
+  if (ch < a[0]) a[0] = ch; if (ch > a[1]) a[1] = ch;
+});
+const CH_YEAR = {1:184,2:184,3:189,4:189,5:190,6:191,7:191,8:192,9:192,10:193,11:194,12:195,13:195,14:196,15:196,16:197,17:198,18:198,19:198,20:199,21:200,22:200,23:200,24:200,25:201,26:201,27:201,28:201,29:201,30:201,31:202,32:204,33:205,34:207,35:207,36:208,37:207,38:208,39:208,40:208,41:208,42:208,43:208,44:208,45:208,46:208,47:208,48:208,49:208,50:208,51:209,52:209,53:209,54:209,55:209,56:210,57:211,58:211,59:212,60:211,61:211,62:212,63:213,64:214,65:214,66:215,67:215,68:216,69:218,70:219,71:219,72:219,73:219,74:219,75:219,76:219,77:220,78:220,79:220,80:221,81:221,82:222,83:222,84:222,85:225,86:225,87:225,88:225,89:225,90:225,91:227,92:228,93:228,94:228,95:228,96:228,97:229,98:229,99:230,100:231,101:234,102:234,103:234,104:234,105:235,106:238,107:239,108:241,109:249,110:251,111:253,112:254,113:255,114:258,115:258,116:262,117:263,118:263,119:264,120:280};
+
+function graphPersonActive(p, y) {
+  const ts = p.tenure || [];
+  for (const t of ts) {
+    if (t.role === '追谥') continue;   // 追谥/追尊段不代表本人生前在世，避免把已亡人物续命到王朝末年
+    if (y >= (t.start_year || -9999) && y <= (t.end_year || 9999)) return true;
+  }
+  if (p.birth != null && y < p.birth) return false;
+  if (p.death != null && y > p.death) return false;
+  return p.birth == null && p.death == null;   // 生卒不详（如貂蝉）视为全程在世
+}
+
+function graphEdgeSet(y, wantLord, wantFoe) {
+  const seen = {}, E = [];
+  const push = (a, b, k, note) => {
+    const key = k + (a < b ? a + '|' + b : b + '|' + a);
+    if (seen[key] || a === b || !P[a] || !P[b]) return;
+    seen[key] = 1; E.push({ a, b, k, note });
+  };
+  if (wantLord) for (const id in P) (P[id].tenure || []).forEach(t => {
+    if (t.lord_id && y >= (t.start_year || -9999) && y <= (t.end_year || 9999))
+      push(id, t.lord_id, 'lord', `${P[id].name} 臣属于 ${P[t.lord_id].name}（${t.start_year}–${t.end_year} ${t.title || t.role || ''}）`);
+  });
+  if (wantFoe) BT.forEach(b => {
+    if (b.belligerents && b.belligerents.length >= 2 && Math.abs((b.year || 0) - y) <= 1)
+      for (let i = 0; i < b.belligerents.length; i++) for (let j = i + 1; j < b.belligerents.length; j++)
+        (b.belligerents[i].commanders || []).forEach(u => (b.belligerents[j].commanders || []).forEach(v =>
+          push(u, v, 'foe', `${P[u] ? P[u].name : u} × ${P[v] ? P[v].name : v}（${b.name}·${b.year}）`)));
+  });
+  return E;
+}
+
+let graphIds = [];   // 当前时点在世的人物 id 集（供侧栏列表渲染）
+const GFOLD = {};    // 阵营折叠状态（undefined = 默认折叠）
+function renderGraphList() {
+  const listEl = document.getElementById('glist');
+  if (!listEl) return;
+  const kw = (document.getElementById('gsearch').value || '').trim();
+  const hit = id => {
+    const p = P[id];
+    return !kw || p.name.includes(kw) || (p.courtesy || '').includes(kw) ||
+      (p.match_surfaces || []).some(s => s.includes(kw)) || (p.display_aliases || []).some(a => a.includes(kw));
+  };
+  const byF = {};
+  graphIds.forEach(id => { const f = primaryFaction(P[id]); (byF[f] = byF[f] || []).push(id); });
+  let h = '', n = 0;
+  DATA.factions.forEach(f => {
+    const arr = byF[f.id]; if (!arr) return;
+    const show = arr.filter(hit).sort((a, b) => (GM[b] || 0) - (GM[a] || 0));
+    if (!show.length) return;
+    n += show.length;
+    const open = kw ? true : !!GFOLD[f.id];   // 检索时自动全部展开；平时默认折叠
+    h += `<div class="fgroup" data-fg="${f.id}"><div class="fh" style="cursor:pointer" onclick="gfToggle('${f.id}')">
+        <span class="gfchev" style="display:inline-block;width:10px;font-size:14px;color:var(--ink3);transform:rotate(${open ? 90 : 0}deg);transition:transform .15s">▶</span>
+        <span class="dot" style="background:${f.color}"></span>
+        <span class="nm">${f.name}</span><span class="cnt">${show.length}${kw ? ' · 检索中' : ''}</span></div>`
+      + (open ? show.map(id => { const p = P[id];
+        return `<div class="ch-item${gSel === id ? ' on' : ''}" data-gp="${id}"><b>${GM[id] || 0}</b><span>${esc(p.name)}${p.match_surfaces && p.match_surfaces[1] ? '　' + esc(p.match_surfaces[1]) : ''}</span></div>`;
+      }).join('') : '') + '</div>';
+  });
+  listEl.innerHTML = h || `<div class="empty">${kw ? `无匹配「${esc(kw)}」的在世人物。` : '该时点没有在世人物。'}</div>`;
+  listEl.querySelectorAll('[data-gp]').forEach(e => e.onclick = () => { const was = e.classList.contains('on'); graphUnfocus(); if (!was) graphFocus(e.dataset.gp, true); });
+  // 选中高亮跨拖轴保持：重渲列表后重新标亮当前选中项并滚到可见
+  if (gSel) {
+    const it = listEl.querySelector(`[data-gp="${gSel}"]`);
+    if (it) it.scrollIntoView({ block: 'nearest' });
+  }
+}
+window.gfToggle = fid => {
+  if (GFOLD[fid]) delete GFOLD[fid];                 // 再点一次收起
+  else { for (const k in GFOLD) delete GFOLD[k]; GFOLD[fid] = true; }   // 手风琴：同屏只展开一个阵营
+  renderGraphList();
+};
+
+function renderGraph() {
+  const y = +$('gyslider').value;
+  $('gyyr').textContent = y + ' 年';
+  // 侧栏：图谱 · 人物索引（此前未接管，会残留上一视图的列表）
+  $('side-hd').textContent = '图谱 · 人物索引';
+  $('side-ft').style.display = 'none';
+  $('side-bd').classList.remove('pwlist');
+  const wantLord = $('ge-lord').checked, wantFoe = $('ge-foe').checked;
+
+  let ids = Object.keys(P).filter(id => graphPersonActive(P[id], y));
+  if (ids.length > 300) ids = ids.sort((a, b) => (GM[b] || 0) - (GM[a] || 0)).slice(0, 300);  // 降级显主干
+  const inSet = {}; ids.forEach(id => inSet[id] = 1);
+  let edges = graphEdgeSet(y, wantLord, wantFoe).filter(e => inSet[e.a] && inSet[e.b]);
+  // 孤立节点（无边且提及少）降密度：只留提及 ≥3 的
+  const deg = {}; edges.forEach(e => { deg[e.a] = (deg[e.a] || 0) + 1; deg[e.b] = (deg[e.b] || 0) + 1; });
+  ids = ids.filter(id => deg[id] || (GM[id] || 0) >= 3);
+
+  // ---- 侧栏：搜索框（持久） + 按阵营分组的人物列表 ----
+  graphIds = ids;
+  const prevS = document.getElementById('gsearch');
+  const gkwVal = prevS ? prevS.value : '';
+  const caret = prevS && document.activeElement === prevS ? prevS.selectionStart : null;
+  $('side-bd').innerHTML = `<div style="padding:8px 12px;border-bottom:1px solid var(--line)">
+      <input id="gsearch" value="${gkwVal.replace(/"/g, '&quot;')}" placeholder="搜索人名 / 字 / 别名"
+        style="width:100%;box-sizing:border-box;padding:6px 10px;border:1px solid var(--line);border-radius:6px;background:#fffdf8;font-size:17px;outline:none"/></div>
+    <div id="glist"></div>`;
+  const gs = document.getElementById('gsearch');
+  gs.oninput = renderGraphList;
+  if (caret != null) { gs.focus(); try { gs.setSelectionRange(caret, caret); } catch (e) {} }
+  renderGraphList();
+
+  // ---- 力导向布局（FR 简化）----
+  const W = 1200, H = 860, n = ids.length;
+  const pos = {}; ids.forEach((id, i) => {
+    const f = primaryFaction(P[id]);
+    const ang = Object.keys(FCOL).indexOf(f) * 2.399;      // 黄金角散开
+    const r0 = 60 + (i % 7) * 24;
+    pos[id] = [W / 2 + r0 * Math.cos(ang + i * .7), H / 2 + r0 * Math.sin(ang + i * .7)];
+  });
+  const k2 = 5600, rep = .5, att = .011, grav = .009;
+  for (let it = 0; it < 260; it++) {
+    const F = {}; ids.forEach(id => F[id] = [0, 0]);
+    for (let i = 0; i < n; i++) for (let j = i + 1; j < n; j++) {
+      const a = pos[ids[i]], b = pos[ids[j]];
+      let dx = a[0] - b[0], dy = a[1] - b[1], d2 = dx * dx + dy * dy + 40;
+      const f = rep * k2 / d2, d = Math.sqrt(d2);
+      dx /= d; dy /= d;
+      F[ids[i]][0] += dx * f; F[ids[i]][1] += dy * f;
+      F[ids[j]][0] -= dx * f; F[ids[j]][1] -= dy * f;
+    }
+    edges.forEach(e => {
+      const a = pos[e.a], b = pos[e.b];
+      if (!a || !b) return;
+      const dx = b[0] - a[0], dy = b[1] - a[1], d = Math.sqrt(dx * dx + dy * dy) || 1;
+      const f = att * (d - 150);
+      F[e.a][0] += dx / d * f; F[e.a][1] += dy / d * f;
+      F[e.b][0] -= dx / d * f; F[e.b][1] -= dy / d * f;
+    });
+    ids.forEach(id => {
+      const p = pos[id];
+      p[0] += (W / 2 - p[0]) * grav + Math.max(-18, Math.min(18, F[id][0]));
+      p[1] += (H / 2 - p[1]) * grav + Math.max(-18, Math.min(18, F[id][1]));
+      p[0] = Math.max(24, Math.min(W - 24, p[0])); p[1] = Math.max(24, Math.min(H - 24, p[1]));
+    });
+  }
+
+  // ---- 渲染 SVG ----
+  const gNbr = {};
+  if (gSel) edges.forEach(e => { if (e.a === gSel) gNbr[e.b] = 1; if (e.b === gSel) gNbr[e.a] = 1; });
+  const svg = $('graph');
+  svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
+  svg.innerHTML = `<g id="gz" transform="translate(0,0) scale(1)"></g>`;
+  const gz = svg.querySelector('#gz');
+  const mk = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  mk.innerHTML = edges.map(e => {
+    const a = pos[e.a], b = pos[e.b];
+    return `<line class="gedge ${e.k}" data-a="${e.a}" data-b="${e.b}" x1="${a[0].toFixed(1)}" y1="${a[1].toFixed(1)}" x2="${b[0].toFixed(1)}" y2="${b[1].toFixed(1)}"><title>${esc(e.note || '')}</title></line>`;
+  }).join('');
+  gz.appendChild(mk);
+  const ng = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+  ng.innerHTML = ids.map(id => {
+    const p = P[id], r = Math.min(26, 4 + Math.sqrt(GM[id] || 1) * 1.5);
+    const col = FCOL[primaryFaction(p)] || '#888';
+    // text 始终创建：data-th 记录「未选中时按阈值是否有名字」，nolab 控制显隐
+    const th = (GM[id] || 0) >= 5 || deg[id] >= 2 ? '1' : '';
+    const lab = `<text data-th="${th}" class="${th ? '' : 'nolab'}" x="${pos[id][0].toFixed(1)}" y="${(pos[id][1] + r + 11).toFixed(1)}" text-anchor="middle">${esc(p.name)}</text>`;
+    return `<g class="gnode" data-id="${id}"><title>${esc(p.name)} · 提及 ${GM[id] || 0} 次 · ${FNAME[primaryFaction(p)]}</title>` +
+      `<circle cx="${pos[id][0].toFixed(1)}" cy="${pos[id][1].toFixed(1)}" r="${r.toFixed(1)}" fill="${col}" fill-opacity=".85"></circle>${lab}</g>`;
+  }).join('');
+  gz.appendChild(ng);
+
+  $('gystat').textContent = `${n} 节点 / ${edges.length} 边（君臣 ${edges.filter(e => e.k === 'lord').length} · 敌对 ${edges.filter(e => e.k === 'foe').length}）`;
+
+  // 选中态：滑杆拖动后重放（本人+邻居高亮 + 标签 + 镜头跟随）
+  if (gSel) graphApplySel(gz, gSel);
+
+  gz.querySelectorAll('.gnode').forEach(el => el.onclick = () => {
+    if (el.dataset.moved) { el.dataset.moved = ''; return; }
+    // 虚化的节点用户根本看不清，点它视为「取消选中」而非切换
+    if (el.classList.contains('dim')) { lastSel = null; graphUnfocus(); return; }
+    const id = el.dataset.id;
+    graphUnfocus();
+    if (lastSel !== id) { lastSel = id; graphFocus(id, true); } else lastSel = null;
+  });
+  // 点空白 = 取消选中（平移拖拽不算）
+  svg.addEventListener('click', ev => {
+    if (ev.target.closest('.gnode') || svg.dataset.panned === '1') { svg.dataset.panned = ''; return; }
+    lastSel = null; graphUnfocus();
+  });
+  gz.querySelectorAll('.gnode').forEach(el => el.ondblclick = () => openEntity('person', el.dataset.id));
+  bindGraphDrag(svg, gz, pos);
+}
+
+const GV = { vk: 1, vx: 0, vy: 0 };
+function graphApply(gz) { gz.setAttribute('transform', `translate(${GV.vx},${GV.vy}) scale(${GV.vk})`); }
+let gSel = null;            // 当前选中 person_id（供滑杆/标签逻辑使用）
+let gSliderSave = null;     // 滑杆原始状态，取消选中时还原
+function graphYearRange(p) {
+  const a = APP[p.id];
+  const chY = ch => CH_YEAR[ch] != null ? CH_YEAR[ch] : 190;
+  // 一律按登场–末次登场（生卒年区间里可能有大段「有年份无人物」的空白）
+  const lo = a ? chY(a[0]) : (p.birth != null ? p.birth : 184);
+  const hi0 = a ? chY(a[1]) : (p.death != null ? p.death : 220);
+  // ★ 末次「提及」≠ 退场：后人回忆/台词引用会把董卓、刘协这类早亡者的提及拖到第 120 回。
+  //   用生卒年或非追谥在任年末截断——逝者不因被提及而复活。
+  const tEnd = (p.tenure || []).filter(t => t.role !== '追谥').reduce((m, t) => Math.max(m, t.end_year || -9999), -9999);
+  const ends = [p.death, tEnd > -9999 ? tEnd : null].filter(v => v != null);
+  const lifeEnd = ends.length ? Math.max(...ends) : null;
+  let hi = lifeEnd != null ? Math.min(hi0, lifeEnd) : hi0;
+  hi = Math.max(hi, lo);
+  const atEnd = !!(a && a[1] >= 120 && (lifeEnd == null || lifeEnd >= 275));   // 触到数据边界且生前确实活到王朝末：滑杆延展到全局 280
+  return [lo, atEnd ? Math.max(hi, 280) : hi, atEnd];
+}
+function graphApplySel(gz, selId) {
+  // 邻居 = 当前年份边集里与选中节点相连的人
+  const nbr = {};
+  if (selId) gz.querySelectorAll(`line.gedge[data-a="${selId}"], line.gedge[data-b="${selId}"]`)
+    .forEach(L => { nbr[L.dataset.a] = 1; nbr[L.dataset.b] = 1; });
+  gz.querySelectorAll('.gnode').forEach(n => {
+    const sel = n.dataset.id === selId, near = !!nbr[n.dataset.id];
+    n.classList.toggle('focus', sel);
+    n.classList.toggle('focus2', near);
+    n.classList.toggle('dim', !!selId && !sel && !near);
+    const t = n.querySelector('text');
+    if (t) {
+      // 未选中：按渲染时的阈值；选中：本人+邻居必显
+      const show = selId ? (sel || near) : t.dataset.th === '1';
+      t.classList.toggle('nolab', !show);
+    }
+  });
+  gz.querySelectorAll('line.gedge').forEach(L =>
+    L.classList.toggle('dim', !!selId && L.dataset.a !== selId && L.dataset.b !== selId));
+  // 选中时给未虚化的边加关系标注（君臣/敌对），挂中点
+  graphUpdateEdgeLabels(gz);
+  // 选中时镜头跟随：保持该节点在画布中心
+  if (selId) {
+    const c = gz.querySelector(`.gnode[data-id="${selId}"] circle`);
+    if (c) {
+      const cx = +c.getAttribute('cx'), cy = +c.getAttribute('cy');
+      GV.vx = 600 - cx * GV.vk; GV.vy = 430 - cy * GV.vk;
+      graphApply(gz);
+    }
+  }
+}
+
+function graphUpdateEdgeLabels(gz) {
+  let labs = gz.querySelector('#gelabs');
+  if (!labs) { labs = document.createElementNS('http://www.w3.org/2000/svg', 'g'); labs.id = 'gelabs'; labs.setAttribute('pointer-events', 'none'); gz.appendChild(labs); }
+  labs.innerHTML = '';
+  gz.querySelectorAll('line.gedge:not(.dim)').forEach(L => {
+    const x1 = +L.getAttribute('x1'), y1 = +L.getAttribute('y1'), x2 = +L.getAttribute('x2'), y2 = +L.getAttribute('y2');
+    const t = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+    t.dataset.a = L.dataset.a; t.dataset.b = L.dataset.b;
+    t.setAttribute('x', (x1 + x2) / 2); t.setAttribute('y', (y1 + y2) / 2 - 4);
+    t.setAttribute('text-anchor', 'middle');
+    t.setAttribute('class', 'elab');
+    t.textContent = L.classList.contains('lord') ? '君臣' : '敌对';
+    labs.appendChild(t);
+  });
+}
+
+// 拖节点时同步相关边的标注位置
+function graphMoveEdgeLabels(gz, id) {
+  const labs = gz.querySelector('#gelabs');
+  if (!labs) return;
+  labs.querySelectorAll('text').forEach(t => {
+    if (t.dataset.a !== id && t.dataset.b !== id) return;
+    const L = gz.querySelector(`line.gedge[data-a="${t.dataset.a}"][data-b="${t.dataset.b}"], line.gedge[data-a="${t.dataset.b}"][data-b="${t.dataset.a}"]`);
+    if (!L) return;
+    t.setAttribute('x', (+L.getAttribute('x1') + +L.getAttribute('x2')) / 2);
+    t.setAttribute('y', (+L.getAttribute('y1') + +L.getAttribute('y2')) / 2 - 4);
+  });
+}
+
+function graphFocus(id, center) {
+  const gz = document.querySelector('#gz');
+  if (!gz) return;
+  gSel = id;
+  const sl = $('gyslider'), gm = $('gmode');
+  if (id) {
+    if (!gSliderSave) gSliderSave = { min: sl.min, max: sl.max, value: sl.value };
+    const [lo, hi, atEnd] = graphYearRange(P[id]);
+    sl.min = Math.round(lo); sl.max = Math.round(Math.max(hi, lo + 1));
+    if (+sl.value < lo || +sl.value > hi) sl.value = Math.round(lo);
+    gm.textContent = `登场–退场（约 ${lo}–${hi}）`;
+    gm.style.display = '';
+    renderGraph();   // 滑杆年份变了，立即按新年份重画（否则图还停在旧时点）
+  } else if (gSliderSave) {
+    sl.min = gSliderSave.min; sl.max = gSliderSave.max; sl.value = gSliderSave.value;
+    gSliderSave = null; gm.style.display = 'none';
+    renderGraph();   // 恢复全局时点同样立即生效
+  }
+  graphApplySel(gz, id);
+  const gb = document.getElementById('gclear');
+  if (gb) gb.classList.toggle('on', !!id);
+  let it = document.querySelector(`#side-bd [data-gp="${id}"]`);
+  if (!it && id && P[id]) { GFOLD[primaryFaction(P[id])] = true; renderGraphList(); it = document.querySelector(`#side-bd [data-gp="${id}"]`); }
+  if (it) { it.classList.add('on'); it.scrollIntoView({ block: 'nearest' }); }
+}
+function graphUnfocus() {
+  graphFocus(null);
+  document.querySelectorAll('#side-bd [data-gp]').forEach(it => it.classList.remove('on'));
+}
+function bindGraphDrag(svg, gz, pos) {
+  graphApply(gz);
+  svg.onwheel = ev => {
+    ev.preventDefault();
+    const r = svg.getBoundingClientRect();
+    const mx = (ev.clientX - r.left) * (1200 / r.width), my = (ev.clientY - r.top) * (860 / r.height);
+    const f = ev.deltaY < 0 ? 1.15 : 1 / 1.15, nk = Math.max(.4, Math.min(6, GV.vk * f));
+    GV.vx = mx - (mx - GV.vx) * (nk / GV.vk); GV.vy = my - (my - GV.vy) * (nk / GV.vk); GV.vk = nk; graphApply(gz);
+  };
+  svg.onmousedown = ev => {
+    const g = ev.target.closest('.gnode');
+    if (g) {
+      const id = g.dataset.id; let moved = false;
+      const sx = ev.clientX, sy = ev.clientY;
+      const mv = e2 => {
+        if (Math.abs(e2.clientX - sx) + Math.abs(e2.clientY - sy) > 4) moved = true;
+        const r = svg.getBoundingClientRect();
+        const x = ((e2.clientX - r.left) * (1200 / r.width) - GV.vx) / GV.vk, y = ((e2.clientY - r.top) * (860 / r.height) - GV.vy) / GV.vk;
+        pos[id] = [x, y];
+        const c = g.querySelector('circle'); c.setAttribute('cx', x); c.setAttribute('cy', y);
+        const t = g.querySelector('text'); if (t) { t.setAttribute('x', x); t.setAttribute('y', y + +c.getAttribute('r') + 11); }
+        gz.querySelectorAll('line.gedge').forEach(L => {
+          if (L.dataset.a === id) { L.setAttribute('x1', x); L.setAttribute('y1', y); }
+          if (L.dataset.b === id) { L.setAttribute('x2', x); L.setAttribute('y2', y); }
+        });
+        graphMoveEdgeLabels(gz, id);
+      };
+      const up = () => { if (moved) { g.dataset.moved = '1'; svg.dataset.panned = '1'; } document.removeEventListener('mousemove', mv); document.removeEventListener('mouseup', up); };
+      document.addEventListener('mousemove', mv); document.addEventListener('mouseup', up);
+    } else {
+      // 空白处拖拽 = 平移画布
+      let sx = ev.clientX, sy = ev.clientY, vx0 = GV.vx, vy0 = GV.vy, panned = false;
+      svg.classList.add('grabbing');
+      const mv = e2 => {
+        const r = svg.getBoundingClientRect();
+        const dx = (e2.clientX - sx) * (1200 / r.width), dy = (e2.clientY - sy) * (860 / r.height);
+        if (Math.abs(e2.clientX - sx) + Math.abs(e2.clientY - sy) > 4) { panned = true; svg.dataset.panned = '1'; }
+        GV.vx = vx0 + dx; GV.vy = vy0 + dy; graphApply(gz);
+      };
+      const up = () => { svg.classList.remove('grabbing'); document.removeEventListener('mousemove', mv); document.removeEventListener('mouseup', up); };
+      document.addEventListener('mousemove', mv); document.addEventListener('mouseup', up);
+    }
+  };
+}
+
+window.renderGraph = renderGraph;
+function setView(v) {
+  if (view === 'power' && v !== 'power') pwStop();
+  view = v;
+  document.querySelectorAll('#nav div').forEach(d => d.classList.toggle('on', d.dataset.v === v));
+  ['read', 'persons', 'places', 'power', 'events', 'graph'].forEach(k => $('v-' + k).classList.toggle('on', k === v));
+  $('side-bd').classList.toggle('pwlist', v === 'power');
+  document.body.classList.toggle('noside', v === 'places' || v === 'events');
+  document.body.classList.toggle('readview', v === 'read');
+  if (v === 'read') renderChapterList();
+  else if (v === 'persons') renderPersons();
+  else if (v === 'places') renderPlaces();
+  else if (v === 'power') renderPowerView();
+  else if (v === 'events') renderEvents();
+  else if (v === 'graph') renderGraph();
+}
+document.querySelectorAll('#nav div').forEach(d => d.onclick = () => setView(d.dataset.v));
+
+$('yslider').oninput = renderPersons;
+$('gyslider').oninput = renderGraph;
+$('gclear').onclick = () => { lastSel = null; graphUnfocus(); };
+$('ge-lord').onchange = renderGraph;
+$('ge-foe').onchange = renderGraph;
+$('yfilter').onchange = renderPersons;
+$('psrch').oninput = renderPersons;
+$('pq').oninput = renderPList;
+$('ptabs').querySelectorAll('button').forEach(b => b.onclick = () => {
+  ptTab = b.dataset.t;
+  $('ptabs').querySelectorAll('button').forEach(x => x.classList.toggle('on', x === b));
+  renderPList();
+});
+$('tg-p').onchange = e => document.body.classList.toggle('hide-p', !e.target.checked);
+$('tg-l').onchange = e => document.body.classList.toggle('hide-l', !e.target.checked);
+
+/* ================= 启动 ================= */
+renderChapter(curCh);
+
+/* 深链：#places / #persons / #events 直达视图，#place=ID 直达某地，#chapter=N 直达某回 */
+(function () {
+  const h = location.hash || '';
+  let m;
+  if ((m = h.match(/^#place=(.+)$/)) && L[m[1]]) { setView('places'); selectPlaceOnMap(L[m[1]]); }
+  else if (h === '#places') setView('places');
+  else if ((m = h.match(/^#placecard=(.+)$/)) && L[m[1]]) openPlace(m[1]);       /* 直达地点卡（调试/回归） */
+  else if ((m = h.match(/^#battle=(.+)$/))) openBattle(m[1]);                    /* 直达战线图（调试/回归） */
+  else if ((m = h.match(/^#event=(.+)$/))) openEvent(m[1]);
+  else if ((m = h.match(/^#person=(.+)$/)) && P[m[1]]) { setView('persons'); openPerson(m[1]); }  /* 直达人物卡（调试/回归） */
+  else if (h === '#persons') setView('persons');
+  else if ((m = h.match(/^#persons\?f=(\w+)$/))) { pfFaction = m[1]; setView('persons'); }
+  else if (h === '#events') setView('events');
+  else if (h === '#graph') setView('graph');
+  else if ((m = h.match(/^#power(?:=(\d+))?$/))) { setView('power'); if (m[1]) renderPower(+m[1]); }
+  else if ((m = h.match(/^#chapter=(\d+)$/))) { document.body.classList.add('readview'); curCh = +m[1]; renderChapter(curCh); }
+  else { document.body.classList.add('readview'); }   /* 默认视图 = 原文：章回侧栏加宽 */
+})();
+</script>
+</body>
+</html>

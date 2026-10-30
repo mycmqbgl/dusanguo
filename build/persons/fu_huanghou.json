@@ -1,0 +1,57 @@
+{
+ "id": "fu_huanghou",
+ "name": "伏皇后",
+ "courtesy": "寿",
+ "display_aliases": [
+  "献穆皇后",
+  "伏后"
+ ],
+ "birth": 172,
+ "death": 214,
+ "date_precision": "approx",
+ "date_note": "生年约 172（存疑），建安十九年（214）为曹操所杀。",
+ "gender": "female",
+ "first_chapter": 13,
+ "review_status": "reviewed",
+ "summary": "伏皇后，名寿，献帝皇后。董贵妃被杀时曾婉言劝谏，后以密书父伏完谋诛曹操事泄，被曹操废黜幽死，二子皆鸩杀。",
+ "bio": "伏寿，琅琊东武人，不其侯伏完之女，汉献帝皇后。董贵妃怀孕被曹操命人擒杀时，伏后曾告曰「贬于冷宫，待分娩了，杀之未迟」，然操不听。后伏后见曹操专权，修密书与父伏完，令图操，事泄。建安十九年（214）曹操使华歆入宫收后，后披发跣足，泣告献帝「不能复相活耶」，帝曰「我亦不知命在何时」。后与二子皆被杀，兄弟宗族死者百余人。演义第六十六回写华歆破壁牵后出，是全书最酷烈的一幕。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 190,
+   "end_year": 214,
+   "title": "皇后",
+   "basis": "190 年立为皇后。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "立为皇后",
+   "description": "伏完之女，立为献帝皇后。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "随驾东归",
+   "description": "李傕郭汜之乱中随献帝颠沛，衣衫褴褛。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "衣带诏风波",
+   "description": "演义第二十回伏完有密书谋曹之议。",
+   "importance": 2
+  },
+  {
+   "year": 214,
+   "title": "为曹操所杀",
+   "description": "曹操遣华歆入宫收后，披发跣足被牵出，与二皇子皆鸩杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 9
+}

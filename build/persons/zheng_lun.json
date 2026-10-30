@@ -1,0 +1,29 @@
+{
+ "id": "zheng_lun",
+ "name": "郑伦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "郑伦，曹魏文臣，魏将。说邓艾催督先锋郑伦来袭山后。",
+ "bio": "第 113 回：于是令郑伦为先锋，艾自引军袭山后。第 113 回：邓艾催督先锋郑伦来袭山后。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 255,
+   "end_year": 255,
+   "title": "魏将",
+   "basis": "第一百十三回原文：却说邓艾催督先锋郑伦来袭山后。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 113 回（255 年），原 255—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

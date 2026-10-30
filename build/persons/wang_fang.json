@@ -1,0 +1,45 @@
+{
+ "id": "wang_fang",
+ "name": "王方",
+ "courtesy": null,
+ "display_aliases": [
+  "校尉"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于兴平元年（192）。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "reviewed",
+ "summary": "王方，群雄武将，校尉。蒙见王方刺死，一骑马从马超背后赶来。",
+ "bio": "王方，董卓余党，为校尉。董卓死，与李蒙在长安城中为李傕内应偷开城门。马腾、韩遂引西凉兵十余万来讨，李傕、郭汜问计，李蒙、王方自请精兵万人往击。两军对阵，马腾指之骂曰「反国之贼」，马超从阵中飞出。王方欺马超年幼，跃马迎战，战不到数合，早被马超一枪刺于马下。演义第十回写其「欺他年幼，跃马迎战，战不到数合，早被马超一枪刺于马下」，为马超初阵立威的陪衬。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "校尉",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓余党，校尉为武职，以战斗为主归武将；192 年为马超所刺。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "为内应开城",
+   "description": "与李蒙在长安城中为李傕内应，偷开城门。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "被马超刺死",
+   "description": "欺马超年幼跃马迎战，战不到数合被一枪刺于马下。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 10
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zhao_meng",
+ "name": "赵萌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "auto_mined",
+ "summary": "赵萌，东汉武将，右军校尉。第 3 回一笔带过，事迹仅存其名。",
+ "bio": "官职「校尉」据原文上下文提取。原文第 3 回相关片段：「里，司徒王允，太尉杨彪、左军校尉淳于琼、右军校尉赵萌、后军校尉鲍信、中军校尉袁绍，一行人众，数百人马」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 189,
+   "title": "右军校尉",
+   "basis": "第3回帝还洛阳途中，右军校尉赵萌与淳于琼、鲍信、袁绍等接驾。 189 年右军校尉赵萌接驾于洛阳城外。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

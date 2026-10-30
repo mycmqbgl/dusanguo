@@ -1,0 +1,43 @@
+{
+ "id": "qin_qingtong",
+ "name": "秦庆童",
+ "display_aliases": [
+  "董承家奴"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）衣带诏事泄后为曹操所杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 23,
+ "review_status": "reviewed",
+ "summary": "秦庆童，东汉人物，董承家奴。庆童曰：你回避了众人，六人在一处画字，如何赖得。",
+ "bio": "秦庆童，董承家奴。建安四年冬与董承侍妾云英暗处私语，被承觉察，杖四十锁于冷房。庆童怀恨，夜脱铁锁越墙而走，径投曹操府中告密，尽出董承与王子服、吴子兰、种辑、吴硕、马腾五家密谋衣带诏之事。曹操以庆童之言为据，诈病诱吉平验毒，遂兴大狱，穷究董承一党，夷三族。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 199,
+   "end_year": 200,
+   "title": "董承家奴",
+   "basis": "董承府中仆隶，后告密投曹。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "私通被杖",
+   "description": "与董承侍妾云英私语被察，杖四十锁冷房。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "告密破诏",
+   "description": "越墙投曹操，尽出衣带诏密谋，事由此败露。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 8
+}

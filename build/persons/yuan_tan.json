@@ -1,0 +1,69 @@
+{
+ "id": "yuan_tan",
+ "name": "袁谭",
+ "courtesy": "显思",
+ "display_aliases": [
+  "青州刺史",
+  "袁绍长子"
+ ],
+ "birth": null,
+ "death": 205,
+ "date_precision": "approx",
+ "date_note": "建安十年（205）曹操破南皮，谭被杀。生年不详。毛本演义第 32-33 回事败被杀。",
+ "gender": "male",
+ "first_chapter": 24,
+ "review_status": "reviewed",
+ "summary": "袁谭，群雄武将，青州刺史。绍大惊，急遣袁谭分兵五万救邺郡，辛明分兵五万救黎阳，连夜起行。",
+ "bio": "袁谭，字显思，袁绍长子，出继其兄袁基之后。建安四年，袁绍令谭出镇青州为刺史。建安五年，刘备败投袁绍，匹马奔至青州城下，谭素敬刘备，开门相迎，并驰报袁绍，绍亲出邺城二百里迎之。袁绍死后，谭与幼弟袁尚争位相攻，遣辛毗降曹操求援，借曹兵攻邺，得势复叛，据青州。建安十年，曹操攻南皮，城破，谭奔走，为曹军追杀（演义中为曹洪所杀）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 199,
+   "end_year": 202,
+   "title": "青州刺史",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍长子，出镇青州。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 202,
+   "end_year": 205,
+   "title": "自称车骑将军，都督青州",
+   "basis": "袁绍死后与袁尚争位，一度降曹借兵，后自立。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "出镇青州",
+   "description": "袁绍令谭为青州刺史。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "青州迎刘备",
+   "description": "刘备败投袁绍，谭开门相迎，驰报袁绍。",
+   "importance": 2
+  },
+  {
+   "year": 202,
+   "title": "与袁尚争位",
+   "description": "袁绍死，谭尚相攻，谭败，遣辛毗降曹操求援。",
+   "importance": 2
+  },
+  {
+   "year": 205,
+   "title": "南皮城破",
+   "description": "降而复叛，曹操攻破南皮，谭被杀。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：建安十年（205）曹操破南皮，谭被杀；生年不详｜演：毛本演义第 32-33 回事败被杀",
+ "mention_count": 46
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zhu_ge_shang",
+ "name": "诸葛尚",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 117,
+ "review_status": "auto_mined",
+ "summary": "诸葛尚，蜀汉武将，先锋。子诸葛尚在城上，见父死于军中，勃然大怒，遂披挂上马。",
+ "bio": "。第 117 回：诸葛尚匹马单枪，抖擞精神，战退二人。第 117 回：其子诸葛尚在城上，见父死于军中，勃然大怒，遂披挂上马。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "先锋",
+   "basis": "第117回诸葛瞻长子诸葛尚年十九，愿为先锋，随父拒邓艾于绵竹。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

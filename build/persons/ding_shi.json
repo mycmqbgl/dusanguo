@@ -1,0 +1,31 @@
+{
+ "id": "ding_shi",
+ "name": "丁氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "female",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "丁氏（正史人物，演义未载）：丁夫人为曹操正妻，无子，后废。演义未载其名。",
+ "bio": "《三国志·魏书·后妃传》：丁夫人为曹操正妻，无子，后废。演义未载其名。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 196,
+   "end_year": 205,
+   "title": "曹操妾",
+   "basis": "丁夫人为曹操正妻，约在建安初被废归家。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

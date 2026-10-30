@@ -1,0 +1,75 @@
+{
+ "id": "sun_ce_yuci",
+ "name": "孙策遇刺，孙权接位",
+ "kind": "刺杀事件",
+ "start_year": 200,
+ "end_year": 200,
+ "date_text": "建安五年（200）",
+ "summary": "许贡门客刺孙策于丹徒西山，策伤重而亡，嘱弟孙权继领江东；江东自此转入孙权时代。",
+ "detail": "孙策破庐江败刘勋、驰檄豫章，威震江东。吴郡太守许贡暗表许都言「策骁勇与项籍相似，宜召还京」，使者为策军所获，策绞杀许贡。贡家三门客蓄志复仇，伺策猎于丹徒西山，突起刺之，毒箭中颊。策创甚，招张昭等嘱以后事：「中国方乱，以吴越之众、三江之固，观成败而争衡天下」，谓弟权「举江东之众，决机于两阵之间，与天下争衡，卿不如我；举贤任能，各尽其心以保江东，我不如卿」。策卒，权年未及冠，哭拜于兄前；张昭请权视事，周瑜自巴丘奔丧还，荐鲁肃于权。权泣纳众议，自此坐领江东。",
+ "place_id": "dan_tu",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sun_ce",
+   "role_desc": "讨逆将军吴侯，遇刺身亡，嘱弟继位"
+  },
+  {
+   "person_id": "xu_gong",
+   "role_desc": "吴郡太守，密表事泄被绞杀，其门客复仇"
+  },
+  {
+   "person_id": "sun_quan",
+   "role_desc": "策弟，接领江东"
+  },
+  {
+   "person_id": "zhang_zhao",
+   "role_desc": "受托孤，请权视事"
+  },
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "自巴丘奔丧，留吴辅权"
+  },
+  {
+   "person_id": "lu_su",
+   "role_desc": "经周瑜引荐见权，献榻上策"
+  },
+  {
+   "person_id": "yu_ji",
+   "role_desc": "琅琊道士，为策所斩，策每见其影创痛大作"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "绞杀许贡",
+   "description": "许贡密表召策还京，使者为策军所获，策绞杀之。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "丹徒遇刺",
+   "description": "许贡三门客伺策出猎，毒箭刺中其颊。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "托孤张昭",
+   "description": "策谓权「举贤任能以保江东，我不如卿」，卒年二十六。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "孙权坐领江东",
+   "description": "权接位，张昭周瑜辅之，鲁肃献榻上策。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  29003,
+  29004,
+  29015,
+  29019
+ ]
+}

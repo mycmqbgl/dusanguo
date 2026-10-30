@@ -1,0 +1,29 @@
+{
+ "id": "liu_xian",
+ "name": "刘先",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 40,
+ "review_status": "auto_mined",
+ "summary": "刘先，曹魏文臣，荆州别驾。州治中邓义、别驾刘先，已备知襄阳之事，料不能抵敌曹操，遂引荆州军民出郭投降。",
+ "bio": "第 40 回：命治中邓义、别驾刘先守荆州。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "荆州别驾",
+   "basis": "第四十回原文：命治中邓义、别驾刘先守荆州。 职任「荆州别驾」据此；★任期按末见回目收敛：全书最后一次提及在第 42 回（208 年），原 208—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

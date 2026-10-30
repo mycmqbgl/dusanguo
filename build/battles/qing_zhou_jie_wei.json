@@ -1,0 +1,107 @@
+{
+ "id": "qing_zhou_jie_wei",
+ "name": "青州解围之战",
+ "year": 184,
+ "date_text": "中平元年（184）",
+ "place_id": "qing_zhou",
+ "event_id": "huang_jin_qi_yi",
+ "belligerents": [
+  {
+   "side": "汉军·幽州援军",
+   "faction_ids": [
+    "han"
+   ],
+   "commanders": [
+    "zou_jing",
+    "liu_bei",
+    "guan_yu",
+    "zhang_fei"
+   ],
+   "troops_desc": "五千（邹靖将兵）+ 本部五百"
+  },
+  {
+   "side": "黄巾",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [],
+   "troops_desc": "围城之众，数目未载"
+  }
+ ],
+ "result": "胜",
+ "casualties_note": "演义称「剿戮极多」，无具体数字。",
+ "summary": "刘备以寡敌众，先退三十里示弱，再以左右伏兵三路夹攻，解青州之围。",
+ "detail": "青州太守龚景牒文求救，刘焉令邹靖将兵五千同刘关张往救。贼众见救军至，分兵混战，玄德兵寡不胜，退三十里下寨。玄德谓关张曰「贼众我寡，必出奇兵方可取胜」，乃分关羽引一千军伏山左、张飞引一千军伏山右，以鸣金为号。次日玄德与邹靖鼓噪而进，接战即退，诱贼过山岭，军中鸣金，左右伏兵齐出，玄德回身复杀，三路夹攻，贼众大溃，直赶至青州城下，龚景亦率民兵出城助战，围遂解。此战是全书第一次完整的「示弱—设伏—夹击」战术演示，也是「二虎还须逊一龙」的由来。",
+ "front_line": [
+  {
+   "time": 184,
+   "time_seq": 1,
+   "kind": "集结",
+   "label": "涿郡受命",
+   "desc": "龚景牒文求救，邹靖将兵五千同玄德等南下。",
+   "lng": 115.97,
+   "lat": 39.49,
+   "pixel_x": 876.8,
+   "pixel_y": 208.2
+  },
+  {
+   "time": 184,
+   "time_seq": 2,
+   "kind": "行军",
+   "label": "南下青州",
+   "desc": "自涿郡南下，经冀州界入青州。",
+   "lng": 116.6,
+   "lat": 38.0,
+   "pixel_x": 901.8,
+   "pixel_y": 276.9
+  },
+  {
+   "time": 184,
+   "time_seq": 3,
+   "kind": "交战",
+   "label": "初战不利",
+   "desc": "贼分兵混战，玄德兵寡不胜，退三十里下寨。",
+   "lng": 117.9,
+   "lat": 36.9,
+   "pixel_x": 953.2,
+   "pixel_y": 327.7
+  },
+  {
+   "time": 184,
+   "time_seq": 4,
+   "kind": "屯驻",
+   "label": "分兵设伏",
+   "desc": "关羽伏山左、张飞伏山右，鸣金为号。",
+   "lng": 118.05,
+   "lat": 36.85,
+   "pixel_x": 959.1,
+   "pixel_y": 330.0
+  },
+  {
+   "time": 184,
+   "time_seq": 5,
+   "kind": "交战",
+   "label": "诱敌过岭",
+   "desc": "玄德鼓噪而进，接战即退，诱贼过山岭。",
+   "lng": 118.0,
+   "lat": 36.83,
+   "pixel_x": 957.2,
+   "pixel_y": 330.9
+  },
+  {
+   "time": 184,
+   "time_seq": 6,
+   "kind": "追击",
+   "label": "三路夹攻",
+   "desc": "伏兵齐出，回身复杀，直赶至青州城下。",
+   "lng": 118.1,
+   "lat": 36.8,
+   "pixel_x": 961.1,
+   "pixel_y": 332.3
+  }
+ ],
+ "passage_ids": [],
+ "review_status": "reviewed",
+ "tile_sheet": "p0-test",
+ "place_name": "青州"
+}

@@ -1,0 +1,245 @@
+{
+ "source": "persons_ch001.json",
+ "total": 20,
+ "passed": 20,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 20,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "liu_bei",
+   "name": "刘备",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "184 年有 5 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "guan_yu",
+   "name": "关羽",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "184 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_fei",
+   "name": "张飞",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "184 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_jiao",
+   "name": "张角",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "184 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_bao",
+   "name": "张宝",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 102 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_liang",
+   "name": "张梁",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 90 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cao_cao",
+   "name": "曹操",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "liu_yan",
+   "name": "刘焉",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "lu_zhi",
+   "name": "卢植",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "huang_fu_song",
+   "name": "皇甫嵩",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 126 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhu_jun",
+   "name": "朱儁",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 110 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "dong_zhuo",
+   "name": "董卓",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "he_jin",
+   "name": "何进",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zou_jing",
+   "name": "邹靖",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 96 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cheng_yuan_zhi",
+   "name": "程远志",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 86 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "deng_mao",
+   "name": "邓茂",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 59 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "gong_jing",
+   "name": "龚景",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 83 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "nan_hua_lao_xian",
+   "name": "南华老仙",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_shi_ping",
+   "name": "张世平",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 121 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "su_shuang",
+   "name": "苏双",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 82 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

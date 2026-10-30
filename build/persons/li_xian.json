@@ -1,0 +1,42 @@
+{
+ "id": "li_xian",
+ "name": "李暹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "李暹，群雄武将。侄李暹引兵围住宫院，用车二乘，一乘载天子，一乘载伏皇后，使贾诩、左灵监押车驾；其余宫人内侍，并皆步走。",
+ "bio": "第 13 回：傕侄李暹引兵围住宫院，用车二乘，一乘载天子，一乘载伏皇后，使贾诩、左灵监押车驾。第 14 回：阵圆处，李傕侄李暹、李别出马阵前，未及开言，许褚飞马过去，一刀先斩李暹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 229,
+   "basis": "第13回李傕之侄李暹引兵围住宫院，用车二乘载天子与伏皇后。李傕自据长安，为群雄。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "第 13 回",
+   "description": "侄李暹引兵围住宫院，用车二乘，一乘载天子，一乘载伏皇后，使贾诩、左灵监押车驾；其余宫人内侍，并皆步走",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "第 14 回",
+   "description": "圆处，李傕侄李暹、李别出马阵前，未及开言，许褚飞马过去，一刀先斩李暹；李别吃了一惊，倒撞下马，褚亦斩之，双挽人头回阵",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

@@ -1,0 +1,73 @@
+{
+ "id": "zhou_tai",
+ "name": "周泰",
+ "courtesy": "幼平",
+ "display_aliases": [
+  "濡须督"
+ ],
+ "birth": 170,
+ "death": 229,
+ "date_precision": "approx",
+ "date_note": "史载黄武年间（约 229）卒，生年存疑。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "周泰，孙吴武将，别部司马。说周泰从军中杀出，到江边，不见了孙权，勒回马，从外又杀入阵中，问本部军：主公何在。",
+ "bio": "周泰字幼平，九江下蔡人。与蒋钦随孙策左右，数战有功。宣城之役贼锋及权坐骑，泰奋起卫权，身被十二创，良久乃苏——权由是深德之。随权讨黄祖、战赤壁、攻南郡皆有功。濡须之守，权以泰为濡须督，拜平虏将军，朱然、徐盛为之所部，诸将不服；权乃行至泰营，于诸将前解衣视其创，问所起，一处一问——众乃服。黄武中卒。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "别部司马",
+   "lord_id": "sun_ce",
+   "basis": "随孙策。｜阵营据主君（孙策）归属校正为wu，194-200→195-200。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 229,
+   "title": "别部司马、平虏将军、濡须督",
+   "basis": "孙权时代累迁。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "随孙策",
+   "description": "与蒋钦随孙策左右，数战有功。",
+   "importance": 1
+  },
+  {
+   "year": 199,
+   "title": "宣城卫权",
+   "description": "贼锋及权，泰奋身卫之，身被十二创。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "赤壁从征",
+   "description": "随权破曹操于赤壁。",
+   "importance": 2
+  },
+  {
+   "year": 213,
+   "title": "解衣视创",
+   "description": "为濡须督，权于诸将前解衣视其瘢痕，众乃服。",
+   "importance": 3
+  },
+  {
+   "year": 229,
+   "title": "卒",
+   "description": "黄武年间卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 64
+}

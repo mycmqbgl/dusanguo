@@ -1,0 +1,29 @@
+{
+ "id": "zhang_wu",
+ "name": "张武",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "张武，群雄武将，降将。日，正相聚饮酒，忽报降将张武、陈孙在江夏掳掠人民，共谋造反。",
+ "bio": "原文第 34 回相关片段：「到荆州，刘表待之甚厚。一日，正相聚饮酒，忽报降将张武、陈孙在江夏掳掠人民，共谋造反。表惊曰：“二贼又」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 207,
+   "end_year": 229,
+   "basis": "第34回降将张武、陈孙在江夏掳掠人民，共谋造反。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "降将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

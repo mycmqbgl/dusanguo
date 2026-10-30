@@ -1,0 +1,31 @@
+{
+ "id": "cen_zhi",
+ "name": "岑咥",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "auto_mined",
+ "summary": "岑咥，东汉人物。第 6 回一笔带过，事迹仅存其名。",
+ "bio": "第 6 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 191,
+   "basis": "岑晊字公孝，东汉「八厨」之一，党锢名士，见《后汉书·党锢列传》。演义正文未出场（0 次）。 党锢名士，与刘表为友。第6回追述，非当世任职。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—189 年内被称引之时。）",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title_unknown_verified": true,
+   "title": "江夏八俊之一"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "mention_count": 1
+}

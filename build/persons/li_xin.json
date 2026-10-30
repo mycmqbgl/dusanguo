@@ -1,0 +1,29 @@
+{
+ "id": "li_xin",
+ "name": "李歆",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "李歆，蜀汉文臣，蜀将。说李歆撞出重围，从西山小路行了两日，正迎着姜维人马。",
+ "bio": "第 107 回：李歆引兵出城取水，雍州兵围困甚急。第 107 回：李歆撞出重围，从西山小路行了两日，正迎着姜维人马。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 239,
+   "end_year": 239,
+   "title": "蜀将",
+   "basis": "第一百零七回原文：却说陈泰见李歆杀出城去了，乃谓郭淮曰：“李歆若告急于姜维，姜维料吾大兵皆在麴山，必抄牛头山袭。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 239—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

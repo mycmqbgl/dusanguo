@@ -1,0 +1,31 @@
+{
+ "id": "huang_chengyan",
+ "name": "黄承彦",
+ "courtesy": null,
+ "display_aliases": [
+  "诸葛亮岳父"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。沔南名士，诸葛亮岳父。",
+ "gender": "male",
+ "first_chapter": 37,
+ "review_status": "reviewed",
+ "summary": "黄承彦，群雄文臣，沔南名士。黄承彦曰：变化无穷，不能学也。",
+ "bio": "黄承彦，沔南名士，其女黄氏嫁诸葛亮为妻。三顾茅庐时，刘备二访途中遇其骑驴过小桥，踏雪吟诗，误以为卧龙。夷陵战后陆逊追备陷入八阵图，黄承彦于阵中出，谓「老夫平生好善」，引陆逊出阵，使吴军不追。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 220,
+   "title": "沔南名士",
+   "basis": "未仕，隐居襄阳一带；系于汉末时段。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

@@ -1,0 +1,31 @@
+{
+ "id": "liu_an",
+ "name": "刘安",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 19,
+ "review_status": "auto_mined",
+ "summary": "刘安，东汉人物。说刘安杀妻为食之事，操乃令孙乾以金百两往赐之。",
+ "bio": "第 19 回：当下刘安闻豫州牧至，欲寻野味供食，一时不能得，乃杀其妻以食之。第 19 回：又说刘安杀妻为食之事，操乃令孙乾以金百两往赐之。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 198,
+   "end_year": 198,
+   "basis": "第19回猎户刘安闻豫州牧刘备至，杀妻以食之。平民，未仕。 第19回猎户刘安杀妻食刘备，事在 198 年前后。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "（原文无职任记载）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 4
+}

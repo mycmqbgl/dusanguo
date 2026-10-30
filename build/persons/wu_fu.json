@@ -1,0 +1,50 @@
+{
+ "id": "wu_fu",
+ "name": "伍孚",
+ "courtesy": "德瑜",
+ "display_aliases": [
+  "越骑校尉"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平元年（190）。汝南吴房人。",
+ "gender": "male",
+ "first_chapter": 4,
+ "review_status": "reviewed",
+ "summary": "伍孚，字德瑜，东汉越骑校尉，刺杀董卓未遂而死。",
+ "bio": "伍孚，字德瑜，汝南吴房人，东汉末为越骑校尉。董卓专权，伍孚常怀刺杀之心，乃朝服藏刃见卓，语毕刺之，卓力大格拒，孚被执，大骂而死。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 190,
+   "title": "大将军东曹属、侍中、河南尹、越骑校尉",
+   "basis": "最高官职为越骑校尉（武职），按「职责不明时按最高官职名判断」归武将；190 年刺董卓不成被杀。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "迁越骑校尉",
+   "description": "历大将军东曹属、侍中、河南尹，迁越骑校尉。",
+   "importance": 1
+  },
+  {
+   "year": 190,
+   "title": "朝服藏刃",
+   "description": "于朝服内披小铠、藏短刀，欲伺便刺董卓。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "刺卓死节",
+   "description": "拔刀直刺董卓，为吕布揪倒，被剖剐，至死骂不绝口。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 3
+}

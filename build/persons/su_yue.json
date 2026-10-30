@@ -1,0 +1,29 @@
+{
+ "id": "su_yue",
+ "name": "苏越",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 78,
+ "review_status": "auto_mined",
+ "summary": "苏越，曹魏人物，良工。苏越曰：此去离城三十里，有一潭，名跃龙潭；前有一祠，名跃龙祠。",
+ "bio": "原文第 78 回相关片段：「一殿，名建始殿。恨无良工。”贾诩曰：“洛阳良工有苏越者，最有巧思。”操召入，令画图像。苏越画成九间大」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 229,
+   "title": "良工（匠作）",
+   "basis": "第七十八回：苏越为魏之良工，善铸铜雀台瓦砚。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

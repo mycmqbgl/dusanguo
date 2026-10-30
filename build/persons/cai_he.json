@@ -1,0 +1,29 @@
+{
+ "id": "cai_he",
+ "name": "蔡和",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "蔡和，群雄武将，副将。蔡和曰：莫非欲背吴投曹耶。",
+ "bio": "第 34 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 207,
+   "end_year": 229,
+   "basis": "第34回蔡瑁言「东门岘山大路，已使吾弟蔡和引军守把」。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "副将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 18
+}

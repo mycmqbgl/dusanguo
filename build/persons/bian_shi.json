@@ -1,0 +1,29 @@
+{
+ "id": "bian_shi",
+ "name": "卞氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 68,
+ "review_status": "auto_mined",
+ "summary": "卞氏，曹魏女眷，魏王后。说曹丕之母卞氏，听得曹熊缢死，心甚悲伤；忽又闻曹植被擒，其党丁仪等已杀，大惊。",
+ "bio": "第 68 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 216,
+   "end_year": 266,
+   "title": "魏王后",
+   "basis": "第六十八回原文：卞氏所生四子：长曰丕，次曰彰，三曰植，四曰熊。 职任「魏王后」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

@@ -1,0 +1,50 @@
+{
+ "id": "qiao_mao",
+ "name": "乔瑁",
+ "courtesy": "元伟",
+ "display_aliases": [
+  "东郡太守"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平元年（190）后不久。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "乔瑁，群雄君主，兖州刺史、东郡太守。州太守刘岱，问东郡太守乔瑁借粮。",
+ "bio": "乔瑁字元伟，睢阳人，太尉乔玄之族子。讨董时列第七镇，为东郡太守。虎牢关之役，与袁遗同救王匡。后兖州刺史刘岱向东郡借粮，乔瑁推辞不与，刘岱引军突入其营，杀死乔瑁，尽降其众。此事在演义第六回曹操追董卓败回后叙及，为诸侯联盟解体之标志性事件之一——盟军未散于敌手，先散于内讧。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "兖州刺史、东郡太守",
+   "basis": "以兖州刺史、东郡太守自据一郡，为群雄之一；190 年后为刘岱所杀。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "列第七镇",
+   "description": "以东郡太守起兵讨董。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "救王匡",
+   "description": "与袁遗同至，救王匡于吕布戟下。",
+   "importance": 1
+  },
+  {
+   "year": 190,
+   "title": "为刘岱所杀",
+   "description": "拒借粮于刘岱，岱引军突入其营，杀瑁尽降其众。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 5
+}

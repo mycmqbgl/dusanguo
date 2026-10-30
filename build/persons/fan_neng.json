@@ -1,0 +1,44 @@
+{
+ "id": "fan_neng",
+ "name": "樊能",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "演义第十五回（约 195）孙策取牛渚时死于阵前；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "樊能，群雄武将，部将。策回头，怨见樊能马到，乃大喝一声，声如巨雷。",
+ "bio": "樊能，刘繇部将。与张英屯横江当利口，孙策渡江，牛渚、横江相继失守。樊能退保秣陵，随张英出城拒策，中箭死（演义）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 195,
+   "title": "部将",
+   "lord_id": "liu_yao",
+   "basis": "刘繇部将。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "屯横江",
+   "description": "与张英共屯横江当利口。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "殁于牛渚",
+   "description": "孙策渡江，能战殁。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：第十五回（约 195）孙策取牛渚时死于阵前",
+ "mention_count": 3
+}

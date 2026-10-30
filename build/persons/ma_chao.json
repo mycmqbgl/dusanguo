@@ -1,0 +1,63 @@
+{
+ "id": "ma_chao",
+ "name": "马超",
+ "courtesy": "孟起",
+ "display_aliases": [
+  "西凉锦马超",
+  "骠骑将军",
+  "五虎上将"
+ ],
+ "birth": 176,
+ "death": 222,
+ "date_precision": "exact",
+ "date_note": "史书生卒年明确（176–222）；演义同记伐吴前病故，白帝托孤前后（演义 222 前后）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "马超，群雄君主，西凉联军统帅、偏将军。马超大怒，意欲突前擒之，见操背后一人，睁圆怪眼，手提钢刀，勒马而立。",
+ "bio": "马超字孟起，扶风茂陵人，马腾长子，人称锦马超。曹操诱马腾入京害之，超与韩遂起西凉兵报仇，破长安占潼关，杀得曹操割须弃袍而逃；渭水之战与许褚裸衣大战二百余合。操用贾诩反间计离间超与韩遂，超败走羌中。后攻冀城为杨阜所败，走汉中依张鲁；备攻成都，超来降兵临城下，刘璋出降。备为汉中王拜超为左将军，后为骠骑将军领凉州牧，镇守西平，222 年病故。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "西凉联军统帅、偏将军",
+   "basis": "211 年为父报仇自领西凉联军，与操决战关中；败后依张鲁。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 222,
+   "title": "平西将军、左将军、骠骑将军领凉州牧",
+   "lord_id": "liu_bei",
+   "basis": "214 年兵临成都刘璋出降，五虎上将之一；222 年病故。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "起兵雪恨",
+   "description": "为马腾之死起西凉兵二十万，破潼关，操割须弃袍而逃。",
+   "importance": 3
+  },
+  {
+   "year": 212,
+   "title": "渭水大战许褚",
+   "description": "与许褚裸衣大战二百余合不分胜负。",
+   "importance": 2
+  },
+  {
+   "year": 214,
+   "title": "兵临成都",
+   "description": "自汉中来降刘备，兵临成都，刘璋出降。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 219
+}

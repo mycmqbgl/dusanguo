@@ -1,0 +1,29 @@
+{
+ "id": "li_yi_2",
+ "name": "李意",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "李意，神怪人物，仙人。李意曰：此乃天数，非老夫所知也。",
+ "bio": "李意，益州青城山隐士，世传三百余岁。第81回刘备欲伐吴，遣人问之；李意画兵马器仗十余张，一一扯碎，又画一大人仰卧于地，旁画一人掘土埋之，遂去。刘备不悟其「出师必败、身且不保」之兆，果有夷陵之败。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 221,
+   "end_year": 221,
+   "title": "仙人",
+   "basis": "第八十一回原文：李意曰：“老夫乃荒山村叟，无学无识。 职任「仙人」据此；★任期按末见回目收敛：全书最后一次提及在第 81 回（221 年），原 221—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

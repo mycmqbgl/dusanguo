@@ -1,0 +1,29 @@
+{
+ "id": "wen_hu",
+ "name": "文虎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "文虎，曹魏武将，文钦子。鸯、文虎见父被杀，各拔短刀，立杀数十人，飞身上城，一跃而下，越壕赴魏寨投降。",
+ "bio": "第 112 回：文鸯、文虎见父被杀，各拔短刀，立杀数十人，飞身上城，一跃而下，越壕赴魏寨投降。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 253,
+   "end_year": 254,
+   "title": "文钦子",
+   "basis": "第一百十一回原文：诸葛诞自引本部锐兵，会合文钦并二子文鸯、文虎，雄兵数万，来敌司马昭。 职任「文钦子」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 253—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

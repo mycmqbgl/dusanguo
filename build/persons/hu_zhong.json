@@ -1,0 +1,29 @@
+{
+ "id": "hu_zhong",
+ "name": "胡忠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "胡忠，曹魏武将，裨将。第 102 回一笔带过，事迹仅存其名。",
+ "bio": "官职「裨将」据原文上下文提取。原文第 102 回相关片段：「上方谷，又号葫芦谷。”孔明回到帐中，唤裨将杜睿、胡忠二人，附耳授以密计。令唤集随军匠作一千余人，入葫」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "裨将",
+   "basis": "第102回裨将胡忠与杜睿同受孔明密计。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

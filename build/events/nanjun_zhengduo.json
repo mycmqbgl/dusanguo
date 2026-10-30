@@ -1,0 +1,89 @@
+{
+ "id": "nanjun_zhengduo",
+ "name": "南郡之争",
+ "kind": "征伐",
+ "start_year": 209,
+ "end_year": 209,
+ "date_text": "建安十四年（209）",
+ "summary": "周瑜苦战曹仁于南郡，孔明坐收渔利：赵云趁瑜伤袭取南郡，张飞取荆、关羽取长沙等四郡，荆州尽归刘备，一气周瑜。",
+ "detail": "赤壁既胜，操留曹仁守南郡、曹洪守彝陵为掎角。瑜兴兵攻彝陵，甘宁被围，瑜亲救破仁，追击中箭（毒箭伤左肋）反被劫寨，带伤大破曹军。瑜亲临城下叫阵，仁引军士放箭，正中瑜左肋，瑜金疮进裂诈死以退曹军。瑜正欲乘胜取南郡，闻赵云已袭取之；孔明令张飞取荆州、关羽取长沙等四郡，荆州尽属刘备。瑜金疮复裂半晌方苏——此为一气。",
+ "place_id": "jiang_ling",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "大都督攻南郡，中箭诈死，一气呕血"
+  },
+  {
+   "person_id": "cao_ren",
+   "role_desc": "守南郡，箭伤周瑜"
+  },
+  {
+   "person_id": "cao_hong",
+   "role_desc": "守彝陵为掎角"
+  },
+  {
+   "person_id": "gan_ning",
+   "role_desc": "先取彝陵被围，瑜亲救"
+  },
+  {
+   "person_id": "ling_tong",
+   "role_desc": "随瑜攻南郡"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "趁瑜攻城袭取南郡"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "袭取荆州城"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "取长沙等荆南四郡"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "定计坐收南郡荆州"
+  },
+  {
+   "person_id": "huang_zhong",
+   "role_desc": "降后佐关羽定荆南"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "长沙杀韩玄献城"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 209,
+   "title": "兵发南郡",
+   "description": "瑜攻彝陵救甘宁，破曹仁掎角之势。",
+   "importance": 2
+  },
+  {
+   "year": 209,
+   "title": "瑜中箭",
+   "description": "城下叫阵中曹仁毒箭，金疮进裂诈死退敌。",
+   "importance": 3
+  },
+  {
+   "year": 209,
+   "title": "云袭南郡",
+   "description": "孔明令赵云袭取南郡，瑜气恼金疮复裂。",
+   "importance": 3
+  },
+  {
+   "year": 209,
+   "title": "荆南四郡定",
+   "description": "张飞取荆州，关羽定四郡，荆州归刘。",
+   "importance": 2
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  51002,
+  51006
+ ]
+}

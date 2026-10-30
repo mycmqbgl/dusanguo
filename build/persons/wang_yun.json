@@ -1,0 +1,51 @@
+{
+ "id": "wang_yun",
+ "name": "王允",
+ "courtesy": "子师",
+ "display_aliases": [
+  "王子师",
+  "王司徒"
+ ],
+ "birth": 137,
+ "death": 192,
+ "date_precision": "approx",
+ "date_note": "生于永和二年（137），卒于初平三年（192）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "王允，东汉文臣，侍御史、河南尹、司徒、录尚书事。王允大骂：\"逆贼何必多言。",
+ "bio": "王允字子师，太原祁人。少有大节，郭泰见而奇之，曰「王生一日千里，王佐才也」。灵帝时为侍御史，与杨彪、淳于琼等迎少帝还宫。董卓专政，允阳为亲附而阴结吕布，以貂蝉离间二人，终使布刺杀董卓于宫门。卓死，允以功录尚书事，然性刚棱，不肯赦凉州兵，李傕、郭汜遂反攻长安，城破，允死。范晔评曰：「推卓不为失正，分权不为苟冒，伺间不为狙诈」，惜其「倚功恃势，以至于败」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 192,
+   "title": "侍御史、河南尹、司徒、录尚书事",
+   "basis": "以谋略与内政为主，官至司徒、录尚书事，主持朝政；192 年死。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "迎帝还宫",
+   "description": "与杨彪、淳于琼等接少帝于崔毅庄。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "连环计诛卓",
+   "description": "结吕布为内应，刺杀董卓于宫门。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "不赦凉州兵",
+   "description": "李傕郭汜反攻长安，城破身死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 61
+}

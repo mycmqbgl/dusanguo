@@ -1,0 +1,43 @@
+{
+ "id": "qu_yi",
+ "name": "麴义",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平二年（191）前后。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "麴义，群雄武将，将军。急待回，被麴义拍马舞刀，斩于马下，瓒军大败。",
+ "bio": "麴义，袁绍部将。界桥之战，袁绍令其引八百弓手、步兵一万五千列于阵中，令弓手皆伏于遮箭牌下，只听炮响发箭。公孙瓒遣严纲为先锋鼓噪而来，义军伏而不动，待其至近，一声炮响，八百弓弩手齐发，纲急待回，被麴义拍马舞刀斩于马下，瓒军大败。麴义马到，先斩执旗将，把绣旗砍倒，公孙瓒见绣旗倒而回马下桥。麴义引军直冲后军，正撞赵云，战不数合，被赵云一枪刺于马下。史实麴义后因骄纵为袁绍所杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "将军",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将，无独立势力，以战斗指挥为主归武将；191 年为赵云所刺。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "界桥破白马",
+   "description": "以八百伏弩齐发，大破公孙瓒白马义从，斩先锋严纲。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "为赵云所刺",
+   "description": "冲至后军撞见赵云，战不数合被一枪刺于马下。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 9
+}

@@ -1,0 +1,43 @@
+{
+ "id": "dong_guifei",
+ "name": "董妃",
+ "display_aliases": [
+  "董贵妃"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）春，身怀五月身孕被曹操缢杀。生年不详。",
+ "gender": "female",
+ "first_chapter": 9,
+ "review_status": "reviewed",
+ "summary": "董贵妃，汉献帝贵妃，董承之妹，衣带诏事泄被曹操所杀。",
+ "bio": "董贵妃，董承之妹，汉献帝之妃。建安五年（200）衣带诏事泄，曹操带剑入宫，命左右将董妃牵出，献帝求止不得，操曰「不杀此女，必为后患」，遂缢死于宫门之外。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "贵妃",
+   "basis": "献帝宠妃，董承之妹。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "传诏通声息",
+   "description": "董承托吴硕入宫密报，妃传语「陛下自爱，万勿泄漏」。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "被缢杀",
+   "description": "衣带诏事泄，曹操当帝面将其勒死，株连全族。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 11
+}

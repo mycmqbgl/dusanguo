@@ -1,0 +1,89 @@
+{
+ "id": "yidai_zhao",
+ "name": "衣带诏",
+ "kind": "政治事件",
+ "start_year": 199,
+ "end_year": 200,
+ "date_text": "建安四年—五年（199–200）",
+ "summary": "献帝以血书付董承，承与王子服等六人、马腾、刘备歃血为盟谋诛曹操；事泄三族被诛，董贵妃有孕亦被杀。",
+ "detail": "许田打围，曹操「遮前欺后」僭越之礼毕露，关羽欲杀操、刘备止之。献帝泣付董承血诏，承归与王子服、吴子兰、种辑、吴硕密议，马腾、刘备相继入盟。备借截击袁术之名脱身徐州。建安五年事泄（家奴告变），操诛董承等三族，董贵妃有孕亦缢杀；刘备在徐州举兵反曹，马腾归西凉。",
+ "place_id": "xu_tian",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_xie",
+   "role_desc": "献帝，泣血付诏"
+  },
+  {
+   "person_id": "dong_cheng",
+   "role_desc": "受诏首谋"
+  },
+  {
+   "person_id": "wang_zifu",
+   "role_desc": "六义士之一"
+  },
+  {
+   "person_id": "ma_teng",
+   "role_desc": "西凉太守，入盟"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "入盟后借机脱身徐州"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "许田僭越，事后族诛承等"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "许田欲杀操，备止之"
+  },
+  {
+   "person_id": "fu_huanghou",
+   "role_desc": "与帝同忧"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "许田打围",
+   "description": "操借天子仪仗遮前欺后，关羽欲杀操，备止之。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "血诏付承",
+   "description": "献帝以血书付董承。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "七人结盟",
+   "description": "承与王子服、马腾、刘备等歃血为盟。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "备脱身徐州",
+   "description": "备借截击袁术之名领兵出许都。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "事泄族诛",
+   "description": "家奴告变，操诛承等三族，董贵妃有孕亦死。",
+   "importance": 3
+  }
+ ],
+ "passage_ids": [
+  20006,
+  20008,
+  20007,
+  20007,
+  20013,
+  20014
+ ],
+ "battle_ids": [
+  "xutian_dawei"
+ ]
+}

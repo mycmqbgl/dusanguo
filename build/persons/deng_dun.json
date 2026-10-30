@@ -1,0 +1,29 @@
+{
+ "id": "deng_dun",
+ "name": "邓敦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 115,
+ "review_status": "auto_mined",
+ "summary": "邓敦，曹魏武将，前将军。臾，呈邓敦首级于阶下。",
+ "bio": "官职「前将军」据原文上下文提取。原文第 115 回相关片段：「使约期伐蜀。次日，司马昭于朝中计议此事，前将军邓敦曰：“姜维屡犯中原，我兵折伤甚多，只今守御，尚自」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "前将军",
+   "basis": "第115回司马昭议伐蜀，前将军邓敦言蜀未可伐，昭怒斩之。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

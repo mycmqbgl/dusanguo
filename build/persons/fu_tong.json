@@ -1,0 +1,32 @@
+{
+ "id": "fu_tong",
+ "name": "傅彤",
+ "courtesy": null,
+ "display_aliases": [
+  "傅肜"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "傅彤，蜀汉武将，蜀将。傅彤叱曰：吾乃汉将，安肯降吴狗乎。",
+ "bio": "第 81 回：傅彤、张翼为中军护尉。第 84 回：蜀营内傅彤引军杀出，挺枪直取淳于丹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 225,
+   "title": "蜀将",
+   "basis": "第八十一回原文：傅彤、张翼为中军护尉。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 85 回（225 年），原 221—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "notice": "异写：傅肜",
+ "mention_count": 13
+}

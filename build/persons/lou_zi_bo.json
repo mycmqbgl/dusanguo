@@ -1,0 +1,36 @@
+{
+ "id": "lou_zi_bo",
+ "name": "娄圭",
+ "courtesy": "子伯",
+ "display_aliases": [
+  "娄子伯",
+  "梦梅居士",
+  "终南隐士"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详，建安年间为曹操所杀。",
+ "gender": "male",
+ "first_chapter": 59,
+ "review_status": "reviewed",
+ "summary": "娄圭，字子伯，京兆人，隐居终南山，道号梦梅居士。渭南之役献策筑冰城，后为曹操所杀。",
+ "bio": "娄圭，字子伯，京兆人，汉末隐士，隐居终南山，道号梦梅居士。第59回曹操与马超相持于渭南，沙土难以筑垒，娄子伯献策「天寒可起土城，以水灌之，一夜冻成坚壁」，操从之，果成冰城，马超惊以为神。操以客礼待之。后娄圭以言语获罪，为曹操所杀（史传所载，演义不书）。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "终南隐士（道号梦梅居士）",
+   "basis": "第59回：问之，乃京兆人也，隐居终南山，姓娄，名子伯，道号梦梅居士。操以客礼待之。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "title_unknown_verified": false
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 6
+}

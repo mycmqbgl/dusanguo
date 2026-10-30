@@ -1,0 +1,65 @@
+{
+ "id": "zhuge_dan",
+ "name": "诸葛诞",
+ "courtesy": "公休",
+ "display_aliases": [
+  "琅琊诸葛",
+  "镇东大将军"
+ ],
+ "birth": null,
+ "death": 258,
+ "date_precision": "approx",
+ "date_note": "史载卒于甘露三年二月（258），寿春城破被斩。生年无载。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "reviewed",
+ "summary": "诸葛诞，曹魏武将，镇东大将军、扬州都督。会曰：今诸葛诞虽败，寿春城中粮草尚多，更有吴兵屯安丰以为掎角之势；今吾兵四面攻围，彼缓则坚守，急则死战；吴兵或乘势夹攻：吾军无益。",
+ "bio": "诸葛诞字公休，琅琊人，诸葛武侯之族弟。事魏累迁镇东大将军，总摄两淮军马，封高平侯。贾充承司马昭意以禅代之言挑之，诞大怒曰：汝世食魏禄，安敢出此乱言！朝廷有难，吾当以死报之。闻乐綝密告，遂起兵杀綝，聚两淮屯田十余万、新降兵四万，遣长史吴纲送子诸葛靓入吴为质求援，声讨司马昭。昭挟太后天子亲征，二十六万围寿春。诞会吴将文钦、全怿等拒守，兵败入城，粮尽援绝，斩文钦致二子文鸯、文虎降魏，人心遂散。城破，诞引数百人出走，撞着胡奋，手起刀落，斩于马下。其麾下数百人尽缚于城外，逐一问降，无一人屈者，尽杀之。后人有诗：忠臣矢志不偷生，诸葛公休帐下兵。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 251,
+   "end_year": 257,
+   "title": "镇东大将军、扬州都督",
+   "lord_id": "cao_mao",
+   "basis": "总摄两淮军马，拒贾充试探，忠于曹魏。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 257,
+   "end_year": 258,
+   "title": "举兵讨司马昭",
+   "lord_id": "cao_mao",
+   "basis": "起兵寿春，联吴抗昭，淮南三叛之末役；城破死节。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "叛将"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 257,
+   "title": "斩乐綝举兵",
+   "description": "诏征为司空，诞知贾充告变，杀使攻扬州，斩乐綝，聚兵十余万讨司马昭。",
+   "importance": 3
+  },
+  {
+   "year": 257,
+   "title": "质子求吴",
+   "description": "遣吴纲送子诸葛靓入吴为质，孙綝遣全怿、文钦等七万来援。",
+   "importance": 2
+  },
+  {
+   "year": 258,
+   "title": "寿春死节",
+   "description": "粮尽斩文钦致人心离散，城破出走被胡奋斩杀；部曲数百人无一降者。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 33
+}

@@ -1,0 +1,29 @@
+{
+ "id": "tai_shi_heng",
+ "name": "太史亨",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "auto_mined",
+ "summary": "太史亨，孙吴人物，太史慈子。第 53 回一笔带过，事迹仅存其名。",
+ "bio": "第 53 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "其他",
+   "start_year": 206,
+   "end_year": 229,
+   "title": "太史慈之子",
+   "basis": "第53回太史慈卒，孙权伤悼，养其子太史亨于府中。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

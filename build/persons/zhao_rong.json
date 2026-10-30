@@ -1,0 +1,29 @@
+{
+ "id": "zhao_rong",
+ "name": "赵融",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "赵融，蜀汉武将，合后。第 81 回一笔带过，事迹仅存其名。",
+ "bio": "第 81 回：「赵融、廖淳为合后」。原文第 81 回相关片段：「部先锋；冯习、张南为副将；傅彤、张翼为中军护尉；赵融、廖淳为合后。川将数百员，并五溪番将等，共兵七十」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 222,
+   "title": "合后",
+   "basis": "第 81 回：「赵融、廖淳为合后」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

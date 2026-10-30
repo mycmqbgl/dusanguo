@@ -1,0 +1,29 @@
+{
+ "id": "guo_you_zhi",
+ "name": "郭攸之",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "郭攸之，字演长，南阳人，蜀汉侍中，诸葛亮《出师表》所荐。",
+ "bio": "郭攸之，字演长，南阳人，蜀汉侍中。诸葛亮《出师表》称其「此皆良实，志虑忠纯」，与费祎、董允同荐于后主。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 227,
+   "end_year": 229,
+   "title": "侍中、侍郎",
+   "basis": "第91回《出师表》言「侍中、侍郎郭攸之、费祎、董允等，此皆良实」。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 26
+}

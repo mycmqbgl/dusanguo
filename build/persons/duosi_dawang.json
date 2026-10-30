@@ -1,0 +1,48 @@
+{
+ "id": "duosi_dawang",
+ "name": "朵思大王",
+ "courtesy": null,
+ "display_aliases": [
+  "秃龙洞主",
+  "四毒泉之主"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "演义虚构人物，无史可考。生卒皆无；演义中 225 年降蜀后不复见。",
+ "gender": "male",
+ "first_chapter": 89,
+ "review_status": "reviewed",
+ "is_fictional": true,
+ "summary": "朵思大王，异族君主，秃龙洞主。朵思曰：若大王兵败，吾妻子亦休矣。",
+ "bio": "朵思大王，秃龙洞主，与孟获弟孟优交厚。孟获五番兵败，朵思献计：秃龙洞前有四泉，曰哑泉、灭泉、黑泉、柔泉，其水皆毒，人若饮之则哑、则死、则黑、则骨软；山有瘴气，更有银冶洞杨锋之蛮为援，蜀兵至此必死于泉瘴之间。孟获从之，退保秃龙洞。孔明军至，王平口渴误饮哑泉，不能言语，赖孟节（实为孟获之兄孟节）指迷，引至万安隐者处，饮安乐泉水解其毒。孔明虔诚致祭，山神显灵，毒泉遂涸。杨锋反戈，朵思洞破，孟获五擒。获再败后朵思复荐乌戈国兀突骨藤甲兵，终亦无救。朵思以毒泉瘴地为南征添最险一章，而「得人心者天亦助之」之意愈显。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "秃龙洞主",
+   "lord_id": "meng_huo",
+   "basis": "助孟获据四毒泉抗蜀，计败后降；复荐兀突骨藤甲兵。",
+   "confidence": 1.0,
+   "review_status": "reviewed",
+   "_role_orig": "洞主"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "献四毒泉计",
+   "description": "劝孟获退保秃龙洞，恃哑泉灭泉黑泉柔泉与瘴气以困蜀军。",
+   "importance": 2
+  },
+  {
+   "year": 225,
+   "title": "毒泉计败归降",
+   "description": "孔明祭泉泉涸、杨锋反戈，洞破获擒；朵思降，后荐藤甲兵。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 17
+}

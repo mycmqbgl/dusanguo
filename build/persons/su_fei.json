@@ -1,0 +1,43 @@
+{
+ "id": "su_fei",
+ "name": "苏飞",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "苏飞，群雄武将，黄祖帐下都督。及苏飞引军于岸上接应时，东吴诸将一齐上岸，势不可当。",
+ "bio": "刘表部将黄祖麾下都督。屡荐甘宁于黄祖而不见用。孙权破江夏，飞被擒，甘宁泣求于孙权：「飞若不放，宁必堕地而死」，权赦之。飞感宁之义，遂归于吴。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "黄祖帐下都督",
+   "lord_id": "huang_zu",
+   "basis": "刘表部将，隶黄祖江夏。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 203,
+   "title": "屡荐甘宁",
+   "description": "荐宁于黄祖不用，宁由是怨祖。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "甘宁相救",
+   "description": "江夏兵败被擒，赖甘宁力保得免，归吴。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 9
+}

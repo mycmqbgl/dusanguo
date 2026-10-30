@@ -1,0 +1,161 @@
+{
+ "source": "persons_ch021_030_b.json",
+ "total": 15,
+ "passed": 15,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 9,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "liu_yan_dongjun",
+   "name": "刘延",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 127 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "kong_xiu",
+   "name": "孔秀",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "meng_tan",
+   "name": "孟坦",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 123 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "han_fu_luoyang",
+   "name": "韩福",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 127 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "bian_xi",
+   "name": "卞喜",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 145 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wang_zhi",
+   "name": "王植",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "qin_qi",
+   "name": "秦琪",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhou_cang",
+   "name": "周仓",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "pei_yuanshao",
+   "name": "裴元绍",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 108 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "guan_ding",
+   "name": "关定",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 132 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cai_yang",
+   "name": "蔡阳",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 135 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "liu_pi",
+   "name": "刘辟",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 149 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "gong_du",
+   "name": "龚都",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 108 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "chen_zhen",
+   "name": "陈震",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yuan_tan",
+   "name": "袁谭",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  }
+ ]
+}

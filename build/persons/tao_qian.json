@@ -1,0 +1,57 @@
+{
+ "id": "tao_qian",
+ "name": "陶谦",
+ "courtesy": "恭祖",
+ "display_aliases": [
+  "徐州牧",
+  "徐州太守"
+ ],
+ "birth": 132,
+ "death": 194,
+ "date_precision": "exact",
+ "date_note": "生于永建七年（132），卒于兴平元年（194）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "陶谦，群雄君主，徐州刺史、徐州牧、安东将军、溧阳侯。请入见，问其来意，竺出陶谦书，言：曹操攻围甚急，望明公垂救。",
+ "bio": "陶谦字恭祖，丹阳人。少孤，以孝廉仕州郡，历舒令、卢令，迁幽州刺史，征拜议郎。会黄巾起，为徐州刺史，破走黄巾，境内晏然。董卓之乱，列第十二镇。曹操遣应劭迎父曹嵩于琅琊，道经徐州，谦欲结好曹操，出境迎送，特遣都尉张闿率五百人护送。张闿本黄巾余党，于华、费间杀曹嵩全家，取其财物奔淮南。曹操遂起大军报仇，所过屠戮。谦欲自缚往操营以救百姓，为糜竺所止。兴平元年病笃，谓别驾麋竺曰「非刘备不能安此州」，让徐州于刘备，旋卒。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 188,
+   "end_year": 194,
+   "title": "徐州刺史、徐州牧、安东将军、溧阳侯",
+   "basis": "据徐州自成一系，为群雄之一，至 194 年病卒。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 188,
+   "title": "刺徐州破黄巾",
+   "description": "为徐州刺史，破走黄巾，境内晏然。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "列第十二镇",
+   "description": "以徐州刺史起兵讨董。",
+   "importance": 2
+  },
+  {
+   "year": 193,
+   "title": "张闿之变",
+   "description": "遣张闿护送曹嵩，闿于华、费间杀嵩全家，曹操遂兴报仇之师。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "让徐州",
+   "description": "病笃，谓麋竺「非刘备不能安此州」，三让徐州于刘备，旋卒。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 46
+}

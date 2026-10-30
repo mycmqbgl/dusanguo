@@ -1,0 +1,29 @@
+{
+ "id": "guo_yong",
+ "name": "郭永",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "郭永，曹魏人物，郭贵妃之父。丕又纳安平广宗人郭永之女为贵妃，甚有颜色；其父尝曰：吾女乃女中之王也。",
+ "bio": "原文第 91 回相关片段：「字元仲，自幼聪明，不甚爱之。后丕又纳安平广宗人郭永之女为贵妃，甚有颜色；其父尝曰：“吾女乃女中之王」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "其他",
+   "start_year": 227,
+   "end_year": 239,
+   "title": "郭贵妃之父",
+   "basis": "第九十一回原文：丕又纳安平广宗人郭永之女为贵妃…其父尝曰「吾女乃女中之王也」。郭永以女贵，无实职。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

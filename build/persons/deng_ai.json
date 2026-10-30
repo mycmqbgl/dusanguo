@@ -1,0 +1,71 @@
+{
+ "id": "deng_ai",
+ "name": "邓艾",
+ "courtesy": "士载",
+ "display_aliases": [
+  "义阳棘阳人",
+  "口吃将军",
+  "征西将军"
+ ],
+ "birth": 197,
+ "death": 264,
+ "date_precision": "approx",
+ "date_note": "卒于咸熙元年（264）被卫瓘遣田续杀于绵竹西；生年无载，据事迹推约 197。演义首现于第 110 回，本卡为北伐段预登记。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "reviewed",
+ "summary": "邓艾，曹魏文臣，司马懿掾属、尚书郎、南安太守、讨寇将军。邓士载，当与决一死战，安肯降之乎。",
+ "bio": "邓艾字士载，义阳棘阳人。少孤，为稻田守丛草吏，口吃，每语艾自称艾艾，司马懿戏之：卿云艾艾，定几艾？答曰：凤兮凤兮，故是一凤。每见高山大泽，辄指画规度军营处所，时人笑之。后为司马懿掾属，议开河渠、筹淮南屯田，功著朝野。姜维九伐中原，艾屡出当其锋，段谷大破维军，迁镇西将军。263 年魏大举伐蜀，艾自阴平道行无人之地七百余里，凿山通道，裹毡推转而下，破诸葛瞻于绵竹，兵至成都，刘禅出降，蜀汉亡。后为钟会所构，与子忠同被杀，权臣之祸及于功臣，识者悲之。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 240,
+   "end_year": 250,
+   "title": "司马懿掾属、尚书郎、南安太守、讨寇将军",
+   "lord_id": "cao_fang",
+   "basis": "240-250 年魏帝为曹芳（239-254），非曹叡（226-239）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 250,
+   "end_year": 264,
+   "title": "征西将军",
+   "lord_id": "sim_yi",
+   "basis": "受司马懿识拔之恩所自出，段谷破维、阴平灭蜀；264 年遭构杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 256,
+   "title": "段谷破维",
+   "description": "与姜维战于段谷，大破之，维军星散流离，死者甚众。",
+   "importance": 2
+  },
+  {
+   "year": 263,
+   "title": "偷渡阴平",
+   "description": "自阴平行无人之地七百里，裹毡而下，直取江油涪城。",
+   "importance": 3
+  },
+  {
+   "year": 263,
+   "title": "灭蜀受降",
+   "description": "破诸葛瞻于绵竹，兵临成都，刘禅舆榇出降。",
+   "importance": 3
+  },
+  {
+   "year": 264,
+   "title": "含冤被杀",
+   "description": "遭钟会构陷，槛车征还，被杀于绵竹西。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 160
+}

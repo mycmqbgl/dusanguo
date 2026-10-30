@@ -1,0 +1,38 @@
+{
+ "id": "jiang_qi",
+ "name": "蒋奇",
+ "display_aliases": [
+  "袁绍部将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）乌巢救援途中为张辽所斩。生年不详。",
+ "gender": "male",
+ "first_chapter": 30,
+ "review_status": "reviewed",
+ "summary": "蒋奇，群雄武将，袁绍部将。可选精兵诈称袁将蒋奇领兵到彼护粮，乘间烧其粮草辎重，则绍军不三日将自乱矣。",
+ "bio": "蒋奇，袁绍部将。建安五年官渡相持，曹操奇袭乌巢，袁绍闻讯，遣蒋奇领兵往救。奇行至半路，遭曹军伏击，张辽出阵，战不数合斩奇于马下，所部溃散。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "袁绍部将",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将，救援乌巢。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "救援乌巢被斩",
+   "description": "奉命往救乌巢，中途遇伏，为张辽所斩。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 8
+}

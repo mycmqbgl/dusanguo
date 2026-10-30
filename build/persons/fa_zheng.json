@@ -1,0 +1,57 @@
+{
+ "id": "fa_zheng",
+ "name": "法正",
+ "courtesy": "孝直",
+ "display_aliases": [
+  "蜀郡太守",
+  "尚书令"
+ ],
+ "birth": 176,
+ "death": 220,
+ "date_precision": "exact",
+ "date_note": "史书生卒年明确（176–220）；演义未明写卒年，叙事至汉中王立后无大事。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "reviewed",
+ "summary": "法正，群雄文臣，刘璋军议校尉。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+ "bio": "法正字孝直，扶风郿人。刘璋遣使迎刘备入川，正与张松同谋，暗以益州地图献备。备攻益州，正为内应，璋出降后正为蜀郡太守、扬武将军。汉中之战正为谋主，定军山之战教黄忠「以逸待劳、居高临下」，阵斩夏侯渊。备为汉中王，正为尚书令、护军将军。备伐吴败后叹「若法孝直在，必能制主上东行」。亮视正为奇谋之才。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 211,
+   "title": "刘璋军议校尉",
+   "basis": "刘璋帐下谋士，与张松同谋迎备。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 220,
+   "title": "蜀郡太守、尚书令护军将军",
+   "lord_id": "liu_bei",
+   "basis": "备入川后为谋主，汉中定策；220 年病故（史）。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "献图内应",
+   "description": "与张松同谋，暗迎刘备入川为内应。",
+   "importance": 3
+  },
+  {
+   "year": 219,
+   "title": "定军山定策",
+   "description": "教黄忠以逸待劳，阵斩夏侯渊。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：史书生卒年明确（176–220）｜演：未明写卒年，叙事至汉中王立后无大事",
+ "mention_count": 60
+}

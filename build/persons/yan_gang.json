@@ -1,0 +1,29 @@
+{
+ "id": "yan_gang",
+ "name": "严纲",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "auto_mined",
+ "summary": "严纲，群雄武将，公孙瓒将。军见严纲兵来，都伏而不动；直到来得至近，一声炮响，八百弓弩手一齐俱发。",
+ "bio": "第 7 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 191,
+   "title": "公孙瓒将",
+   "basis": "第七回原文：严纲鼓噪呐喊，直取麴义。 职任「公孙瓒将」据此；★任期按末见回目收敛：全书最后一次提及在第 7 回（191 年），原 191—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

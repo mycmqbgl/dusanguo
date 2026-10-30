@@ -1,0 +1,62 @@
+{
+ "id": "sun_guan",
+ "name": "孙观",
+ "courtesy": "仲台",
+ "display_aliases": [
+  "彭城相",
+  "振威将军"
+ ],
+ "birth": null,
+ "death": 217,
+ "date_precision": "approx",
+ "date_note": "史载卒于建安二十二年（217）前（从征孙权，中流矢，伤发卒）；生年不详。",
+ "gender": "male",
+ "first_chapter": 18,
+ "review_status": "reviewed",
+ "summary": "孙观，群雄武将，泰山诸将。第 18 回一笔带过，事迹仅存其名。",
+ "bio": "孙观字仲台，泰山人。与臧霸等聚众泰山，以骁猛闻。先随吕布，布灭后与霸同降曹操，为青州刺史、彭城相，官至振威将军。从曹操征孙权于濡须，身先士卒中流矢，伤发而卒。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 198,
+   "title": "泰山诸将",
+   "lord_id": "lv_bu",
+   "basis": "聚众泰山，后随吕布。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 217,
+   "title": "青州刺史、彭城相、振威将军",
+   "basis": "198 年降曹。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "聚众泰山",
+   "description": "与臧霸等聚众泰山为群盗。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "降曹",
+   "description": "吕布灭，与臧霸同降。",
+   "importance": 2
+  },
+  {
+   "year": 217,
+   "title": "中矢而卒",
+   "description": "从征孙权于濡须，中流矢，伤发卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 7
+}

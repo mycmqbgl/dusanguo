@@ -1,0 +1,29 @@
+{
+ "id": "fu_qian",
+ "name": "傅佥",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "傅佥，蜀汉武将，蜀将。傅佥大怒，令蒋舒把关，自引三千兵杀下关来。",
+ "bio": "第 112 回：鹏赶上举刀待砍，傅佥偷身回顾，向李鹏面门只一简，打得眼珠迸出，死于马下。第 115 回：乃唤傅佥分付曰：汝守此寨，勿轻与敌。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 254,
+   "end_year": 262,
+   "title": "蜀将",
+   "basis": "第一百十二回原文：鹏赶上举刀待砍，傅佥偷身回顾，向李鹏面门只一简，打得眼珠迸出，死于马下。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 254—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 23
+}

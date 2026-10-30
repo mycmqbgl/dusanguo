@@ -1,0 +1,62 @@
+{
+ "id": "yin_li",
+ "name": "尹礼",
+ "courtesy": null,
+ "display_aliases": [
+  "东海太守"
+ ],
+ "birth": null,
+ "death": 205,
+ "date_precision": "approx",
+ "date_note": "史载卒于建安十年（205）（为于禁所斩）；演义未写其死。",
+ "gender": "male",
+ "first_chapter": 18,
+ "review_status": "reviewed",
+ "summary": "尹礼，群雄武将，泰山诸将。霸又招安孙观、吴敦、尹礼来降；独昌豨未肯归顺。",
+ "bio": "尹礼，泰山人，与臧霸等聚众泰山，号「截虎」。先随吕布，布灭后降曹操，为东海太守。史载建安十年与昌豨叛，为于禁所斩。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 198,
+   "title": "泰山诸将",
+   "lord_id": "lv_bu",
+   "basis": "聚众泰山，后随吕布。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 205,
+   "title": "东海太守",
+   "basis": "降曹后任东海太守，205 年叛被斩。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "聚众泰山",
+   "description": "与臧霸等聚众泰山，号「截虎」。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "降曹",
+   "description": "吕布灭，降曹为东海太守。",
+   "importance": 1
+  },
+  {
+   "year": 205,
+   "title": "叛被斩",
+   "description": "与昌豨叛，为于禁所斩（史）。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载卒于建安十年（205）（为于禁所斩）｜演：未写其死",
+ "mention_count": 3
+}

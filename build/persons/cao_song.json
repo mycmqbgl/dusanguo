@@ -1,0 +1,61 @@
+{
+ "id": "cao_song",
+ "name": "曹嵩",
+ "display_aliases": [
+  "曹嵩",
+  "曹太尉"
+ ],
+ "birth": null,
+ "death": 193,
+ "date_precision": "approx",
+ "date_note": "生年不详。初平四年（193）避乱琅琊，为陶谦部将所杀。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "曹嵩，东汉文臣，司隶校尉、大鸿胪、大司农、太尉。闿杀尽曹嵩全家，取了财物，放火烧寺，与五百人逃奔淮南去了。",
+ "bio": "曹嵩字巨高，沛国谯人，宦官中常侍曹腾之养子，本姓夏侯（一说），莫能审其生出本末。灵帝时官至太尉，位列三公。董卓乱起，嵩避乱琅琊，初平四年为徐州牧陶谦部将张闿所杀于泰山华县，曹操由是兴兵屠徐州，泗水为之不流。曹丕代汉，追尊祖父为太皇帝。演义第一回「操父曹嵩，本姓夏侯氏」，是全书对曹操出身最直接的一笔。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 186,
+   "end_year": 193,
+   "title": "司隶校尉、大鸿胪、大司农、太尉",
+   "basis": "历官皆文职，官至太尉（三公），以政务为主，故为文臣；193 年遇害。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "追谥",
+   "start_year": 220,
+   "end_year": 266,
+   "title": "太皇帝",
+   "basis": "黄初元年（220）曹丕代汉称帝，追尊祖父曹嵩为太皇帝。追谥片记为 [阵营建立年, 阵营灭亡年]，与生前片之间的空档属规则允许的死亡至追尊豁免。",
+   "confidence": 1.0,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 187,
+   "title": "官至太尉",
+   "description": "位列三公，为汉廷重臣。",
+   "importance": 2
+  },
+  {
+   "year": 193,
+   "title": "华县遇害",
+   "description": "避乱琅琊，为陶谦部将所杀，曹操由是屠徐州。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "追尊太皇帝",
+   "description": "曹丕代汉后追尊祖父为太皇帝。",
+   "importance": 2,
+   "posthumous": true
+  }
+ ],
+ "mention_count": 14
+}

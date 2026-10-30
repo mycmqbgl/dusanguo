@@ -1,0 +1,76 @@
+{
+ "id": "jiang_wan",
+ "name": "蒋琬",
+ "courtesy": "公琰",
+ "display_aliases": [
+  "零陵湘乡人",
+  "丞相参军",
+  "蜀大司马"
+ ],
+ "birth": null,
+ "death": 246,
+ "date_precision": "approx",
+ "date_note": "史载卒于延熙九年（246）。生年无载。",
+ "gender": "male",
+ "first_chapter": 63,
+ "review_status": "reviewed",
+ "summary": "蒋琬，蜀汉文臣，广都长、尚书郎、丞相府东曹掾。蒋琬奏曰：臣敢保王平、张嶷引兵数万屯于永安，以防不测。",
+ "bio": "蒋琬字公琰，零陵湘乡人。随先主入蜀，为广都长时众事不理且沉醉，备欲加罪，亮曰：琬社稷之器，非百里之才，其政以安民为本，请勿加罪。备遂仅罢官。亮北伐，琬与张裔统留府事；街亭之败，琬自成都驰军中，高叫留人，引楚杀得臣文公喜之典救马谡，不听。亮密表后主：臣若不幸，后事付琬。亮卒，琬为尚书令，寻加大司马，开府治事。夷陵后蜀元气未复，琬承亮成规，不喜横议，裁制有方，休士息民，虽用兵不成而国本不摇，人服其忠。246 年病卒。演义中其伐魏之议、救谡之谏皆与史相合。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 227,
+   "title": "广都长、尚书郎、丞相府东曹掾",
+   "lord_id": "liu_bei",
+   "basis": "随备入蜀为广都长，赖亮之救得免罪，累迁。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 227,
+   "end_year": 234,
+   "title": "尚书令",
+   "lord_id": "zhuge_liang",
+   "basis": "亮出驻汉中，琬留成都参赞军机；亮密表以身后事付之。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 234,
+   "end_year": 246,
+   "title": "尚书令、大司马",
+   "lord_id": "liu_shan",
+   "basis": "亮死后执政九年，休士息民，246 年卒。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "辅政"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 227,
+   "title": "留府参政",
+   "description": "亮上出师表北驻汉中，琬为参军居成都统留府事。",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "辕门救谡",
+   "description": "自成都驰至，引楚杀得臣典力谏勿斩马谡，亮不从。",
+   "importance": 2
+  },
+  {
+   "year": 234,
+   "title": "受遗执政",
+   "description": "亮卒于五丈原，琬依遗表继掌国政，尚书令加大司马。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 27
+}

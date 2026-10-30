@@ -1,0 +1,43 @@
+{
+ "id": "pei_yuanshao",
+ "name": "裴元绍",
+ "display_aliases": [
+  "黄巾余党"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）于卧牛山欲夺赵云之马，被赵云一枪刺死。生年不详。",
+ "gender": "male",
+ "first_chapter": 28,
+ "review_status": "reviewed",
+ "summary": "裴元绍，群雄武将，黄巾部将。元绍曰：离此二十里有一卧牛山。",
+ "bio": "裴元绍，黄巾余党，张宝部将出身，黄巾乱后与周仓聚卧牛山为盗。建安五年，关羽过卧牛山，元绍欲随周仓同投关羽，受命留守山寨。后元绍见赵云骑白马过山，欲夺其马，报姓名出马，赵云一枪刺死。周仓寻仇亦连中三枪败回，方知是赵云。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 200,
+   "title": "黄巾部将",
+   "basis": "张宝部将，乱后为盗。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "拜随关羽未果",
+   "description": "关羽过卧牛山，元绍欲同行，受命留守山寨。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "劫马被刺",
+   "description": "欲夺赵云白马，交马一合被赵云一枪刺死。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 15
+}

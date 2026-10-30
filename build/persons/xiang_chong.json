@@ -1,0 +1,29 @@
+{
+ "id": "xiang_chong",
+ "name": "向宠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "向宠，蜀汉武将，蜀将。军向宠，性行淑均，晓畅军事，试用之于昔日，先帝称之曰能，是以众议举宠以为督。",
+ "bio": "第 91 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 227,
+   "title": "蜀将",
+   "basis": "第九十一回原文：将军向宠，性行淑均，晓畅军事，试用之于昔日，先帝称之曰能，是以众议举宠以为督。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 91 回（227 年），原 227—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

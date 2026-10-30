@@ -1,0 +1,36 @@
+{
+ "id": "liu_yan_2",
+ "name": "刘琰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "刘琰，蜀汉武将，车骑大将军、都乡侯、行中军师。主闻之大怒，令有司议刘琰罪。",
+ "bio": "第 91 回：「行中军师——车骑大将军、都乡侯刘琰」。原文第 91 回相关片段：「将军、关内侯张嶷；行中军师——车骑大将军、都乡侯刘琰；中监军——扬武将军邓芝；中参军——安远将军马谡」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 234,
+   "title": "车骑大将军、都乡侯、行中军师",
+   "basis": "第 91 回：「行中军师——车骑大将军、都乡侯刘琰」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 256,
+   "title": "第 115 回",
+   "description": "主闻之大怒，令有司议刘琰罪",
+   "importance": 1
+  }
+ ],
+ "mention_count": 5
+}

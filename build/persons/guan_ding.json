@@ -1,0 +1,43 @@
+{
+ "id": "guan_ding",
+ "name": "关定",
+ "display_aliases": [
+  "关家庄主"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。古城会前后收留关羽一行，后事无考。",
+ "gender": "male",
+ "first_chapter": 28,
+ "review_status": "reviewed",
+ "summary": "关定，东汉人物，关家庄庄主。关定曰：今愚意欲遣次子跟随关将军，未识肯容纳否。",
+ "bio": "关定，冀州关家庄庄主，有二子：长子关宁学文，次子关平学武。建安五年，关羽寻兄至袁绍地界，投关家庄，关定留之。刘备自袁绍处脱身来会，兄弟聚义于庄上。关定挽留，并求关平拜关羽为义父，刘备应允，谓「吾弟有此子，吾之幸也」。刘备临行，关定送之，关平从此随刘备、关羽为义子。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 200,
+   "end_year": 205,
+   "title": "关家庄庄主",
+   "basis": "无政治归属，乡间庄主。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "留宿关羽",
+   "description": "关羽寻兄投庄，关定留之，时问兄长消息。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "关平拜父",
+   "description": "刘备来会，关定求关平拜关羽为义父，关平自此随行。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

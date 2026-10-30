@@ -1,0 +1,29 @@
+{
+ "id": "wang_su",
+ "name": "王肃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 99,
+ "review_status": "auto_mined",
+ "summary": "王肃，曹魏文臣，黄门侍郎。髦遂命王肃持诏，封司马昭为大将军、录尚书事。",
+ "bio": "。第 99 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "黄门侍郎",
+   "basis": "第99回大雨连降，黄门侍郎王肃上疏谏魏主罢兵。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

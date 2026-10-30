@@ -1,0 +1,29 @@
+{
+ "id": "zuo_feng",
+ "name": "左丰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "左丰，东汉文臣，黄门。左丰挟恨，回奏朝廷，说我高垒不战，惰慢军心；因此朝廷震怒，遣中郎将董卓来代将我兵，取我回京问罪。",
+ "bio": "。第 1 回：'左丰挟恨，回奏朝廷，说我高垒不战，惰慢军心。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄门",
+   "basis": "第一回原文：'左丰挟恨，回奏朝廷，说我高垒不战，惰慢军心。 职任「黄门」据此；★任期按末见回目收敛：全书最后一次提及在第 1 回（184 年），原 184—280 系取势力年份上限，非本人退场之年；★阵营改判：第 1 回原文「左丰挟恨，回奏朝廷，说我高垒不战」，职任黄门，与十常侍同党，属汉廷宦官，非异族。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

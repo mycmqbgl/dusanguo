@@ -1,0 +1,78 @@
+{
+ "id": "zhang_xiu",
+ "name": "张绣",
+ "courtesy": null,
+ "display_aliases": [
+  "宛城侯"
+ ],
+ "birth": null,
+ "death": 207,
+ "date_precision": "exact",
+ "date_note": "史载建安十二年（207）从曹操北征乌桓，未至而卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "张绣，群雄君主，宛城割据、建忠将军。次日，操坐帐中，张绣入告曰：新降兵多有逃亡者，乞移屯中军。",
+ "bio": "张绣，武威祖厉人，骠骑将军张济之侄。济死于攻刘表，绣领其众屯宛城，与刘表合势。建安二年曹操南征，绣举众降，操纳其叔母邹氏，绣耻之，用贾诩计夜反，杀曹昂、曹安民、典韦，操中箭败走。三年操复攻绣，绣再降再叛，皆贾诩之谋。建安四年官渡前夜，贾诩劝绣降曹拒袁——「袁强曹弱，弃强投弱，操必喜」——绣从之。操执其手欢宴，为子均娶绣女。官渡力战有功，破袁谭于南皮，封邑独多（二千户，诸将莫及）。十二年北征乌桓，未至而卒，谥定侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 196,
+   "end_year": 199,
+   "title": "宛城割据、建忠将军",
+   "basis": "196 年据宛城，两叛两降，与刘表合势。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 199,
+   "end_year": 207,
+   "title": "扬武将军、破羌将军、宛侯",
+   "basis": "199 年官渡前再降曹操。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "领宛城",
+   "description": "叔张济死于攻刘表，绣领其众屯宛城。",
+   "importance": 2
+  },
+  {
+   "year": 197,
+   "title": "宛城夜叛",
+   "description": "操纳邹氏，绣用贾诩计夜反，杀曹昂、典韦、曹安民。",
+   "importance": 3
+  },
+  {
+   "year": 198,
+   "title": "再叛",
+   "description": "操复攻绣不下；绣再降再叛皆用贾诩之谋。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "官渡前再降",
+   "description": "贾诩劝其降曹拒袁，操执手欢宴。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "官渡力战",
+   "description": "力战有功，迁破羌将军。",
+   "importance": 2
+  },
+  {
+   "year": 207,
+   "title": "北征而卒",
+   "description": "从操北征乌桓，未至而卒，谥定侯。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 48
+}

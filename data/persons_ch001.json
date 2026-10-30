@@ -1,0 +1,1035 @@
+{
+ "comment": "第1回出场人物 20 人主档 + 卡片内容（P0 垂直切片）。tenure 时间片按规则手册判定；match_surfaces 为词典匹配用（含单称），display_aliases 为卡片展示用别称",
+ "persons": [
+  {
+   "id": "liu_bei",
+   "name": "刘备",
+   "courtesy": "玄德",
+   "match_surfaces": [
+    "刘玄德",
+    "刘备",
+    "玄德"
+   ],
+   "display_aliases": [
+    "刘玄德",
+    "刘皇叔",
+    "先主"
+   ],
+   "birth": 161,
+   "death": 223,
+   "date_precision": "approx",
+   "date_note": "卒于章武三年四月（223），生年史载为桓帝延熹四年（161），演义称结义时年二十八，与 161 生年相合。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "刘备，群雄君主。玄德从之，即修书令云长同孙乾领五百军往江夏求救；令张飞断后；赵云保护老小；其余俱管顾百姓而行。",
+   "bio": "刘备字玄德，涿郡涿县人。父刘弘早丧，家贫，与母贩屦织席为业。家舍东南有大桑树高五丈余如车盖，玄德幼时戏言「我为天子，当乘此车盖」。年十五，母使游学，尝师事郑玄、卢植，与公孙瓒为友。中平元年黄巾乱起，刘焉出榜招军，玄德见榜慨然长叹，遇张飞、关羽，三人于桃园焚香结为兄弟。聚乡勇五百投邹靖，大兴山之战破程远志，又设伏解青州之围。后闻卢植与张角相拒广宗，引兵往助；归途遇槛车囚卢植，欲救被止；又遇张角杀败董卓，三人冲杀退敌救之。董卓问其职，闻是白身，甚轻之。第一回至此收束——「帝室之胄」与「白身」的反差，正是刘备全书叙事的起点。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 184,
+     "end_year": 221,
+     "title": "义军首领、安喜县尉、平原相、豫州牧、荆州牧、荆州牧、益州牧、汉中王",
+     "basis": "184 年桃园结义自成一系，为群雄之一；208 年取荆南四郡，蜀汉势力形成（de_facto_start=208）。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "皇帝",
+     "start_year": 221,
+     "end_year": 223,
+     "title": "昭烈皇帝",
+     "basis": "221 年称帝于成都，国号汉。",
+     "confidence": 1.0,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "桃园结义",
+     "description": "与关羽、张飞焚香结为兄弟，誓同生死。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "大兴山破敌",
+     "description": "统兵五百破程远志五万黄巾，首战立功。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "解青州之围",
+     "description": "设三路伏兵，夹攻破贼，解青州之围。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "广宗助卢植",
+     "description": "往助业师卢植，归途遇其槛车被征。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "救董卓遭轻",
+     "description": "冲杀退张角军救董卓，卓闻其白身，甚轻之。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "guan_yu",
+   "name": "关羽",
+   "courtesy": "云长",
+   "match_surfaces": [
+    "关云长",
+    "关羽",
+    "关公",
+    "云长",
+    "关某"
+   ],
+   "display_aliases": [
+    "关公",
+    "美髯公",
+    "汉寿亭侯"
+   ],
+   "birth": 160,
+   "death": 220,
+   "date_precision": "approx",
+   "date_note": "生年史无明文，约生于桓帝延熹年间；卒于建安二十四年末（220 年初）。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "verified",
+   "summary": "关羽，群雄武将，别部司马、下邳太守。关羽、张飞、赵云、马超、黄忠为五虎大将，魏延为汉中太守。",
+   "bio": "关羽字云长，本字长生，河东解良人。身长九尺，髯长二尺，面如重枣，丹凤眼卧蚕眉，威风凛凛。因本处势豪倚势凌人被其所杀，逃难江湖五六年，闻涿郡招军破贼特来应募，遂与刘备、张飞桃园结义。第一回即展神威：大兴山之战舞大刀斩黄巾贼将程远志于马下。此后随刘备辗转半生，白马斩颜良封汉寿亭侯，挂印封金千里寻兄，镇荆州、水淹七军威震华夏，终败走麦城遇害。死后屡次显圣，按规则其神异表现只作时间线节点，不改其蜀汉·武将的身份归属。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 200,
+     "lord_id": "liu_bei",
+     "title": "别部司马、下邳太守",
+     "basis": "第一回随刘备讨黄巾；刘备为群雄期间关羽为其部曲将领。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 200,
+     "title": "偏将军、汉寿亭侯",
+     "basis": "第二十五回约三事暂归曹操，白马斩颜良后封汉寿亭侯；汉寿亭侯系汉献帝所封，归魏系技术性处理，confidence 压低。",
+     "confidence": 0.55,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 208,
+     "lord_id": "liu_bei",
+     "title": "偏将军",
+     "basis": "第二十六回挂印封金归刘备；208 年前刘备尚无固定地盘，故记群雄·刘备部。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "襄阳太守、荡寇将军、前将军、假节钺",
+     "basis": "208 年刘备取荆南四郡，关羽镇江陵督荆州事，属蜀汉势力（形成年 208）；建安二十四年拜前将军假节钺。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "桃园结义",
+     "description": "与刘备、张飞结为兄弟，行二。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "大兴山斩程远志",
+     "description": "舞动大刀，将黄巾贼将程远志挥为两段。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "解青州之围",
+     "description": "伏兵山左，三路夹攻破黄巾。",
+     "importance": 2
+    }
+   ],
+   "history_conflict_type": "功劳归属",
+   "history_conflict_note": "演义作关羽于汜水关温酒斩华雄，为其成名之战；史实斩华雄者为孙坚，关羽此时尚在刘备麾下未预此役。另：第二十七回「过五关斩六将」为演义虚构的重大叙事——史书仅载关羽离曹归刘，无过关斩将事，孔秀等六将皆无其人，路线在地理上亦绕远千里。"
+  },
+  {
+   "id": "zhang_fei",
+   "name": "张飞",
+   "courtesy": "翼德",
+   "match_surfaces": [
+    "张翼德",
+    "张飞",
+    "翼德"
+   ],
+   "display_aliases": [
+    "张翼德"
+   ],
+   "birth": null,
+   "death": 221,
+   "date_precision": "approx",
+   "date_note": "生年史无明文；卒于章武元年（221），为部将范疆、张达所害。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "张飞，群雄武将，别部司马、宜都太守。翼德引一千军伏在那里，就彼处擒之。",
+   "bio": "张飞字翼德，世居涿郡，颇有庄田，卖酒屠猪，专好结交天下豪杰。榜文行到涿县，见刘备看榜长叹而厉声相问，遂与桃园结义，出资聚乡勇。第一回展其勇烈：大兴山之战挺丈八蛇矛刺黄巾副将邓茂于马下；青州之战伏兵山右；归途闻卢植被槛车征还，大怒要斩护送军人以救之，被刘备止住；又因董卓傲慢无礼，怒欲提刀入帐杀之——嫉恶如仇至此。官至车骑将军领司隶校尉，封西乡侯。章武元年因鞭挞部将，为范疆、张达所害，头颅投于江中。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 208,
+     "lord_id": "liu_bei",
+     "title": "别部司马、宜都太守",
+     "basis": "第一回桃园结义随刘备起兵，为其部曲将领；208 年前刘备无固定地盘。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 221,
+     "title": "征虏将军、车骑将军领司隶校尉、西乡侯",
+     "basis": "208 年后属蜀汉势力；221 年遇害。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "桃园结义",
+     "description": "出资聚乡勇，与刘关结为兄弟。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "大兴山刺邓茂",
+     "description": "挺丈八蛇矛，手起刺中邓茂心窝。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "怒欲斩董卓",
+     "description": "董卓轻慢白身，飞欲提刀入帐杀之。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhang_jiao",
+   "name": "张角",
+   "courtesy": null,
+   "match_surfaces": [
+    "张角",
+    "角"
+   ],
+   "display_aliases": [
+    "天公将军",
+    "大贤良师",
+    "太平道人"
+   ],
+   "birth": null,
+   "death": 184,
+   "date_precision": "approx",
+   "date_note": "卒于中平元年（184）秋冬之交，兵败后病死军中（第二回）；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "张角，群雄君主，天公将军。张角之棺，戮尸枭首，送往京师。",
+   "bio": "张角，巨鹿人，不第秀才。入山采药遇南华老仙，授《太平要术》三卷，晓夜攻习，能呼风唤雨，号太平道人。中平元年疫气流行，散施符水为人治病，自称大贤良师，徒众数十万，立三十六方，讹言「苍天已死，黄天当立，岁在甲子，天下大吉」。事泄后星夜举兵，自称天公将军，二弟张宝、张梁称地公、人公将军，裹黄巾者四五十万，八州响应。官军望风而靡，先败董卓。按规则（N3 定案），其超自然能力不改政治归属——张角始终是黄巾政治军事集团的「君主」，不入神怪阵营。第二回兵败广宗，病死军中，黄巾主力同年扑灭。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "天公将军",
+     "basis": "中平元年自称天公将军举兵，为黄巾集团之首。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "举兵称天公将军",
+     "description": "事泄后星夜举兵，四方百姓裹黄巾者四五十万。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "败董卓",
+     "description": "杀败中郎将董卓，乘势追击。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "广宗被围",
+     "description": "卢植围之于广宗；植去职后官军终破广宗。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒于中平元年（184）秋冬之交，兵败后病死军中（第二回）"
+  },
+  {
+   "id": "zhang_bao",
+   "name": "张宝",
+   "courtesy": null,
+   "match_surfaces": [
+    "张宝"
+   ],
+   "display_aliases": [
+    "地公将军"
+   ],
+   "birth": null,
+   "death": 184,
+   "date_precision": "approx",
+   "date_note": "卒于中平元年（184）末至次年，为官军所破（第二回）；生卒年俱不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "张宝，群雄武将，地公将军。势危急，贼将严政刺杀张宝，献首投降。",
+   "bio": "张宝，巨鹿人，张角二弟。黄巾起兵，称地公将军。与张梁率军在颍川与皇甫嵩、朱儁对垒，战不利退入长社，依草结营，遭官军火攻，大军溃散。死战得脱后曹操拦击，斩首万余级。此后为皇甫嵩所破（第二回），黄巾主力覆灭。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "地公将军",
+     "basis": "第一回自称地公将军，统兵一方。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "颍川对垒",
+     "description": "与张梁在颍川与皇甫嵩、朱儁对垒。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "长社火攻溃败",
+     "description": "依草结营遭火攻，四散奔走，死战得脱。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生卒年俱不详｜演：卒于中平元年（184）末至次年，为官军所破（第二回）"
+  },
+  {
+   "id": "zhang_liang",
+   "name": "张梁",
+   "courtesy": null,
+   "match_surfaces": [
+    "张梁"
+   ],
+   "display_aliases": [
+    "人公将军"
+   ],
+   "birth": null,
+   "death": 184,
+   "date_precision": "approx",
+   "date_note": "卒于中平元年（184）末，皇甫嵩夜袭广宗时战死（第二回）；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "张梁，群雄武将，人公将军。到天明，张梁、张宝引败残军士，夺路而走。",
+   "bio": "张梁，巨鹿人，张角三弟。黄巾起兵，称人公将军。与张宝在颍川与皇甫嵩、朱儁对垒，长社依草结营遭火攻大败，死战得脱，途中又遭曹操拦击。后投广宗依张角，为皇甫嵩夜袭破营（第二回），战死。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "人公将军",
+     "basis": "第一回自称人公将军。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "颍川对垒",
+     "description": "与张宝在颍川与皇甫嵩、朱儁对垒。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "长社溃败",
+     "description": "遭火攻大败，夺路而走。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：卒于中平元年（184）末，皇甫嵩夜袭广宗时战死（第二回）"
+  },
+  {
+   "id": "cao_cao",
+   "name": "曹操",
+   "courtesy": "孟德",
+   "match_surfaces": [
+    "曹孟德",
+    "曹操",
+    "曹公",
+    "孟德",
+    "阿瞒",
+    "操"
+   ],
+   "display_aliases": [
+    "曹孟德",
+    "曹阿瞒",
+    "阿瞒"
+   ],
+   "birth": 155,
+   "death": 220,
+   "date_precision": "exact",
+   "date_note": "生于永寿元年（155），卒于建安二十五年正月（220）。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "曹操，东汉武将，洛阳北部尉、顿丘令、议郎、典军校尉。曹操使至，拜策为会稽太守，令起兵征讨袁术。",
+   "bio": "曹操字孟德，沛国谯郡人，小字阿瞒。父曹嵩本姓夏侯氏，为中常侍曹腾养子，故冒姓曹。幼时机变过人，以诈中风谮叔父而恣意放荡；桥玄、何顒皆奇之，汝南许劭评曰「治世之能臣，乱世之奸雄」。年二十举孝廉为郎，除洛阳北部尉，设五色棒，棒责中常侍蹇硕之叔，不避豪贵，威名颇震；后为顿丘令。黄巾起，拜骑都尉，引马步军五千赴颍川助战，拦击张梁、张宝，斩首万余级。第一回的曹操尚是棒责权贵、力战黄巾的能臣——与他日后挟天子令诸侯的奸雄面貌，构成全书最重要的性格纵深。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 174,
+     "end_year": 189,
+     "title": "洛阳北部尉、顿丘令、议郎、典军校尉",
+     "basis": "174 年举孝廉为洛阳北部尉，189 年为典军校尉，皆汉廷之职；以军事职掌为主归武将。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 189,
+     "end_year": 220,
+     "title": "奋武将军、兖州牧、司空、行车骑将军、丞相、魏公、魏王",
+     "basis": "189 年陈留起兵自成一系，为群雄之一；196 年迎帝都许，曹魏势力形成（de_facto_start=196）。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "追谥",
+     "start_year": 220,
+     "end_year": 266,
+     "title": "魏武帝",
+     "basis": "曹丕代汉称帝，追尊父曹操为武皇帝。追谥时间片按规则记为 [阵营建立年, 阵营灭亡年]，与生前片首尾相接。",
+     "confidence": 1.0,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 174,
+     "title": "洛阳北部尉",
+     "description": "设五色棒，棒责蹇硕之叔，不避豪贵。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "颍川破黄巾",
+     "description": "拜骑都尉，拦击张梁张宝，斩首万余级。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "许劭之评",
+     "description": "「治世之能臣，乱世之奸雄」，操闻言大喜。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "liu_yan",
+   "name": "刘焉",
+   "courtesy": null,
+   "match_surfaces": [
+    "刘焉"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": 194,
+   "date_precision": "approx",
+   "date_note": "卒于兴平元年（194）背疽发而卒；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "刘焉，东汉文臣，幽州太守。刘焉然其说，随即出榜招募义兵。",
+   "bio": "刘焉，江夏竟陵人，汉鲁恭王之后。中平元年为幽州太守，闻黄巾将至，从校尉邹靖之议出榜招募义兵——这张榜文引出了涿县的刘备。见玄德通宗派，认玄德为侄，遣邹靖与玄德等破黄巾、救青州。历史上的刘焉于中平五年（188）建议改刺史为州牧，自领益州牧，成为最早割据的宗室重臣；其子刘璋后来把益州拱手让与刘备。第一回的出榜招军，实为全书两条主线（刘氏基业与益州归属）共同的隐伏起点。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 184,
+     "end_year": 188,
+     "title": "幽州太守",
+     "basis": "第一回任幽州太守，主持招军御贼，以内政为主。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 188,
+     "end_year": 194,
+     "title": "益州牧",
+     "basis": "188 年自领益州牧，割据一方，至 194 年卒。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "幽州出榜招军",
+     "description": "从邹靖之议出榜招募义兵，引出刘备。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "认玄德为侄",
+     "description": "玄德通宗派，焉大喜，遂认玄德为侄。",
+     "importance": 2
+    },
+    {
+     "year": 188,
+     "title": "自领益州牧",
+     "description": "建议改立州牧，自领益州，开割据之先。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "lu_zhi",
+   "name": "卢植",
+   "courtesy": "子干",
+   "match_surfaces": [
+    "卢植"
+   ],
+   "display_aliases": [
+    "卢中郎"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "approx",
+   "date_note": "卒于初平三年（192）；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "卢植，东汉文臣，北中郎将、尚书。卢植弃官未去，见宫中事变，擐甲持戈，立于阁下。",
+   "bio": "卢植字子干，涿郡人，大经学家，师从马融，与郑玄同门，刘备尝师事之。黄巾起，拜北中郎将，持节将五万兵围张角于广宗，屡战将破。黄门左丰索贿不得，回奏诬其高垒不战、惰慢军心，槛车征还问罪，以董卓代将其兵——归途撞见「车中之囚乃卢植也」的刘备要劫囚救师，被他以「朝廷自有公论」止住。此节让读者第一次看清宦官政治如何葬送能臣。后复为尚书，因谏董卓免官（第三回），隐居上谷，初平三年卒。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 184,
+     "end_year": 192,
+     "title": "北中郎将、尚书",
+     "basis": "以经学立身，官至尚书；讨黄巾期间暂领北中郎将统兵，本职为文臣。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "围张角于广宗",
+     "description": "拜北中郎将，将五万兵相拒广宗。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "槛车征还",
+     "description": "拒贿左丰，被诬高垒不战，槛车征京问罪。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "huang_fu_song",
+   "name": "皇甫嵩",
+   "courtesy": "义真",
+   "match_surfaces": [
+    "皇甫嵩"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": 195,
+   "date_precision": "approx",
+   "date_note": "卒于兴平二年（195）病卒；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "皇甫嵩，东汉武将，中郎将、左车骑将军、太尉。皇甫嵩、朱儁领军拒贼，贼战不利，退入长社，依草结营。",
+   "bio": "皇甫嵩字义真，安定朝那人。黄巾起，拜中郎将，与朱儁分路讨贼。颍川黄巾退守长社依草结营，嵩与朱儁定计火攻，大风夜纵火，贼众溃散——长社之战是官军对黄巾的首次大胜。此后破张梁、张宝（第二回），又破张角于广宗，黄巾之乱平，嵩功居第一，拜左车骑将军，领冀州牧。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 195,
+     "title": "中郎将、左车骑将军、太尉",
+     "basis": "以统兵讨黄巾起家，纯以战斗指挥为业。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "长社火攻",
+     "description": "与朱儁定计，大风夜纵火破黄巾，首获大胜。",
+     "importance": 3
+    },
+    {
+     "year": 184,
+     "title": "迎刘备",
+     "description": "与玄德会于颍川，指其星夜回助广宗。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "zhu_jun",
+   "name": "朱儁",
+   "courtesy": "公伟",
+   "match_surfaces": [
+    "朱儁",
+    "儁"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": 195,
+   "date_precision": "approx",
+   "date_note": "卒于兴平二年（195）前后，感愤发病卒；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "朱儁，东汉武将，右中郎将、右车骑将军、太尉。朱儁听说，催促军马，悉力攻打阳城。",
+   "bio": "朱儁字公伟，会稽上虞人。黄巾起拜右中郎将，与皇甫嵩并力，长社火攻破贼，追击张梁、张宝。后平定南阳黄巾（第二回）。官至右车骑将军、太尉。李傕郭汜之乱后，感愤发病而卒。演义中与皇甫嵩常并称「嵩与儁」，是讨黄巾战场的两大支柱。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 195,
+     "title": "右中郎将、右车骑将军、太尉",
+     "basis": "以统兵讨贼为主业。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "长社火攻",
+     "description": "与皇甫嵩定计纵火，大破黄巾。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "dong_zhuo",
+   "name": "董卓",
+   "courtesy": "仲颖",
+   "match_surfaces": [
+    "董卓",
+    "卓"
+   ],
+   "display_aliases": [
+    "董太师",
+    "相国"
+   ],
+   "birth": null,
+   "death": 192,
+   "date_precision": "approx",
+   "date_note": "卒于初平三年（192）四月，为王允、吕布所诛；生年史无确载。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "董卓，东汉武将，中郎将、并州牧。董太师之强，君所目见也，吕布受恩而反图之，斯须之间，头悬国门。",
+   "bio": "董卓字仲颖，陇西临洮人，性粗猛有谋。黄巾起，代卢植讨张角，第一回末为张角杀败，赖刘关张三人冲杀得救，却因三人白身而不为礼。何进谋诛宦官召其入京（第二、三回），遂废少帝立献帝，自任相国，鸩杀何太后，焚烧洛阳迁都长安——废立、弑君、逼宫俱全，是权臣 B 组判据（公开威胁皇权举动）的头号样本。初平三年为王允设计、吕布所诛，弃市之日长安百姓歌舞于道。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 189,
+     "title": "中郎将、并州牧",
+     "basis": "讨黄巾时为领兵将领。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "han",
+     "role": "权臣",
+     "start_year": 189,
+     "end_year": 192,
+     "title": "相国、太师",
+     "basis": "189 年入京废立天子、独揽朝政，公开威胁皇权，命中 B 组判据。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "代卢植讨张角",
+     "description": "接替槛车征还的卢植领兵讨贼。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "败于张角",
+     "description": "为张角所败，赖刘关张救回，轻其白身。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "he_jin",
+   "name": "何进",
+   "courtesy": "遂高",
+   "match_surfaces": [
+    "何进"
+   ],
+   "display_aliases": [
+    "大将军何进",
+    "何国舅"
+   ],
+   "birth": null,
+   "death": 189,
+   "date_precision": "approx",
+   "date_note": "卒于中平六年（189）八月，为中常侍张让等所杀；生年不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "何进，东汉权臣，大将军。召大将军何进调兵擒马元义，斩之；次收封谞等一干人下狱。",
+   "bio": "何进字遂高，南阳宛人，何太后异母兄，本屠家出身。黄巾起，拜大将军总镇京师：先是调兵擒斩内应马元义，收封谞等下狱；又奏帝火速降诏，令各处备御，遣卢植、皇甫嵩、朱儁分三路讨贼——第一回整个讨黄巾的军事部署都出自他的调度。灵帝崩（189），与袁绍谋诛十常侍，反为张让等先发所杀（第三回）。其死直接引发袁绍尽诛宦官、董卓入京，天下自此大乱。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "权臣",
+     "start_year": 184,
+     "end_year": 189,
+     "title": "大将军",
+     "basis": "外戚拜大将军总镇京师、主持朝政逾年，命中 A 组判据（任大将军+主持朝政≥1年）。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "擒马元义",
+     "description": "唐周告变后调兵擒斩黄巾内应马元义。",
+     "importance": 2
+    },
+    {
+     "year": 184,
+     "title": "降诏讨贼",
+     "description": "奏帝火速降诏，遣三路中郎将讨黄巾。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zou_jing",
+   "name": "邹靖",
+   "courtesy": null,
+   "match_surfaces": [
+    "邹靖",
+    "靖"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生平卒年俱不详，仅见于中平元年（184）讨黄巾事。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "邹靖，东汉武将，校尉。焉令邹靖引玄德等三人，统兵五百，前去破敌。",
+   "bio": "邹靖，幽州校尉。黄巾犯幽州，向太守刘焉献「贼兵众，我兵寡，明公宜作速招军应敌」之策，遂有出榜招军之举。引玄德等三人大兴山破程远志，又领兵五千同救青州，设伏破贼。广宗之役后引军自回，此后事不详。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "校尉",
+     "basis": "以统兵讨贼为业；史料仅载此年事迹。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "献招军之策",
+     "description": "向刘焉进言出榜招军应敌。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "cheng_yuan_zhi",
+   "name": "程远志",
+   "courtesy": null,
+   "match_surfaces": [
+    "程远志"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": 184,
+   "date_precision": "approx",
+   "date_note": "卒于中平元年（184），大兴山之战被关羽斩杀。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "程远志，群雄武将，黄巾贼将。程远志大怒，遣副将邓茂出战。",
+   "bio": "程远志，黄巾贼将。中平元年统兵五万来犯涿郡，大兴山下与刘关张五百乡勇相对。遣副将邓茂出战，邓茂死后拍马舞刀直取张飞，被云长舞动大刀迎住，措手不及，挥为两段。部众遂倒戈而走。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "黄巾贼将",
+     "basis": "黄巾军渠帅。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "大兴山被斩",
+     "description": "直取张飞时被关羽挥为两段。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "deng_mao",
+   "name": "邓茂",
+   "courtesy": null,
+   "match_surfaces": [
+    "邓茂"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": 184,
+   "date_precision": "approx",
+   "date_note": "卒于中平元年（184），大兴山之战被张飞刺死。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "邓茂，群雄武将，黄巾副将。程远志大怒，遣副将邓茂出战。",
+   "bio": "邓茂，黄巾贼将程远志副将。大兴山之战奉命出战，张飞挺丈八蛇矛直出，手起处刺中邓茂心窝，翻身落马——刘关张的第一战首功。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "黄巾副将",
+     "basis": "黄巾军将领。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "被张飞刺死",
+     "description": "出阵即被张飞刺中心窝，翻身落马。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "gong_jing",
+   "name": "龚景",
+   "courtesy": null,
+   "match_surfaces": [
+    "龚景"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生平卒年俱不详，仅见于中平元年（184）青州被围事。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "龚景，东汉文臣，青州太守。日，接得青州太守龚景牒文，言黄巾贼围城将陷，乞赐救援。",
+   "bio": "龚景，青州太守。中平元年黄巾围青州城将陷，牒文乞援于幽州。刘焉令邹靖将兵五千同玄德、关、张往救，三路夹攻大破贼众，景亦率民兵出城助战，遂解青州之围，犒军毕送邹靖自回。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "青州太守",
+     "basis": "一郡行政长官，以内政为主。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "乞援解围",
+     "description": "牒文求救，率民兵助玄德解青州之围。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "nan_hua_lao_xian",
+   "name": "南华老仙",
+   "courtesy": null,
+   "match_surfaces": [
+    "南华老仙"
+   ],
+   "display_aliases": [
+    "南华真人"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "仙人不涉生卒。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "is_fictional": true,
+   "summary": "南华老仙，神怪人物。人曰：\"吾乃南华老仙也。",
+   "bio": "南华老仙，碧眼童颜，手执藜杖。张角入山采药遇之于洞中，授《太平要术》三卷，曰：「此名《太平要术》，汝得之，当代天宣化，普救世人；若萌异心，必获恶报。」角拜问姓名，答曰「吾乃南华老仙也」，言讫化阵清风而去。神怪阵营样本一号：有超自然能力表现，且不属于任何政治军事集团（N3 定案）。天书酿成大乱的「若萌异心必获恶报」之戒，与张角身死族灭互为呼应，是全书宿命叙事的第一块基石。",
+   "tenure": [
+    {
+     "faction_id": "mystic",
+     "role": "其他",
+     "start_year": 184,
+     "end_year": 184,
+     "basis": "仙人，无政治归属；神怪阵营不分身份（N2 定案）。",
+     "confidence": 1.0,
+     "review_status": "reviewed",
+     "title_unknown_verified": true,
+     "title": "（原文无职任记载）"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "授书张角",
+     "description": "洞中授《太平要术》三卷，化清风而去。",
+     "importance": 3
+    }
+   ],
+   "title_unknown_verified": "仙人，原文无职官记载（第1回化清风而去）"
+  },
+  {
+   "id": "zhang_shi_ping",
+   "name": "张世平",
+   "courtesy": null,
+   "match_surfaces": [
+    "张世平"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生平卒年俱不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "张世平，东汉人物，北地马商。来二客乃中山大商：一名张世平，一名苏双，每年往北贩马，近因寇发而回。",
+   "bio": "张世平，中山大商。与苏双每年往北贩马，中平元年因寇发而回，投刘备庄上。闻讨贼安民之意，大喜，愿将良马五十匹相送，又赠金银五百两、镔铁一千斤，以资器用——刘关张打造双股剑、青龙偃月刀、丈八点钢矛的家底，由此而来。无政治归属，按规则归东汉·其他。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "其他",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "北地马商",
+     "basis": "商人，无政治归属（N5 定案）。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "赠马资军",
+     "description": "赠良马五十匹、金银五百两、镔铁千斤。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "su_shuang",
+   "name": "苏双",
+   "courtesy": null,
+   "match_surfaces": [
+    "苏双"
+   ],
+   "display_aliases": [],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生平卒年俱不详。",
+   "gender": "male",
+   "first_chapter": 1,
+   "review_status": "reviewed",
+   "summary": "苏双，东汉人物，北地马商。第 1 回一笔带过，事迹仅存其名。",
+   "bio": "苏双，中山大商。与张世平每年往北贩马，中平元年因寇发而回，途经涿郡投刘备庄上，与世平同赠良马五十匹、金银五百两、镔铁一千斤资助起兵。无政治归属，按规则归东汉·其他。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "其他",
+     "start_year": 184,
+     "end_year": 184,
+     "title": "北地马商",
+     "basis": "商人，无政治归属（N5 定案）。",
+     "confidence": 1.0,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 184,
+     "title": "赠马资军",
+     "description": "与张世平同赠良马金银镔铁。",
+     "importance": 1
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,44 @@
+{
+ "id": "han_fu_luoyang",
+ "name": "韩福",
+ "display_aliases": [
+  "洛阳太守"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）于洛阳为关羽所斩。生年不详。与冀州牧韩馥（han_fu）为不同人。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "reviewed",
+ "summary": "韩福，群雄武将，洛阳太守。阳太守王植，却与韩福是两亲家；闻得关公杀了韩福，商议欲暗害关公，乃使人守住关口。",
+ "bio": "韩福，曹操所署洛阳太守。建安五年，关羽护二嫂行至洛阳，福与牙将孟坦定计：孟坦诈败诱敌，福放冷箭。孟坦被斩后，韩福闪在门首放一冷箭，正中关羽左臂。关羽口拔箭、血不止，飞马直冲，福走不及，被关羽连头带肩斩于马下。后曹操闻之，遣使厚葬，并赠金为盘费，以收人心。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "洛阳太守",
+   "lord_id": "cao_cao",
+   "basis": "曹操所署洛阳太守，亲自设伏放箭。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "冷箭中羽",
+   "description": "与孟坦定诈败放箭计，暗箭射中关羽左臂。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "带箭被斩",
+   "description": "关羽拔箭带血飞马冲至，连头带肩被斩。操后遣使厚葬以收人心。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 13
+}

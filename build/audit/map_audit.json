@@ -1,0 +1,370 @@
+{
+ "meta": {
+  "px_per_deg2": 1825.932876203645,
+  "zhou_space": "ll→px",
+  "n_zhou": 13,
+  "n_jun": 123,
+  "n_region": 11,
+  "n_places": 454,
+  "n_counties": 345
+ },
+ "checks": [
+  {
+   "group": "界-州",
+   "check": "州界多边形有效",
+   "ok": true,
+   "detail": "13/13 有效",
+   "bad": []
+  },
+  {
+   "group": "界-州",
+   "check": "州界两两不重叠",
+   "ok": true,
+   "detail": "重叠对 0 处",
+   "pairs": []
+  },
+  {
+   "group": "界-州",
+   "check": "州与州之间无缝隙",
+   "ok": true,
+   "detail": "相邻州对 27 组，真实缝隙 4 块，合计 1.22 px²，最大宽 0.30 px",
+   "gaps": [
+    {
+     "area": 0.51,
+     "width_px": 0.243,
+     "at_px": [
+      945.4,
+      499.7
+     ]
+    },
+    {
+     "area": 0.38,
+     "width_px": 0.297,
+     "at_px": [
+      799.5,
+      873.6
+     ]
+    },
+    {
+     "area": 0.31,
+     "width_px": 0.112,
+     "at_px": [
+      675.1,
+      508.1
+     ]
+    },
+    {
+     "area": 0.02,
+     "width_px": 0.033,
+     "at_px": [
+      675.4,
+      507.6
+     ]
+    }
+   ]
+  },
+  {
+   "group": "界-郡",
+   "check": "郡治所落在所属州内",
+   "ok": true,
+   "detail": "123/123 通过",
+   "bad": []
+  },
+  {
+   "group": "界-郡",
+   "check": "郡治所落在本郡面内",
+   "ok": true,
+   "detail": "123/123 通过",
+   "bad": []
+  },
+  {
+   "group": "界-郡",
+   "check": "郡界多边形有效",
+   "ok": true,
+   "detail": "123/123 有效",
+   "bad": []
+  },
+  {
+   "group": "界-郡",
+   "check": "郡界两两不重叠",
+   "ok": true,
+   "detail": "重叠对 0 处",
+   "pairs": []
+  },
+  {
+   "group": "界-州郡嵌套",
+   "check": "州内郡面无缝隙（覆盖率≥99.5%）",
+   "ok": true,
+   "detail": "13/13 州达标",
+   "rows": [
+    {
+     "zhou": "交州",
+     "zhou_area": 99834.0,
+     "jun_area": 99831.0,
+     "cov": 0.99973,
+     "gap_n": 9,
+     "gap_area": 27.3,
+     "gap_max_w_px": 1.52,
+     "spill_n": 6,
+     "spill_ratio": 7e-05
+    },
+    {
+     "zhou": "兖州",
+     "zhou_area": 9416.3,
+     "jun_area": 9417.0,
+     "cov": 0.99981,
+     "gap_n": 1,
+     "gap_area": 1.8,
+     "gap_max_w_px": 0.14,
+     "spill_n": 1,
+     "spill_ratio": 0.00014
+    },
+    {
+     "zhou": "冀州",
+     "zhou_area": 18405.9,
+     "jun_area": 18393.2,
+     "cov": 0.99967,
+     "gap_n": 3,
+     "gap_area": 6.0,
+     "gap_max_w_px": 0.19,
+     "spill_n": 1,
+     "spill_ratio": 7e-05
+    },
+    {
+     "zhou": "凉州",
+     "zhou_area": 225898.5,
+     "jun_area": 191352.8,
+     "cov": 0.84702,
+     "gap_n": 4,
+     "gap_area": 34557.5,
+     "gap_max_w_px": 100.17,
+     "spill_n": 4,
+     "spill_ratio": 5e-05
+    },
+    {
+     "zhou": "司隶",
+     "zhou_area": 27571.3,
+     "jun_area": 27556.5,
+     "cov": 0.99953,
+     "gap_n": 5,
+     "gap_area": 12.9,
+     "gap_max_w_px": 1.59,
+     "spill_n": 0,
+     "spill_ratio": 0.0
+    },
+    {
+     "zhou": "并州",
+     "zhou_area": 106878.7,
+     "jun_area": 106872.8,
+     "cov": 0.99989,
+     "gap_n": 5,
+     "gap_area": 11.4,
+     "gap_max_w_px": 0.15,
+     "spill_n": 1,
+     "spill_ratio": 3e-05
+    },
+    {
+     "zhou": "幽州",
+     "zhou_area": 104373.7,
+     "jun_area": 104387.3,
+     "cov": 0.99988,
+     "gap_n": 1,
+     "gap_area": 12.8,
+     "gap_max_w_px": 0.1,
+     "spill_n": 5,
+     "spill_ratio": 0.00012
+    },
+    {
+     "zhou": "徐州",
+     "zhou_area": 17519.4,
+     "jun_area": 17524.3,
+     "cov": 0.99978,
+     "gap_n": 3,
+     "gap_area": 3.9,
+     "gap_max_w_px": 0.18,
+     "spill_n": 1,
+     "spill_ratio": 0.0001
+    },
+    {
+     "zhou": "扬州",
+     "zhou_area": 82559.4,
+     "jun_area": 82577.4,
+     "cov": 0.99988,
+     "gap_n": 6,
+     "gap_area": 9.8,
+     "gap_max_w_px": 0.74,
+     "spill_n": 7,
+     "spill_ratio": 0.00016
+    },
+    {
+     "zhou": "益州",
+     "zhou_area": 262576.0,
+     "jun_area": 262456.2,
+     "cov": 0.99955,
+     "gap_n": 15,
+     "gap_area": 118.8,
+     "gap_max_w_px": 4.18,
+     "spill_n": 2,
+     "spill_ratio": 1e-05
+    },
+    {
+     "zhou": "荆州",
+     "zhou_area": 84566.4,
+     "jun_area": 84547.1,
+     "cov": 0.99971,
+     "gap_n": 12,
+     "gap_area": 24.7,
+     "gap_max_w_px": 1.69,
+     "spill_n": 5,
+     "spill_ratio": 9e-05
+    },
+    {
+     "zhou": "豫州",
+     "zhou_area": 18904.8,
+     "jun_area": 18888.4,
+     "cov": 0.99937,
+     "gap_n": 8,
+     "gap_area": 11.9,
+     "gap_max_w_px": 0.22,
+     "spill_n": 0,
+     "spill_ratio": 0.0
+    },
+    {
+     "zhou": "青州",
+     "zhou_area": 12259.8,
+     "jun_area": 12264.5,
+     "cov": 0.99981,
+     "gap_n": 2,
+     "gap_area": 2.3,
+     "gap_max_w_px": 0.15,
+     "spill_n": 1,
+     "spill_ratio": 0.0001
+    }
+   ]
+  },
+  {
+   "group": "界-州郡嵌套",
+   "check": "郡面不越出州界（溢出≤6%）",
+   "ok": true,
+   "detail": "异常 0 州",
+   "rows": []
+  },
+  {
+   "group": "界-层级等价",
+   "check": "郡界并集轮廓≈州界",
+   "ok": true,
+   "detail": "13/13 州吻合（对称差≤2%）",
+   "bad": []
+  },
+  {
+   "group": "界-地区",
+   "check": "地区面落在州域内",
+   "ok": true,
+   "detail": "11/11 达标",
+   "bad": []
+  },
+  {
+   "group": "地名",
+   "check": "底表县点在册（按名/别名）",
+   "ok": true,
+   "detail": "345/345 在册，缺 0：[]",
+   "missing": []
+  },
+  {
+   "group": "地名",
+   "check": "每郡都有郡行（树中可点）",
+   "ok": true,
+   "detail": "123/123 有郡行",
+   "missing": []
+  },
+  {
+   "group": "地名",
+   "check": "郡行与郡面一一对应",
+   "ok": true,
+   "detail": "郡面 123 个，郡行 123 个；缺面 []，多面 []",
+   "no_poly": [],
+   "extra_poly": []
+  },
+  {
+   "group": "地名",
+   "check": "点位行政区划合法且州郡一致",
+   "ok": true,
+   "detail": "454/454 合法",
+   "bad": []
+  },
+  {
+   "group": "地名",
+   "check": "层级条目行政区划自洽",
+   "ok": true,
+   "detail": "579 条中 0 异常",
+   "bad": []
+  },
+  {
+   "group": "地名",
+   "check": "郡治标记与底表治所一致",
+   "ok": true,
+   "detail": "128 个郡治标记，异常 0",
+   "bad": []
+  },
+  {
+   "group": "地名",
+   "check": "有治所的郡都标了郡治",
+   "ok": true,
+   "detail": "100/100 已标",
+   "missing": []
+  },
+  {
+   "group": "地名",
+   "check": "每州都有州治标记",
+   "ok": true,
+   "detail": "13/13 已标",
+   "missing": []
+  },
+  {
+   "group": "地名-搜索",
+   "check": "每个地点至少一个检索键",
+   "ok": true,
+   "detail": "454/454 可检索",
+   "bad": []
+  },
+  {
+   "group": "地名-搜索",
+   "check": "无重复同名地点（易混淆）",
+   "ok": true,
+   "detail": "同行政区重名 0 组，同城异名多录 0 组",
+   "dup": {}
+  },
+  {
+   "group": "地名-定位",
+   "check": "树条目均能定位（实卡或合成）",
+   "ok": true,
+   "detail": "孤儿 0",
+   "orphan": []
+  },
+  {
+   "group": "地名-落位",
+   "check": "点位在画布内",
+   "ok": true,
+   "detail": "454 个坐标点，越界 0[]",
+   "bad": []
+  },
+  {
+   "group": "地名-落位",
+   "check": "行政点位落在所属州界内",
+   "ok": true,
+   "detail": "449 个行政点，0 个偏出",
+   "bad": []
+  },
+  {
+   "group": "地名-郡归属",
+   "check": "点位落在所标郡面内",
+   "ok": true,
+   "detail": "438 个可查点，0 个不符",
+   "bad": []
+  }
+ ],
+ "summary": {
+  "total": 25,
+  "fail": 0
+ }
+}

@@ -1,0 +1,99 @@
+{
+ "id": "da_xing_shan_zhi_zhan",
+ "name": "大兴山之战",
+ "year": 184,
+ "date_text": "中平元年（184）",
+ "place_id": "da_xing_shan",
+ "event_id": "huang_jin_qi_yi",
+ "belligerents": [
+  {
+   "side": "汉军·涿郡义勇",
+   "faction_ids": [
+    "han"
+   ],
+   "commanders": [
+    "zou_jing",
+    "liu_bei",
+    "guan_yu",
+    "zhang_fei"
+   ],
+   "troops_desc": "五百乡勇"
+  },
+  {
+   "side": "黄巾",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "cheng_yuan_zhi",
+    "deng_mao"
+   ],
+   "troops_desc": "演义称五万"
+  }
+ ],
+ "result": "胜",
+ "casualties_note": "黄巾折副将邓茂、主将程远志，部众倒戈，投降者不计其数；汉军方面无伤亡记载。演义兵力对比（五百对五万）为文学夸张。",
+ "summary": "刘关张首战：张飞刺邓茂于马下，关羽斩程远志为两段，五百义勇破黄巾五万。",
+ "detail": "邹靖引玄德等三人统兵五百，至大兴山下与黄巾程远志部相对。程远志遣副将邓茂出战，张飞挺丈八蛇矛直出，手起处刺中邓茂心窝，翻身落马。程远志见折了邓茂，拍马舞刀直取张飞；关羽舞动大刀纵马飞迎，程远志措手不及，被一刀挥为两段。众贼见主将被斩，皆倒戈而走，玄德挥军追赶，投降者不计其数。此战是全书第一场战斗，也是「三人初出便将威力展」的定调之战。",
+ "front_line": [
+  {
+   "time": 184,
+   "time_seq": 1,
+   "kind": "集结",
+   "label": "涿县出师",
+   "desc": "邹靖引玄德等三人，统兵五百出涿县。",
+   "lng": 115.97,
+   "lat": 39.49,
+   "pixel_x": 876.8,
+   "pixel_y": 208.2
+  },
+  {
+   "time": 184,
+   "time_seq": 2,
+   "kind": "行军",
+   "label": "南行赴敌",
+   "desc": "领军前进，直至大兴山下。",
+   "lng": 115.92,
+   "lat": 39.4,
+   "pixel_x": 874.9,
+   "pixel_y": 212.3
+  },
+  {
+   "time": 184,
+   "time_seq": 3,
+   "kind": "遭遇",
+   "label": "两军相对",
+   "desc": "贼众披发，以黄巾抹额；玄德出马大骂。",
+   "lng": 115.86,
+   "lat": 39.36,
+   "pixel_x": 872.5,
+   "pixel_y": 214.2
+  },
+  {
+   "time": 184,
+   "time_seq": 4,
+   "kind": "交战",
+   "label": "阵前斩将",
+   "desc": "张飞刺邓茂，关羽斩程远志。",
+   "lng": 115.85,
+   "lat": 39.35,
+   "pixel_x": 872.1,
+   "pixel_y": 214.6
+  },
+  {
+   "time": 184,
+   "time_seq": 5,
+   "kind": "追击",
+   "label": "倒戈溃散",
+   "desc": "众贼倒戈而走，玄德挥军追赶。",
+   "lng": 115.8,
+   "lat": 39.3,
+   "pixel_x": 870.1,
+   "pixel_y": 216.9
+  }
+ ],
+ "passage_ids": [],
+ "review_status": "reviewed",
+ "tile_sheet": "p0-test",
+ "place_name": "大兴山"
+}

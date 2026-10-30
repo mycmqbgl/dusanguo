@@ -1,0 +1,103 @@
+{
+ "id": "yidai_zhao_shipou",
+ "name": "衣带诏事泄",
+ "kind": "宫廷政变",
+ "start_year": 199,
+ "end_year": 200,
+ "date_text": "建安四年冬至五年春（199–200）",
+ "summary": "董承受献帝衣带诏，联合六臣歃血谋曹；吉平下毒事泄，曹操兴大狱族诛董承、董妃，五臣皆死。",
+ "detail": "许田打围后献帝密付衣带诏于董承，承与王子服、种辑、吴硕、吴子兰、马腾、刘备歃血为盟。煮酒论英雄，操试刘备「今天下英雄惟使君与操耳」，备惊落箸借雷掩饰，旋请命截击袁术脱身。承病中得太医吉平相助，咬指为誓谋以药毒操；家奴秦庆童私通侍妾被杖，怀恨告密。操将计就计，诈病验毒，吉平被截九指、割舌骂贼触阶而死。曹操穷究董承，入宫缢杀怀五月身孕的董妃，族诛董承、王子服、种辑、吴硕、吴子兰五家，衣带诏至此败露，唯马腾、刘备在外得脱。",
+ "place_id": "xu_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_xie",
+   "role_desc": "献帝，咬指血书密诏付董承"
+  },
+  {
+   "person_id": "dong_cheng",
+   "role_desc": "车骑将军，受诏主盟"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "豫州牧，歃血盟誓后借截袁术脱身徐州"
+  },
+  {
+   "person_id": "ma_teng",
+   "role_desc": "西凉太守，六义士之一"
+  },
+  {
+   "person_id": "wang_zifu",
+   "role_desc": "工部侍郎，盟誓六臣之一"
+  },
+  {
+   "person_id": "zhong_ji",
+   "role_desc": "长水校尉，盟誓六臣之一"
+  },
+  {
+   "person_id": "wu_shuo",
+   "role_desc": "议郎，盟誓六臣之一"
+  },
+  {
+   "person_id": "wu_zilan",
+   "role_desc": "昭信将军，盟誓六臣之一"
+  },
+  {
+   "person_id": "ji_ping",
+   "role_desc": "太医，咬指立誓下毒事泄触阶而死"
+  },
+  {
+   "person_id": "qin_qingtong",
+   "role_desc": "董承家奴，怀恨告密"
+  },
+  {
+   "person_id": "dong_guifei",
+   "role_desc": "董承之妹、献帝贵妃，事泄被缢杀"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "司空，将计就计穷究党人"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "许田受诏",
+   "description": "献帝咬指血书衣带诏付董承，承约集义士歃血为盟。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "煮酒论英雄",
+   "description": "操言「今天下英雄惟使君与操耳」，刘备惊落箸，借雷声掩饰。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "吉平下毒",
+   "description": "太医吉平咬指盟誓，俟操头疾进药毒之。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "家奴告密",
+   "description": "秦庆童怀恨出逃，尽出密谋投曹操。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "大狱族诛",
+   "description": "操诈病验毒，吉平骂贼触阶；缢杀董妃，族诛董承等五家。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  21004,
+  21005,
+  23019,
+  23024,
+  24006,
+  24001
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "liao_chun",
+ "name": "廖淳",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "廖淳，蜀汉武将，蜀将。第 81 回一笔带过，事迹仅存其名。",
+ "bio": "第 81 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 221,
+   "title": "蜀将",
+   "basis": "第八十一回原文：赵融、廖淳为合后。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 81 回（221 年），原 221—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

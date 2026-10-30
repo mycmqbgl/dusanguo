@@ -1,0 +1,29 @@
+{
+ "id": "chen_jiu",
+ "name": "陈就",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "陈就，群雄武将，先锋。第 38 回一笔带过，事迹仅存其名。",
+ "bio": "第 38 回：陈就弃船而走。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "basis": "第38回黄祖令陈就、邓龙为先锋，为甘宁所斩。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "先锋"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

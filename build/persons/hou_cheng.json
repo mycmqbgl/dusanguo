@@ -1,0 +1,53 @@
+{
+ "id": "hou_cheng",
+ "name": "侯成",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详；198 年叛吕布降曹后事迹无载。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "侯成，群雄武将，吕布部将。先令侯成、郝萌、曹性引二百余骑接应高顺，使离沛城三十里去迎曹军，自引大军随后接应。",
+ "bio": "侯成，吕布八健将之一。建安三年下邳被围，成使人于故处取酒，欲与诸将会饮，先以半献吕布；布怒其犯酒禁，欲斩之，众劝得免。成既失酒又惧诛，与宋宪、魏续谋叛：盗布所乘赤兔马，缚陈宫、高顺出降。曹操水灌下邳，布众遂溃，布为部下所缚。降曹后事迹无载。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "吕布部将",
+   "lord_id": "lv_bu",
+   "basis": "吕布部将。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 207,
+   "title": "吕布部将",
+   "basis": "198 年降曹后史无明文，时间片按存疑记至官渡后。",
+   "confidence": 0.5,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "属吕布",
+   "description": "为吕布八健将之一。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "盗马缚宫出降",
+   "description": "下邳被围，盗赤兔马、缚陈宫出降，吕布遂亡。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 22
+}

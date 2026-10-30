@@ -1,0 +1,29 @@
+{
+ "id": "cheng_ji_2",
+ "name": "程畿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "程畿，蜀汉文臣，参谋。祭酒程畿，匹马奔至江边，招呼水军赴敌，吴兵随后追来，水军四散奔逃。",
+ "bio": "官职「参谋」据原文上下文提取。原文第 81 回相关片段：「以当魏兵；虎威将军赵云为后应，兼督粮草；黄权、程畿为参谋；马良、陈震掌理文书；黄忠为前部先锋；冯习」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 221,
+   "end_year": 229,
+   "title": "参谋",
+   "basis": "第81回刘备伐吴，黄权、程畿为参谋，马良、陈震掌理文书。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

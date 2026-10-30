@@ -1,0 +1,29 @@
+{
+ "id": "zhong_jin_2",
+ "name": "钟进",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 58,
+ "review_status": "auto_mined",
+ "summary": "钟进，曹魏武将，西门守将。钟进措手不及，被庞德一刀斩于马下，杀散军校，斩关断锁，放马超、韩遂军马入城。",
+ "bio": "第 58 回：钟繇弟钟进，守把西门，约近三更，城门里一把火起。第 58 回：钟进急来救时，城边转过一人，举刀纵马大喝曰：庞德在此。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 229,
+   "basis": "第58回钟繇之弟钟进守把西门，为马超部将所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "西门守将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

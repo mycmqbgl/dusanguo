@@ -1,0 +1,32 @@
+{
+ "id": "chang_fang",
+ "name": "常房",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "常房（正史人物，演义未载）：常房为蜀汉南中官员。演义未载。",
+ "bio": "《三国志·蜀书·后主传》注：常房为蜀汉南中官员。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 225,
+   "end_year": 234,
+   "basis": "常房为蜀汉官员，见《三国志·后主传》注引，演义正文未出场（0 次）。 常房为蜀汉官员，事在诸葛亮主政期间（225-234）。",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title": "南中官员",
+   "title_unknown_verified": false
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

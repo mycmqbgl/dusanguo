@@ -1,0 +1,29 @@
+{
+ "id": "zhou_ping",
+ "name": "州平",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "auto_mined",
+ "summary": "州平，东汉人物，博陵人，诸葛亮友。州平曰：山野之夫，不足与论天下事，适承明问，故妄言之。",
+ "bio": "。第 5 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 207,
+   "end_year": 207,
+   "title": "博陵人，诸葛亮友",
+   "basis": "第五回原文：且说北平太守公孙瓒，统领精兵一万五千，路经德州平原县。 职任「博陵人，诸葛亮友」据此；★任期按末见回目收敛：全书最后一次提及在第 37 回（207 年），原 208—263 系取势力年份上限，非本人退场之年；★阵营改判：第 37 回原文「孔明与博陵崔州平…此四人务于精纯」，荆襄隐士，未仕蜀汉；★阵营改判：第 37 回原文「孔明与博陵崔州平…此四人务于精纯」，荆襄名士，未仕蜀汉。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

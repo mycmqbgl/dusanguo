@@ -1,0 +1,29 @@
+{
+ "id": "e_he_shao_ge",
+ "name": "俄何烧戈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "俄何烧戈，异族武将，羌将。迷当大喜，遂令俄何烧戈同陈泰来劫魏寨。",
+ "bio": "原文第 109 回相关片段：「结好羌王。羌王迷当，得了礼物，便起兵五万，令羌将俄何烧戈为大先锋，引兵南安来」。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 249,
+   "end_year": 264,
+   "title": "羌将",
+   "basis": "第一百零九回原文：俄何烧戈教泰降兵在后，令泰引羌兵为前部。 职任「羌将」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 249—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

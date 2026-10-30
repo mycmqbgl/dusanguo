@@ -1,0 +1,43 @@
+{
+ "id": "chen_dan",
+ "name": "陈耽",
+ "display_aliases": [
+  "陈司徒"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）与刘陶同下狱死。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "陈耽，东汉文臣，司徒。众视之，乃司徒陈耽，径入宫中来谏帝曰：刘谏议得何罪而受诛。",
+ "bio": "陈耽，字汉公，东海人，司徒。刘陶因谏宦官下狱，武士拥之出，耽喝住曰「勿得下手，待我谏去」，径入宫问帝「刘谏议得何罪而受诛」，又言「天下人民欲食十常侍之肉，陛下敬之如父母」。帝怒，命牵出并下狱，是夜十常侍于狱中谋杀之。三公之位而不免于狱死，是灵帝一朝政事尽归宦官的注脚。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 189,
+   "title": "司徒",
+   "basis": "三公之一，掌教化政务，属文臣；189 年下狱死。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "撞阶力谏",
+   "description": "喝住武士，入宫谏帝，以头撞阶。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "下狱死",
+   "description": "与刘陶同下狱，当夜被杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

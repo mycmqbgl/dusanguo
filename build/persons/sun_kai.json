@@ -1,0 +1,29 @@
+{
+ "id": "sun_kai",
+ "name": "孙楷",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "孙楷，孙吴武将，宗正。綝遣宗正孙楷、中书郎董朝，往虎林迎请琅琊王孙休为君。",
+ "bio": "第 113 回：「孙綝遣宗正孙楷、中书郎董朝」。原文第 113 回相关片段：「孙綝遣宗正孙楷、中书郎董朝，往虎林迎请琅琊王孙休为君。休字子烈」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "宗正",
+   "basis": "第 113 回：「孙綝遣宗正孙楷、中书郎董朝」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

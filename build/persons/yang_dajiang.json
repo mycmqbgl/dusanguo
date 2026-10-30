@@ -1,0 +1,45 @@
+{
+ "id": "yang_dajiang",
+ "name": "杨大将",
+ "courtesy": null,
+ "display_aliases": [
+  "长史"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；演义中袁术败亡后无下落。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "杨大将，群雄文臣，长史。长史杨大将力谏方止。",
+ "bio": "杨大将，袁术长史（演义作名，史作长史杨弘？）。术欲伐刘备时献策「先取刘备，后图孙策」；术败时又献「投袁绍」之策，安排北去路径。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 199,
+   "title": "长史",
+   "lord_id": "yuan_shu",
+   "basis": "袁术长史。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "为术长史",
+   "description": "袁术帐下谋主。",
+   "importance": 1
+  },
+  {
+   "year": 199,
+   "title": "献北投袁绍策",
+   "description": "术败，大将献策北投袁绍，途经徐州。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

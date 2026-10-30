@@ -1,0 +1,29 @@
+{
+ "id": "yang_mi",
+ "name": "杨密",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "杨密，蜀汉武将，汉中郎将。郎将杨密力劝，汜乃放了杨彪、朱儁，其余都监在营中。",
+ "bio": "第 13 回：中郎将杨密力劝，汜乃放了杨彪、朱儁，其余都监在营中。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 241,
+   "title": "汉中郎将",
+   "basis": "第十三回原文：中郎将杨密力劝，汜乃放了杨彪、朱儁，其余都监在营中。 职任「汉中郎将」据此；★任期按末见回目收敛：全书最后一次提及在第 108 回（241 年），原 208—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

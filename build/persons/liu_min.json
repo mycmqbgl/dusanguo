@@ -1,0 +1,29 @@
+{
+ "id": "liu_min",
+ "name": "刘敏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "刘敏，蜀汉武将，蜀偏将军。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 227,
+   "title": "蜀偏将军",
+   "basis": "第九十一回原文：右护军——偏将军刘敏。 职任「蜀偏将军」据此；★任期按末见回目收敛：全书最后一次提及在第 91 回（227 年），原 227—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

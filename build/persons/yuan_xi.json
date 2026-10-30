@@ -1,0 +1,44 @@
+{
+ "id": "yuan_xi",
+ "name": "袁熙",
+ "courtesy": "显奕",
+ "display_aliases": [
+  "二公子"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义与史书均缺确切记载。",
+ "gender": "male",
+ "first_chapter": 31,
+ "review_status": "reviewed",
+ "summary": "袁熙，群雄文臣，幽州刺史。说袁尚、袁熙知曹兵将至，料难迎敌，乃弃城引兵，星夜奔辽西投乌桓去了。",
+ "bio": "袁绍次子。绍死后领幽州刺史。袁谭袁尚相攻时坐观成败，尚败后收其残众，曹操进兵幽州时与尚奔辽东投公孙康，建安十二年（207）与尚同被康诱斩，首级献许都。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 202,
+   "end_year": 207,
+   "title": "幽州刺史",
+   "basis": "袁绍死后领幽州；群雄阵营。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 202,
+   "title": "领幽州",
+   "description": "袁绍死，熙领幽州刺史，坐视谭尚相攻。",
+   "importance": 2
+  },
+  {
+   "year": 207,
+   "title": "辽东殒命",
+   "description": "随尚奔公孙康，同被诱斩献首许都。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 26
+}

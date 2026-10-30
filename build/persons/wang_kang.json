@@ -1,0 +1,29 @@
+{
+ "id": "wang_kang",
+ "name": "王伉",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "王伉，蜀汉文臣，永昌太守。王伉与功曹吕凯，会集百姓，死守此城，其势甚急。",
+ "bio": "第 87 回：今王伉与功曹吕凯，会集百姓，死守此城，其势甚急。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 225,
+   "end_year": 229,
+   "title": "永昌太守",
+   "basis": "第87回止有永昌太守王伉不肯从雍闿造反。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

@@ -1,0 +1,29 @@
+{
+ "id": "sun_ji",
+ "name": "孙冀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "孙冀，孙吴武将，左将军。第 120 回一笔带过，事迹仅存其名。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "左将军",
+   "basis": "第120回吴主孙皓罢陆抗兵权，令左将军孙冀代领其军。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

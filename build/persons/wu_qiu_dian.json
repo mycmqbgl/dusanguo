@@ -1,0 +1,29 @@
+{
+ "id": "wu_qiu_dian",
+ "name": "毋丘甸",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "auto_mined",
+ "summary": "毋丘甸，曹魏人物，毌丘俭长子。子毋丘甸曰：父亲官居方面，司马师专权废主，国家有累卵之危，安可宴然自守。",
+ "bio": "。第 110 回：长子毋丘甸曰：父亲官居方面，司马师专权废主，国家有累卵之危，安可宴然自守。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "其他",
+   "start_year": 251,
+   "end_year": 251,
+   "title": "毌丘俭长子",
+   "basis": "第110回毌丘俭长子毋丘甸劝父举兵讨司马师。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

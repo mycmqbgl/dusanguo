@@ -1,0 +1,72 @@
+{
+ "id": "zhou_cang",
+ "name": "周仓",
+ "display_aliases": [
+  "关西大汉",
+  "两臂有千斤之力"
+ ],
+ "birth": null,
+ "death": 219,
+ "date_precision": "approx",
+ "date_note": "建安二十四年（219）关羽败亡后，演义后文自刎于麦城。生年不详。",
+ "gender": "male",
+ "first_chapter": 28,
+ "review_status": "reviewed",
+ "summary": "周仓，群雄武将，黄巾余党。周仓顿首告曰：仓乃一粗莽之夫，失身为盗；今遇将军，如重见天日，岂忍复错过。",
+ "bio": "周仓，关西人，黄巾余党出身，两臂有千斤之力，板肋虬髯，形容甚伟。黄巾乱后与裴元绍同聚卧牛山为盗。建安五年，关羽千里走单骑过卧牛山，周仓早慕关羽威名，愿执鞭随镫，关羽初辞之，仓泣求再三，关羽以其愿侍二嫂，乃令其留守卧牛山，召旧部随行。后仓回山途中与裴元绍同遇赵云，仓与赵云交战连中三枪败回；引众投关羽，自此为关羽扛青龙偃月刀，随侍鞍前马后。关羽水淹七军时，仓生擒庞德。建安二十四年关羽败亡麦城，仓自刎而死。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 200,
+   "title": "黄巾余党",
+   "basis": "黄巾出身，乱后落草。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 208,
+   "title": "关羽部将",
+   "lord_id": "liu_bei",
+   "basis": "卧牛山追随关羽，终身为其扛刀（此时刘备仍为群雄）。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 219,
+   "title": "关羽部将",
+   "lord_id": "liu_bei",
+   "basis": "赤壁后刘备立营，随关羽镇荆州。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "卧牛山追随",
+   "description": "千里走单骑途中拜关羽，泣求执鞭随镫，遂留山聚旧部。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "遇赵云败回",
+   "description": "与裴元绍同遇赵云，连中三枪败走，引众投关羽。",
+   "importance": 2
+  },
+  {
+   "year": 219,
+   "title": "殉主自刎",
+   "description": "关羽败亡麦城，周仓自刎而死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 32
+}

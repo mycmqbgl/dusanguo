@@ -1,0 +1,45 @@
+{
+ "id": "geng_wu",
+ "name": "耿武",
+ "courtesy": "文威",
+ "display_aliases": [
+  "长史"
+ ],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平二年（191）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "耿武，群雄文臣，长史。长史杨大将力谏方止。",
+ "bio": "耿武字文威，为韩馥长史。韩馥欲迎袁绍同治州事，耿武谏曰「袁绍孤客穷军，仰我鼻息，譬如婴儿在股掌之上，绝其乳哺，立可饿死。奈何欲以州事委之？此引虎入羊群也」，韩馥曰「吾乃袁氏之故吏，才能又不如本初，古者择贤者而让之，诸君何嫉妒耶」，耿武叹曰「冀州休矣」，于是弃职而去者三十余人，独耿武与关纯伏于城外以待袁绍。袁绍引兵至，耿武、关纯拔刀而出欲刺杀绍，绍将颜良立斩耿武，文丑砍死关纯。演义第七回写此事，为「忠言不用、以身殉之」的写照。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "长史",
+   "lord_id": "han_fu",
+   "basis": "长史为州府文职之长，以谋略内政为主归文臣；191 年为颜良所斩。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "引虎入羊群之谏",
+   "description": "力谏韩馥勿以州事委袁绍，曰「此引虎入羊群也」，不听。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "伏城刺杀",
+   "description": "与关纯伏于城外，待袁绍至而拔刀刺之，为颜良立斩。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 5
+}

@@ -1,0 +1,51 @@
+{
+ "id": "feng_ji",
+ "name": "逢纪",
+ "courtesy": "元图",
+ "display_aliases": [
+  "谋士"
+ ],
+ "birth": null,
+ "death": 202,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安七年（202）。南阳人。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "逢纪，群雄文臣，谋士。谋士曰：丞相于虎窟中逃难之时，全无惧怯；今到城中，人已得食，马已得料，正须整顿军马复仇，何反痛哭。",
+ "bio": "逢纪字元图，南阳人。袁绍为渤海太守时，逢纪与许攸、田丰、沮授同为谋主。袁绍屯兵河内缺少粮草，逢纪说绍曰「大丈夫纵横天下，何待人送粮为食！冀州乃钱粮广盛之地，将军何不取之」，绍问良策，纪曰「可暗使人驰书与公孙瓒，令进兵取冀州，约以夹攻，瓒必兴兵。韩馥无谋之辈，必请将军领州事，就中取事，唾手可得」。绍从其计，果得冀州。袁绍死，逢纪与审配矫遗命立袁尚，后为袁谭所杀。演义第七回写其献计取冀州。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 202,
+   "title": "谋士",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍谋主之一，以谋略为主归文臣；202 年为袁谭所杀。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "献计取冀州",
+   "description": "劝袁绍暗结公孙瓒逼韩馥让州，一举取得冀州钱粮之地。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "分掌州事",
+   "description": "袁绍入冀州，以田丰、沮授、许攸、逢纪分掌州事。",
+   "importance": 1
+  },
+  {
+   "year": 202,
+   "title": "矫命立尚",
+   "description": "与审配矫袁绍遗命立袁尚，后为袁谭所杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 21
+}

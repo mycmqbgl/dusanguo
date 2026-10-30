@@ -1,0 +1,29 @@
+{
+ "id": "li_fu_2",
+ "name": "李辅",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 94,
+ "review_status": "auto_mined",
+ "summary": "李辅，曹魏武将，孟达心腹。有孟达心腹人李辅并达外甥邓贤，随状出首。",
+ "bio": "第 94 回：李辅、邓贤二人在城上大骂曰：吾等已献了城也。第 94 回：命李辅、邓贤守新城、上庸。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "孟达心腹",
+   "basis": "第94回孟达心腹人李辅并达外甥邓贤，随状出首其谋反事于司马懿。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

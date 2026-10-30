@@ -1,0 +1,32 @@
+{
+ "id": "huang_shao_2",
+ "name": "黄邵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "黄邵（正史人物，演义未载）：黄邵为吴将。演义未载。",
+ "bio": "《三国志·吴书》：黄邵为吴将。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 210,
+   "basis": "黄邵为孙吴将领，见《三国志·吴书》，演义正文未出场（0 次）。 黄邵为孙吴将领，196 年后从征，210 年前后卒。",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title": "吴将",
+   "title_unknown_verified": false
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

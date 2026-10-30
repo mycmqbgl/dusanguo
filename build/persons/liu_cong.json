@@ -1,0 +1,54 @@
+{
+ "id": "liu_cong",
+ "name": "刘琮",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "刘琮，群雄君主，荆州牧。刘琮闻玄德至，惧而不出。",
+ "bio": "。第 40 回：「令次子刘琮为荆州之主」，随即降曹。原文第 34 回相关片段：「云即日赴襄阳。蔡瑁出郭迎接，意甚谦谨。随后刘琦、刘琮二子，引一班文武官僚出迎。玄德见二公子俱在，并不」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "荆州牧",
+   "basis": "第 40 回：「令次子刘琮为荆州之主」，随即降曹。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "第 34 回",
+   "description": "后刘琦、刘琮二子，引一班文武官僚出迎",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "第 40 回",
+   "description": "是蔡瑁遂立刘琮为主",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "第 42 回",
+   "description": "说江东孙权，屯兵柴桑郡，闻曹操大军至襄阳，刘琮已降，今又星夜兼道取江陵，乃集众谋士商议御守之策",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "第 43 回",
+   "description": "于刘琮降操，豫州实出不知；且又不忍乘乱夺同宗之基业，此真大仁大义也",
+   "importance": 1
+  }
+ ],
+ "mention_count": 27
+}

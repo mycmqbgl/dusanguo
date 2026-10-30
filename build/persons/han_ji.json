@@ -1,0 +1,29 @@
+{
+ "id": "han_ji",
+ "name": "韩暨",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 98,
+ "review_status": "auto_mined",
+ "summary": "韩暨，曹魏文臣，魏太常卿。睿即时下诏，遣太常卿韩暨持节告戒曹真：切不可战，务在谨守；只待蜀兵退去，方才击之。",
+ "bio": "第 98 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "魏太常卿",
+   "basis": "第九十八回原文：睿即时下诏，遣太常卿韩暨持节告戒曹真：“切不可战，务在谨守。 职任「魏太常卿」据此；★任期按末见回目收敛：全书最后一次提及在第 98 回（229 年），原 229—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

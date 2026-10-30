@@ -1,0 +1,29 @@
+{
+ "id": "he_zhi",
+ "name": "何植",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "何植，孙吴文臣，吴司徒。第 120 回一笔带过，事迹仅存其名。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 220,
+   "title": "吴司徒",
+   "basis": "第一百二十回原文：吴主皓大慌，急召丞相张悌、司徒何植、司空滕循，计议退兵之策。 职任「吴司徒」据此。；★阵营改判：第 120 回原文「吴主皓大慌，急召丞相张悌、司徒何植、司空滕循，计议退兵之策」，东吴司徒，非汉廷。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,35 @@
+{
+ "source": "persons_ch011_020_d.json",
+ "total": 2,
+ "passed": 2,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 2,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "cao_bao",
+   "name": "曹豹",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 116 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wang_zifu",
+   "name": "王子服",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 84 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

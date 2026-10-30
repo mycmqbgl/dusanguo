@@ -1,0 +1,95 @@
+{
+ "id": "dong_gui_hu_jia",
+ "name": "护驾东归",
+ "year": 195,
+ "date_text": "兴平二年（195）",
+ "place_id": "hongnong",
+ "event_id": "xian_di_dong_gui",
+ "belligerents": [
+  {
+   "side": "护驾诸军",
+   "faction_ids": [
+    "han"
+   ],
+   "commanders": [
+    "dong_cheng",
+    "yang_feng",
+    "han_xi"
+   ],
+   "troops_desc": "护驾东归诸将"
+  },
+  {
+   "side": "李傕郭汜追兵",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "li_jue",
+    "guo_si"
+   ],
+   "troops_desc": "追击之军"
+  }
+ ],
+ "result": "帝驾脱险北渡，百官士卒死者不可胜数",
+ "casualties_note": "东涧、曹阳两役，公卿士卒死者无数。",
+ "summary": "杨奉董承等护献帝东归，李傕郭汜追击，东涧曹阳血战——帝后徒步渡河，随驾者十不存一。",
+ "detail": "傕汜追帝至弘农东涧，董承杨奉力战，辎重御物尽弃；至曹阳再战复败，士卒妇女死者不可胜数。帝后徒步渡黄河，皇后兄伏德挟绢十匹扶后下船。至安邑、洛阳，随驾之人十不存一。",
+ "front_line": [
+  {
+   "time": 195,
+   "time_seq": 1,
+   "kind": "出逃",
+   "label": "长安出关",
+   "desc": "傕汜相攻，帝后随杨奉董承出关东走。",
+   "lng": 108.97,
+   "lat": 34.342,
+   "pixel_x": 599.9,
+   "pixel_y": 445.8
+  },
+  {
+   "time": 195,
+   "time_seq": 2,
+   "kind": "血战",
+   "label": "东涧之败",
+   "desc": "傕汜追至东涧，董承杨奉力战，辎重尽弃。",
+   "lng": 110.7,
+   "lat": 34.7,
+   "pixel_x": 668.4,
+   "pixel_y": 429.2
+  },
+  {
+   "time": 195,
+   "time_seq": 3,
+   "kind": "再败",
+   "label": "曹阳再战",
+   "desc": "复败于曹阳，士卒死者不可胜数。",
+   "lng": 110.76,
+   "lat": 34.68,
+   "pixel_x": 670.7,
+   "pixel_y": 430.2
+  },
+  {
+   "time": 195,
+   "time_seq": 4,
+   "kind": "北渡",
+   "label": "徒步过河",
+   "desc": "帝后徒步渡黄河至安邑。",
+   "lng": 110.64,
+   "lat": 34.73,
+   "pixel_x": 666.0,
+   "pixel_y": 427.8
+  },
+  {
+   "time": 196,
+   "time_seq": 5,
+   "kind": "还都",
+   "label": "洛阳残破",
+   "desc": "至洛阳宫室尽毁，随驾十不存一。",
+   "lng": 112.454,
+   "lat": 34.62,
+   "pixel_x": 737.7,
+   "pixel_y": 432.9
+  }
+ ],
+ "place_name": "弘农"
+}

@@ -1,0 +1,1474 @@
+{
+ "comment": "第11–20回批产 A：吕布系、泰山诸将、刘备系、北海线。2026-10-27。事实核对基于 data/source/ch011–ch020 原文 + 陈寿《三国志》。",
+ "persons": [
+  {
+   "id": "gao_shun",
+   "name": "高顺",
+   "courtesy": null,
+   "match_surfaces": [
+    "高顺"
+   ],
+   "display_aliases": [
+    "陷阵营统将"
+   ],
+   "birth": null,
+   "death": 198,
+   "date_precision": "exact",
+   "date_note": "生年不详，建安三年（198）十二月下邳城破后为曹操所杀。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "高顺，群雄武将，中郎将。操自引军马来迎，正逢高顺，三军混战、将及天明，正西鼓声大震，人报吕布自引救军来了。",
+   "bio": "高顺，吕布部将，为人清白有威严，不饮酒，不受馈遗。所将七百余兵，铠甲斗具皆精练齐整，每所攻击无不破者，号为「陷阵营」。顺每谏吕布：「将军举动，不肯详思，忽有失耳，何可数也？」布知其忠而不能用。演义中高顺屡为前锋：袭取徐州、攻小沛、破夏侯惇军（惇为曹性射目即在高顺阵中）。建安三年曹操决泗沂之水灌下邳，布众叛降，顺与陈宫、吕布同就擒，不屈而死。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "中郎将",
+     "lord_id": "lv_bu",
+     "basis": "自吕布入兖州起即为部将，至下邳同灭。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "吕布袭兖州时为部将，后随布转战徐州。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "谏吕布",
+     "description": "谏布「举动不肯详思」，布知其忠而不听；所部陷阵营攻无不克。",
+     "importance": 3
+    },
+    {
+     "year": 197,
+     "title": "平郝萌之叛",
+     "description": "史载郝萌反，顺率兵讨斩之（演义并入第十七回背景）。",
+     "importance": 2
+    },
+    {
+     "year": 198,
+     "title": "下邳之亡",
+     "description": "曹操水灌下邳，顺与吕布、陈宫同擒，不屈被杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhang_liao",
+   "name": "张辽",
+   "courtesy": "文远",
+   "match_surfaces": [
+    "张辽",
+    "张文远",
+    "文远"
+   ],
+   "display_aliases": [
+    "前将军",
+    "晋阳侯"
+   ],
+   "birth": 169,
+   "death": 222,
+   "date_precision": "approx",
+   "date_note": "史载黄初三年（222）江陵病笃卒于江都，生年据卒年反推。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "张辽，群雄武将，从事、北地太守、鲁相。张辽应诺，遂上马，回见曹操，先说降汉不降曹之事。",
+   "bio": "张辽字文远，雁门马邑人，本聂壹之后，避怨变姓。少为郡吏，力过人。并州刺史丁原以辽从事，使将兵赴京都；何进遣诣河北募兵，还属董卓；卓败，以兵属吕布，为其八健将之一。下邳城破，辽大骂曹操，操亲释其缚、解衣衣之，辽感其义遂降。此后为曹操东征西讨：劝降昌豨、白马先锋、平定东海；赤壁后镇合肥，建安二十年以八百卒破孙权十万众，几擒孙权，威震逍遥津，江东小儿闻辽名夜不敢啼。官至前将军、征东将军，封晋阳侯。黄初三年病笃，卒于江都。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 189,
+     "end_year": 198,
+     "title": "从事、北地太守、鲁相",
+     "lord_id": "lv_bu",
+     "basis": "历丁原、董卓、吕布三主，皆记群雄。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 222,
+     "title": "中郎将、裨将军、荡寇将军、征东将军、前将军、晋阳侯",
+     "basis": "建安三年下邳降曹。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 189,
+     "title": "属丁原、董卓",
+     "description": "为并州从事，大将军何进遣其河北募兵，还后属董卓。",
+     "importance": 1
+    },
+    {
+     "year": 192,
+     "title": "属吕布",
+     "description": "董卓死，以兵属吕布。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "白门楼降曹",
+     "description": "下邳城破大骂操，操亲解其缚，辽感义而降。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "白马之战",
+     "description": "与关羽同为先锋，破袁绍军于白马。",
+     "importance": 2
+    },
+    {
+     "year": 215,
+     "title": "威震逍遥津",
+     "description": "合肥之战以八百人破孙权十万，几擒孙权。",
+     "importance": 3
+    },
+    {
+     "year": 222,
+     "title": "病笃于军",
+     "description": "黄初三年曹丕伐吴，辽病笃，卒于江都。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "chen_deng",
+   "name": "陈登",
+   "courtesy": "元龙",
+   "match_surfaces": [
+    "陈登",
+    "陈元龙",
+    "元龙"
+   ],
+   "display_aliases": [
+    "广陵太守",
+    "伏波将军"
+   ],
+   "birth": 163,
+   "death": 201,
+   "date_precision": "approx",
+   "date_note": "史载建安六年（201）卒，年三十九，生年据此反推。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "陈登，群雄文臣，典农校尉、东阳长。陈元龙之父陈珪，养老在家，闻鼓乐之声，遂问左右。",
+   "bio": "陈登字元龙，下邳淮浦人（一说射阳），沛相陈珪之子。性豪爽，少有扶世济民之志，博览载籍。年二十五举孝廉，除东阳长，徐州牧陶谦辟为典农校尉，劝农殖谷，积粮可观。陶谦死后迎刘备领徐州。吕布夺徐州后，登父子名义事布而实为曹操内应：吕布以登求徐州牧不得，登还，布怒拔戟斫几，登徐喻以「外疾内养」之策。后曹操以登为广陵太守，令阴合众以图吕布；布诛，以功加伏波将军。孙策遣军渡江攻登于匡琦，登以少胜多。许汜论「湖海之士，豪气不除」。三十九岁病卒，病中胸中烦懑，医以汤药吐虫三升许，曰病根未除。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 196,
+     "title": "典农校尉、东阳长",
+     "lord_id": "tao_qian",
+     "basis": "先事陶谦，谦死迎刘备，记群雄。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 198,
+     "title": "广陵太守",
+     "lord_id": "lv_bu",
+     "basis": "吕布夺徐州后父子屈事之。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 198,
+     "end_year": 201,
+     "title": "广陵太守、伏波将军",
+     "basis": "吕布灭后正式归曹。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "佐陶谦屯田",
+     "description": "为典农校尉，劝农殖谷，积粮可观。",
+     "importance": 2
+    },
+    {
+     "year": 194,
+     "title": "迎刘备领徐州",
+     "description": "陶谦卒，与孔融等劝刘备领徐州。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "出使许都",
+     "description": "吕布遣使许都求徐州牧不得；登父子自此暗为曹操内应。",
+     "importance": 2
+    },
+    {
+     "year": 198,
+     "title": "破吕布",
+     "description": "以广陵兵从曹操围下邳，吕布灭，加伏波将军。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "匡琦破敌",
+     "description": "以少胜多破孙策军于匡琦城，封广陵太守。",
+     "importance": 2
+    },
+    {
+     "year": 201,
+     "title": "病卒",
+     "description": "吐虫三升而病根未除，卒，年三十九。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "chen_gui",
+   "name": "陈珪",
+   "courtesy": "汉瑜",
+   "match_surfaces": [
+    "陈珪",
+    "陈汉瑜",
+    "汉瑜"
+   ],
+   "display_aliases": [
+    "沛相"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "approx",
+   "date_note": "卒年史无明文，约官渡前后（200 前后）卒；演义中活跃至第十七回。",
+   "gender": "male",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "陈珪，字汉瑜，徐州名士，陈登之父，助曹操破吕布。",
+   "bio": "陈珪，字汉瑜，下邳淮浦人，陈登之父，汉末名士。刘备领徐州时用为从事。吕布据徐州，欲使子陈登结袁术，陈珪止之，与子陈登共谋为曹操内应，助操破吕布于下邳。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 198,
+     "title": "沛相",
+     "lord_id": "lv_bu",
+     "basis": "吕布据徐州时期。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 198,
+     "end_year": 200,
+     "title": "沛相",
+     "basis": "吕布灭后归曹；约官渡前后卒。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "绝袁术婚",
+     "description": "袁术为子求婚于吕布，珪说布绝婚，并间术布之交。",
+     "importance": 3
+    },
+    {
+     "year": 197,
+     "title": "破术七路军",
+     "description": "袁术七路伐徐州，珪献策令韩暹杨奉倒戈，术军大败。",
+     "importance": 3
+    },
+    {
+     "year": 198,
+     "title": "同灭吕布",
+     "description": "从曹操围下邳，布灭，为沛相。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "约卒",
+     "description": "史无明文，约官渡前后卒。",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：卒年史无明文，约官渡前后（200 前后）卒｜演：活跃至第十七回"
+  },
+  {
+   "id": "hou_cheng",
+   "name": "侯成",
+   "courtesy": null,
+   "match_surfaces": [
+    "侯成"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详；198 年叛吕布降曹后事迹无载。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "侯成，群雄武将，吕布部将。先令侯成、郝萌、曹性引二百余骑接应高顺，使离沛城三十里去迎曹军，自引大军随后接应。",
+   "bio": "侯成，吕布八健将之一。建安三年下邳被围，成使人于故处取酒，欲与诸将会饮，先以半献吕布；布怒其犯酒禁，欲斩之，众劝得免。成既失酒又惧诛，与宋宪、魏续谋叛：盗布所乘赤兔马，缚陈宫、高顺出降。曹操水灌下邳，布众遂溃，布为部下所缚。降曹后事迹无载。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "吕布部将",
+     "lord_id": "lv_bu",
+     "basis": "吕布部将。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 207,
+     "title": "吕布部将",
+     "basis": "198 年降曹后史无明文，时间片按存疑记至官渡后。",
+     "confidence": 0.5,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "为吕布八健将之一。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "盗马缚宫出降",
+     "description": "下邳被围，盗赤兔马、缚陈宫出降，吕布遂亡。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "song_xian",
+   "name": "宋宪",
+   "courtesy": null,
+   "match_surfaces": [
+    "宋宪"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 200,
+   "date_precision": "approx",
+   "date_note": "演义第二十五回白马之战为颜良所斩；生年不详。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "宋宪，吕布部将，后降曹操。",
+   "bio": "宋宪，吕布麾下「八健将」之一。建安三年（199）曹操围下邳，宋宪与魏续、侯成等缚陈宫、盗赤兔马降曹，吕布遂败。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "八健将",
+     "lord_id": "lv_bu",
+     "basis": "吕布部将。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 200,
+     "title": "偏将",
+     "basis": "降曹后随征，200 年白马战殁。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "为吕布八健将之一。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "缚陈宫出降",
+     "description": "与侯成、魏续缚陈宫盗马出降。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "殁于白马",
+     "description": "白马之战战颜良，三合被斩（演义）。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "wei_xu",
+   "name": "魏续",
+   "courtesy": null,
+   "match_surfaces": [
+    "魏续"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 200,
+   "date_precision": "approx",
+   "date_note": "演义第二十五回白马之战为颜良所斩；生年不详。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "魏续，吕布部将，后降曹操。",
+   "bio": "魏续，吕布麾下「八健将」之一。曹操围下邳，魏续与宋宪、侯成缚陈宫出降，吕布开白门楼索降，为曹军所缚。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "八健将",
+     "lord_id": "lv_bu",
+     "basis": "吕布部将。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 200,
+     "title": "偏将",
+     "basis": "降曹后随征，200 年白马战殁。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "为吕布八健将之一，与布有亲。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "缚陈宫出降",
+     "description": "与侯成、宋宪缚陈宫盗马出降。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "殁于白马",
+     "description": "白马之战战颜良，一合被斩（演义）。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "hao_meng",
+   "name": "郝萌",
+   "courtesy": null,
+   "match_surfaces": [
+    "郝萌"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 196,
+   "date_precision": "approx",
+   "date_note": "史载建安元年（196）郝萌受袁术策动反吕布，被高顺斩杀；演义中活跃至第十八回（198）。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "郝萌，群雄武将，八健将。先令侯成、郝萌、曹性引二百余骑接应高顺，使离沛城三十里去迎曹军，自引大军随后接应。",
+   "bio": "郝萌，吕布八健将之一，河内人。史载建安元年受袁术策动，夜攻吕布治所下邳府，布仓皇逃出投高顺营，顺率兵平乱，萌将曹性反萌，顺斩萌。演义未演此段，郝萌作为八健将活跃于袭徐州、战濮阳诸役，至第十八回濮阳之战尚在其列。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 196,
+     "title": "八健将",
+     "lord_id": "lv_bu",
+     "basis": "吕布部将。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "为吕布八健将之一。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "受术策动反布",
+     "description": "史载夜反吕布，兵败为高顺所斩（演义未演）。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：建安元年（196）被高顺斩｜演：活跃至第十八回（198）"
+  },
+  {
+   "id": "cao_xing",
+   "name": "曹性",
+   "courtesy": null,
+   "match_surfaces": [
+    "曹性"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 198,
+   "date_precision": "exact",
+   "date_note": "演义第十八回（建安三年，198）濮阳阵前射夏侯惇左目，被惇拔矢啖睛后一枪搠死。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "曹性，群雄武将，部将。先令侯成、郝萌、曹性引二百余骑接应高顺，使离沛城三十里去迎曹军，自引大军随后接应。",
+   "bio": "曹性，吕布部将。建安三年濮阳之战，高顺诈败诱夏侯惇绕阵而追，性于阵上暗放冷箭，正中惇左目。惇大呼「父精母血，不可弃也」，纳矢于口啖之，复挺枪直取曹性；性不及提防，被一枪搠透面门而死。两军骇然。（演义虚构；史载曹性为郝萌部将，反萌有功，布以其为都尉。）",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "部将",
+     "lord_id": "lv_bu",
+     "basis": "吕布部将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "吕布部将。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "射惇左目而亡",
+     "description": "濮阳阵前射夏侯惇左目，被啖睛之惇搠死（演义）。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "cheng_lian",
+   "name": "成廉",
+   "courtesy": null,
+   "match_surfaces": [
+    "成廉"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "成廉，群雄武将，八健将。将成廉，被乐进一箭射死。",
+   "bio": "成廉，吕布八健将之一，骁勇。演义濮阳之战，与张辽、臧霸等分击曹营，随吕布冲阵，戟指曹操，几乎得手。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "八健将",
+     "lord_id": "lv_bu",
+     "basis": "吕布部将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属吕布",
+     "description": "为吕布八健将之一。",
+     "importance": 1
+    },
+    {
+     "year": 194,
+     "title": "濮阳冲阵",
+     "description": "随吕布冲曹操军阵，几乎擒操（演义）。",
+     "importance": 2
+    },
+    {
+     "year": 198,
+     "title": "下邳被擒",
+     "description": "史载临阵为曹操所擒。",
+     "importance": 1
+    }
+   ],
+   "history_conflict_type": "生死结局",
+   "history_conflict_note": "史载建安三年下邳之战为曹操所擒；演义写其随吕布败走，未交代结局。"
+  },
+  {
+   "id": "zang_ba",
+   "name": "臧霸",
+   "courtesy": "宣高",
+   "match_surfaces": [
+    "臧霸",
+    "臧宣高",
+    "宣高"
+   ],
+   "display_aliases": [
+    "镇东将军",
+    "执金吾"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "史载臧霸卒于曹魏明帝太和年间（约 230s），生年不详；演义无卒年。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "臧霸，群雄武将，泰山群盗帅、琅琊相。巷内转出张辽，西巷内转出臧霸，夹攻掩杀。",
+   "bio": "臧霸字宣高，泰山华县人。父臧戒为狱掾，因不听太守枉杀，太守欲杀之，霸年十八将客数十人于费西山中夺父，送母归乡，亡命东海，与孙观、吴敦、尹礼等聚众，霸为帅，屯开阳。先助陶谦击黄巾，后随吕布，袭取琅琊诸城。下邳之围，霸等助布；布灭，霸匿藏，曹操募而得之，大悦，以霸为琅琊相，割青徐二州委之于霸。官渡之战霸将精兵入青州破袁绍诸营。后累迁至镇东将军、执金吾。演义中臧霸屡为吕布军锋，与张辽先后同列。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 191,
+     "end_year": 198,
+     "title": "泰山群盗帅、琅琊相",
+     "lord_id": "lv_bu",
+     "basis": "聚众泰山，先后依陶谦、吕布。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 230,
+     "title": "琅琊相、徐州刺史、镇东将军、执金吾",
+     "basis": "198 年降曹，镇青徐。卒年按太和年间约记 230。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 190,
+     "title": "夺父亡命",
+     "description": "年十八劫狱救父，与孙观等聚众泰山。",
+     "importance": 2
+    },
+    {
+     "year": 193,
+     "title": "助陶谦破黄巾",
+     "description": "以泰山兵从陶谦击黄巾，屯开阳。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "助吕布取琅琊",
+     "description": "从吕布，攻取琅琊诸城。",
+     "importance": 2
+    },
+    {
+     "year": 198,
+     "title": "降曹操",
+     "description": "布灭，霸匿藏被募得，操喜，以霸为琅琊相，委青徐。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "官渡助战",
+     "description": "将精兵入青州，破袁绍青州诸营。",
+     "importance": 2
+    },
+    {
+     "year": 220,
+     "title": "曹魏开国",
+     "description": "曹丕时累迁镇东将军，后为执金吾。",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：史载臧霸卒于曹魏明帝太和年间（约 230s），生年不详｜演：无卒年"
+  },
+  {
+   "id": "sun_guan",
+   "name": "孙观",
+   "courtesy": "仲台",
+   "match_surfaces": [
+    "孙观",
+    "孙仲台"
+   ],
+   "display_aliases": [
+    "彭城相",
+    "振威将军"
+   ],
+   "birth": null,
+   "death": 217,
+   "date_precision": "approx",
+   "date_note": "史载卒于建安二十二年（217）前（从征孙权，中流矢，伤发卒）；生年不详。",
+   "gender": "male",
+   "first_chapter": 18,
+   "review_status": "reviewed",
+   "summary": "孙观，群雄武将，泰山诸将。第 18 回一笔带过，事迹仅存其名。",
+   "bio": "孙观字仲台，泰山人。与臧霸等聚众泰山，以骁猛闻。先随吕布，布灭后与霸同降曹操，为青州刺史、彭城相，官至振威将军。从曹操征孙权于濡须，身先士卒中流矢，伤发而卒。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 198,
+     "title": "泰山诸将",
+     "lord_id": "lv_bu",
+     "basis": "聚众泰山，后随吕布。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 217,
+     "title": "青州刺史、彭城相、振威将军",
+     "basis": "198 年降曹。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "聚众泰山",
+     "description": "与臧霸等聚众泰山为群盗。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "降曹",
+     "description": "吕布灭，与臧霸同降。",
+     "importance": 2
+    },
+    {
+     "year": 217,
+     "title": "中矢而卒",
+     "description": "从征孙权于濡须，中流矢，伤发卒。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "wu_dun",
+   "name": "吴敦",
+   "courtesy": null,
+   "match_surfaces": [
+    "吴敦"
+   ],
+   "display_aliases": [
+    "利城太守"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详；降曹后任利城太守，后无事迹。",
+   "gender": "male",
+   "first_chapter": 18,
+   "review_status": "reviewed",
+   "summary": "吴敦，群雄武将，泰山诸将。霸又招安孙观、吴敦、尹礼来降；独昌豨未肯归顺。",
+   "bio": "吴敦，泰山人，与臧霸、孙观、尹礼聚众泰山，时人号「豺狼」。先随吕布，布灭后降曹操，为利城太守，后事迹无载。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 198,
+     "title": "泰山诸将",
+     "lord_id": "lv_bu",
+     "basis": "聚众泰山，后随吕布。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 210,
+     "title": "利城太守",
+     "basis": "降曹后任利城太守，后无事迹，时间片存疑记至 210。",
+     "confidence": 0.5,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "聚众泰山",
+     "description": "与臧霸等聚众泰山，号「豺狼」。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "降曹",
+     "description": "吕布灭，降曹为利城太守。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "yin_li",
+   "name": "尹礼",
+   "courtesy": null,
+   "match_surfaces": [
+    "尹礼"
+   ],
+   "display_aliases": [
+    "东海太守"
+   ],
+   "birth": null,
+   "death": 205,
+   "date_precision": "approx",
+   "date_note": "史载卒于建安十年（205）（为于禁所斩）；演义未写其死。",
+   "gender": "male",
+   "first_chapter": 18,
+   "review_status": "reviewed",
+   "summary": "尹礼，群雄武将，泰山诸将。霸又招安孙观、吴敦、尹礼来降；独昌豨未肯归顺。",
+   "bio": "尹礼，泰山人，与臧霸等聚众泰山，号「截虎」。先随吕布，布灭后降曹操，为东海太守。史载建安十年与昌豨叛，为于禁所斩。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 198,
+     "title": "泰山诸将",
+     "lord_id": "lv_bu",
+     "basis": "聚众泰山，后随吕布。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 205,
+     "title": "东海太守",
+     "basis": "降曹后任东海太守，205 年叛被斩。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "聚众泰山",
+     "description": "与臧霸等聚众泰山，号「截虎」。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "降曹",
+     "description": "吕布灭，降曹为东海太守。",
+     "importance": 1
+    },
+    {
+     "year": 205,
+     "title": "叛被斩",
+     "description": "与昌豨叛，为于禁所斩（史）。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：史载卒于建安十年（205）（为于禁所斩）｜演：未写其死"
+  },
+  {
+   "id": "chang_xi",
+   "name": "昌豨",
+   "courtesy": null,
+   "match_surfaces": [
+    "昌豨"
+   ],
+   "display_aliases": [
+    "东海昌霸"
+   ],
+   "birth": null,
+   "death": 206,
+   "date_precision": "approx",
+   "date_note": "史载卒于建安十一年（206），于禁讨斩之；演义活跃至第十九回。",
+   "gender": "male",
+   "first_chapter": 19,
+   "review_status": "reviewed",
+   "summary": "昌豨，群雄武将，泰山群盗。第 19 回一笔带过，事迹仅存其名。",
+   "bio": "昌豨（一名昌霸），东海人，泰山群盗之一。先附陶谦，后随吕布，布灭降曹。其人反复：官渡时从刘备反于东海，官渡后叛降复叛，建安十一年再叛，曹操遣于禁征讨，豨降，于禁数斩之以正军法。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 198,
+     "title": "泰山群盗",
+     "lord_id": "lv_bu",
+     "basis": "东海豪强，先后依陶谦、吕布。",
+     "confidence": 0.7,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 198,
+     "end_year": 206,
+     "title": "东海太守",
+     "basis": "降曹后数叛，206 年为于禁斩。",
+     "confidence": 0.65,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "东海豪强",
+     "description": "泰山群盗之一，附陶谦。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "降曹",
+     "description": "吕布灭，降曹操。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "从刘备反",
+     "description": "官渡之际从刘备反于东海。",
+     "importance": 2
+    },
+    {
+     "year": 206,
+     "title": "为于禁所斩",
+     "description": "再叛，于禁讨降后数斩之。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：史载卒于建安十一年（206），于禁讨斩之｜演：活跃至第十九回"
+  },
+  {
+   "id": "xu_si",
+   "name": "许汜",
+   "courtesy": null,
+   "match_surfaces": [
+    "许汜"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详。",
+   "gender": "male",
+   "first_chapter": 12,
+   "review_status": "reviewed",
+   "summary": "许汜，群雄文臣，幕僚。许汜、王楷只得拜辞，和郝萌回来。",
+   "bio": "许汜，吕布幕僚。原为徐州人士，吕布据徐州时与王楷同为布谋主。下邳之围，与王楷劝布遣使求救于袁术，并同往淮南说亲事。另因拜访陈登时「求田问舍」被讥「湖海之士，豪气不除」，刘备续以「欲卧百尺楼上」之评，此事留名后世。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "幕僚",
+     "lord_id": "lv_bu",
+     "basis": "吕布据徐州时期为谋主之一。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "佐吕布",
+     "description": "为吕布幕僚谋主。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "说袁术求援",
+     "description": "下邳被围，与王楷劝布结袁术，亲往说亲。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "wang_kai",
+   "name": "王楷",
+   "courtesy": null,
+   "match_surfaces": [
+    "王楷"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详。",
+   "gender": "male",
+   "first_chapter": 19,
+   "review_status": "reviewed",
+   "summary": "王楷，群雄文臣，幕僚。说许汜、王楷至寿春，拜见袁术，呈上书信。",
+   "bio": "王楷，吕布幕僚。下邳被围时与许汜同劝吕布以外结袁术为救，同往淮南见袁术说亲事，术以「布女既至」为条件允诺发兵，然布女未至而曹军攻急。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 198,
+     "title": "幕僚",
+     "lord_id": "lv_bu",
+     "basis": "吕布幕僚。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "佐吕布",
+     "description": "为吕布幕僚。",
+     "importance": 1
+    },
+    {
+     "year": 198,
+     "title": "使袁术求援",
+     "description": "与许汜同往淮南说亲求援。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "guan_hai",
+   "name": "管亥",
+   "courtesy": null,
+   "match_surfaces": [
+    "管亥"
+   ],
+   "display_aliases": [
+    "黄巾渠帅"
+   ],
+   "birth": null,
+   "death": 194,
+   "date_precision": "exact",
+   "date_note": "演义第十一回（兴平元年，194）为关羽数十合斩于马下。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "管亥，群雄武将，黄巾渠帅。管亥暴乱，北海被围，孤穷无告，危在旦夕。",
+   "bio": "管亥，青州黄巾余党渠帅。兴平元年率众数万围北海，遣使谓孔融曰「粮可借万斛」，融不许，遂攻城。太史慈突围乞师于刘备，备与关张来救。阵前管亥忿怒直出，云长早出，数十合之间青龙刀起，劈管亥于马下，众贼溃散。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 188,
+     "end_year": 194,
+     "title": "黄巾渠帅",
+     "basis": "黄巾余党自为渠帅。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 188,
+     "title": "黄巾余党",
+     "description": "黄巾乱起后聚众青州自为渠帅。",
+     "importance": 1
+    },
+    {
+     "year": 194,
+     "title": "围北海",
+     "description": "率众数万围北海索粮，孔融不许。",
+     "importance": 2
+    },
+    {
+     "year": 194,
+     "title": "殁于关羽刀下",
+     "description": "刘备来救，阵前数十合为关羽所斩。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "tian_kai",
+   "name": "田楷",
+   "courtesy": null,
+   "match_surfaces": [
+    "田楷"
+   ],
+   "display_aliases": [
+    "青州刺史"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详；史载或卒于建安四年（199）袁曹之争中，无定论。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "田楷，群雄武将，青州刺史。融大喜，会合田楷，为掎角之势；云长、子龙领兵两边接应。",
+   "bio": "田楷，公孙瓒部将，瓒表为青州刺史，与袁绍争青州。初平四年曹操东征陶谦，楷与刘备同救徐州；曹操退兵后与孔融等大会于徐州。后事迹渐隐（史载或于袁绍攻青州时卒）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 191,
+     "end_year": 199,
+     "title": "青州刺史",
+     "lord_id": "gongsun_zan",
+     "basis": "公孙瓒所置青州刺史。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 191,
+     "title": "牧青州",
+     "description": "为公孙瓒所置青州刺史，与袁绍争青州。",
+     "importance": 2
+    },
+    {
+     "year": 194,
+     "title": "救徐州",
+     "description": "曹操攻陶谦，与刘备同赴徐州救援。",
+     "importance": 2
+    },
+    {
+     "year": 199,
+     "title": "事迹渐隐",
+     "description": "史载或卒于袁曹之争中，无定论。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "mi_zhu",
+   "name": "糜竺",
+   "courtesy": "子仲",
+   "match_surfaces": [
+    "糜竺",
+    "糜子仲",
+    "子仲"
+   ],
+   "display_aliases": [
+    "安汉将军"
+   ],
+   "birth": 165,
+   "death": 220,
+   "date_precision": "approx",
+   "date_note": "生年约 165（存疑），史载约章武二年前（约 220）忧病卒。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "糜竺，群雄文臣，别驾从事。引糜竺来见玄德，具言张闿杀曹嵩之事：今曹操纵兵大掠，围住徐州，特来求救。",
+   "bio": "糜竺字子仲，东海朐人，世业商贩，赀产巨亿，僮仆万人。徐州牧陶谦辟为别驾从事；谦卒，竺奉遗命迎刘备于小沛。吕布袭下邳虏备妻子，竺以妹进于备为夫人（糜夫人），并以奴客二千、金银货帛助备军资，备赖以复振。曹操表竺为嬴郡太守，竺不受，随备周旋。备定益州，拜竺为安汉将军，班在军师将军之右——地位虽尊而未尝统御，然赏赐优宠无与为比。弟糜芳叛吴后，竺面缚请罪，备慰谕之，其宠不衰，逾年惭恨病卒。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 208,
+     "title": "别驾从事",
+     "lord_id": "liu_bei",
+     "basis": "陶谦辟为别驾，谦卒随刘备，lord 记刘备。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "从事中郎、安汉将军",
+     "basis": "蜀汉 de facto 自 208 年起；约 220 年卒。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "迎刘备领徐州",
+     "description": "陶谦卒，奉遗命率州人迎刘备。",
+     "importance": 3
+    },
+    {
+     "year": 196,
+     "title": "嫁妹助军",
+     "description": "吕布袭下邳虏备妻子，竺进妹于备，并以奴客二千金银助军。",
+     "importance": 3
+    },
+    {
+     "year": 196,
+     "title": "辞曹不受",
+     "description": "曹操表为嬴郡太守，竺不受，随备周旋。",
+     "importance": 2
+    },
+    {
+     "year": 208,
+     "title": "归蜀汉",
+     "description": "备取荆州，竺随行，后拜安汉将军，班在诸葛亮之右。",
+     "importance": 2
+    },
+    {
+     "year": 219,
+     "title": "弟芳叛吴",
+     "description": "糜芳降吴，竺面缚请罪，备慰谕如初。",
+     "importance": 2
+    },
+    {
+     "year": 220,
+     "title": "惭恨病卒",
+     "description": "逾年惭恨发病卒。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "sun_qian",
+   "name": "孙乾",
+   "courtesy": "公祐",
+   "match_surfaces": [
+    "孙乾",
+    "孙公祐",
+    "公祐"
+   ],
+   "display_aliases": [
+    "秉忠将军"
+   ],
+   "birth": null,
+   "death": 214,
+   "date_precision": "approx",
+   "date_note": "史载约建安十九年（214）前卒；演义中活跃至入蜀。生年不详。",
+   "gender": "male",
+   "first_chapter": 12,
+   "review_status": "reviewed",
+   "summary": "孙乾，群雄文臣，从事。德自守南门，孙乾守北门，云长守西门，张飞守东门，令糜竺与其弟糜芳守护中军。",
+   "bio": "孙乾字公祐，北海人，大儒郑玄弟子。刘备领徐州，辟为从事；自是随备周旋四方，常为使节，出使袁绍、刘表皆称旨。备定益州，乾自从事中郎迁秉忠将军，位次糜竺。约建安十九年前卒。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 208,
+     "title": "从事",
+     "lord_id": "liu_bei",
+     "basis": "刘备领徐州时辟为从事。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 214,
+     "title": "从事中郎、秉忠将军",
+     "basis": "随备入蜀，约 214 年前卒。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "佐刘备",
+     "description": "刘备领徐州，辟为从事。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "使袁绍",
+     "description": "备奔袁绍，乾为之使，联络刘辟等。",
+     "importance": 1
+    },
+    {
+     "year": 208,
+     "title": "随主入荆",
+     "description": "随刘备奔荆州，居新野。",
+     "importance": 1
+    },
+    {
+     "year": 214,
+     "title": "约卒",
+     "description": "随备定益州，迁秉忠将军，约是年前卒。",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：史载约建安十九年（214）前卒；生年不详｜演：活跃至入蜀"
+  },
+  {
+   "id": "jian_yong",
+   "name": "简雍",
+   "courtesy": "宪和",
+   "match_surfaces": [
+    "简雍",
+    "简宪和",
+    "宪和"
+   ],
+   "display_aliases": [
+    "昭德将军"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详；入蜀后事迹渐隐。",
+   "gender": "male",
+   "first_chapter": 18,
+   "review_status": "reviewed",
+   "summary": "简雍，群雄文臣，宾友。简雍颇明阴阳，袖占一课，失惊曰：此大凶之兆也。",
+   "bio": "简雍字宪和，涿郡人，少与刘备有旧，随备周旋。性倨傲，谈议风生，備待为宾友，不任吏职而出为使节。刘备入蜀，雍从征；围成都时雍入城说刘璋降，璋遂出降。后拜昭德将军，事迹渐隐。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 194,
+     "end_year": 208,
+     "title": "宾友",
+     "lord_id": "liu_bei",
+     "basis": "少年旧交随备。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 220,
+     "title": "从事中郎、昭德将军",
+     "basis": "随备入蜀。卒年不详，存疑记至 220。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "随刘备",
+     "description": "少年旧交，随备转侧四方。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "说杨奉",
+     "description": "演义中与糜竺同为刘备文胆。",
+     "importance": 1
+    },
+    {
+     "year": 214,
+     "title": "说降刘璋",
+     "description": "围成都时入城说刘璋出降。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "mi_fang",
+   "name": "糜芳",
+   "courtesy": "子方",
+   "match_surfaces": [
+    "糜芳",
+    "糜子方",
+    "子方"
+   ],
+   "display_aliases": [
+    "南郡太守",
+    "将军"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详；219 年降吴后事迹渐隐（演义中被刘备凌迟复仇为虚构）。",
+   "gender": "male",
+   "first_chapter": 18,
+   "review_status": "reviewed",
+   "summary": "糜芳，群雄武将，彭城相。子方疑主公，若一旦轻出，内难必作矣。",
+   "bio": "糜芳字子方，糜竺之弟。随刘备周旋四方，操表为彭城相不受，随备转侧。备定荆南，以芳为南郡太守，屯江陵。关羽素轻芳与傅士仁，北伐樊城时二人运粮不力，羽言「还当治之」，芳惧。吕蒙袭荆州，士仁降，芳亦开城降吴。关羽遂败亡。芳降吴后仕吴为将军，事迹渐隐。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 208,
+     "title": "彭城相",
+     "lord_id": "liu_bei",
+     "basis": "随备周旋。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 219,
+     "title": "南郡太守",
+     "basis": "备定荆南后为南郡太守。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wu",
+     "role": "武将",
+     "start_year": 219,
+     "end_year": 229,
+     "title": "将军",
+     "basis": "219 年降吴。群雄 end_year 229 为断限。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "随兄佐刘备",
+     "description": "与兄竺同随刘备周旋。",
+     "importance": 1
+    },
+    {
+     "year": 208,
+     "title": "镇荆州",
+     "description": "备定荆南后为南郡太守，屯江陵。",
+     "importance": 2
+    },
+    {
+     "year": 219,
+     "title": "降吴",
+     "description": "关羽北伐中 运粮 不力惧诛，吕蒙袭荆州时开城降。",
+     "importance": 3
+    },
+    {
+     "year": 229,
+     "title": "事迹渐隐",
+     "description": "降吴后仕为将军，后无事迹。",
+     "importance": 1
+    }
+   ]
+  }
+ ]
+}

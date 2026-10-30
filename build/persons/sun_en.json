@@ -1,0 +1,36 @@
+{
+ "id": "sun_en",
+ "name": "孙恩",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "孙恩，孙吴武将，武卫将军。至布塞亭，孙恩将车驾来迎。",
+ "bio": "第 113 回：「武卫将军孙恩、偏将军孙干、长水校尉孙闿分屯诸营」。原文第 113 回相关片段：「不能主张，綝令弟威远将军孙据入苍龙宿卫，武卫将军孙恩、偏将军孙干、长水校尉孙闿分屯诸营」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "武卫将军",
+   "basis": "第 113 回：「武卫将军孙恩、偏将军孙干、长水校尉孙闿分屯诸营」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 254,
+   "title": "第 113 回",
+   "description": "至布塞亭，孙恩将车驾来迎",
+   "importance": 1
+  }
+ ],
+ "mention_count": 2
+}

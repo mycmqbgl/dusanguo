@@ -1,0 +1,67 @@
+{
+ "id": "yuan_shao",
+ "name": "袁绍",
+ "courtesy": "本初",
+ "display_aliases": [
+  "袁本初",
+  "袁盟主"
+ ],
+ "birth": 154,
+ "death": 202,
+ "date_precision": "approx",
+ "date_note": "生年约在 154 年前后，卒于建安七年（202）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "袁绍，东汉武将，司隶校尉、中军校尉。袁本初智勇过人，手下名将极广，将军可请彼同治州事，彼必厚待将军，无患公孙瓒矣。",
+ "bio": "袁绍字本初，汝南汝阳人，司徒袁逢之子、袁隗之侄，四世居三公之位，门生故吏遍天下。少帝立，为中军校尉。何进谋诛宦官，绍劝其速决而进不能用，反召外兵，终致董卓入京。何进被杀，绍与曹操斩关入宫，尽诛宦官，多有无须者误死者。董卓议废立，绍挺身抗言「汝剑利，吾剑未尝不利」，遂奔冀州。后起兵讨卓，为关东诸侯盟主，然诸军各怀异心，旋散。绍据冀、青、幽、并四州，为北方最强；建安五年官渡之战，谋臣不和、粮道被袭，一败不振，两年后忧死。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 188,
+   "end_year": 190,
+   "title": "司隶校尉、中军校尉",
+   "basis": "灵帝末为西园八校尉之一、司隶校尉，属汉廷武职。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 190,
+   "end_year": 202,
+   "title": "渤海太守、冀州牧、大将军、邺侯",
+   "basis": "190 年奔冀州起兵讨董卓，为关东盟主，自成一系；202 年病卒。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "力主诛宦官",
+   "description": "劝何进「若不斩草除根，必为丧身之本」，进不听。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "血洗宫禁",
+   "description": "何进被杀后与曹操斩关入内，尽诛宦官，误杀无须者甚众。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "温明园抗废立",
+   "description": "当筵拔剑与董卓对峙，弃官奔冀州。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "官渡之败",
+   "description": "兵十万南下，粮道被袭，乌巢一炬，众溃而归。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 338
+}

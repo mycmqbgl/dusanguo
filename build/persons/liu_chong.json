@@ -1,0 +1,29 @@
+{
+ "id": "liu_chong",
+ "name": "刘宠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "auto_mined",
+ "summary": "刘宠，东汉人物，太尉。第 15 回一笔带过，事迹仅存其名。",
+ "bio": "官职「太尉」据原文上下文提取。原文第 15 回相关片段：「却说刘繇字正礼，东莱牟平人也，亦是汉室宗亲，太尉刘宠之侄，兖州刺史刘岱之弟；旧为扬州刺史，屯于寿春，」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 196,
+   "title": "桓帝朝太尉（世系提及）",
+   "basis": "第十五回原文：太尉刘宠之侄。刘宠为桓帝朝太尉，仅以世系见称。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

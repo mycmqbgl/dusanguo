@@ -1,0 +1,29 @@
+{
+ "id": "qin_ming",
+ "name": "秦明",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "秦明，曹魏武将，秦朗之弟。文拜告曰：此实秦朗之弟秦明也。",
+ "bio": "。第 102 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "秦朗之弟",
+   "basis": "第102回秦朗之弟秦明诈降蜀军，为孔明识破。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

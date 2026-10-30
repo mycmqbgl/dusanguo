@@ -1,0 +1,70 @@
+{
+ "id": "han_xi",
+ "name": "韩暹",
+ "courtesy": null,
+ "display_aliases": [
+  "大将军"
+ ],
+ "birth": null,
+ "death": 197,
+ "date_precision": "approx",
+ "date_note": "演义第十七回（197）与杨奉同为刘备诱杀；史载同年。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "reviewed",
+ "summary": "韩暹，群雄武将，白波贼帅。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+ "bio": "韩暹，河东人，白波贼帅，李乐同党。护献帝东归至洛阳，暹自恃功拜大将军，专权乱政、董承不能制，遂密召曹操。操入朝，暹惧而出走，投袁术，后从吕布与术战。终与杨奉同被刘备诱杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 195,
+   "title": "白波贼帅",
+   "basis": "白波贼出身。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 196,
+   "title": "大将军",
+   "basis": "护驾至洛阳拜大将军，专权。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 197,
+   "title": "投袁术、从吕布",
+   "basis": "惧操出走，从吕布击袁术。",
+   "confidence": 0.7,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "护驾东归",
+   "description": "白波帅护献帝东归。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "拜大将军专权",
+   "description": "至洛阳专权乱政，董承召曹操制衡，暹惧走。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "为刘备诱杀",
+   "description": "从吕布击袁术后被刘备诱杀。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 21
+}

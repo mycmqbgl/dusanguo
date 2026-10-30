@@ -1,0 +1,29 @@
+{
+ "id": "chen_shi_2",
+ "name": "陈式",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 71,
+ "review_status": "auto_mined",
+ "summary": "陈式，蜀汉武将，蜀军牙将。与陈式两下夹攻，混杀一阵，张郃败走。",
+ "bio": "第 71 回：一声鼓响，陈式、夏侯尚各望本阵奔回。第 71 回：忠与陈式两下夹攻，混杀一阵，张郃败走。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 231,
+   "title": "蜀军牙将",
+   "basis": "第七十一回原文：正欲回时，背后夏侯渊引兵突出，陈式不能抵当，被夏侯渊生擒回寨。 职任「蜀军牙将」据此；★任期按末见回目收敛：全书最后一次提及在第 100 回（231 年），原 219—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 24
+}

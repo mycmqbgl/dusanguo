@@ -1,0 +1,29 @@
+{
+ "id": "ge_yong",
+ "name": "葛雍",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "auto_mined",
+ "summary": "葛雍，曹魏武将，先锋。与邓艾相遇，俭令葛雍出马，与艾交锋，不一合，被艾一刀斩之，引兵杀过阵来。",
+ "bio": "官职「先锋」据原文上下文提取。原文第 110 回相关片段：「说毌丘俭在项城，闻知司马师自来，乃聚众商议。先锋葛雍曰：“南顿之地，依山傍水，极好屯兵；若魏兵先占，」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "先锋",
+   "basis": "第110回毌丘俭聚众商议，先锋葛雍献策先取南顿。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,36 @@
+{
+ "id": "cheng_yuan_zhi",
+ "name": "程远志",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": 184,
+ "date_precision": "approx",
+ "date_note": "卒于中平元年（184），大兴山之战被关羽斩杀。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "程远志，群雄武将，黄巾贼将。程远志大怒，遣副将邓茂出战。",
+ "bio": "程远志，黄巾贼将。中平元年统兵五万来犯涿郡，大兴山下与刘关张五百乡勇相对。遣副将邓茂出战，邓茂死后拍马舞刀直取张飞，被云长舞动大刀迎住，措手不及，挥为两段。部众遂倒戈而走。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄巾贼将",
+   "basis": "黄巾军渠帅。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "大兴山被斩",
+   "description": "直取张飞时被关羽挥为两段。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 5
+}

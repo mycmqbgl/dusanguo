@@ -1,0 +1,29 @@
+{
+ "id": "hu_cai",
+ "name": "胡才",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "胡才，群雄武将，白波帅。第 13 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 13 回相关片段：「和，一面密传圣旨往河东，急召故白波帅韩暹、李乐、胡才三处军兵前来救应。那李乐亦是啸聚山林之贼，今不得」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 229,
+   "title": "白波帅",
+   "basis": "第13回密传圣旨往河东，急召故白波帅韩暹、李乐、胡才三处军兵前来救应。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

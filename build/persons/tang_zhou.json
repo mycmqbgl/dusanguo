@@ -1,0 +1,29 @@
+{
+ "id": "tang_zhou",
+ "name": "唐周",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "唐周，群雄武将，张角弟子，反叛。第 1 回一笔带过，事迹仅存其名。",
+ "bio": "。第 1 回：一面使弟子唐周，驰书报封谞。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "张角弟子，反叛",
+   "basis": "第一回原文：一面使弟子唐周，驰书报封谞。 职任「张角弟子，反叛」据此；★任期按末见回目收敛：全书最后一次提及在第 1 回（184 年），原 184—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

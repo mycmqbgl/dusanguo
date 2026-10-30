@@ -1,0 +1,31 @@
+{
+ "id": "sun_ba",
+ "name": "孙霸",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "孙霸（正史人物，演义未载）：孙霸为孙权四子，封鲁王，二宫之争败死。演义未载。",
+ "bio": "《三国志·吴书·孙霸传》：孙霸为孙权四子，封鲁王，二宫之争败死。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "亲族",
+   "start_year": 242,
+   "end_year": 280,
+   "title": "孙权第四子，鲁王",
+   "basis": "《三国志·吴书·孙霸传》：孙霸为孙权四子，封鲁王，二宫之争败死。演义未载。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

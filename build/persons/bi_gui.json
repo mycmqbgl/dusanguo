@@ -1,0 +1,29 @@
+{
+ "id": "bi_gui",
+ "name": "毕轨",
+ "courtesy": "昭先",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "毕轨，字昭先，魏司隶校尉，与李丰等谋诛司马师事泄被杀。",
+ "bio": "毕轨，字昭先，魏司隶校尉，与何晏、邓飏、李胜、丁谧并称「浮华友」。嘉平六年（254）与李丰、夏侯玄等谋诛司马师，事泄被夷三族。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "司隶校尉",
+   "basis": "第106回曹爽门下五客：何晏、邓飏、李胜、丁谧、毕轨，以浮华相尚。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

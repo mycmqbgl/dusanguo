@@ -1,0 +1,29 @@
+{
+ "id": "fa_zhen",
+ "name": "法真",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "auto_mined",
+ "summary": "法真，东汉人物，扶风名士。第 60 回一笔带过，事迹仅存其名。",
+ "bio": "第 60 回：「正字孝直，右扶风郿人也，贤士法真之子」。原文第 60 回相关片段：「益州，先见友人法正。正字孝直，右扶风郿人也，贤士法真之子。松见正，备说曹操轻贤傲士，只可同忧，不可同」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 211,
+   "title": "扶风名士（法正祖父）",
+   "basis": "第 60 回：「正字孝直，右扶风郿人也，贤士法真之子」。 归汉廷名士（非割据势力），其活动早于群雄并起，故不系于群雄阵营。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—196 年内被称引之时。）",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

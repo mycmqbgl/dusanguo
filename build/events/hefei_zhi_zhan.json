@@ -1,0 +1,66 @@
+{
+ "id": "hefei_zhi_zhan",
+ "name": "合肥之战·甘宁百骑劫营",
+ "kind": "战役",
+ "start_year": 208,
+ "end_year": 208,
+ "date_text": "建安十三年（208）末至十四年",
+ "summary": "孙权攻合肥，张辽李典乐进出战。太史慈中箭而亡，甘宁领百骑夜劫曹营无一折损，威震曹军。",
+ "detail": "孙权乘赤壁之威攻合肥，张辽、李典、乐进守之。凌统与甘宁争功，各领兵出战。乐进一箭射中权盖，凌统救主。太史慈夜袭中张辽之伏，箭伤而亡（演义），孙权大哭。操遣兵来援，甘宁请百骑夜劫曹营，杀入寨中斩将夺旗，百骑无一折损，全师而还，权叹「孟德有张辽，孤有甘兴霸，足相敌也」。",
+ "place_id": "he_fei",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sun_quan",
+   "role_desc": "亲统大军攻合肥，中箭被救"
+  },
+  {
+   "person_id": "gan_ning",
+   "role_desc": "百骑劫曹营，无一折损"
+  },
+  {
+   "person_id": "ling_tong",
+   "role_desc": "与甘宁争功，救权中箭"
+  },
+  {
+   "person_id": "taishi_ci",
+   "role_desc": "夜袭中伏，箭伤而亡"
+  },
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "南郡牵制曹仁，未亲征（演义背景）"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "遣兵援合肥（演义背景）"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "合淝攻城",
+   "description": "权攻合肥，张辽李典乐进守城。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "慈殒辽伏",
+   "description": "太史慈夜袭中伏，箭伤而亡。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "百骑劫营",
+   "description": "甘宁领百骑劫曹营全师而返。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [
+  "hefei_battle"
+ ],
+ "passage_ids": [
+  53013,
+  53014,
+  53013
+ ]
+}

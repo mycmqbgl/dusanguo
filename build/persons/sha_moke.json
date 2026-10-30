@@ -1,0 +1,53 @@
+{
+ "id": "sha_moke",
+ "name": "沙摩柯",
+ "courtesy": null,
+ "display_aliases": [
+  "武陵蛮王",
+  "五溪蛮首领"
+ ],
+ "birth": null,
+ "death": 222,
+ "date_precision": "exact",
+ "date_note": "卒于蜀章武二年（222）猇亭之败，为周泰所斩。史载五溪蛮遣使助备，沙摩柯之名出演义；生年无载。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "reviewed",
+ "summary": "沙摩柯，五溪番王。夷陵之战助刘备攻吴，兵败死于乱军。",
+ "bio": "沙摩柯，五溪番王。第83回刘备伐吴，遣使结五溪诸蛮，番王沙摩柯引番兵数万来助，面如噀血，碧眼突出，使一个铁蒺藜骨朵，腰带两张弓。夷陵之战蜀军大败，沙摩柯死于乱军之中。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 221,
+   "end_year": 222,
+   "title": "番王（五溪番王）",
+   "lord_id": "liu_bei",
+   "basis": "第83回：五溪番王沙摩柯，引番兵数万来助先主。番王者，一族之主。",
+   "confidence": 0.85,
+   "review_status": "reviewed",
+   "_role_orig": "番兵统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 221,
+   "title": "结盟助战",
+   "description": "马良赍金帛入五溪，沙摩柯率蛮兵万余助刘备伐吴。",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "射死甘宁",
+   "description": "甘宁抱病迎战，柯一箭中其头颅，宁带箭死于富池口。",
+   "importance": 2
+  },
+  {
+   "year": 222,
+   "title": "猇亭殒命",
+   "description": "陆逊火烧连营，柯奔走遇周泰，战二十余合被斩。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 6
+}

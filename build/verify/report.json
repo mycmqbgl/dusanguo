@@ -1,0 +1,889 @@
+{
+ "time": "2026-10-30 15:13:48",
+ "total": 147,
+ "failed": 0,
+ "items": [
+  {
+   "kind": "data",
+   "name": "产物存在 build/book.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "产物存在 build/places.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "产物存在 build/power.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "产物存在 data/geo-real.json",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "回目连续（120 回）",
+   "ok": true,
+   "detail": "首 1 末 120"
+  },
+  {
+   "kind": "data",
+   "name": "人物卡（1171 张）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "事件（73 个）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "锚点实体可解析（31856 条）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "锚点区间合法",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "自动建档任期不晚于末见回目（0 片超限）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "简介职任段阵营与本片归属一致（0 条不符）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "地名均有像素坐标（454 个）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "战役节点坐标完整（39 场 / 187 节点）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "战役父事件存在",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "大势年份逐年展开（97 年）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "大势覆盖 184–280（28 快照）",
+   "ok": true,
+   "detail": "184..280"
+  },
+  {
+   "kind": "data",
+   "name": "大势势力数 = 42",
+   "ok": true,
+   "detail": "实际 42"
+  },
+  {
+   "kind": "data",
+   "name": "每快照 123 郡恰一主",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "十三州注记锚点",
+   "ok": true,
+   "detail": "实际 13"
+  },
+  {
+   "kind": "data",
+   "name": "势力注记锚点与归属一一对应",
+   "ok": true,
+   "detail": "[]"
+  },
+  {
+   "kind": "build",
+   "name": "reader.html 内联大势数据（非 null）",
+   "ok": true,
+   "detail": "28 快照 / 42 势力"
+  },
+  {
+   "kind": "data",
+   "name": "州界闭合（13 州）",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "州界无自交",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "data",
+   "name": "汉县点位（345 个）",
+   "ok": true,
+   "detail": "治所 101 / 县 244"
+  },
+  {
+   "kind": "code",
+   "name": "内核文件存在 app/map_core.js",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "code",
+   "name": "内核头部说明完整",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "code",
+   "name": "map_test.html 内联内核",
+   "ok": true,
+   "detail": "长度 24975"
+  },
+  {
+   "kind": "code",
+   "name": "map_test.html 无重复底图实现",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "code",
+   "name": "reader.html 内联内核",
+   "ok": true,
+   "detail": "长度 24975"
+  },
+  {
+   "kind": "code",
+   "name": "reader.html 无重复底图实现",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "code",
+   "name": "两页内核逐字节相同",
+   "ok": true,
+   "detail": "832a2ea03eb2 / 832a2ea03eb2"
+  },
+  {
+   "kind": "page",
+   "name": "map_full",
+   "ok": true,
+   "detail": "0.6s"
+  },
+  {
+   "kind": "page",
+   "name": "map_full · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_full",
+   "ok": true,
+   "detail": "ink 98.0% · 1638KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_full",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_place",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_place · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_place",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_place",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_county",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_county · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_county",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_county",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch7",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch7 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_battle_ch7",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_battle_ch7",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch15",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch15 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_battle_ch15",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_battle_ch15",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch30",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch30 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_battle_ch30",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_battle_ch30",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch40",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch40 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_battle_ch40",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_battle_ch40",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch45",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch45 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_battle_ch45",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_battle_ch45",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch58",
+   "ok": true,
+   "detail": "0.5s"
+  },
+  {
+   "kind": "page",
+   "name": "map_battle_ch58 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "map_battle_ch58",
+   "ok": true,
+   "detail": "ink 97.4% · 1148KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "map_battle_ch58",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_last",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_last · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_last",
+   "ok": true,
+   "detail": "ink 66.4% · 838KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_last",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch7",
+   "ok": true,
+   "detail": "2.2s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch7 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_battle_ch7",
+   "ok": true,
+   "detail": "ink 67.7% · 910KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_battle_ch7",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch15",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch15 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_battle_ch15",
+   "ok": true,
+   "detail": "ink 67.7% · 910KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_battle_ch15",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch30",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch30 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_battle_ch30",
+   "ok": true,
+   "detail": "ink 67.7% · 910KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_battle_ch30",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch40",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch40 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_battle_ch40",
+   "ok": true,
+   "detail": "ink 67.7% · 910KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_battle_ch40",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch45",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch45 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_battle_ch45",
+   "ok": true,
+   "detail": "ink 67.7% · 910KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_battle_ch45",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch58",
+   "ok": true,
+   "detail": "2.2s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_battle_ch58 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_battle_ch58",
+   "ok": true,
+   "detail": "ink 67.7% · 910KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_battle_ch58",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_persons",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_persons · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_persons",
+   "ok": true,
+   "detail": "ink 78.1% · 1012KB · 0.9s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_persons",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_places",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_places · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_places",
+   "ok": true,
+   "detail": "ink 84.9% · 1183KB · 1.0s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_places",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power190",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power190 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_power190",
+   "ok": true,
+   "detail": "ink 81.1% · 984KB · 0.9s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_power190",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power200",
+   "ok": true,
+   "detail": "2.9s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power200 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_power200",
+   "ok": true,
+   "detail": "ink 80.8% · 972KB · 0.9s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_power200",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power184",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power184 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_power184",
+   "ok": true,
+   "detail": "ink 80.4% · 957KB · 0.9s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_power184",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power280",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_power280 · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_power280",
+   "ok": true,
+   "detail": "ink 79.8% · 895KB · 0.9s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_power280",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_events",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_events · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_events",
+   "ok": true,
+   "detail": "ink 52.6% · 349KB · 0.7s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_events",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_placecard",
+   "ok": true,
+   "detail": "2.1s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_placecard · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_placecard",
+   "ok": true,
+   "detail": "ink 79.3% · 926KB · 1.0s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_placecard",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_conflict",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_conflict · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_conflict",
+   "ok": true,
+   "detail": "ink 68.8% · 648KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_conflict",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_no_conflict",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_no_conflict · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_no_conflict",
+   "ok": true,
+   "detail": "ink 66.8% · 616KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_no_conflict",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_life_dates",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_life_dates · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_life_dates",
+   "ok": true,
+   "detail": "ink 69.0% · 647KB · 0.8s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_life_dates",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_graph",
+   "ok": true,
+   "detail": "2.5s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_graph · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_graph",
+   "ok": true,
+   "detail": "ink 48.7% · 794KB · 1.4s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_graph",
+   "ok": true,
+   "detail": "diff 0.000%"
+  },
+  {
+   "kind": "page",
+   "name": "reader_weak",
+   "ok": true,
+   "detail": "2.0s"
+  },
+  {
+   "kind": "page",
+   "name": "reader_weak · 关键内容",
+   "ok": true,
+   "detail": ""
+  },
+  {
+   "kind": "shot",
+   "name": "reader_weak",
+   "ok": true,
+   "detail": "ink 67.7% · 879KB · 0.9s"
+  },
+  {
+   "kind": "baseline",
+   "name": "reader_weak",
+   "ok": true,
+   "detail": "diff 0.000%"
+  }
+ ]
+}

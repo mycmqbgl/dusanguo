@@ -1,0 +1,36 @@
+{
+ "id": "zhou_zhi",
+ "name": "周旨",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "周旨，西晋武将，牙将。急欲退时，被周旨大喝一声，斩于马下。",
+ "bio": "。第 120 回：「晋都督杜预……令牙将周旨：引水手八百人」。原文第 120 回相关片段：「却说晋都督杜预，兵出江陵，令牙将周旨：引水手八百人，乘小舟暗渡长江，夜袭乐乡，多立旌」。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "牙将",
+   "basis": "第 120 回：「晋都督杜预……令牙将周旨：引水手八百人」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 280,
+   "title": "第 120 回",
+   "description": "急欲退时，被周旨大喝一声，斩于马下",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

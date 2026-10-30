@@ -1,0 +1,84 @@
+{
+ "id": "jiamengguan_battle",
+ "name": "葭萌关之战",
+ "year": 214,
+ "date_text": "建安十九年（214）",
+ "place_id": "jia_meng_guan",
+ "event_id": "jiamengguan_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "蜀军（刘备）",
+   "faction_ids": [
+    "shu"
+   ],
+   "commanders": [
+    "zhang_fei",
+    "liu_bei",
+    "wei_yan"
+   ],
+   "troops_desc": "张飞单搦马超，孔明用反间计策反李恢说降"
+  },
+  {
+   "side": "西凉军（马超）",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "ma_chao",
+    "ma_dai"
+   ],
+   "troops_desc": "马超助刘璋攻葭萌关，兵败退走"
+  }
+ ],
+ "result": "两军酣战不分胜负，孔明行反间计，李恢说降马超，超遂归刘备。",
+ "casualties_note": "马超军粮尽援绝；蜀军无损大将。",
+ "summary": "张飞夜战马超二百余合不分胜负，孔明使反间计，李恢入羌中说降马超，超转攻成都。",
+ "detail": "马超投张鲁后请兵攻葭萌关以报刘璋。孔明用计激张飞出战，飞与超自午后战至夜，点添灯火续战二百余合不分胜负。备叹：真虎将也！孔明知鲁肃多谋、张鲁多疑，行反间计使张鲁疑超，进退维谷；李恢自请入中说超，陈利害，超遂倒戈，引兵助备围成都。",
+ "front_line": [
+  {
+   "time": 214,
+   "time_seq": 1,
+   "kind": "驰援",
+   "label": "魏延先至",
+   "desc": "魏延先率五百骑哨探，中马岱暗箭，岱误杀韩遂部将反为延所诱退。",
+   "lng": 105.64,
+   "lat": 32.32,
+   "pixel_x": 468.2,
+   "pixel_y": 539.1
+  },
+  {
+   "time": 214,
+   "time_seq": 2,
+   "kind": "单挑",
+   "label": "飞战马超",
+   "desc": "张飞与马超自午后酣战至夜，二百余合不分胜负。",
+   "lng": 105.64,
+   "lat": 32.32,
+   "pixel_x": 468.2,
+   "pixel_y": 539.1
+  },
+  {
+   "time": 214,
+   "time_seq": 3,
+   "kind": "夜战",
+   "label": "添灯再战",
+   "desc": "备怜飞，飞不肯休，两军添灯夜战又数十合，各有防备。",
+   "lng": 105.7,
+   "lat": 32.36,
+   "pixel_x": 470.5,
+   "pixel_y": 537.2
+  },
+  {
+   "time": 214,
+   "time_seq": 4,
+   "kind": "归降",
+   "label": "李恢说超",
+   "desc": "孔明反间使张鲁疑超，李恢入中说降，马超归刘。",
+   "lng": 105.5,
+   "lat": 32.2,
+   "pixel_x": 462.6,
+   "pixel_y": 544.6
+  }
+ ],
+ "place_name": "葭萌关"
+}

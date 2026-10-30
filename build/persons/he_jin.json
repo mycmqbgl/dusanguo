@@ -1,0 +1,45 @@
+{
+ "id": "he_jin",
+ "name": "何进",
+ "courtesy": "遂高",
+ "display_aliases": [
+  "大将军何进",
+  "何国舅"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "卒于中平六年（189）八月，为中常侍张让等所杀；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "何进，东汉权臣，大将军。召大将军何进调兵擒马元义，斩之；次收封谞等一干人下狱。",
+ "bio": "何进字遂高，南阳宛人，何太后异母兄，本屠家出身。黄巾起，拜大将军总镇京师：先是调兵擒斩内应马元义，收封谞等下狱；又奏帝火速降诏，令各处备御，遣卢植、皇甫嵩、朱儁分三路讨贼——第一回整个讨黄巾的军事部署都出自他的调度。灵帝崩（189），与袁绍谋诛十常侍，反为张让等先发所杀（第三回）。其死直接引发袁绍尽诛宦官、董卓入京，天下自此大乱。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "权臣",
+   "start_year": 184,
+   "end_year": 189,
+   "title": "大将军",
+   "basis": "外戚拜大将军总镇京师、主持朝政逾年，命中 A 组判据（任大将军+主持朝政≥1年）。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "擒马元义",
+   "description": "唐周告变后调兵擒斩黄巾内应马元义。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "降诏讨贼",
+   "description": "奏帝火速降诏，遣三路中郎将讨黄巾。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 48
+}

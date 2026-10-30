@@ -1,0 +1,29 @@
+{
+ "id": "wang_mou",
+ "name": "王谋",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，仅见 221 年（第 80 回）劝进一事。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "王谋，蜀汉少府。建安二十六年与许慈、孟光等群臣劝进刘备称帝。",
+ "bio": "第80回刘备既定汉中，群臣劝进，列名者中有「少府王谋、昭文博士伊籍、从事郎秦宓等」，与诸葛亮、许靖同请汉中王即皇帝位，是为昭烈帝。其余事迹无考。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 221,
+   "end_year": 221,
+   "title": "少府",
+   "basis": "第80回：……少府王谋、昭文博士伊籍、从事郎秦宓等众也。（劝进刘备称帝的蜀汉群臣之一）",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

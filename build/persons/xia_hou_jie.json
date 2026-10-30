@@ -1,0 +1,29 @@
+{
+ "id": "xia_hou_jie",
+ "name": "夏侯杰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 42,
+ "review_status": "auto_mined",
+ "summary": "夏侯杰，曹魏武将，魏将。喊声未绝，曹操身边夏侯杰惊得肝胆碎裂，倒撞于马下。",
+ "bio": "第 42 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "魏将",
+   "basis": "第四十二回原文：喊声未绝，曹操身边夏侯杰惊得肝胆碎裂，倒撞于马下。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 42 回（208 年），原 208—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

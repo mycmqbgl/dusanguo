@@ -1,0 +1,65 @@
+{
+ "id": "meng_huo",
+ "name": "孟获",
+ "courtesy": null,
+ "display_aliases": [
+  "南蛮王",
+  "银坑洞主"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "史仅《汉晋春秋》一言亮七纵七擒获，卒年无载。",
+ "gender": "male",
+ "first_chapter": 85,
+ "review_status": "reviewed",
+ "summary": "孟获，南蛮王，诸葛亮南征七擒七纵，遂归服。",
+ "bio": "为诸蛮所服。建兴三年（225）雍闿反，孟获继之，诸葛亮南征，采马谡「攻心为上」之策，七擒七纵，获曰「丞相天威，南人不复反矣」，遂归服。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 223,
+   "end_year": 225,
+   "title": "南蛮王",
+   "lord_id": null,
+   "basis": "建兴元年受魏赂起蛮兵十万犯境，建兴三年为亮七擒而服。",
+   "confidence": 0.85,
+   "review_status": "reviewed",
+   "_role_orig": "蛮王"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 234,
+   "title": "南蛮王",
+   "lord_id": "liu_shan",
+   "basis": "降蜀后为洞主，非蜀汉主公，官职不明，依规则默认武将。",
+   "confidence": 0.6,
+   "review_status": "reviewed",
+   "_role_orig": "羁縻洞主"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 223,
+   "title": "起兵犯境",
+   "description": "受魏使赂，起蛮兵十万攻益州永昌牂牁越嶲四郡（演义系年）。",
+   "importance": 2
+  },
+  {
+   "year": 225,
+   "title": "七擒七纵",
+   "description": "亮南征，六番被擒皆不服，第七番盘蛇谷藤甲尽焚后肉袒谢罪。",
+   "importance": 3
+  },
+  {
+   "year": 225,
+   "title": "永为洞主",
+   "description": "心服归降，亮不留兵不运粮，与之相安，蛮方感德立祠。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 195
+}

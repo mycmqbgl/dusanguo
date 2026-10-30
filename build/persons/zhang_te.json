@@ -1,0 +1,36 @@
+{
+ "id": "zhang_te",
+ "name": "张特",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "张特，曹魏武将，牙门将军。来张特用缓兵之计，哄退吴兵，遂拆城中房屋，于破城处修补完备，乃登城大骂曰：吾城中尚有半年之粮，岂肯降吴狗耶。",
+ "bio": "。第 108 回：守城牙门将军张特，见吴兵大至，闭门坚守。第 108 回：张特用缓兵之计，哄退吴兵，遂拆城中房屋，于破城处修补完备，乃登城大骂曰：吾城中尚有半年之粮，岂肯降吴…。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "牙门将军",
+   "basis": "第108回守城牙门将军张特见吴兵大至，闭门坚守新城。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 241,
+   "title": "第 108 回",
+   "description": "城牙门将军张特，见吴兵大至，闭门坚守",
+   "importance": 1
+  }
+ ],
+ "mention_count": 3
+}

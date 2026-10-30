@@ -1,0 +1,33 @@
+{
+ "id": "zhang_hou",
+ "name": "张后",
+ "courtesy": null,
+ "display_aliases": [
+  "张皇后",
+  "刘禅皇后"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "张后，蜀汉后主刘禅皇后，张飞之女。其姊先为刘禅太子妃早卒，后以妹继之，蜀亡后随刘禅迁洛阳。",
+ "bio": "张氏，车骑将军张飞之女。建兴十五年（237）入为太子刘璿妃，后立为皇后。其姊曾为刘禅妃，早卒，故以妹继之，前后皆为后。炎兴元年（263）蜀亡，随刘禅东迁洛阳。演义第一百九回提及刘禅立张后，第一百十八回蜀亡时不再着墨。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 249,
+   "end_year": 249,
+   "title": "张后，刘禅皇后",
+   "basis": "第一百零九回原文：芳大哭求免，师不从，叱左右将张后捉出，至东华门内，用白练绞死。 职任「张后，刘禅皇后」据此；★任期按末见回目收敛：全书最后一次提及在第 109 回（249 年），原 249—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "homonym_note": "蜀汉张后（刘禅皇后，张飞之女），与曹魏张皇后（张缉之女，曹芳皇后）同名异人。",
+ "mention_count": 1
+}

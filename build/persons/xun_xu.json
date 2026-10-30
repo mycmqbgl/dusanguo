@@ -1,0 +1,33 @@
+{
+ "id": "xun_xu",
+ "name": "荀勖",
+ "courtesy": null,
+ "display_aliases": [
+  "荀勗"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "荀勖（正史人物，演义未载）：荀勖为荀爽曾孙，仕魏为从事中郎，入晋官至中书监。演义未载。",
+ "bio": "《晋书·荀勖传》：荀勖为荀爽曾孙，仕魏为从事中郎，入晋官至中书监。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 266,
+   "title": "魏从事中郎",
+   "basis": "原文未见此人；职任「魏从事中郎」据史传补，待核。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

@@ -1,0 +1,200 @@
+{
+ "source": "persons_ch004_010_a.json",
+ "total": 25,
+ "passed": 25,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 3,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "gongsun_zan",
+   "name": "公孙瓒",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "tao_qian",
+   "name": "陶谦",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "liu_biao",
+   "name": "刘表",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ma_teng",
+   "name": "马腾",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "han_sui",
+   "name": "韩遂",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "han_fu",
+   "name": "韩馥",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "kong_rong",
+   "name": "孔融",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_miao",
+   "name": "张邈",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wang_kuang",
+   "name": "王匡",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "bao_xin",
+   "name": "鲍信",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_yang",
+   "name": "张杨",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yuan_yi",
+   "name": "袁遗",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "qiao_mao",
+   "name": "乔瑁",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "190 年有 3 条节点（建议 ≤2）"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 135 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "li_jue",
+   "name": "李傕",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "guo_si",
+   "name": "郭汜",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_ji",
+   "name": "张济",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "fan_chou",
+   "name": "樊稠",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "hua_xiong",
+   "name": "华雄",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "190 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "xu_rong",
+   "name": "徐荣",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "jia_xu",
+   "name": "贾诩",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yan_liang",
+   "name": "颜良",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wen_chou",
+   "name": "文丑",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "qu_yi",
+   "name": "麴义",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "tian_feng",
+   "name": "田丰",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ju_shou",
+   "name": "沮授",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  }
+ ]
+}

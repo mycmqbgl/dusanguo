@@ -1,0 +1,29 @@
+{
+ "id": "lv_tong",
+ "name": "吕通",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 48,
+ "review_status": "auto_mined",
+ "summary": "吕通，曹魏武将，水军将。第 48 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 48 回相关片段：「军红旗张郃，后军皂旗吕虔，左军青旗文聘，右军白旗吕通；马步前军红旗徐晃，后军皂旗李典，左军青旗乐进，」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "水军将",
+   "basis": "第48回曹操水军五色旗号：右军白旗吕通，与毛玠、于禁等同列。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

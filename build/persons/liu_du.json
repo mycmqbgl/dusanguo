@@ -1,0 +1,42 @@
+{
+ "id": "liu_du",
+ "name": "刘度",
+ "courtesy": null,
+ "display_aliases": [
+  "零陵太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "刘度，群雄文臣，零陵太守。刘度遂命刘贤与邢道荣引兵万余，离城三十里，依山靠水下寨。",
+ "bio": "刘度，荆南零陵太守。刘备南征四郡，度闻孔明亲至，遣其子刘贤与上将邢道荣率兵万余出城迎敌。邢道荣为赵云所斩（演义作张飞刺死？实为赵云），刘贤被擒，放回传书劝降，度遂举零陵郡降刘备，仍为郡守。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "零陵太守",
+   "basis": "荆南四郡之一；209 年降刘备（演义）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 209,
+   "end_year": 215,
+   "title": "零陵太守",
+   "lord_id": "liu_bei",
+   "basis": "降后仍守零陵，至 215 年湘水划界荆南归吴。",
+   "confidence": 0.6,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

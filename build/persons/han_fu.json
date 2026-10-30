@@ -1,0 +1,58 @@
+{
+ "id": "han_fu",
+ "name": "韩馥",
+ "courtesy": "文节",
+ "display_aliases": [
+  "冀州牧",
+  "冀州刺史"
+ ],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平二年（191）后不久。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "韩馥，群雄君主，御史中丞、冀州牧。韩馥即差别驾关纯去请袁绍。",
+ "bio": "韩馥字文节，颍川人。为御史中丞，董卓举为冀州牧。讨董时列第二镇，然屯兵河内，名为诸侯而实供袁绍军粮。袁绍用逢纪之谋，暗结公孙瓒使攻冀州，馥聚荀谌、辛评商议，二人皆劝让州于袁绍。长史耿武谏曰「譬犹乳虎在山，饥则噬人」，馥不听，遂迎袁绍入冀州。绍以馥为奋威将军，以田丰、沮授、许攸、逢纪分掌州事，尽夺其权。馥弃家小匹马投陈留太守张邈。后绍遣使至邈处，使者与邈耳语，馥以为图己，起入厕中以书刀自杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "御史中丞、冀州牧",
+   "basis": "以州牧据冀州，然无独立军事集团，以谋略内政为主，按职责归文臣；191 年失州。",
+   "confidence": 0.85,
+   "review_status": "reviewed",
+   "_role_patched": "由「下属数」证据升级"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "出为冀州牧",
+   "description": "由御史中丞出为冀州牧，据钱粮广盛之地。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "列第二镇",
+   "description": "起兵讨董，然屯兵河内，供袁绍军粮。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "让冀州",
+   "description": "不听耿武之谏，迎袁绍入冀州，尽失其权。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "自杀",
+   "description": "弃家小投张邈，疑袁绍使者图己，入厕以书刀自杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 9
+}

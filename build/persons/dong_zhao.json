@@ -1,0 +1,74 @@
+{
+ "id": "dong_zhao",
+ "name": "董昭",
+ "courtesy": "公仁",
+ "display_aliases": [
+  "司徒",
+  "乐平侯"
+ ],
+ "birth": 156,
+ "death": 236,
+ "date_precision": "exact",
+ "date_note": "史载青龙四年（236）卒，年八十一。",
+ "gender": "male",
+ "first_chapter": 14,
+ "review_status": "reviewed",
+ "summary": "董昭，群雄文臣，袁绍参军、张杨司马。司徒有七宝刀一口，愿借与操入相府刺杀之，虽死不恨。",
+ "bio": "董昭字公仁，济阴定陶人。初为袁绍参军，后为张杨司马。天子在河东，昭以曹操忠义，说杨奉遣使通操；又以曹操名义作书与杨奉，使操得迎天子至洛阳。至洛阳，昭献「移驾幸许都」之策——「留洛阳则不顺，幸许都则奉天子以讨不臣」。后随操征伐，劝进之功居首。魏文帝时累迁至司徒，封乐平侯。年八十一卒。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 196,
+   "title": "袁绍参军、张杨司马",
+   "lord_id": "zhang_yang",
+   "basis": "先后仕袁绍、张杨。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 236,
+   "title": "议郎、谏议大夫、侍中、司徒、乐平侯",
+   "basis": "196 年归于曹操，献迁都之策。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "仕袁绍",
+   "description": "为袁绍参军，后投张杨。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "通使曹操",
+   "description": "说杨奉遣使通曹操，为迎驾铺路。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "献迁都之策",
+   "description": "洛阳城中献「移驾幸许都」，操大喜。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "劝进第一",
+   "description": "曹丕代汉，昭为劝进之首，累迁司徒。",
+   "importance": 2
+  },
+  {
+   "year": 236,
+   "title": "卒",
+   "description": "年八十一卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 8
+}

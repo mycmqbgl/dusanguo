@@ -1,0 +1,29 @@
+{
+ "id": "zhang_yi_4",
+ "name": "张顗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "张顗，群雄武将，先锋。第 32 回一笔带过，事迹仅存其名。",
+ "bio": "官职「先锋」据原文上下文提取。原文第 32 回相关片段：「后破曹。”袁尚大喜，留审配与陈琳守冀州，使马延、张顗二将为先锋，连夜起兵攻打平原」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 229,
+   "title": "先锋",
+   "basis": "第32回袁尚使马延、张顗二将为先锋，连夜起兵攻打平原。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

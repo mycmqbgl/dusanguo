@@ -1,0 +1,62 @@
+{
+ "id": "sun_liang",
+ "name": "孙亮",
+ "courtesy": "子明",
+ "display_aliases": [
+  "吴少帝",
+  "吴主孙亮"
+ ],
+ "birth": 243,
+ "death": 260,
+ "date_precision": "exact",
+ "date_note": "史载生于赤乌六年（243），吴太平三年（258）被废为会稽王，260 年自杀于侯官。在位 252–258。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "reviewed",
+ "summary": "孙亮，孙权少子，在位六年。太平三年（258）为孙綝所废，降为会稽王。",
+ "bio": "孙亮，字子明，孙权少子，母潘夫人。太元二年即位，年十岁，诸葛恪、孙峻、孙綝相继辅政。太平三年（258）孙綝专权，孙亮与全尚、刘丞谋诛之，事泄，孙綝引兵围内苑，废亮为会稽王，另立琅琊王孙休。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "皇帝",
+   "start_year": 252,
+   "end_year": 258,
+   "title": "孙权少子，吴废帝",
+   "basis": "第113回：吴主孙亮，时年方十六，见綝杀戮太过，心甚不然。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "其他",
+   "start_year": 258,
+   "end_year": 260,
+   "title": "会稽王（废黜后降封）",
+   "basis": "第113回：綝大怒，自拔剑斩之，即入内指吴主孙亮骂曰……看先帝之面，废汝为会稽王。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 252,
+   "title": "权崩即位",
+   "description": "孙权死，亮以太子即位，改元建兴，诸葛恪辅政。",
+   "importance": 3
+  },
+  {
+   "year": 253,
+   "title": "宴诛诸葛恪",
+   "description": "与孙峻合谋，伏兵宫宴杀诸葛恪，夷其族。",
+   "importance": 2
+  },
+  {
+   "year": 258,
+   "title": "被废为会稽王",
+   "description": "谋诛孙綝事泄，反被綝所废，迎立孙休。",
+   "importance": 2
+  }
+ ],
+ "span_post_state": true,
+ "mention_count": 13
+}

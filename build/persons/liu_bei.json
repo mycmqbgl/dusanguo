@@ -1,0 +1,74 @@
+{
+ "id": "liu_bei",
+ "name": "刘备",
+ "courtesy": "玄德",
+ "display_aliases": [
+  "刘玄德",
+  "刘皇叔",
+  "先主"
+ ],
+ "birth": 161,
+ "death": 223,
+ "date_precision": "approx",
+ "date_note": "卒于章武三年四月（223），生年史载为桓帝延熹四年（161），演义称结义时年二十八，与 161 生年相合。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "刘备，群雄君主。玄德从之，即修书令云长同孙乾领五百军往江夏求救；令张飞断后；赵云保护老小；其余俱管顾百姓而行。",
+ "bio": "刘备字玄德，涿郡涿县人。父刘弘早丧，家贫，与母贩屦织席为业。家舍东南有大桑树高五丈余如车盖，玄德幼时戏言「我为天子，当乘此车盖」。年十五，母使游学，尝师事郑玄、卢植，与公孙瓒为友。中平元年黄巾乱起，刘焉出榜招军，玄德见榜慨然长叹，遇张飞、关羽，三人于桃园焚香结为兄弟。聚乡勇五百投邹靖，大兴山之战破程远志，又设伏解青州之围。后闻卢植与张角相拒广宗，引兵往助；归途遇槛车囚卢植，欲救被止；又遇张角杀败董卓，三人冲杀退敌救之。董卓问其职，闻是白身，甚轻之。第一回至此收束——「帝室之胄」与「白身」的反差，正是刘备全书叙事的起点。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 184,
+   "end_year": 221,
+   "title": "义军首领、安喜县尉、平原相、豫州牧、荆州牧、荆州牧、益州牧、汉中王",
+   "basis": "184 年桃园结义自成一系，为群雄之一；208 年取荆南四郡，蜀汉势力形成（de_facto_start=208）。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "皇帝",
+   "start_year": 221,
+   "end_year": 223,
+   "title": "昭烈皇帝",
+   "basis": "221 年称帝于成都，国号汉。",
+   "confidence": 1.0,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "桃园结义",
+   "description": "与关羽、张飞焚香结为兄弟，誓同生死。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "大兴山破敌",
+   "description": "统兵五百破程远志五万黄巾，首战立功。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "解青州之围",
+   "description": "设三路伏兵，夹攻破贼，解青州之围。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "广宗助卢植",
+   "description": "往助业师卢植，归途遇其槛车被征。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "救董卓遭轻",
+   "description": "冲杀退张角军救董卓，卓闻其白身，甚轻之。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 2108
+}

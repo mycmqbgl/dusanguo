@@ -1,0 +1,29 @@
+{
+ "id": "xu_yun",
+ "name": "许允",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "auto_mined",
+ "summary": "许允，群雄武将，蜀偏将军，汉城亭侯。懿乃召许允、陈泰曰：汝去见曹爽，说太傅别无他事，只是削汝兄弟兵权而已。",
+ "bio": "。第 15 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 229,
+   "title": "蜀偏将军，汉城亭侯",
+   "basis": "第十五回原文：策乃亲到其家，与语大悦，力聘之，二人许允。 职任「蜀偏将军，汉城亭侯」据此。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

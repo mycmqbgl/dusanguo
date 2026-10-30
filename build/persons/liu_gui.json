@@ -1,0 +1,39 @@
+{
+ "id": "liu_gui",
+ "name": "刘璝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "auto_mined",
+ "summary": "刘璝，刘璋部将，雒城守将之一。刘备入蜀时力战，城破后退走。",
+ "bio": "刘璝，益州牧刘璋部将。第60回与泠苞、张任、邓贤同谏刘璋勿迎刘备入蜀，璋不听。刘备反攻，刘璝与张任等守雒城，屡拒蜀军，射杀庞统于落凤坡；雒城破，随刘循退走，刘备入成都后归降。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 214,
+   "title": "刘璋部将",
+   "basis": "第六十回：刘璝为刘璋部下将佐，与泠苞、张任、邓贤同谏刘璋防刘备。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "蜀将",
+   "basis": "第六十四回雒城破后随刘循退走，刘备入成都后归降。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 32
+}

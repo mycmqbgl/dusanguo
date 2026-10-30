@@ -1,0 +1,29 @@
+{
+ "id": "mao_jie",
+ "name": "毛玠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "毛玠，曹魏文臣，典农中郎将。毛玠为东曹掾，崔琰为西曹掾，司马懿为文学掾。",
+ "bio": "第 10 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 208,
+   "title": "典农中郎将",
+   "basis": "第十一回原文：操从其言，带曹洪、李典、毛玠、吕虔、于禁、典韦六将，选马步二万人，连夜从小路进发。 职任「典农中郎将」据此；★任期按末见回目收敛：全书最后一次提及在第 50 回（208 年），原 196—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 12
+}

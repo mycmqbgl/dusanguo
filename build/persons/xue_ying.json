@@ -1,0 +1,29 @@
+{
+ "id": "xue_ying",
+ "name": "薛莹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "薛莹，孙吴文臣，光禄勋。书今胡冲、光禄勋薛莹奏曰：陛下何不效安乐公刘禅乎。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "光禄勋",
+   "basis": "第120回晋兵入石头城，孙皓欲自刎，中书令胡冲、光禄勋薛莹奏请效安乐公刘禅。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

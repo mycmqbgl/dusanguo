@@ -1,0 +1,29 @@
+{
+ "id": "gao_xiang",
+ "name": "高翔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "高翔，蜀汉武将，蜀玄都侯。高望之，只见魏延、高翔被魏兵围住，某即杀入重围，救出二将，就同参军并在一处。",
+ "bio": "第 93 回：亏得张翼、高翔两路军杀出，接应回去。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 234,
+   "title": "蜀玄都侯",
+   "basis": "第九十一回原文：右将军——玄都侯高翔。 职任「蜀玄都侯」据此；★任期按末见回目收敛：全书最后一次提及在第 103 回（234 年），原 227—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 22
+}

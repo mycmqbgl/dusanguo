@@ -1,0 +1,29 @@
+{
+ "id": "mao_hou",
+ "name": "毛后",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "毛后，曹魏女眷，曹睿皇后。毛后闻之，心中烦恼，回宫安歇。",
+ "bio": "。第 105 回：毛后大惊，回车至宫，睿即降诏赐毛皇后死，立郭夫人为皇后。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 235,
+   "end_year": 266,
+   "title": "毛后，曹睿皇后",
+   "basis": "第一百零五回原文：毛后见睿月余不入正宫，是日引十余宫人，来翠花楼上消遣，只听的乐声嘹亮，乃问曰：“何处奏乐。 职任「毛后，曹睿皇后」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

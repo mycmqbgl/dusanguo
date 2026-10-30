@@ -1,0 +1,29 @@
+{
+ "id": "teng_xun",
+ "name": "滕循",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "滕循，孙吴文臣，司空。第 120 回一笔带过，事迹仅存其名。",
+ "bio": "。第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "司空",
+   "basis": "第120回吴主孙皓急召丞相张悌、司徒何植、司空滕循计议退兵之策。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

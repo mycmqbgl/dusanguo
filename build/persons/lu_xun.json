@@ -1,0 +1,78 @@
+{
+ "id": "lu_xun",
+ "name": "陆逊",
+ "courtesy": "伯言",
+ "display_aliases": [
+  "吴郡吴人",
+  "东吴大都督",
+  "丞相"
+ ],
+ "birth": 183,
+ "death": 245,
+ "date_precision": "approx",
+ "date_note": "史载卒于赤乌八年（245）。生年据卒年 63 推为 183。《三国志》本传存。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "陆逊，孙吴武将，大都督、辅国将军、荆州牧。陆逊知朕移营，必乘势来击，却令吴班诈败；逊若追来，朕引兵突出，断其归路，小子可擒矣。",
+ "bio": "陆逊字伯言，吴郡吴人，本名议，世江东大族，孙策婿。讨平山越有功，吕蒙荐其才，袭荆州之谋多出其手。刘备伐吴，权拜逊大都督，诸将以其书生不服，逊按剑约束，忍辱负重，坚守不战；待蜀兵移营山林、兵疲意阻，乃顺风纵火，烧连营七百里，大破蜀军于猇亭。追击遇鱼腹浦八阵图之疑，逊料魏必乘虚袭吴，即日班师，果却曹丕三路之兵。后出镇武昌，辅太子，石亭之战大破魏大司马曹休。黄龙元年拜丞相，以二宫之争忧愤而卒，年六十三。演义大略从史，附会八阵图一节为小说家言。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 229,
+   "title": "大都督、辅国将军、荆州牧",
+   "lord_id": "sun_quan",
+   "basis": "夷陵破刘备、石亭破曹休，出镇武昌辅太子。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  },
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 245,
+   "title": "丞相",
+   "lord_id": "sun_quan",
+   "basis": "黄龙元年拜丞相，以二宫之争忧愤卒。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "丞相"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "谋袭荆州",
+   "description": "代吕蒙屯陆口，作书卑辞骄羽，掩取荆州之谋多出其手。",
+   "importance": 3
+  },
+  {
+   "year": 222,
+   "title": "火烧连营",
+   "description": "拜大都督，坚守不战，火烧连营七百里大破刘备于猇亭。",
+   "importance": 3
+  },
+  {
+   "year": 222,
+   "title": "八阵图止步",
+   "description": "追刘备入川口，见鱼腹浦乱石阵杀气冲天而还，随即料魏袭吴班师。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "石亭破曹休",
+   "description": "诱曹休深入，周鲂断发为间，大破魏军于石亭。",
+   "importance": 3
+  },
+  {
+   "year": 244,
+   "title": "拜相忧卒",
+   "description": "官至丞相，卷入二宫之争，为权所责，忧愤而卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 99
+}

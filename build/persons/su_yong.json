@@ -1,0 +1,29 @@
+{
+ "id": "su_yong",
+ "name": "苏颙",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 95,
+ "review_status": "auto_mined",
+ "summary": "苏颙，曹魏武将，先锋。苏颙欣然曰：都督若肯接应，某当生擒赵云。",
+ "bio": "官职「先锋」据原文上下文提取。原文第 95 回相关片段：「却说郭淮提兵再回箕谷道中，唤先锋苏颙分付曰：“蜀将赵云，英勇无敌。汝可小心提防，彼军」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "先锋",
+   "basis": "第95回郭淮唤先锋苏颙分付，令其提防赵云；颙后为云所斩。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

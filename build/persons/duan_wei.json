@@ -1,0 +1,60 @@
+{
+ "id": "duan_wei",
+ "name": "段煨",
+ "courtesy": null,
+ "display_aliases": [
+  "宁辑将军"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详；史载官至大鸿胪后卒（约 200s 初）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "reviewed",
+ "summary": "段煨，群雄武将，宁辑将军。段煨为荡寇将军、伍习为殄虏将军，各引兵镇守长安。",
+ "bio": "段煨，武威姑臧人，贾诩同乡。董卓之乱，煨屯华阴，勤修农事、不掳掠。献帝东归过华阴，煨迎驾献衣粮，与李傕等相攻。后以功拜宁辑将军、大鸿胪，卒于任。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 192,
+   "end_year": 196,
+   "title": "宁辑将军",
+   "basis": "董卓余部屯华阴，护驾东归。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "大鸿胪",
+   "basis": "入朝为大鸿胪。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "屯华阴",
+   "description": "董卓余部屯华阴，修农不掠。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "迎驾献粮",
+   "description": "献帝东归过华阴，煨迎驾献衣粮。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "入朝",
+   "description": "拜宁辑将军，后为大鸿胪。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

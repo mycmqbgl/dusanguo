@@ -1,0 +1,29 @@
+{
+ "id": "li_fu_3",
+ "name": "李服",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 97,
+ "review_status": "auto_mined",
+ "summary": "李服，曹魏武将，魏将。第 97 回一笔带过，事迹仅存其名。",
+ "bio": "第 97 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "魏将",
+   "basis": "第九十七回原文：曹操五攻昌霸不下，四越巢湖不成，任用李服而李服图之，委任夏侯而夏侯败亡，先帝每称操为能，犹有。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 97 回（229 年），原 229—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

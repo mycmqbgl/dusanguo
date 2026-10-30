@@ -1,0 +1,49 @@
+{
+ "id": "xu_gong",
+ "name": "许贡",
+ "display_aliases": [
+  "吴郡太守"
+ ],
+ "birth": null,
+ "death": 199,
+ "date_precision": "exact",
+ "date_note": "建安四年（199）孙策破吴郡后绞杀之。生年不详。其门客后刺杀孙策。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "reviewed",
+ "summary": "许贡，东汉文臣，吴郡太守。是吴郡太守许贡，乃暗遣使赴许都上书于曹操。",
+ "bio": "据郡自守。孙策定江东，攻破吴郡，许贡败走投严白虎；后策破会稽，贡归降被留。建安四年，孙策袭取庐江、败刘勋、驰檄豫章，威震江东，许贡暗遣使赍密表赴许都，言「孙策骁勇，与项籍相似，宜加贵宠，召还京邑；若被诏不得不还，若放于外必作世患」。使者至江边为策军所获，策览书大怒，斩使而绞杀许贡。贡家养三门客欲为主复仇，建安五年，趁孙策猎于丹徒西山，以毒箭刺之，策伤重而亡。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 199,
+   "title": "吴郡太守",
+   "basis": "汉命吴郡太守，据郡自守，败于孙策。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "败于孙策",
+   "description": "孙策定江东攻吴郡，贡败走投严白虎，后归降被留。",
+   "importance": 1
+  },
+  {
+   "year": 199,
+   "title": "密表召策还京",
+   "description": "密表许都言策宜召还京邑，使者为策军所获。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "被绞杀",
+   "description": "孙策览表大怒，绞杀许贡。其门客三人为复仇埋下祸根。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

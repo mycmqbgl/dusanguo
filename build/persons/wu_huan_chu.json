@@ -1,0 +1,29 @@
+{
+ "id": "wu_huan_chu",
+ "name": "乌桓触",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "乌桓触，群雄文臣，幽州刺史。州刺史乌桓触，聚幽州众官，歃血为盟，共议背袁向曹之事。",
+ "bio": "第 33 回：乌桓触先言曰：吾知曹丞相当世英雄，今往投降，有不遵令者斩。第 33 回：乌桓触曰：夫兴大事，当立大义。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 205,
+   "end_year": 229,
+   "title": "幽州刺史",
+   "basis": "第33回幽州刺史乌桓触聚幽州众官，歃血为盟，共议背袁向曹。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

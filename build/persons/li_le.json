@@ -1,0 +1,29 @@
+{
+ "id": "li_le",
+ "name": "李乐",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "李乐，群雄武将，山贼，奉诏救驾，封征东将军。李乐亦是啸聚山林之贼，今不得已而召之。",
+ "bio": "。第 13 回：李乐仗剑立于船头上。第 13 回：李乐、韩暹又连名保奏无徒、部曲、巫医、走卒二百余名，并为校尉、御史等官。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 196,
+   "title": "山贼，奉诏救驾，封征东将军",
+   "basis": "第十三回原文：次日，诏封李乐为征北将军，韩暹为征东将军，起驾前行。 职任「山贼，奉诏救驾，封征东将军」据此；★任期按末见回目收敛：全书最后一次提及在第 14 回（196 年），原 195—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 19
+}

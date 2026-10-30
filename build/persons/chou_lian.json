@@ -1,0 +1,29 @@
+{
+ "id": "chou_lian",
+ "name": "仇连",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "仇连，曹魏武将，右都督。顷，右都督仇连又来告曰：军土苦水，乞太尉移营高处。",
+ "bio": "官职「都督」据原文上下文提取。原文第 106 回相关片段：「？如有再言移营者斩！”裴景喏喏而退。少顷，右都督仇连又来告曰：“军土苦水，乞太尉移营高处。”懿大怒曰」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "右都督",
+   "basis": "第106回司马懿围襄平，右都督仇连告以军士苦水，乞移营高处，懿怒斩之。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

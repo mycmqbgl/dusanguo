@@ -1,0 +1,29 @@
+{
+ "id": "cheng_bing",
+ "name": "程秉",
+ "courtesy": "德枢",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "程秉，孙吴文臣，汝阳人。大夫程秉到此，欲还荆州，送回夫人，永结盟好，共图灭魏，伏候圣旨。",
+ "bio": "第 38 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 222,
+   "title": "汝阳人",
+   "basis": "第三十八回原文：汝阳程秉，字德枢。 职任「汝阳人」据此；★任期按末见回目收敛：全书最后一次提及在第 83 回（222 年），原 208—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

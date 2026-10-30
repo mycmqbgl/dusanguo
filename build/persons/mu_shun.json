@@ -1,0 +1,29 @@
+{
+ "id": "mu_shun",
+ "name": "穆顺",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "auto_mined",
+ "summary": "穆顺，群雄武将，张扬部将。党太守张杨部将穆顺，出马挺枪迎战，被吕布手起一戟，刺于马下。",
+ "bio": "第 5 回：上党太守张杨部将穆顺，出马挺枪迎战，被吕布手起一戟，刺于马下。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 215,
+   "title": "张扬部将",
+   "basis": "第五回原文：上党太守张杨部将穆顺，出马挺枪迎战，被吕布手起一戟，刺于马下。 职任「张扬部将」据此；★任期按末见回目收敛：全书最后一次提及在第 66 回（215 年），原 190—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

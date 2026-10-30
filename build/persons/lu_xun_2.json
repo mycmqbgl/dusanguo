@@ -1,0 +1,29 @@
+{
+ "id": "lu_xun_2",
+ "name": "卢逊",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "卢逊，蜀汉武将，南郑关守将。拨马便回，关上卢逊引五百军杀下来。",
+ "bio": "原文第 116 回相关片段：「奋力抢关。”众将领命，一齐并力向前。原来守关蜀将卢逊，早知魏兵将到，先于关前木桥左右，伏下军士，装起」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "南郑关守将",
+   "basis": "第116回守关蜀将卢逊先于关前木桥左右伏下军士，装起武侯所遗十矢连弩。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

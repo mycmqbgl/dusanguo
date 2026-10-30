@@ -1,0 +1,278 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+P2-C 联动：生成第 51–60 回的 4 组事件 + 2 场战役（data/event_battle_ch051_060.json）。
+约束同 gen_events_p2a.py：passage_ids 解析生成；participants/commanders 仅已建档 id。
+"""
+import json, io, os, sys
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BUILD = os.path.join(ROOT, 'build')
+DATA = os.path.join(ROOT, 'data')
+
+places = {p['id']: p for p in json.load(io.open(os.path.join(BUILD, 'places.json'), encoding='utf-8'))}
+passages, pids = {}, {}
+for f in sorted(os.listdir(os.path.join(BUILD, 'chapters'))):
+    d = json.load(io.open(os.path.join(BUILD, 'chapters', f), encoding='utf-8'))
+    no = d['chapter']['no']
+    for p in d['passages']:
+        passages[(no, p['seq'])] = p['text']
+        pids[(no, p['seq'])] = p['id']
+person_ids = set()
+for f in os.listdir(DATA):
+    if f.startswith('persons_') and f.endswith('.json'):
+        for p in json.load(io.open(os.path.join(DATA, f), encoding='utf-8'))['persons']:
+            person_ids.add(p['id'])
+
+
+def ref(no, kw):
+    hits = [(s, t) for (n, s), t in passages.items() if n == no and kw in t]
+    if not hits:
+        raise SystemExit('出处解析失败：第 %d 回找不到关键词「%s」' % (no, kw))
+    return pids[(no, hits[0][0])]
+
+
+def refs(no, kws):
+    return [ref(no, kw) for kw in kws]
+
+
+def check_persons(obj, *id_fields):
+    for f in id_fields:
+        for item in obj.get(f, []):
+            if isinstance(item, str):
+                pids_ = [item]
+            elif 'commanders' in item:
+                pids_ = item.get('commanders', [])
+            else:
+                pids_ = [item.get('person_id')]
+            for pid_ in pids_:
+                assert pid_ in person_ids, 'person id 未建档: %s (%s)' % (pid_, obj.get('id'))
+
+
+DATA_OUT = {'comment': 'P2-C（2026-10-28）：第 51–60 回的 4 组事件 + 2 场战役。passage_ids 由 scripts/gen_events_p2c.py 解析生成，禁止手改。', 'events': [], 'battles': []}
+
+# ── 事件 1：南郡之争（第 51–52 回）───────────────────────────────
+e1 = {
+    'id': 'nanjun_zhengduo',
+    'name': '南郡之争',
+    'kind': '征伐',
+    'start_year': 209,
+    'end_year': 209,
+    'date_text': '建安十四年（209）',
+    'summary': '周瑜苦战曹仁于南郡，孔明坐收渔利：赵云趁瑜伤袭取南郡，张飞取荆、关羽取长沙等四郡，荆州尽归刘备，一气周瑜。',
+    'detail': '赤壁既胜，操留曹仁守南郡、曹洪守彝陵为掎角。瑜兴兵攻彝陵，甘宁被围，瑜亲救破仁，追击中箭（毒箭伤左肋）反被劫寨，带伤大破曹军。瑜亲临城下叫阵，仁引军士放箭，正中瑜左肋，瑜金疮进裂诈死以退曹军。瑜正欲乘胜取南郡，闻赵云已袭取之；孔明令张飞取荆州、关羽取长沙等四郡，荆州尽属刘备。瑜金疮复裂半晌方苏——此为一气。',
+    'place_id': 'jiang_ling',
+    'parent_event_id': None,
+    'participants': [
+        {'person_id': 'zhou_yu', 'role_desc': '大都督攻南郡，中箭诈死，一气呕血'},
+        {'person_id': 'cao_ren', 'role_desc': '守南郡，箭伤周瑜'},
+        {'person_id': 'cao_hong', 'role_desc': '守彝陵为掎角'},
+        {'person_id': 'gan_ning', 'role_desc': '先取彝陵被围，瑜亲救'},
+        {'person_id': 'ling_tong', 'role_desc': '随瑜攻南郡'},
+        {'person_id': 'zhao_yun', 'role_desc': '趁瑜攻城袭取南郡'},
+        {'person_id': 'zhang_fei', 'role_desc': '袭取荆州城'},
+        {'person_id': 'guan_yu', 'role_desc': '取长沙等荆南四郡'},
+        {'person_id': 'zhuge_liang', 'role_desc': '定计坐收南郡荆州'},
+        {'person_id': 'huang_zhong', 'role_desc': '降后佐关羽定荆南'},
+        {'person_id': 'wei_yan', 'role_desc': '长沙杀韩玄献城'},
+    ],
+    'timeline': [
+        {'year': 209, 'title': '兵发南郡', 'description': '瑜攻彝陵救甘宁，破曹仁掎角之势。', 'importance': 2},
+        {'year': 209, 'title': '瑜中箭', 'description': '城下叫阵中曹仁毒箭，金疮进裂诈死退敌。', 'importance': 3},
+        {'year': 209, 'title': '云袭南郡', 'description': '孔明令赵云袭取南郡，瑜气恼金疮复裂。', 'importance': 3},
+        {'year': 209, 'title': '荆南四郡定', 'description': '张飞取荆州，关羽定四郡，荆州归刘。', 'importance': 2},
+    ],
+    'battle_ids': [],
+}
+e1['passage_ids'] = refs(51, ['南郡', '彝陵'])
+DATA_OUT['events'].append(e1)
+
+# ── 事件 2：美人计·周郎招亲（第 54–55 回）───────────────────────
+e2 = {
+    'id': 'meirenji_zhaoqin',
+    'name': '美人计·周郎招亲',
+    'kind': '计谋',
+    'start_year': 209,
+    'end_year': 209,
+    'date_text': '建安十四年（209）',
+    'summary': '周瑜定美人计以孙权之妹招刘备入吴为质，孔明授锦囊三策，备招亲成礼携孙夫人偕逃，瑜追之不及，「赔了夫人又折兵」，二气周瑜。',
+    'detail': '瑜上书孙权：刘备丧妻，以妹许之，招入吴中，以圈囚之，荆州自解。权依计。孔明授赵云锦囊三条：到南徐开拆第一个——云教五百军士采买礼物遍传备入赘之事，弄假成真；备见吴国太甘露寺相婿，太悦成婚。岁末备以「曹操攻荆州」告夫人同逃，夫人斥追兵，出江边遇孔明船队。瑜率水军追至，被关公喝回，军士大喊「周郎妙计安天下，赔了夫人又折兵」，瑜气倒——二气。',
+    'place_id': 'chai_sang',
+    'parent_event_id': None,
+    'participants': [
+        {'person_id': 'zhou_yu', 'role_desc': '定美人计，弄假成真，二气呕血'},
+        {'person_id': 'sun_quan', 'role_desc': '依计以妹许备'},
+        {'person_id': 'liu_bei', 'role_desc': '入吴招亲，携夫人偕逃'},
+        {'person_id': 'zhuge_liang', 'role_desc': '锦囊三策，弄假成真'},
+        {'person_id': 'zhao_yun', 'role_desc': '护备入吴，拆锦囊行事，江边接应'},
+        {'person_id': 'guan_yu', 'role_desc': '黄州截住周瑜追兵'},
+    ],
+    'timeline': [
+        {'year': 209, 'title': '锦囊初开', 'description': '五百军士广传招亲，弄假成真。', 'importance': 2},
+        {'year': 209, 'title': '甘露寺相婿', 'description': '吴国太甘露寺相亲，悦而许婚。', 'importance': 2},
+        {'year': 209, 'title': '携妻返荆', 'description': '岁末备携孙夫人车马逃江，孔明船队接应。', 'importance': 3},
+        {'year': 209, 'title': '赔了夫人又折兵', 'description': '瑜追至为关公喝回，气倒船上。', 'importance': 3},
+    ],
+    'battle_ids': [],
+}
+e2['passage_ids'] = refs(54, ['孙权']) + refs(55, ['夫人'])
+DATA_OUT['events'].append(e2)
+
+# ── 事件 3：合肥之战·甘宁百骑劫营（第 53 回）────────────────────
+e3 = {
+    'id': 'hefei_zhi_zhan',
+    'name': '合肥之战·甘宁百骑劫营',
+    'kind': '战役',
+    'start_year': 208,
+    'end_year': 208,
+    'date_text': '建安十三年（208）末至十四年',
+    'summary': '孙权攻合肥，张辽李典乐进出战。太史慈中箭而亡，甘宁领百骑夜劫曹营无一折损，威震曹军。',
+    'detail': '孙权乘赤壁之威攻合肥，张辽、李典、乐进守之。凌统与甘宁争功，各领兵出战。乐进一箭射中权盖，凌统救主。太史慈夜袭中张辽之伏，箭伤而亡（演义），孙权大哭。操遣兵来援，甘宁请百骑夜劫曹营，杀入寨中斩将夺旗，百骑无一折损，全师而还，权叹「孟德有张辽，孤有甘兴霸，足相敌也」。',
+    'place_id': 'he_fei',
+    'parent_event_id': None,
+    'participants': [
+        {'person_id': 'sun_quan', 'role_desc': '亲统大军攻合肥，中箭被救'},
+        {'person_id': 'gan_ning', 'role_desc': '百骑劫曹营，无一折损'},
+        {'person_id': 'ling_tong', 'role_desc': '与甘宁争功，救权中箭'},
+        {'person_id': 'taishi_ci', 'role_desc': '夜袭中伏，箭伤而亡'},
+        {'person_id': 'zhou_yu', 'role_desc': '南郡牵制曹仁，未亲征（演义背景）'},
+        {'person_id': 'cao_cao', 'role_desc': '遣兵援合肥（演义背景）'},
+    ],
+    'timeline': [
+        {'year': 208, 'title': '合淝攻城', 'description': '权攻合肥，张辽李典乐进守城。', 'importance': 2},
+        {'year': 208, 'title': '慈殒辽伏', 'description': '太史慈夜袭中伏，箭伤而亡。', 'importance': 2},
+        {'year': 208, 'title': '百骑劫营', 'description': '甘宁领百骑劫曹营全师而返。', 'importance': 3},
+    ],
+    'battle_ids': ['hefei_battle'],
+}
+e3['passage_ids'] = refs(53, ['合淝', '太史慈', '甘宁'])
+DATA_OUT['events'].append(e3)
+
+# ── 事件 4：马超雪恨·潼关之战（第 58–59 回）────────────────────
+e4 = {
+    'id': 'tongguan_zhi_zhan',
+    'name': '马超雪恨·潼关之战',
+    'kind': '战役',
+    'start_year': 211,
+    'end_year': 211,
+    'date_text': '建安十六年（211）',
+    'summary': '曹操诱杀马腾，马超与韩遂起西凉二十万军报仇，破长安占潼关，操割须弃袍而逃；许褚裸衣斗马超；贾诩反间计离间超遂，超败走羌中。',
+    'detail': '操用荀攸计诱马腾入许都害之。超闻父死与韩遂、庞德、马岱起西凉二十万军，破长安，夺潼关。曹洪徐晃失关，操亲至，超骤马冲阵，操弃袍割须，曹洪拼死救主方脱。渭水之战许褚裸衣与超大战二百余合。操屡败，用贾诩反间计：先与韩遂叙旧涂改书信，超疑遂与操通，遂兵自乱，操乘机大破之。超与庞德马岱走羌中，西凉之地尽失。',
+    'place_id': 'tong_guan',
+    'parent_event_id': None,
+    'participants': [
+        {'person_id': 'ma_chao', 'role_desc': '起兵雪恨，破潼关杀得操割须弃袍'},
+        {'person_id': 'ma_dai', 'role_desc': '随超征战'},
+        {'person_id': 'pang_de', 'role_desc': '随超冲阵，救主脱险'},
+        {'person_id': 'cao_cao', 'role_desc': '诱杀马腾，亲征潼关，用反间计破超'},
+        {'person_id': 'xu_chu', 'role_desc': '渭水裸衣大战马超二百余合'},
+        {'person_id': 'cao_hong', 'role_desc': '守潼关失守，舍命救操'},
+        {'person_id': 'jia_xu', 'role_desc': '献反间计离间马超韩遂'},
+        {'person_id': 'yu_jin', 'role_desc': '随操征战'},
+        {'person_id': 'xiahou_dun', 'role_desc': '随操西征'},
+    ],
+    'timeline': [
+        {'year': 211, 'title': '马腾遇害', 'description': '操诱腾入许，与黄奎事泄同被害。', 'importance': 3},
+        {'year': 211, 'title': '超夺潼关', 'description': '超与韩遂起二十万军破长安占潼关。', 'importance': 3},
+        {'year': 211, 'title': '割须弃袍', 'description': '操被超追杀，割须弃袍，曹洪舍命救主。', 'importance': 3},
+        {'year': 211, 'title': '褚超大战', 'description': '许褚裸衣与超大战二百余合。', 'importance': 2},
+        {'year': 211, 'title': '反间计成', 'description': '贾诩离间超遂，超败走羌中。', 'importance': 3},
+    ],
+    'battle_ids': ['tongguan_battle'],
+}
+e4['passage_ids'] = refs(58, ['潼关', '红袍']) + refs(59, ['许褚', '韩遂'])
+DATA_OUT['events'].append(e4)
+
+# ── 事件 5：张松献图（第 60 回）──────────────────────────────────
+e5 = {
+    'id': 'zhangsong_xiantu',
+    'name': '张松献图',
+    'kind': '外交',
+    'start_year': 211,
+    'end_year': 211,
+    'date_text': '建安十六年（211）',
+    'summary': '刘璋遣张松使曹求援，操慢待乱棒打出；亮遣赵云关羽道中礼待，松感备之德，暗献西川地图，与法正孟达约为内应，备取西川之局自此开。',
+    'detail': '璋闻操欲取汉中，遣张松赍图使许都。松貌陋而才高，操慢待之，杨修与之论《孟德新书》，松观一遍即诵全文讥其「战国无名公所作」，操令扯碎其书。松辞归，操乱棒打出。亮早算定，遣赵云、关羽道中接应礼敬，备亲迎三日酒宴。松感其德，出怀中西川地理图，山川险要一一指明，与法正、孟达约为内应。璋即遣法正使荆，迎备入川，引狼入室。',
+    'place_id': 'cheng_du',
+    'parent_event_id': None,
+    'participants': [
+        {'person_id': 'zhang_song', 'role_desc': '献西川地图，与法正孟达约为内应'},
+        {'person_id': 'liu_zhang', 'role_desc': '遣松使曹，迎备入川'},
+        {'person_id': 'cao_cao', 'role_desc': '慢待张松，乱棒打出，错失西川'},
+        {'person_id': 'yang_xiu', 'role_desc': '与松论新书，为其才所折'},
+        {'person_id': 'liu_bei', 'role_desc': '礼遇张松，得西川图本'},
+        {'person_id': 'zhuge_liang', 'role_desc': '遣将接应，算定全局'},
+        {'person_id': 'fa_zheng', 'role_desc': '与松同谋，为备内应'},
+        {'person_id': 'meng_da', 'role_desc': '与松法正同谋迎备'},
+    ],
+    'timeline': [
+        {'year': 211, 'title': '松使许都', 'description': '操慢待张松，乱棒打出。', 'importance': 2},
+        {'year': 211, 'title': '背诵孟德新书', 'description': '松观一遍即诵全文，操扯碎其书。', 'importance': 2},
+        {'year': 211, 'title': '暗献西川图', 'description': '松感备之德，献图指明山川险要。', 'importance': 3},
+        {'year': 211, 'title': '遣使迎备', 'description': '璋遣法正使荆迎备入川。', 'importance': 3},
+    ],
+    'battle_ids': [],
+}
+e5['passage_ids'] = refs(60, ['张松', '西川', '孟德新书'])
+DATA_OUT['events'].append(e5)
+
+# ── 战役 1：合肥之战（第 53 回）──────────────────────────────────
+b1 = {
+    'id': 'hefei_battle',
+    'name': '合肥之战',
+    'year': 208,
+    'date_text': '建安十三年末至十四年（208–209）',
+    'place_id': 'he_fei',
+    'event_id': 'hefei_zhi_zhan',
+    'belligerents': [
+        {'side': '吴军', 'faction_ids': ['wu'], 'commanders': ['sun_quan', 'gan_ning', 'ling_tong', 'taishi_ci', 'zhou_yu'], 'troops_desc': '孙权亲统大军 + 甘宁百骑劫营'},
+        {'side': '曹军', 'faction_ids': ['wei'], 'commanders': ['cao_cao'], 'troops_desc': '张辽李典乐进守合肥（守将未建卡，仅记操）'},
+    ],
+    'result': '吴军攻城不下而撤，甘宁百骑劫营全胜，太史慈殒',
+    'casualties_note': '太史慈中箭而亡；曹军被劫营丧胆。',
+    'summary': '权攻合肥不下，太史慈中伏箭亡，甘宁百骑夜劫曹营无一折损而还。',
+    'detail': '权自领大军攻合肥，辽典进守城甚坚。凌统甘宁争功各领兵出战，进一箭射权盖，统救主。慈夜劫中伏，被辽箭伤而亡。操军来援，宁请百骑劫营：杀入寨中左冲右突，全师而返。权嘉之，与辽相埒。',
+    'front_line': [
+        {'time': 208, 'time_seq': 1, 'kind': '围城', 'label': '权攻合肥', 'desc': '孙权大军围合肥，辽典进拒守。', 'lng': 117.28, 'lat': 31.86},
+        {'time': 208, 'time_seq': 2, 'kind': '夜袭', 'label': '慈中辽伏', 'desc': '太史慈夜袭中伏，箭伤而亡。', 'lng': 117.28, 'lat': 31.86},
+        {'time': 208, 'time_seq': 3, 'kind': '劫营', 'label': '甘宁百骑', 'desc': '宁领百骑夜劫曹营，全师而还。', 'lng': 117.4, 'lat': 31.95},
+        {'time': 208, 'time_seq': 4, 'kind': '结局', 'label': '权军解围', 'desc': '曹援将至，权退兵江东。', 'lng': 117.28, 'lat': 31.86},
+    ],
+}
+DATA_OUT['battles'].append(b1)
+
+# ── 战役 2：潼关之战（第 58–59 回）──────────────────────────────
+b2 = {
+    'id': 'tongguan_battle',
+    'name': '潼关之战',
+    'year': 211,
+    'date_text': '建安十六年（211）',
+    'place_id': 'tong_guan',
+    'event_id': 'tongguan_zhi_zhan',
+    'belligerents': [
+        {'side': '西凉军', 'faction_ids': ['warlord'], 'commanders': ['ma_chao', 'ma_dai', 'pang_de'], 'troops_desc': '马超韩遂西凉二十万联军'},
+        {'side': '曹军', 'faction_ids': ['wei'], 'commanders': ['cao_cao', 'xu_chu', 'xiahou_dun', 'yu_jin'], 'troops_desc': '操亲统大军，许褚虎卫军'},
+    ],
+    'result': '操用贾诩反间计破西凉联军，超败走羌中，关中底定',
+    'casualties_note': '曹军屡败于超，割须弃袍险丧命；西凉军内讧自溃。',
+    'summary': '超夺潼关杀得操割须弃袍；渭水许褚裸衣大战；贾诩反间离间超遂，操大破之。',
+    'detail': '操为马腾之死所激，超起二十万军报仇。曹洪失潼关，操亲至战不利，为超追杀割须弃袍，洪拼死救之。渭水操再败，褚负操上船。褚与超大战二百余合裸衣而战。操用贾诩反间计，先与韩遂叙旧、涂改书信，超疑遂，遂兵自乱，操乘势掩杀，超岱德走羌中。',
+    'front_line': [
+        {'time': 211, 'time_seq': 1, 'kind': '夺关', 'label': '超占潼关', 'desc': '超连破长安潼关，曹洪失关。', 'lng': 110.25, 'lat': 34.55},
+        {'time': 211, 'time_seq': 2, 'kind': '追杀', 'label': '割须弃袍', 'desc': '操为超追杀，割须弃袍，洪救主。', 'lng': 110.25, 'lat': 34.55},
+        {'time': 211, 'time_seq': 3, 'kind': '对峙', 'label': '渭水褚超战', 'desc': '许褚裸衣与超大战二百余合。', 'lng': 109.7, 'lat': 34.45},
+        {'time': 211, 'time_seq': 4, 'kind': '反间', 'label': '离间超遂', 'desc': '贾诩涂改书信，超疑韩遂。', 'lng': 109.7, 'lat': 34.45},
+        {'time': 211, 'time_seq': 5, 'kind': '结局', 'label': '超败走羌中', 'desc': '操乘乱掩杀，西凉联军溃散。', 'lng': 109.5, 'lat': 34.3},
+    ],
+}
+DATA_OUT['battles'].append(b2)
+
+# ── 校验 + 写出 ────────────────────────────────────────────────
+for e in DATA_OUT['events']:
+    check_persons(e, 'participants')
+for b in DATA_OUT['battles']:
+    check_persons(b, 'belligerents')
+
+out = os.path.join(DATA, 'event_battle_ch051_060.json')
+json.dump(DATA_OUT, io.open(out, 'w', encoding='utf-8'), ensure_ascii=False, indent=2)
+print('写出 %s：事件 %d 组，战役 %d 场' % (out, len(DATA_OUT['events']), len(DATA_OUT['battles'])))

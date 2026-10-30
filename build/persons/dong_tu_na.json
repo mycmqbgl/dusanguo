@@ -1,0 +1,29 @@
+{
+ "id": "dong_tu_na",
+ "name": "董荼那",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "董荼那，异族武将，孟获第二洞元帅。董荼那满面惭愧，无言可答，不战而退。",
+ "bio": "。第 87 回：董荼那听知寨后有军杀至，便引兵出寨拒敌。第 87 回：董荼那夺路走脱，魏延追赶不上。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "孟获第二洞元帅",
+   "basis": "第八十七回原文：第一洞乃金环三结元帅，第二洞乃董荼那元帅，第三洞乃阿会喃元帅。 职任「孟获第二洞元帅」据此；★任期按末见回目收敛：全书最后一次提及在第 88 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 27
+}

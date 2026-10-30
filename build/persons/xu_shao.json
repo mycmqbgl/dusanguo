@@ -1,0 +1,31 @@
+{
+ "id": "xu_shao",
+ "name": "许劭",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "许劭，东汉人物。汝南许劭，有知人之名。",
+ "bio": "第 1 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 184,
+   "basis": "第1回汝南许劭有知人之名，评曹操为「治世之能臣，乱世之奸雄」，以品评人物名家，未仕。 184 年前后许劭以知人著称，评曹操为「治世能臣、乱世奸雄」。",
+   "confidence": 0.4,
+   "review_status": "auto",
+   "title_unknown_verified": true,
+   "title": "（原文无职任记载）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "li_yi",
+ "name": "李异",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "李异，孙吴武将，大将。一道红光闪处，李异头早落地，原来关兴见张苞马回，正待接应，忽见张苞马倒，李异赶来，兴大喝一声，劈李异于马下，救了张苞。",
+ "bio": "第 82 回：李异见谢旌败了，慌忙拍马轮蘸金斧接战。第 82 回：孙桓折了李异、谢旌、谭雄等许多将士，力穷势孤，不能抵敌，即差人回吴求救。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 229,
+   "basis": "第82回孙桓言有大将二员李异、谢旌，俱有万夫不当之勇，往擒刘备。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "大将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

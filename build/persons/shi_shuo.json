@@ -1,0 +1,29 @@
+{
+ "id": "shi_shuo",
+ "name": "施朔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，仅见 258 年（第 113 回）事。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "施朔，孙吴武卫士。吴太平三年（258）与魏邈密奏孙休，助丁奉擒斩孙綝。",
+ "bio": "第113回孙綝专权，废孙亮而立孙休，调兵出屯武昌并尽搬武库军器，施朔与将军魏邈密奏孙休「早晚必为变」。孙休从丁奉之计，于腊日大会群臣时设伏，施朔参与擒拿，孙綝兄弟尽斩于市，宗党死者数百人。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "武卫士",
+   "basis": "第113回：于是，将军魏邈、武卫士施朔二人密奏孙休曰……丁奉、魏邈、施朔等，擒孙綝兄弟至。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,45 @@
+{
+ "id": "shisun_rui",
+ "name": "士孙瑞",
+ "courtesy": "君策",
+ "display_aliases": [
+  "尚书仆射",
+  "光禄大夫"
+ ],
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "生年不详，史载卒于兴平年间（约 195）三辅之乱。演义仅第九回一见。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "reviewed",
+ "summary": "士孙瑞，东汉文臣，尚书、尚书仆射、光禄大夫。司马懿为尚书仆射，留在许昌，凡国政大事，并皆听懿决断。",
+ "bio": "士孙瑞字君策，扶风人，复姓士孙。董卓专权，王允忧心如焚，即请仆射士孙瑞、司隶校尉黄琬商议，瑞曰「方今主上有疾新愈，可遣一能言之人往郿坞，请卓议事，却教天子于殿前召布，伏甲士于朝门之外，引卓入而诛之」，允从其计。史实士孙瑞为诛卓密议核心之一，事成后以功不封侯（惧董卓余党忌恨），拜光禄大夫，兴平年间殁于三辅之乱。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 195,
+   "title": "尚书、尚书仆射、光禄大夫",
+   "basis": "尚书台近臣，谋议之职归文臣；史载兴平年间（约195）殁于李傕郭汜之乱。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "密议诛卓",
+   "description": "与王允、黄琬定计：遣人往郿坞请卓议事，伏甲士于朝门之外，引卓入而诛之。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "史实：殁于三辅之乱",
+   "description": "诛卓之功不封，终殁于李傕郭汜之乱。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

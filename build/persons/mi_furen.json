@@ -1,0 +1,40 @@
+{
+ "id": "mi_furen",
+ "name": "糜夫人",
+ "courtesy": null,
+ "display_aliases": [
+  "糜氏"
+ ],
+ "birth": null,
+ "death": 208,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义长坂坡投井（208）。史书无传。",
+ "gender": "female",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "糜夫人，蜀汉女眷，刘备夫人。糜夫人乃弃阿斗于地，翻身投入枯井中而死。",
+ "bio": "糜夫人，东海朐人，糜竺之妹，吕布袭徐州后由糜竺进于刘备为夫人。长坂坡之战，刘备弃家眷南走，糜夫人怀抱阿斗随难民逃亡，身被数枪。赵云寻至，夫人以阿斗托之：「望将军护他见父一面，妾死无恨！」翻身后墙枯井自尽。赵云推土墙掩井，怀抱阿斗突围。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 196,
+   "end_year": 208,
+   "title": "刘备夫人",
+   "basis": "糜竺之妹、刘备夫人，长坂坡投井而死。归蜀汉，保留女眷身份。 196 年糜竺以妹妻刘备，208 年长坂坡投井而死。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "长坂托孤",
+   "description": "抱阿斗藏于断墙，托赵云突围，投井而死。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年不详；史书无传｜演：卒年按演义长坂坡投井（208）",
+ "span_pre_state": true,
+ "mention_count": 14
+}

@@ -1,0 +1,29 @@
+{
+ "id": "ma_han",
+ "name": "马汉",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "马汉，蜀汉武将，蜀将。报蜀将刘晙、马汉引军到。",
+ "bio": "原文第 65 回相关片段：「撤兵来取成都。赵云、黄忠接入绵竹。人报蜀将刘晙、马汉引军到。赵云曰：“某愿往擒此二人！”言讫，上马引」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 229,
+   "basis": "第65回人报蜀将刘晙、马汉引军到，赵云请往擒之。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "蜀将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

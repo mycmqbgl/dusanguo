@@ -1,0 +1,29 @@
+{
+ "id": "gao_ding",
+ "name": "高定",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "高定，异族武将，太守。高定即引部将鄂焕并本部兵，杀奔朱褒营来。",
+ "bio": "官职「太守」据原文上下文提取。原文第 87 回相关片段：「之后，今结连孟获造反。牂牁郡太守朱褒、越嶲郡太守高定，二人献了城。止有永昌太守王伉不肯反。现今雍闿、」。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "太守",
+   "basis": "第八十七回原文：现今雍闿、朱褒、高定三人部下人马，皆与孟获为向导官，攻打永昌郡。 职任「太守」据此；★任期按末见回目收敛：全书最后一次提及在第 87 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 31
+}

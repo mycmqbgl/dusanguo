@@ -1,0 +1,29 @@
+{
+ "id": "mang_ya_zhang",
+ "name": "忙牙长",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "忙牙长，异族武将，孟获将。阵对圆，忙牙长出马，与马岱交锋，只一合，被岱一刀，斩于马下。",
+ "bio": "。第 88 回：即遣副将忙牙长，引三千兵投夹山峪来。第 88 回：两阵对圆，忙牙长出马，与马岱交锋，只一合，被岱一刀，斩于马下。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 264,
+   "title": "孟获将",
+   "basis": "第八十七回原文：言未尽，一将应声而出，名唤忙牙长。 职任「孟获将」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

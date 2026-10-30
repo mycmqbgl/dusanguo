@@ -1,0 +1,29 @@
+{
+ "id": "du_lu",
+ "name": "杜路",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "杜路，孙吴武将，洞溪汉将。将杜路，刘宁尽皆降吴。",
+ "bio": "第 84 回：蜀将杜路，刘宁尽皆降吴。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 222,
+   "title": "洞溪汉将",
+   "basis": "第八十二回原文：早有细作报说蜀主引本国大兵，及蛮王沙摩柯番兵数万，又有洞溪汉将杜路、刘宁二枝兵，水陆并进，声。 职任「洞溪汉将」据此；★任期按末见回目收敛：全书最后一次提及在第 84 回（222 年），原 222—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

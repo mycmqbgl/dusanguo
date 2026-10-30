@@ -1,0 +1,29 @@
+{
+ "id": "pang_yi",
+ "name": "庞义",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "庞义，蜀汉文臣，营中司马。第 65 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 65 回相关片段：「为蜀郡太守，董和为掌军中郎将，许靖为左将军长史，庞义为营中司马，刘巴为左将军，黄权为右将军。其余吴懿」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "营中司马",
+   "basis": "第六十五回：玄德自领益州牧，庞义为营中司马。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

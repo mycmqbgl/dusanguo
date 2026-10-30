@@ -1,0 +1,29 @@
+{
+ "id": "jiang_shu",
+ "name": "蒋舒",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "蒋舒，蜀汉武将，蜀将。傅佥大怒，令蒋舒把关，自引三千兵杀下关来。",
+ "bio": "第 112 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 254,
+   "end_year": 262,
+   "title": "蜀将",
+   "basis": "第一百十二回原文：姜维在汉中，选川将两员，每日操练人马：一是蒋舒，一是傅佥。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 254—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

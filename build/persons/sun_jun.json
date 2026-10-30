@@ -1,0 +1,48 @@
+{
+ "id": "sun_jun",
+ "name": "孙峻",
+ "courtesy": "子远",
+ "display_aliases": [
+  "吴侍中、丞相大将军",
+  "孙静曾孙"
+ ],
+ "birth": null,
+ "death": 256,
+ "date_precision": "approx",
+ "date_note": "史载卒于太平元年（256），演义系于 253 诛诸葛恪后不久病亡。生年无载。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "reviewed",
+ "summary": "孙峻，孙吴文臣，丞相、大将军、富春侯。孙峻曰：太傅府中常服药酒，可取饮乎。",
+ "bio": "孙峻字子远，孙坚叔父孙静之曾孙，为吴宗室疏属。性骁果，有胆力，历侍中。诸葛恪新城败还，骄横日甚，峻知人心怨恪，与吴主亮定计，置酒宫中伏兵，恪入坐，峻以更衣为号，杀恪于厕侧，夷恪三族。峻自为大将军，封富春侯，专吴政。峻负贵倨傲，多行虐刑，宗室大臣侧目。后领兵伐魏，败于合肥新城，还军病笃，以后事托从弟孙綝而死。演义写其刺恪一节与史合；峻在演义中为恪死后续写吴政之关键人物。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 253,
+   "end_year": 256,
+   "title": "丞相、大将军、富春侯",
+   "lord_id": "sun_liang",
+   "basis": "设计诛诸葛恪后自领吴政，专权约二年，病笃托政孙綝。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "辅政大臣"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 253,
+   "title": "宫宴杀恪",
+   "description": "与吴主亮定计，伏兵宫中，酒半杀诸葛恪，夷其三族。",
+   "importance": 3
+  },
+  {
+   "year": 253,
+   "title": "专断吴政",
+   "description": "自为大将军封富春侯，负贵倨傲，多行虐刑。",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：生年无载｜演：史载卒于太平元年（256），演义系于 253 诛诸葛恪后不久病亡",
+ "mention_count": 14
+}

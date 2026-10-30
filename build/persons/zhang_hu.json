@@ -1,0 +1,29 @@
+{
+ "id": "zhang_hu",
+ "name": "张虎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "auto_mined",
+ "summary": "张虎，孙吴武将，黄祖部将。说张虎在营中，望见火光，大开寨门，与乐綝尽引人马，杀奔蜀寨来，寨中却不见一人。",
+ "bio": "第 7 回：便令张虎搦战。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 238,
+   "title": "黄祖部将",
+   "basis": "第七回原文：张虎见陈生坠地，吃了一惊，措手不及，被韩当一刀，削去半个脑袋。 职任「黄祖部将」据此；★任期按末见回目收敛：全书最后一次提及在第 106 回（238 年），原 195—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 18
+}

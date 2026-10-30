@@ -1,0 +1,31 @@
+{
+ "id": "pan_jun",
+ "name": "潘濬",
+ "courtesy": null,
+ "display_aliases": [
+  "潘浚"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 73,
+ "review_status": "auto_mined",
+ "summary": "潘濬，孙吴文臣，治中从事。云长曰：吾已差治中潘浚守之，有何虑焉。",
+ "bio": "第 73 回关羽北伐，以治中潘濬（演化作潘浚）留守荆州。后孙权得荆州，潘濬归吴。此人在演义中着墨极少，正史别有其传。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 219,
+   "title": "治中从事",
+   "basis": "原文未见此人；职任「治中从事」据史传补，待核；★任期按末见回目收敛：全书最后一次提及在第 75 回（219 年），原 219—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

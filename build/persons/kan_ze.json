@@ -1,0 +1,39 @@
+{
+ "id": "kan_ze",
+ "name": "阚泽",
+ "courtesy": "德润",
+ "display_aliases": [
+  "东吴参谋"
+ ],
+ "birth": null,
+ "death": 243,
+ "date_precision": "approx",
+ "date_note": "生年不详；演义未写卒年，史书卒于赤乌六年（243）。 Tenure 记至演义叙事终点。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "阚泽，孙吴文臣，东吴参谋、中书令、太子太傅。阚泽失色，甘宁拔剑而起曰：吾事已为窥破，不可不杀之以灭口。",
+ "bio": "阚泽字德润，会稽山阴人，家贫佣书，博学多识，为东吴参谋。黄盖行苦肉计后，泽自请献诈降书过江。曹操识破书无约期，喝令推出斩之，泽仰天大笑，以「背主作窃不可定期」之理说得操转疑为信。赤壁后复为周瑜、诸葛亮间传书往来。史载孙权时官至中书令、太子太傅。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 243,
+   "title": "东吴参谋、中书令、太子太傅",
+   "basis": "孙权谋士，43 回献诈降书；卒年从史书。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "献诈降书",
+   "description": "赍黄盖降书见曹操，识破无约期之疑，舌辩得脱。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：未写卒年，史书卒于赤乌六年（243）；Tenure 记至演义叙事终点",
+ "mention_count": 24
+}

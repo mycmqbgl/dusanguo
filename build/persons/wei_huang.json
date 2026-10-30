@@ -1,0 +1,36 @@
+{
+ "id": "wei_huang",
+ "name": "韦晃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "韦晃，东汉文臣，司直。韦晃曰：且往说之，看是如何。",
+ "bio": "第 69 回：「后迁侍中少府，与司直韦晃甚厚」；与耿纪同谋讨操。原文第 69 回相关片段：「行，洛阳人也；旧为丞相府掾，后迁侍中少府，与司直韦晃甚厚；见曹操进封王爵，出入用天子车服，心甚不平」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 218,
+   "title": "司直",
+   "basis": "第 69 回：「后迁侍中少府，与司直韦晃甚厚」；与耿纪同谋讨操。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 215,
+   "title": "第 69 回",
+   "description": "韦晃曰：“且往说之，看是如何",
+   "importance": 1
+  }
+ ],
+ "mention_count": 12
+}

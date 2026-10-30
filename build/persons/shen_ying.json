@@ -1,0 +1,29 @@
+{
+ "id": "shen_ying",
+ "name": "沈莹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "沈莹，孙吴武将，左将军。说东吴丞相张悌，令左将军沈莹、右将军诸葛靓，来迎晋兵。",
+ "bio": "。第 120 回：张悌与沈莹挥兵抵敌，晋兵一齐围之。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "左将军",
+   "basis": "第120回张悌领左将军沈莹、右将军诸葛靓引兵十万出兵牛渚。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

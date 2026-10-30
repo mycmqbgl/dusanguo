@@ -1,0 +1,55 @@
+{
+ "id": "wu_dun",
+ "name": "吴敦",
+ "courtesy": null,
+ "display_aliases": [
+  "利城太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；降曹后任利城太守，后无事迹。",
+ "gender": "male",
+ "first_chapter": 18,
+ "review_status": "reviewed",
+ "summary": "吴敦，群雄武将，泰山诸将。霸又招安孙观、吴敦、尹礼来降；独昌豨未肯归顺。",
+ "bio": "吴敦，泰山人，与臧霸、孙观、尹礼聚众泰山，时人号「豺狼」。先随吕布，布灭后降曹操，为利城太守，后事迹无载。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 198,
+   "title": "泰山诸将",
+   "lord_id": "lv_bu",
+   "basis": "聚众泰山，后随吕布。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 210,
+   "title": "利城太守",
+   "basis": "降曹后任利城太守，后无事迹，时间片存疑记至 210。",
+   "confidence": 0.5,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "聚众泰山",
+   "description": "与臧霸等聚众泰山，号「豺狼」。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "降曹",
+   "description": "吕布灭，降曹为利城太守。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 3
+}

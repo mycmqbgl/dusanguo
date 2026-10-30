@@ -1,0 +1,59 @@
+{
+ "id": "song_xian",
+ "name": "宋宪",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 200,
+ "date_precision": "approx",
+ "date_note": "演义第二十五回白马之战为颜良所斩；生年不详。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "宋宪，吕布部将，后降曹操。",
+ "bio": "宋宪，吕布麾下「八健将」之一。建安三年（199）曹操围下邳，宋宪与魏续、侯成等缚陈宫、盗赤兔马降曹，吕布遂败。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "八健将",
+   "lord_id": "lv_bu",
+   "basis": "吕布部将。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 200,
+   "title": "偏将",
+   "basis": "降曹后随征，200 年白马战殁。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "属吕布",
+   "description": "为吕布八健将之一。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "缚陈宫出降",
+   "description": "与侯成、魏续缚陈宫盗马出降。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "殁于白马",
+   "description": "白马之战战颜良，三合被斩（演义）。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 18
+}

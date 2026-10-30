@@ -1,0 +1,49 @@
+{
+ "id": "wu_tugu",
+ "name": "兀突骨",
+ "courtesy": null,
+ "display_aliases": [
+  "乌戈国国主",
+  "藤甲兵之帅"
+ ],
+ "birth": null,
+ "death": 225,
+ "date_precision": "none",
+ "date_note": "演义虚构人物，无史可考。生卒皆无；演义中 225 年南征之役被孔明盘蛇谷火烧而死。",
+ "gender": "male",
+ "first_chapter": 90,
+ "review_status": "reviewed",
+ "is_fictional": true,
+ "summary": "兀突骨，异族君主，乌戈国国主。兀突骨曰：大王说的有理。",
+ "bio": "兀突骨，乌戈国国主，孟获六番救兵之最。身长丈二，不食五谷，以生蛇恶兽为饭；身有鳞甲，刀箭不能侵。其军士俱穿藤甲：生于山涧，盘于石壁，采藤浸油，半年方成，穿在身上渡江不沉、经水不湿，刀箭皆不能入，号藤甲军，三万之众。孟获六败之后，引兀突骨来犯，蜀兵刀砍箭射皆不能伤，魏延连败十五阵。孔明观其蛮兵恃藤甲恃水，乃定火攻之计：令魏延弃盘蛇谷而走，诱藤甲兵入谷，谷中堆柴干草，油车填路，两头放火，三万藤甲兵烧死于盘蛇谷，臭不可闻，孔明垂泪曰：吾虽有功于社稷，必损寿矣！兀突骨亦没于火中。孟获七擒遂平。乌戈藤甲为演义南征最奇诡之章节。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "君主",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "乌戈国国主",
+   "lord_id": "meng_huo",
+   "basis": "应孟获之邀率藤甲兵三万助战，盘蛇谷火攻中全军覆没。",
+   "confidence": 1.0,
+   "review_status": "reviewed",
+   "_role_orig": "国主"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "藤甲助获",
+   "description": "应孟获之请引三万藤甲兵犯境，刀箭不入，蜀军连败。",
+   "importance": 2
+  },
+  {
+   "year": 225,
+   "title": "盘蛇谷焚身",
+   "description": "孔明诱入盘蛇谷，两头举火，三万藤甲兵俱没于火中。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生卒皆无｜演：虚构人物，无史可考；演义中 225 年南征之役被孔明盘蛇谷火烧而死",
+ "mention_count": 23
+}

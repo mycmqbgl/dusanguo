@@ -1,0 +1,29 @@
+{
+ "id": "meng_gong_wei",
+ "name": "孟公威",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 37,
+ "review_status": "auto_mined",
+ "summary": "孟公威，汝南人，东汉末年隐士，诸葛亮隆中四友之一。",
+ "bio": "孟公威，汝南人，汉末隐士。第37回司马徽称其为诸葛亮密友之一：「孔明与博陵崔州平、颍川石广元、汝南孟公威与徐元直四人为密友，此四人务于精纯，惟孔明独观其大略」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 200,
+   "end_year": 220,
+   "title": "隐士（未仕）",
+   "basis": "第37回：孔明与博陵崔州平、颍川石广元、汝南孟公威与徐元直四人为密友。隐士未仕，无君臣之分，归汉·其他。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

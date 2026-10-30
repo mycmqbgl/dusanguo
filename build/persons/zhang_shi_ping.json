@@ -1,0 +1,36 @@
+{
+ "id": "zhang_shi_ping",
+ "name": "张世平",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生平卒年俱不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "张世平，东汉人物，北地马商。来二客乃中山大商：一名张世平，一名苏双，每年往北贩马，近因寇发而回。",
+ "bio": "张世平，中山大商。与苏双每年往北贩马，中平元年因寇发而回，投刘备庄上。闻讨贼安民之意，大喜，愿将良马五十匹相送，又赠金银五百两、镔铁一千斤，以资器用——刘关张打造双股剑、青龙偃月刀、丈八点钢矛的家底，由此而来。无政治归属，按规则归东汉·其他。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "北地马商",
+   "basis": "商人，无政治归属（N5 定案）。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "赠马资军",
+   "description": "赠良马五十匹、金银五百两、镔铁千斤。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 1
+}

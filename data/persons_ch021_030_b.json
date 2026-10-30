@@ -1,0 +1,786 @@
+{
+ "comment": "第 25–28 回新出场人物（关羽降曹—白马延津—千里走单骑—古城会线 + 汝南黄巾）。",
+ "persons": [
+  {
+   "id": "liu_yan_dongjun",
+   "name": "刘延",
+   "match_surfaces": [
+    "刘延",
+    "延"
+   ],
+   "display_aliases": [
+    "东郡太守"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。白马之围时任东郡太守，后事无考。",
+   "gender": "male",
+   "first_chapter": 25,
+   "review_status": "reviewed",
+   "summary": "刘延，群雄文臣，东郡太守。大军进发至黎阳，东郡太守刘延告急许昌。",
+   "bio": "刘延，曹操所署东郡太守。建安五年，袁绍遣颜良攻东郡太守刘延于白马，延告急许都。关羽为曹操解白马之围后挂印封金辞去，护二嫂行至白马渡口（延津），向刘延借船渡河并求追杀残兵，刘延惧袁绍军势，答以「船虽尽有，不敢擅借」。关羽遂自行寻船而渡，此亦五关之难的开端。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 205,
+     "title": "东郡太守",
+     "lord_id": "cao_cao",
+     "basis": "曹操所署东郡太守，白马之围被困。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "困守白马",
+     "description": "袁绍遣颜良攻白马，延告急许都。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "不敢借船",
+     "description": "关羽辞曹渡河，向延借船追杀残兵，延惧袁绍势不敢应。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "kong_xiu",
+   "name": "孔秀",
+   "match_surfaces": [
+    "孔秀",
+    "秀"
+   ],
+   "display_aliases": [
+    "东岭关守将"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）关羽千里走单骑，于东岭关被斩（演义第 27 回）。生年不详。",
+   "gender": "male",
+   "first_chapter": 27,
+   "review_status": "reviewed",
+   "summary": "孔秀，群雄武将，东岭关守将。关公怒曰：东岭孔秀，已被吾杀。",
+   "bio": "孔秀，曹操部将，守东岭关，五关守将之首。建安五年，关羽挂印封金护二嫂辞曹寻兄，行至东岭关，孔秀索要曹操公文，关羽答以「行时曾禀丞相，因行色忙不曾讨得批文」，秀不许，只限三百步内放车仗过去。关羽怒，秀领兵下关交战，两马相交只一合，关羽手起刀落斩孔秀于马下。余众皆降，关羽以其言「曹操若问，但言孔秀欲害我，我故杀之」付之。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "东岭关守将",
+     "lord_id": "cao_cao",
+     "basis": "曹操所置守将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "关前索文被斩",
+     "description": "索曹操公文不放行，下关交战一合被关羽斩杀。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "meng_tan",
+   "name": "孟坦",
+   "match_surfaces": [
+    "孟坦",
+    "坦"
+   ],
+   "display_aliases": [
+    "洛阳牙将"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）于洛阳为关羽所斩。生年不详。",
+   "gender": "male",
+   "first_chapter": 27,
+   "review_status": "reviewed",
+   "summary": "孟坦，群雄武将，洛阳牙将。孟坦曰：吾有一计：先将鹿角拦定关口，待他到时，小将引兵和他交锋，佯败诱他来追，公可用暗箭射之。",
+   "bio": "孟坦，洛阳太守韩福牙将。建安五年，关羽至洛阳，韩福与孟坦商议：孟坦出马与关羽交锋，诈败诱其来追，韩福放暗箭射之。孟坦出马战不三合拨马便走，指望诱关羽来追，不想关羽马快，早已赶上，回身一刀砍为两段。韩福放箭中关羽左臂，关羽冲至面前，连头带肩斩韩福。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "洛阳牙将",
+     "lord_id": "cao_cao",
+     "basis": "韩福部将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "诈败诱敌被斩",
+     "description": "与韩福定诈败放箭之计，走不数合被关羽追斩。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "han_fu_luoyang",
+   "name": "韩福",
+   "match_surfaces": [
+    "韩福",
+    "福"
+   ],
+   "display_aliases": [
+    "洛阳太守"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）于洛阳为关羽所斩。生年不详。与冀州牧韩馥（han_fu）为不同人。",
+   "gender": "male",
+   "first_chapter": 27,
+   "review_status": "reviewed",
+   "summary": "韩福，群雄武将，洛阳太守。阳太守王植，却与韩福是两亲家；闻得关公杀了韩福，商议欲暗害关公，乃使人守住关口。",
+   "bio": "韩福，曹操所署洛阳太守。建安五年，关羽护二嫂行至洛阳，福与牙将孟坦定计：孟坦诈败诱敌，福放冷箭。孟坦被斩后，韩福闪在门首放一冷箭，正中关羽左臂。关羽口拔箭、血不止，飞马直冲，福走不及，被关羽连头带肩斩于马下。后曹操闻之，遣使厚葬，并赠金为盘费，以收人心。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "洛阳太守",
+     "lord_id": "cao_cao",
+     "basis": "曹操所署洛阳太守，亲自设伏放箭。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "冷箭中羽",
+     "description": "与孟坦定诈败放箭计，暗箭射中关羽左臂。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "带箭被斩",
+     "description": "关羽拔箭带血飞马冲至，连头带肩被斩。操后遣使厚葬以收人心。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "bian_xi",
+   "name": "卞喜",
+   "match_surfaces": [
+    "卞喜",
+    "喜"
+   ],
+   "display_aliases": [
+    "汜水关守将",
+    "善使流星锤"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）于汜水关镇国寺为关羽所斩。生年不详。",
+   "gender": "male",
+   "first_chapter": 27,
+   "review_status": "reviewed",
+   "summary": "卞喜，群雄武将，汜水关守将。卞喜见普净叙出乡里之情，恐有走泄，乃叱之曰：吾欲请将军赴宴，汝僧人何得多言。",
+   "bio": "卞喜，原黄巾余党，后降曹操，守汜水关，善使流星锤。建安五年，关羽至汜水关，卞喜在镇国寺设宴，暗伏二百余刀斧手于廊下，以掷杯为号欲害关羽。寺僧普净识其计，以手灯照关公并示意。关羽识破，卞喜知事泄，喝左右下手，自己取流星锤掷关羽。关羽以刀隔开，直入杀散伏兵，斩卞喜于阶下。普净后为关羽指引行路。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "汜水关守将",
+     "lord_id": "cao_cao",
+     "basis": "原黄巾余党降曹，守汜水关。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "镇国寺伏兵",
+     "description": "设宴伏刀斧手于镇国寺，以掷杯为号欲害关羽。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "事泄被斩",
+     "description": "普净示意泄计，关羽杀散伏兵，斩卞喜于阶下。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "wang_zhi",
+   "name": "王植",
+   "match_surfaces": [
+    "王植"
+   ],
+   "display_aliases": [
+    "荥阳太守"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）于荥阳为关羽所斩。生年不详。",
+   "gender": "male",
+   "first_chapter": 27,
+   "review_status": "reviewed",
+   "summary": "王植，群雄武将，荥阳太守。说王植密唤从事胡班听令曰：关某背丞相而逃，又于路杀太守并守关将校，死罪不轻。",
+   "bio": "王植，曹操所署荥阳太守，与洛阳太守韩福为亲家。建安五年，关羽至荥阳，王植表面延接入馆，密令从事胡班夜半三更举火焚馆，欲害关羽一行为亲家报仇。胡班慕关羽之名，潜至馆前窥视，见关羽灯下秉烛读《春秋》，叹服告密。关羽遂请二嫂出馆，出城而行。王植知事泄，引军从后赶来，大骂「休走」，关羽勒回马来，一声大喝，刀起处王植头落。胡班寻思弃官而去。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "荥阳太守",
+     "lord_id": "cao_cao",
+     "basis": "曹操所署荥阳太守，密谋焚馆。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "密令焚馆",
+     "description": "伪迎关羽入馆，密令胡班三更举火焚馆。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "追杀被斩",
+     "description": "胡班告密事泄，关羽出城，王植追来被一刀斩落。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "qin_qi",
+   "name": "秦琪",
+   "match_surfaces": [
+    "秦琪",
+    "琪"
+   ],
+   "display_aliases": [
+    "黄河渡口守将"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）于黄河渡口为关羽所斩。生年不详。蔡阳外甥。",
+   "gender": "male",
+   "first_chapter": 27,
+   "review_status": "reviewed",
+   "summary": "秦琪，群雄武将，黄河渡口守将。秦琪大怒，纵马提刀，直取关公。",
+   "bio": "秦琪，曹操部将蔡阳外甥，守黄河渡口。建安五年，关羽渡河寻兄至渡口，秦琪索要公文，又曰「若要过去，须有曹丞相文凭」。关羽答以「我奉丞相钧命，差送夫人至此，何曾再有文凭」，琪不许，喝「你便插翅也飞不过去」。关羽怒曰：「你比颜良、文丑如何？」琪大怒，纵马提刀来战，二马相交只一合，关羽刀起，秦琪头落。关羽遂夺船渡河。此事后蔡阳请兵报仇，引出古城相会时关羽斩蔡阳。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "黄河渡口守将",
+     "lord_id": "cao_cao",
+     "basis": "曹操部将，守黄河渡口。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "渡口被斩",
+     "description": "索文凭拦渡河，口比颜良文丑，一合被关羽斩杀，关羽夺船渡河。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zhou_cang",
+   "name": "周仓",
+   "match_surfaces": [
+    "周仓",
+    "仓"
+   ],
+   "display_aliases": [
+    "关西大汉",
+    "两臂有千斤之力"
+   ],
+   "birth": null,
+   "death": 219,
+   "date_precision": "approx",
+   "date_note": "建安二十四年（219）关羽败亡后，演义后文自刎于麦城。生年不详。",
+   "gender": "male",
+   "first_chapter": 28,
+   "review_status": "reviewed",
+   "summary": "周仓，群雄武将，黄巾余党。周仓顿首告曰：仓乃一粗莽之夫，失身为盗；今遇将军，如重见天日，岂忍复错过。",
+   "bio": "周仓，关西人，黄巾余党出身，两臂有千斤之力，板肋虬髯，形容甚伟。黄巾乱后与裴元绍同聚卧牛山为盗。建安五年，关羽千里走单骑过卧牛山，周仓早慕关羽威名，愿执鞭随镫，关羽初辞之，仓泣求再三，关羽以其愿侍二嫂，乃令其留守卧牛山，召旧部随行。后仓回山途中与裴元绍同遇赵云，仓与赵云交战连中三枪败回；引众投关羽，自此为关羽扛青龙偃月刀，随侍鞍前马后。关羽水淹七军时，仓生擒庞德。建安二十四年关羽败亡麦城，仓自刎而死。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 200,
+     "title": "黄巾余党",
+     "basis": "黄巾出身，乱后落草。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 208,
+     "title": "关羽部将",
+     "lord_id": "liu_bei",
+     "basis": "卧牛山追随关羽，终身为其扛刀（此时刘备仍为群雄）。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 208,
+     "end_year": 219,
+     "title": "关羽部将",
+     "lord_id": "liu_bei",
+     "basis": "赤壁后刘备立营，随关羽镇荆州。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "卧牛山追随",
+     "description": "千里走单骑途中拜关羽，泣求执鞭随镫，遂留山聚旧部。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "遇赵云败回",
+     "description": "与裴元绍同遇赵云，连中三枪败走，引众投关羽。",
+     "importance": 2
+    },
+    {
+     "year": 219,
+     "title": "殉主自刎",
+     "description": "关羽败亡麦城，周仓自刎而死。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "pei_yuanshao",
+   "name": "裴元绍",
+   "match_surfaces": [
+    "裴元绍",
+    "元绍"
+   ],
+   "display_aliases": [
+    "黄巾余党"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）于卧牛山欲夺赵云之马，被赵云一枪刺死。生年不详。",
+   "gender": "male",
+   "first_chapter": 28,
+   "review_status": "reviewed",
+   "summary": "裴元绍，群雄武将，黄巾部将。元绍曰：离此二十里有一卧牛山。",
+   "bio": "裴元绍，黄巾余党，张宝部将出身，黄巾乱后与周仓聚卧牛山为盗。建安五年，关羽过卧牛山，元绍欲随周仓同投关羽，受命留守山寨。后元绍见赵云骑白马过山，欲夺其马，报姓名出马，赵云一枪刺死。周仓寻仇亦连中三枪败回，方知是赵云。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 184,
+     "end_year": 200,
+     "title": "黄巾部将",
+     "basis": "张宝部将，乱后为盗。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "拜随关羽未果",
+     "description": "关羽过卧牛山，元绍欲同行，受命留守山寨。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "劫马被刺",
+     "description": "欲夺赵云白马，交马一合被赵云一枪刺死。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "guan_ding",
+   "name": "关定",
+   "match_surfaces": [
+    "关定",
+    "定"
+   ],
+   "display_aliases": [
+    "关家庄主"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。古城会前后收留关羽一行，后事无考。",
+   "gender": "male",
+   "first_chapter": 28,
+   "review_status": "reviewed",
+   "summary": "关定，东汉人物，关家庄庄主。关定曰：今愚意欲遣次子跟随关将军，未识肯容纳否。",
+   "bio": "关定，冀州关家庄庄主，有二子：长子关宁学文，次子关平学武。建安五年，关羽寻兄至袁绍地界，投关家庄，关定留之。刘备自袁绍处脱身来会，兄弟聚义于庄上。关定挽留，并求关平拜关羽为义父，刘备应允，谓「吾弟有此子，吾之幸也」。刘备临行，关定送之，关平从此随刘备、关羽为义子。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "其他",
+     "start_year": 200,
+     "end_year": 205,
+     "title": "关家庄庄主",
+     "basis": "无政治归属，乡间庄主。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "留宿关羽",
+     "description": "关羽寻兄投庄，关定留之，时问兄长消息。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "关平拜父",
+     "description": "刘备来会，关定求关平拜关羽为义父，关平自此随行。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "cai_yang",
+   "name": "蔡阳",
+   "match_surfaces": [
+    "蔡阳",
+    "阳"
+   ],
+   "display_aliases": [
+    "蔡阳将军"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）古城外为关羽一通鼓间斩杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 26,
+   "review_status": "reviewed",
+   "summary": "蔡阳，群雄武将，曹操部将。卒告说：蔡阳闻将军杀了他外甥，十分忿怒，要来河北与将军交战。",
+   "bio": "蔡阳，曹操部将，外甥秦琪守黄河渡口。建安五年，秦琪为关羽所杀，蔡阳请兵报仇，曹操不允。后关羽与张飞会于古城，张飞疑关羽降曹有诈，擂三通鼓为限令斩曹操来将自证。适蔡阳奉命引军追关羽至，关羽不忍斩其使张辽先退兵，乃一通鼓未尽斩蔡阳于马下，兄弟释疑。张飞请关羽入城，主臣聚义。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "曹操部将",
+     "lord_id": "cao_cao",
+     "basis": "曹操部将，追击关羽至古城。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "请兵报仇",
+     "description": "外甥秦琪被关羽所杀，请兵报仇，操不允。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "古城被斩",
+     "description": "追关羽至古城，适张飞擂鼓令斩来将自证，一通鼓内被关羽斩杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "liu_pi",
+   "name": "刘辟",
+   "match_surfaces": [
+    "刘辟",
+    "辟"
+   ],
+   "display_aliases": [
+    "汝南黄巾首领"
+   ],
+   "birth": null,
+   "death": 201,
+   "date_precision": "approx",
+   "date_note": "建安六年（201）曹操南征汝南，史载为曹仁所斩；演义后文（第 31 回）为高览所杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 26,
+   "review_status": "reviewed",
+   "summary": "刘辟，群雄武将，汝南黄巾首领。丞相提军出征河北，乃令刘辟守汝南，备亲自引兵乘虚来攻许昌。",
+   "bio": "刘辟，汝南黄巾首领。建安五年，袁绍南征，刘辟与龚都据汝南响应袁绍，袭扰曹操后方。袁绍遣刘备往汝南联络，刘辟龚都迎之，众至数万。关羽寻兄至汝南，刘辟龚都告知刘备消息，遂有关羽挂印封金之决。建安六年，曹操亲征汝南，刘备败走荆州依刘表，刘辟死于曹军之手（演义第 31 回为高览所杀，史载为曹仁斩于汝南）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 188,
+     "end_year": 201,
+     "title": "汝南黄巾首领",
+     "basis": "黄巾余部据汝南，后响应袁绍、助刘备。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "响应袁绍",
+     "description": "与龚都据汝南响应袁绍，迎刘备至汝南。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "告知备讯",
+     "description": "关羽过汝南，辟与龚都告知刘备所在，关羽遂辞曹寻兄。",
+     "importance": 2
+    },
+    {
+     "year": 201,
+     "title": "败亡",
+     "description": "曹操南征汝南，辟死于曹军之手。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：建安六年（201）曹操南征汝南，史载为曹仁所斩；生年不详｜演：后文（第 31 回）为高览所杀"
+  },
+  {
+   "id": "gong_du",
+   "name": "龚都",
+   "match_surfaces": [
+    "龚都",
+    "都"
+   ],
+   "display_aliases": [
+    "汝南黄巾首领"
+   ],
+   "birth": null,
+   "death": 201,
+   "date_precision": "approx",
+   "date_note": "建安六年（201）前后亡于曹军之手，史载为曹仁所破；演义后文（第 32 回）为夏侯渊所杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 26,
+   "review_status": "reviewed",
+   "summary": "龚都，群雄武将，汝南黄巾首领。来张飞去救龚都，龚都已被夏侯渊所杀；飞奋力杀退夏侯渊，迤逦赶去，却被乐进引军围住。",
+   "bio": "龚都，汝南黄巾首领，与刘辟共据汝南。建安五年，响应袁绍南征，迎刘备于汝南，众至数万；关羽过汝南，辟、都告知刘备消息。建安六年，曹操南征，刘备败走荆州，龚都死于曹军之手（演义第 32 回为夏侯渊所杀，史载曹仁破其众）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 188,
+     "end_year": 201,
+     "title": "汝南黄巾首领",
+     "basis": "黄巾余部据汝南。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "迎刘备于汝南",
+     "description": "与刘辟响应袁绍，迎刘备至汝南聚兵。",
+     "importance": 2
+    },
+    {
+     "year": 201,
+     "title": "败亡",
+     "description": "曹操南征汝南，都死于曹军之手。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：建安六年（201）前后亡于曹军之手，史载为曹仁所破；生年不详｜演：后文（第 32 回）为夏侯渊所杀"
+  },
+  {
+   "id": "chen_zhen",
+   "name": "陈震",
+   "courtesy": "孝起",
+   "match_surfaces": [
+    "陈震",
+    "陈孝起",
+    "孝起",
+    "震"
+   ],
+   "display_aliases": [
+    "南阳陈震",
+    "尚书令"
+   ],
+   "birth": null,
+   "death": 235,
+   "date_precision": "exact",
+   "date_note": "青龙三年（235）卒。生年不详。演义第 26 回为袁绍使，后归刘备。",
+   "gender": "male",
+   "first_chapter": 26,
+   "review_status": "reviewed",
+   "summary": "陈震，群雄文臣，袁绍谋士。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+   "bio": "陈震，字孝起，南阳人。初事袁绍为谋士。建安五年，刘备在袁绍军中，关羽在曹操营中尚未知备所在，震奉袁绍命持密信至曹营见关羽，告知刘备消息，遂有关羽挂印封金千里寻兄。后袁绍败亡，震南归刘备，辟为从事，随刘备入蜀。诸葛亮北伐时，震以侍中转任尚书令，奉命使吴庆孙权称帝，与吴人约盟分天下。青龙三年卒。演义中后期常为蜀汉信使与外交使臣。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "袁绍谋士",
+     "lord_id": "yuan_shao",
+     "basis": "初事袁绍。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 201,
+     "end_year": 208,
+     "title": "刘备从事",
+     "lord_id": "liu_bei",
+     "basis": "袁绍败后南归刘备（此时刘备仍为群雄）。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 235,
+     "title": "从事、侍中、尚书令",
+     "basis": "随刘备取荆益，官至尚书令。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "送信促关归刘",
+     "description": "奉袁绍命持密信至曹营见关羽，告知刘备所在。",
+     "importance": 2
+    },
+    {
+     "year": 201,
+     "title": "南归刘备",
+     "description": "袁绍败后归刘备，辟为从事。",
+     "importance": 1
+    },
+    {
+     "year": 229,
+     "title": "使吴贺称帝",
+     "description": "孙权称帝，震奉命使吴，与吴约盟分天下。",
+     "importance": 2
+    },
+    {
+     "year": 235,
+     "title": "卒",
+     "description": "青龙三年卒。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "yuan_tan",
+   "name": "袁谭",
+   "courtesy": "显思",
+   "match_surfaces": [
+    "袁谭",
+    "谭"
+   ],
+   "display_aliases": [
+    "青州刺史",
+    "袁绍长子"
+   ],
+   "birth": null,
+   "death": 205,
+   "date_precision": "approx",
+   "date_note": "建安十年（205）曹操破南皮，谭被杀。生年不详。毛本演义第 32-33 回事败被杀。",
+   "gender": "male",
+   "first_chapter": 24,
+   "review_status": "reviewed",
+   "summary": "袁谭，群雄武将，青州刺史。绍大惊，急遣袁谭分兵五万救邺郡，辛明分兵五万救黎阳，连夜起行。",
+   "bio": "袁谭，字显思，袁绍长子，出继其兄袁基之后。建安四年，袁绍令谭出镇青州为刺史。建安五年，刘备败投袁绍，匹马奔至青州城下，谭素敬刘备，开门相迎，并驰报袁绍，绍亲出邺城二百里迎之。袁绍死后，谭与幼弟袁尚争位相攻，遣辛毗降曹操求援，借曹兵攻邺，得势复叛，据青州。建安十年，曹操攻南皮，城破，谭奔走，为曹军追杀（演义中为曹洪所杀）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 199,
+     "end_year": 202,
+     "title": "青州刺史",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍长子，出镇青州。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 202,
+     "end_year": 205,
+     "title": "自称车骑将军，都督青州",
+     "basis": "袁绍死后与袁尚争位，一度降曹借兵，后自立。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "出镇青州",
+     "description": "袁绍令谭为青州刺史。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "青州迎刘备",
+     "description": "刘备败投袁绍，谭开门相迎，驰报袁绍。",
+     "importance": 2
+    },
+    {
+     "year": 202,
+     "title": "与袁尚争位",
+     "description": "袁绍死，谭尚相攻，谭败，遣辛毗降曹操求援。",
+     "importance": 2
+    },
+    {
+     "year": 205,
+     "title": "南皮城破",
+     "description": "降而复叛，曹操攻破南皮，谭被杀。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：建安十年（205）曹操破南皮，谭被杀；生年不详｜演：毛本演义第 32-33 回事败被杀"
+  }
+ ]
+}

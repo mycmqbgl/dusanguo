@@ -1,0 +1,29 @@
+{
+ "id": "tian_shi",
+ "name": "田氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 12,
+ "review_status": "auto_mined",
+ "summary": "田氏，群雄人物，濮阳富户。田氏曰：吾已降曹将军矣。",
+ "bio": "第 12 回：城上田氏，见布败回，急令人拽起吊桥。第 12 回：田氏曰：吾已降曹将军矣。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 194,
+   "end_year": 196,
+   "title": "濮阳富户",
+   "basis": "第十二回原文：濮阳富户田氏为吕布内应，曹操攻濮阳时诈降。事在兴平元年（194）至建安元年（196）间。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

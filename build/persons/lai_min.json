@@ -1,0 +1,29 @@
+{
+ "id": "lai_min",
+ "name": "来敏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "来敏，蜀汉文臣，祭酒。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 227,
+   "end_year": 229,
+   "title": "祭酒",
+   "basis": "第91回孟光、来敏为祭酒。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

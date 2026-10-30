@@ -1,0 +1,30 @@
+{
+ "id": "bao_long",
+ "name": "鲍隆",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 209,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义与陈应同被斩（209）。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "鲍隆，群雄武将，桂阳牙将。鲍隆曰：我两个诈降在他军中，太守却引兵来搦战，我二人就阵上擒之。",
+ "bio": "鲍隆，桂阳人，猎户出身，曾两肋射双虎，为赵范部下牙将。与陈应同出拒赵云，败归后二人诈降欲杀云，云识破，灌醉斩之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "桂阳牙将",
+   "basis": "赵范部将；209 年死（演义）。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：卒年按演义与陈应同被斩（209）",
+ "mention_count": 6
+}

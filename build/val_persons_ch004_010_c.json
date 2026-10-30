@@ -1,0 +1,226 @@
+{
+ "source": "persons_ch004_010_c.json",
+ "total": 25,
+ "passed": 25,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 8,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "xiahou_dun",
+   "name": "夏侯惇",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wu_fu",
+   "name": "伍孚",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_wen",
+   "name": "张温",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yang_biao",
+   "name": "杨彪",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "huang_wan",
+   "name": "黄琬",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xun_shuang",
+   "name": "荀爽",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ma_ridi",
+   "name": "马日磾",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhao_qi",
+   "name": "赵岐",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhou_bi",
+   "name": "周毖",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wu_qiong",
+   "name": "伍琼",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ding_guan",
+   "name": "丁管",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "liu_dai",
+   "name": "刘岱",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xun_chen",
+   "name": "荀谌",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xin_ping",
+   "name": "辛评",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "geng_wu",
+   "name": "耿武",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "guan_chun",
+   "name": "关纯",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 112 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "feng_ji",
+   "name": "逢纪",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xu_you",
+   "name": "许攸",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "200 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "niu_fu",
+   "name": "牛辅",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "192 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "dong_min",
+   "name": "董旻",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 147 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "dong_huang",
+   "name": "董璜",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 98 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "li_meng",
+   "name": "李蒙",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "192 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "wang_fang",
+   "name": "王方",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "lv_gong_jingzhou",
+   "name": "吕公",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "191 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_kai",
+   "name": "张闿",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "193 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  }
+ ]
+}

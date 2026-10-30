@@ -1,0 +1,36 @@
+{
+ "id": "su_shuang",
+ "name": "苏双",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生平卒年俱不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "苏双，东汉人物，北地马商。第 1 回一笔带过，事迹仅存其名。",
+ "bio": "苏双，中山大商。与张世平每年往北贩马，中平元年因寇发而回，途经涿郡投刘备庄上，与世平同赠良马五十匹、金银五百两、镔铁一千斤资助起兵。无政治归属，按规则归东汉·其他。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "北地马商",
+   "basis": "商人，无政治归属（N5 定案）。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "赠马资军",
+   "description": "与张世平同赠良马金银镔铁。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

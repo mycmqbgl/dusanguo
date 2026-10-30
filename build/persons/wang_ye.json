@@ -1,0 +1,29 @@
+{
+ "id": "wang_ye",
+ "name": "王业",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "auto_mined",
+ "summary": "王业，曹魏文臣，散骑常侍。王沈、王业见经不从，径自往报司马昭去了。",
+ "bio": "第 62 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 212,
+   "end_year": 229,
+   "title": "散骑常侍",
+   "basis": "第114回魏主曹髦召侍中王沈、尚书王经、散骑常侍王业入内计议。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

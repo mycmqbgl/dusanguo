@@ -1,0 +1,29 @@
+{
+ "id": "xun_yun",
+ "name": "荀恽",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 61,
+ "review_status": "auto_mined",
+ "summary": "荀恽，荀彧之子，仕魏为虎贲中郎将。",
+ "bio": "荀恽，荀彧之子。第61回曹操欲进爵魏公、加九锡，荀彧以为不可，操由是不悦，彧忧病死；「子荀恽，发哀书报曹操」。荀恽后仕魏，官至虎贲中郎将，尚曹操之女安阳公主。其为魏臣而非魏之宗亲。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 229,
+   "title": "虎贲中郎将",
+   "basis": "第61回：子荀恽，发哀书报曹操。荀彧之子，仕魏为虎贲中郎将，非曹氏之亲。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

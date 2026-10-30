@@ -1,0 +1,61 @@
+{
+ "id": "chen_wu",
+ "name": "陈武",
+ "courtesy": "子烈",
+ "display_aliases": [
+  "偏将军"
+ ],
+ "birth": null,
+ "death": 215,
+ "date_precision": "exact",
+ "date_note": "史载建安二十年（215）合肥之战战死；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "陈武，孙吴武将，别部司马。说陈武与庞德大战，后面又无应兵，被庞德赶到峪口，树林丛密；陈武再欲回身交战，被树株抓往袍袖，不能迎敌，为庞德所杀。",
+ "bio": "陈武字子烈，庐江松滋人。孙策在寿春，武往从之，遂渡江征讨有功，为别部司马。统庐江上甲，所向无前。权统事，督五校，仁厚好施，乡里远客多依之。建安二十年合肥之战，张辽突至，武奋命往敌，战死阵中。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "别部司马",
+   "lord_id": "sun_ce",
+   "basis": "孙策渡江时来投。｜阵营据主君（孙策）归属校正为wu，194-200→195-200。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 215,
+   "title": "督五校、偏将军",
+   "basis": "孙权时代督五校。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "投孙策",
+   "description": "寿春往从，遂渡江征讨。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "统庐江上甲",
+   "description": "所向无前。",
+   "importance": 1
+  },
+  {
+   "year": 215,
+   "title": "殁于合肥",
+   "description": "合肥之战死战张辽，阵亡。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 24
+}

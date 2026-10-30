@@ -1,0 +1,29 @@
+{
+ "id": "quan_duan",
+ "name": "全端",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "全端，孙吴武将，吴将。说东吴大将军孙綝，听知全端、唐咨等降魏，勃然大怒，将各人家眷，尽皆斩之。",
+ "bio": "第 108 回：左城中乃吴将全端守把，右城中乃吴将留略守把。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 241,
+   "end_year": 255,
+   "title": "吴将",
+   "basis": "第一百零八回原文：左城中乃吴将全端守把，右城中乃吴将留略守把。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 113 回（255 年），原 241—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

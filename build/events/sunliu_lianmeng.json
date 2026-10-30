@@ -1,0 +1,75 @@
+{
+ "id": "sunliu_lianmeng",
+ "name": "孙刘联盟缔结",
+ "kind": "外交",
+ "start_year": 208,
+ "end_year": 208,
+ "date_text": "建安十三年（208）冬",
+ "summary": "曹操檄文威胁江东，主降主战相持。鲁肃过江吊丧引诸葛亮同赴柴桑，亮舌战群儒、智激孙权周瑜，孙权拔剑砍案决计抗曹，孙刘联盟自此缔结。",
+ "detail": "曹操下檄文「今统雄师百万，与将军会猎于江夏」，张昭为首主降，鲁肃独陈「众人皆可降，惟将军不可降」。肃以吊丧为名过江请孔明同见孙权。亮于柴桑舌战群儒，张昭、虞翻、步骘、薛综、陆绩、严畯、程秉皆被驳倒。见权，亮佯言曹兵百万何不投降以激之；复以曹丕坐大曹操「此天以君授之」点破权心。周瑜自鄱阳还，亮诵铜雀台赋「揽二乔于东南兮」激瑜决战之志，瑜拔剑砍案：「再有言降者必斩！」权拜瑜为大都督，与备合兵共抗曹操。",
+ "place_id": "chai_sang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "舌战群儒、智激孙权周瑜，促成联盟"
+  },
+  {
+   "person_id": "sun_quan",
+   "role_desc": "拔剑砍案，决计抗曹，拜瑜为都督"
+  },
+  {
+   "person_id": "lu_su",
+   "role_desc": "力主联刘抗曹，引亮过江"
+  },
+  {
+   "person_id": "zhang_zhao",
+   "role_desc": "文官之首主降，舌战中被亮驳倒"
+  },
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "自鄱阳还，力主决战，拜大都督"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "屯夏口，遣亮结盟"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "檄文威胁，曹军压境"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "檄文压境",
+   "description": "操下檄威胁江东，张昭主降。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "舌战群儒",
+   "description": "孔明柴桑力驳张昭等七儒。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "智激孙权",
+   "description": "亮佯言劝降反激权抗曹之志。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "瑜砍案立誓",
+   "description": "亮诵铜雀台赋激瑜，瑜拔剑砍案，孙刘联盟成。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  43001,
+  43004,
+  44001,
+  44001
+ ]
+}

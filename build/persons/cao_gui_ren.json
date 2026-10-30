@@ -1,0 +1,43 @@
+{
+ "id": "cao_gui_ren",
+ "name": "曹节",
+ "courtesy": null,
+ "display_aliases": [
+  "曹贵人",
+  "曹皇后"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详；215 年立为汉献帝皇后，卒年不详。",
+ "gender": "female",
+ "first_chapter": 66,
+ "review_status": "reviewed",
+ "summary": "曹节，曹操之女，汉献帝皇后。建安二十年（215）立为皇后，魏受禅后降为山阳公夫人。",
+ "bio": "曹节，曹操之女。建安十八年曹操进三女（曹宪、曹节、曹华）为献帝贵人；建安二十年（215）伏皇后被废杀，正月朔册立曹节为正宫皇后。第66回：操入曰「臣女已与陛下为贵人，大贤大孝，宜居正宫」，献帝不敢不从。魏受禅后，曹节随献帝降为山阳公夫人。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "亲族",
+   "start_year": 215,
+   "end_year": 220,
+   "title": "献帝皇后（曹操之女）",
+   "basis": "第66回：册立曹操女曹贵人为正宫皇后。曹节为曹操之女、汉献帝之皇后，属汉室外戚（后族），故归汉·亲族。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 220,
+   "end_year": 234,
+   "title": "山阳公夫人（曹操之女）",
+   "basis": "第80回：献帝禅位降封山阳公，曹节随为山阳公夫人。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "homonym_note": "此曹节为曹操之女、汉献帝皇后（女性，生年不详，215 年立后）。与汉末宦官「曹节」（大长秋、十常侍之一，卒于 189 年）同姓名而异人，二人相差数十年，不可混同。",
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zhao_qu",
+ "name": "赵衢",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "赵衢，蜀汉武将，中军护尉。宽、赵衢立在城上，大骂马超；将马超妻杨氏从城上一刀砍了，撇下尸首来；又将马超幼子三人，并至亲十余口，都从城上一刀一个，剁将下来。",
+ "bio": "第 81 回：伐吴军编制中列名。原文第 64 回相关片段：「此人守义，不可斩也。”复用杨阜为参军。阜荐梁宽、赵衢二人，超尽用为军官」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 222,
+   "title": "中军护尉",
+   "basis": "第 81 回：伐吴军编制中列名。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

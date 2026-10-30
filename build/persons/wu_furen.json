@@ -1,0 +1,70 @@
+{
+ "id": "wu_furen",
+ "name": "吴夫人",
+ "courtesy": null,
+ "display_aliases": [
+  "武烈皇后",
+  "孙破虏吴夫人"
+ ],
+ "birth": null,
+ "death": 207,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安十二年（207）。本传见《三国志·吴书·妃嫔传》，演义未载其卒年。",
+ "gender": "female",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "吴夫人，吴郡吴县人，孙坚之妻，孙策、孙权之母。",
+ "bio": "吴夫人，吴郡吴县人。父吴辉为丹阳太守。孙坚闻其才貌，欲娶之，吴氏亲戚嫌坚轻狡，将拒焉，夫人曰「何爱一女以取祸乎」，遂许之，生四子一女：策、权、翊、匡及女仁。孙坚死，夫人抚诸子成立，孙策创业江东，内助居多。建安十二年卒，后追尊武烈皇后。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 191,
+   "title": "孙坚之妻、孙权之母",
+   "lord_id": "sun_jian",
+   "basis": "第七回原文：孙坚有四子，皆吴夫人所生。孙坚 191 年战死，吴夫人后随孙策、孙权，演义第五十四回称「国太吴夫人」。其归属孙氏，不属群雄之外的任何一方。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "女眷",
+   "start_year": 195,
+   "end_year": 207,
+   "title": "吴夫人、武烈皇后",
+   "basis": "195 年孙策渡江、孙吴势力形成后为其母；207 年卒。皇帝亲族的女眷亦归女眷，不入「亲族」（决策 #8.2 亲族仅收男性）。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 186,
+   "title": "许嫁孙坚",
+   "description": "亲戚嫌孙坚轻狡欲拒，夫人曰「何爱一女以取祸乎」，遂许之。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "抚孤",
+   "description": "孙坚死于岘山，夫人抚策、权、翊、匡诸子成立。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "内助创业",
+   "description": "孙策渡江创业，夫人内助居多。",
+   "importance": 2
+  },
+  {
+   "year": 207,
+   "title": "卒",
+   "description": "建安十二年卒；孙权称帝后追尊武烈皇后。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详，卒于建安十二年（207）｜演：本传见《三国志·吴书·妃嫔传》，演义未载其卒年",
+ "span_pre_state": true,
+ "mention_count": 7
+}

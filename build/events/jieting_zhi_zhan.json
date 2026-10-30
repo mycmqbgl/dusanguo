@@ -1,0 +1,49 @@
+{
+ "id": "jieting_zhi_zhan",
+ "name": "街亭之战",
+ "kind": "征伐",
+ "start_year": 228,
+ "end_year": 228,
+ "date_text": "建兴六年春（228）",
+ "summary": "马谡违令失街亭，诸葛亮空城退仲达、挥泪斩马谡、自贬三等，一出祁山无功而返。",
+ "detail": "详见战役「街亭之战」。此败使蜀弃天水、南安、安定三郡，孔明论败因曰：此病不在兵之多寡，在主将耳；明罚思过，减兵省将以为后图。",
+ "place_id": "jie_ting",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "ma_su",
+   "role_desc": "立军令状守街亭，违令上山致败，伏法被斩"
+  },
+  {
+   "person_id": "wang_ping",
+   "role_desc": "力谏当道下寨不听，独率千人鸣鼓自持全军而还"
+  },
+  {
+   "person_id": "zhang_he",
+   "role_desc": "魏军先锋，断汲道围山，击溃马谡"
+  },
+  {
+   "person_id": "sim_yi",
+   "role_desc": "都督关西，破街亭后兵指西城，为空城计所退"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "布防失察，空城退敌，归而斩谡自贬三等"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "屯街亭之后接应，复夺街亭又被围，力战得脱"
+  }
+ ],
+ "passage_ids": [
+  95001,
+  95002,
+  95002,
+  95011,
+  96003,
+  96004
+ ],
+ "battle_ids": [
+  "jieting_battle"
+ ]
+}

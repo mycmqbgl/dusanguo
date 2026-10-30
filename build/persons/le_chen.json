@@ -1,0 +1,29 @@
+{
+ "id": "le_chen",
+ "name": "乐綝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 98,
+ "review_status": "auto_mined",
+ "summary": "乐綝，曹魏武将，副先锋。虎、乐綝亦各引兵杀来接应。",
+ "bio": "。第 98 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "副先锋",
+   "basis": "第98回曹真令张辽子张虎为先锋、乐进子乐綝为副先锋，同守头营。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 18
+}

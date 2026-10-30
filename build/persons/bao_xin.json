@@ -1,0 +1,56 @@
+{
+ "id": "bao_xin",
+ "name": "鲍信",
+ "courtesy": null,
+ "display_aliases": [
+  "济北相"
+ ],
+ "birth": 152,
+ "death": 192,
+ "date_precision": "exact",
+ "date_note": "生于元嘉二年（152），卒于初平三年（192）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "鲍信，群雄君主，骑都尉、济北相。鲍信见王允，亦言其事。",
+ "bio": "鲍信字允诚，泰山平阳人。少有大节，沉毅有谋。大将军何进辟为骑都尉，遣归募兵，还至成皋而进已败。讨董时列第九镇，为济北相。见孙坚为前部，恐其独得头功，暗遣弟鲍忠率马步军三千抄小路至关下搦战，为华雄手起刀落斩于马下。后兖州刺史刘岱战黄巾死，信与陈宫迎曹操领兖州。初平三年曹操与黄巾战于寿张，信力战而死，曹操求得其尸不得，以木刻像祭之。演义第十回写「鲍信杀入重地，为贼所害」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "骑都尉、济北相",
+   "basis": "以济北相自据一郡，为群雄之一；192 年战死。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "归乡募兵",
+   "description": "为何进所辟，遣归募兵，还至成皋而进已败。",
+   "importance": 1
+  },
+  {
+   "year": 190,
+   "title": "列第九镇",
+   "description": "以济北相起兵讨董；暗遣弟鲍忠争功，忠为华雄所斩。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "迎曹操领兖州",
+   "description": "刘岱战死后与陈宫迎曹操领兖州。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "寿张战死",
+   "description": "与黄巾战于寿张，力战而死，尸不得，曹操以木刻像祭之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 10
+}

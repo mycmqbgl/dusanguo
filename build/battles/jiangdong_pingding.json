@@ -1,0 +1,110 @@
+{
+ "id": "jiangdong_pingding",
+ "name": "江东平定战",
+ "year": 195,
+ "date_text": "兴平二年（195）起",
+ "place_id": "qu_a",
+ "event_id": "sun_ce_ding_jiangdong",
+ "belligerents": [
+  {
+   "side": "孙策军",
+   "faction_ids": [
+    "wu"
+   ],
+   "commanders": [
+    "sun_ce",
+    "zhou_yu",
+    "cheng_pu",
+    "huang_gai",
+    "han_dang"
+   ],
+   "troops_desc": "借兵三千渡江，沿途收降扩军"
+  },
+  {
+   "side": "刘繇·王朗·严白虎",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "liu_yao",
+    "taishi_ci",
+    "wang_lang",
+    "yan_baihu"
+   ],
+   "troops_desc": "曲阿守军 + 会稽守军 + 乌程之众"
+  }
+ ],
+ "result": "孙策尽有江东，吴国立基",
+ "casualties_note": "张英死于陈武枪下、陈横死于蒋钦箭下、严白虎死于凌操之手。",
+ "summary": "牛渚—秣陵—曲阿—吴郡—会稽，孙策数年连破刘繇、严白虎、王朗，尽定江东。",
+ "detail": "策渡江首夺牛渚；攻曲阿，神亭与太史慈酣斗后擒之收服；繇败走豫章。下乌程破严白虎（弟严舆请和被杀）、虎走余杭被凌操所杀。会稽王朗固守，策用奇计夜出查渎，朗败降、虞翻来归。江东自此定。",
+ "front_line": [
+  {
+   "time": 195,
+   "time_seq": 1,
+   "kind": "渡江",
+   "label": "首夺牛渚",
+   "desc": "以玉玺质术借兵三千，渡江首捷。",
+   "lng": 118.48,
+   "lat": 31.72,
+   "pixel_x": 976.1,
+   "pixel_y": 566.8
+  },
+  {
+   "time": 195,
+   "time_seq": 2,
+   "kind": "攻坚",
+   "label": "秣陵降礼",
+   "desc": "薛礼、笮融屯秣陵拒之，城破礼死。",
+   "lng": 118.83,
+   "lat": 31.97,
+   "pixel_x": 990.0,
+   "pixel_y": 555.2
+  },
+  {
+   "time": 195,
+   "time_seq": 3,
+   "kind": "会战",
+   "label": "曲阿破繇",
+   "desc": "神亭酣斗收太史慈，繇败走豫章。",
+   "lng": 119.52,
+   "lat": 31.96,
+   "pixel_x": 1017.3,
+   "pixel_y": 555.7
+  },
+  {
+   "time": 196,
+   "time_seq": 4,
+   "kind": "西进",
+   "label": "乌程破虎",
+   "desc": "严白虎弟请和被杀，虎走余杭为凌操所杀。",
+   "lng": 120.13,
+   "lat": 30.9,
+   "pixel_x": 1041.4,
+   "pixel_y": 604.6
+  },
+  {
+   "time": 196,
+   "time_seq": 5,
+   "kind": "奇袭",
+   "label": "夜出查渎",
+   "desc": "佯攻查渎，夜袭王朗屯处。",
+   "lng": 120.25,
+   "lat": 30.15,
+   "pixel_x": 1046.2,
+   "pixel_y": 639.2
+  },
+  {
+   "time": 196,
+   "time_seq": 6,
+   "kind": "定局",
+   "label": "会稽定",
+   "desc": "朗败降，虞翻来归，江东遂定。",
+   "lng": 120.53,
+   "lat": 29.97,
+   "pixel_x": 1057.2,
+   "pixel_y": 647.5
+  }
+ ],
+ "place_name": "曲阿"
+}

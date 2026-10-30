@@ -1,0 +1,31 @@
+{
+ "id": "sun_he_2",
+ "name": "孙河",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "孙河（正史人物，演义未载）：孙河本姓俞，赐姓孙，官庐江太守。演义未载。",
+ "bio": "《三国志·吴书·宗室传》：孙河本姓俞，赐姓孙，官庐江太守。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 204,
+   "title": "庐江太守",
+   "basis": "孙河字伯海，孙权族兄，见《三国志·宗室传》。演义正文未出场（出现 0 次）。 孙河字伯海，孙权族兄，196 年后为庐江太守，204 年前后卒。",
+   "confidence": 0.4,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

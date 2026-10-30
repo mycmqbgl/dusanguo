@@ -1,0 +1,45 @@
+{
+ "id": "yuan_wei",
+ "name": "袁隗",
+ "courtesy": "次阳",
+ "display_aliases": [
+  "太傅",
+  "录尚书事"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详。初平元年（190）为董卓遣李儒所杀，一门尽灭。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "袁隗，东汉文臣，太傅、录尚书事、后将军。太傅司马孚入内，见髦尸，首枕其股而哭曰：弑陛下者，臣之罪也。",
+ "bio": "袁隗字次阳，汝南汝阳人，袁绍、袁术之叔，历司徒、太尉。中平六年灵帝崩，与大将军何进同辅政；董卓议废立，李儒于崇德殿宣策，帝及何太后战栗，太傅袁隗上前亲解帝玺绶，奉诣陈留王即位。袁绍起兵讨卓，董卓恐隗为内应，遣李儒杀袁隗及太仆袁基，并袁氏家眷四十余口，尽灭其门——袁氏四世三公，门生故吏遍天下，至此族灭于董卓之手，天下震动。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "太傅、录尚书事、后将军",
+   "basis": "与何进同辅政，废立时亲解玺绶；虽位极人臣，朝政实决于董卓，不归权臣；190 年满门被杀。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "解玺绶行废立",
+   "description": "董卓议废立，隗上前亲解少帝玺绶，奉立陈留王。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "满门被杀",
+   "description": "袁绍起兵讨卓，董卓恐隗为内应，遣李儒尽灭袁氏一门四十余口。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 7
+}

@@ -1,0 +1,42 @@
+{
+ "id": "zhang_dang",
+ "name": "张当",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "张当，曹魏人物，黄门。来司马懿先将黄门张当捉下狱中问罪。",
+ "bio": "第 106 回：「黄门张当，谄事曹爽，私选先帝侍妾」。原文第 106 回相关片段：「取上等者入己，然后进宫，佳人美女，充满府院。黄门张当，谄事曹爽，私选先帝侍妾七八人，送入府中；爽又选」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 239,
+   "end_year": 249,
+   "title": "黄门",
+   "basis": "第一百六回原文：黄门张当为曹爽党羽，私以明帝才人送爽，后事发下狱。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 239,
+   "title": "第 106 回",
+   "description": "门张当，谄事曹爽，私选先帝侍妾七八人，送入府中；爽又选善歌舞良家子女三四十人，为家乐",
+   "importance": 1
+  },
+  {
+   "year": 240,
+   "title": "第 107 回",
+   "description": "来司马懿先将黄门张当捉下狱中问罪",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

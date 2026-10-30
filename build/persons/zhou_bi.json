@@ -1,0 +1,44 @@
+{
+ "id": "zhou_bi",
+ "name": "周毖",
+ "courtesy": null,
+ "display_aliases": [
+  "侍中"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平元年（190）。",
+ "gender": "male",
+ "first_chapter": 4,
+ "review_status": "reviewed",
+ "summary": "周毖，东汉文臣，侍中。周毖曰：\"袁绍忿忿而去，若购之急，势必为变。",
+ "bio": "周毖，为侍中，与城门校尉伍琼同佐董卓。董卓欲追杀袁绍，周毖曰「袁绍忿忿而去，若购之急，势必为变。且袁氏树恩四世，门生故吏遍于天下，倘收豪杰以聚徒众，英雄因之而起，山东非公有也。不如赦之，拜为一郡守，则绍喜于免罪，必无患矣」，卓从之，拜绍为渤海太守。后袁绍起兵讨卓，董卓怒曰「我始初听你两个，保用袁绍；今绍已反，是汝等一党」，叱武士推出都门斩首。演义第四、六回两处写其事。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "侍中",
+   "basis": "侍中为近侍谋议之职，以谋略内政为主归文臣；190 年为董卓所斩。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "劝授袁绍郡守",
+   "description": "谏董卓勿急购袁绍，宜拜为一郡守以安之，卓从之，拜绍为渤海太守。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "被斩",
+   "description": "袁绍起兵，董卓怒其「一党」，推出都门斩首。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 4
+}

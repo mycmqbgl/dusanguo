@@ -1,0 +1,29 @@
+{
+ "id": "liu_fan",
+ "name": "刘范",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "刘范，东汉武将，左中郎将。第 10 回一笔带过，事迹仅存其名。",
+ "bio": "第 10 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 194,
+   "title": "左中郎将",
+   "basis": "第10回侍中马宇、谏议大夫种邵、左中郎将刘范三人为内应，共谋诛李傕郭汜。 193 年左中郎将刘范与马宇、种邵谋诛李傕，事泄被杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

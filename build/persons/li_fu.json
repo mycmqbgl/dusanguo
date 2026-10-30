@@ -1,0 +1,29 @@
+{
+ "id": "li_fu",
+ "name": "李孚",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "李孚，群雄文臣，主簿。审配认得是李孚声音，放入城中，说：袁尚已陈兵在阳平亭，等候接应，若城中兵出，亦举火为号。",
+ "bio": "第 32 回：审配认得是李孚声音，放入城中，说：袁尚已陈兵在阳平亭，等候接应，若城中兵出，亦举火为号。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 204,
+   "end_year": 229,
+   "title": "主簿",
+   "basis": "第32回袁尚遣主簿李孚扮作曹军都督，直至城下叫门。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,39 @@
+{
+ "id": "fei_guan",
+ "name": "费观",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "费观，群雄武将，巴郡太守。时遣妻弟费观，提兵前去守把绵竹。",
+ "bio": "第 64 回：即时遣妻弟费观，提兵前去守把绵竹。第 64 回：费观举保南阳人姓李，名严，字正方，一同领兵。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 214,
+   "title": "巴郡太守",
+   "basis": "第六十四回原文：费观举保南阳人姓李，名严，字正方，一同领兵。 职任「巴郡太守」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "巴郡太守、振威将军",
+   "basis": "第六十五回：其余吴懿、费观…并皆擢用。费观原为刘璋妻弟，守绵竹降刘备。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

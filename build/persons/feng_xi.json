@@ -1,0 +1,29 @@
+{
+ "id": "feng_xi",
+ "name": "冯习",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "冯习，蜀汉武将，蜀将。问之，小卒曰：我等是冯习帐下士卒，因赏罚不明，待来投降，就报机密。",
+ "bio": "第 82 回：蜀将张南、冯习谓吴班曰：目今吴兵势败，正好乘虚劫寨。第 82 回：冯习、张南、吴班分兵三路，直杀入孙桓寨中，四面火起，吴兵大乱，寻路奔走。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 225,
+   "title": "蜀将",
+   "basis": "第八十一回原文：冯习、张南为副将。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 85 回（225 年），原 221—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 20
+}

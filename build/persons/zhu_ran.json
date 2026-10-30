@@ -1,0 +1,48 @@
+{
+ "id": "zhu_ran",
+ "name": "朱然",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 75,
+ "review_status": "auto_mined",
+ "summary": "朱然，孙吴武将，虎威将军、左大司马。说朱然听知孙桓损兵折将，正欲来救，忽伏路军引几个小卒上船投降。",
+ "bio": "第 75 回：「次调韩当、蒋钦、朱然、潘璋、周泰、徐盛、丁奉等七员大将」；第 77 回「令朱然引精兵五千，伏于麦城之北」。原文第 75 回相关片段：「将精兵伏于【舟冓】【舟鹿】船中。次调韩当、蒋钦、朱然、潘璋、周泰、徐盛、丁奉等七员大将，相继而进。其」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 249,
+   "title": "虎威将军、左大司马",
+   "basis": "第 75 回：「次调韩当、蒋钦、朱然、潘璋、周泰、徐盛、丁奉等七员大将」；第 77 回「令朱然引精兵五千，伏于麦城之北」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "第 77 回",
+   "description": "不敢战，望临沮小路而走，朱然率兵掩杀",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 82 回",
+   "description": "虎威将军朱然出曰：“臣愿与小将军同擒刘备",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 84 回",
+   "description": "奔走间，喊声大震，吴将朱然引一军从江岸边杀来，截住去路",
+   "importance": 1
+  }
+ ],
+ "mention_count": 25
+}

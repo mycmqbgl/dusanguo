@@ -1,0 +1,29 @@
+{
+ "id": "wu_yan_2",
+ "name": "吾彦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "吾彦，孙吴文臣，建平太守。有建平太守吾彦，拒城不下；闻吴亡，乃降。",
+ "bio": "。第 120 回：惟有建平太守吾彦，拒城不下。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "建平太守",
+   "basis": "第120回吴亡，惟有建平太守吾彦拒城不下，闻吴亡乃降。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

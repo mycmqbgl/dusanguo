@@ -1,0 +1,30 @@
+{
+ "id": "chen_ying",
+ "name": "陈应",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 209,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义为赵范部下所杀？演义作桂阳守将，战赵云被擒后纵归，后为范所斩。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "陈应，群雄武将，桂阳管军校尉。陈应骂曰：我等只服曹丞相，岂顺刘备。",
+ "bio": "陈应，桂阳太守赵范麾下管军校尉，善使飞叉。赵云兵至，应与鲍隆请战，应与云战数合被生擒，云缚而纵之归城。范降后二人密谋杀云以功，云将计就计，二人为云所斩（演义：为赵云喝令斩之）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "桂阳管军校尉",
+   "basis": "赵范部将；209 年死（演义）。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：卒年按演义为赵范部下所杀？演义作桂阳守将，战赵云被擒后纵归，后为范所斩",
+ "mention_count": 17
+}

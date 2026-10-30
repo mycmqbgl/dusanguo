@@ -1,0 +1,29 @@
+{
+ "id": "ju_gu",
+ "name": "沮鹄",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "沮鹄，群雄武将，邯郸守将。第 32 回一笔带过，事迹仅存其名。",
+ "bio": "第 32 回：令沮授之子沮鹄守邯郸，遥为声援。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 229,
+   "basis": "第32回审配请令沮授之子沮鹄守邯郸，遥为声援。沮授属袁绍。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "邯郸守将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

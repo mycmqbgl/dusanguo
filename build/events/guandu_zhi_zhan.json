@@ -1,0 +1,149 @@
+{
+ "id": "guandu_zhi_zhan",
+ "name": "官渡之战",
+ "kind": "军事行动",
+ "start_year": 200,
+ "end_year": 200,
+ "date_text": "建安五年（200）",
+ "summary": "袁绍起七十万大军南征，曹军七万相拒官渡；许攸献计奇袭乌巢，袁军粮尽将降，河北精锐一朝丧尽。",
+ "detail": "衣带诏事泄后袁曹决裂。建安五年，袁绍起冀青幽并四州之兵七十万攻许都，曹操以七万相拒于官渡。袁军筑土山地道，曹军以霹雳车应之；相持月余，曹军粮尽，操几欲退兵，荀彧书谏「此用奇之时，不可失也」。许攸自袁营叛投，献计轻兵奇袭乌巢，曹操亲率五千兵夜袭，焚其粮草。张郃高览遭郭图谮害降曹，袁军大溃。袁绍与袁谭幅巾单骑渡河，八百余骑北还。此战定中原归属：曹操自此鲸吞河北之资，奠定北方统一之势。",
+ "place_id": "guan_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "主帅，七万守官渡，亲袭乌巢"
+  },
+  {
+   "person_id": "yuan_shao",
+   "role_desc": "主帅，七十万南征，溃败幅巾北渡"
+  },
+  {
+   "person_id": "xun_you",
+   "role_desc": "谋主，荐徐晃截韩猛粮草"
+  },
+  {
+   "person_id": "xun_yu",
+   "role_desc": "留守许都，书谏操坚守官渡"
+  },
+  {
+   "person_id": "guo_jia",
+   "role_desc": "从征谋士"
+  },
+  {
+   "person_id": "xu_you",
+   "role_desc": "袁绍谋士，献计不被用，叛投曹操献乌巢之计"
+  },
+  {
+   "person_id": "shen_pei",
+   "role_desc": "袁绍谋主，力主速战"
+  },
+  {
+   "person_id": "guo_tu",
+   "role_desc": "袁绍谋士，主攻曹营，谮张郃高览致其降"
+  },
+  {
+   "person_id": "ju_shou",
+   "role_desc": "谏持久不纳，被夺兵权"
+  },
+  {
+   "person_id": "tian_feng",
+   "role_desc": "狱中谏，绍败后羞而杀之"
+  },
+  {
+   "person_id": "zhang_he",
+   "role_desc": "急救乌巢不纳，遭谮降曹"
+  },
+  {
+   "person_id": "gao_lan",
+   "role_desc": "与张郃同降曹"
+  },
+  {
+   "person_id": "chunyu_qiong",
+   "role_desc": "督乌巢粮草，醉酒失备被焚杀"
+  },
+  {
+   "person_id": "han_meng",
+   "role_desc": "运粮为徐晃史涣所劫"
+  },
+  {
+   "person_id": "jiang_qi",
+   "role_desc": "救乌巢，中途为张辽所斩"
+  },
+  {
+   "person_id": "sui_yuanjin",
+   "role_desc": "救乌巢战死"
+  },
+  {
+   "person_id": "zhang_liao",
+   "role_desc": "曹军先锋，斩蒋奇"
+  },
+  {
+   "person_id": "xu_huang",
+   "role_desc": "截击韩猛焚其粮"
+  },
+  {
+   "person_id": "yu_jin",
+   "role_desc": "曹军部将"
+  },
+  {
+   "person_id": "yue_jin",
+   "role_desc": "曹军部将，擒淳于琼"
+  },
+  {
+   "person_id": "liu_yan_dongjun",
+   "role_desc": "东郡太守，白马之围困守告急"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "袁绍南征",
+   "description": "袁绍起四州之兵七十万，以田丰狱中谏为忤，移檄数操十罪。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "白马延津",
+   "description": "关羽斩颜良解白马之围，延津诛文丑，袁军折两员大将。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "官渡相持",
+   "description": "土山地道对霹雳车，相持月余，曹军粮尽几欲退兵。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "许攸来投",
+   "description": "攸家属犯法下狱，叛绍投操，献乌巢之计。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "乌巢焚粮",
+   "description": "操亲率五千兵诈打袁军旗号，夜焚乌巢，淳于琼被擒杀。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "袁军大溃",
+   "description": "张郃高览降曹反攻，袁绍幅巾单骑北渡，八百余骑还邺。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [
+  "bai_ma_zhi_wei",
+  "yan_jin_zhi_zhan",
+  "guandu_battle"
+ ],
+ "passage_ids": [
+  30001,
+  30001,
+  30010,
+  30009,
+  30002,
+  30024
+ ]
+}

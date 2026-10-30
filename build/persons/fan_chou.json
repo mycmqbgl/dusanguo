@@ -1,0 +1,51 @@
+{
+ "id": "fan_chou",
+ "name": "樊稠",
+ "courtesy": null,
+ "display_aliases": [
+  "右将军",
+  "万年侯"
+ ],
+ "birth": null,
+ "death": 195,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于兴平二年（195）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "樊稠，东汉武将，右将军、万年侯。樊稠也勒住马答道：\"上命不可违。",
+ "bio": "樊稠为董卓部将。董卓死，随李傕攻长安，自为右将军、万年侯。兴平二年追韩遂至陈仓，韩遂以同乡之谊说之曰「吾此来亦为国家耳，公何相逼之甚」，樊稠遂拨马收兵，纵之使去。李傕之侄李别见而告发，李傕大怒，用贾诩之谋设宴请张济、樊稠庆功，酒半阑忽变色曰「樊稠何故交通韩遂，欲谋造反」，刀斧手拥出斩于案下。此事为「勇而无谋者死于宴席」的典型，也见贾诩之深险。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 192,
+   "end_year": 195,
+   "title": "右将军、万年侯",
+   "basis": "以右将军居长安，属李傕一系而无独立势力，以战斗指挥为主，按职责归武将；195 年为李傕所杀。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "攻长安",
+   "description": "随李傕等攻长安，杀王允，自为右将军万年侯。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "纵放韩遂",
+   "description": "追韩遂至陈仓，以同乡之谊纵之使去。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "宴上被斩",
+   "description": "李傕用贾诩之谋设宴，席间以交通韩遂为罪斩之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 24
+}

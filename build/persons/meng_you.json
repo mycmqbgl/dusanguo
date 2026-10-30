@@ -1,0 +1,48 @@
+{
+ "id": "meng_you",
+ "name": "孟优",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 88,
+ "review_status": "auto_mined",
+ "summary": "孟优，异族武将，孟获弟。知中计，急救了孟优等一干人；却待奔回中队，前面喊声大震，火光骤起，蛮兵各自逃窜。",
+ "bio": "。第 88 回：孟优领了兄计，引百余蛮兵，搬载金珠、宝贝、象牙、犀角之类，渡了泸水，径投孔明大寨而来。第 88 回：孟优被孔明教马谡、吕凯二人管待，令乐人搬做杂剧，殷勤劝酒，酒内下药，尽皆昏倒，浑如醉死之人。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "孟获弟",
+   "basis": "第八十八回原文：遂令武士去其绳索，放起孟获，并孟优及各洞酋长，一齐都放。 职任「孟获弟」据此；★任期按末见回目收敛：全书最后一次提及在第 90 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "第 88 回",
+   "description": "臾，马岱擒孟获至；赵云擒孟优至；魏延、马忠、王平、关索擒诸洞酋长至",
+   "importance": 1
+  },
+  {
+   "year": 225,
+   "title": "第 89 回",
+   "description": "人接杯，方欲饮酒，绛大喝一声，二子早将孟获、孟优执下座来",
+   "importance": 1
+  },
+  {
+   "year": 225,
+   "title": "第 90 回",
+   "description": "说孟获与祝融夫人并孟优、带来洞主、一切宗党在别帐饮酒",
+   "importance": 1
+  }
+ ],
+ "mention_count": 30
+}

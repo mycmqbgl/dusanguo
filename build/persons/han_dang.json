@@ -1,0 +1,74 @@
+{
+ "id": "han_dang",
+ "name": "韩当",
+ "courtesy": "义公",
+ "display_aliases": [
+  "昭武将军",
+  "冠军太守"
+ ],
+ "birth": null,
+ "death": 226,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于黄武五年（226）。辽西令支人。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "韩当，群雄武将，别部司马。韩当曰：吾自从孙将军平定江南，经数百战；其余诸将，或从讨逆将军，或从当今大王，皆披坚执锐，出生入死之士。",
+ "bio": "韩当字义公，辽西令支人。以便弓马、有膂力，幸于孙坚，从征伐周旋，数犯危难，陷敌擒虏。及孙策东渡，从讨三郡，征刘勋，破黄祖，还讨鄱阳，领乐安长，山越畏服。后以中郎将与周瑜等拒破曹操于赤壁，又与吕蒙袭取南郡。夷陵之战，与陆逊、朱然等大破刘备。官至昭武将军、冠军太守，加都督，封石城侯。黄武五年卒。演义第五回写其使一口大刀，为孙坚四将之一；第七回孙坚围襄阳，帅字旗竿为风吹折，韩当谏曰「此非吉兆，可暂班师」，孙坚不听，遂有岘山之败。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 195,
+   "title": "别部司马",
+   "lord_id": "sun_jian",
+   "basis": "幸于孙坚，从征伐周旋；孙氏未建号，属群雄阵营。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 226,
+   "title": "中郎将、偏将军、昭武将军、冠军太守、石城侯",
+   "basis": "195 年孙吴势力形成后历孙策、孙权三世，赤壁、夷陵皆有战功；226 年卒。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "从孙坚征伐",
+   "description": "以便弓马、有膂力见幸于孙坚，数犯危难，陷敌擒虏。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "谏止班师",
+   "description": "孙坚围襄阳，帅字旗竿为风吹折，韩当谏「此非吉兆，可暂班师」，坚不听，遂败死岘山。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "赤壁破曹",
+   "description": "以中郎将与周瑜等拒破曹操于赤壁。",
+   "importance": 3
+  },
+  {
+   "year": 222,
+   "title": "夷陵破蜀",
+   "description": "与陆逊、朱然等大破刘备于夷陵。",
+   "importance": 3
+  },
+  {
+   "year": 226,
+   "title": "卒",
+   "description": "黄武五年卒，官至昭武将军、石城侯。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 64
+}

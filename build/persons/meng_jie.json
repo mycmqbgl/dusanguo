@@ -1,0 +1,29 @@
+{
+ "id": "meng_jie",
+ "name": "孟节",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 89,
+ "review_status": "auto_mined",
+ "summary": "孟节，异族武将，隐者。第 89 回一笔带过，事迹仅存其名。",
+ "bio": "。第 89 回：遂与孟节曰：吾申奏天子，立公为王，可乎。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "隐者",
+   "basis": "第八十九回原文：隐者又曰：“丞相休疑，容伸片言：某一父母所生三人：长即老夫孟节，次孟获，又次孟优。 职任「隐者」据此；★任期按末见回目收敛：全书最后一次提及在第 89 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

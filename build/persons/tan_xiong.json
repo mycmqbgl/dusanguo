@@ -1,0 +1,29 @@
+{
+ "id": "tan_xiong",
+ "name": "谭雄",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "谭雄，孙吴武将，裨将。军中裨将谭雄，见张苞英勇，李异不能胜，却放一冷箭，正射中张苞所骑之马。",
+ "bio": "第 82 回：吴军中裨将谭雄，见张苞英勇，李异不能胜，却放一冷箭，正射中张苞所骑之马。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 229,
+   "title": "裨将",
+   "basis": "第82回吴军中裨将谭雄见张苞英勇，放冷箭射中其坐骑。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

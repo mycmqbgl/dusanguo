@@ -1,0 +1,29 @@
+{
+ "id": "yuan_feng",
+ "name": "袁逢",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "袁逢，东汉文臣，司徒。进视之，乃司徒袁逢之子，袁隗之侄：名绍，字本初，现为司隶校尉。",
+ "bio": "第 2 回：「乃司徒袁逢之子，袁隗之侄：名绍，字本初」。原文第 2 回相关片段：「尽诛阉竖，扫清朝廷，以安天下！”进视之，乃司徒袁逢之子，袁隗之侄：名绍，字本初，现为司隶校尉。何进」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 170,
+   "end_year": 190,
+   "title": "司徒",
+   "basis": "第 2 回：「乃司徒袁逢之子，袁隗之侄：名绍，字本初」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

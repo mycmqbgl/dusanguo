@@ -1,0 +1,29 @@
+{
+ "id": "ding_xian",
+ "name": "丁咸",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "丁咸，蜀汉武将，笃信中郎将、左护军。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回：「左护军——笃信中郎将丁咸」。原文第 91 回相关片段：「军——偏将军、汉城亭侯许允；左护军——笃信中郎将丁咸；右护军——偏将军刘敏；后护军——典军中郎将官雝」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 234,
+   "title": "笃信中郎将、左护军",
+   "basis": "第 91 回：「左护军——笃信中郎将丁咸」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

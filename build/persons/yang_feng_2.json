@@ -1,0 +1,29 @@
+{
+ "id": "yang_feng_2",
+ "name": "杨锋",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 89,
+ "review_status": "auto_mined",
+ "summary": "杨锋，异族人物，银冶洞二十一洞主。明令入，杨锋等拜于帐下曰：某等子侄皆感丞相恩德，故擒孟获、孟优等呈献。",
+ "bio": "官职「洞主」据原文上下文提取。原文第 89 回相关片段：「正欲起程，忽报洞后迤西银冶洞二十一洞主杨锋引三万兵来助战。孟获大喜曰：“邻兵助我，我必胜矣」。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "其他",
+   "start_year": 225,
+   "end_year": 229,
+   "title": "银冶洞二十一洞主",
+   "basis": "第89回洞后迤西银冶洞二十一洞主杨锋引三万兵来助孟获，后擒获孟获献于蜀军。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

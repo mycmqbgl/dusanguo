@@ -1,0 +1,90 @@
+{
+ "id": "chi_bi_battle",
+ "name": "赤壁之战",
+ "year": 208,
+ "date_text": "建安十三年（208）冬（十一月二十甲子祭风，火攻随后）",
+ "place_id": "chi_bi",
+ "event_id": "chi_bi_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao",
+    "cao_ren",
+    "xu_chu"
+   ],
+   "troops_desc": "号称八十三万（北军十五六万 + 荆州降军七八万），战船连锁"
+  },
+  {
+   "side": "孙刘联军",
+   "faction_ids": [
+    "wu",
+    "shu"
+   ],
+   "commanders": [
+    "zhou_yu",
+    "zhuge_liang",
+    "huang_gai",
+    "lu_su",
+    "guan_yu",
+    "zhang_fei",
+    "zhao_yun"
+   ],
+   "troops_desc": "周瑜三万水军 + 刘备刘琦二万，黄盖诈降火船二十只"
+  }
+ ],
+ "result": "火烧连环，曹军八十三万溃败，三分天下之势自此定",
+ "casualties_note": "曹军烧死溺死者不计其数；周瑜督战诸将分头掩杀。",
+ "summary": "东南风大作，黄盖诈降火船直入曹军水寨，连环船一炬俱焚，火趁风威风助火势，曹军大溃。",
+ "detail": "操军战船连锁，人马如潮。周瑜登高一望，见曹军旌旗无空，急火攻心呕血，得孔明「欲破曹公，宜用火攻；万事俱备，只欠东风」点破。冬至后甲子，孔明七星坛借得东南风（演义）。瑜令黄盖诈降船二十只实载芦苇干柴硫磺焰硝，二更直插水寨，火船一齐点着，风助火势，曹军船烧寨烧岸上营寨皆着，太史慈等分头掩杀，操自乌林败走。",
+ "front_line": [
+  {
+   "time": 208,
+   "time_seq": 1,
+   "kind": "布阵",
+   "label": "连环锁船",
+   "desc": "曹军战船连锁屯江北，联军屯三江口。",
+   "lng": 113.6,
+   "lat": 29.83,
+   "pixel_x": 783.1,
+   "pixel_y": 654.0
+  },
+  {
+   "time": 208,
+   "time_seq": 2,
+   "kind": "借风",
+   "label": "七星坛祭风",
+   "desc": "孔明坛上祭风，东南风大起。",
+   "lng": 113.9,
+   "lat": 29.75,
+   "pixel_x": 794.9,
+   "pixel_y": 657.7
+  },
+  {
+   "time": 208,
+   "time_seq": 3,
+   "kind": "火攻",
+   "label": "黄盖纵火",
+   "desc": "诈降火船直入水寨，连环船一炬俱焚。",
+   "lng": 113.6,
+   "lat": 29.83,
+   "pixel_x": 783.1,
+   "pixel_y": 654.0
+  },
+  {
+   "time": 208,
+   "time_seq": 4,
+   "kind": "溃败",
+   "label": "乌林败走",
+   "desc": "曹军全面溃败，操自乌林陆路西走。",
+   "lng": 113.7,
+   "lat": 29.9,
+   "pixel_x": 787.0,
+   "pixel_y": 650.8
+  }
+ ],
+ "place_name": "赤壁"
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zi_xu_shang_ren",
+ "name": "紫虚上人",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "auto_mined",
+ "summary": "紫虚上人，神怪人物，道人。紫虚上人曰：定数难逃，何必再问。",
+ "bio": "原文第 62 回相关片段：「将行兵之次，刘璝曰：“吾闻锦屏山中有一异人，道号紫虚上人，知人生死贵贱。吾辈今日行军，正从锦屏山过。何不」。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 212,
+   "end_year": 212,
+   "title": "道人",
+   "basis": "第六十二回原文：紫虚上人曰：“贫道乃山野废人，岂知休咎。 职任「道人」据此；★任期按末见回目收敛：全书最后一次提及在第 62 回（212 年），原 212—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

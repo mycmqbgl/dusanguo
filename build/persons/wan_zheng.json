@@ -1,0 +1,29 @@
+{
+ "id": "wan_zheng",
+ "name": "万政",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 95,
+ "review_status": "auto_mined",
+ "summary": "万政，曹魏武将，郭淮部将。淮兵到，万政言赵云英勇如旧，因此不敢近前。",
+ "bio": "第 95 回：万政勉强来敌，被云一箭射中盔缨，惊跌于涧中。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "郭淮部将",
+   "basis": "第95回郭淮部将万政追赵云，云勒马挺枪立于路口，政不敢逼。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

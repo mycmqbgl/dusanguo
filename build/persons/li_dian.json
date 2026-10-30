@@ -1,0 +1,57 @@
+{
+ "id": "li_dian",
+ "name": "李典",
+ "courtesy": "曼成",
+ "display_aliases": [
+  "破虏将军",
+  "都亭侯",
+  "五子良将（附）"
+ ],
+ "birth": null,
+ "death": 216,
+ "date_precision": "approx",
+ "date_note": "生年不详，史载卒于合肥之战（215）后不久（约 216），年三十六。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "李典，群雄武将，司马、裨将。操探知救军已到，遣乐进、李典引兵于半路接着，两头围住尽杀之。",
+ "bio": "李典字曼成，山阳巨野人。演义第六回随曹操追董卓，荥阳败后与曹仁、乐进各引兵寻到曹操，聚集残兵同回河内。史实李典从父李乾为曹操将，乾死典领其众，从击袁绍、管承，迁破虏将军。典好学问，贵儒雅，有长者之风，不与诸将争功。合肥之战，张辽欲出战而军心疑，典慨然曰「此国家大事，顾君计何如耳，吾可以私憾而忘公义乎」，遂与辽破敌。建安十四年卒，谥愍侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 196,
+   "title": "司马、裨将",
+   "lord_id": "cao_cao",
+   "basis": "演义第六回（190）随曹操追董卓，为部将；此时曹操未建号，属群雄之一。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 216,
+   "title": "中郎将、离狐太守、裨将军、破虏将军、都亭侯",
+   "basis": "196 年曹魏势力形成后为曹操部将；209 年卒，谥愍侯。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "追董卓",
+   "description": "随曹操星夜追赶董卓，荥阳败后聚残兵回河内。",
+   "importance": 2
+  },
+  {
+   "year": 215,
+   "title": "史实：合肥破吴",
+   "description": "张辽欲出，军心疑之，典曰「可以私憾而忘公义乎」，遂与辽共破孙权。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 86
+}

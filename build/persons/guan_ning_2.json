@@ -1,0 +1,29 @@
+{
+ "id": "guan_ning_2",
+ "name": "管宁",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 66,
+ "review_status": "auto_mined",
+ "summary": "管宁，东汉末年隐士，与华歆、邴原并称「一龙」，有割席分坐之事。",
+ "bio": "管宁，字幼安，北海朱虚人，汉末隐士。与华歆、邺原相友善，时人称「一龙」：华歆为龙头，邴原为龙腹，管宁为龙尾。第66回管宁与华歆锄园见金，宁挥锄不顾，歆捉而掷之；又同席读书，有乘轩冕过门者，歆废书出看，宁割席分坐曰「子非吾友也」。终身不仕，避乱辽东。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 200,
+   "end_year": 220,
+   "title": "隐士（未仕）",
+   "basis": "第66回：华歆为龙头，邴原为龙腹，管宁为龙尾；「割席分坐」。隐士未仕，归汉·其他。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

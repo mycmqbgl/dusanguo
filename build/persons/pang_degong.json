@@ -1,0 +1,31 @@
+{
+ "id": "pang_degong",
+ "name": "庞德公",
+ "courtesy": "山民",
+ "display_aliases": [
+  "鹿门先生"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。襄阳隐士，庞统之叔。",
+ "gender": "male",
+ "first_chapter": 35,
+ "review_status": "reviewed",
+ "summary": "庞德公，群雄文臣，襄阳隐士。玄德曰：庞德公乃庞统何人。",
+ "bio": "庞德公，襄阳岘山之南隐居，躬耕陇亩。司马徽兄事之，诸葛亮相敬如师，呼亮为卧龙、统为凤雏、徽为水镜。刘表数请不出。演义中经司马徽、徐庶口中反复提及，为荆襄名士领袖。史载其携妻子登鹿门山采药不返。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 220,
+   "title": "襄阳隐士",
+   "basis": "未仕，隐居襄阳；账号按中立人物处理，系于汉末时段。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

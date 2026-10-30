@@ -1,0 +1,29 @@
+{
+ "id": "li_chun_xiang",
+ "name": "李春香",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 57,
+ "review_status": "auto_mined",
+ "summary": "李春香，蜀汉女眷，黄奎妾。料其妾李春香、与奎妻弟苗泽私通。",
+ "bio": "第 57 回：便教将苗泽、李春香与黄奎一家老小并斩于市。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "黄奎妾",
+   "basis": "第五十七回原文：苗泽告操曰：“不愿加赏，只求李春香为妻。 职任「黄奎妾」据此；★任期按末见回目收敛：全书最后一次提及在第 57 回（211 年），原 211—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

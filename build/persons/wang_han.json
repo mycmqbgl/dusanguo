@@ -1,0 +1,29 @@
+{
+ "id": "wang_han",
+ "name": "王含",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "王含，蜀汉武将，蜀将。蜀将王含守乐城，蒋斌守汉城，见魏兵势大，不敢出战，只闭门自守。",
+ "bio": "第 113 回：王含、蒋斌因立寨未定，恐魏兵来劫寨，不敢解甲而寝。第 113 回：次日，王含、蒋斌收聚败兵，伏于大寨前请罪。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 255,
+   "end_year": 262,
+   "title": "蜀将",
+   "basis": "第一百十三回原文：时蜀汉景耀元年冬，大将军姜维以廖化、张翼为先锋，王含、蒋斌为左军，蒋舒，傅佥为右军，胡济为合。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 255—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

@@ -1,0 +1,29 @@
+{
+ "id": "niu_jin",
+ "name": "牛金",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 51,
+ "review_status": "auto_mined",
+ "summary": "牛金，曹魏武将，曹将。仁从之，令牛金引五百军出战。",
+ "bio": "第 51 回：骁将牛金奋然进曰：兵临城下而不出战，是怯也。第 51 回：仁从之，令牛金引五百军出战。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 209,
+   "title": "曹将",
+   "basis": "第五十一回原文：程普令三军紧守各寨，不许轻出，三日后，牛金引军来搦战，程普按兵不动。 职任「曹将」据此；★任期按末见回目收敛：全书最后一次提及在第 51 回（209 年），原 209—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 16
+}

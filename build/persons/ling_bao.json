@@ -1,0 +1,29 @@
+{
+ "id": "ling_bao",
+ "name": "泠苞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "auto_mined",
+ "summary": "泠苞，群雄武将，将佐。泠苞曰：既蒙免死，如何不降。",
+ "bio": "官职「将佐」据原文上下文提取。原文第 60 回相关片段：「黄金五百两，令人往成都赐与张松。时部下将佐刘璝、泠苞、张任、邓贤等一班文武官曰：“主公且休欢喜。刘备」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "将佐",
+   "basis": "第六十二回：泠苞为刘璋部将，守雒城，兵败被擒。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 37
+}

@@ -1,0 +1,29 @@
+{
+ "id": "liu_hong",
+ "name": "刘弘",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "刘弘，东汉文臣，东郡范令。德祖刘雄，父刘弘。",
+ "bio": "。第 1 回：「玄德祖刘雄，父刘弘。弘曾举孝廉，亦尝作吏，早丧」。原文第 1 回相关片段：「后坐酎金失侯，因此遗这一枝在涿县。玄德祖刘雄，父刘弘。弘曾举孝廉，亦尝作吏，早丧。玄德幼孤，事母至孝」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 130,
+   "end_year": 160,
+   "title": "东郡范令",
+   "basis": "第 1 回：「玄德祖刘雄，父刘弘。弘曾举孝廉，亦尝作吏，早丧」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

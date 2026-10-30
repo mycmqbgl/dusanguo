@@ -1,0 +1,207 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""
+P4-B 联动：生成第 81–90 回的 4 组事件 + 2 场战役（data/event_battle_ch081_090.json）。
+约束同 gen_events_p3a.py：passage_ids 解析生成；participants/commanders 仅已建档 id
++ 本批次新卡（persons_ch081_090.json）+ 其他批次预分配 id。
+"""
+import json, io, os
+
+ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+BUILD = os.path.join(ROOT, 'build')
+DATA = os.path.join(ROOT, 'data')
+
+places = {p['id']: p for p in json.load(io.open(os.path.join(BUILD, 'places.json'), encoding='utf-8'))}
+passages, pids = {}, {}
+for f in sorted(os.listdir(os.path.join(BUILD, 'chapters'))):
+    d = json.load(io.open(os.path.join(BUILD, 'chapters', f), encoding='utf-8'))
+    no = d['chapter']['no']
+    for p in d['passages']:
+        passages[(no, p['seq'])] = p['text']
+        pids[(no, p['seq'])] = p['id']
+person_ids = set()
+for f in os.listdir(DATA):
+    if f.startswith('persons_') and f.endswith('.json'):
+        for p in json.load(io.open(os.path.join(DATA, f), encoding='utf-8'))['persons']:
+            person_ids.add(p['id'])
+
+# 其他批次预分配 id（卡由别的代理写，此处只允许引用）
+PREALLOC = {
+    'sim_yi', 'guan_ping', 'liu_feng', 'hua_tuo', 'jiang_wei', 'ma_su', 'wang_ping',
+    'cao_rui', 'hao_zhao', 'wang_shuang', 'jiang_wan', 'deng_ai', 'guo_huai',
+    'cao_shuang', 'gongsun_yuan', 'sun_liang', 'zhuge_ke', 'wen_yang', 'cao_fang',
+    'sun_jun', 'yang_yi', 'zhong_hui', 'zhuge_dan', 'chen_tai', 'sun_xiu',
+    'sun_hao', 'cao_mao', 'zhuge_zhan', 'wang_jun', 'du_yu', 'yang_hu',
+    'sun_chen', 'lu_kang',
+}
+
+
+def ref(no, kw):
+    hits = [(s, t) for (n, s), t in passages.items() if n == no and kw in t]
+    if not hits:
+        raise SystemExit('出处解析失败：第 %d 回找不到关键词「%s」' % (no, kw))
+    return pids[(no, hits[0][0])]
+
+
+def refs(no, kws):
+    return [ref(no, kw) for kw in kws]
+
+
+def check_persons(obj, *id_fields):
+    for f in id_fields:
+        if f == 'participants':
+            ids = [p['person_id'] for p in obj['participants']]
+        elif f == 'belligerents':
+            ids = [c for b in obj['belligerents'] for c in b['commanders']]
+        else:
+            ids = obj[f]
+        bad = [i for i in ids if i not in person_ids and i not in PREALLOC]
+        if bad:
+            raise SystemExit('%s：未建档人物 %s' % (obj['id'], bad))
+
+
+def plc(pid):
+    p = places[pid]
+    return float(p['lng']), float(p['lat'])
+
+
+events, battles = [], []
+
+# ---- E1 + B1 猇亭之战（81–84 回，221–222） ----
+b1 = {
+    'id': 'xiaoting_battle', 'name': '猇亭之战', 'year': 222,
+    'date_text': '章武元年至二年（221–222）',
+    'place_id': 'xiao_ting', 'event_id': 'xiaoting_zhi_zhan',
+    'belligerents': [
+        {'side': '蜀军（刘备御驾）', 'faction_ids': ['shu'], 'commanders': ['liu_bei', 'huang_quan', 'zhao_yun'],
+         'troops_desc': '备自督江南诸军夹江连营七百里四十余屯；权督江北军防魏；云为后应'},
+        {'side': '吴军', 'faction_ids': ['wu'], 'commanders': ['lu_xun', 'han_dang', 'zhou_tai', 'ling_tong', 'ding_feng'],
+         'troops_desc': '陆逊拜大都督，坚守不战，待敝而纵火'},
+    ],
+    'result': '陆逊火烧连营七百里，蜀军土崩瓦解，备仅百余人奔白帝城，傅彤程畿张南冯习皆殁。',
+    'casualties_note': '蜀军粮草器仗尺寸不存，死者不可胜数；吴将朱然为赵云所杀（演义）；沙摩柯战殁。',
+    'summary': '刘备亲征伐吴，陆逊以逸待劳，火烧连营七百里大破蜀军，备退保白帝城，蜀汉元气大伤。',
+    'detail': '备为关张复仇，七十五万御驾亲征，孙权拜陆逊为大都督。逊坚守隘口不出，诸将以其书生不服，逊按剑令曰：违者皆斩。相持七八月，备移营于山林茂盛避暑处，夹江连营七百里四十余屯。孔明见图本拍案叫苦：包原隰险阻结营，兵家大忌，倘用火攻何以解救！逊顺风纵火，每间一屯烧一屯，蜀军自相践踏死者无数。备奔马鞍山，傅彤断后吐血死于吴军，程畿拔剑自刎。赵云自江州引兵杀入重围，一枪刺朱然救出先主。逊追至夔关见鱼腹浦八阵图杀气冲天而退，旋料魏兵三路袭吴即日班师。备叹：朕早听丞相之言，不致今日之败！',
+    'front_line': [
+        {'time': 221, 'time_seq': 1, 'kind': '出师', 'label': '御驾伐吴', 'desc': '张飞遇害后刘备决意东征，自秭归推进，水陆并进声势震天。', 'lng': 110.63, 'lat': 30.83},
+        {'time': 221, 'time_seq': 2, 'kind': '拜将', 'label': '逊拜都督', 'desc': '孙权筑坛拜陆逊大都督假节钺，逊令诸将坚守隘口不许轻出。', 'lng': 111.43, 'lat': 30.52},
+        {'time': 222, 'time_seq': 3, 'kind': '对峙', 'label': '移营避暑', 'desc': '相持经夏，备移营山林依溪傍涧，夹江连营七百里四十余屯。', 'lng': 111.29, 'lat': 30.69},
+        {'time': 222, 'time_seq': 4, 'kind': '火攻', 'label': '火烧连营', 'desc': '初更东南风起，吴兵顺风举火，间屯而烧，蜀军全线崩溃。', 'lng': 111.43, 'lat': 30.52},
+        {'time': 222, 'time_seq': 5, 'kind': '结局', 'label': '退保白帝', 'desc': '赵云杀入重围救备，仅百余人入白帝城；逊见八阵图疑有伏而还。', 'lng': 109.57, 'lat': 31.02},
+    ],
+}
+check_persons(b1, 'belligerents')
+battles.append(b1)
+e1 = {
+    'id': 'xiaoting_zhi_zhan', 'name': '猇亭之战', 'kind': '征伐',
+    'start_year': 221, 'end_year': 222, 'date_text': '章武元年至二年（221–222）',
+    'summary': '刘备为关张复仇御驾伐吴，陆逊火烧连营七百里，蜀汉主力尽丧，三国鼎立格局至此定型。',
+    'detail': '详见战役「猇亭之战」。81 回张飞因鞭挞士卒为范疆张达所害，首级投吴，备怒气弥甚。此役蜀汉精锐尽丧，五虎凋零，备崩于永安，蜀汉自此转为联吴抗魏。',
+    'place_id': 'xiao_ting', 'parent_event_id': None,
+    'participants': [
+        {'person_id': 'liu_bei', 'role_desc': '御驾亲征，连营七百里致败，退保白帝城'},
+        {'person_id': 'lu_xun', 'role_desc': '吴大都督，坚守待敝，火烧连营'},
+        {'person_id': 'huang_quan', 'role_desc': '谏勿亲征不听，督江北军，败后道绝降魏'},
+        {'person_id': 'zhao_yun', 'role_desc': '后应，自江州杀入重围救先主'},
+        {'person_id': 'zhang_fei', 'role_desc': '81 回开篇为部将范疆张达所害，首级投吴，直接激化此战'},
+    ],
+    'passage_ids': refs(81, ['伐吴', '桃园']) + refs(83, ['大都督', '猇亭']) + refs(84, ['七百里', '鱼腹浦']),
+    'battle_ids': ['xiaoting_battle'],
+}
+check_persons(e1, 'participants')
+events.append(e1)
+
+# ---- E2 白帝托孤（85 回，223） ----
+e2 = {
+    'id': 'baidi_tuogu', 'name': '白帝托孤', 'kind': '人物',
+    'start_year': 223, 'end_year': 223, 'date_text': '章武三年四月（223）',
+    'summary': '刘备崩于永安宫，托孤诸葛亮，谓君可自取；亮叩头流血，誓竭股肱之力，继之以死。',
+    'detail': '先主病笃永安宫，召诸葛亮、尚书令李严听受遗命。先主泣曰：君才十倍曹丕，必能安邦定国；若嗣子可辅则辅之，如其不才，君可自为成都之主。亮汗流遍体，泣拜曰：臣安敢不竭股肱之力，尽忠贞之节，继之以死乎！又遗诏太子：勿以恶小而为之，勿以善小而不为；又嘱赵云早晚看觑吾子。又诫孔明：马谡言过其实，不可大用。言毕驾崩，寿六十三。孔明奉梓宫还成都，立刘禅即位，改元建兴。此为三国君臣关系之极笔。',
+    'place_id': 'bai_di_cheng', 'parent_event_id': None,
+    'participants': [
+        {'person_id': 'liu_bei', 'role_desc': '崩于永安宫，托孤留言'},
+        {'person_id': 'zhuge_liang', 'role_desc': '受遗命，叩头流血誓死以报'},
+        {'person_id': 'li_yan', 'role_desc': '尚书令，与诸葛亮并受遗诏，统内外军事留镇永安'},
+        {'person_id': 'liu_shan', 'role_desc': '嗣君，留守成都，即位改元建兴'},
+        {'person_id': 'zhao_yun', 'role_desc': '受嘱早晚看觑幼主'},
+    ],
+    'passage_ids': refs(85, ['永安宫', '托孤', '李严']),
+}
+check_persons(e2, 'participants')
+events.append(e2)
+
+# ---- E3 安居平五路（85 回，223，原文系建兴元年） ----
+e3 = {
+    'id': 'anju_pingwulu', 'name': '安居平五路', 'kind': '谋略',
+    'start_year': 223, 'end_year': 223, 'date_text': '建兴元年（223）',
+    'summary': '曹丕用司马懿五路攻蜀之策，孔明安居相府运筹退四路，邓芝使吴退第五路，蜀汉转危为安。',
+    'detail': '曹丕听司马懿五路之计：轲比能羌兵取西平关，孟获蛮兵犯四郡，孙权兵取峡口，孟达上庸兵攻汉中，曹真出阳平关，共五十万。边报至蜀，丞相数日不出视事，后主亲至相府，见孔明观鱼，亮笑曰：四路兵已皆退去，惟孙权一路须一能言之人。盖马超素得羌心守西平关；魏延左出右入为疑兵拒蛮兵；李严与孟达有生死之交，作书令达称病；赵云守阳平关险隘不出；又密调关兴张苞为各路救应。孔明择邓芝使吴，吴蜀复通，五路之危顿解。亮之静深，后主之服，皆为此回眼目。',
+    'place_id': 'cheng_du', 'parent_event_id': None,
+    'participants': [
+        {'person_id': 'zhuge_liang', 'role_desc': '安居相府运筹，四路退兵，择使通吴'},
+        {'person_id': 'liu_shan', 'role_desc': '后主，车驾亲至相府问计，叹相父鬼神不测之机'},
+        {'person_id': 'sim_yi', 'role_desc': '献五路大兵之计者'},
+        {'person_id': 'meng_huo', 'role_desc': '五路之一，蛮兵犯益州四郡，为魏延疑兵所拒'},
+        {'person_id': 'ma_chao', 'role_desc': '素得羌人之心，令守西平关退轲比能'},
+        {'person_id': 'wei_yan', 'role_desc': '领兵左出右入为疑兵，拒孟获'},
+        {'person_id': 'zhao_yun', 'role_desc': '守阳平关隘不出，曹真自退'},
+        {'person_id': 'li_yan', 'role_desc': '与孟达生死之交，亮假其笔作书，达称病不进'},
+        {'person_id': 'cao_zhen', 'role_desc': '五路之一，大都督出阳平关，无功自退'},
+    ],
+    'passage_ids': refs(85, ['五路', '邓芝']),
+}
+check_persons(e3, 'participants')
+events.append(e3)
+
+# ---- E4 + B2 七擒孟获（87–90 回，225） ----
+b2 = {
+    'id': 'qiqin_menghuo_battle', 'name': '七擒孟获', 'year': 225,
+    'date_text': '建兴三年（225）',
+    'place_id': 'jian_ning', 'event_id': 'qiqin_menghuo',
+    'belligerents': [
+        {'side': '蜀南征军', 'faction_ids': ['shu'], 'commanders': ['zhuge_liang', 'zhao_yun', 'wei_yan', 'ma_dai', 'wang_ping'],
+         'troops_desc': '亮亲统大军南征，赵云魏延为大将，马岱王平副之'},
+        {'side': '南蛮军', 'faction_ids': ['barbarian'], 'commanders': ['meng_huo'],
+         'troops_desc': '孟获蛮兵十万，借三洞元帅、木鹿兽兵、兀突骨藤甲军'},
+    ],
+    'result': '七擒七纵，孟获肉袒谢罪：丞相天威，南人不复反矣。亮令永为洞主，不留兵不运粮，南中遂定。',
+    'casualties_note': '兀突骨三万藤甲军尽焚于盘蛇谷，孔明垂泪：必损寿矣；木鹿大王、朵思大王死于乱军。',
+    'summary': '诸葛亮南征，攻心为上，七擒孟获而七纵之，终使其倾心归服，南人不复反矣。',
+    'detail': '建兴三年孟获结雍闿等犯境，亮采纳马谡攻心为上之策，亲率大军深入不毛。初擒于锦带山纵之；再渡泸水，破三洞元帅；三番诈降就洞中擒之；祝融夫人飞刀连擒张嶷马忠，孔明换将复擒获；获借朵思大王守三江城，亮令军士包土积蹬夜破之；木鹿大王驱虎豹毒蛇，亮以木刻巨兽口吐火焰破之，占银坑洞，六擒；获乞乌戈国兀突骨藤甲军，魏延连输十五阵赚其入盘蛇谷，马岱地雷火炮焚之，马岱生擒孟获。获泣曰：七擒七纵，自古未尝有也，南人不复反矣。费祎谏置官吏，亮言三不易，不留人、不运粮，与相安无事，蛮方立祠呼为慈父。',
+    'front_line': [
+        {'time': 225, 'time_seq': 1, 'kind': '南征', 'label': '破三郡初擒', 'desc': '亮用反间平雍闿朱褒高定三郡，锦带山魏延伏兵初擒孟获而纵之。', 'lng': 103.8, 'lat': 25.49},
+        {'time': 225, 'time_seq': 2, 'kind': '渡泸', 'label': '渡泸再擒', 'desc': '大军渡泸水，破三洞元帅，获再被擒再纵，蛮兵丧胆。', 'lng': 102.6, 'lat': 24.67},
+        {'time': 225, 'time_seq': 3, 'kind': '攻城', 'label': '包土破三江', 'desc': '获借朵思大王毒弩守三江城，亮令军士衣襟包土，一夜积蹬破城。', 'lng': 102.65, 'lat': 24.62},
+        {'time': 225, 'time_seq': 4, 'kind': '破法', 'label': '假兽破兽兵', 'desc': '木鹿大王驱虎豹毒蛇，亮出木刻巨兽吐火喷烟，真兽反奔，占银坑洞。', 'lng': 102.6, 'lat': 24.67},
+        {'time': 225, 'time_seq': 5, 'kind': '火攻', 'label': '焚藤甲于盘蛇谷', 'desc': '魏延连输十五阵赚兀突骨藤甲军入谷，地雷火炮齐发，三万藤甲尽焚。', 'lng': 102.6, 'lat': 24.7},
+        {'time': 225, 'time_seq': 6, 'kind': '归服', 'label': '七纵南定', 'desc': '马岱七擒孟获，获肉袒谢罪永不复反；亮令永为洞主，班师渡泸。', 'lng': 103.8, 'lat': 25.49},
+    ],
+}
+check_persons(b2, 'belligerents')
+battles.append(b2)
+e4 = {
+    'id': 'qiqin_menghuo', 'name': '七擒孟获', 'kind': '征伐',
+    'start_year': 225, 'end_year': 225, 'date_text': '建兴三年（225）',
+    'summary': '诸葛亮采纳马谡攻心为上之策南征，七擒七纵孟获，南中平定，为北伐解除后顾之忧。',
+    'detail': '详见战役「七擒孟获」。马谡送军至：用兵之道，攻心为上，心战为上，兵战为下。亮叹：幼常足知吾肺腑也！平蛮后亮不留兵不运粮，与相安无事，蛮方为亮立生祠四时享祭，皆呼为慈父。南方既定，遂治兵讲武，以图中原，95 回北伐由此张本。',
+    'place_id': 'jian_ning', 'parent_event_id': None,
+    'participants': [
+        {'person_id': 'zhuge_liang', 'role_desc': '南征统帅，攻心为上，七擒七纵'},
+        {'person_id': 'meng_huo', 'role_desc': '南蛮王，六番不服，第七番倾心归降'},
+        {'person_id': 'zhao_yun', 'role_desc': '南征大将，夜袭金环三结寨刺之'},
+        {'person_id': 'wei_yan', 'role_desc': '南征大将，锦带山伏兵初擒孟获，盘蛇谷连输十五阵为饵'},
+        {'person_id': 'ma_dai', 'role_desc': '盘蛇谷埋地雷火炮，第七番生擒孟获'},
+        {'person_id': 'wang_ping', 'role_desc': '南征副将，拒蛮兵伏路夹攻'},
+        {'person_id': 'ma_su', 'role_desc': '奉诏犒军，献攻心为上之策'},
+    ],
+    'passage_ids': refs(87, ['雍闿', '攻心', '孟获']) + refs(90, ['盘蛇谷', '七擒', '银坑洞', '泸水']),
+    'battle_ids': ['qiqin_menghuo_battle'],
+}
+check_persons(e4, 'participants')
+events.append(e4)
+
+out = {'comment': 'P4-B（2026-10-29）：第 81–90 回的 4 组事件 + 2 场战役。passage_ids 由本脚本解析生成，禁止手改。',
+       'events': events, 'battles': battles}
+p = os.path.join(DATA, 'event_battle_ch081_090.json')
+io.open(p, 'w', encoding='utf-8').write(json.dumps(out, ensure_ascii=False, indent=2))
+print('写出 %s：事件 %d，战役 %d' % (p, len(events), len(battles)))

@@ -1,0 +1,79 @@
+{
+ "id": "yu_jin",
+ "name": "于禁",
+ "courtesy": "文则",
+ "display_aliases": [
+  "虎威将军",
+  "左将军",
+  "五子良将"
+ ],
+ "birth": null,
+ "death": 221,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于黄初二年（221）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "verified",
+ "summary": "于禁，群雄武将，军司马。于禁得令，领众赶上，大喝曰：我奉丞相令，教来杀汝母子。",
+ "bio": "于禁字文则，泰山巨平人。初从鲍信，信败，归曹操，拜军司马。曹操征张绣，于禁独整所部，且先立营垒而后入见，操叹曰「将军在乱能整，讨暴坚垒，有不可动之节，虽古名将，何以加之」，封益寿亭侯。官渡之战守延津，力战有功。曹操每征伐，禁常为先锋，与张辽、乐进、张郃、徐晃并称五子良将。建安二十四年关羽围樊城，曹仁告急，曹操遣于禁督七军往救，汉水暴涨，七军皆没，于禁降关羽。曹操闻之叹曰「吾知禁三十年，何意临危处难，反不如庞德邪」。后关羽败，于禁入吴，魏文帝时遣还，拜安远将军，令北诣邺谒曹操陵，预于陵屋画关羽战克、庞德愤怒、于禁降服之状，禁见而惭恚发病死。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 192,
+   "end_year": 196,
+   "title": "军司马",
+   "lord_id": "cao_cao",
+   "basis": "192 年前后鲍信败后归曹操，拜军司马；此时曹操未建号，属群雄之一。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 219,
+   "title": "益寿亭侯、虎威将军、左将军、假节钺",
+   "basis": "196 年曹魏势力形成后为曹操主将，五子良将之一；219 年襄樊之役降关羽。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 221,
+   "title": "安远将军",
+   "basis": "219 年降关羽，关羽败后转至吴，为孙权所羁；221 年遣还魏。此片按其实际所在政权记吴，confidence 偏低。",
+   "confidence": 0.5,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "归曹操",
+   "description": "从鲍信，信败后归曹操，拜军司马。",
+   "importance": 2
+  },
+  {
+   "year": 197,
+   "title": "乱中能整",
+   "description": "征张绣时独整所部、先立营垒，曹操叹「虽古名将何以加之」。",
+   "importance": 3
+  },
+  {
+   "year": 219,
+   "title": "七军尽没",
+   "description": "督七军救樊城，汉水暴涨，七军皆没，降关羽。",
+   "importance": 3
+  },
+  {
+   "year": 221,
+   "title": "惭恚而死",
+   "description": "魏文帝令谒曹操陵，预画其降服之状，禁见而惭恚发病死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 99
+}

@@ -1,0 +1,29 @@
+{
+ "id": "gong_sun_du",
+ "name": "公孙度",
+ "courtesy": "升济",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "公孙度，群雄君主，将军。第 33 回一笔带过，事迹仅存其名。",
+ "bio": "官职「将军」据原文上下文提取。原文第 33 回相关片段：「数千骑奔辽东。辽东太守公孙康，本襄平人，武威将军公孙度之子也。当日知袁熙、袁尚来投，遂聚本部属官商议此」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 205,
+   "end_year": 229,
+   "title": "将军",
+   "basis": "第三十三回原文：辽东太守公孙康，本襄平人，武威将军公孙度之子也。 职任「将军」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

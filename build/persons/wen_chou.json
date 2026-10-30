@@ -1,0 +1,51 @@
+{
+ "id": "wen_chou",
+ "name": "文丑",
+ "courtesy": null,
+ "display_aliases": [
+  "上将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安五年（200）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "文丑，群雄武将，上将。上将火照看，果是自家军马。",
+ "bio": "文丑，袁绍上将，与颜良并称。袁绍入冀州时砍死关纯。磐河之战，文丑策马挺枪直杀上桥，与公孙瓒战十余合，瓒败走，文丑追入中军，一枪刺一将下马，三将俱走；追至山谷，公孙瓒弓箭尽落、头盔堕地、翻身落马，文丑捻枪来刺，忽草坡左侧转出少年赵云，与文丑大战五六十合胜负未分，瓒救军到，文丑拨马而回。延津之战，文丑中曹操饵敌之计，军士争抢辎重阵形大乱，为关羽所斩。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 200,
+   "title": "上将",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将，无独立势力，以战斗指挥为主归武将；200 年为关羽所斩。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "斩关纯",
+   "description": "袁绍入冀州，关纯伏于城外欲刺绍，文丑砍死之。",
+   "importance": 1
+  },
+  {
+   "year": 191,
+   "title": "磐河追瓒",
+   "description": "追公孙瓒至山谷，几将其刺于马下，为少年赵云所阻，大战五六十合。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "延津被斩",
+   "description": "中曹操饵敌之计，军士争抢辎重，为关羽所斩。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 58
+}

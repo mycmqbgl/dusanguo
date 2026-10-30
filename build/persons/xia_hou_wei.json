@@ -1,0 +1,29 @@
+{
+ "id": "xia_hou_wei",
+ "name": "夏侯威",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "夏侯威，曹魏武将，右先锋。今保夏侯霸、夏侯威为左右先锋，夏侯惠；夏侯和为行军司马，共赞军机，以退蜀兵。",
+ "bio": "。第 102 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "右先锋",
+   "basis": "第102回曹真保夏侯霸、夏侯威为左右先锋，夏侯惠、夏侯和为行军司马。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

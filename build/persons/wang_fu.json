@@ -1,0 +1,54 @@
+{
+ "id": "wang_fu",
+ "name": "王甫",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 73,
+ "review_status": "auto_mined",
+ "summary": "王甫，蜀汉文臣，关羽随军司马。王甫谏曰：小路有埋伏，可走大路。",
+ "bio": "第 73 回：随军司马王甫曰：将军一鼓而下襄阳，曹兵虽然丧胆，然以愚意论之：今东吴吕蒙屯兵陆口，常有吞并荆州之意。第 73 回：王甫曰：糜芳、傅士仁守二隘口，恐不竭力。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 220,
+   "title": "关羽随军司马",
+   "basis": "第七十三回原文：随军司马王甫曰：“将军一鼓而下襄阳，曹兵虽然丧胆，然以愚意论之：今东吴吕蒙屯兵陆口，常有吞并。 职任「关羽随军司马」据此；★任期按末见回目收敛：全书最后一次提及在第 77 回（220 年），原 219—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "第 73 回",
+   "description": "王甫怏怏拜辞而行",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 75 回",
+   "description": "是：今日公安无守志，从前王甫是良言",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 76 回",
+   "description": "将救醒，公顾谓司马王甫曰：“悔不听足下之言，今日果有此事",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 77 回",
+   "description": "王甫谏曰：“小路有埋伏，可走大路",
+   "importance": 1
+  }
+ ],
+ "mention_count": 11
+}

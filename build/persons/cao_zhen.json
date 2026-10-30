@@ -1,0 +1,70 @@
+{
+ "id": "cao_zhen",
+ "name": "曹真",
+ "courtesy": "子丹",
+ "display_aliases": [
+  "大将军",
+  "大司马"
+ ],
+ "birth": null,
+ "death": 231,
+ "date_precision": "approx",
+ "date_note": "史载卒于太和五年（231）。生年无载。",
+ "gender": "male",
+ "first_chapter": 84,
+ "review_status": "reviewed",
+ "summary": "曹真，曹魏武将，镇西将军、上军大将军。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+ "bio": "曹真字子丹，太祖族子，养如己出，与文帝共止。膂力过人，常猎为虎所逐，回马射虎，虎应声而倒，遂领虎豹骑。曹丕代汉，真镇西将军假节都督雍凉，讨破叛胡，与夏侯尚破吴牛渚屯。黄初三年与夏侯尚围南郡，为陆逊所拒而退。诸葛亮一出祁山，真为大都督，遣张郃破马谡于街亭，亮退兵。后代曹休为大司马，伐蜀会大雨道绝而还，病卒于洛阳。演义写其为孔明所轻，祁山屡败，被信使气死，系小说贬抑。子曹爽嗣。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 226,
+   "title": "镇西将军、上军大将军",
+   "lord_id": "cao_pi",
+   "basis": "都督雍凉讨叛胡，围南郡，三路伐吴出南郡。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 231,
+   "title": "大将军、大司马",
+   "lord_id": "cao_rui",
+   "basis": "拒诸葛亮北伐为大都督，街亭之战遣张郃破马谡，后为大司马病卒。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 222,
+   "title": "出南郡伐吴",
+   "description": "三路伐吴，围南郡，为陆逊内外夹攻所败。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "街亭之战",
+   "description": "为大都督拒诸葛亮，遣张郃断马谡汲道大破之，亮退兵。",
+   "importance": 3
+  },
+  {
+   "year": 230,
+   "title": "子午之役",
+   "description": "为大司马伐蜀，会霖雨三十余日栈道断绝，无功而还。",
+   "importance": 2
+  },
+  {
+   "year": 231,
+   "title": "病卒洛阳",
+   "description": "还洛阳病卒；子曹爽嗣，为托孤大臣。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 100
+}

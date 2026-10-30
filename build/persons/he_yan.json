@@ -1,0 +1,29 @@
+{
+ "id": "he_yan",
+ "name": "何晏",
+ "courtesy": "平叔",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "何晏，曹魏文臣，尚书。引三弟，并心腹人何晏等，及御林军护驾正行，司农桓范叩马谏曰：主公总典禁兵，不宜兄弟皆出。",
+ "bio": "第 106 回：何晏视候，魂不守宅，血不华色，精爽烟浮，容若槁木：此为鬼幽之相。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 238,
+   "end_year": 266,
+   "title": "尚书",
+   "basis": "第106回曹爽门下五客以浮华相尚，何晏字平叔为其首，官至尚书；高平陵之变后为司马懿所诛。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

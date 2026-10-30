@@ -1,0 +1,29 @@
+{
+ "id": "jia_fan",
+ "name": "贾范",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "贾范，群雄武将，公孙渊副将。渊大怒，叱左右缚贾范，将斩之。",
+ "bio": "。第 106 回：副将贾范谏曰：中原待主公以上公之爵，不为卑贱。第 106 回：人告懿曰：贾范、伦直苦谏渊不可反叛，俱被渊所杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "公孙渊副将",
+   "basis": "第一百零六回原文：人告懿曰：贾范、伦直苦谏渊不可反叛，俱被渊所杀。 职任「公孙渊副将」据此。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

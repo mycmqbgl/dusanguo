@@ -1,0 +1,29 @@
+{
+ "id": "lu_ji",
+ "name": "陆绩",
+ "courtesy": "公纪",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "陆绩，孙吴武将，（未仕）。孔明视之，乃陆绩也。",
+ "bio": "第 38 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "（未仕）",
+   "basis": "第三十八回原文：陆绩，字公纪。 职任「（未仕）」据此；★任期按末见回目收敛：全书最后一次提及在第 43 回（208 年），原 208—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,29 @@
+{
+ "id": "dong_xi_2",
+ "name": "董禧",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "董禧，曹魏武将。楙从其言，遂遣董禧引三万军伏于左，薛则引三万军伏于右。",
+ "bio": "原文第 92 回相关片段：「挥四面军马，重叠围住，云可擒矣。”楙从其言，遂遣董禧引三万军伏于左，薛则引三万军伏于右。二人埋伏已定」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "basis": "第92回夏侯楙遣董禧引三万军伏于左，薛则引三万军伏于右，以诱赵云。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

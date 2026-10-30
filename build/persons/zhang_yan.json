@@ -1,0 +1,29 @@
+{
+ "id": "zhang_yan",
+ "name": "张燕",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "auto_mined",
+ "summary": "张燕，曹魏武将，黑山贼，降操，被封平北将军。黑山贼张燕，引军十万来降，操封为平北将军。",
+ "bio": "。第 11 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 266,
+   "title": "黑山贼，降操，被封平北将军",
+   "basis": "第十一回原文：投袁绍，绍纳之，与布共破张燕于常山。 职任「黑山贼，降操，被封平北将军」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

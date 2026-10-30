@@ -1,0 +1,29 @@
+{
+ "id": "wang_yan",
+ "name": "王琰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "王琰，群雄武将，都尉。至上洛，被都尉王琰所杀，将头解送曹操。",
+ "bio": "官职「都尉」据原文上下文提取。原文第 33 回相关片段：「高干。干寻思无路，只得去投刘表。行至上洛，被都尉王琰所杀，将头解送曹操。曹封琰为列侯」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 205,
+   "end_year": 229,
+   "title": "都尉",
+   "basis": "第33回高干去投刘表，行至上洛，被都尉王琰所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

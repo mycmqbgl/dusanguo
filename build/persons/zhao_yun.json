@@ -1,0 +1,92 @@
+{
+ "id": "zhao_yun",
+ "name": "赵云",
+ "courtesy": "子龙",
+ "display_aliases": [
+  "常山赵子龙",
+  "虎威将军",
+  "五虎上将"
+ ],
+ "birth": null,
+ "death": 229,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建兴七年（229）。常山真定人。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "verified",
+ "summary": "赵云，群雄武将，公孙瓒部将。赵云救了黄忠，杀透重围，有军士指曰：东南上围的，必是副将张著。",
+ "bio": "赵云字子龙，常山真定人。身长八尺，姿颜雄伟。本属公孙瓒，瓒曰「闻贵州人皆愿袁氏，君何独回心，迷而能反乎」，云曰「天下汹汹，未知孰是，民有倒悬之厄，鄙州论议，从仁政所在」，遂从瓒。磐河之战，文丑追公孙瓒几及，云从草坡左侧转出，挺枪与文丑大战五六十合，胜负未分，瓒由是得免。后见瓒无远志，托兄丧去。建安五年于邺见刘备，遂从之，为刘备主骑。长坂之战，云抱后主、护甘夫人，皆得免难，刘备曰「子龙一身都是胆也」。益州既定，时议欲以成都屋舍园地分赐诸将，云引霍去病「匈奴未灭，无用家为」谏止。街亭败后，云敛众固守，不致大败。建兴七年卒。演义第七回写其自陈「某乃常山真定人也，姓赵，名云，字子龙」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "公孙瓒部将",
+   "lord_id": "gongsun_zan",
+   "basis": "191 年磐河之战归于公孙瓒；此时公孙瓒未建号，属群雄阵营。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 208,
+   "title": "主骑",
+   "lord_id": "liu_bei",
+   "basis": "建安五年（200）于邺见刘备，遂从之；208 年前刘备尚无固定地盘（蜀汉势力形成年 208），记群雄·刘备部。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "牙门将军、翊军将军、镇东将军、永昌亭侯",
+   "basis": "208 年刘备取荆南四郡，蜀汉势力形成（de_facto_start=208）；云历长坂、益州、汉中、街亭诸役；229 年卒。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "磐河救瓒",
+   "description": "文丑追公孙瓒几及，云从草坡转出挺枪大战五六十合，瓒得免。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "邺城从刘备",
+   "description": "于邺见刘备，遂从之，为刘备主骑。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "长坂救主",
+   "description": "抱后主、护甘夫人皆得免难，刘备曰「子龙一身都是胆也」。",
+   "importance": 3
+  },
+  {
+   "year": 214,
+   "title": "谏止分田",
+   "description": "引霍去病「匈奴未灭无用家为」谏止以成都屋舍分赐诸将。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "街亭敛众",
+   "description": "箕谷兵败，敛众固守，不致大败。",
+   "importance": 2
+  },
+  {
+   "year": 229,
+   "title": "卒",
+   "description": "建兴七年卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 472
+}

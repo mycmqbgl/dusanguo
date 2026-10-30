@@ -1,0 +1,29 @@
+{
+ "id": "he_man",
+ "name": "何曼",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 12,
+ "review_status": "auto_mined",
+ "summary": "何曼，群雄武将，黄巾渠帅。洪诈败而走，何曼赶来。",
+ "bio": "第 12 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 195,
+   "title": "黄巾渠帅",
+   "basis": "第十二回原文：阵圆处，一将步行出战，头裹黄巾，身披绿袄，手提铁棒，大叫：“我乃截天夜叉何曼也。 职任「黄巾渠帅」据此；★任期按末见回目收敛：全书最后一次提及在第 12 回（195 年），原 195—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

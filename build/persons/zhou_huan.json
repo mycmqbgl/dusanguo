@@ -1,0 +1,36 @@
+{
+ "id": "zhou_huan",
+ "name": "周奂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "auto_mined",
+ "summary": "周奂，东汉文臣，大鸿胪。第 9 回一笔带过，事迹仅存其名。",
+ "bio": "第 9 回：「太常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀」同列死节。原文第 9 回相关片段：「李傕、郭汜纵兵大掠。太常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀皆死于国难。贼兵围绕」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 189,
+   "title": "大鸿胪",
+   "basis": "第 9 回：「太常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀」同列死节。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "第 9 回",
+   "description": "常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀皆死于国难",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

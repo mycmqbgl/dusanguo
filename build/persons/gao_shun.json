@@ -1,0 +1,57 @@
+{
+ "id": "gao_shun",
+ "name": "高顺",
+ "courtesy": null,
+ "display_aliases": [
+  "陷阵营统将"
+ ],
+ "birth": null,
+ "death": 198,
+ "date_precision": "exact",
+ "date_note": "生年不详，建安三年（198）十二月下邳城破后为曹操所杀。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "高顺，群雄武将，中郎将。操自引军马来迎，正逢高顺，三军混战、将及天明，正西鼓声大震，人报吕布自引救军来了。",
+ "bio": "高顺，吕布部将，为人清白有威严，不饮酒，不受馈遗。所将七百余兵，铠甲斗具皆精练齐整，每所攻击无不破者，号为「陷阵营」。顺每谏吕布：「将军举动，不肯详思，忽有失耳，何可数也？」布知其忠而不能用。演义中高顺屡为前锋：袭取徐州、攻小沛、破夏侯惇军（惇为曹性射目即在高顺阵中）。建安三年曹操决泗沂之水灌下邳，布众叛降，顺与陈宫、吕布同就擒，不屈而死。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "中郎将",
+   "lord_id": "lv_bu",
+   "basis": "自吕布入兖州起即为部将，至下邳同灭。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "属吕布",
+   "description": "吕布袭兖州时为部将，后随布转战徐州。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "谏吕布",
+   "description": "谏布「举动不肯详思」，布知其忠而不听；所部陷阵营攻无不克。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "平郝萌之叛",
+   "description": "史载郝萌反，顺率兵讨斩之（演义并入第十七回背景）。",
+   "importance": 2
+  },
+  {
+   "year": 198,
+   "title": "下邳之亡",
+   "description": "曹操水灌下邳，顺与吕布、陈宫同擒，不屈被杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 42
+}

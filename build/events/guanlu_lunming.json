@@ -1,0 +1,28 @@
+{
+ "id": "guanlu_lunming",
+ "name": "管辂论命",
+ "kind": "神异",
+ "start_year": 218,
+ "end_year": 218,
+ "date_text": "建安二十三年（218）",
+ "summary": "平原神卜管辂应召为曹操卜东吴、西蜀吉凶，预言许都火灾与诸将死期，后皆一一应验。",
+ "detail": "操感左慈之惊成疾，方士荐平原管辂。辂善卜，操使卜东吴、西蜀二处休咎，辂各断之，且言来春许都必有火灾，请曹丕谨慎。后果如所言。操又问诸将寿算，辂皆隐语答之，其后遂应；操叹天机不可泄，欲以官爵留辂，辂固辞不受而去。",
+ "place_id": "xu_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "guan_lu",
+   "role_desc": "神卜应召，断吴蜀吉凶、许都火灾，预言皆验"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "因疾召辂问卜，叹其神异"
+  }
+ ],
+ "passage_ids": [
+  69003,
+  69010,
+  69010
+ ],
+ "battle_ids": []
+}

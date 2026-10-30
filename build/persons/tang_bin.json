@@ -1,0 +1,29 @@
+{
+ "id": "tang_bin",
+ "name": "唐彬",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "唐彬，西晋武将，晋广武将军。遣龙骧将军王濬、广武将军唐彬，浮江东兵屯襄阳，节制诸路人马。",
+ "bio": "第 120 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "晋广武将军",
+   "basis": "第一百二十回原文：又遣龙骧将军王濬、广武将军唐彬，浮江东兵屯襄阳，节制诸路人马。 职任「晋广武将军」据此；★任期按末见回目收敛：全书最后一次提及在第 120 回（280 年），原 280—316 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

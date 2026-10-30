@@ -1,0 +1,29 @@
+{
+ "id": "cao_yu",
+ "name": "曹宇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "曹宇，曹魏宗亲，燕王。武帝曹操之孙，燕王曹宇之子也。",
+ "bio": "第 106 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "亲族",
+   "start_year": 238,
+   "end_year": 258,
+   "title": "曹操之子，燕王（魏元帝曹奂之父）",
+   "basis": "第一百零六回原文：又召文帝子燕王曹宇为大将军，佐太子曹芳摄政。 职任「燕王」据此；★任期按末见回目收敛：全书最后一次提及在第 114 回（258 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

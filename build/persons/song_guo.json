@@ -1,0 +1,29 @@
+{
+ "id": "song_guo",
+ "name": "宋果",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "宋果，东汉武将，骑都尉。宋果曰：何不杀此贼，以救天子。",
+ "bio": "原文第 13 回相关片段：「也！”遂重赏女巫，却不赏军将。骑都尉杨奉大怒，谓宋果曰：“吾等出生入死，身冒矢石，功反不及女巫耶！”」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 196,
+   "title": "骑都尉",
+   "basis": "第13回骑都尉杨奉与宋果议杀李傕，事泄。 195 年骑都尉宋果与杨奉议杀李傕，事泄。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

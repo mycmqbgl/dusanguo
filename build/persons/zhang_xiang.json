@@ -1,0 +1,29 @@
+{
+ "id": "zhang_xiang",
+ "name": "张象",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "张象，孙吴武将，前将军。将张象引从军请降。",
+ "bio": "第 120 回：前将军张象，率水兵下江迎敌。第 120 回：吴将张象引从军请降。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 278,
+   "end_year": 280,
+   "title": "前将军",
+   "lord_id": "sun_hao",
+   "basis": "title 明载「吴前将军」，280 年降晋，出身孙吴。",
+   "confidence": 0.85
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

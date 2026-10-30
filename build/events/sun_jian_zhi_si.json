@@ -1,0 +1,92 @@
+{
+ "id": "sun_jian_zhi_si",
+ "name": "孙坚之死",
+ "kind": "军事事件",
+ "start_year": 192,
+ "end_year": 192,
+ "date_text": "初平三年（192）",
+ "summary": "孙坚以刘表截击之恨起兵伐荆州，围襄阳；蒯良使吕公突围求救并诱坚追击，坚于岘山中伏，为乱箭滚石所杀——年仅三十七，孙策继业。",
+ "detail": "袁绍密令刘表截击孙坚，表使蔡瑁出城迎战为坚所败。坚以「刘表截路，必欲报之」，起兵荆州：坚军连胜，黄祖败入襄阳，坚围之。蒯良献策：使吕公率死士二百突围出城，多带弓弩手奔岘山——吕公下山搦战诈败，坚恃勇轻进，追入山中日暮，吕公放起连珠号炮，山上乱箭滚石俱下，坚脑浆迸流，人马皆死于岘山之内，寿止三十七岁。坚部将程普、黄盖、韩当死战得脱。孙策时年十七，以黄祖换父尸，罢战回江东，葬父于曲阿。演义此段「岘山伏杀」脉络清晰，史实为初平三年坚击黄祖，为流矢所中（演义归因吕公设伏，细节有异，孙坚卡已注）。",
+ "place_id": "xian_shan",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sun_jian",
+   "role_desc": "伐荆州，岘山中伏而亡"
+  },
+  {
+   "person_id": "liu_biao",
+   "role_desc": "荆州刺史，据城拒守"
+  },
+  {
+   "person_id": "huang_zu",
+   "role_desc": "江夏太守，首战败退，后以换尸"
+  },
+  {
+   "person_id": "kuai_liang",
+   "role_desc": "献「吕公诱敌」之策"
+  },
+  {
+   "person_id": "lv_gong_jingzhou",
+   "role_desc": "率死士突围，诈败诱坚入岘山"
+  },
+  {
+   "person_id": "cai_mao",
+   "role_desc": "出战为坚所败"
+  },
+  {
+   "person_id": "cheng_pu",
+   "role_desc": "死战得脱"
+  },
+  {
+   "person_id": "sun_ce",
+   "role_desc": "以黄祖换父尸，继父业"
+  },
+  {
+   "person_id": "wu_furen",
+   "role_desc": "坚妻，扶柩东归"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "起兵伐表",
+   "description": "坚以「截路夺玺」之恨，尽起江东之兵伐刘表。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "樊城首捷",
+   "description": "黄祖出战败走，坚乘胜围襄阳。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "吕公出城",
+   "description": "蒯良使吕公率死士二百突围，诈败奔岘山。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "岘山中伏",
+   "description": "坚夜追入山，号炮起处乱箭滚石俱下，坚卒，年三十七。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "换尸罢兵",
+   "description": "孙策以黄祖换父尸，葬坚于曲阿之原，引军居江都。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  7015,
+  7016,
+  7020,
+  7021,
+  8002
+ ],
+ "battle_ids": [
+  "xian_shan_zhi_zhan"
+ ]
+}

@@ -1,0 +1,42 @@
+{
+ "id": "shen_yi",
+ "name": "申仪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 79,
+ "review_status": "auto_mined",
+ "summary": "申仪，曹魏文臣，房陵都尉。懿奏曰：臣闻申仪密告反情，意欲表奏陛下，恐往复迟滞，故不待圣旨，星夜而去。",
+ "bio": "第 79 回：「孟达慌请上庸、房陵都尉申耽、申仪弟兄二人商议」。原文第 79 回相关片段：「调刘封回守绵竹去讫。孟达慌请上庸、房陵都尉申耽、申仪弟兄二人商议曰：“我与法孝直同有功于汉中王；今孝」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 228,
+   "title": "房陵都尉",
+   "basis": "第 79 回：「孟达慌请上庸、房陵都尉申耽、申仪弟兄二人商议」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 228,
+   "title": "第 94 回",
+   "description": "说孟达在新城，约下金城太守申仪、上庸太守申耽，克日举事",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "第 95 回",
+   "description": "耽、申仪从营中杀出",
+   "importance": 1
+  }
+ ],
+ "mention_count": 12
+}

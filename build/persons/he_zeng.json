@@ -1,0 +1,42 @@
+{
+ "id": "he_zeng",
+ "name": "何曾",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "auto_mined",
+ "summary": "何曾，西晋文臣，晋司徒、晋丞相。是日，司马炎即晋王位，封何曾为晋丞相，司马望为司徒，石苞为骠骑将军，陈骞为车骑将军，谥父为文王。",
+ "bio": "第 119 回：「太尉王祥、司徒何曾、司马荀顗及诸大臣入宫问安」；「封何曾为晋丞相」。原文第 29 回相关片段：「故招此祸。”策笑曰：“儿自幼随父出征，杀人如麻，何曾有为祸之理？今杀妖人，正绝大祸，安得反为我祸？”」。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "文臣",
+   "start_year": 265,
+   "end_year": 273,
+   "title": "晋司徒、晋丞相",
+   "basis": "第 119 回：「太尉王祥、司徒何曾、司马荀顗及诸大臣入宫问安」；「封何曾为晋丞相」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 202,
+   "title": "第 29 回",
+   "description": "策笑曰：“儿自幼随父出征，杀人如麻，何曾有为祸之理",
+   "importance": 1
+  },
+  {
+   "year": 265,
+   "title": "第 119 回",
+   "description": "贾充、何曾、裴秀亦谏曰：“长子聪明神武，有超世之才；人望既茂，天表如此：非人臣之相也",
+   "importance": 1
+  }
+ ],
+ "mention_count": 5
+}

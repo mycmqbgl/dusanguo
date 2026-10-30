@@ -1,0 +1,29 @@
+{
+ "id": "xi_ni",
+ "name": "奚泥",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 90,
+ "review_status": "auto_mined",
+ "summary": "奚泥，蜀汉武将，乌戈国领兵俘长。第 90 回一笔带过，事迹仅存其名。",
+ "bio": "第 90 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "乌戈国领兵俘长",
+   "basis": "第九十回原文：于是兀突骨唤两个领兵俘长：一名土安，一名奚泥，起三万兵，皆穿藤甲，离乌戈国望东北而来。 职任「乌戈国领兵俘长」据此；★任期按末见回目收敛：全书最后一次提及在第 90 回（225 年），原 225—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

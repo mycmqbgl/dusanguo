@@ -1,0 +1,68 @@
+{
+ "id": "cheng_yu",
+ "name": "程昱",
+ "courtesy": "仲德",
+ "display_aliases": [
+  "东郡东阿人",
+  "奋武将军"
+ ],
+ "birth": 141,
+ "death": 220,
+ "date_precision": "exact",
+ "date_note": "生于永和六年（141），卒于建安二十五年（220），年八十。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "程昱，群雄文臣，寿张令。程昱曰：昔刘备为豫州牧时，某等请杀之，丞相不听；今日又与之兵：此放龙入海，纵虎归山也。",
+ "bio": "程昱字仲德，东郡东阿人，长八尺三寸，美须髯。黄巾起，县丞王度反，昱使人设伏破之，东阿得全。初平中，兖州刺史刘岱辟之，昱不应；后刘岱为黄巾所杀，曹操领兖州，辟昱为寿张令。张邈、陈宫迎吕布，兖州皆应，唯鄄城、范、东阿不动，昱与荀彧定计保全三城。官渡之战，昱以七百兵守鄄城，曹操欲增兵二千，昱不肯，曰「袁绍拥十万众，自以所向无前，今见昱兵少，必不来攻」，绍果不攻。曹操谓贾诩曰「程昱之胆，过于贲、育」。性刚戾，与人多迕，然谋略过人。建安二十五年卒，年八十。演义第十回写荀彧荐昱，「乃东郡东阿人，姓程，名昱，字仲德」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 196,
+   "title": "寿张令",
+   "lord_id": "cao_cao",
+   "basis": "194 年前后曹操领兖州时辟为寿张令；此时曹操未建号，属群雄之一。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 220,
+   "title": "东中郎将、振威将军、奋武将军、安国亭侯",
+   "basis": "196 年曹魏势力形成后为曹操谋臣；220 年卒，年八十。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "保全东阿",
+   "description": "黄巾王度反，设伏破之，东阿得全。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "守三城",
+   "description": "与荀彧定计保全鄄城、范、东阿三城，为曹操保住兖州根本。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "七百守鄄城",
+   "description": "以七百兵守鄄城，拒增兵，袁绍果不攻，曹操称其胆过于贲、育。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "卒",
+   "description": "年八十卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 46
+}

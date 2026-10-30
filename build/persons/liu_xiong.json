@@ -1,0 +1,29 @@
+{
+ "id": "liu_xiong",
+ "name": "刘雄",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "刘雄，东汉文臣，东郡范令。德祖刘雄，父刘弘。",
+ "bio": "。第 1 回：「玄德祖刘雄」，举孝廉，官至范令。原文第 1 回相关片段：「鹿亭侯，后坐酎金失侯，因此遗这一枝在涿县。玄德祖刘雄，父刘弘。弘曾举孝廉，亦尝作吏，早丧。玄德幼孤，」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 100,
+   "end_year": 140,
+   "title": "东郡范令",
+   "basis": "第 1 回：「玄德祖刘雄」，举孝廉，官至范令。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

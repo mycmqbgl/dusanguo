@@ -1,0 +1,29 @@
+{
+ "id": "wang_mai",
+ "name": "王买",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "王买，曹魏文臣，魏将。第 116 回一笔带过，事迹仅存其名。",
+ "bio": "第 116 回钟会伐蜀，王买列名帐下八十余员大将之中。此人在演义中着墨极少，正史别有其传。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 262,
+   "end_year": 262,
+   "title": "魏将",
+   "basis": "第一百十六回原文：时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、句安等八十余。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 262—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

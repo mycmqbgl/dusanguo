@@ -1,0 +1,29 @@
+{
+ "id": "dai_ling",
+ "name": "戴陵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 99,
+ "review_status": "auto_mined",
+ "summary": "戴陵，曹魏武将，魏将。杀出旧路，不见戴陵，即奋勇翻身又杀入重围，救出戴陵而回。",
+ "bio": "第 99 回：郃杀出旧路，不见戴陵，即奋勇翻身又杀入重围，救出戴陵而回。第 99 回：忽见张郃、戴陵狼狈而来，告曰：孔明先如此提防，因此大败而归。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 230,
+   "end_year": 231,
+   "title": "魏将",
+   "basis": "第九十九回原文：懿令郃为先锋，戴陵为副将，引十万兵到祁山，于渭水之南下寨。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 100 回（231 年），原 230—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 16
+}

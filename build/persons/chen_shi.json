@@ -1,0 +1,29 @@
+{
+ "id": "chen_shi",
+ "name": "陈氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "陈氏，群雄人物，刘表前妻。表曰：前妻陈氏所生长子琦，为人虽贤，而柔懦不足立事；后妻蔡氏所生少子琼，颇聪明。",
+ "bio": "第 34 回：表曰：前妻陈氏所生长子琦，为人虽贤，而柔懦不足立事。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 208,
+   "title": "刘表前妻",
+   "basis": "第34回：前妻陈氏所生长子琦，为人虽贤，而柔懦不足立事。蔡夫人为后妻，陈氏早卒；第34回（207 年）提及。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

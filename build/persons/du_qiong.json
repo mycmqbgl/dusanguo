@@ -1,0 +1,29 @@
+{
+ "id": "du_qiong",
+ "name": "杜琼",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "杜琼，字伯瑜，蜀郡成都人，蜀汉大儒，官至太常。",
+ "bio": "杜琼，字伯瑜，蜀郡成都人，蜀汉学者，精于天文谶纬，官至太常。谯周尝从其问学。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 221,
+   "end_year": 229,
+   "title": "议曹、谏议大夫",
+   "basis": "第80回议曹杜琼列名劝进；第91回为谏议大夫。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

@@ -1,0 +1,29 @@
+{
+ "id": "chen_fan",
+ "name": "陈蕃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "陈蕃，东汉人物，时太傅。有宦官曹节等弄权，窦武、陈蕃谋诛之，机事不密，反为所害，中涓自此愈横。",
+ "bio": "第 1 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 168,
+   "end_year": 168,
+   "title": "太傅",
+   "basis": "第一回原文：及桓帝崩，灵帝即位，大将军窦武、太傅陈蕃共相辅佐…谋诛宦官，机事不密，反为所害。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,29 @@
+{
+ "id": "e_huan",
+ "name": "鄂焕",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "鄂焕，蜀汉武将，牙将。鄂焕拜谢而去，回见高定，说孔明之德。",
+ "bio": "第 87 回：鄂焕拜谢而去，回见高定，说孔明之德。第 87 回：高定即引部将鄂焕并本部兵，杀奔朱褒营来。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "牙将",
+   "basis": "第八十七回原文：行不二里，鼓声响处，一彪军出，乃鄂焕也：挺方天戟，骤马当先。 职任「牙将」据此；★任期按末见回目收敛：全书最后一次提及在第 87 回（225 年），原 225—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

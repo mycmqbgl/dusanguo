@@ -1,0 +1,32 @@
+{
+ "id": "liu_chen",
+ "name": "刘谌",
+ "courtesy": null,
+ "display_aliases": [
+  "刘諶"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 118,
+ "review_status": "auto_mined",
+ "summary": "刘谌，蜀汉宗亲，北地王。地王刘谌闻知，怒气冲天，乃带剑入宫。",
+ "bio": "原文第 118 回相关片段：「事！自古安有降天子哉！”后主视之，乃第五子北地王刘谌也。后主生七子：长子刘璿，次子刘瑶，三子刘琮，四」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "亲族",
+   "start_year": 263,
+   "end_year": 263,
+   "title": "北地王",
+   "basis": "第一百十八回原文：后主生七子：长子刘璿，次子刘瑶，三子刘琮，四子刘璝，五子即北地王刘谌，六子刘恂，七子刘璩。 职任「北地王」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "notice": "异写：刘諶",
+ "mention_count": 3
+}

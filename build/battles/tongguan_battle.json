@@ -1,0 +1,97 @@
+{
+ "id": "tongguan_battle",
+ "name": "潼关之战",
+ "year": 211,
+ "date_text": "建安十六年（211）",
+ "place_id": "tong_guan",
+ "event_id": "tongguan_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "西凉军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "ma_chao",
+    "ma_dai",
+    "pang_de"
+   ],
+   "troops_desc": "马超韩遂西凉二十万联军"
+  },
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao",
+    "xu_chu",
+    "xiahou_dun",
+    "yu_jin"
+   ],
+   "troops_desc": "操亲统大军，许褚虎卫军"
+  }
+ ],
+ "result": "操用贾诩反间计破西凉联军，超败走羌中，关中底定",
+ "casualties_note": "曹军屡败于超，割须弃袍险丧命；西凉军内讧自溃。",
+ "summary": "超夺潼关杀得操割须弃袍；渭水许褚裸衣大战；贾诩反间离间超遂，操大破之。",
+ "detail": "操为马腾之死所激，超起二十万军报仇。曹洪失潼关，操亲至战不利，为超追杀割须弃袍，洪拼死救之。渭水操再败，褚负操上船。褚与超大战二百余合裸衣而战。操用贾诩反间计，先与韩遂叙旧、涂改书信，超疑遂，遂兵自乱，操乘势掩杀，超岱德走羌中。",
+ "front_line": [
+  {
+   "time": 211,
+   "time_seq": 1,
+   "kind": "夺关",
+   "label": "超占潼关",
+   "desc": "超连破长安潼关，曹洪失关。",
+   "lng": 110.25,
+   "lat": 34.55,
+   "pixel_x": 650.5,
+   "pixel_y": 436.2
+  },
+  {
+   "time": 211,
+   "time_seq": 2,
+   "kind": "追杀",
+   "label": "割须弃袍",
+   "desc": "操为超追杀，割须弃袍，洪救主。",
+   "lng": 110.25,
+   "lat": 34.55,
+   "pixel_x": 650.5,
+   "pixel_y": 436.2
+  },
+  {
+   "time": 211,
+   "time_seq": 3,
+   "kind": "对峙",
+   "label": "渭水褚超战",
+   "desc": "许褚裸衣与超大战二百余合。",
+   "lng": 109.7,
+   "lat": 34.45,
+   "pixel_x": 628.8,
+   "pixel_y": 440.8
+  },
+  {
+   "time": 211,
+   "time_seq": 4,
+   "kind": "反间",
+   "label": "离间超遂",
+   "desc": "贾诩涂改书信，超疑韩遂。",
+   "lng": 109.7,
+   "lat": 34.45,
+   "pixel_x": 628.8,
+   "pixel_y": 440.8
+  },
+  {
+   "time": 211,
+   "time_seq": 5,
+   "kind": "结局",
+   "label": "超败走羌中",
+   "desc": "操乘乱掩杀，西凉联军溃散。",
+   "lng": 109.5,
+   "lat": 34.3,
+   "pixel_x": 620.9,
+   "pixel_y": 447.7
+  }
+ ],
+ "place_name": "潼关"
+}

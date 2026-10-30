@@ -1,0 +1,33 @@
+{
+ "id": "zhou_yin",
+ "name": "周胤",
+ "courtesy": null,
+ "display_aliases": [
+  "周胤"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；约 211 年以父功受官，后坐罪徙庐陵。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "周胤，周瑜次子，官兴业都尉，封都乡侯。",
+ "bio": "周胤，庐江舒人，周瑜次子。以父功为兴业都尉，封都乡侯，后坐罪徙庐陵。《三国志·吴书·周瑜传》附其名，毛本演义 120 回未载，本卡依正史补录。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 240,
+   "title": "兴业都尉、都乡侯",
+   "basis": "《三国志·吴书·周瑜传》：周胤为周瑜次子，官兴业都尉，封都乡侯。其为功臣之后袭爵受官，虽娶孙皎之女（孙权侄女），然系孙权侄婿、非帝系之亲，故依与吕霸相同之口径归吴·武将。演义未载。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

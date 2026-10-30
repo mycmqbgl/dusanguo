@@ -1,0 +1,83 @@
+{
+ "id": "zhang_hong",
+ "name": "张纮",
+ "courtesy": "子纲",
+ "display_aliases": [
+  "会稽东部都尉"
+ ],
+ "birth": 153,
+ "death": 233,
+ "date_precision": "exact",
+ "date_note": "史载嘉禾七年/赤乌六年（233）卒，年八十一。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "张纮，孙吴文臣，正议校尉。第 15 回一笔带过，事迹仅存其名。",
+ "bio": "张纮字子纲，广陵人。游学洛阳，还本郡举茂才，避乱江东。孙策创业，使纮为正议校尉，与张昭对掌文武。「江东可以资业」之策即出于纮（演义谓张昭张纮共佐）。策遣纮奉表至许，曹操留纮为侍御史，谓「我于东吴之事，一以委卿」；官渡之际纮劝曹操勿与孙权结怨。权统事，纮还吴为长史，建议徙治秣陵——即后来的建业。著诗赋铭诔数十篇，卒年八十一。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 195,
+   "end_year": 199,
+   "title": "正议校尉",
+   "lord_id": "sun_ce",
+   "basis": "佐孙策。｜阵营据主君（孙策）归属校正为wu，193-199→195-199。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 199,
+   "end_year": 203,
+   "title": "侍御史",
+   "basis": "奉表至许都被留。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 203,
+   "end_year": 233,
+   "title": "会稽东部都尉、长史",
+   "basis": "孙权召还。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "避乱江东",
+   "description": "广陵人，游学后避乱江东。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "佐孙策",
+   "description": "与张昭对掌文武，共佐孙策定江东。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "出使许都",
+   "description": "奉表至许，曹操留为侍御史。",
+   "importance": 2
+  },
+  {
+   "year": 211,
+   "title": "建议迁治建业",
+   "description": "还吴为长史，劝权徙治秣陵（建业）。",
+   "importance": 3
+  },
+  {
+   "year": 233,
+   "title": "卒",
+   "description": "年八十一卒。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 16
+}

@@ -1,0 +1,29 @@
+{
+ "id": "he_yi",
+ "name": "何仪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 12,
+ "review_status": "auto_mined",
+ "summary": "何仪，群雄武将，黄巾渠帅。说典韦追袭何仪到葛陂，壮士引军迎住。",
+ "bio": "第 12 回：黄巾余党何仪、黄劭等，劫掠州郡，多有金帛、粮食、此等贼徒，又容易破。第 12 回：何仪令副元帅出战，不三合，被典韦一戟刺于马下。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 195,
+   "title": "黄巾渠帅",
+   "basis": "第十二回原文：何仪令副元帅出战，不三合，被典韦一戟刺于马下。 职任「黄巾渠帅」据此；★任期按末见回目收敛：全书最后一次提及在第 12 回（195 年），原 195—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

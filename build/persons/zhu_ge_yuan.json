@@ -1,0 +1,29 @@
+{
+ "id": "zhu_ge_yuan",
+ "name": "诸葛原",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "诸葛原，曹魏文臣，馆陶令、新兴太守。陶令诸葛原，迁新兴太守，辂往送行。",
+ "bio": "原文第 69 回相关片段：「辂令徙骸骨去城外十里埋之，妻与子遂无恙。馆陶令诸葛原，迁新兴太守，辂往送行。客言辂能覆射。诸葛原不信」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 218,
+   "end_year": 229,
+   "title": "馆陶令、新兴太守",
+   "basis": "第69回馆陶令诸葛原迁新兴太守，管辂往送行，原暗取燕卵蜂窠试其覆射。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

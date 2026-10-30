@@ -1,0 +1,29 @@
+{
+ "id": "hu_fen",
+ "name": "胡奋",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "胡奋，曹魏武将，魏将。第 112 回一笔带过，事迹仅存其名。",
+ "bio": "第 112 回：至吊桥边，正撞着胡奋，手起刀落，斩诞于马下，数百人皆被缚。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 254,
+   "end_year": 266,
+   "title": "魏将",
+   "basis": "第一百十二回原文：至吊桥边，正撞着胡奋，手起刀落，斩诞于马下，数百人皆被缚。 职任「魏将」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

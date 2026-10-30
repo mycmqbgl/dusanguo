@@ -1,0 +1,29 @@
+{
+ "id": "zhou_shan",
+ "name": "周善",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 61,
+ "review_status": "auto_mined",
+ "summary": "周善，孙吴武将，孙权心腹。周善曰：大江之中，已准备下船只。",
+ "bio": "第 61 回：周善领命，取荆州水路而来。第 61 回：周善拜诉曰：国太好生病重，旦夕只是思念夫人。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "孙权心腹",
+   "basis": "第六十一回原文：周善拜诉曰：“国太好生病重，旦夕只是思念夫人。 职任「孙权心腹」据此；★任期按末见回目收敛：全书最后一次提及在第 61 回（211 年），原 211—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 16
+}

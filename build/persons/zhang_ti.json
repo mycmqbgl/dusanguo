@@ -1,0 +1,29 @@
+{
+ "id": "zhang_ti",
+ "name": "张悌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "张悌，孙吴文臣，吴丞相。说东吴丞相张悌，令左将军沈莹、右将军诸葛靓，来迎晋兵。",
+ "bio": "第 120 回：皓从之，遂令张悌引兵去了。第 120 回：张悌与沈莹挥兵抵敌，晋兵一齐围之。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 275,
+   "end_year": 280,
+   "title": "吴丞相",
+   "lord_id": "sun_hao",
+   "basis": "title 明载「吴丞相」，280 年抗晋战死，非晋臣。",
+   "confidence": 0.85
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

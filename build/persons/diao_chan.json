@@ -1,0 +1,70 @@
+{
+ "id": "diao_chan",
+ "name": "貂蝉",
+ "courtesy": null,
+ "display_aliases": [
+  "歌伎",
+  "四大美人"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。",
+ "gender": "female",
+ "first_chapter": 8,
+ "review_status": "reviewed",
+ "summary": "貂蝉，东汉女眷，王允府歌伎。貂蝉跟允到阁中，允尽叱出妇妾，纳貂蝉于坐，叩头便拜。",
+ "bio": "貂蝉，王允府中歌伎。自幼选入府中，教以歌舞，年方二八，色伎俱佳，王允以亲女待之。一夜王允见其于牡丹亭畔长吁短叹，问之，蝉曰「近见大人两眉愁锁，必有国家大事，又不敢问」，允遂跪而告以连环之计，蝉曰「妾许大人万死不辞」。王允先许嫁吕布，后献董卓，蝉于二人之间取便离间：对吕布则蹙眉拭泪、指心指卓，对董卓则泣诉被逼。凤仪亭事为董卓撞破，掷戟刺布，父子遂绝。吕布诛董卓后，蝉随吕布。下邳城破，演义写「布死，蝉不知所终」。史书无貂蝉之名，其人当为演义虚构。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "王允府歌伎",
+   "basis": "女性归女眷（决策 #8.3）。无政治集团归属，按 N5 定案归东汉；时间片取其在王允府参与连环计的时段（189 董卓入京至 192 董卓被诛）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 192,
+   "end_year": 198,
+   "title": "吕布之妾",
+   "lord_id": "lv_bu",
+   "basis": "王允府中歌伎，行连环计于 192 年前后，其时献帝在位、汉祚未终。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "后园夜叹",
+   "description": "于牡丹亭畔长吁短叹，为王允所窥，允跪告连环之计，蝉曰「万死不辞」。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "许嫁吕布",
+   "description": "王允设宴，许以貂蝉送吕布为妾，二人眉目传情。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "献于董卓",
+   "description": "王允另设宴献貂蝉于董卓，董卓纳之，吕布大怒。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "凤仪亭",
+   "description": "于凤仪亭泣诉被污，欲投荷池，为吕布所抱，董卓撞见掷戟，父子遂绝。",
+   "importance": 3
+  }
+ ],
+ "history_conflict_type": "事件有无",
+ "history_conflict_note": "演义立貂蝉为连环计主眼，以色离间董卓、吕布；史书无貂蝉其人，仅《三国志》载吕布与董卓侍婢私通，其人无名。",
+ "mention_count": 68
+}

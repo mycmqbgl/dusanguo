@@ -1,0 +1,29 @@
+{
+ "id": "dong_si",
+ "name": "董祀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 71,
+ "review_status": "auto_mined",
+ "summary": "董祀，陈留人，蔡邕门生，后娶蔡文姬。",
+ "bio": "董祀，陈留人，蔡邕门生。曹操念蔡邕无后，以金璧赎蔡文姬归汉，嫁于董祀，官屯田都尉。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 229,
+   "title": "屯田都尉",
+   "basis": "第七十一回原文：曹操以董祀为屯田都尉，后犯法当死，其妻蔡琰蓬首徒行诣操请罪。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

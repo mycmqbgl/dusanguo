@@ -1,0 +1,32 @@
+{
+ "id": "yu_mi",
+ "name": "于糜",
+ "courtesy": null,
+ "display_aliases": [
+  "于麋"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "auto_mined",
+ "summary": "于糜，孙吴武将，刘繇部将。到门旗下，将于糜丢下，已被挟死。",
+ "bio": "第 15 回：策到门旗下，将于糜丢下，已被挟死。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 196,
+   "title": "刘繇部将",
+   "basis": "第十五回原文：繇将樊能，见捉了于糜。 职任「刘繇部将」据此；★任期按末见回目收敛：全书最后一次提及在第 15 回（196 年），原 196—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "notice": "异写：于麋",
+ "mention_count": 3
+}

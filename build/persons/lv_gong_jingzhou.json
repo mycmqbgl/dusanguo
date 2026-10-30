@@ -1,0 +1,51 @@
+{
+ "id": "lv_gong_jingzhou",
+ "name": "吕公",
+ "courtesy": null,
+ "display_aliases": [
+  "健将"
+ ],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平二年（191）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "吕公，群雄武将，健将。吕公勒回马来战孙坚。",
+ "bio": "吕公，刘表帐下健将。孙坚围襄阳，蒯良夜观天象见将星欲坠，劝刘表求援于袁绍，又问谁敢突围。吕公应声愿往，蒯良授计曰「与汝军马五百，多带能射者冲出阵去，即奔岘山。他必引军来赶，汝分一百人上山寻石子准备，一百人执弓弩伏于林中，引到埋伏之处，矢石俱发」。吕公依计，黄昏密开东门引兵出城，孙坚果只引三十余骑追来，吕公勒回马战一合便走，闪入山路。孙坚赶入，一声锣响，山上石子乱下，林中乱箭齐发，孙坚脑浆迸流，人马皆死于岘山之内。后程普保孙策寻路，正遇吕公，战不到数合，一矛刺吕公于马下。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 191,
+   "title": "健将",
+   "lord_id": "liu_biao",
+   "basis": "刘表部将，无独立势力，以战斗为主归武将；191 年为程普所刺。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "受计突围",
+   "description": "应声愿往，蒯良授以诱敌入岘山、矢石齐发之计。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "岘山射坚",
+   "description": "引孙坚入岘山，山上石子乱下、林中乱箭齐发，孙坚死于是役。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "被程普刺死",
+   "description": "程普保孙策寻路正遇吕公，战不到数合被一矛刺于马下。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 9
+}

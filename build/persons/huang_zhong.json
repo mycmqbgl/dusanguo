@@ -1,0 +1,63 @@
+{
+ "id": "huang_zhong",
+ "name": "黄忠",
+ "courtesy": "汉升",
+ "display_aliases": [
+  "长沙降将",
+  "讨虏将军",
+  "后将军"
+ ],
+ "birth": null,
+ "death": 220,
+ "date_precision": "approx",
+ "date_note": "生年不详，演义出场已年近六旬；卒年按演义伐吴中箭身亡（220），史书卒于建安二十五年（220）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "reviewed",
+ "summary": "黄忠，字汉升，南阳人，定军山斩夏侯渊，官至蜀汉后将军。",
+ "bio": "黄忠，字汉升，南阳人。初事刘表为中郎将，守长沙；后归刘备，入蜀作战，勇冠三军。建安二十四年（219）定军山之役，黄忠「推锋必进，劝率士卒」，斩夏侯渊于马下，升征西将军，后封后将军、关内侯，谥刚侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "刘表中郎将、长沙裨将军",
+   "basis": "刘表旧将守长沙；209 年魏延杀韩玄献城后随降。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 220,
+   "title": "讨虏将军、征西将军、后将军",
+   "lord_id": "liu_bei",
+   "basis": "随备入川取汉中，拜后将军；220 年伐吴中箭身亡（演义）。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 209,
+   "title": "长沙战关羽",
+   "description": "与云长三日不分胜负，箭下留情，随城而降。",
+   "importance": 3
+  },
+  {
+   "year": 219,
+   "title": "定军山斩渊",
+   "description": "法正指挥，忠冲阵斩曹魏名将夏侯渊，汉中之局逆转。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "伐吴殉难",
+   "description": "随备伐吴，中箭退营，殁于军中。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 214
+}

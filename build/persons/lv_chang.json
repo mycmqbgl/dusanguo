@@ -1,0 +1,29 @@
+{
+ "id": "lv_chang",
+ "name": "吕常",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 73,
+ "review_status": "auto_mined",
+ "summary": "吕常，曹魏武将，横海将军、章陵太守。吕常怒曰：据汝等文官之言，只宜坚守，何能退敌。",
+ "bio": "第 73 回：吕常怒曰：据汝等文官之言，只宜坚守，何能退敌。第 73 回：吕常却欲来迎，后面众军见云长神威凛凛，不战先走，吕常喝止不住。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 229,
+   "title": "横海将军、章陵太守",
+   "basis": "第73回曹仁部将吕常乞兵数千当关公于襄江之内；汉水泛溢，常军尽没。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

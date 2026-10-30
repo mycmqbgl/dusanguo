@@ -1,0 +1,29 @@
+{
+ "id": "ning_sui",
+ "name": "宁随",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "宁随，蜀汉武将，副将。副将宁随曰：魏兵虽断阴平桥头，雍州必然兵少，将军若从孔函谷，径取雍州，诸葛绪必撤阴平之兵救雍州，将军却引兵奔剑阁守之，则汉中可复矣。",
+ "bio": "。第 116 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "副将",
+   "basis": "第116回姜维进退无路，副将宁随献计从孔函谷径取雍州。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 26
+}

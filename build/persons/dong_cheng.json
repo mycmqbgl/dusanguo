@@ -1,0 +1,72 @@
+{
+ "id": "dong_cheng",
+ "name": "董承",
+ "courtesy": null,
+ "display_aliases": [
+  "车骑将军"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）衣带诏事泄，三族皆斩。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "董承，群雄武将，牛辅部曲、安集将军。董承曰：城郭不坚，兵甲不多，战如不胜，当复如何。",
+ "bio": "董承，董太后之侄，献帝嫔妃董贵人之父，人称国舅。初为董卓部将牛辅部曲，后与杨奉、韩暹护献帝东归，拜卫将军。曹操迎天子后，承与操同朝。建安四年献帝以血书付承（衣带诏），承与王子服、吴子兰、种辑、吴硕、马腾、刘备等歃血为盟谋诛曹操。事泄，建安五年操诛承三族，董贵人有孕亦被缢杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 192,
+   "end_year": 195,
+   "title": "牛辅部曲、安集将军",
+   "basis": "董卓余部，护驾东归。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "han",
+   "role": "权臣",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "卫将军、车骑将军",
+   "basis": "护驾至洛阳拜卫将军；后为车骑将军，受衣带诏谋诛曹。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "牛辅部曲",
+   "description": "董卓余部。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "护驾东归",
+   "description": "与杨奉、韩暹等护献帝东归，血战李傕。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "召曹操",
+   "description": "韩暹专权，承密召曹操入朝制衡，反致操挟天子。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "受衣带诏",
+   "description": "献帝以血书付承，承与马腾、刘备等歃血为盟。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "三族被诛",
+   "description": "事泄，操诛承三族，董贵人有孕亦缢杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 77
+}

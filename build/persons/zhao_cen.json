@@ -1,0 +1,46 @@
+{
+ "id": "zhao_cen",
+ "name": "赵岑",
+ "courtesy": null,
+ "display_aliases": [
+  "骁骑校尉",
+  "汜水关守将"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。初平元年（190）献汜水关降后，演义再无下落。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "赵岑，群雄武将，骁骑校尉、汜水关守将。说卓将赵岑，见卓已弃洛阳而去，便献了汜水关。",
+ "bio": "赵岑，董卓部将。董卓闻十八路诸侯起，加曹操骁骑校尉（误，此为赵岑授职语境），拨马步军五万，同李肃、胡轸、赵岑星夜赴汜水关迎敌。华雄既死、吕布败走，卓又焚宫室劫天子迁都长安，岑见卓已弃洛阳而去，遂献了汜水关，孙坚驱兵先入。献关之后演义再无其下落，降后或编入联军，史亦无载。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "骁骑校尉、汜水关守将",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓部将守汜水关；190 年见卓弃洛阳，献关而降，此后下落不明。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "赴关迎敌",
+   "description": "与李肃、胡轸同领马步军五万，星夜赴汜水关迎敌。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "献关而降",
+   "description": "见卓已弃洛阳而去，献汜水关，孙坚驱兵先入。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

@@ -1,0 +1,29 @@
+{
+ "id": "hu_hua",
+ "name": "胡华",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "auto_mined",
+ "summary": "胡华，东汉人物，议郎（致仕）。是，有胡华之子胡班，到荆州来投降关公；公念其旧日相救之情，甚爱之；令随费诗入川，见汉中王受爵。",
+ "bio": "原文第 27 回相关片段：「次日早膳毕，请二嫂上车，取了胡华书信，相别而行，取路投洛阳来。前至一关，名东岭关」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 201,
+   "end_year": 201,
+   "title": "议郎（致仕）",
+   "basis": "第二十七回原文：胡华为汉议郎，致仕家居，与关羽有旧，修书寄子胡班。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

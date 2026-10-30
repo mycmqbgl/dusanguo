@@ -1,0 +1,1007 @@
+{
+ "total_mentions": 31890,
+ "ambiguous_surfaces": {
+  "嵩": [
+   [
+    "person",
+    "cao_song"
+   ],
+   [
+    "person",
+    "han_song"
+   ],
+   [
+    "person",
+    "huang_fu_song"
+   ]
+  ],
+  "进": [
+   [
+    "person",
+    "he_jin"
+   ],
+   [
+    "person",
+    "yue_jin"
+   ]
+  ],
+  "良": [
+   [
+    "person",
+    "kuai_liang"
+   ],
+   [
+    "person",
+    "ma_liang"
+   ],
+   [
+    "person",
+    "yan_liang"
+   ]
+  ],
+  "汜": [
+   [
+    "person",
+    "guo_si"
+   ],
+   [
+    "person",
+    "xu_si"
+   ]
+  ],
+  "融": [
+   [
+    "person",
+    "kong_rong"
+   ],
+   [
+    "person",
+    "ma_rong"
+   ]
+  ],
+  "忠": [
+   [
+    "person",
+    "deng_zhong"
+   ],
+   [
+    "person",
+    "huang_zhong"
+   ],
+   [
+    "person",
+    "wang_zhong"
+   ]
+  ],
+  "攸": [
+   [
+    "person",
+    "xu_you"
+   ],
+   [
+    "person",
+    "xun_you"
+   ]
+  ],
+  "平": [
+   [
+    "person",
+    "guan_ping"
+   ],
+   [
+    "person",
+    "he_ping"
+   ],
+   [
+    "person",
+    "ji_ping"
+   ],
+   [
+    "person",
+    "wang_ping"
+   ]
+  ],
+  "修": [
+   [
+    "person",
+    "wang_xiu"
+   ],
+   [
+    "person",
+    "yang_xiu"
+   ]
+  ],
+  "统": [
+   [
+    "person",
+    "ling_tong"
+   ],
+   [
+    "person",
+    "pang_tong"
+   ]
+  ]
+ },
+ "non_narrative_anchors": [
+  {
+   "chapter": 1,
+   "surface": "长江",
+   "type": "place",
+   "entity": "长江",
+   "context": "滚滚长江东逝水，浪花淘尽英雄。是"
+  },
+  {
+   "chapter": 1,
+   "surface": "临江",
+   "type": "place",
+   "entity": "临江",
+   "context": "少事，都付笑谈中。——调寄《临江仙》"
+  },
+  {
+   "chapter": 28,
+   "surface": "张飞",
+   "type": "person",
+   "entity": "张飞",
+   "context": "张飞、糜竺、糜芳迎接入城，各"
+  },
+  {
+   "chapter": 28,
+   "surface": "糜竺",
+   "type": "person",
+   "entity": "糜竺",
+   "context": "张飞、糜竺、糜芳迎接入城，各相拜诉"
+  },
+  {
+   "chapter": 28,
+   "surface": "糜芳",
+   "type": "person",
+   "entity": "糜芳",
+   "context": "张飞、糜竺、糜芳迎接入城，各相拜诉。二夫"
+  },
+  {
+   "chapter": 28,
+   "surface": "云长",
+   "type": "person",
+   "entity": "关羽",
+   "context": "接入城，各相拜诉。二夫人具言云长之事，玄德感叹不已。于是"
+  },
+  {
+   "chapter": 28,
+   "surface": "玄德",
+   "type": "person",
+   "entity": "刘备",
+   "context": "相拜诉。二夫人具言云长之事，玄德感叹不已。于是杀牛宰马，"
+  },
+  {
+   "chapter": 28,
+   "surface": "玄德",
+   "type": "person",
+   "entity": "刘备",
+   "context": "，先拜谢天地，然后遍劳诸军。玄德见兄弟重聚，将佐无缺，又"
+  },
+  {
+   "chapter": 28,
+   "surface": "赵云",
+   "type": "person",
+   "entity": "赵云",
+   "context": "兄弟重聚，将佐无缺，又新得了赵云，关公又得了关平、周仓二"
+  },
+  {
+   "chapter": 28,
+   "surface": "关公",
+   "type": "person",
+   "entity": "关羽",
+   "context": "聚，将佐无缺，又新得了赵云，关公又得了关平、周仓二人，欢"
+  },
+  {
+   "chapter": 28,
+   "surface": "关平",
+   "type": "person",
+   "entity": "关平",
+   "context": "缺，又新得了赵云，关公又得了关平、周仓二人，欢喜无限，连"
+  },
+  {
+   "chapter": 28,
+   "surface": "周仓",
+   "type": "person",
+   "entity": "周仓",
+   "context": "新得了赵云，关公又得了关平、周仓二人，欢喜无限，连饮数日"
+  },
+  {
+   "chapter": 33,
+   "surface": "操",
+   "type": "person",
+   "entity": "曹操",
+   "context": "众皆踊跃称善。操引众官复设祭于郭嘉灵前。亡"
+  },
+  {
+   "chapter": 33,
+   "surface": "郭嘉",
+   "type": "person",
+   "entity": "郭嘉",
+   "context": "皆踊跃称善。操引众官复设祭于郭嘉灵前。亡年三十八岁，从征"
+  },
+  {
+   "chapter": 46,
+   "surface": "周瑜",
+   "type": "person",
+   "entity": "周瑜",
+   "context": "船到岸时，周瑜已差五百军在江边等候搬箭"
+  },
+  {
+   "chapter": 46,
+   "surface": "孔明",
+   "type": "person",
+   "entity": "诸葛亮",
+   "context": "瑜已差五百军在江边等候搬箭。孔明教于船上取之，可得十余万"
+  },
+  {
+   "chapter": 46,
+   "surface": "鲁肃",
+   "type": "person",
+   "entity": "鲁肃",
+   "context": "十余万枝，都搬入中军帐交纳。鲁肃人见周瑜，备说孔明取箭之"
+  },
+  {
+   "chapter": 46,
+   "surface": "周瑜",
+   "type": "person",
+   "entity": "周瑜",
+   "context": "，都搬入中军帐交纳。鲁肃人见周瑜，备说孔明取箭之事。瑜大"
+  },
+  {
+   "chapter": 46,
+   "surface": "孔明",
+   "type": "person",
+   "entity": "诸葛亮",
+   "context": "军帐交纳。鲁肃人见周瑜，备说孔明取箭之事。瑜大惊，慨然叹"
+  },
+  {
+   "chapter": 46,
+   "surface": "孔明",
+   "type": "person",
+   "entity": "诸葛亮",
+   "context": "箭之事。瑜大惊，慨然叹曰：“孔明神机妙算，吾不如也！”后"
+  },
+  {
+   "chapter": 54,
+   "surface": "孙乾",
+   "type": "person",
+   "entity": "孙乾",
+   "context": "人弃剑，相携入席。又饮数巡，孙乾目视玄德，玄德辞曰：“备"
+  },
+  {
+   "chapter": 54,
+   "surface": "玄德",
+   "type": "person",
+   "entity": "刘备",
+   "context": "相携入席。又饮数巡，孙乾目视玄德，玄德辞曰：“备不胜酒力"
+  },
+  {
+   "chapter": 54,
+   "surface": "玄德",
+   "type": "person",
+   "entity": "刘备",
+   "context": "席。又饮数巡，孙乾目视玄德，玄德辞曰：“备不胜酒力，告退"
+  },
+  {
+   "chapter": 54,
+   "surface": "孙权",
+   "type": "person",
+   "entity": "孙权",
+   "context": "辞曰：“备不胜酒力，告退。”孙权送出寺前，二人并立，观江"
+  },
+  {
+   "chapter": 54,
+   "surface": "玄德",
+   "type": "person",
+   "entity": "刘备",
+   "context": "寺前，二人并立，观江山之景。玄德曰：“此乃天下第一江山也"
+  },
+  {
+   "chapter": 61,
+   "surface": "张飞",
+   "type": "person",
+   "entity": "张飞",
+   "context": "张飞与赵云商议：“若逼死夫人"
+  },
+  {
+   "chapter": 61,
+   "surface": "赵云",
+   "type": "person",
+   "entity": "赵云",
+   "context": "张飞与赵云商议：“若逼死夫人，非为"
+  },
+  {
+   "chapter": 61,
+   "surface": "阿斗",
+   "type": "person",
+   "entity": "刘禅",
+   "context": "死夫人，非为臣下之道。只护着阿斗过船去罢。”乃谓夫人曰："
+  },
+  {
+   "chapter": 61,
+   "surface": "阿斗",
+   "type": "person",
+   "entity": "刘禅",
+   "context": "恩义，早早回来。”说罢，抱了阿斗，自与赵云回船，放孙夫人"
+  },
+  {
+   "chapter": 61,
+   "surface": "赵云",
+   "type": "person",
+   "entity": "赵云",
+   "context": "回来。”说罢，抱了阿斗，自与赵云回船，放孙夫人五只船去了"
+  },
+  {
+   "chapter": 61,
+   "surface": "孙夫人",
+   "type": "person",
+   "entity": "孙夫人",
+   "context": "，抱了阿斗，自与赵云回船，放孙夫人五只船去了。后人有诗赞"
+  },
+  {
+   "chapter": 61,
+   "surface": "子龙",
+   "type": "person",
+   "entity": "赵云",
+   "context": "孙夫人五只船去了。后人有诗赞子龙曰："
+  },
+  {
+   "chapter": 84,
+   "surface": "程畿",
+   "type": "person",
+   "entity": "程畿",
+   "context": "蜀祭酒程畿，匹马奔至江边，招呼水军"
+  },
+  {
+   "chapter": 84,
+   "surface": "吴班",
+   "type": "person",
+   "entity": "吴班",
+   "context": "时吴班、张南久围彝陵城，忽冯习"
+  },
+  {
+   "chapter": 84,
+   "surface": "张南",
+   "type": "person",
+   "entity": "张南",
+   "context": "时吴班、张南久围彝陵城，忽冯习到，言"
+  },
+  {
+   "chapter": 84,
+   "surface": "彝陵",
+   "type": "place",
+   "entity": "彝陵",
+   "context": "时吴班、张南久围彝陵城，忽冯习到，言蜀兵败，"
+  },
+  {
+   "chapter": 84,
+   "surface": "冯习",
+   "type": "person",
+   "entity": "冯习",
+   "context": "时吴班、张南久围彝陵城，忽冯习到，言蜀兵败，遂引军来救"
+  },
+  {
+   "chapter": 84,
+   "surface": "孙桓",
+   "type": "person",
+   "entity": "孙桓",
+   "context": "，言蜀兵败，遂引军来救先主，孙桓方才得脱。张、冯二将正行"
+  },
+  {
+   "chapter": 84,
+   "surface": "孙桓",
+   "type": "person",
+   "entity": "孙桓",
+   "context": "正行之间，前面吴兵杀来，背后孙桓从彝陵城杀出，两下夹攻。"
+  },
+  {
+   "chapter": 84,
+   "surface": "彝陵",
+   "type": "place",
+   "entity": "彝陵",
+   "context": "间，前面吴兵杀来，背后孙桓从彝陵城杀出，两下夹攻。张南、"
+  },
+  {
+   "chapter": 84,
+   "surface": "张南",
+   "type": "person",
+   "entity": "张南",
+   "context": "孙桓从彝陵城杀出，两下夹攻。张南、冯习奋力冲突，不能得脱"
+  },
+  {
+   "chapter": 84,
+   "surface": "冯习",
+   "type": "person",
+   "entity": "冯习",
+   "context": "彝陵城杀出，两下夹攻。张南、冯习奋力冲突，不能得脱，死于"
+  },
+  {
+   "chapter": 102,
+   "surface": "宛",
+   "type": "place",
+   "entity": "宛",
+   "context": "过了数日，木牛流马皆造完备，宛然如活者一般；上山下岭，各"
+  },
+  {
+   "chapter": 102,
+   "surface": "孔明",
+   "type": "person",
+   "entity": "诸葛亮",
+   "context": "尽其便。众军见之，无不欣喜。孔明令右将军高翔，引一千兵驾"
+  },
+  {
+   "chapter": 102,
+   "surface": "高翔",
+   "type": "person",
+   "entity": "高翔",
+   "context": "见之，无不欣喜。孔明令右将军高翔，引一千兵驾着木牛流马，"
+  },
+  {
+   "chapter": 102,
+   "surface": "剑阁",
+   "type": "place",
+   "entity": "剑阁",
+   "context": "翔，引一千兵驾着木牛流马，自剑阁直抵祁山大寨，往来搬运粮"
+  },
+  {
+   "chapter": 102,
+   "surface": "祁山",
+   "type": "place",
+   "entity": "祁山",
+   "context": "千兵驾着木牛流马，自剑阁直抵祁山大寨，往来搬运粮草，供给"
+  },
+  {
+   "chapter": 107,
+   "surface": "司马懿",
+   "type": "person",
+   "entity": "司马懿",
+   "context": "司马懿饶了辛敞等，仍出榜晓谕"
+  },
+  {
+   "chapter": 107,
+   "surface": "辛敞",
+   "type": "person",
+   "entity": "辛敞",
+   "context": "司马懿饶了辛敞等，仍出榜晓谕：但有曹爽"
+  },
+  {
+   "chapter": 107,
+   "surface": "曹爽",
+   "type": "person",
+   "entity": "曹爽",
+   "context": "饶了辛敞等，仍出榜晓谕：但有曹爽门下一应人等，尽皆免死；"
+  },
+  {
+   "chapter": 107,
+   "surface": "管辂",
+   "type": "person",
+   "entity": "管辂",
+   "context": "堵。何、邓二人死于非命，果应管辂之言。后人有诗赞管辂曰："
+  },
+  {
+   "chapter": 107,
+   "surface": "管辂",
+   "type": "person",
+   "entity": "管辂",
+   "context": "命，果应管辂之言。后人有诗赞管辂曰："
+  }
+ ],
+ "too_early": [
+  {
+   "id": "ning_sui",
+   "name": "宁随",
+   "min_chapter": 1,
+   "first_chapter": 116,
+   "max_chapter": 116,
+   "count": 26
+  },
+  {
+   "id": "bian_xi",
+   "name": "卞喜",
+   "min_chapter": 1,
+   "first_chapter": 27,
+   "max_chapter": 114,
+   "count": 17
+  },
+  {
+   "id": "lu_su",
+   "name": "鲁肃",
+   "min_chapter": 3,
+   "first_chapter": 29,
+   "max_chapter": 117,
+   "count": 441
+  },
+  {
+   "id": "fei_shi",
+   "name": "费诗",
+   "min_chapter": 4,
+   "first_chapter": 65,
+   "max_chapter": 120,
+   "count": 20
+  },
+  {
+   "id": "si_ma_wang",
+   "name": "司马望",
+   "min_chapter": 8,
+   "first_chapter": 112,
+   "max_chapter": 119,
+   "count": 33
+  },
+  {
+   "id": "sui_gu",
+   "name": "眭固",
+   "min_chapter": 9,
+   "first_chapter": 19,
+   "max_chapter": 19,
+   "count": 3
+  },
+  {
+   "id": "wu_chen",
+   "name": "吴臣",
+   "min_chapter": 9,
+   "first_chapter": 42,
+   "max_chapter": 113,
+   "count": 15
+  },
+  {
+   "id": "zhuo_ying",
+   "name": "卓膺",
+   "min_chapter": 11,
+   "first_chapter": 64,
+   "max_chapter": 65,
+   "count": 8
+  },
+  {
+   "id": "cheng_he",
+   "name": "成何",
+   "min_chapter": 13,
+   "first_chapter": 74,
+   "max_chapter": 111,
+   "count": 25
+  },
+  {
+   "id": "guo_you_zhi",
+   "name": "郭攸之",
+   "min_chapter": 14,
+   "first_chapter": 91,
+   "max_chapter": 115,
+   "count": 26
+  },
+  {
+   "id": "wang_bi",
+   "name": "王必",
+   "min_chapter": 14,
+   "first_chapter": 69,
+   "max_chapter": 109,
+   "count": 30
+  },
+  {
+   "id": "li_fu_5",
+   "name": "李伏",
+   "min_chapter": 16,
+   "first_chapter": 79,
+   "max_chapter": 105,
+   "count": 5
+  },
+  {
+   "id": "ma_han",
+   "name": "马汉",
+   "min_chapter": 25,
+   "first_chapter": 65,
+   "max_chapter": 65,
+   "count": 2
+  },
+  {
+   "id": "sun_gao",
+   "name": "孙高",
+   "min_chapter": 27,
+   "first_chapter": 38,
+   "max_chapter": 96,
+   "count": 12
+  },
+  {
+   "id": "cao_wen_shu",
+   "name": "曹文叔",
+   "min_chapter": 28,
+   "first_chapter": 107,
+   "max_chapter": 28,
+   "count": 1
+  },
+  {
+   "id": "zhou_shan",
+   "name": "周善",
+   "min_chapter": 29,
+   "first_chapter": 61,
+   "max_chapter": 61,
+   "count": 16
+  },
+  {
+   "id": "cheng_yi",
+   "name": "成宜",
+   "min_chapter": 38,
+   "first_chapter": 58,
+   "max_chapter": 100,
+   "count": 8
+  },
+  {
+   "id": "mang_ya_zhang",
+   "name": "忙牙长",
+   "min_chapter": 44,
+   "first_chapter": 87,
+   "max_chapter": 119,
+   "count": 15
+  },
+  {
+   "id": "xia_hou_ling_nv",
+   "name": "夏侯令女",
+   "min_chapter": 54,
+   "first_chapter": 107,
+   "max_chapter": 107,
+   "count": 4
+  },
+  {
+   "id": "liu_lve",
+   "name": "留略",
+   "min_chapter": 63,
+   "first_chapter": 108,
+   "max_chapter": 108,
+   "count": 5
+  },
+  {
+   "id": "fu_qian",
+   "name": "傅佥",
+   "min_chapter": 80,
+   "first_chapter": 112,
+   "max_chapter": 116,
+   "count": 23
+  },
+  {
+   "id": "bai_shou",
+   "name": "白寿",
+   "min_chapter": 83,
+   "first_chapter": 97,
+   "max_chapter": 97,
+   "count": 2
+  },
+  {
+   "id": "liu_fang",
+   "name": "刘放",
+   "min_chapter": 92,
+   "first_chapter": 106,
+   "max_chapter": 106,
+   "count": 4
+  },
+  {
+   "id": "zheng_wen",
+   "name": "郑文",
+   "min_chapter": 94,
+   "first_chapter": 102,
+   "max_chapter": 102,
+   "count": 19
+  }
+ ],
+ "top_surfaces": [
+  {
+   "surface": "玄德",
+   "count": 1741
+  },
+  {
+   "surface": "孔明",
+   "count": 1670
+  },
+  {
+   "surface": "曹操",
+   "count": 926
+  },
+  {
+   "surface": "操",
+   "count": 853
+  },
+  {
+   "surface": "关公",
+   "count": 516
+  },
+  {
+   "surface": "荆州",
+   "count": 416
+  },
+  {
+   "surface": "云长",
+   "count": 403
+  },
+  {
+   "surface": "张飞",
+   "count": 363
+  },
+  {
+   "surface": "吕布",
+   "count": 361
+  },
+  {
+   "surface": "魏延",
+   "count": 322
+  },
+  {
+   "surface": "孙权",
+   "count": 319
+  },
+  {
+   "surface": "赵云",
+   "count": 311
+  },
+  {
+   "surface": "刘备",
+   "count": 296
+  },
+  {
+   "surface": "司马懿",
+   "count": 285
+  },
+  {
+   "surface": "姜维",
+   "count": 270
+  },
+  {
+   "surface": "袁绍",
+   "count": 249
+  },
+  {
+   "surface": "周瑜",
+   "count": 239
+  },
+  {
+   "surface": "肃",
+   "count": 234
+  },
+  {
+   "surface": "汉中",
+   "count": 217
+  },
+  {
+   "surface": "马超",
+   "count": 214
+  },
+  {
+   "surface": "后主",
+   "count": 204
+  },
+  {
+   "surface": "张郃",
+   "count": 196
+  },
+  {
+   "surface": "黄忠",
+   "count": 187
+  },
+  {
+   "surface": "孟获",
+   "count": 159
+  },
+  {
+   "surface": "邓艾",
+   "count": 158
+  },
+  {
+   "surface": "张辽",
+   "count": 146
+  },
+  {
+   "surface": "诸葛亮",
+   "count": 146
+  },
+  {
+   "surface": "曹仁",
+   "count": 144
+  },
+  {
+   "surface": "江东",
+   "count": 142
+  },
+  {
+   "surface": "徐州",
+   "count": 140
+  },
+  {
+   "surface": "徐晃",
+   "count": 140
+  },
+  {
+   "surface": "成都",
+   "count": 140
+  },
+  {
+   "surface": "祁山",
+   "count": 133
+  },
+  {
+   "surface": "鲁肃",
+   "count": 132
+  },
+  {
+   "surface": "马岱",
+   "count": 127
+  },
+  {
+   "surface": "庞德",
+   "count": 127
+  },
+  {
+   "surface": "许褚",
+   "count": 125
+  },
+  {
+   "surface": "刘表",
+   "count": 124
+  },
+  {
+   "surface": "董卓",
+   "count": 121
+  },
+  {
+   "surface": "许都",
+   "count": 117
+  },
+  {
+   "surface": "孙策",
+   "count": 116
+  },
+  {
+   "surface": "夏侯惇",
+   "count": 114
+  },
+  {
+   "surface": "洛阳",
+   "count": 109
+  },
+  {
+   "surface": "维",
+   "count": 107
+  },
+  {
+   "surface": "关兴",
+   "count": 106
+  },
+  {
+   "surface": "孙乾",
+   "count": 102
+  },
+  {
+   "surface": "长安",
+   "count": 101
+  },
+  {
+   "surface": "王平",
+   "count": 101
+  },
+  {
+   "surface": "袁术",
+   "count": 96
+  },
+  {
+   "surface": "曹真",
+   "count": 96
+  },
+  {
+   "surface": "曹洪",
+   "count": 95
+  },
+  {
+   "surface": "刘璋",
+   "count": 95
+  },
+  {
+   "surface": "夏侯渊",
+   "count": 94
+  },
+  {
+   "surface": "司马昭",
+   "count": 94
+  },
+  {
+   "surface": "甘宁",
+   "count": 93
+  },
+  {
+   "surface": "孟达",
+   "count": 92
+  },
+  {
+   "surface": "吕蒙",
+   "count": 91
+  },
+  {
+   "surface": "于禁",
+   "count": 90
+  },
+  {
+   "surface": "陆逊",
+   "count": 90
+  },
+  {
+   "surface": "李傕",
+   "count": 87
+  },
+  {
+   "surface": "曹丕",
+   "count": 87
+  },
+  {
+   "surface": "襄阳",
+   "count": 86
+  },
+  {
+   "surface": "张苞",
+   "count": 85
+  },
+  {
+   "surface": "庞统",
+   "count": 81
+  },
+  {
+   "surface": "郭淮",
+   "count": 80
+  },
+  {
+   "surface": "樊城",
+   "count": 79
+  },
+  {
+   "surface": "廖化",
+   "count": 79
+  },
+  {
+   "surface": "李典",
+   "count": 78
+  },
+  {
+   "surface": "张翼",
+   "count": 78
+  },
+  {
+   "surface": "张鲁",
+   "count": 76
+  },
+  {
+   "surface": "卓",
+   "count": 75
+  },
+  {
+   "surface": "关平",
+   "count": 75
+  },
+  {
+   "surface": "冀州",
+   "count": 74
+  },
+  {
+   "surface": "西凉",
+   "count": 74
+  },
+  {
+   "surface": "程普",
+   "count": 71
+  },
+  {
+   "surface": "韩遂",
+   "count": 69
+  },
+  {
+   "surface": "郭汜",
+   "count": 67
+  },
+  {
+   "surface": "张昭",
+   "count": 67
+  },
+  {
+   "surface": "许昌",
+   "count": 67
+  },
+  {
+   "surface": "江夏",
+   "count": 66
+  }
+ ]
+}

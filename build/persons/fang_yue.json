@@ -1,0 +1,29 @@
+{
+ "id": "fang_yue",
+ "name": "方悦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "auto_mined",
+ "summary": "方悦，群雄武将，河内名将。视之，乃河内名将方悦。",
+ "bio": "第 5 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 190,
+   "title": "河内名将",
+   "basis": "第五回原文：匡视之，乃河内名将方悦。 职任「河内名将」据此；★任期按末见回目收敛：全书最后一次提及在第 5 回（190 年），原 190—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

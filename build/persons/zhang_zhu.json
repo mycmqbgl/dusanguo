@@ -1,0 +1,29 @@
+{
+ "id": "zhang_zhu",
+ "name": "张著",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 71,
+ "review_status": "auto_mined",
+ "summary": "张著，蜀汉武将，牙将。说黄忠回到寨中，谓副将张著曰；我斩了夏侯渊，张郃丧胆；吾明日领命去劫粮草，只留五百军守营。",
+ "bio": "第 71 回：忽牙将张著来报说：曹操自领大军二十万，来与夏侯渊报仇。第 71 回：张著引三百军走脱，正要回寨，忽一枝兵撞出，拦住去路。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 229,
+   "title": "牙将",
+   "basis": "第71回牙将张著报曹操自领大军来与夏侯渊报仇；定军山之战随黄忠。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

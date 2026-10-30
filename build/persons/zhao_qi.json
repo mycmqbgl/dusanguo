@@ -1,0 +1,57 @@
+{
+ "id": "zhao_qi",
+ "name": "赵岐",
+ "courtesy": "邠卿",
+ "display_aliases": [
+  "太仆",
+  "著《孟子章句》"
+ ],
+ "birth": null,
+ "death": 201,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安六年（201），年九十余。京兆长陵人。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "赵岐，东汉文臣，并州刺史、太仆、太常。次日便使太傅马日磾、太仆赵岐，赍诏前去。",
+ "bio": "赵岐字邠卿，京兆长陵人，原名嘉，字台卿，后避难改名。少明经，有才艺。娶马融兄女，鄙融为人，不与相见。仕州郡，以廉直疾恶见惮。永兴二年为皮氏长，时河东太守刘祐去郡，中常侍左悺之弟左敏为河东太守，岐耻之，即日弃官西归。后避仇，隐于北海，卖饼市中，孙嵩见而异之，载归，藏于复壁数年，著《孟子章句》。后为并州刺史，坐党事免。董卓时拜太仆。与马日磾奉诏使河北，调解袁绍与公孙瓒，二人讲和，各遣使致书。建安六年卒，年九十余。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 201,
+   "title": "并州刺史、太仆、太常",
+   "basis": "以经术、朝政谋议为主归文臣；201 年卒，年九十余。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 158,
+   "title": "藏于复壁",
+   "description": "避仇隐于北海卖饼，为孙嵩所藏，于复壁中著《孟子章句》。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "拜太仆",
+   "description": "董卓时拜太仆。",
+   "importance": 1
+  },
+  {
+   "year": 191,
+   "title": "奉诏解斗",
+   "description": "与马日磾赍诏往河北，调解袁绍与公孙瓒，二人讲和。",
+   "importance": 3
+  },
+  {
+   "year": 201,
+   "title": "卒",
+   "description": "建安六年卒，年九十余。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 1
+}

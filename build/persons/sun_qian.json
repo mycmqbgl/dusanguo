@@ -1,0 +1,68 @@
+{
+ "id": "sun_qian",
+ "name": "孙乾",
+ "courtesy": "公祐",
+ "display_aliases": [
+  "秉忠将军"
+ ],
+ "birth": null,
+ "death": 214,
+ "date_precision": "approx",
+ "date_note": "史载约建安十九年（214）前卒；演义中活跃至入蜀。生年不详。",
+ "gender": "male",
+ "first_chapter": 12,
+ "review_status": "reviewed",
+ "summary": "孙乾，群雄文臣，从事。德自守南门，孙乾守北门，云长守西门，张飞守东门，令糜竺与其弟糜芳守护中军。",
+ "bio": "孙乾字公祐，北海人，大儒郑玄弟子。刘备领徐州，辟为从事；自是随备周旋四方，常为使节，出使袁绍、刘表皆称旨。备定益州，乾自从事中郎迁秉忠将军，位次糜竺。约建安十九年前卒。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 208,
+   "title": "从事",
+   "lord_id": "liu_bei",
+   "basis": "刘备领徐州时辟为从事。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 214,
+   "title": "从事中郎、秉忠将军",
+   "basis": "随备入蜀，约 214 年前卒。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "佐刘备",
+   "description": "刘备领徐州，辟为从事。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "使袁绍",
+   "description": "备奔袁绍，乾为之使，联络刘辟等。",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "随主入荆",
+   "description": "随刘备奔荆州，居新野。",
+   "importance": 1
+  },
+  {
+   "year": 214,
+   "title": "约卒",
+   "description": "随备定益州，迁秉忠将军，约是年前卒。",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：史载约建安十九年（214）前卒；生年不详｜演：活跃至入蜀",
+ "mention_count": 116
+}

@@ -1,0 +1,51 @@
+{
+ "id": "zhang_ji",
+ "name": "张济",
+ "courtesy": null,
+ "display_aliases": [
+  "骠骑将军",
+  "平阳侯"
+ ],
+ "birth": null,
+ "death": 196,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安元年（196）。为张绣从父。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "张济，群雄君主，骠骑将军、平阳侯。超在后死战，杀退张济。",
+ "bio": "张济为董卓部将，与李傕、郭汜、樊稠齐名。董卓死，随李傕攻长安，杀王允，自为骠骑将军、平阳侯，领兵屯弘农。兴平二年献帝东归，张济与李傕、郭汜合兵追帝。后因关中饥荒，引兵入荆州界就食，攻穰城，中流矢而死。侄张绣领其众，屯宛城，后降曹操。演义写其劝止李傕、郭汜弑帝，又写李傕设宴斩樊稠后「吓得张济俯伏于地」，李傕将樊稠军拨与张济管领。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 192,
+   "end_year": 196,
+   "title": "骠骑将军、平阳侯",
+   "basis": "以骠骑将军屯弘农，自成一系，为群雄之一；196 年攻穰城中流矢死。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "攻长安",
+   "description": "随李傕等攻长安，杀王允，自为骠骑将军平阳侯，屯弘农。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "追献帝",
+   "description": "与李傕、郭汜合兵追献帝东归之驾。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "攻穰城死",
+   "description": "因关中饥荒引兵入荆州就食，攻穰城中流矢死，侄张绣领其众。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 26
+}

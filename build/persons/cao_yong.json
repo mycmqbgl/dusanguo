@@ -1,0 +1,29 @@
+{
+ "id": "cao_yong",
+ "name": "曹永",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 58,
+ "review_status": "auto_mined",
+ "summary": "曹永，曹仁部将，为庞德所斩。",
+ "bio": "曹永，曹仁部将。第58回潼关之战，曹永正遇庞德，「被庞德一刀砍于马下，夺其马，杀开一条血路」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 229,
+   "title": "曹仁部将",
+   "basis": "第58回曹仁部将曹永遇庞德，被一刀砍于马下。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

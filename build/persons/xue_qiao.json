@@ -1,0 +1,29 @@
+{
+ "id": "xue_qiao",
+ "name": "薛乔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 96,
+ "review_status": "auto_mined",
+ "summary": "薛乔，孙吴武将。第 96 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 96 回相关片段：「以奇兵胜之。”就令张普引二万军伏于石亭之南，又令薛乔引二万军伏于石亭之北。“明日吾自引一千兵搦战，却」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "basis": "第96回曹休令薛乔引二万军伏于石亭之北。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,28 @@
+{
+ "id": "si_ma_fang",
+ "name": "司马防",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 39,
+ "review_status": "auto_mined",
+ "summary": "司马防，东汉文臣，汉京兆尹。川太守司马隽之孙，京兆尹司马防之子，主簿司马朗之弟也。",
+ "bio": "第 39 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 219,
+   "title": "汉京兆尹",
+   "basis": "司马懿之父，汉京兆尹，卒于汉末（约 219）。",
+   "confidence": 0.8
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

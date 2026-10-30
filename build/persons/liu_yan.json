@@ -1,0 +1,58 @@
+{
+ "id": "liu_yan",
+ "name": "刘焉",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": 194,
+ "date_precision": "approx",
+ "date_note": "卒于兴平元年（194）背疽发而卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "刘焉，东汉文臣，幽州太守。刘焉然其说，随即出榜招募义兵。",
+ "bio": "刘焉，江夏竟陵人，汉鲁恭王之后。中平元年为幽州太守，闻黄巾将至，从校尉邹靖之议出榜招募义兵——这张榜文引出了涿县的刘备。见玄德通宗派，认玄德为侄，遣邹靖与玄德等破黄巾、救青州。历史上的刘焉于中平五年（188）建议改刺史为州牧，自领益州牧，成为最早割据的宗室重臣；其子刘璋后来把益州拱手让与刘备。第一回的出榜招军，实为全书两条主线（刘氏基业与益州归属）共同的隐伏起点。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 188,
+   "title": "幽州太守",
+   "basis": "第一回任幽州太守，主持招军御贼，以内政为主。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 188,
+   "end_year": 194,
+   "title": "益州牧",
+   "basis": "188 年自领益州牧，割据一方，至 194 年卒。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "幽州出榜招军",
+   "description": "从邹靖之议出榜招募义兵，引出刘备。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "认玄德为侄",
+   "description": "玄德通宗派，焉大喜，遂认玄德为侄。",
+   "importance": 2
+  },
+  {
+   "year": 188,
+   "title": "自领益州牧",
+   "description": "建议改立州牧，自领益州，开割据之先。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 12
+}

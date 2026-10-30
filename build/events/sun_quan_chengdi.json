@@ -1,0 +1,33 @@
+{
+ "id": "sun_quan_chengdi",
+ "name": "孙权称帝",
+ "kind": "典制",
+ "start_year": 229,
+ "end_year": 229,
+ "date_text": "黄龙元年（229）",
+ "summary": "孙权于武昌郊天即皇帝位，迁都建业；蜀遣使贺，吴蜀约中分天下。",
+ "detail": "孙权筑坛登坛郊天，即皇帝位，改元黄龙，迁都建业。陆逊辅政。诸葛亮遣使赴吴称贺，吴蜀立盟，约中分天下：豫、青、徐、幽属吴，兖、冀、并、凉属蜀，司州以函谷关为界。三国鼎立之局至此名实俱全。",
+ "place_id": "jian_ye",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sun_quan",
+   "role_desc": "郊天即皇帝位，改元黄龙，迁都建业"
+  },
+  {
+   "person_id": "lu_xun",
+   "role_desc": "辅政重臣"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "遣使赴吴称贺，赞成吴蜀中分天下之盟"
+  }
+ ],
+ "passage_ids": [
+  98012,
+  98012,
+  98014,
+  98001
+ ],
+ "battle_ids": []
+}

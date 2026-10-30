@@ -1,0 +1,29 @@
+{
+ "id": "zheng_du",
+ "name": "郑度",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "郑度，群雄文臣，刘璋从事。事郑度献策曰：今刘备虽攻城夺地，然兵不甚多，士众未附，野谷是资，军无辎重。",
+ "bio": "第 64 回：从事郑度献策曰：今刘备虽攻城夺地，然兵不甚多，士众未附，野谷是资，军无辎重。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 214,
+   "title": "刘璋从事",
+   "basis": "第六十四回原文：从事郑度献策曰：“今刘备虽攻城夺地，然兵不甚多，士众未附，野谷是资，军无辎重。 职任「刘璋从事」据此；★任期按末见回目收敛：全书最后一次提及在第 65 回（214 年），原 214—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zhang_lu",
+ "name": "张鲁",
+ "courtesy": "公祺",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "auto_mined",
+ "summary": "张鲁，群雄君主，太守。张鲁大喜，先遣黄权从小路而回，随即点兵二万与马超。",
+ "bio": "官职「太守」据原文上下文提取。原文第 16 回相关片段：「术；江东孙策、冀州袁绍、荆襄刘表、益州刘璋、汉中张鲁，皆狐兔也。布掷剑笑曰：“曹公知我也！”正说话间」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 197,
+   "end_year": 229,
+   "title": "太守",
+   "basis": "第十六回原文：江东孙策、冀州袁绍、荆襄刘表、益州刘璋、汉中张鲁，皆狐兔也。 职任「太守」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 81
+}

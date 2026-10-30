@@ -1,0 +1,31 @@
+{
+ "id": "cao_shi",
+ "name": "曹氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详，卒于 197 年（第 16 回）以前。",
+ "gender": "female",
+ "first_chapter": 16,
+ "review_status": "auto_mined",
+ "summary": "曹氏，群雄人物，吕布次妻。曹氏不久为汉所灭。",
+ "bio": "第 5 回：不数日，曹氏兄弟曹仁、曹洪各引兵千余来助。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 191,
+   "end_year": 196,
+   "title": "吕布次妻（曹豹之女）",
+   "basis": "第16回：及居小沛时，又娶曹豹之女为次妻。曹氏先亡无出。曹豹 196 年死。",
+   "confidence": 0.85,
+   "review_status": "reviewed",
+   "date_note": "生年不详，卒于 197 年以前（第 16 回时已「先亡」）。"
+  }
+ ],
+ "timeline": [],
+ "span_pre_state": true,
+ "mention_count": 0
+}

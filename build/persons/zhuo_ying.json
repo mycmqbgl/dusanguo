@@ -1,0 +1,29 @@
+{
+ "id": "zhuo_ying",
+ "name": "卓膺",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "卓膺，蜀汉武将，刘璋部将。来卓膺见张任中计，已投赵云军前降了，一发都到大寨。",
+ "bio": "第 64 回：刘璋差卓膺、张翼二将，前至雒城助战。第 64 回：卓膺见张任中计，已投赵云军前降了，一发都到大寨。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "营中司马",
+   "basis": "第六十五回：刘备定蜀，卓膺与吴懿、费观、李严等并皆擢用，庞义为营中司马。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

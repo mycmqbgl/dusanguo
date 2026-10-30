@@ -1,0 +1,49 @@
+{
+ "id": "xin_pi",
+ "name": "辛毗",
+ "courtesy": "佐治",
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载；史载卒于魏太和年间。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "reviewed",
+ "summary": "辛毗，曹魏文臣，袁谭帐下谋士。降”辛毗哭拜于地曰：“家属八十余口，尽遭此贼杀害。",
+ "bio": "颍川阳翟人，与兄辛评同仕袁绍。袁谭袁尚相争，谭使毗请降于曹操，操大喜。后随操攻邺，献「决漳水灌城」之策者许攸而毗为使节。曹操取冀州后辟为议郎，魏建立后官至卫尉，以直谏称。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 202,
+   "end_year": 204,
+   "title": "袁谭帐下谋士",
+   "lord_id": "yuan_tan",
+   "basis": "袁谭使请降于曹。｜阵营据百科势力分组校正：wei。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 204,
+   "end_year": 220,
+   "title": "曹操记室、议郎",
+   "lord_id": "cao_cao",
+   "basis": "冀州定后归曹。｜阵营据百科势力分组校正：wei。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 202,
+   "title": "奉使降曹",
+   "description": "为袁谭使节请曹操援，操纳其降。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：史载卒于魏太和年间｜演：生卒年演义未载",
+ "mention_count": 28
+}

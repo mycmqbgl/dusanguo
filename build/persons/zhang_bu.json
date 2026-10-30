@@ -1,0 +1,42 @@
+{
+ "id": "zhang_bu",
+ "name": "张布",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "张布，孙吴武将，吴左将军。言未毕，左将军张布拔剑在手，引武士三十余人，抢上殿来，口中厉声而言曰：有诏擒反贼孙綝。",
+ "bio": "第 113 回：「乃以牛酒诣左将军张布府中共饮」。原文第 113 回相关片段：「酒入宫上寿，吴主孙休不受，綝怒，乃以牛酒诣左将军张布府中共饮。酒酣，乃谓布曰：“吾初废会稽王时，人皆」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 264,
+   "title": "吴左将军",
+   "basis": "第 113 回：「乃以牛酒诣左将军张布府中共饮」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 254,
+   "title": "第 113 回",
+   "description": "休大惊，急召张布计议",
+   "importance": 1
+  },
+  {
+   "year": 280,
+   "title": "第 120 回",
+   "description": "阳兴、张布谏之，皓怒，斩二人，灭其三族",
+   "importance": 1
+  }
+ ],
+ "mention_count": 7
+}

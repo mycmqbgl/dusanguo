@@ -1,0 +1,29 @@
+{
+ "id": "jiao_bo",
+ "name": "焦伯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 114,
+ "review_status": "auto_mined",
+ "summary": "焦伯，曹魏武将，护卫。顷，魏主曹髦出内，令护卫焦伯，聚集殿中宿卫苍头官僮三百余人，鼓噪而出。",
+ "bio": "原文第 114 回相关片段：「少顷，魏主曹髦出内，令护卫焦伯，聚集殿中宿卫苍头官僮三百余人，鼓噪而出。髦仗剑」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "护卫",
+   "basis": "第114回魏主曹髦令护卫焦伯聚集殿中宿卫苍头官僮三百余人，鼓噪而出。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

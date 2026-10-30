@@ -1,0 +1,29 @@
+{
+ "id": "sun_shao",
+ "name": "孙韶",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "auto_mined",
+ "summary": "孙韶，孙吴武将，扬威将军。叱退孙韶，谓徐盛曰：便无此子，何损于兵。",
+ "bio": "第 7 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 234,
+   "title": "扬威将军",
+   "basis": "第八十六回原文：龙舟将次入淮，忽然鼓角齐鸣，喊声大震，刺斜里一彪军杀到：为首大将，乃孙韶也。 职任「扬威将军」据此；★任期按末见回目收敛：全书最后一次提及在第 102 回（234 年），原 195—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

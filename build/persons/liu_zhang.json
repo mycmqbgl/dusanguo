@@ -1,0 +1,45 @@
+{
+ "id": "liu_zhang",
+ "name": "刘璋",
+ "courtesy": "季玉",
+ "display_aliases": [
+  "益州牧"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。刘焉幼子，继领益州牧。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "刘璋，字季玉，刘焉之子，继为益州牧。建安十九年（214）降刘备，迁居公安。",
+ "bio": "刘璋字季玉，江夏竟陵人，刘焉幼子。焉死，璋继领益州牧，性柔弱多疑。张鲁犯界，听张松之言迎刘备入川相助；备至葭萌反攻涪关、雒城，围成都。214 年马超兵临城下，璋开城出降，备迁之于公安。史载孙权取荆州后以璋为益州牧，迁秭归。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 220,
+   "title": "益州牧（降刘备后受表振威将军，居公安）",
+   "basis": "第60回：刘璋字季玉，刘焉之子，继为益州牧（194 年袭位）。第65回刘备入成都，刘璋出降，迁于公安，刘备表为振威将军。刘璋为汉室宗亲而非蜀汉之亲。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "迎备入川",
+   "description": "听张松之言迎刘备入川拒张鲁，法正献策，自此引狼入室。",
+   "importance": 3
+  },
+  {
+   "year": 214,
+   "title": "成都出降",
+   "description": "马超兵临城下，璋开城出降，益州易主。",
+   "importance": 3
+  }
+ ],
+ "span_pre_state": true,
+ "mention_count": 105
+}

@@ -1,0 +1,29 @@
+{
+ "id": "pu_jing",
+ "name": "普净",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "auto_mined",
+ "summary": "普净，神怪人物，解良人，救关羽。卞喜见普净叙出乡里之情，恐有走泄，乃叱之曰：吾欲请将军赴宴，汝僧人何得多言。",
+ "bio": "。第 27 回：卞喜见普净叙出乡里之情，恐有走泄，乃叱之曰：吾欲请将军赴宴，汝僧人何得多言。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 201,
+   "end_year": 220,
+   "title": "解良人，救关羽",
+   "basis": "第二十七回原文：当下普净已知其意，向前与关公问讯，曰：“将军离蒲东几年矣。 职任「解良人，救关羽」据此；★任期按末见回目收敛：全书最后一次提及在第 77 回（220 年），原 201—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 17
+}

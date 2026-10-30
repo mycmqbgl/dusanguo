@@ -1,0 +1,62 @@
+{
+ "id": "xu_shu",
+ "name": "徐庶",
+ "courtesy": "元直",
+ "display_aliases": [
+  "单福（化名）"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载；史载卒于魏黄初年间（约 223 前后），演义未及。",
+ "gender": "male",
+ "first_chapter": 35,
+ "review_status": "reviewed",
+ "summary": "徐庶，群雄文臣，刘备军师。徐庶曰：将军勿轻视刘玄德。",
+ "bio": "颍川郡长社人，少任侠击剑，为人报仇后弃武学道，改名单福避难荆州。闻刘备新野招贤，于市中长歌自荐，操演八门金锁阵大破曹仁，又取樊城。曹操用程昱计囚其母伪作书信召之，庶至孝不能违，临别泣谓刘备「此人有经天纬地之才，将军何不请之」——走马荐诸葛，并发誓终身不为曹操设一谋。后随曹操赤壁观风色，识破连环计而不言，大笑三声为庞统、程昱所觉。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 201,
+   "end_year": 208,
+   "title": "刘备军师",
+   "lord_id": "liu_bei",
+   "basis": "化名单福投刘备为军师，破曹仁八门金锁阵。其时刘备客居荆州，尚非独立阵营，按群雄归类；主君为刘备。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "右中郎将",
+   "lord_id": "cao_cao",
+   "basis": "208年被迫归曹，誓不设一谋。｜阵营据百科势力分组校正：wei。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "新野破曹仁",
+   "description": "识八门金锁阵，遣赵云破八门，取樊城。",
+   "importance": 3
+  },
+  {
+   "year": 207,
+   "title": "走马荐诸葛",
+   "description": "曹操囚其母，被迫辞刘备，荐诸葛亮以自代。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "识连环计",
+   "description": "随操观赤壁，识破连环计而秘而不言。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 109
+}

@@ -1,0 +1,29 @@
+{
+ "id": "ji_mu",
+ "name": "吉穆",
+ "courtesy": "思然",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "吉穆，群雄武将，吉平之子。第 69 回一笔带过，事迹仅存其名。",
+ "bio": "第 69 回：「太医吉平之子：长名吉邈，字文然；次名吉穆，字思然」。原文第 69 回相关片段：「人。祎曰：“太医吉平之子：长名吉邈，字文然；次名吉穆，字思然。操昔日为董承衣带诏事，曾杀其父；二子逃」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 218,
+   "end_year": 218,
+   "title": "吉平之子",
+   "basis": "第 69 回：「太医吉平之子：长名吉邈，字文然；次名吉穆，字思然」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

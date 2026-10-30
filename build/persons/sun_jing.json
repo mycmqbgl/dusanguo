@@ -1,0 +1,50 @@
+{
+ "id": "sun_jing",
+ "name": "孙静",
+ "courtesy": "幼台",
+ "display_aliases": [
+  "昭义中郎将"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。孙坚之弟。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "孙静，字幼台，孙坚之弟，孙吴宗室。孙策定江东时率乡曲相助，后为昭义中郎将。",
+ "bio": "孙静，字幼台，孙坚之弟。孙策起兵渡江，静「纠合乡曲宗族」五六百人相从，助平会稽；东路既定，孙策令叔父孙静守之，以朱治为吴郡太守。后为昭义中郎将，卒于家。其五子中有孙瑜、孙皎等，皆为吴将。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "亲族",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "孙坚之弟（昭义中郎将），孙权之叔",
+   "basis": "第7回：孙静字幼台，孙坚之弟。孙策定江东，静率乡曲相助，后为昭义中郎将。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "纠合宗族",
+   "description": "孙坚始举事，静纠合乡曲及宗室五六百人以为保障。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "谏阻征刘表",
+   "description": "引诸子列拜马前谏阻，孙坚不听，果败死岘山。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "佐定会稽",
+   "description": "与孙策会于钱唐，为军司马，后表昭义中郎将。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 6
+}

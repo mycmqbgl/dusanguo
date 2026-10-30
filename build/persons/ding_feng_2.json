@@ -1,0 +1,29 @@
+{
+ "id": "ding_feng_2",
+ "name": "丁封",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 117,
+ "review_status": "auto_mined",
+ "summary": "丁封，孙吴武将，吴将。奉领旨出师，分拨丁封、孙异引兵二万向沔中而进，自率兵三万向寿春而进：分兵三路来援。",
+ "bio": "第 117 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 263,
+   "title": "吴将",
+   "basis": "第一百十七回原文：即令老将丁奉为主帅，丁封、孙异为副将，率兵五万，前往救蜀。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 117 回（263 年），原 263—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

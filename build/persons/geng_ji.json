@@ -1,0 +1,29 @@
+{
+ "id": "geng_ji",
+ "name": "耿纪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "耿纪，曹魏文臣，侍中、少府。耿纪曰：奈天数如此，不得不为耳。",
+ "bio": "第 69 回：耿纪、韦晃夺路杀出城门，正遇夏侯惇大军围住，活捉去了。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 218,
+   "end_year": 218,
+   "title": "侍中、少府",
+   "basis": "第六十九回原文：曹操于教场立红旗于左、白旗于右，下令曰：“耿纪、韦晃等造反，放火焚许都，汝等亦有出救火者，亦。 职任「侍中、少府」据此；★任期按末见回目收敛：全书最后一次提及在第 69 回（218 年），原 218—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

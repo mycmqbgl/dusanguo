@@ -1,0 +1,80 @@
+{
+ "id": "zhang_liao",
+ "name": "张辽",
+ "courtesy": "文远",
+ "display_aliases": [
+  "前将军",
+  "晋阳侯"
+ ],
+ "birth": 169,
+ "death": 222,
+ "date_precision": "approx",
+ "date_note": "史载黄初三年（222）江陵病笃卒于江都，生年据卒年反推。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "张辽，群雄武将，从事、北地太守、鲁相。张辽应诺，遂上马，回见曹操，先说降汉不降曹之事。",
+ "bio": "张辽字文远，雁门马邑人，本聂壹之后，避怨变姓。少为郡吏，力过人。并州刺史丁原以辽从事，使将兵赴京都；何进遣诣河北募兵，还属董卓；卓败，以兵属吕布，为其八健将之一。下邳城破，辽大骂曹操，操亲释其缚、解衣衣之，辽感其义遂降。此后为曹操东征西讨：劝降昌豨、白马先锋、平定东海；赤壁后镇合肥，建安二十年以八百卒破孙权十万众，几擒孙权，威震逍遥津，江东小儿闻辽名夜不敢啼。官至前将军、征东将军，封晋阳侯。黄初三年病笃，卒于江都。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 198,
+   "title": "从事、北地太守、鲁相",
+   "lord_id": "lv_bu",
+   "basis": "历丁原、董卓、吕布三主，皆记群雄。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 222,
+   "title": "中郎将、裨将军、荡寇将军、征东将军、前将军、晋阳侯",
+   "basis": "建安三年下邳降曹。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "属丁原、董卓",
+   "description": "为并州从事，大将军何进遣其河北募兵，还后属董卓。",
+   "importance": 1
+  },
+  {
+   "year": 192,
+   "title": "属吕布",
+   "description": "董卓死，以兵属吕布。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "白门楼降曹",
+   "description": "下邳城破大骂操，操亲解其缚，辽感义而降。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "白马之战",
+   "description": "与关羽同为先锋，破袁绍军于白马。",
+   "importance": 2
+  },
+  {
+   "year": 215,
+   "title": "威震逍遥津",
+   "description": "合肥之战以八百人破孙权十万，几擒孙权。",
+   "importance": 3
+  },
+  {
+   "year": 222,
+   "title": "病笃于军",
+   "description": "黄初三年曹丕伐吴，辽病笃，卒于江都。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 193
+}

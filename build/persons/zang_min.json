@@ -1,0 +1,29 @@
+{
+ "id": "zang_min",
+ "name": "臧旻",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "臧旻，东汉文臣，会稽刺史。史臧旻上表奏其功，除坚为盐渎丞，又除盱眙丞、下邳丞。",
+ "bio": "第 2 回：刺史臧旻上表奏其功，除坚为盐渎丞，又除盱眙丞、下邳丞。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "会稽刺史",
+   "basis": "第2回坚与郡司马破许昌，刺史臧旻上表奏其功，除坚为盐渎丞。 184 年前后会稽刺史臧旻上表奏孙坚之功。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,82 @@
+{
+ "id": "huarong_battle",
+ "name": "华容道之战",
+ "year": 208,
+ "date_text": "建安十三年（208）冬",
+ "place_id": "huarong_dao",
+ "event_id": "chi_bi_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹军残部",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao",
+    "xu_chu"
+   ],
+   "troops_desc": "溃兵三百余骑，人困马乏，衣甲淋雨"
+  },
+  {
+   "side": "刘备军",
+   "faction_ids": [
+    "shu"
+   ],
+   "commanders": [
+    "guan_yu"
+   ],
+   "troops_desc": "五百校刀手伏华容道"
+  }
+ ],
+ "result": "关羽义释曹操——亮明知操命不当绝而故意遣之",
+ "casualties_note": "曹军残部十不存一；关羽部未损一人。",
+ "summary": "操败走乌林、葫芦口、华容道三处伏兵皆过，最后华容道遇关羽。云长念昔日恩义，甘违军令状，放操一条生路。",
+ "detail": "亮算定操必走华容，遣关羽守之，云长立军令状。操过乌林遇赵云、葫芦口遇张飞，损兵折将。至华容道泥泞难行，人马陷于泥中。关羽提刀纵马而出，曹军人尽丧胆。操用程昱之策向云长求情，云长见曹军惶惶皆欲垂泪，一发心中不忍，放去。回营请死，亮以其「不忘故主之情」释之（实知操命不当绝）。",
+ "front_line": [
+  {
+   "time": 208,
+   "time_seq": 1,
+   "kind": "败走",
+   "label": "乌林遇伏",
+   "desc": "操自乌林西走，赵云截杀。",
+   "lng": 113.7,
+   "lat": 29.9,
+   "pixel_x": 787.0,
+   "pixel_y": 650.8
+  },
+  {
+   "time": 208,
+   "time_seq": 2,
+   "kind": "再败",
+   "label": "葫芦口再败",
+   "desc": "张飞截杀，曹军疲敝。",
+   "lng": 113.4,
+   "lat": 29.95,
+   "pixel_x": 775.2,
+   "pixel_y": 648.5
+  },
+  {
+   "time": 208,
+   "time_seq": 3,
+   "kind": "断后",
+   "label": "华容对峙",
+   "desc": "关羽五百校刀手拦路，曹军丧胆。",
+   "lng": 112.9,
+   "lat": 29.9,
+   "pixel_x": 755.4,
+   "pixel_y": 650.8
+  },
+  {
+   "time": 208,
+   "time_seq": 4,
+   "kind": "结局",
+   "label": "义释曹操",
+   "desc": "云长念旧恩放行，操走南郡。",
+   "lng": 112.9,
+   "lat": 29.9,
+   "pixel_x": 755.4,
+   "pixel_y": 650.8
+  }
+ ],
+ "place_name": "华容道"
+}

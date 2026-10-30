@@ -1,0 +1,112 @@
+{
+ "id": "pan_he_xiang_zheng",
+ "name": "磐河相争（界桥之战）",
+ "kind": "军事行动",
+ "start_year": 191,
+ "end_year": 192,
+ "date_text": "初平二年（191）—三年（192）",
+ "summary": "袁绍用逢纪之策赚取冀州，又杀公孙越激怒公孙瓒；两军会于磐河，麴义斩严纲、瓒军大败，赵云突阵救主，刘关张来援，绍败走——董卓假天子诏和解。",
+ "detail": "袁绍屯河内缺粮，逢纪献策「智取冀州」：密约公孙瓒共攻韩馥，馥惧，果如绍愿让出冀州。瓒遣弟公孙越来分地，绍使麴义暗杀之（演义写越为乱箭所杀而归罪于董卓），瓒大怒起兵。两军会于磐河：绍军桥东，瓒军桥西。瓒以白马义从为锋，严纲为先锋；麴义伏兵盾下，斩严纲，瓒军大败。瓒奔桥时绍铁骑合围，危急之际赵云单骑突阵救主（云新投瓒而不得重用）。正酣战间刘关张引兵冲阵，绍军溃退。相拒月余，董卓以和解为名（实为笼络），假天子诏封二人官，各罢兵。此战让赵云看清瓒「非可托之人」，为后来归刘备伏笔。",
+ "place_id": "pan_he",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "yuan_shao",
+   "role_desc": "赚取冀州，磐河桥东"
+  },
+  {
+   "person_id": "feng_ji",
+   "role_desc": "献「智取冀州」之策"
+  },
+  {
+   "person_id": "han_fu",
+   "role_desc": "冀州牧，畏瓒而让州于绍"
+  },
+  {
+   "person_id": "gongsun_zan",
+   "role_desc": "弟公孙越被杀，起兵攻绍，磐河桥西"
+  },
+  {
+   "person_id": "qu_yi",
+   "role_desc": "绍部将，伏盾斩严纲，大破瓒军"
+  },
+  {
+   "person_id": "tian_feng",
+   "role_desc": "绍谋士，劝绍坚守"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "新投瓒不得重用，单骑突阵救瓒"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "应瓒之请引兵来援"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "与张飞同来援，冲阵击退绍军"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "同来援"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "智赚冀州",
+   "description": "逢纪献策，密约瓒攻馥；馥惊惧，以州让绍。绍自领冀州牧。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "公孙越之死",
+   "description": "瓒遣弟越来分地，越为「乱箭」所杀（演义归罪董卓），瓒怒而兴兵。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "会于磐河",
+   "description": "两军会于磐河之上，绍军桥东、瓒军桥西，隔河相拒。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "麴义斩严纲",
+   "description": "瓒以白马义从冲阵，麴义伏兵盾下突起，斩严纲，瓒军大败。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "赵云救主",
+   "description": "绍兵合围，瓒几不能免；赵云单骑突入，护瓒且战且退。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "三雄来援",
+   "description": "刘关张引兵冲阵，绍军溃退。云与备相见恨晚，已有相从之意。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "诏和罢兵",
+   "description": "相拒月余，董卓假天子诏和解，二人各罢兵。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  7002,
+  7003,
+  7005,
+  7006,
+  7007,
+  7008,
+  7009,
+  7010,
+  7011
+ ],
+ "battle_ids": [
+  "pan_he_zhi_zhan"
+ ]
+}

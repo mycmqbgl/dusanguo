@@ -1,0 +1,282 @@
+{
+ "source": "persons_ch011_020_a.json",
+ "total": 23,
+ "passed": 23,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 23,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "gao_shun",
+   "name": "高顺",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_liao",
+   "name": "张辽",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "chen_deng",
+   "name": "陈登",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "chen_gui",
+   "name": "陈珪",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    }
+   ]
+  },
+  {
+   "id": "hou_cheng",
+   "name": "侯成",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 120 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "song_xian",
+   "name": "宋宪",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 79 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wei_xu",
+   "name": "魏续",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 78 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "hao_meng",
+   "name": "郝萌",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 105 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cao_xing",
+   "name": "曹性",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 125 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cheng_lian",
+   "name": "成廉",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 49 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zang_ba",
+   "name": "臧霸",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "sun_guan",
+   "name": "孙观",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 79 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wu_dun",
+   "name": "吴敦",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 53 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "yin_li",
+   "name": "尹礼",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 57 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "chang_xi",
+   "name": "昌豨",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 88 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "xu_si",
+   "name": "许汜",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 106 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wang_kai",
+   "name": "王楷",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 66 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "guan_hai",
+   "name": "管亥",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 100 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "tian_kai",
+   "name": "田楷",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 78 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "mi_zhu",
+   "name": "糜竺",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "sun_qian",
+   "name": "孙乾",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 84 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "jian_yong",
+   "name": "简雍",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 85 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "mi_fang",
+   "name": "糜芳",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 122 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

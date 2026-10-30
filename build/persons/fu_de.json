@@ -1,0 +1,36 @@
+{
+ "id": "fu_de",
+ "name": "伏德",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详；建安十九年（214）伏氏之狱坐诛。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "伏德，伏皇后之兄，汉室外戚，官至执金吾。兴平二年（195）护献帝渡河。",
+ "bio": "伏德，琅琊东武人，伏完之子、伏皇后之兄。兴平二年（195）李傕、郭汜追迫献帝于黄河岸边，「人丛中国舅伏德挟白绢十数匹至」，以绢接连拽辇，又亲负伏皇后下船，帝后乃得渡河。建安十九年（214）伏后事发，伏氏宗族坐诛。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "亲族",
+   "start_year": 195,
+   "end_year": 214,
+   "title": "国舅（伏皇后之兄）",
+   "basis": "第13回：人丛中国舅伏德挟白绢十数匹至……后兄伏德，负后下船中。伏德为献帝伏皇后之兄，属汉室外戚（后族），故归汉·亲族。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "第 13 回",
+   "description": "人丛中国舅伏德挟白绢十数匹至，曰：“我于乱军中拾得此绢，可接连拽辇",
+   "importance": 1
+  }
+ ],
+ "mention_count": 2
+}

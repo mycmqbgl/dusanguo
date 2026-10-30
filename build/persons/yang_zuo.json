@@ -1,0 +1,29 @@
+{
+ "id": "yang_zuo",
+ "name": "杨祚",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "杨祚，群雄文臣，公孙渊将。说卑衍与杨祚商议曰：若魏兵来攻，休与交战。",
+ "bio": "。第 106 回：渊令卑衍，杨祚分八万兵屯于辽隧，围堑二十余里，环绕鹿角，甚是严密。第 106 回：卑衍与杨祚商议曰：若魏兵来攻，休与交战。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "公孙渊将",
+   "basis": "第一百零六回原文：令大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。 职任「公孙渊将」据此。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

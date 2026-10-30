@@ -1,0 +1,45 @@
+{
+ "id": "zheng_tai",
+ "name": "郑泰",
+ "courtesy": "公业",
+ "display_aliases": [
+  "侍御史",
+  "尚书"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。史载卒于中平六年（189）前后（奔袁术，未任而卒）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "郑泰，东汉文臣，侍御史、尚书。尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：今上乃聪明之主，汝何取出此乱言。",
+ "bio": "郑泰字公业，河南开封人。何进欲召外兵诛宦官，得表出示大臣，侍御史郑泰谏曰「董卓乃豺狼也，引入京城，必食人矣」，进曰「汝多疑，不足谋大事」，泰又曰「明公……今董卓至，禁庭必生祸患，不如止之勿来，免致生乱」，进不听，郑泰、卢植皆弃官而去，朝廷大臣去者大半。董卓入京，其言果验。史实郑泰为议郎，董卓专权后潜谋讨卓，事泄奔袁术，术以为扬州刺史，未及赴任而卒。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 189,
+   "title": "侍御史、尚书",
+   "basis": "台谏之职归文臣；谏何进不听，弃官而去，189 年前后卒。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "谏召外兵",
+   "description": "谏何进「董卓乃豺狼也，引入京城，必食人矣」，进不听，弃官而去。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "弃官而去",
+   "description": "与卢植皆弃官而去，朝廷大臣去者大半；董卓入京，其言果验。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

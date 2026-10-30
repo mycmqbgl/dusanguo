@@ -1,0 +1,43 @@
+{
+ "id": "wu_shuo",
+ "name": "吴硕",
+ "display_aliases": [
+  "议郎"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）衣带诏事泄被族诛。生年不详。",
+ "gender": "male",
+ "first_chapter": 20,
+ "review_status": "reviewed",
+ "summary": "吴硕，东汉文臣，议郎。吴硕曰：此事不宜太速，当从容商议。",
+ "bio": "建安四年，与董承、王子服、种辑、吴子兰等同受献帝衣带诏，密谋诛曹。会上吴硕谏曰「此事不宜太速，当从容商议」。建安五年春，董承家奴秦庆童告密，事泄，与董承等同日族诛。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "议郎",
+   "basis": "汉廷文职，受衣带诏。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "受衣带诏",
+   "description": "与董承等密盟诛曹，谏「不宜太速」。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "事泄族诛",
+   "description": "事败露，与董承同日被诛。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 5
+}

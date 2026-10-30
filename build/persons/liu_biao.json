@@ -1,0 +1,58 @@
+{
+ "id": "liu_biao",
+ "name": "刘表",
+ "courtesy": "景升",
+ "display_aliases": [
+  "荆州刺史",
+  "荆州牧",
+  "江夏八俊"
+ ],
+ "birth": 142,
+ "death": 208,
+ "date_precision": "exact",
+ "date_note": "生于汉安元年（142），卒于建安十三年（208）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "verified",
+ "summary": "刘表，字景升，汉室宗亲，荆州牧，据荆州近二十年。",
+ "bio": "刘表，字景升，山阳高平人，汉室宗亲，鲁恭王之后，「江夏八俊」之一。初平元年（190）为荆州刺史，单车入宜城，用蒯良、蒯越定荆州，据江汉近二十年，坐观中原成败。建安十三年（208）病卒，子刘琮举州降曹操。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "荆州刺史、镇南将军、荆州牧、成武侯",
+   "basis": "单骑入宜城，据荆州自成一系，为群雄之一，至 208 年病卒。虽为汉室宗亲，群雄阵营不设「亲族」身份，按实际地位归「君主」。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "单骑入荆州",
+   "description": "用蒯良、蒯越之策，诱斩宗贼帅十五人，尽收其众，遂据荆州。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "截击孙坚",
+   "description": "应袁绍之请，令蒯越、蔡瑁截孙坚归路；孙坚后死于岘山。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "坐观官渡",
+   "description": "袁绍求援、曹操相持，表据州自守，两不相助。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "病卒襄阳",
+   "description": "曹操南征未至而卒，子刘琮举州降。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 188
+}

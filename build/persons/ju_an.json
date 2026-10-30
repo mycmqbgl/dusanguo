@@ -1,0 +1,29 @@
+{
+ "id": "ju_an",
+ "name": "句安",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "句安，蜀汉武将，蜀将。是年秋八月，先差蜀将句安、李歆同引一万五千兵，往麴山前连筑二城：句安守东城，李歆守西城。",
+ "bio": "第 107 回：句安城中亦无水，乃会了李歆，引兵出城，并在一处。第 108 回：麴山城中蜀将句安，见援兵不至，乃开门降魏。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 239,
+   "end_year": 262,
+   "title": "蜀将",
+   "basis": "第一百零七回原文：句安城中亦无水，乃会了李歆，引兵出城，并在一处。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 239—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

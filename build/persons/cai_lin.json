@@ -1,0 +1,29 @@
+{
+ "id": "cai_lin",
+ "name": "蔡林",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "蔡林，孙吴武将，都督。报都督蔡林引本部军投魏去了。",
+ "bio": "官职「都督」据原文上下文提取。原文第 108 回相关片段：「“再说病者斩之！”众军闻知，逃者无数。忽报都督蔡林引本部军投魏去了。恪大惊，自乘马遍视各营，果见军」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "都督",
+   "basis": "第108回诸葛恪攻新城不克，都督蔡林引本部军投魏。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

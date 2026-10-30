@@ -1,0 +1,101 @@
+{
+  "comment": "P5-B（2026-10-29）：补空白回 3 组事件（94/102/105）。passage_ids 解析生成，禁止手改。",
+  "events": [
+    {
+      "id": "mengda_zhifubing",
+      "name": "司马懿克日擒孟达",
+      "kind": "征伐",
+      "start_year": 228,
+      "end_year": 228,
+      "date_text": "太和二年（228）",
+      "summary": "孟达谋归蜀，司马懿未奏先斩、八日急行军，克日破新城，达死乱军。",
+      "detail": "孟达降魏复通蜀，约孔明同时并举。亮以书戒其慎防司马懿，达笑懿非急者。懿闻讯，一面发书稳达、一面大军倍道兼行，八日而至新城，昼夜急攻。达外应内绝，申仪泄其谋，李辅开门，达死于乱军。亮闻之叹：大事去矣。此役为亮一伐之先声受挫。",
+      "place_id": "c_益州_新城郡_房陵",
+      "parent_event_id": null,
+      "participants": [
+        {
+          "person_id": "sim_yi",
+          "role_desc": "未奏先斩，八日擒孟达"
+        },
+        {
+          "person_id": "meng_da",
+          "role_desc": "谋叛事泄，困守新城而死"
+        },
+        {
+          "person_id": "zhuge_liang",
+          "role_desc": "约达并举，书戒其慎"
+        }
+      ],
+      "passage_ids": [
+        94009,
+        94010,
+        94008,
+        94009
+      ]
+    },
+    {
+      "id": "muliu_numa",
+      "name": "诸葛亮造木牛流马",
+      "kind": "发明",
+      "start_year": 234,
+      "end_year": 234,
+      "date_text": "建兴十二年（234）",
+      "summary": "孔明造木牛流马转运粮草，懿仿造反中计，粮为蜀军所劫。",
+      "detail": "剑阁道险，粮运不继，亮依《造木牛流马法》造之：木牛腹中有机，流马前后有轴，搬运粮草如活物。懿使人仿造百有余只，反为蜀兵夺寨劫粮——夺其木牛，扭转其舌，牛不能行，魏军尽弃粮草。六出祁山之役，蜀军赖此不困于粮。",
+      "place_id": "jian_ge",
+      "parent_event_id": null,
+      "participants": [
+        {
+          "person_id": "zhuge_liang",
+          "role_desc": "造木牛流马，转粮如活物"
+        },
+        {
+          "person_id": "sim_yi",
+          "role_desc": "仿造反中计，粮草尽失"
+        }
+      ],
+      "passage_ids": [
+        102020,
+        102020,
+        102008
+      ]
+    },
+    {
+      "id": "weiyan_zhisi",
+      "name": "魏延之死",
+      "kind": "人物",
+      "start_year": 234,
+      "end_year": 234,
+      "date_text": "建兴十二年（234）",
+      "summary": "武侯遗计，杨仪依锦囊激马岱，魏延「谁敢杀我」三呼而斩。",
+      "detail": "亮卒于五丈原，遗命退军，魏延不服断后，烧绝栈道、拥兵南归，与杨仪各表称反。仪依亮锦囊之计，于阵前问延：敢三声谁敢杀我？延方呼毕，马岱应声出刀，斩于马下——盖亮先已密嘱岱也。夷延三族。演义写延脑后反骨，实为亮死后蜀将内讧之首祸；史载延本意夺权诛仪，非降魏。",
+      "place_id": "wu_zhang_yuan",
+      "parent_event_id": "wu_zhang_yuan_zhi_zhan",
+      "participants": [
+        {
+          "person_id": "wei_yan",
+          "role_desc": "不服断后，三呼「谁敢杀我」被斩"
+        },
+        {
+          "person_id": "yang_yi",
+          "role_desc": "依锦囊激延，夷其三族"
+        },
+        {
+          "person_id": "ma_dai",
+          "role_desc": "受亮密嘱，阵前出刀斩延"
+        },
+        {
+          "person_id": "jiang_wei",
+          "role_desc": "拥后军断后退兵"
+        }
+      ],
+      "passage_ids": [
+        105001,
+        105009,
+        105009,
+        105001
+      ]
+    }
+  ],
+  "battles": []
+}

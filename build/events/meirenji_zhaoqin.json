@@ -1,0 +1,69 @@
+{
+ "id": "meirenji_zhaoqin",
+ "name": "美人计·周郎招亲",
+ "kind": "计谋",
+ "start_year": 209,
+ "end_year": 209,
+ "date_text": "建安十四年（209）",
+ "summary": "周瑜定美人计以孙权之妹招刘备入吴为质，孔明授锦囊三策，备招亲成礼携孙夫人偕逃，瑜追之不及，「赔了夫人又折兵」，二气周瑜。",
+ "detail": "瑜上书孙权：刘备丧妻，以妹许之，招入吴中，以圈囚之，荆州自解。权依计。孔明授赵云锦囊三条：到南徐开拆第一个——云教五百军士采买礼物遍传备入赘之事，弄假成真；备见吴国太甘露寺相婿，太悦成婚。岁末备以「曹操攻荆州」告夫人同逃，夫人斥追兵，出江边遇孔明船队。瑜率水军追至，被关公喝回，军士大喊「周郎妙计安天下，赔了夫人又折兵」，瑜气倒——二气。",
+ "place_id": "chai_sang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "定美人计，弄假成真，二气呕血"
+  },
+  {
+   "person_id": "sun_quan",
+   "role_desc": "依计以妹许备"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "入吴招亲，携夫人偕逃"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "锦囊三策，弄假成真"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "护备入吴，拆锦囊行事，江边接应"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "黄州截住周瑜追兵"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 209,
+   "title": "锦囊初开",
+   "description": "五百军士广传招亲，弄假成真。",
+   "importance": 2
+  },
+  {
+   "year": 209,
+   "title": "甘露寺相婿",
+   "description": "吴国太甘露寺相亲，悦而许婚。",
+   "importance": 2
+  },
+  {
+   "year": 209,
+   "title": "携妻返荆",
+   "description": "岁末备携孙夫人车马逃江，孔明船队接应。",
+   "importance": 3
+  },
+  {
+   "year": 209,
+   "title": "赔了夫人又折兵",
+   "description": "瑜追至为关公喝回，气倒船上。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  54005,
+  55001
+ ]
+}

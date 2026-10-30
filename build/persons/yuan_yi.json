@@ -1,0 +1,50 @@
+{
+ "id": "yuan_yi",
+ "name": "袁遗",
+ "courtesy": null,
+ "display_aliases": [
+  "山阳太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详，卒于初平年间。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "袁遗，群雄君主，长安令、山阳太守。得乔瑁、袁遗两军皆至，来救王匡，吕布方退。",
+ "bio": "袁遗字伯业，袁绍从兄。有识度，为长安令。讨董时列第八镇，为山阳太守。虎牢关之役，王匡为吕布所败，袁遗与乔瑁两军皆至，来救王匡，吕布方退。后袁术与袁绍交恶，袁术遣孙坚攻刘表、自攻袁遗，遗败走，为军士所杀。曹操尝称「长大而能勤学者，惟吾与袁伯业耳」，可见其好学。演义中袁遗在董卓迁都后与八路诸侯同往虎牢关迎敌。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 190,
+   "end_year": 192,
+   "title": "长安令、山阳太守",
+   "basis": "以山阳太守自据一郡起兵，为群雄之一；192 年前后为袁术所败而死。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "列第八镇",
+   "description": "以山阳太守起兵讨董。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "救王匡",
+   "description": "与乔瑁两军同至，救王匡于吕布戟下。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "为袁术所败",
+   "description": "袁术遣军攻之，遗败走，为军士所杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 3
+}

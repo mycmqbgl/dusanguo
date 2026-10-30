@@ -1,0 +1,29 @@
+{
+ "id": "pan_ju",
+ "name": "潘举",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "潘举，曹魏武将，守门将。守门将潘举曰：夫人勿惊，我去问来。",
+ "bio": "原文第 107 回相关片段：「守府官问曰：“今主公在外，仲达起兵何意？”守门将潘举曰：“夫人勿惊，我去问来。”乃引弓弩手数十人，登」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "守门将",
+   "basis": "第107回曹爽府守门将潘举引弓弩手登门楼拒司马懿兵。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

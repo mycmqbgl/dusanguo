@@ -1,0 +1,29 @@
+{
+ "id": "zhong_shen",
+ "name": "钟绅",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 41,
+ "review_status": "auto_mined",
+ "summary": "钟绅，曹魏武将，夏侯惇部将。后钟绅持戟赶来，马尾相衔，那枝戟只在赵云后心内弄影。",
+ "bio": "官职「部将」据原文上下文提取。原文第 41 回相关片段：「正行间，山坡下又撞出两枝军，乃夏侯惇部将钟缙、钟绅兄弟二人，一个使大斧，一个使画戟，大喝：“赵云快」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "夏侯惇部将",
+   "basis": "第41回钟绅与兄钟缙同为夏侯惇部将，双战赵云，俱被刺死。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,29 @@
+{
+ "id": "bao_zhong",
+ "name": "鲍忠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "auto_mined",
+ "summary": "鲍忠，群雄武将，济北相鲍信之弟。鲍忠急待退，被华雄手起刀落，斩于马下，生擒将校极多。",
+ "bio": "第 5 回：鲍忠急待退，被华雄手起刀落，斩于马下，生擒将校极多。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 229,
+   "title": "济北相鲍信之弟",
+   "basis": "第5回济北相鲍信暗拨其弟鲍忠，抄小路到关下搦战，为华雄所斩。鲍信为十八路诸侯之一。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

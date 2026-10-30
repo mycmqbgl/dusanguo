@@ -1,0 +1,54 @@
+{
+ "id": "wei_yan",
+ "name": "魏延",
+ "courtesy": "文长",
+ "display_aliases": [
+  "义阳魏文长",
+  "汉中太守",
+  "征西大将军"
+ ],
+ "birth": null,
+ "death": 234,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年按演义诸葛亮死后反叛被马岱斩于马下（234），史书同记延熙十二年（234）兵败被杀。",
+ "gender": "male",
+ "first_chapter": 41,
+ "review_status": "reviewed",
+ "summary": "魏延，字文长，义阳人，蜀汉名将，诸葛亮卒后争权被杀。",
+ "bio": "魏延，字文长，义阳人。以部曲随刘备入蜀，汉中既定，超擢为督汉中镇远将军、汉中太守，一军皆惊。诸葛亮北伐，魏延每请精兵万人出子午谷，亮不许。亮卒后与杨仪争权，兵败被马岱追杀，夷三族。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 234,
+   "title": "牙门将军、镇远将军汉中太守、征西大将军",
+   "lord_id": "liu_bei",
+   "basis": "209 年长沙来降（演义），佐备入川镇汉中；234 年亮死后兵败被杀。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 209,
+   "title": "长沙救黄忠",
+   "description": "杀韩玄救黄忠献城，初归刘备。",
+   "importance": 2
+  },
+  {
+   "year": 219,
+   "title": "镇守汉中",
+   "description": "破格拜汉中太守，一军皆惊。",
+   "importance": 3
+  },
+  {
+   "year": 234,
+   "title": "反叛伏诛",
+   "description": "亮死后与杨仪争权，为马岱斩于马下。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒年按演义诸葛亮死后反叛被马岱斩于马下（234），史书同记延熙十二年（234）兵败被杀",
+ "mention_count": 325
+}

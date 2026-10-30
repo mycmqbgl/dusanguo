@@ -1,0 +1,36 @@
+{
+ "id": "sun_ju",
+ "name": "孙据",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "孙据，孙吴武将，威远将军。第 113 回一笔带过，事迹仅存其名。",
+ "bio": "第 113 回：「令弟威远将军孙据入苍龙宿卫」。原文第 113 回相关片段：「虽然聪明，却被孙綝把持，不能主张，綝令弟威远将军孙据入苍龙宿卫，武卫将军孙恩、偏将军孙干、长水校尉孙」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "威远将军",
+   "basis": "第 113 回：「令弟威远将军孙据入苍龙宿卫」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 254,
+   "title": "第 113 回",
+   "description": "然聪明，却被孙綝把持，不能主张，綝令弟威远将军孙据入苍龙宿卫，武卫将军孙恩、偏将军孙干、长水校尉孙闿分屯诸营",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

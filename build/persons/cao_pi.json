@@ -1,0 +1,56 @@
+{
+ "id": "cao_pi",
+ "name": "曹丕",
+ "courtesy": "子桓",
+ "display_aliases": [
+  "魏文帝"
+ ],
+ "birth": 187,
+ "death": 226,
+ "date_precision": "exact",
+ "date_note": "生于中平四年（187），卒于黄初七年（226）。史载确切；演义未载其卒。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "reviewed",
+ "summary": "曹丕，群雄文臣，五官中郎将、魏世子。来曹丕以于禁兵败被擒，不能死节，既降敌而复归，心鄙其为人，故先令人图画陵屋粉壁，故意使之往见以愧之。",
+ "bio": "曹操次子，卞氏所生。八岁能文，善骑射，好击剑。建安九年（204）从攻邺城，乘乱纳袁熙之妻甄氏。铜雀台之会（210年前后）作 文称最。建安二十二年立为魏世子，延康元年（220）曹操死，嗣魏王，旋受汉禅称帝，国号魏。演义前六十回中着墨不多，邺城纳甄氏、铜雀台赋诗为其主要场面。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 204,
+   "end_year": 220,
+   "title": "五官中郎将、魏世子",
+   "lord_id": "cao_cao",
+   "basis": "204年从征邺城；亲族归亲族（决策 #8.2），不与君主竞争身份。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "皇帝",
+   "start_year": 220,
+   "end_year": 226,
+   "title": "魏文帝",
+   "basis": "建安二十五年（220）受禅即皇帝位，改元黄初，国号魏。据《三国志·魏书·文帝纪》。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 204,
+   "title": "邺城纳甄氏",
+   "description": "随曹操攻破邺城，纳袁熙妻甄氏。",
+   "importance": 3
+  },
+  {
+   "year": 210,
+   "title": "铜雀台赋诗",
+   "description": "曹操大会文武于铜雀台，丕与曹植竞作。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生于中平四年（187），卒于黄初七年（226）；史载确切｜演：未载其卒",
+ "mention_count": 136
+}

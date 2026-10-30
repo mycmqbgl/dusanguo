@@ -1,0 +1,46 @@
+{
+ "id": "zhou_xin",
+ "name": "周昕",
+ "courtesy": null,
+ "display_aliases": [
+  "丹杨太守"
+ ],
+ "birth": null,
+ "death": 196,
+ "date_precision": "approx",
+ "date_note": "演义第十五回会稽之战（约 196）为王朗助战、死于乱军；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "周昕，群雄文臣，丹杨太守。白虎与周昕领五千兵出城追赶。",
+ "bio": "周昕，丹杨太守，周瑜同族长辈。曾遣丹杨兵助曹操讨董。后依王朗会稽，朗与孙策战，昕出助战，死于乱军（演义）。史载周昕弟周昂、周喁皆袁绍阵营人物。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 196,
+   "title": "丹杨太守",
+   "lord_id": "wang_lang",
+   "basis": "先为丹杨太守，后依王朗会稽。",
+   "confidence": 0.6,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "丹杨太守",
+   "description": "曾遣丹杨兵助曹操讨董。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "殁于会稽",
+   "description": "王朗与孙策战，昕出助战死于乱军。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：第十五回会稽之战（约 196）为王朗助战、死于乱军",
+ "mention_count": 3
+}

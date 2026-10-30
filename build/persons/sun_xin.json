@@ -1,0 +1,29 @@
+{
+ "id": "sun_xin",
+ "name": "孙歆",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "孙歆，孙吴武将，骠骑将军。杜预引兵前进，孙歆船早到。",
+ "bio": "。第 120 回：骠骑将军孙歆进兵拒夏口等处军马。第 120 回：孙歆奔到城边，周旨八百军混杂于中，就城上举火。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "骠骑将军",
+   "basis": "第120回张悌奏令骠骑将军孙歆进兵拒夏口等处军马。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

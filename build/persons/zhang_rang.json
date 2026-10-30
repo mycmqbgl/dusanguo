@@ -1,0 +1,50 @@
+{
+ "id": "zhang_rang",
+ "name": "张让",
+ "display_aliases": [
+  "张让",
+  "张常侍"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）劫少帝出逃，投河而死。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "张让，东汉人物，中常侍、列侯。张让等知事急，慌入告何后曰：始初设谋陷害大将军者，止蹇硕一人，并不干臣等事。",
+ "bio": "张让，颍川人，中常侍，十常侍之首。灵帝尝言「张常侍是我父」，其宠信可知。与赵忠等卖官鬻爵，非亲不用，非仇不诛，黄巾之乱起，谏议大夫刘陶、司徒陈耽皆以言宦官而下狱死。何进谋诛宦官，让等先说动何太后，再伏刀斧手于嘉德门内，斩何进于宫中。袁绍、曹操勒兵入宫，尽诛宦官，让劫少帝与陈留王奔北邙山，追兵至，投河而死。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 168,
+   "end_year": 189,
+   "title": "中常侍、列侯",
+   "basis": "第一回原文：后张让、赵忠、封谞、段珪、曹节、侯览、蹇硕、程旷、夏恽、郭胜十人朋比为奸，号为「十常侍」。帝尊信张让，呼为「阿父」。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "蔽塞章奏",
+   "description": "张举、张纯反，表章雪片告急，十常侍皆藏匿不奏。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "嘉德门伏甲",
+   "description": "伏刀斧手五十人于长乐宫嘉德门内，斩何进为两段。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "投河",
+   "description": "劫少帝奔北邙山，闵贡追至，投河而死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 22
+}

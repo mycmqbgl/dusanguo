@@ -1,0 +1,58 @@
+{
+ "id": "tian_feng",
+ "name": "田丰",
+ "courtesy": "元皓",
+ "display_aliases": [
+  "别驾",
+  "谋士"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安五年（200）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "verified",
+ "summary": "田丰，群雄文臣，别驾、骑都尉。别驾王修自青州来，谭将此计告之。",
+ "bio": "田丰字元皓，巨鹿人（一说渤海人）。容貌瑰杰，权略多奇。袁绍入冀州，以田丰、沮授、许攸、逢纪分掌州事。界桥之战，袁绍不听田丰之谏，与数十骑出观，为赵云冲到面前，田丰慌曰「主公且于空墙中躲避」，绍以兜鍪扑地曰「大丈夫愿临阵斗死，岂可入墙而望活乎」。建安五年曹操东征刘备，田丰劝袁绍袭许，绍以子病辞，丰举杖击地曰「遭难遇时，而以婴儿之病失其机会，惜哉」。后力谏不可南征，绍不听且怒，械系之。官渡败后，或谓丰曰「君必见重」，丰曰「若军有利，吾必全；今军败，吾其死矣」，绍果杀之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "别驾、骑都尉",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍谋主，以谋略内政为主归文臣；200 年为袁绍所杀。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "分掌州事",
+   "description": "袁绍入冀州，以田丰、沮授、许攸、逢纪分掌州事。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "界桥谏阻",
+   "description": "谏袁绍勿轻出，绍不听，几为赵云所及。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "谏阻南征",
+   "description": "力谏不可南征，袁绍怒而械系之。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "被杀的预言",
+   "description": "官渡败后曰「若军有利，吾必全；今军败，吾其死矣」，绍果杀之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 28
+}

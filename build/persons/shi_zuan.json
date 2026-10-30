@@ -1,0 +1,29 @@
+{
+ "id": "shi_zuan",
+ "name": "师纂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "师纂，曹魏武将，魏将。说邓艾封师纂为益州刺史，牵弘、王颀等各领州郡；又于绵竹筑台以彰战功，大会蜀中诸官饮宴。",
+ "bio": "第 111 回：师纂、邓忠两军杀出，维且战且走，前面喊声大震，邓艾引兵杀到：三路夹攻，蜀兵大败。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 253,
+   "end_year": 263,
+   "title": "魏将",
+   "basis": "第一百十一回原文：即令子邓忠，与帐前校尉师纂，各引五千兵，先去段谷埋伏，如此如此而行。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 118 回（263 年），原 253—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 13
+}

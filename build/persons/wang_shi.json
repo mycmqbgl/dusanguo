@@ -1,0 +1,29 @@
+{
+ "id": "wang_shi",
+ "name": "王氏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "王氏，群雄人物，赵昂之妻。妻王氏因在军中，得免于难。",
+ "bio": "王氏，赵昂之妻。第 64 回姜叙、杨阜、尹奉与赵昂共谋讨马超以报韦康之仇，赵昂归告其妻，王氏勉以大义，马超怒杀其子赵月。此卡依演义原文建档，与司马昭妻王元姬非同一人。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 213,
+   "end_year": 214,
+   "title": "赵昂之妻",
+   "basis": "第六十四回原文：王氏为赵昂之妻，当马超攻冀城时以其智脱身。赵昂 214 年随夏侯渊破马超。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

@@ -1,0 +1,29 @@
+{
+ "id": "wu_xi",
+ "name": "伍习",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "伍习，东汉武将，殄虏将军。段煨为荡寇将军、伍习为殄虏将军，各引兵镇守长安。",
+ "bio": "原文第 17 回相关片段：「却说曹操引军回许都，人报段煨杀了李傕，伍习杀了郭汜，将头来献。段煨并将李傕合族老小二百余口」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 198,
+   "basis": "第17回伍习杀郭汜，将头献于曹操。 第17回伍习杀郭汜献头于曹操，事在 198 年。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "殄虏将军"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

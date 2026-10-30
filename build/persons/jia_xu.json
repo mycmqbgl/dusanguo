@@ -1,0 +1,75 @@
+{
+ "id": "jia_xu",
+ "name": "贾诩",
+ "courtesy": "文和",
+ "display_aliases": [
+  "谋士",
+  "执金吾",
+  "太中大夫"
+ ],
+ "birth": 147,
+ "death": 223,
+ "date_precision": "exact",
+ "date_note": "生于建和元年（147），卒于黄初四年（223），年七十七。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "verified",
+ "summary": "贾诩，字文和，凉州武威人，汉末谋士，历事董卓、李傕、张绣、曹操。",
+ "bio": "贾诩，字文和，武威姑臧人。初为董卓部将，卓死，说李傕、郭汜反攻长安；后归张绣，两败曹操；官渡前劝张绣降操。入魏后为执金吾、太中大夫，曹丕即位以为太尉。以智谋自守，善终。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 199,
+   "title": "平津都尉、讨虏校尉、左冯翊、宣威将军",
+   "lord_id": "li_jue",
+   "basis": "先事董卓、李傕，后事段煨、张绣，以谋略为主归文臣；此时未归曹操，属群雄阵营。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 199,
+   "end_year": 223,
+   "title": "执金吾、冀州牧、太中大夫",
+   "basis": "建安四年（199）说张绣归曹操，自此为曹操谋臣（曹魏势力形成年 196 迎帝都许）；223 年卒，年七十七。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "一言乱天下",
+   "description": "劝李傕、郭汜收兵西向攻长安，曰「弃军单行则一亭长能缚君」，遂致王允死、吕布走。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "破马腾韩遂",
+   "description": "以深沟高垒之策困退西凉十余万众，又设宴斩樊稠。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "料敌如神",
+   "description": "为张绣谋，先败后胜，皆如所料。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "劝张绣归曹",
+   "description": "说张绣降曹操，曹操执其手曰「使我信重于天下者，子也」。",
+   "importance": 3
+  },
+  {
+   "year": 223,
+   "title": "善终",
+   "description": "官至太中大夫，阖门自守，年七十七卒。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 79
+}

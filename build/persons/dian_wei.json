@@ -1,0 +1,68 @@
+{
+ "id": "dian_wei",
+ "name": "典韦",
+ "courtesy": null,
+ "display_aliases": [
+  "古之恶来",
+  "帐前都尉"
+ ],
+ "birth": null,
+ "death": 197,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安二年（197）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "verified",
+ "summary": "典韦，群雄武将，帐前都尉。典韦毕，方祭侄曹安民及长子曹昂，并祭阵亡军士；连那匹射死的大宛马，也都致祭。",
+ "bio": "典韦，陈留己吾人。形貌魁梧，膂力过人，有志节任侠。初为襄邑刘氏报仇，怀匕首入仇家，杀其夫妇，徐步而出，市人骇然，追者数百莫敢近。后属张邈，与帐下人不和，手杀数十人，逃窜山中。夏侯惇出射猎，见韦逐虎过涧，收于军中，荐于曹操。操令试之，韦挟戟骤马往来驰骋；帐下大旗为风所吹，岌岌欲倒，众军挟持不定，韦下马喝退众军，一手执定旗杆立于风中，巍然不动。操曰「此古之恶来也」，命为帐前都尉。建安二年曹操征张绣，绣降而复叛，夜袭操营，韦守营门力战，双戟被胡车儿盗去，犹持腰刀斫杀二十余人，刀坏，两手提二贼击之，瞋目大骂而死。操闻之流涕，募间取其丧归葬。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 194,
+   "end_year": 196,
+   "title": "帐前都尉",
+   "lord_id": "cao_cao",
+   "basis": "194 年前后经夏侯惇所荐归于曹操，为帐前都尉；此时曹操未建号，属群雄之一。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 197,
+   "title": "帐前都尉、司马",
+   "basis": "196 年曹魏势力形成后为曹操贴身护卫；197 年宛城之变死战而亡。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "为友报仇",
+   "description": "怀匕首入仇家杀其夫妇，徐步而出，追者数百莫敢近。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "逐虎过涧",
+   "description": "夏侯惇出猎见其逐虎过涧，收于军中荐于曹操。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "手执旗杆",
+   "description": "帐下大旗为风所吹，众军挟持不定，韦一手执定旗杆巍然不动，操曰「古之恶来」。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "宛城死战",
+   "description": "张绣夜袭，韦守营门力战，双戟被盗，犹斫杀二十余人，瞋目大骂而死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 52
+}

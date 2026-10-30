@@ -1,0 +1,29 @@
+{
+ "id": "li_fu_4",
+ "name": "李福",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 104,
+ "review_status": "auto_mined",
+ "summary": "李福，蜀汉文臣，尚书。李福领了言语，匆匆辞去。",
+ "bio": "。第 104 回：李福领命，趱程赴五丈原，入见孔明，传后主之命，问安毕。第 104 回：李福领了言语，匆匆辞去。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "尚书",
+   "basis": "第104回后主急命尚书李福星夜至军中问安，兼询后事。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

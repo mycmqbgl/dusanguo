@@ -1,0 +1,48 @@
+{
+ "id": "xia_hou_xuan",
+ "name": "夏侯玄",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "夏侯玄，曹魏武将，征西将军。夏侯玄奏曰：臣叔夏侯霸降蜀，因惧司马兄弟谋害故耳；今若剿除此贼，臣叔必回也。",
+ "bio": "第 107 回：「尚有夏侯玄守备雍州等处，系爽亲族」。原文第 107 回相关片段：「子三人同领国事。懿忽然想起：“曹爽全家虽诛，尚有夏侯玄守备雍州等处，系爽亲族，倘骤然作乱，如何提备？必」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 239,
+   "end_year": 254,
+   "title": "征西将军",
+   "basis": "第 107 回：「尚有夏侯玄守备雍州等处，系爽亲族」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 240,
+   "title": "第 107 回",
+   "description": "忽然想起：“曹爽全家虽诛，尚有夏侯玄守备雍州等处，系爽亲族，倘骤然作乱，如何提备",
+   "importance": 1
+  },
+  {
+   "year": 246,
+   "title": "第 109 回",
+   "description": "师大怒，叱武士捉夏侯玄",
+   "importance": 1
+  },
+  {
+   "year": 252,
+   "title": "第 110 回",
+   "description": "目痛不止，每夜只见李丰、张缉、夏侯玄三人立于榻前",
+   "importance": 1
+  }
+ ],
+ "mention_count": 7
+}

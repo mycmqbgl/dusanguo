@@ -1,0 +1,29 @@
+{
+ "id": "zhou_tai_2",
+ "name": "州泰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "州泰，曹魏文臣，魏兖州刺史。第 111 回一笔带过，事迹仅存其名。",
+ "bio": "第 111 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 253,
+   "end_year": 254,
+   "title": "魏兖州刺史",
+   "basis": "第一百十一回原文：兖州刺史州泰为右军，保护车驾，浩浩荡荡，杀奔淮南而来。 职任「魏兖州刺史」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 253—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

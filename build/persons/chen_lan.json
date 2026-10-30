@@ -1,0 +1,29 @@
+{
+ "id": "chen_lan",
+ "name": "陈兰",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "auto_mined",
+ "summary": "陈兰，群雄武将，副将。被嵩山雷薄、陈兰劫去钱粮草料。",
+ "bio": "第 15 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 229,
+   "basis": "第16回袁术七路攻吕布，第六路副将陈兰居右；后与雷薄同据嵩山为寇。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "副将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

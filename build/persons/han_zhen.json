@@ -1,0 +1,29 @@
+{
+ "id": "han_zhen",
+ "name": "韩祯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 94,
+ "review_status": "auto_mined",
+ "summary": "韩祯，蜀汉武将，守关蜀将。关蜀将韩祯，急差人赍文报知孔明。",
+ "bio": "原文第 94 回相关片段：「为铁车兵。二人辞了国王，领兵直扣西平关。守关蜀将韩祯，急差人赍文报知孔明」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "basis": "第94回羌兵扣西平关，守关蜀将韩祯急差人赍文报知孔明。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "守关蜀将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,67 @@
+{
+ "id": "dong_xi",
+ "name": "董袭",
+ "courtesy": "元代",
+ "display_aliases": [
+  "偏将军"
+ ],
+ "birth": null,
+ "death": 217,
+ "date_precision": "exact",
+ "date_note": "史载建安二十二年（217）濡须之战船覆身死；生年不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "董袭，孙吴武将，别部司马。五唤董袭领三千兵，直取汉阳，从汉川杀奔曹操寨中。",
+ "bio": "董袭字元代，会稽余姚人。长八尺，武力过人。孙策入郡，袭迎于高迁亭，以为别部司马。严白虎奔余杭劫掠，袭率乡人击破斩之（演义）。随孙策定江东、从孙权讨黄祖，皆先登。建安二十二年濡须之战，暴风大起，船覆在即，众人请袭弃船，袭仗剑曰「受将军任，在此备贼，何等委去也」，遂船覆而没。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "别部司马",
+   "lord_id": "sun_ce",
+   "basis": "孙策入会稽来投。｜阵营据主君（孙策）归属校正为wu，194-200→195-200。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 217,
+   "title": "扬武都尉、偏将军",
+   "basis": "孙权时代累迁。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "投孙策",
+   "description": "孙策入会稽，袭迎于高迁亭。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "斩严白虎",
+   "description": "严白虎奔余杭，袭率乡人击破斩之。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "从征黄祖",
+   "description": "随孙权讨黄祖，身先登。",
+   "importance": 1
+  },
+  {
+   "year": 217,
+   "title": "殉濡须",
+   "description": "暴风船覆不肯弃船，船覆身死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 21
+}

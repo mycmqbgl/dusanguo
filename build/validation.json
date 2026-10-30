@@ -1,0 +1,46 @@
+{
+ "source": "batch_test_5.json",
+ "total": 5,
+ "passed": 5,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 0,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "cai_yong",
+   "name": "蔡邕",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_rang",
+   "name": "张让",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "cao_song",
+   "name": "曹嵩",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xu_shao",
+   "name": "许劭",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "gongsun_zan",
+   "name": "公孙瓒",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  }
+ ]
+}

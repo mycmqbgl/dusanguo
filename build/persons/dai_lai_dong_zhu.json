@@ -1,0 +1,29 @@
+{
+ "id": "dai_lai_dong_zhu",
+ "name": "带来洞主",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 90,
+ "review_status": "auto_mined",
+ "summary": "带来洞主，异族武将，八番部长。带来洞主曰：止有一国可以破蜀。",
+ "bio": "。第 90 回：带来洞主引刀斧手解孟获等数百人，拜于殿下。第 90 回：带来洞主曰：止有一国可以破蜀。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "八番部长",
+   "basis": "第九十回原文：次日，孔明正要分兵缉擒孟获，忽报：“蛮王孟获妻弟带来洞主，因劝孟获归降，获不从，今将孟获并祝。 职任「八番部长」据此；★任期按末见回目收敛：全书最后一次提及在第 90 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

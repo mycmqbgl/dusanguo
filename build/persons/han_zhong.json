@@ -1,0 +1,29 @@
+{
+ "id": "han_zhong",
+ "name": "韩忠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "韩忠，群雄武将，黄巾渠帅。中断粮，韩忠使人出城投降。",
+ "bio": "第 2 回：韩忠尽率精锐之众，来西南角抵敌。第 2 回：城中断粮，韩忠使人出城投降。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄巾渠帅",
+   "basis": "第二回原文：时又黄巾余党三人：赵弘、韩忠、孙仲，聚众数万，望风烧劫，称与张角报仇。 职任「黄巾渠帅」据此；★任期按末见回目收敛：全书最后一次提及在第 2 回（184 年），原 184—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

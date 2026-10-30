@@ -1,0 +1,29 @@
+{
+ "id": "pu_yang_xing",
+ "name": "濮阳兴",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "濮阳兴，孙吴文臣，吴丞相。丞相濮阳兴不能决，入奏朱太后。",
+ "bio": "。第 120 回：濮阳兴、张布谏之，皓怒，斩二人，灭其三族。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "吴丞相",
+   "basis": "第一百二十回原文：却说吴主孙休，闻司马炎已篡魏，知其必将伐吴，忧虑成疾，卧床不起，乃召丞相濮阳兴入宫中，令太子。 职任「吴丞相」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

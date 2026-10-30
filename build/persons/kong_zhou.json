@@ -1,0 +1,39 @@
+{
+ "id": "kong_zhou",
+ "name": "孔伷",
+ "courtesy": "公绪",
+ "display_aliases": [
+  "豫州刺史",
+  "第三镇"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详。史载初平元年（190）前后为董卓所遣李傕攻杀；演义第五回会盟后再无下文。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "孔伷，群雄君主，豫州刺史。三镇，豫州刺史孔伷。",
+ "bio": "孔伷字公绪，陈留人，豫州刺史。董卓乱政，曹操发矫诏驰报各道，遂引十八路诸侯会盟讨卓，第三镇即豫州刺史孔伷。会盟歃血、袁绍为盟主之后，演义再无其下文。史实孔伷能清谈高论，被董卓举为豫州刺史，起兵讨卓，初平元年为董卓所遣李傕等攻杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "豫州刺史",
+   "basis": "据豫州自成一镇，讨董十八路之一；190 年前后卒。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "会盟讨董",
+   "description": "为讨董十八路之第三镇，歃血会盟于酸枣。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 2
+}

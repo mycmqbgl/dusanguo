@@ -1,0 +1,29 @@
+{
+ "id": "teng_yin",
+ "name": "滕胤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "滕胤，孙吴文臣，吴太常，大司马。常卿滕胤，素与诸葛恪有隙，乃乘间说峻曰：诸葛恪专权恣虐，杀害公卿，将有不臣之心。",
+ "bio": "。第 108 回：太常卿滕胤，素与诸葛恪有隙，乃乘间说峻曰：诸葛恪专权恣虐，杀害公卿，将有不臣之心。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 241,
+   "end_year": 255,
+   "title": "吴太常，大司马",
+   "basis": "第一百零八回原文：太常卿滕胤，素与诸葛恪有隙，乃乘间说峻曰：“诸葛恪专权恣虐，杀害公卿，将有不臣之心。 职任「吴太常，大司马」据此；★任期按末见回目收敛：全书最后一次提及在第 113 回（255 年），原 241—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

@@ -1,0 +1,52 @@
+{
+ "id": "liu_yu",
+ "name": "刘虞",
+ "courtesy": "伯安",
+ "display_aliases": [
+  "幽州牧",
+  "大司马",
+  "襄贲侯"
+ ],
+ "birth": null,
+ "death": 193,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平四年（193），为公孙瓒所杀。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "刘虞，东汉文臣，幽州牧、大司马、襄贲侯。刘虞为幽州牧，领兵往渔阳征张举、张纯。",
+ "bio": "刘虞字伯安，东海郯人，汉室宗亲。张举、张纯反于渔阳，虞以幽州牧怀柔抚边，务存宽大，劝课农桑，民夷感其德，张纯为其部下所杀，幽州遂平，史实加封大司马、襄贲侯。虞虽居割据之势，始终奉汉室之正，与穷兵黩武的公孙瓒不协，日相嫌隙。初平四年虞合兵攻瓒，兵败被执，瓒诬其欲自立为帝，斩之于蓟。演义中张举张纯之乱即由虞讨平，为幽州军民所戴。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 188,
+   "end_year": 193,
+   "title": "幽州牧、大司马、襄贲侯",
+   "basis": "州牧主政一州，为行政长官归文臣；虽据幽州而始终奉汉室，不入群雄；193 年为公孙瓒所杀。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 188,
+   "title": "任幽州牧",
+   "description": "张举、张纯反于渔阳，以幽州牧讨平之，务存宽大，民夷感其德。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "史实：袁绍欲立",
+   "description": "袁绍、韩馥欲立虞为帝，虞厉色拒之，始终奉汉室之正。",
+   "importance": 3
+  },
+  {
+   "year": 193,
+   "title": "兵败被杀",
+   "description": "合兵攻公孙瓒，兵败被执，瓒诬其欲自立，斩之于蓟。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 4
+}

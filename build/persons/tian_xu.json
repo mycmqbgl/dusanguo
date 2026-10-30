@@ -1,0 +1,42 @@
+{
+ "id": "tian_xu",
+ "name": "田续",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "田续，曹魏武将，大将。护军田续曰：昔邓艾取江油之时，欲杀续，得众官告免。",
+ "bio": "第 116 回：「时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买」。原文第 116 回相关片段：「升帐大集诸将听令。时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 264,
+   "title": "大将",
+   "basis": "第 116 回：「时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 262,
+   "title": "第 116 回",
+   "description": "有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、句安等八十余员",
+   "importance": 1
+  },
+  {
+   "year": 265,
+   "title": "第 119 回",
+   "description": "护军田续曰：“昔邓艾取江油之时，欲杀续，得众官告免",
+   "importance": 1
+  }
+ ],
+ "mention_count": 5
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zhu_fang",
+ "name": "朱芳",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，仅见 255 年（第 110 回）一战。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "reviewed",
+ "summary": "朱芳，曹魏武将，255 年随王经御姜维于洮水。",
+ "bio": "第 110 回姜维起兵伐魏，魏雍州刺史王经兵败退守狄道，王经回顾张明、花永、刘达、朱芳四将，令其出战姜维，并嘱「蜀兵背水为阵，败则皆没于水矣」。朱芳事迹仅见此处，其余无考。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 255,
+   "end_year": 255,
+   "title": "将（王经部将）",
+   "basis": "第110回：经回顾张明、花永、刘达、朱芳四将曰……汝四将可战之。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

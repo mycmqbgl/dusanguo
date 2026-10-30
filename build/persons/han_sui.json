@@ -1,0 +1,63 @@
+{
+ "id": "han_sui",
+ "name": "韩遂",
+ "courtesy": "文约",
+ "display_aliases": [
+  "并州刺史",
+  "镇西将军"
+ ],
+ "birth": null,
+ "death": 215,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安二十年（215）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "韩遂，群雄君主，镇西将军、并州刺史。与韩遂商议：若迁延日久，操于河北立了营寨，难以退敌；不若乘今夜引轻骑去劫野营。",
+ "bio": "韩遂字文约，金城人。本名韩约，后改名遂。灵帝末，与边章起兵于凉州，杀金城太守殷华，众至十余万。后与马腾结为异姓兄弟，然二人渐生嫌隙，相互攻伐。兴平元年与马腾引军十余万讨李傕、郭汜，为贾诩以深沟高垒之策困退。樊稠追至陈仓，遂以同乡之谊说之，樊稠纵之使去，李傕遂杀樊稠。建安十六年与马超合兵拒曹操于潼关，为曹操离间，二人相疑而败。建安二十年为部将阎行等所攻，逃入羌中，为诸将所杀，年七十余。演义写其「镇西将军」，为讨李傕时献帝所封。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 185,
+   "end_year": 215,
+   "title": "镇西将军、并州刺史",
+   "basis": "起兵凉州，自成一系，为群雄之一；215 年为部将所杀。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 185,
+   "title": "凉州起兵",
+   "description": "与边章起兵凉州，杀金城太守，众至十余万。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "勤王讨李傕",
+   "description": "受献帝密诏为镇西将军，与马腾引军十余万讨李傕。",
+   "importance": 3
+  },
+  {
+   "year": 212,
+   "title": "陈仓说樊稠",
+   "description": "以同乡之谊说樊稠纵归，李傕由此杀樊稠。",
+   "importance": 2
+  },
+  {
+   "year": 211,
+   "title": "潼关之败",
+   "description": "与马超合兵拒曹操，为离间计所破。",
+   "importance": 3
+  },
+  {
+   "year": 215,
+   "title": "为部将所杀",
+   "description": "为阎行等所攻，逃入羌中，为诸将所杀，年七十余。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 69
+}

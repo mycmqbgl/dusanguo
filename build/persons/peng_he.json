@@ -1,0 +1,29 @@
+{
+ "id": "peng_he",
+ "name": "彭和",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 117,
+ "review_status": "auto_mined",
+ "summary": "彭和，蜀汉文臣，蜀臣。第 117 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 117 回相关片段：「绵竹围的铁桶相似。诸葛瞻在城中，见事势已迫，乃令彭和赍书杀出，往东吴求救。和至东吴，见了吴主孙休，呈」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "basis": "第117回诸葛瞻令彭和赍书杀出，往东吴求救。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "蜀臣"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

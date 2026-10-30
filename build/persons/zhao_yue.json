@@ -1,0 +1,29 @@
+{
+ "id": "zhao_yue",
+ "name": "赵月",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详，建安十九年（214）为马超所杀。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "赵月，赵昂之子，马超裨将。建安十九年（214）其父举兵讨马超，马超怒而斩之。",
+ "bio": "赵月，赵昂之子，随马超为裨将。第64回马超据冀城，凉州旧将姜叙、杨阜、尹奉与赵昂密谋讨之。赵昂归家与妻王氏商议，忧其子赵月「现随马超，今若兴兵，超必先杀吾子」；王氏以大义相勉，昂遂决。事泄，马超「即将赵月斩之」，随后为杨阜等所败，走投汉中。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 214,
+   "title": "马超裨将",
+   "basis": "第64回：原来赵昂之子赵月，现随马超为裨将……马超闻姜叙、杨阜会合尹奉、赵昂举事，大怒，即将赵月斩之。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

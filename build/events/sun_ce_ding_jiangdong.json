@@ -1,0 +1,110 @@
+{
+ "id": "sun_ce_ding_jiangdong",
+ "name": "孙策定江东",
+ "kind": "军事行动",
+ "start_year": 195,
+ "end_year": 196,
+ "date_text": "兴平二年—建安元年（195–196）",
+ "summary": "孙策以传国玺质袁术借兵三千渡江，牛渚首捷、曲阿破刘繇、收太史慈，下乌程破严白虎、奇袭会稽降王朗——数年之间尽有江东，为孙吴立国之基。",
+ "detail": "孙策以亡父玉玺质于袁术，借兵三千、马五百匹，以周瑜、朱治为辅，渡江首夺牛渚「尽得粮谷战具」。攻刘繇于曲阿，神亭与太史慈单骑酣斗，后擒慈亲解其缚收为爪牙；繇败走豫章。破秣陵降薛礼，下乌程破严白虎（虎奔余杭为凌操所杀），佯攻查渎夜袭会稽，王朗败降、虞翻来归。数年之间「尽有江东」，江东人称「孙郎」。曹操表策为讨逆将军、吴侯。",
+ "place_id": "jian_ye",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sun_ce",
+   "role_desc": "渡江主帅，江东人称孙郎"
+  },
+  {
+   "person_id": "zhou_yu",
+   "role_desc": "以兵粮相助，共定江东"
+  },
+  {
+   "person_id": "taishi_ci",
+   "role_desc": "神亭酣斗、泾县来归"
+  },
+  {
+   "person_id": "liu_yao",
+   "role_desc": "扬州刺史，曲阿败走"
+  },
+  {
+   "person_id": "wang_lang",
+   "role_desc": "会稽太守，固守力战而降"
+  },
+  {
+   "person_id": "yan_baihu",
+   "role_desc": "乌程豪帅，兵败死于余杭"
+  },
+  {
+   "person_id": "yu_fan",
+   "role_desc": "会稽贤士来归，荐华佗"
+  },
+  {
+   "person_id": "zhang_zhao",
+   "role_desc": "文武之事一以委之"
+  },
+  {
+   "person_id": "wu_jing",
+   "role_desc": "策之舅，丹杨起兵之资"
+  },
+  {
+   "person_id": "ling_cao",
+   "role_desc": "余杭杀严白虎来投"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "质玺借兵",
+   "description": "以传国玺质袁术，借兵三千渡江。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "牛渚首捷",
+   "description": "渡江首夺牛渚，尽得粮谷战具。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "神亭酣斗",
+   "description": "与太史慈单骑大战，后擒慈收服。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "曲阿破繇",
+   "description": "刘繇败走豫章，江东震动。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "破严白虎",
+   "description": "下乌程破虎，虎奔余杭为凌操所杀。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "奇袭会稽",
+   "description": "佯攻查渎夜袭，王朗败降，虞翻来归。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "曹操表封",
+   "description": "操表策为讨逆将军、吴侯。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  15005,
+  15007,
+  15007,
+  15007,
+  15015,
+  15020,
+  15017
+ ],
+ "battle_ids": [
+  "jiangdong_pingding"
+ ]
+}

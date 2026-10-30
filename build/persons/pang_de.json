@@ -1,0 +1,56 @@
+{
+ "id": "pang_de",
+ "name": "庞德",
+ "courtesy": "令明",
+ "display_aliases": [
+  "白马将军"
+ ],
+ "birth": null,
+ "death": 219,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年建安二十四年（219）襄樊之战水淹七军被擒不降，史演义一致。",
+ "gender": "male",
+ "first_chapter": 58,
+ "review_status": "reviewed",
+ "summary": "庞德，群雄武将，马超部将。庞德闻之，免冠顿首，流血满面而告曰：某自汉中投降大王，每感厚恩，虽肝脑涂地，不能补报；大王何疑于德也。",
+ "bio": "庞德字令明，南安狟道人。初为马腾、马超部将，随超征战；渭水之战斩钟进救曹仁。超败后随张鲁降曹，操闻其骁勇拜立义将军。建安二十四年曹仁守樊城，德自请为先锋，抬榇（棺）决战，与关羽大战百余合不分胜负，箭射关羽左臂。后七军为水所淹，德被擒，立而不跪，骂羽不屈而死。操闻流涕。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 215,
+   "title": "马超部将",
+   "basis": "随马腾马超征战关中；马超败后依张鲁。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 215,
+   "end_year": 219,
+   "title": "立义将军、关内亭侯",
+   "lord_id": "cao_cao",
+   "basis": "张鲁降后归曹；219 年襄樊之战战死。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "抬榇战关羽",
+   "description": "自请为先锋抬棺决战，与关羽百余合不分胜负。",
+   "importance": 3
+  },
+  {
+   "year": 219,
+   "title": "水淹七军",
+   "description": "七军被淹被擒，立而不跪骂羽而死。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒年建安二十四年（219）襄樊之战水淹七军被擒不降，史演义一致",
+ "mention_count": 128
+}

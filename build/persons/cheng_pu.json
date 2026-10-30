@@ -1,0 +1,74 @@
+{
+ "id": "cheng_pu",
+ "name": "程普",
+ "courtesy": "德谋",
+ "display_aliases": [
+  "荡寇将军",
+  "江夏太守"
+ ],
+ "birth": null,
+ "death": 210,
+ "date_precision": "approx",
+ "date_note": "生年不详，约卒于建安十五年（210）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "verified",
+ "summary": "程普，群雄武将，别部司马。程普令三军紧守各寨，不许轻出，三日后，牛金引军来搦战，程普按兵不动。",
+ "bio": "程普字德谋，右北平土垠人。初为州郡吏，有容貌计略，善于应对。从孙坚讨黄巾于宛、邓，破董卓于阳人，攻城野战，身被创夷。孙坚死，复随孙策，攻庐江、取会稽，皆有功。策卒，与张昭等共辅孙权，讨平不服。建安十三年赤壁之战，与周瑜为左右督，大破曹操于乌林。后为江夏太守、荡寇将军。程普年最长，时人皆呼「程公」，性乐施与，喜士大夫。尝与周瑜不睦，自以年长而位居瑜下，数陵侮瑜，瑜折节容下，终不与校，普后自敬服，告人曰「与周公瑾交，若饮醇醪，不觉自醉」。约建安十五年卒。演义第五回写其为孙坚四将之首，使一条铁脊蛇矛。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 195,
+   "title": "别部司马",
+   "lord_id": "sun_jian",
+   "basis": "从孙坚讨黄巾、破董卓，为孙坚部将；此时孙氏未建号，属群雄阵营。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 210,
+   "title": "荡寇将军、江夏太守、裨将军",
+   "basis": "195 年孙策渡江，孙吴势力形成（de_facto_start=195）；普历孙策、孙权，赤壁时为左右督之一；约 210 年卒。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "从孙坚讨黄巾",
+   "description": "讨黄巾于宛、邓，破董卓于阳人，身被创夷。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "汜水关刺胡轸",
+   "description": "孙坚为前部，程普飞马挺矛刺华雄副将胡轸于马下。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "从孙策定江东",
+   "description": "随孙策攻庐江、取会稽，皆有功。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "赤壁左右督",
+   "description": "与周瑜为左右督，大破曹操于乌林。",
+   "importance": 3
+  },
+  {
+   "year": 210,
+   "title": "卒",
+   "description": "约建安十五年卒，时人呼为「程公」。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 73
+}

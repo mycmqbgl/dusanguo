@@ -1,0 +1,29 @@
+{
+ "id": "gao_sheng",
+ "name": "高升",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "高升，群雄武将，黄巾副将。宝遣副将高升出马搦战，玄德使张飞击之。",
+ "bio": "第 2 回：张宝遣副将高升出马搦战，玄德使张飞击之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄巾副将",
+   "basis": "第二回原文：张宝遣副将高升出马搦战，玄德使张飞击之。 职任「黄巾副将」据此；★任期按末见回目收敛：全书最后一次提及在第 2 回（184 年），原 184—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

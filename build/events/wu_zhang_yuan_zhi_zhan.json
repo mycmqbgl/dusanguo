@@ -1,0 +1,59 @@
+{
+ "id": "wu_zhang_yuan_zhi_zhan",
+ "name": "五丈原之战",
+ "kind": "征伐",
+ "start_year": 234,
+ "end_year": 234,
+ "date_text": "建兴十二年（234）",
+ "summary": "诸葛亮第五次北伐与司马懿相持五丈原，丞相积劳病卒军中，蜀军依遗计全师而退。",
+ "detail": "详见战役「五丈原之战」。亮卒后杨仪总军、姜维断后，魏延不服构兵为马岱所斩；蜀汉自此转入后诸葛亮时代，蒋琬费祎相继秉政。",
+ "place_id": "wu_zhang_yuan",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "统帅，相持禳星，卒于五丈原军中"
+  },
+  {
+   "person_id": "sim_yi",
+   "role_desc": "魏统帅，坚壁不战，追击遇木像惊走"
+  },
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "受兵法遗命，断后回旗返鼓"
+  },
+  {
+   "person_id": "yang_yi",
+   "role_desc": "受锦囊遗令，总军退兵"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "夜扑主灯；亮卒后拒后构兵"
+  },
+  {
+   "person_id": "ma_dai",
+   "role_desc": "受密计，阵斩魏延"
+  },
+  {
+   "person_id": "guo_huai",
+   "role_desc": "魏将，渭南参赞军务"
+  },
+  {
+   "person_id": "wang_ping",
+   "role_desc": "蜀将，遗表所荐忠义可委用之人"
+  }
+ ],
+ "passage_ids": [
+  103016,
+  103007,
+  103017,
+  103026,
+  104003,
+  104004,
+  104022,
+  104022
+ ],
+ "battle_ids": [
+  "wu_zhang_yuan_battle"
+ ]
+}

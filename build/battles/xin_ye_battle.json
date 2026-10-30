@@ -1,0 +1,98 @@
+{
+ "id": "xin_ye_battle",
+ "name": "新野之战",
+ "year": 208,
+ "date_text": "建安十三年（208）",
+ "place_id": "xin_ye",
+ "event_id": "jingzhou_yizhu_huoshaoinye",
+ "belligerents": [
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_ren",
+    "li_dian",
+    "xu_chu"
+   ],
+   "troops_desc": "曹仁曹洪大军 + 许褚三千铁甲军先锋"
+  },
+  {
+   "side": "刘备军",
+   "faction_ids": [
+    "shu"
+   ],
+   "commanders": [
+    "liu_bei",
+    "zhuge_liang",
+    "guan_yu",
+    "zhang_fei",
+    "zhao_yun"
+   ],
+   "troops_desc": "弃新野走樊城，空城设伏 + 关张两翼截杀"
+  }
+ ],
+ "result": "孔明再火攻破曹仁，刘备弃樊城携民南走",
+ "casualties_note": "曹军被火烧水淹者不计其数，自相践踏而死者甚众。",
+ "summary": "曹仁曹洪大军继至。孔明令百姓避入樊城，空新野设伏：曹仁大军入城屯扎，夜半火起满县，溃军出城遭关张截杀，白河水又淹，大败而退。",
+ "detail": "操遣曹仁曹洪继夏侯惇之后再来，许褚为先锋。孔明知新野不可守，令百姓尽迁樊城，虚设空城，城屋上藏硫磺引火之物。仁军入城抢掠屯扎，饥夜造饭，夜半狂风大作，火起满县，仁冒火夺路出城，遭赵云冲杀；出至东门又遇关羽引军截杀，白河上游放水淹其下游之军；张飞别路再截。仁大败退走樊城，见备已携百姓南行，遂还许都。",
+ "front_line": [
+  {
+   "time": 208,
+   "time_seq": 1,
+   "kind": "进兵",
+   "label": "曹仁曹洪继至",
+   "desc": "操再遣大军，许褚为先锋攻新野。",
+   "lng": 112.36,
+   "lat": 32.52,
+   "pixel_x": 734.0,
+   "pixel_y": 529.8
+  },
+  {
+   "time": 208,
+   "time_seq": 2,
+   "kind": "设伏",
+   "label": "空城藏火",
+   "desc": "孔明迁民樊城，空城伏火待敌。",
+   "lng": 112.36,
+   "lat": 32.52,
+   "pixel_x": 734.0,
+   "pixel_y": 529.8
+  },
+  {
+   "time": 208,
+   "time_seq": 3,
+   "kind": "火攻",
+   "label": "火烧新野",
+   "desc": "夜半火起满县，曹军自相践踏。",
+   "lng": 112.36,
+   "lat": 32.52,
+   "pixel_x": 734.0,
+   "pixel_y": 529.8
+  },
+  {
+   "time": 208,
+   "time_seq": 4,
+   "kind": "截杀",
+   "label": "关张白河截击",
+   "desc": "溃军出城遭关羽张飞截杀，白河水又淹之。",
+   "lng": 112.13,
+   "lat": 32.04,
+   "pixel_x": 724.9,
+   "pixel_y": 552.0
+  },
+  {
+   "time": 208,
+   "time_seq": 5,
+   "kind": "结局",
+   "label": "仁败退",
+   "desc": "曹仁败还，备携民渡江走江夏，荆州易主。",
+   "lng": 114.3,
+   "lat": 30.6,
+   "pixel_x": 810.8,
+   "pixel_y": 618.5
+  }
+ ],
+ "place_name": "新野"
+}

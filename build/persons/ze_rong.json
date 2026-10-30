@@ -1,0 +1,50 @@
+{
+ "id": "ze_rong",
+ "name": "笮融",
+ "courtesy": null,
+ "display_aliases": [
+  "下邳相"
+ ],
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "生年不详；史载约 195 年为山民所杀。演义第十五回兵败走豫章后未写结局。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "笮融，群雄文臣，下邳相。士笮融、薛礼劝免，使屯兵零陵城拒敌。",
+ "bio": "笮融，丹杨人，陶谦使督下邳、彭城、广陵三郡运粮。融擅杀广陵太守赵昱、彭城相薛礼之属，放兵劫掠。兴佛寺浮图祠，用铜为人、黄金涂身，浴佛设饭——中国早期佛教的大施主兼大劫掠者。后与薛礼同依刘繇屯秣陵。孙策渡江，融与繇迎击大败，演义写其与繇同走豫章、投刘表，后续未交代；史载为刘繇所攻，走山中为山民所杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 197,
+   "title": "下邳相",
+   "basis": "据下邳、彭城间劫掠自立。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "杀赵昱据下邳",
+   "description": "督三郡运粮，擅杀广陵太守赵昱，放兵劫掠。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "大起浮图祠",
+   "description": "以铜为人黄金涂身，浴佛设饭，为佛教史上著名人物。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "走豫章",
+   "description": "牛渚兵败，与刘繇同走豫章；演义后续未写。史载为山民所杀。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 5
+}

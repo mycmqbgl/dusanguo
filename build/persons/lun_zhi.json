@@ -1,0 +1,29 @@
+{
+ "id": "lun_zhi",
+ "name": "伦直",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "伦直，群雄文臣，公孙渊参军。渊勃然大怒，叱武士绑伦直并贾范同斩于市。",
+ "bio": "。第 106 回：参军伦直谏曰：贾范之言是也。第 106 回：人告懿曰：贾范、伦直苦谏渊不可反叛，俱被渊所杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "公孙渊参军",
+   "basis": "第一百零六回原文：人告懿曰：贾范、伦直苦谏渊不可反叛，俱被渊所杀。 职任「公孙渊参军」据此。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

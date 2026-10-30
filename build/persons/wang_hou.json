@@ -1,0 +1,29 @@
+{
+ "id": "wang_hou",
+ "name": "王垕",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "王垕，曹魏人物，仓官。粮官任峻部下仓官王垕入禀操曰：兵多粮少，当如之何。",
+ "bio": "原文第 17 回相关片段：「策，借得粮米十万斛，不敷支散。管粮官任峻部下仓官王垕入禀操曰：“兵多粮少，当如之何？”操曰：“可将小」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 198,
+   "end_year": 198,
+   "title": "仓官",
+   "basis": "第十七回原文：曹操以王垕为仓官，命其以小斛散粮，后又借其首以安军心。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

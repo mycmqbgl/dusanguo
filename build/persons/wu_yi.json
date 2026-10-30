@@ -1,0 +1,39 @@
+{
+ "id": "wu_yi",
+ "name": "吴懿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "auto_mined",
+ "summary": "吴懿，群雄武将，讨逆将军。吴懿曰：刘将军相辅公子守城，我引兵冲出助战。",
+ "bio": "第 62 回：吴懿曰：兵临城下，难以拒敌，汝等有何高见。第 62 回：吴懿从其计，即令泠苞前往决水，吴兰、雷铜引兵接应。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 212,
+   "end_year": 214,
+   "title": "讨逆将军",
+   "basis": "第六十二回原文：吴懿从其计，即令泠苞前往决水，吴兰、雷铜引兵接应。 职任「讨逆将军」据此。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 263,
+   "title": "讨逆将军、关中都督",
+   "basis": "第六十五回：其余吴懿、费观、彭羕、卓膺、李严…并皆擢用。吴懿后为刘备国舅，官至关中都督。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 38
+}

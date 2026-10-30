@@ -1,0 +1,68 @@
+{
+ "id": "yang_biao",
+ "name": "杨彪",
+ "courtesy": "文先",
+ "display_aliases": [
+  "司徒",
+  "太尉",
+  "临晋侯"
+ ],
+ "birth": 142,
+ "death": 225,
+ "date_precision": "exact",
+ "date_note": "生于汉安元年（142），卒于黄初六年（225），年八十四。弘农华阴人，杨修之父。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "杨彪，东汉文臣，京兆尹、司空、司徒、太尉、尚书令。杨彪曰：一劫天子，一劫公卿，意欲何为。",
+ "bio": "杨彪字文先，弘农华阴人，杨震曾孙、杨赐之子，杨修之父。少传家学，初举孝廉，州举茂才，辟公府，皆不应。熹平中征拜议郎，迁侍中、京兆尹。光和二年黄门令王甫贪暴，彪发其奸，甫下狱死，天下快之。后历司空、司徒、太尉。董卓议迁都长安，彪曰「关中残破零落，今无故捐宗庙、弃皇陵，恐百姓惊动。天下动之至易，安之至难」，卓怒，即日罢彪为庶民。曹操迎帝都许，彪为尚书令。建安十年，曹操忌其名望，诬以大逆，下狱，孔融力救得免。曹丕代汉，待以客礼。黄初六年卒，年八十四。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 220,
+   "title": "京兆尹、司空、司徒、太尉、尚书令",
+   "basis": "四世三公之家，以朝政谋议为主归文臣；190 年谏阻迁都被罢，后仍居汉廷。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 225,
+   "title": "太尉",
+   "basis": "曹丕代汉后待以客礼，虽不授魏官而身居其境，按 N5「无政治集团归属者随所在政权」记曹魏；225 年卒，年八十四。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "发王甫之奸",
+   "description": "为京兆尹，发黄门令王甫贪暴，甫下狱死，天下快之。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "谏阻迁都",
+   "description": "谏董卓勿迁都，曰「天下动之至易，安之至难」，卓怒罢为庶民。",
+   "importance": 3
+  },
+  {
+   "year": 205,
+   "title": "下狱获免",
+   "description": "曹操诬以大逆下狱，孔融力救得免。",
+   "importance": 3
+  },
+  {
+   "year": 225,
+   "title": "卒",
+   "description": "曹丕待以客礼，黄初六年卒，年八十四。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 19
+}

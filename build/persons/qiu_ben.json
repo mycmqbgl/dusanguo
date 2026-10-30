@@ -1,0 +1,29 @@
+{
+ "id": "qiu_ben",
+ "name": "丘本",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 117,
+ "review_status": "auto_mined",
+ "summary": "丘本，曹魏武将，魏将。监军丘本曰：何不作一书以诱之。",
+ "bio": "第 117 回：丘本谏曰：将军不可轻出，当用奇兵胜之。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 263,
+   "title": "魏将",
+   "basis": "第一百十七回原文：丘本谏曰：“将军不可轻出，当用奇兵胜之。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 117 回（263 年），原 263—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

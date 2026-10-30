@@ -1,0 +1,38 @@
+{
+ "id": "sui_yuanjin",
+ "name": "眭元进",
+ "display_aliases": [
+  "袁绍部将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）救乌巢，为曹军所杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 30,
+ "review_status": "reviewed",
+ "summary": "眭元进，群雄武将，袁绍部将。元进、赵睿运粮方回，见屯上火起，急来救应。",
+ "bio": "眭元进，袁绍部将。建安五年官渡，乌巢粮草被焚，元进与韩莒子（吕威璜等同列）奉命往救，行至乌巢，曹军已焚粮自守，元进奋力攻之，被曹军所杀，所部皆没。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "袁绍部将",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将，救援乌巢战死。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "救乌巢战死",
+   "description": "与韩莒子往救乌巢，力战被杀。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 2
+}

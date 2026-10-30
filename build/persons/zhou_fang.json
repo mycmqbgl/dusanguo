@@ -1,0 +1,29 @@
+{
+ "id": "zhou_fang",
+ "name": "周鲂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 96,
+ "review_status": "auto_mined",
+ "summary": "周鲂，孙吴文臣，太守。第 96 回一笔带过，事迹仅存其名。",
+ "bio": "官职「太守」据原文上下文提取。原文第 96 回相关片段：「忽报扬州司马大都督曹休上表，说东吴鄱阳太守周鲂，愿以郡来降，密遣人陈言七事，说东吴可破，乞早发」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "太守",
+   "basis": "第九十六回原文：忽报扬州司马大都督曹休上表，说东吴鄱阳太守周鲂，愿以郡来降，密遣人陈言七事，说东吴可破，乞早。 职任「太守」据此；★任期按末见回目收敛：全书最后一次提及在第 96 回（228 年），原 228—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 17
+}

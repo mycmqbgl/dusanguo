@@ -1,0 +1,29 @@
+{
+ "id": "xu_yi",
+ "name": "许仪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "许仪，曹魏武将，牙门将。许仪受命，领兵而进。",
+ "bio": "第 116 回：许仪受命，领兵而进。第 116 回：前军先锋许仪，要立头功，先领兵至南郑关。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 262,
+   "end_year": 262,
+   "title": "牙门将",
+   "basis": "第一百十六回原文：会唤许仪至帐下，责之曰：“汝为先锋，理合逢山开路，遇水叠桥，专一修理桥梁道路，以便行军。 职任「牙门将」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 262—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

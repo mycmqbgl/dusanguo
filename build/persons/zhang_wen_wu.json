@@ -1,0 +1,71 @@
+{
+ "id": "zhang_wen_wu",
+ "name": "张温",
+ "courtesy": "惠恕",
+ "display_aliases": [
+  "吴中郎将",
+  "东吴使者",
+  "吴郡张温"
+ ],
+ "birth": 193,
+ "death": 228,
+ "date_precision": "approx",
+ "date_note": "生卒年不详，史载以暨艳事坐废，后病卒，约在黄武年间。演义未载其卒。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "张温，孙吴文臣，名士、座上客。张温无言可对，乃避席而谢曰：不意蜀中多出俊杰。",
+ "bio": "张温字惠恕，吴郡吴人，江东名士。孙权初掌江东，广延俊秀，温与阚泽、严畯、薛综、程秉、骆统、吾粲等同被敬礼。赤壁前后，孔明随鲁肃过江，吴中群儒与之问难，温亦在座。刘备既崩，吴蜀交恶，诸葛亮遣邓芝通好，孙权乃命中郎将张温奉使入川答礼。温自以为得志，入殿昂然，后主但敬礼而已。孔明设宴相待，温有傲慢之意，席间与秦宓论天，宓问「天有头乎」「天有耳乎」，温语塞，乃避席谢曰「不意蜀中多出俊杰」。孔明以善言解之，温拜谢而还。演义中温以辩才见长而终为辩才所困，为江东清谈名士之典型。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 223,
+   "title": "名士、座上客",
+   "lord_id": "sun_quan",
+   "basis": "第三十八回原文：吴人张温，字惠恕…此数人皆至江东，孙权敬礼甚厚。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 223,
+   "end_year": 228,
+   "title": "中郎将",
+   "lord_id": "sun_quan",
+   "basis": "第八十六回原文：姓张，名温，字惠恕，现为中郎将…使同邓芝入川通好。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "江东入幕",
+   "description": "孙权广延江东俊秀，张温与阚泽、严畯等并受敬礼。",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "座上问难",
+   "description": "孔明过江，吴中群儒与之舌战，温与骆统亦欲问难。",
+   "importance": 1
+  },
+  {
+   "year": 223,
+   "title": "奉使入蜀",
+   "description": "以中郎将奉使入川答礼，与邓芝同行，重修吴蜀之好。",
+   "importance": 2
+  },
+  {
+   "year": 223,
+   "title": "秦宓折辩",
+   "description": "席间与秦宓论天，语塞避席，叹蜀中多俊杰。",
+   "importance": 2
+  }
+ ],
+ "homonym_note": "东吴中郎将张温（字惠恕），与汉司空张温（字伯慎）同名异人。本卡为吴臣，第 38 回登场，第 86 回使蜀。",
+ "mention_count": 0
+}

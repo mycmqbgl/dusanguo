@@ -1,0 +1,55 @@
+{
+ "id": "dong_zhuo",
+ "name": "董卓",
+ "courtesy": "仲颖",
+ "display_aliases": [
+  "董太师",
+  "相国"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "approx",
+ "date_note": "卒于初平三年（192）四月，为王允、吕布所诛；生年史无确载。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "董卓，东汉武将，中郎将、并州牧。董太师之强，君所目见也，吕布受恩而反图之，斯须之间，头悬国门。",
+ "bio": "董卓字仲颖，陇西临洮人，性粗猛有谋。黄巾起，代卢植讨张角，第一回末为张角杀败，赖刘关张三人冲杀得救，却因三人白身而不为礼。何进谋诛宦官召其入京（第二、三回），遂废少帝立献帝，自任相国，鸩杀何太后，焚烧洛阳迁都长安——废立、弑君、逼宫俱全，是权臣 B 组判据（公开威胁皇权举动）的头号样本。初平三年为王允设计、吕布所诛，弃市之日长安百姓歌舞于道。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 189,
+   "title": "中郎将、并州牧",
+   "basis": "讨黄巾时为领兵将领。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "han",
+   "role": "权臣",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "相国、太师",
+   "basis": "189 年入京废立天子、独揽朝政，公开威胁皇权，命中 B 组判据。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "代卢植讨张角",
+   "description": "接替槛车征还的卢植领兵讨贼。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "败于张角",
+   "description": "为张角所败，赖刘关张救回，轻其白身。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 196
+}

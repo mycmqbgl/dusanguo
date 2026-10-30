@@ -1,0 +1,29 @@
+{
+ "id": "fan_jiang",
+ "name": "范疆",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "范疆，孙吴武将，张飞帐下将。说范疆、张达将张飞首级，投献吴侯，细告前事。",
+ "bio": "第 81 回：苞曰：范疆、张达杀了臣父，将首级投吴去了。第 81 回：范疆、张达将张飞首级，投献吴侯，细告前事。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 222,
+   "title": "张飞帐下将",
+   "basis": "第八十一回原文：回到营中商议，范疆曰：“今日受了刑责，着我等如何办得。 职任「张飞帐下将」据此；★任期按末见回目收敛：全书最后一次提及在第 83 回（222 年），原 221—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

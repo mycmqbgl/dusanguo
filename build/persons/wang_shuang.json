@@ -1,0 +1,52 @@
+{
+ "id": "wang_shuang",
+ "name": "王双",
+ "courtesy": "子全",
+ "display_aliases": [
+  "陇西狄道人",
+  "虎威将军、前部大先锋"
+ ],
+ "birth": null,
+ "death": 229,
+ "date_precision": "exact",
+ "date_note": "卒于建兴七年春（229）陈仓道口，为魏延所斩；生年无载。",
+ "gender": "male",
+ "first_chapter": 41,
+ "review_status": "reviewed",
+ "summary": "王双，曹魏武将，虎威将军、前部大先锋。知王双斩将立功，大喜，乃令中护军大将费耀，权摄前部总督，诸将各自守把隘口。",
+ "bio": "王双字子全，陇西狄道人。身长九尺，面黑睛黄，熊腰虎背。使六十斤大刀，开两石铁胎弓，暗藏三个流星锤，百发百中，有万夫不当之勇。曹真保为先锋，曹睿赐锦袍金甲，封虎威将军、前部大先锋。陈仓告急，双引二万兵救之，连斩蜀将谢雄、龚起，流星锤重伤张嶷，蜀兵折伤甚多，孔明为之退屯二十里。亮退兵时密授魏延计：先伏三十骑于双营侧，双起兵追蜀军，营中火起；双勒马回，行至山坡，魏延骤出，一刀砍于马下。曹真闻之伤感成疾。演义止写其勇而无谋，恃勇轻进，遂殒于伏。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "虎威将军、前部大先锋",
+   "lord_id": "cao_zhen",
+   "basis": "曹真保为先锋救陈仓，斩将立功；追蜀军中伏被魏延斩。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 228,
+   "title": "受封先锋",
+   "description": "曹真举荐，曹睿赐金甲封虎威将军，引兵救陈仓。",
+   "importance": 1
+  },
+  {
+   "year": 229,
+   "title": "连斩蜀将",
+   "description": "三合斩谢雄龚起，流星锤重伤张嶷，蜀军为之夺气。",
+   "importance": 2
+  },
+  {
+   "year": 229,
+   "title": "陈仓道口殒命",
+   "description": "追击魏延时营中火起回军，山坡上被魏延伏兵一刀斩之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 27
+}

@@ -1,0 +1,66 @@
+{
+ "comment": "大势时间轴源数据。factions = 势力定义（id/名/简称/色/首领/是否已建人物卡）；snapshots = 13 州在各快照年的主控势力，一州可两主（前者为主控，后者为争夺或共存）。归属以史实实际控制为准，无法落到人物卡上的州归汉廷（han），不臆造。逐年展示时取小于等于该年的最近快照。",
+ "zhou_order": ["司隶", "豫州", "兖州", "徐州", "青州", "冀州", "幽州", "并州", "凉州", "荆州", "扬州", "益州", "交州"],
+ "factions": [
+  {"id": "han", "name": "汉廷", "short": "汉", "color": "#9a927e", "type": "朝廷", "leader": "刘协", "person_id": "liu_xie", "linked": true},
+  {"id": "dong_zhuo", "name": "董卓", "short": "董", "color": "#7a3b32", "type": "权臣", "leader": "董卓", "person_id": "dong_zhuo", "linked": true},
+  {"id": "li_jue", "name": "李傕·郭汜", "short": "李", "color": "#8b6446", "type": "权臣", "leader": "李傕", "person_id": "li_jue", "linked": true},
+  {"id": "yuan_shao", "name": "袁绍", "short": "袁", "color": "#5f5896", "type": "群雄", "leader": "袁绍", "person_id": "yuan_shao", "linked": true},
+  {"id": "yuan_shu", "name": "袁术", "short": "术", "color": "#a87a45", "type": "群雄", "leader": "袁术", "person_id": "yuan_shu", "linked": true},
+  {"id": "cao_cao", "name": "曹操", "short": "曹", "color": "#3f5d8a", "type": "群雄", "leader": "曹操", "person_id": "cao_cao", "linked": true},
+  {"id": "gongsun_zan", "name": "公孙瓒", "short": "瓒", "color": "#64804f", "type": "群雄", "leader": "公孙瓒", "person_id": "gongsun_zan", "linked": true},
+  {"id": "liu_biao", "name": "刘表", "short": "表", "color": "#35787e", "type": "宗室", "leader": "刘表", "person_id": "liu_biao", "linked": true},
+  {"id": "liu_yan", "name": "刘焉·刘璋", "short": "益", "color": "#8a5a9e", "type": "宗室", "leader": "刘焉", "person_id": "liu_yan", "linked": true},
+  {"id": "tao_qian", "name": "陶谦", "short": "陶", "color": "#9a7a35", "type": "群雄", "leader": "陶谦", "person_id": "tao_qian", "linked": true},
+  {"id": "lv_bu", "name": "吕布", "short": "吕", "color": "#b04a2c", "type": "群雄", "leader": "吕布", "person_id": "lv_bu", "linked": true},
+  {"id": "liu_bei", "name": "刘备", "short": "备", "color": "#9c2b1f", "type": "群雄", "leader": "刘备", "person_id": "liu_bei", "linked": true},
+  {"id": "sun_ce", "name": "孙策·孙权", "short": "孙", "color": "#2c6f57", "type": "群雄", "leader": "孙策", "person_id": "sun_ce", "linked": true},
+  {"id": "ma_teng", "name": "马腾·韩遂", "short": "马", "color": "#9a6a3f", "type": "群雄", "leader": "马腾", "person_id": "ma_teng", "linked": true},
+  {"id": "zhang_yang", "name": "张杨", "short": "杨", "color": "#6f6f6f", "type": "群雄", "leader": "张杨", "person_id": "zhang_yang", "linked": true},
+  {"id": "liu_yao", "name": "刘繇", "short": "繇", "color": "#7a8695", "type": "群雄", "leader": "刘繇", "person_id": "liu_yao", "linked": true},
+  {"id": "zhang_xiu", "name": "张绣", "short": "绣", "color": "#8a6a5a", "type": "群雄", "leader": "张绣", "person_id": "zhang_xiu", "linked": true},
+  {"id": "shi_xie", "name": "士燮", "short": "士", "color": "#7d6a8a", "type": "群雄", "leader": "士燮", "person_id": null, "linked": false}
+ ],
+ "snapshots": {
+  "184": {
+   "note": "黄巾起于八州，州郡失守；汉廷发兵平乱，地方刺史渐掌兵权。",
+   "zhou": {"司隶": ["han"], "豫州": ["han"], "兖州": ["han"], "徐州": ["han"], "青州": ["han"], "冀州": ["han"], "幽州": ["han"], "并州": ["han"], "凉州": ["han"], "荆州": ["han"], "扬州": ["han"], "益州": ["han"], "交州": ["han"]}
+  },
+  "189": {
+   "note": "董卓入洛，废少帝、立献帝，专断朝政；关东州郡始谋举兵。",
+   "zhou": {"司隶": ["dong_zhuo"], "豫州": ["han"], "兖州": ["han"], "徐州": ["tao_qian"], "青州": ["han"], "冀州": ["han"], "幽州": ["gongsun_zan"], "并州": ["han"], "凉州": ["ma_teng"], "荆州": ["han"], "扬州": ["han"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "190": {
+   "note": "关东诸侯讨董，盟主袁绍屯河内；各怀异志，联盟未战先散。",
+   "zhou": {"司隶": ["dong_zhuo"], "豫州": ["han"], "兖州": ["han"], "徐州": ["tao_qian"], "青州": ["han"], "冀州": ["han", "yuan_shao"], "幽州": ["gongsun_zan"], "并州": ["han"], "凉州": ["ma_teng"], "荆州": ["liu_biao"], "扬州": ["han"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "192": {
+   "note": "董卓伏诛，李傕郭汜乱长安；曹操入兖州破黄巾，始有根据地。",
+   "zhou": {"司隶": ["li_jue"], "豫州": ["han"], "兖州": ["cao_cao"], "徐州": ["tao_qian"], "青州": ["han"], "冀州": ["yuan_shao"], "幽州": ["gongsun_zan"], "并州": ["zhang_yang"], "凉州": ["ma_teng"], "荆州": ["liu_biao", "yuan_shu"], "扬州": ["han"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "194": {
+   "note": "曹操东征徐州，兖州几失于吕布；陶谦病卒，刘备领徐州；刘璋继益州。",
+   "zhou": {"司隶": ["li_jue"], "豫州": ["han"], "兖州": ["cao_cao"], "徐州": ["tao_qian", "liu_bei"], "青州": ["han"], "冀州": ["yuan_shao"], "幽州": ["gongsun_zan"], "并州": ["zhang_yang"], "凉州": ["ma_teng"], "荆州": ["liu_biao", "yuan_shu"], "扬州": ["han"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "195": {
+   "note": "献帝东归，曹操迎于洛阳；孙策渡江击刘繇，江东易主。",
+   "zhou": {"司隶": ["li_jue", "cao_cao"], "豫州": ["han"], "兖州": ["cao_cao"], "徐州": ["liu_bei"], "青州": ["han"], "冀州": ["yuan_shao"], "幽州": ["gongsun_zan"], "并州": ["zhang_yang"], "凉州": ["ma_teng"], "荆州": ["liu_biao", "yuan_shu"], "扬州": ["sun_ce"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "196": {
+   "note": "曹操迎帝都许，挟天子以令诸侯；吕布袭下邳夺徐州，刘备屯小沛。",
+   "zhou": {"司隶": ["cao_cao", "li_jue"], "豫州": ["cao_cao"], "兖州": ["cao_cao"], "徐州": ["lv_bu", "liu_bei"], "青州": ["yuan_shao"], "冀州": ["yuan_shao"], "幽州": ["gongsun_zan"], "并州": ["zhang_yang"], "凉州": ["ma_teng"], "荆州": ["liu_biao"], "扬州": ["yuan_shu", "sun_ce"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "198": {
+   "note": "曹操破吕布于下邳，兖徐归一；袁术困于淮南，孙策渐不受制。",
+   "zhou": {"司隶": ["cao_cao"], "豫州": ["cao_cao"], "兖州": ["cao_cao"], "徐州": ["cao_cao"], "青州": ["yuan_shao"], "冀州": ["yuan_shao"], "幽州": ["gongsun_zan"], "并州": ["zhang_yang"], "凉州": ["ma_teng"], "荆州": ["liu_biao"], "扬州": ["yuan_shu", "sun_ce"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "199": {
+   "note": "袁术败亡，淮南归孙策；公孙瓒困守易京，河北将为一统。",
+   "zhou": {"司隶": ["cao_cao"], "豫州": ["cao_cao"], "兖州": ["cao_cao"], "徐州": ["cao_cao"], "青州": ["yuan_shao"], "冀州": ["yuan_shao"], "幽州": ["gongsun_zan", "yuan_shao"], "并州": ["yuan_shao"], "凉州": ["ma_teng"], "荆州": ["liu_biao"], "扬州": ["sun_ce", "yuan_shu"], "益州": ["liu_yan"], "交州": ["han"]}
+  },
+  "200": {
+   "note": "官渡对峙：河北四州属袁绍，中原四州属曹操，荆益江东各据一方。",
+   "zhou": {"司隶": ["cao_cao"], "豫州": ["cao_cao"], "兖州": ["cao_cao"], "徐州": ["cao_cao"], "青州": ["yuan_shao"], "冀州": ["yuan_shao"], "幽州": ["yuan_shao"], "并州": ["yuan_shao"], "凉州": ["ma_teng"], "荆州": ["liu_biao"], "扬州": ["sun_ce"], "益州": ["liu_yan"], "交州": ["han"]}
+  }
+ }
+}

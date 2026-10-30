@@ -1,0 +1,29 @@
+{
+ "id": "fu_gu",
+ "name": "傅嘏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "傅嘏，字兰石，北地泥阳人，魏尚书仆射。",
+ "bio": "傅嘏，字兰石，北地泥阳人。魏末名臣，与何晏不睦，官至尚书仆射。高贵乡公时与司马氏共谋。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "尚书",
+   "basis": "第108回司马师议伐吴，尚书傅嘏谏以各守边疆为上策。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

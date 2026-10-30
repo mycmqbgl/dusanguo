@@ -1,0 +1,42 @@
+{
+ "id": "zhu_ling",
+ "name": "朱灵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 21,
+ "review_status": "auto_mined",
+ "summary": "朱灵，曹魏武将，曹将。说朱灵、路昭回许都见曹操，说玄德留下军马。",
+ "bio": "第 21 回：玄德分兵三路：朱灵、路昭在左，关、张在右，玄德自引兵居中，与术相见，在门旗下责骂曰：汝反逆不道，吾今…。第 21 回：朱灵、路昭回许都见曹操，说玄德留下军马。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 212,
+   "title": "曹将",
+   "basis": "第二十一回原文：玄德知袁术将至，乃引关、张、朱灵、路昭五万军出，正迎着先锋纪灵至。 职任「曹将」据此；★任期按末见回目收敛：全书最后一次提及在第 59 回（212 年），原 200—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "第 21 回",
+   "description": "说朱灵、路昭回许都见曹操，说玄德留下军马",
+   "importance": 1
+  },
+  {
+   "year": 211,
+   "title": "第 58 回",
+   "description": "徐晃、朱灵领命、先引四千军暗暗去了",
+   "importance": 1
+  }
+ ],
+ "mention_count": 11
+}

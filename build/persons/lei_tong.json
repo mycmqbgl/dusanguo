@@ -1,0 +1,29 @@
+{
+ "id": "lei_tong",
+ "name": "雷铜",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 62,
+ "review_status": "auto_mined",
+ "summary": "雷铜，蜀汉武将，蜀将。及吴兰、雷铜来接应时，又被黄忠一军杀退。",
+ "bio": "第 63 回：比及吴兰、雷铜来接应时，又被黄忠一军杀退。第 63 回：但见吴兰、雷铜后军自乱，二将急回马去救。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 212,
+   "end_year": 219,
+   "title": "蜀将",
+   "basis": "第六十二回原文：吴懿从其计，即令泠苞前往决水，吴兰、雷铜引兵接应。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 70 回（219 年），原 212—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 28
+}

@@ -1,0 +1,86 @@
+{
+ "id": "bai_ma_zhi_wei",
+ "name": "白马之围",
+ "year": 200,
+ "date_text": "建安五年（200）",
+ "place_id": "bai_ma",
+ "event_id": "guandu_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "cao_cao",
+    "guan_yu",
+    "zhang_liao",
+    "xu_huang",
+    "liu_yan_dongjun"
+   ],
+   "troops_desc": "曹操亲军 + 关羽先锋"
+  },
+  {
+   "side": "袁军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "yuan_shao",
+    "yan_liang"
+   ],
+   "troops_desc": "颜良精兵十万围白马"
+  }
+ ],
+ "result": "关羽阵斩颜良，白马之围解",
+ "casualties_note": "袁绍大将颜良被关羽刺于马下，河北军夺气。",
+ "summary": "颜良围白马，刘延告急。曹操引兵解围，关羽为先锋遥望麾盖，刺颜良于万军之中——斩首而还，白马之围遂解。",
+ "detail": "袁绍遣颜良进攻东郡太守刘延于白马，围之急。曹操亲引兵救，荀攸献声东击西之计：先佯渡延津袭绍后，绍分兵西应，操乃轻兵袭白马。颜良仓促迎战，张辽与关羽为先锋。关羽遥望颜良麾盖，策马直入万军之中刺良于马下，斩首而还，绍军诸将莫能当者，白马之围遂解。操表关羽为汉寿亭侯。",
+ "front_line": [
+  {
+   "time": 200,
+   "time_seq": 1,
+   "kind": "围城",
+   "label": "颜良围白马",
+   "desc": "袁绍遣颜良十万攻刘延于白马，围之甚急。",
+   "lng": 114.52,
+   "lat": 35.58,
+   "pixel_x": 819.5,
+   "pixel_y": 388.6
+  },
+  {
+   "time": 200,
+   "time_seq": 2,
+   "kind": "出兵",
+   "label": "声东击西",
+   "desc": "操佯渡延津，绍分兵西应；操轻兵疾趋白马。",
+   "lng": 114.2,
+   "lat": 35.14,
+   "pixel_x": 806.8,
+   "pixel_y": 408.9
+  },
+  {
+   "time": 200,
+   "time_seq": 3,
+   "kind": "攻伐",
+   "label": "阵斩颜良",
+   "desc": "关羽望见麾盖，策马刺良于万军之中，斩首而还。",
+   "lng": 114.55,
+   "lat": 35.62,
+   "pixel_x": 820.7,
+   "pixel_y": 386.8
+  },
+  {
+   "time": 200,
+   "time_seq": 4,
+   "kind": "结局",
+   "label": "白马解围",
+   "desc": "袁军夺气溃退，围解；操表关羽汉寿亭侯。",
+   "lng": 114.65,
+   "lat": 35.55,
+   "pixel_x": 824.6,
+   "pixel_y": 390.0
+  }
+ ],
+ "place_name": "白马"
+}

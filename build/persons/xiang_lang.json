@@ -1,0 +1,29 @@
+{
+ "id": "xiang_lang",
+ "name": "向朗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 63,
+ "review_status": "auto_mined",
+ "summary": "向朗，蜀汉文臣，巴西太守、长史。第 63 回一笔带过，事迹仅存其名。",
+ "bio": "第 63 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 213,
+   "end_year": 229,
+   "title": "巴西太守、长史",
+   "basis": "第63回孔明令文官马良、伊籍、向朗、糜竺辅佐关公守荆州；后为蜀长史。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

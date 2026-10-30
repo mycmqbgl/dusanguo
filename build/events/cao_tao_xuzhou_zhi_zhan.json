@@ -1,0 +1,94 @@
+{
+ "id": "cao_tao_xuzhou_zhi_zhan",
+ "name": "曹操东征徐州",
+ "kind": "军事行动",
+ "start_year": 194,
+ "end_year": 194,
+ "date_text": "兴平元年（194）",
+ "summary": "曹嵩过徐州被张闿所杀，曹操尽起大军东征，所到之处鸡犬不留；刘备、田楷、孔融驰援，吕布陈宫袭兖州，操被迫退兵。",
+ "detail": "曹操遣泰山太守应劭往琅琊郡接父曹嵩，嵩携家小四十余口经徐州，陶谦欲结好曹操，遣都尉张闿护送——闿乃黄巾余党，见财起意，尽杀嵩家小，劫财奔淮南。操闻之哭倒于地，切齿曰「陶谦纵兵杀吾父，此仇不共戴天」，遂留荀彧程昱守鄄城，尽起大军东征，下令但得城池，将城中百姓尽行屠戮，以雪父仇。操屠徐州，泗水为之不流；陶谦求救于孔融、田楷，融请刘备同往，备借得公孙瓒部赵云及二千兵驰援。操攻拨势急，恰逢陈宫张邈迎吕布袭兖州，操只得罢兵回救。",
+ "place_id": "xu_zhou",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "主帅，尽起大军东征屠徐州"
+  },
+  {
+   "person_id": "tao_qian",
+   "role_desc": "徐州牧，本欲结好操，反受其祸"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "平原相，借赵云与兵驰援徐州"
+  },
+  {
+   "person_id": "kong_rong",
+   "role_desc": "北海相，请刘备同救徐州"
+  },
+  {
+   "person_id": "tian_kai",
+   "role_desc": "青州刺史，与刘备为掎角之势"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "借兵两千来助，阵前护刘备"
+  },
+  {
+   "person_id": "chen_gong",
+   "role_desc": "说张邈迎吕布袭兖州，逼操退兵"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "张闿杀曹嵩",
+   "description": "护送途中黄巾余党张闿见财起意，尽杀嵩家小四十余口。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "操起兵复仇",
+   "description": "「陶谦纵兵杀吾父，此仇不共戴天」，令屠城泄愤。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "泗水不流",
+   "description": "操军所到之处鸡犬不留，杀戮之惨震动诸侯。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "诸镇驰援",
+   "description": "孔融、田楷、刘备陆续赴援，刘备致书曹操请和。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "吕布袭兖州",
+   "description": "陈宫、张邈迎吕布入兖州，仅余鄄城、范、东阿三城。",
+   "importance": 3
+  },
+  {
+   "year": 194,
+   "title": "操退兵回救",
+   "description": "兖州危局，曹操罢兵退回，陶谦让徐州于刘备。",
+   "importance": 2
+  }
+ ],
+ "passage_refs": null,
+ "passage_ids": [
+  10009,
+  10011,
+  10011,
+  11013,
+  11001,
+  11003,
+  11001,
+  11016
+ ],
+ "battle_ids": [
+  "xuzhou_fu_chou"
+ ]
+}

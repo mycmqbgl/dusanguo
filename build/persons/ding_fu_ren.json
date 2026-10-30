@@ -1,0 +1,29 @@
+{
+ "id": "ding_fu_ren",
+ "name": "丁夫人",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 68,
+ "review_status": "auto_mined",
+ "summary": "丁夫人，曹魏女眷，曹操元配。是黜丁夫人，而立卞氏为魏王后。",
+ "bio": "第 68 回：于是黜丁夫人，而立卞氏为魏王后。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 216,
+   "end_year": 216,
+   "title": "曹操元配",
+   "basis": "第六十八回原文：于是黜丁夫人，而立卞氏为魏王后。 职任「曹操元配」据此；★任期按末见回目收敛：全书最后一次提及在第 68 回（216 年），原 216—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

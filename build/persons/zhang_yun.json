@@ -1,0 +1,49 @@
+{
+ "id": "zhang_yun",
+ "name": "张允",
+ "courtesy": null,
+ "display_aliases": [
+  "水军都督"
+ ],
+ "birth": null,
+ "death": 208,
+ "date_precision": "approx",
+ "date_note": "生卒年皆不详；卒年按演义群英会后为曹操所斩（208）。注意与袁绍部下张允（若出现）同名，此处为荆州水军副都督。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "reviewed",
+ "summary": "张允，群雄武将，荆州水军副统领。瑁、张允令襄阳百姓焚香拜接。",
+ "bio": "张允，荆州将领，与蔡瑁同掌水军。刘表死后与蔡瑁立刘琮降曹。曹操得荆州，以蔡瑁、张允为水军都督、副都督训练北军水战。蒋干盗书回江北，蔡张二人与东吴「通款」之伪书使操盛怒，立斩蔡瑁张允，首级献帐下时操方悟中计，悔之无及。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "荆州水军副统领",
+   "basis": "刘表部将，掌水军；208 年随琮降曹。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "水军副都督",
+   "basis": "降曹任水军副都督，同年中反间计被斩。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "反间计误斩",
+   "description": "蒋干盗回伪降书，操怒斩蔡瑁张允，醒悟已迟。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生卒年皆不详；注意与袁绍部下张允（若出现）同名，此处为荆州水军副都督｜演：卒年按演义群英会后为曹操所斩（208）",
+ "mention_count": 17
+}

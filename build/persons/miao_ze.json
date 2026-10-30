@@ -1,0 +1,31 @@
+{
+ "id": "miao_ze",
+ "name": "苗泽",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 57,
+ "review_status": "auto_mined",
+ "summary": "苗泽，东汉人物。妾告于苗泽，泽报知曹操。",
+ "bio": "原文第 57 回相关片段：「其妻再三问之，奎不肯言。不料其妾李春香、与奎妻弟苗泽私通。泽欲得春香，正无计可施。妾见黄奎愤恨，遂对」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 211,
+   "end_year": 211,
+   "basis": "第57回：黄奎之妾李春香与奎妻弟苗泽私通，泽报知曹操。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "黄奎妻弟（告密者）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 6
+}

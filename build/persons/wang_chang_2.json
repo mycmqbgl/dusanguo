@@ -1,0 +1,36 @@
+{
+ "id": "wang_chang_2",
+ "name": "王昶",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "王昶，曹魏武将，征南大将军。马昭、王昶、毌丘俭听知东兴兵败，亦勒兵而退。",
+ "bio": "。第 108 回：遂令征南大将军王昶引兵十万攻南郡，征东将军胡遵引兵十万攻东兴，镇南都督毌丘俭引兵十万攻武昌：三路进发。第 108 回：司马昭、王昶、毌丘俭听知东兴兵败，亦勒兵而退。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "征南大将军",
+   "basis": "第108回司马昭令征南大将军王昶引兵十万攻南郡。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 241,
+   "title": "第 108 回",
+   "description": "马昭、王昶、毌丘俭听知东兴兵败，亦勒兵而退",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

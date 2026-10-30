@@ -1,0 +1,29 @@
+{
+ "id": "wang_tao",
+ "name": "王韬",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "王韬，曹魏文臣，主簿。簿王韬曰：昔日耿恭受困，拜井而得甘泉。",
+ "bio": "。第 109 回：主簿王韬曰：昔日耿恭受困，拜井而得甘泉。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "主簿",
+   "basis": "第109回司马昭困于铁笼山，主簿王韬举耿恭拜井得泉事劝之。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

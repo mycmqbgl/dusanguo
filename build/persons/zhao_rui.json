@@ -1,0 +1,29 @@
+{
+ "id": "zhao_rui",
+ "name": "赵睿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 30,
+ "review_status": "auto_mined",
+ "summary": "赵睿，群雄文臣，袁绍部将。元进、赵睿运粮方回，见屯上火起，急来救应。",
+ "bio": "第 30 回：眭元进、赵睿运粮方回，见屯上火起，急来救应。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 201,
+   "end_year": 201,
+   "title": "袁绍部将",
+   "basis": "第三十回原文：袁绍遣大将淳于琼，部领督将眭元进、韩莒子、吕威璜、赵睿等，引二万人马，守乌巢。 职任「袁绍部将」据此；★任期按末见回目收敛：全书最后一次提及在第 30 回（201 年），原 201—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

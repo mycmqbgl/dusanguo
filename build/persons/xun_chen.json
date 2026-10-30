@@ -1,0 +1,56 @@
+{
+ "id": "xun_chen",
+ "name": "荀谌",
+ "courtesy": "友若",
+ "display_aliases": [
+  "韩馥谋士"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。颍川颍阴人，荀彧之弟。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "荀谌，群雄文臣，谋士。慌聚荀谌、辛评二谋士商议。",
+ "bio": "荀谌字友若，颍川颍阴人，荀彧之弟。为韩馥谋士。袁绍用逢纪之谋，暗结公孙瓒使攻冀州，韩馥慌聚荀谌、辛评商议。谌曰「公孙瓒将燕、代之众，长驱而来，其锋不可当，兼有刘备、关、张助之，难以抵敌。今袁本初智勇过人，手下名将极广，将军可请彼同治州事，彼必厚待将军」。韩馥从其言，遂迎袁绍入冀州，尽失其权。荀谌后归袁绍，官至别驾。演义第七回写其说韩馥一段。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "谋士",
+   "lord_id": "han_fu",
+   "basis": "韩馥谋士，以谋略为主归文臣；191 年韩馥失冀州。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 202,
+   "title": "别驾",
+   "lord_id": "yuan_shao",
+   "basis": "韩馥让州后归袁绍，为别驾；卒年不详，暂记至袁绍卒年（202）。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "说韩馥让州",
+   "description": "以公孙瓒之锋不可当、袁绍智勇过人说动韩馥，迎袁绍入冀州。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "归袁绍",
+   "description": "韩馥失州后归袁绍，官至别驾。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 3
+}

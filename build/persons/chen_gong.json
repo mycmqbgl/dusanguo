@@ -1,0 +1,79 @@
+{
+ "id": "chen_gong",
+ "name": "陈宫",
+ "courtesy": "公台",
+ "display_aliases": [
+  "中牟令",
+  "东郡从事"
+ ],
+ "birth": null,
+ "death": 198,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安三年（198）。",
+ "gender": "male",
+ "first_chapter": 4,
+ "review_status": "verified",
+ "summary": "陈宫，东汉文臣，中牟令。陈宫为东郡从事，亦与陶谦交厚；闻曹操起兵报仇，欲尽杀百姓，星夜前来见操。",
+ "bio": "陈宫字公台，东郡人。性刚直烈壮，少与海内知名之士皆相连结。为中牟令时，曹操谋刺董卓不成，变服东归，为亭长所执，送至县，宫识而释之，弃官从操。行至成皋，投故人吕伯奢，操闻磨刀声而尽杀其家八口，既而知误，仍杀伯奢于驴下，曰「宁教我负天下人，休教天下人负我」，宫由是弃操而去。后说张邈迎吕布袭兖州，郡县皆应，曹操几至覆灭。建安三年曹操围下邳，吕布欲降，宫力阻，城破被执。操问「公台，卿平常自谓智计有余，今竟何如」，宫曰「恨不用宫言，使至于此」，请就刑，操泣而送之，宫不还顾，遂缢杀之，妻子皆活。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "中牟令",
+   "basis": "为东汉中牟县令，以行政职掌为主归文臣（N5：无政治集团归属的汉官吏归东汉）；192 年弃官从曹操。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 192,
+   "end_year": 193,
+   "title": "谋士",
+   "lord_id": "cao_cao",
+   "basis": "192 年说张邈迎曹操领兖州，为曹操谋士；因吕伯奢事离心。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 198,
+   "title": "谋主",
+   "lord_id": "lv_bu",
+   "basis": "193 年叛曹迎吕布，为其谋主；198 年下邳城破，不屈就刑。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "中牟释曹操",
+   "description": "识曹操而释之，弃官从操而逃。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "弃操而去",
+   "description": "见操杀吕伯奢一家八口及伯奢本人，叹「知而故杀，大不义也」，遂弃之。",
+   "importance": 3
+  },
+  {
+   "year": 193,
+   "title": "迎吕布袭兖州",
+   "description": "说张邈迎吕布，兖州郡县皆应，曹操几至覆灭。",
+   "importance": 3
+  },
+  {
+   "year": 198,
+   "title": "下邳不屈",
+   "description": "城破被执，请就刑，操泣而送之，宫不还顾，遂缢杀之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 90
+}

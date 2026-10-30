@@ -1,0 +1,29 @@
+{
+ "id": "jiang_xian",
+ "name": "蒋显",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 118,
+ "review_status": "auto_mined",
+ "summary": "蒋显，蜀汉文臣，太仆。蒋显至，说姜维自降钟镇西了。",
+ "bio": "。第 118 回：太仆蒋显到剑阁，入见姜维，传后主敕命，言归降之事。第 118 回：忽蒋显至，说姜维自降钟镇西了。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "太仆",
+   "basis": "第118回后主遣太仆蒋显赍敕令姜维早降。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

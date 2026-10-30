@@ -1,0 +1,29 @@
+{
+ "id": "cao_zhi",
+ "name": "曹植",
+ "courtesy": "子建",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "曹植，曹魏宗亲，卞氏三子。是但凡操出征，诸子送行，曹植乃称述功德，发言成章；惟曹丕辞父，只是流涕而拜，左右皆感伤。",
+ "bio": "第 34 回：少子曹植进曰：若建层台，必立三座：中间高者，名为铜雀。第 34 回：于是留曹植与曹丕在邺郡造台，使张燕守北寨。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "亲族",
+   "start_year": 207,
+   "end_year": 220,
+   "title": "曹操第三子（卞氏三子），陈思王",
+   "basis": "第三十四回原文：少子曹植进曰：“若建层台，必立三座：中间高者，名为铜雀。 职任「卞氏三子」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 207—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

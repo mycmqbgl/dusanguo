@@ -1,0 +1,29 @@
+{
+ "id": "liang_xu",
+ "name": "梁绪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "梁绪，曹魏文臣，天水功曹。明重加赏劳，就令梁绪为天水太守，尹赏为冀城令，梁虔为上邽令。",
+ "bio": "第 93 回：只留梁绪、尹赏守城。第 93 回：梁绪率百姓在城上守御。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "天水功曹",
+   "basis": "第92回天水太守马遵聚文武商议，功曹梁绪与尹赏、梁虔建言；后随马遵降魏。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

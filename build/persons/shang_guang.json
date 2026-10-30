@@ -1,0 +1,36 @@
+{
+ "id": "shang_guang",
+ "name": "尚广",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "尚广，孙吴人物，术士。第 120 回一笔带过，事迹仅存其名。",
+ "bio": "第 120 回：「又召术士尚广，令筮蓍问取天下之事」。原文第 120 回相关片段：「大兴土木，作昭明宫，令文武各官入山采木；又召术士尚广，令筮蓍问取天下之事。尚对曰：“陛下筮得吉兆：庚」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "其他",
+   "start_year": 264,
+   "end_year": 280,
+   "title": "术士",
+   "basis": "第一百二十回：尚广为吴之术士，为孙皓占卜。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 280,
+   "title": "第 120 回",
+   "description": "大兴土木，作昭明宫，令文武各官入山采木；又召术士尚广，令筮蓍问取天下之事",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

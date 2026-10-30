@@ -1,0 +1,29 @@
+{
+ "id": "ge_ding",
+ "name": "戈定",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "auto_mined",
+ "summary": "戈定，孙吴武将，太史慈随从。说戈定乃太史慈乡人；当日杂在军中，随入合淝城，寻见养马后槽，两个商议。",
+ "bio": "原文第 53 回相关片段：「杀张辽，以报宋谦之仇。某请引兵为外应。”权曰：“戈定何在？”太史慈曰：“已混入合淝城中去了。某愿乞五」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 229,
+   "title": "太史慈随从",
+   "basis": "第53回戈定为太史慈随从，混入合淝城中欲举火为号。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

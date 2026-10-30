@@ -1,0 +1,29 @@
+{
+ "id": "bing_yuan",
+ "name": "邴原",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 66,
+ "review_status": "auto_mined",
+ "summary": "邴原，曹魏文臣，五官将长史。来华歆素有才名，向与邴原、管宁相友善。",
+ "bio": "第 66 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 215,
+   "end_year": 215,
+   "title": "五官将长史",
+   "basis": "第六十六回原文：时人称三人为一龙：华歆为龙头，邴原为龙腹，管宁为龙尾。 职任「五官将长史」据此；★任期按末见回目收敛：全书最后一次提及在第 66 回（215 年），原 215—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,31 @@
+{
+ "id": "teng_xiu",
+ "name": "滕修",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "滕修（正史人物，演义未载）：滕修官至吴司空，后入晋。演义未载。",
+ "bio": "《三国志·吴书·三嗣主传》注：滕修官至吴司空，后入晋。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 264,
+   "end_year": 280,
+   "title": "司空",
+   "basis": "第120回作「司空滕循」（「滕修」为「滕循」之讹），原文有出场。 第120回滕循为吴司空，264-280 年间在任。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

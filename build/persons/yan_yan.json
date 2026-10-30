@@ -1,0 +1,57 @@
+{
+ "id": "yan_yan",
+ "name": "严颜",
+ "courtesy": null,
+ "display_aliases": [
+  "巴郡太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "史载 219 年后事迹无考（演义写到义释归刘为止）。生卒年俱无载。",
+ "gender": "male",
+ "first_chapter": 63,
+ "review_status": "reviewed",
+ "summary": "严颜，群雄文臣，巴郡太守。严颜从其言，教军士尽数上城守护。",
+ "bio": "严颜，刘璋将，守巴郡。张飞溯江西上，颜据城拒守，被飞设计生擒。飞喝令斩首，颜慨然：但有断头将军，无降将军！飞壮而释之，引为宾客。颜感其义，为飞前驱，沿途守将皆颜所部，望风归顺，飞军遂得先备至雒城。史载建安十九年张飞破巴郡获颜，此后事迹史无明文。演义写其归刘后随黄忠定军山建功，系小说移花接木。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 212,
+   "end_year": 213,
+   "title": "巴郡太守",
+   "lord_id": "liu_zhang",
+   "basis": "守巴郡拒张飞，兵败被擒后归刘。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "太守"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 213,
+   "end_year": 214,
+   "title": "前军前驱",
+   "lord_id": "liu_bei",
+   "basis": "感张飞之义为前驱，引兵归降诸关。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 213,
+   "title": "义释于巴郡",
+   "description": "据守巴郡被张飞生擒，断头将军语激飞，飞亲解其缚。",
+   "importance": 3
+  },
+  {
+   "year": 213,
+   "title": "前驱开道",
+   "description": "感义为前驱，沿路关隘望风而降，张飞军先到雒城。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 62
+}

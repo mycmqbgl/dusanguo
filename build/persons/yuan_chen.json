@@ -1,0 +1,29 @@
+{
+ "id": "yuan_chen",
+ "name": "袁綝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "袁綝，蜀汉武将，前将军、都亭侯。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "第 91 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 227,
+   "end_year": 229,
+   "title": "前将军、都亭侯",
+   "basis": "第91回前将军——都亭侯袁綝。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "peng_yang",
+ "name": "彭羕",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 63,
+ "review_status": "auto_mined",
+ "summary": "彭羕，蜀汉武将，治中从事。德大怒，即令擒彭羕下狱，拷问其情。",
+ "bio": "第 63 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 213,
+   "end_year": 220,
+   "title": "治中从事",
+   "basis": "第六十三回原文：玄德即拜彭羕为幕宾，使人密报魏延、黄忠，教朝暮用心巡警，以防决水。 职任「治中从事」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 213—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

@@ -1,0 +1,29 @@
+{
+ "id": "wang_xiang",
+ "name": "王祥",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "王祥，曹魏文臣，魏太尉。王祥问其故，刘寔但笑而不答。",
+ "bio": "。第 119 回：太尉王祥、司空荀顗谏曰：前代立少，多致乱国。第 119 回：病危，太尉王祥、司徒何曾、司马荀顗及诸大臣入宫问安，昭不能言，以手指太子司马炎而死。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 220,
+   "title": "魏太尉",
+   "basis": "第一百十六回原文：太尉王祥见寔冷笑，就马上握其手而问曰：“钟、邓二人，此去可平蜀乎。 职任「魏太尉」据此。；★阵营改判：第 116 回原文「太尉王祥见寔冷笑，就马上握其手而问曰」，魏太尉（后入晋），非汉廷。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

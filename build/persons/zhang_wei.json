@@ -1,0 +1,29 @@
+{
+ "id": "zhang_wei",
+ "name": "张卫",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 59,
+ "review_status": "auto_mined",
+ "summary": "张卫，蜀汉文臣，张鲁弟。面教张卫点军守把关隘，防马超兵变。",
+ "bio": "第 59 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 212,
+   "end_year": 215,
+   "title": "张鲁弟",
+   "basis": "第五十九回原文：张鲁大喜，遂与弟张卫商议起兵。 职任「张鲁弟」据此；★任期按末见回目收敛：全书最后一次提及在第 67 回（215 年），原 212—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 13
+}

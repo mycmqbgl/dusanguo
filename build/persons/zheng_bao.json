@@ -1,0 +1,29 @@
+{
+ "id": "zheng_bao",
+ "name": "郑宝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "auto_mined",
+ "summary": "郑宝，群雄武将，巢湖帅。友刘子扬欲约彼往巢湖投郑宝，肃尚踌躇未往。",
+ "bio": "第 29 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 201,
+   "end_year": 229,
+   "title": "巢湖帅",
+   "basis": "第29回刘子扬欲约鲁肃往巢湖投郑宝。郑宝聚众巢湖，为群雄之一。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "yun_ying",
+ "name": "云英",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 23,
+ "review_status": "auto_mined",
+ "summary": "云英，东汉女眷，董承妾。淮兵到，万政言赵云英勇如旧，因此不敢近前。",
+ "bio": "第 23 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 200,
+   "end_year": 200,
+   "title": "董承妾",
+   "basis": "第二十三回原文：承心中暗喜，步入后堂，忽见家奴秦庆童同侍妾云英在暗处私语。 职任「董承妾」据此；★任期按末见回目收敛：全书最后一次提及在第 23 回（200 年），原 208—263 系取势力年份上限，非本人退场之年；★阵营改判：第 23 回原文「家奴秦庆童同侍妾云英在暗处私语」，董承府侍妾，属汉廷。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

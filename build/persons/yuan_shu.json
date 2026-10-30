@@ -1,0 +1,61 @@
+{
+ "id": "yuan_shu",
+ "name": "袁术",
+ "courtesy": "公路",
+ "display_aliases": [
+  "袁公路",
+  "仲家皇帝"
+ ],
+ "birth": null,
+ "death": 199,
+ "date_precision": "approx",
+ "date_note": "生年不详。卒于建安四年（199），呕血而亡。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "袁术，东汉武将，虎贲中郎将、后将军。袁术欲报私仇，遣纪灵领兵到县，亡在旦夕，非将军莫能救。",
+ "bio": "袁术字公路，司空袁逢之子，袁绍异母弟。少以侠气闻，举孝廉，累迁至虎贲中郎将。何进召外兵时，术领精兵布列青琐门外，宫中乱起，引兵突入，见阉官无论大小尽杀之。后据南阳，骄奢淫肆，与袁绍反目。建安二年得传国玉玺，僭号「仲家」于寿春，荒侈益甚，粮尽众散，欲归袁绍而不得，呕血斗余而死。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "虎贲中郎将、后将军",
+   "basis": "灵帝末为虎贲中郎将，属汉廷武职。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 190,
+   "end_year": 199,
+   "title": "仲家皇帝",
+   "basis": "据南阳、淮南自成一系；197 年僭号称帝，199 年败亡。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "兵入宫禁",
+   "description": "引兵突入宫庭，见阉官尽杀之。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "得传国玉玺",
+   "description": "孙坚死后，其子孙策以玉玺归术，术遂有僭号之志。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "寿春僭号",
+   "description": "称「仲家」，置公卿，为众所弃。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 121
+}

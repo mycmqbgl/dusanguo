@@ -1,0 +1,472 @@
+{
+ "comment": "P4-B（2026-10-29）：第 81–90 回新登场人物 5 卡。史实以《三国志》为准，演义按毛本。",
+ "persons": [
+  {
+   "id": "lu_xun",
+   "name": "陆逊",
+   "courtesy": "伯言",
+   "match_surfaces": [
+    "陆逊",
+    "陆伯言",
+    "陆议"
+   ],
+   "display_aliases": [
+    "吴郡吴人",
+    "东吴大都督",
+    "丞相"
+   ],
+   "birth": 183,
+   "death": 245,
+   "date_precision": "approx",
+   "date_note": "史载卒于赤乌八年（245）。生年据卒年 63 推为 183。《三国志》本传存。",
+   "gender": "male",
+   "first_chapter": 38,
+   "review_status": "reviewed",
+   "summary": "陆逊，孙吴武将，大都督、辅国将军、荆州牧。陆逊知朕移营，必乘势来击，却令吴班诈败；逊若追来，朕引兵突出，断其归路，小子可擒矣。",
+   "bio": "陆逊字伯言，吴郡吴人，本名议，世江东大族，孙策婿。讨平山越有功，吕蒙荐其才，袭荆州之谋多出其手。刘备伐吴，权拜逊大都督，诸将以其书生不服，逊按剑约束，忍辱负重，坚守不战；待蜀兵移营山林、兵疲意阻，乃顺风纵火，烧连营七百里，大破蜀军于猇亭。追击遇鱼腹浦八阵图之疑，逊料魏必乘虚袭吴，即日班师，果却曹丕三路之兵。后出镇武昌，辅太子，石亭之战大破魏大司马曹休。黄龙元年拜丞相，以二宫之争忧愤而卒，年六十三。演义大略从史，附会八阵图一节为小说家言。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "武将",
+     "start_year": 222,
+     "end_year": 229,
+     "title": "大都督、辅国将军、荆州牧",
+     "lord_id": "sun_quan",
+     "basis": "夷陵破刘备、石亭破曹休，出镇武昌辅太子。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    },
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 229,
+     "end_year": 245,
+     "title": "丞相",
+     "lord_id": "sun_quan",
+     "basis": "黄龙元年拜丞相，以二宫之争忧愤卒。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "丞相"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 219,
+     "title": "谋袭荆州",
+     "description": "代吕蒙屯陆口，作书卑辞骄羽，掩取荆州之谋多出其手。",
+     "importance": 3
+    },
+    {
+     "year": 222,
+     "title": "火烧连营",
+     "description": "拜大都督，坚守不战，火烧连营七百里大破刘备于猇亭。",
+     "importance": 3
+    },
+    {
+     "year": 222,
+     "title": "八阵图止步",
+     "description": "追刘备入川口，见鱼腹浦乱石阵杀气冲天而还，随即料魏袭吴班师。",
+     "importance": 2
+    },
+    {
+     "year": 228,
+     "title": "石亭破曹休",
+     "description": "诱曹休深入，周鲂断发为间，大破魏军于石亭。",
+     "importance": 3
+    },
+    {
+     "year": 244,
+     "title": "拜相忧卒",
+     "description": "官至丞相，卷入二宫之争，为权所责，忧愤而卒。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "liu_shan",
+   "name": "刘禅",
+   "courtesy": "公嗣",
+   "match_surfaces": [
+    "安乐公",
+    "刘禅",
+    "后主",
+    "阿斗"
+   ],
+   "display_aliases": [
+    "安乐公",
+    "蜀后主",
+    "蜀汉后主"
+   ],
+   "birth": 207,
+   "death": 271,
+   "date_precision": "exact",
+   "date_note": "史载生于建安十二年（207），卒于泰始七年（271）。长坂之难时尚在襁褓。",
+   "gender": "male",
+   "first_chapter": 34,
+   "review_status": "reviewed",
+   "summary": "刘禅，蜀汉后主，在位四十一年。炎兴元年（263）降魏，受封安乐公，蜀汉亡。",
+   "bio": "刘禅字公嗣，小名阿斗，备长子，甘夫人所生。襁褓中经长坂之难，赖赵云护之得免；截江夺阿斗又为孙夫人所携，张飞赵云截江夺回。223 年刘备崩于白帝，禅即皇帝位于成都，改元建兴，以诸葛亮为武乡侯领益州牧，事之如父。亮在时政由葛氏，祭则寡人；亮卒后渐亲宦官黄皓，姜维屯田避祸。263 年魏邓艾偷渡阴平，兵至成都，用谯周之议出降，蜀亡。迁洛阳，封安乐公。司马昭设宴作蜀乐，禅嬉笑自若，曰：此间乐，不思蜀也。旧臣郤正教之泣言，昭问其似郤正语，禅惊曰：诚如尊命。左右皆笑。271 年卒于洛阳。演义评其懦，史家亦有言其量度者。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "皇帝",
+     "start_year": 223,
+     "end_year": 263,
+     "title": "蜀汉后主",
+     "basis": "第85回：先主崩，后主刘禅即位，年十七。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "客君",
+     "start_year": 263,
+     "end_year": 266,
+     "title": "安乐公（蜀汉后主降封）",
+     "basis": "第118回：后主降魏，魏封为安乐公。刘禅是蜀汉皇帝，降后受魏封，为魏之宾而非曹氏帝系之亲，故归客君。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "jin",
+     "role": "客君",
+     "start_year": 266,
+     "end_year": 271,
+     "title": "安乐公（晋袭封）",
+     "basis": "晋受魏禅，安乐公爵如故，至 271 年刘禅卒。仍为晋之宾，非司马氏之亲。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 208,
+     "title": "长坂襁褓",
+     "description": "甘夫人怀禅于长坂，赵云抱之突出重围。",
+     "importance": 2
+    },
+    {
+     "year": 223,
+     "title": "成都即位",
+     "description": "先主崩，即皇帝位，改元建兴，尊诸葛亮为相父。",
+     "importance": 3
+    },
+    {
+     "year": 263,
+     "title": "面舆出降",
+     "description": "邓艾兵至成都，从谯周议出降，蜀汉亡。",
+     "importance": 3
+    },
+    {
+     "year": 264,
+     "title": "乐不思蜀",
+     "description": "洛阳宴饮蜀乐，笑曰此间乐不思蜀，为千古话柄。",
+     "importance": 2
+    }
+   ],
+   "span_post_state": true
+  },
+  {
+   "id": "li_yan",
+   "name": "李严",
+   "courtesy": "正方",
+   "match_surfaces": [
+    "李严",
+    "李正方"
+   ],
+   "display_aliases": [
+    "尚书令",
+    "中都护",
+    "南阳人"
+   ],
+   "birth": null,
+   "death": 234,
+   "date_precision": "approx",
+   "date_note": "史载卒于建兴十二年（234），闻诸葛亮卒而激愤发病死。生年无载。",
+   "gender": "male",
+   "first_chapter": 64,
+   "review_status": "reviewed",
+   "summary": "李严，群雄文臣，刘璋帐下成都令。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+   "bio": "李严字正方，南阳人。本刘璋成都令，以才干称，降刘备为犍为太守，有治名。章武三年备病笃永安宫，严与诸葛亮并受遗诏辅少主，为尚书令、中都护，统内外军事，留镇永安。建兴四年封都乡侯，假节，加光禄勋。八年迁骠骑将军，更名平。亮北伐，平主运粮，秋夏之际值天霖雨，运粮不继，遣参军狐忠喻亮还军；亮退，平反表言军粮饶足、大军伪退以诱贼。亮出其前后手书，平辞穷，废为民，徙梓潼郡。闻亮卒，激愤发病死，常冀亮复收己用。演义写其与孟达有生死之交，安居平五路时作书退孟达一路，从史附会。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 211,
+     "end_year": 213,
+     "title": "刘璋帐下成都令",
+     "lord_id": "liu_zhang",
+     "basis": "本刘璋部属，以才干称。",
+     "confidence": 0.8,
+     "review_status": "reviewed",
+     "_role_orig": "县令"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 214,
+     "end_year": 231,
+     "title": "犍为太守、尚书令、中都护、骠骑将军",
+     "lord_id": "liu_bei",
+     "basis": "归刘历太守；白帝托孤与诸葛亮并受遗诏，统内外军事留镇永安。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "托孤大臣"
+    },
+    {
+     "faction_id": "shu",
+     "role": "其他",
+     "start_year": 231,
+     "end_year": 234,
+     "title": "废为民徙梓潼",
+     "lord_id": "liu_shan",
+     "basis": "运粮欺罔，为亮所废；闻亮卒激愤病死。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "平民"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 223,
+     "title": "白帝受遗诏",
+     "description": "与诸葛亮并受托孤，为尚书令、中都护，留镇永安。",
+     "importance": 3
+    },
+    {
+     "year": 223,
+     "title": "书退孟达",
+     "description": "孔明假其笔迹作书致旧交孟达，达称病不进，五路退一路（演义）。",
+     "importance": 2
+    },
+    {
+     "year": 231,
+     "title": "运粮废黜",
+     "description": "督运北伐军粮欺罔，前后手书对照辞穷，废为民。",
+     "importance": 3
+    },
+    {
+     "year": 234,
+     "title": "闻亮卒而卒",
+     "description": "常冀亮复用，闻亮卒于五丈原，激愤发病而死。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "meng_huo",
+   "name": "孟获",
+   "courtesy": null,
+   "match_surfaces": [
+    "孟获"
+   ],
+   "display_aliases": [
+    "南蛮王",
+    "银坑洞主"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "史仅《汉晋春秋》一言亮七纵七擒获，卒年无载。",
+   "gender": "male",
+   "first_chapter": 85,
+   "review_status": "reviewed",
+   "summary": "孟获，南蛮王，诸葛亮南征七擒七纵，遂归服。",
+   "bio": "为诸蛮所服。建兴三年（225）雍闿反，孟获继之，诸葛亮南征，采马谡「攻心为上」之策，七擒七纵，获曰「丞相天威，南人不复反矣」，遂归服。",
+   "tenure": [
+    {
+     "faction_id": "barbarian",
+     "role": "君主",
+     "start_year": 223,
+     "end_year": 225,
+     "title": "南蛮王",
+     "lord_id": null,
+     "basis": "建兴元年受魏赂起蛮兵十万犯境，建兴三年为亮七擒而服。",
+     "confidence": 0.85,
+     "review_status": "reviewed",
+     "_role_orig": "蛮王"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 225,
+     "end_year": 234,
+     "title": "南蛮王",
+     "lord_id": "liu_shan",
+     "basis": "降蜀后为洞主，非蜀汉主公，官职不明，依规则默认武将。",
+     "confidence": 0.6,
+     "review_status": "reviewed",
+     "_role_orig": "羁縻洞主"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 223,
+     "title": "起兵犯境",
+     "description": "受魏使赂，起蛮兵十万攻益州永昌牂牁越嶲四郡（演义系年）。",
+     "importance": 2
+    },
+    {
+     "year": 225,
+     "title": "七擒七纵",
+     "description": "亮南征，六番被擒皆不服，第七番盘蛇谷藤甲尽焚后肉袒谢罪。",
+     "importance": 3
+    },
+    {
+     "year": 225,
+     "title": "永为洞主",
+     "description": "心服归降，亮不留兵不运粮，与之相安，蛮方感德立祠。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "cao_zhen",
+   "name": "曹真",
+   "courtesy": "子丹",
+   "match_surfaces": [
+    "曹真",
+    "曹子丹"
+   ],
+   "display_aliases": [
+    "大将军",
+    "大司马"
+   ],
+   "birth": null,
+   "death": 231,
+   "date_precision": "approx",
+   "date_note": "史载卒于太和五年（231）。生年无载。",
+   "gender": "male",
+   "first_chapter": 84,
+   "review_status": "reviewed",
+   "summary": "曹真，曹魏武将，镇西将军、上军大将军。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+   "bio": "曹真字子丹，太祖族子，养如己出，与文帝共止。膂力过人，常猎为虎所逐，回马射虎，虎应声而倒，遂领虎豹骑。曹丕代汉，真镇西将军假节都督雍凉，讨破叛胡，与夏侯尚破吴牛渚屯。黄初三年与夏侯尚围南郡，为陆逊所拒而退。诸葛亮一出祁山，真为大都督，遣张郃破马谡于街亭，亮退兵。后代曹休为大司马，伐蜀会大雨道绝而还，病卒于洛阳。演义写其为孔明所轻，祁山屡败，被信使气死，系小说贬抑。子曹爽嗣。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 219,
+     "end_year": 226,
+     "title": "镇西将军、上军大将军",
+     "lord_id": "cao_pi",
+     "basis": "都督雍凉讨叛胡，围南郡，三路伐吴出南郡。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 227,
+     "end_year": 231,
+     "title": "大将军、大司马",
+     "lord_id": "cao_rui",
+     "basis": "拒诸葛亮北伐为大都督，街亭之战遣张郃破马谡，后为大司马病卒。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "统帅"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 222,
+     "title": "出南郡伐吴",
+     "description": "三路伐吴，围南郡，为陆逊内外夹攻所败。",
+     "importance": 2
+    },
+    {
+     "year": 228,
+     "title": "街亭之战",
+     "description": "为大都督拒诸葛亮，遣张郃断马谡汲道大破之，亮退兵。",
+     "importance": 3
+    },
+    {
+     "year": 230,
+     "title": "子午之役",
+     "description": "为大司马伐蜀，会霖雨三十余日栈道断绝，无功而还。",
+     "importance": 2
+    },
+    {
+     "year": 231,
+     "title": "病卒洛阳",
+     "description": "还洛阳病卒；子曹爽嗣，为托孤大臣。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zhang_wen_wu",
+   "name": "张温",
+   "courtesy": "惠恕",
+   "match_surfaces": [
+    "张温",
+    "张惠恕"
+   ],
+   "display_aliases": [
+    "吴中郎将",
+    "东吴使者",
+    "吴郡张温"
+   ],
+   "birth": 193,
+   "death": 228,
+   "date_precision": "approx",
+   "date_note": "生卒年不详，史载以暨艳事坐废，后病卒，约在黄武年间。演义未载其卒。",
+   "gender": "male",
+   "first_chapter": 38,
+   "review_status": "reviewed",
+   "summary": "张温，孙吴文臣，名士、座上客。张温无言可对，乃避席而谢曰：不意蜀中多出俊杰。",
+   "bio": "张温字惠恕，吴郡吴人，江东名士。孙权初掌江东，广延俊秀，温与阚泽、严畯、薛综、程秉、骆统、吾粲等同被敬礼。赤壁前后，孔明随鲁肃过江，吴中群儒与之问难，温亦在座。刘备既崩，吴蜀交恶，诸葛亮遣邓芝通好，孙权乃命中郎将张温奉使入川答礼。温自以为得志，入殿昂然，后主但敬礼而已。孔明设宴相待，温有傲慢之意，席间与秦宓论天，宓问「天有头乎」「天有耳乎」，温语塞，乃避席谢曰「不意蜀中多出俊杰」。孔明以善言解之，温拜谢而还。演义中温以辩才见长而终为辩才所困，为江东清谈名士之典型。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 200,
+     "end_year": 223,
+     "title": "名士、座上客",
+     "lord_id": "sun_quan",
+     "basis": "第三十八回原文：吴人张温，字惠恕…此数人皆至江东，孙权敬礼甚厚。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 223,
+     "end_year": 228,
+     "title": "中郎将",
+     "lord_id": "sun_quan",
+     "basis": "第八十六回原文：姓张，名温，字惠恕，现为中郎将…使同邓芝入川通好。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "江东入幕",
+     "description": "孙权广延江东俊秀，张温与阚泽、严畯等并受敬礼。",
+     "importance": 1
+    },
+    {
+     "year": 208,
+     "title": "座上问难",
+     "description": "孔明过江，吴中群儒与之舌战，温与骆统亦欲问难。",
+     "importance": 1
+    },
+    {
+     "year": 223,
+     "title": "奉使入蜀",
+     "description": "以中郎将奉使入川答礼，与邓芝同行，重修吴蜀之好。",
+     "importance": 2
+    },
+    {
+     "year": 223,
+     "title": "秦宓折辩",
+     "description": "席间与秦宓论天，语塞避席，叹蜀中多俊杰。",
+     "importance": 2
+    }
+   ],
+   "homonym_note": "东吴中郎将张温（字惠恕），与汉司空张温（字伯慎）同名异人。本卡为吴臣，第 38 回登场，第 86 回使蜀。"
+  }
+ ]
+}

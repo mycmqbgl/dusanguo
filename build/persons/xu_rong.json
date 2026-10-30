@@ -1,0 +1,45 @@
+{
+ "id": "xu_rong",
+ "name": "徐荣",
+ "courtesy": null,
+ "display_aliases": [
+  "荥阳太守"
+ ],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平二年（191）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "reviewed",
+ "summary": "徐荣，群雄武将，中郎将、荥阳太守。徐荣便奔夏侯惇，惇挺枪来迎。",
+ "bio": "徐荣，幽州辽东人（一说玄菟人），为董卓中郎将、荥阳太守。董卓迁都长安，李儒献计使徐荣伏军于荥阳城外山坞之旁，放过董卓后队而截杀追兵。曹操独引兵万余追至荥阳，为吕布、李傕、郭汜三路所破，溃走荒山，徐荣伏兵尽出，射中曹操肩膊，曹操马倒被擒，赖曹洪让马、负操渡河得脱。徐荣从上流渡河再追，为夏侯惇挺枪刺于马下。史实徐荣曾荐公孙度，为董卓麾下少有的能战之将。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "中郎将、荥阳太守",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓部将，无独立势力，以战斗指挥为主归武将；191 年为夏侯惇所刺。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "荥阳设伏",
+   "description": "受李儒之计伏军荥阳城外，射中曹操肩膊，几获曹操。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "被刺",
+   "description": "渡河再追，为夏侯惇挺枪刺于马下。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 8
+}

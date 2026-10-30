@@ -1,0 +1,29 @@
+{
+ "id": "cheng_cui",
+ "name": "成倅",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "成倅，曹魏武将，偏将。成倅亦斩于市，尽灭三族。",
+ "bio": "官职「偏将」据原文上下文提取。原文第 112 回相关片段：「两军于石头城埋伏，王基、陈骞领精兵在后，却令偏将成倅引兵数万先去诱敌；又令陈俊引车仗牛马驴骡，装载赏」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "偏将",
+   "basis": "第112回司马昭令偏将成倅引兵数万先去诱敌。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

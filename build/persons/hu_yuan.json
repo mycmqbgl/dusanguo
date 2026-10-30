@@ -1,0 +1,29 @@
+{
+ "id": "hu_yuan",
+ "name": "胡渊",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 119,
+ "review_status": "auto_mined",
+ "summary": "胡渊，曹魏武将。大惊，泣告曰：吾儿胡渊领兵在外，安知会怀此心耶。",
+ "bio": "。第 119 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "basis": "第119回胡烈被监在宫，其子胡渊领兵在外，后攻杀钟会。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

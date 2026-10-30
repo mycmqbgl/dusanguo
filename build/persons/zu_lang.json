@@ -1,0 +1,29 @@
+{
+ "id": "zu_lang",
+ "name": "祖郎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "auto_mined",
+ "summary": "祖郎，群雄武将，泾县大帅。第 15 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 15 回相关片段：「孙郎，死复何恨！”因使为怀义校尉，引兵攻泾县大帅祖郎得胜。术见策勇，复使攻陆康，今又得胜而回」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 229,
+   "title": "泾县大帅",
+   "basis": "第15回袁术使孙策为怀义校尉，引兵攻泾县大帅祖郎，得胜。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

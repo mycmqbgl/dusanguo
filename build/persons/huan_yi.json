@@ -1,0 +1,36 @@
+{
+ "id": "huan_yi",
+ "name": "桓彝",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "桓彝，孙吴文臣，尚书。尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：今上乃聪明之主，汝何取出此乱言。",
+ "bio": "第 113 回：「尚书桓彝大怒，从班部中挺然而出，指孙綝」。原文第 113 回相关片段：「谋叛论！”众皆畏俱，应曰：“愿从将军之令。”尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：“今上乃聪」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "尚书",
+   "basis": "第 113 回：「尚书桓彝大怒，从班部中挺然而出，指孙綝」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 254,
+   "title": "第 113 回",
+   "description": "尚书桓彝大怒，从班部中挺然而出，指孙綝大骂曰：“今上乃聪明之主，汝何取出此乱言",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

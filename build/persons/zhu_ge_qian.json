@@ -1,0 +1,29 @@
+{
+ "id": "zhu_ge_qian",
+ "name": "诸葛虔",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 85,
+ "review_status": "auto_mined",
+ "summary": "诸葛虔，曹魏武将，大将。报曹仁令大将常雕同诸葛虔、王双、引五万精兵飞奔濡须城来。",
+ "bio": "。第 85 回：与常雕同领兵。原文第 85 回相关片段：「把羡溪去了，止留五千骑守城。忽报曹仁令大将常雕同诸葛虔、王双、引五万精兵飞奔濡须城来。众军皆有惧色。桓」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 222,
+   "title": "大将",
+   "basis": "第 85 回：与常雕同领兵。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

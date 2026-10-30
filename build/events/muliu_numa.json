@@ -1,0 +1,28 @@
+{
+ "id": "muliu_numa",
+ "name": "诸葛亮造木牛流马",
+ "kind": "发明",
+ "start_year": 234,
+ "end_year": 234,
+ "date_text": "建兴十二年（234）",
+ "summary": "孔明造木牛流马转运粮草，懿仿造反中计，粮为蜀军所劫。",
+ "detail": "剑阁道险，粮运不继，亮依《造木牛流马法》造之：木牛腹中有机，流马前后有轴，搬运粮草如活物。懿使人仿造百有余只，反为蜀兵夺寨劫粮——夺其木牛，扭转其舌，牛不能行，魏军尽弃粮草。六出祁山之役，蜀军赖此不困于粮。",
+ "place_id": "jian_ge",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "造木牛流马，转粮如活物"
+  },
+  {
+   "person_id": "sim_yi",
+   "role_desc": "仿造反中计，粮草尽失"
+  }
+ ],
+ "passage_ids": [
+  102020,
+  102020,
+  102008
+ ],
+ "battle_ids": []
+}

@@ -1,0 +1,29 @@
+{
+ "id": "zong_yu",
+ "name": "宗预",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "宗预，蜀汉文臣，参军、右中郎将。后主大喜，重赏宗预，厚待吴使去讫。",
+ "bio": "。第 105 回：宗预领命，径到金陵，入见吴主孙权。第 105 回：宗预拜辞吴主，同吴使还成都，入见后主，奏曰：吴主因丞相新亡，亦自流涕，令群臣皆挂孝。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "参军、右中郎将",
+   "basis": "第105回宗预官任参军、右中郎将，奉后主命往东吴报丧。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

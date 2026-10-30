@@ -1,0 +1,61 @@
+{
+ "id": "jian_yong",
+ "name": "简雍",
+ "courtesy": "宪和",
+ "display_aliases": [
+  "昭德将军"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详；入蜀后事迹渐隐。",
+ "gender": "male",
+ "first_chapter": 18,
+ "review_status": "reviewed",
+ "summary": "简雍，群雄文臣，宾友。简雍颇明阴阳，袖占一课，失惊曰：此大凶之兆也。",
+ "bio": "简雍字宪和，涿郡人，少与刘备有旧，随备周旋。性倨傲，谈议风生，備待为宾友，不任吏职而出为使节。刘备入蜀，雍从征；围成都时雍入城说刘璋降，璋遂出降。后拜昭德将军，事迹渐隐。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 208,
+   "title": "宾友",
+   "lord_id": "liu_bei",
+   "basis": "少年旧交随备。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "从事中郎、昭德将军",
+   "basis": "随备入蜀。卒年不详，存疑记至 220。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "随刘备",
+   "description": "少年旧交，随备转侧四方。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "说杨奉",
+   "description": "演义中与糜竺同为刘备文胆。",
+   "importance": 1
+  },
+  {
+   "year": 214,
+   "title": "说降刘璋",
+   "description": "围成都时入城说刘璋出降。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 35
+}

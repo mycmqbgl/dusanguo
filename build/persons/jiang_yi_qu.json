@@ -1,0 +1,29 @@
+{
+ "id": "jiang_yi_qu",
+ "name": "蒋义渠",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 31,
+ "review_status": "auto_mined",
+ "summary": "蒋义渠，群雄武将，袁绍将。第 31 回一笔带过，事迹仅存其名。",
+ "bio": "第 31 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 202,
+   "end_year": 202,
+   "title": "袁绍将",
+   "basis": "第三十一回原文：袁绍幅巾单衣，引八百余骑，奔至黎阳北岸，大将蒋义渠出寨迎接。 职任「袁绍将」据此；★任期按末见回目收敛：全书最后一次提及在第 31 回（202 年），原 202—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

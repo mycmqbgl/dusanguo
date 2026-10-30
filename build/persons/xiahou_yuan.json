@@ -1,0 +1,40 @@
+{
+ "id": "xiahou_yuan",
+ "name": "夏侯渊",
+ "courtesy": "妙才",
+ "display_aliases": [
+  "征西将军"
+ ],
+ "birth": null,
+ "death": 219,
+ "date_precision": "approx",
+ "date_note": "生年不详；卒年建安二十四年（219）定军山之战，史演义一致。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "夏侯渊，曹魏武将，典军校尉、征西将军。征西将军司马钧，钧生豫章太守司马量，量生颍川太守司马隽，隽生京兆尹司马防，防生宣帝司马懿，懿生景帝司马师、文帝司马昭：是为七庙也。",
+ "bio": "夏侯渊字妙才，沛国谯人，曹操同族兄弟（夏侯氏与曹氏世为婚姻）。陈留起兵即随操征战，善急行军，军中语「典军校尉夏侯渊，三日五百，六日一千」。汉中之战代张郃都督汉中诸军，据定军山。建安二十四年（219），黄忠依法正之计居高临下冲阵，渊措手不及，被忠连头带肩砍为两段。操闻之大哭，亲统大军复仇不得。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 219,
+   "title": "典军校尉、征西将军",
+   "lord_id": "cao_cao",
+   "basis": "自操起兵随征，后都督汉中；219 年定军山战死。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "定军山殒命",
+   "description": "黄忠居高突袭，渊被斩于定军山。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒年建安二十四年（219）定军山之战，史演义一致",
+ "mention_count": 94
+}

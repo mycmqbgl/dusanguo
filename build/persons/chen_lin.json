@@ -1,0 +1,68 @@
+{
+ "id": "chen_lin",
+ "name": "陈琳",
+ "courtesy": "孔璋",
+ "display_aliases": [
+  "记室",
+  "司空军谋祭酒"
+ ],
+ "birth": null,
+ "death": 217,
+ "date_precision": "exact",
+ "date_note": "建安二十二年（217）大疫中病卒。生年不详（约 160）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "陈琳，群雄文臣，袁绍记室，作讨曹檄文。绍从之，遂令书记陈琳草檄。",
+ "bio": "陈琳，字孔璋，广陵射阳人，建安七子之一。初为何进主簿，进欲诛宦官，琳谏不宜召外兵，不听。董卓乱后避难冀州，入袁绍幕。建安五年，为袁绍作讨曹操檄文，铺陈曹氏罪状，并骂及其父祖，文气峻烈。时琳头风正发，檄文成而疾愈。袁绍败后琳归曹操，左右劝诛之，操爱其才而不咎，署司空军谋祭酒，管记室，军国书檄多出其手。后徙门下督。建安二十二年，大疫，与徐干、刘桢等同卒。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 200,
+   "title": "袁绍记室，作讨曹檄文",
+   "lord_id": "yuan_shao",
+   "basis": "避难冀州入袁绍幕，为作檄文。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 217,
+   "title": "司空军谋祭酒、门下督，管记室",
+   "basis": "袁绍败后降曹，操爱其才不咎。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "谏何进勿召外兵",
+   "description": "为何进主簿，谏召四方猛将入京必致大乱，不听。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "作讨曹檄文",
+   "description": "为袁绍作檄，骂及曹操父祖，一文愈头风。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "归曹不咎",
+   "description": "袁绍败，降曹。操怜其才释用，军国书檄多出其手。",
+   "importance": 2
+  },
+  {
+   "year": 217,
+   "title": "卒于大疫",
+   "description": "建安二十二年疫，与徐干、刘桢等同殁。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 10
+}

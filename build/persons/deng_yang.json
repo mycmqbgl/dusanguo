@@ -1,0 +1,29 @@
+{
+ "id": "deng_yang",
+ "name": "邓飏",
+ "courtesy": "玄茂",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "邓飏，曹魏文臣，尚书。邓飏怒曰：此老生之常谈耳。",
+ "bio": "官职「尚书」据原文上下文提取。原文第 106 回相关片段：「百人，内有五人以浮华相尚：一是何晏，字平叔；一是邓飏，字玄茂，乃邓禹之后；一是李胜，字公昭；一是丁谧」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "尚书",
+   "basis": "第106回邓飏字玄茂，乃邓禹之后，为曹爽门下五客之一，官尚书。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

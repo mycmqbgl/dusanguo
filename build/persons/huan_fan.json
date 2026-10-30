@@ -1,0 +1,29 @@
+{
+ "id": "huan_fan",
+ "name": "桓范",
+ "courtesy": "元则",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "桓范，曹魏武将，魏大司农，\"智囊\"。正言间，司农桓范骤马而至，谓爽曰：太傅已变，将军何不请天子幸许都，调外兵以讨司马懿耶。",
+ "bio": "。第 106 回：司农桓范亦谏，不听。第 107 回：懿恐桓范亦走，急令人召之。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 238,
+   "end_year": 239,
+   "title": "魏大司农，\"智囊\"",
+   "basis": "第一百零六回原文：又有大司农桓范字元则，颇有智谋，人多称为智囊。 职任「魏大司农，\"智囊\"」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

@@ -1,0 +1,29 @@
+{
+ "id": "cao_ju",
+ "name": "曹据",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "曹据，曹魏宗亲，彭城王。师曰：臣观彭城王曹据，聪明仁孝，可以为天下之主。",
+ "bio": "原文第 109 回相关片段：「后曰：“大将军欲立何人为君？”师曰：“臣观彭城王曹据，聪明仁孝，可以为天下之主。”太后曰：“彭城王乃」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "亲族",
+   "start_year": 249,
+   "end_year": 249,
+   "title": "曹操之子，彭城王",
+   "basis": "第一百零九回原文：师曰：“臣观彭城王曹据，聪明仁孝，可以为天下之主。 职任「彭城王」据此；★任期按末见回目收敛：全书最后一次提及在第 109 回（249 年），原 249—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

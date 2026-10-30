@@ -1,0 +1,42 @@
+{
+ "id": "shao_ti",
+ "name": "邵悌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 115,
+ "review_status": "auto_mined",
+ "summary": "邵悌，曹魏文臣，西曹掾。曹掾邵悌密谓司马昭曰：今主公遣钟会领十万兵伐蜀，愚料会志大心高，不可使独掌大权。",
+ "bio": "。第 115 回：西曹掾邵悌密谓司马昭曰：今主公遣钟会领十万兵伐蜀，愚料会志大心高，不可使独掌大权。第 118 回：西曹掾邵悌谏曰：钟会之兵，多艾六倍，当今会收艾足矣，何必明公自行耶。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "西曹掾",
+   "basis": "第115回钟会出师，西曹掾邵悌密谓司马昭，言会志大心高不可独任。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 256,
+   "title": "第 115 回",
+   "description": "曹掾邵悌密谓司马昭曰：“今主公遣钟会领十万兵伐蜀，愚料会志大心高，不可使独掌大权",
+   "importance": 1
+  },
+  {
+   "year": 263,
+   "title": "第 118 回",
+   "description": "曹掾邵悌谏曰：“钟会之兵，多艾六倍，当今会收艾足矣，何必明公自行耶",
+   "importance": 1
+  }
+ ],
+ "mention_count": 5
+}

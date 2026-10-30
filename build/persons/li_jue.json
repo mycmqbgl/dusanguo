@@ -1,0 +1,73 @@
+{
+ "id": "li_jue",
+ "name": "李傕",
+ "courtesy": "稚然",
+ "display_aliases": [
+  "车骑将军",
+  "池阳侯"
+ ],
+ "birth": null,
+ "death": 198,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安三年（198）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "verified",
+ "summary": "李傕，东汉权臣，车骑将军、池阳侯、领司隶校尉、假节钺。李傕为车骑将军池阳侯领司隶校尉假节钺，郭汜为后将军美阳侯假节钺，同秉朝政；樊稠为右将军万年侯，张济为骠骑将军平阳侯，领兵屯弘农。",
+ "bio": "李傕字稚然，北地人。为董卓校尉，骁勇而残暴。董卓使傕至孙坚寨中求结亲，为坚所叱。董卓死后，傕等上表求赦，王允不允。贾诩说以「弃军单行则一亭长能缚君」，遂聚众十余万攻长安，城中内应开门，吕布败走，王允被杀。傕自为车骑将军、池阳侯、领司隶校尉、假节钺，与郭汜、樊稠、张济同秉朝政，「天子恭己而已」。兴平二年与郭汜相攻于长安，死者数万。建安三年为段煨等所破，夷三族。演义写其欲弑献帝，为张济、樊稠所止。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "权臣",
+   "start_year": 192,
+   "end_year": 195,
+   "title": "车骑将军、池阳侯、领司隶校尉、假节钺",
+   "basis": "权臣 B 组成立：攻陷京师、杀王允、围逼献帝欲行弑逆（公开威胁皇权举动）；且为车骑将军领司隶校尉假节钺、同秉朝政逾三年。按身份优先级 皇帝>追谥>权臣 判为权臣。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 195,
+   "end_year": 198,
+   "title": "车骑将军",
+   "basis": "195 年与郭汜相攻，献帝东归，傕失朝廷控制权，退保弘农、北地，自成一系为群雄之一；198 年败死。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "为董卓求亲",
+   "description": "奉董卓命至孙坚寨中，欲以董女配孙坚之子，为坚所叱。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "攻陷长安",
+   "description": "用贾诩之谋聚众十余万攻长安，吕布败走，王允被杀。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "同秉朝政",
+   "description": "自为车骑将军领司隶校尉假节钺，与郭汜等共掌朝政，献帝举动荆棘。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "与郭汜相攻",
+   "description": "二人交兵于长安，死者数万，献帝被劫东归。",
+   "importance": 3
+  },
+  {
+   "year": 198,
+   "title": "兵败夷族",
+   "description": "为段煨等所破，夷三族。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 103
+}

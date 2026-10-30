@@ -1,0 +1,29 @@
+{
+ "id": "cui_fu_ren",
+ "name": "崔夫人",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 118,
+ "review_status": "auto_mined",
+ "summary": "崔夫人，蜀汉女眷，刘谌妻。崔夫人曰：王死父，妾死夫：其义同也。",
+ "bio": "。第 118 回：崔夫人曰：王死父，妾死夫：其义同也。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 255,
+   "end_year": 263,
+   "title": "崔夫人，刘谌妻",
+   "basis": "北地王刘谌之妻（第 118 回），刘禅子妇，蜀汉既立（221）归蜀汉；263 年殉国。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

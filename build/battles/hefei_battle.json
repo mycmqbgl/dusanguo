@@ -1,0 +1,85 @@
+{
+ "id": "hefei_battle",
+ "name": "合肥之战",
+ "year": 208,
+ "date_text": "建安十三年末至十四年（208–209）",
+ "place_id": "he_fei",
+ "event_id": "hefei_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "吴军",
+   "faction_ids": [
+    "wu"
+   ],
+   "commanders": [
+    "sun_quan",
+    "gan_ning",
+    "ling_tong",
+    "taishi_ci",
+    "zhou_yu"
+   ],
+   "troops_desc": "孙权亲统大军 + 甘宁百骑劫营"
+  },
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao"
+   ],
+   "troops_desc": "张辽李典乐进守合肥（守将未建卡，仅记操）"
+  }
+ ],
+ "result": "吴军攻城不下而撤，甘宁百骑劫营全胜，太史慈殒",
+ "casualties_note": "太史慈中箭而亡；曹军被劫营丧胆。",
+ "summary": "权攻合肥不下，太史慈中伏箭亡，甘宁百骑夜劫曹营无一折损而还。",
+ "detail": "权自领大军攻合肥，辽典进守城甚坚。凌统甘宁争功各领兵出战，进一箭射权盖，统救主。慈夜劫中伏，被辽箭伤而亡。操军来援，宁请百骑劫营：杀入寨中左冲右突，全师而返。权嘉之，与辽相埒。",
+ "front_line": [
+  {
+   "time": 208,
+   "time_seq": 1,
+   "kind": "围城",
+   "label": "权攻合肥",
+   "desc": "孙权大军围合肥，辽典进拒守。",
+   "lng": 117.28,
+   "lat": 31.86,
+   "pixel_x": 928.7,
+   "pixel_y": 560.3
+  },
+  {
+   "time": 208,
+   "time_seq": 2,
+   "kind": "夜袭",
+   "label": "慈中辽伏",
+   "desc": "太史慈夜袭中伏，箭伤而亡。",
+   "lng": 117.28,
+   "lat": 31.86,
+   "pixel_x": 928.7,
+   "pixel_y": 560.3
+  },
+  {
+   "time": 208,
+   "time_seq": 3,
+   "kind": "劫营",
+   "label": "甘宁百骑",
+   "desc": "宁领百骑夜劫曹营，全师而还。",
+   "lng": 117.4,
+   "lat": 31.95,
+   "pixel_x": 933.4,
+   "pixel_y": 556.2
+  },
+  {
+   "time": 208,
+   "time_seq": 4,
+   "kind": "结局",
+   "label": "权军解围",
+   "desc": "曹援将至，权退兵江东。",
+   "lng": 117.28,
+   "lat": 31.86,
+   "pixel_x": 928.7,
+   "pixel_y": 560.3
+  }
+ ],
+ "place_name": "合肥"
+}

@@ -1,0 +1,676 @@
+{
+ "comment": "第 29–30 回新出场人物（江东线：孙策之死、孙权接位；官渡线：袁绍阵营）。",
+ "persons": [
+  {
+   "id": "xu_gong",
+   "name": "许贡",
+   "match_surfaces": [
+    "许贡",
+    "贡"
+   ],
+   "display_aliases": [
+    "吴郡太守"
+   ],
+   "birth": null,
+   "death": 199,
+   "date_precision": "exact",
+   "date_note": "建安四年（199）孙策破吴郡后绞杀之。生年不详。其门客后刺杀孙策。",
+   "gender": "male",
+   "first_chapter": 29,
+   "review_status": "reviewed",
+   "summary": "许贡，东汉文臣，吴郡太守。是吴郡太守许贡，乃暗遣使赴许都上书于曹操。",
+   "bio": "据郡自守。孙策定江东，攻破吴郡，许贡败走投严白虎；后策破会稽，贡归降被留。建安四年，孙策袭取庐江、败刘勋、驰檄豫章，威震江东，许贡暗遣使赍密表赴许都，言「孙策骁勇，与项籍相似，宜加贵宠，召还京邑；若被诏不得不还，若放于外必作世患」。使者至江边为策军所获，策览书大怒，斩使而绞杀许贡。贡家养三门客欲为主复仇，建安五年，趁孙策猎于丹徒西山，以毒箭刺之，策伤重而亡。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 190,
+     "end_year": 199,
+     "title": "吴郡太守",
+     "basis": "汉命吴郡太守，据郡自守，败于孙策。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 195,
+     "title": "败于孙策",
+     "description": "孙策定江东攻吴郡，贡败走投严白虎，后归降被留。",
+     "importance": 1
+    },
+    {
+     "year": 199,
+     "title": "密表召策还京",
+     "description": "密表许都言策宜召还京邑，使者为策军所获。",
+     "importance": 2
+    },
+    {
+     "year": 199,
+     "title": "被绞杀",
+     "description": "孙策览表大怒，绞杀许贡。其门客三人为复仇埋下祸根。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "yu_ji",
+   "name": "于吉",
+   "match_surfaces": [
+    "于吉",
+    "吉仙",
+    "琅琊于吉"
+   ],
+   "display_aliases": [
+    "琅琊道士",
+    "太平道人"
+   ],
+   "birth": null,
+   "death": 199,
+   "date_precision": "exact",
+   "date_note": "生年不详；卒年 199（第 29 回为孙策所杀）。",
+   "gender": "male",
+   "first_chapter": 29,
+   "review_status": "reviewed",
+   "summary": "于吉，琅琊道人，太平清领道传人，为孙策所杀。",
+   "bio": "于吉，琅琊人，太平清领道之传人，往来吴会，烧香治病，吴人会聚者无数。孙策忌之，谓其迷惑众心，命斩之，且取其尸陈于市，人犹拜祝；后孙策每见其形影，因而病笃，遂卒。",
+   "tenure": [
+    {
+     "faction_id": "mystic",
+     "role": "其他",
+     "start_year": 190,
+     "end_year": 199,
+     "title": "太平道人",
+     "basis": "N3 定案：于吉入神怪阵营。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 195,
+     "title": "符水济人",
+     "description": "往来吴会，以符水为人治病，吴人多事之。",
+     "importance": 1
+    },
+    {
+     "year": 199,
+     "title": "城楼受斩",
+     "description": "众将下楼拜吉，孙策怒其妖惑，收斩于市，悬首示众。",
+     "importance": 3
+    },
+    {
+     "year": 199,
+     "title": "死后显灵",
+     "description": "策每见吉影，疮痛大作，镜中现吉，终至不起。",
+     "importance": 2
+    }
+   ],
+   "history_conflict_type": "生死结局",
+   "history_conflict_note": "演义作孙策于建安四年（199）怒斩于市；史传为汉顺帝时（125–144）已在琅琊宫学道之方士，卒年不详。",
+   "history_life_dates": "演义卒于建安四年（199）；史书（《三国志·孙策传》注引《江表传》）卒年不详，顺帝时已在琅琊学道。"
+  },
+  {
+   "id": "lu_su",
+   "name": "鲁肃",
+   "courtesy": "子敬",
+   "match_surfaces": [
+    "鲁肃",
+    "鲁子敬",
+    "子敬",
+    "肃"
+   ],
+   "display_aliases": [
+    "赞军校尉",
+    "横江将军"
+   ],
+   "birth": 172,
+   "death": 217,
+   "date_precision": "exact",
+   "date_note": "建安元年（172）生，建安二十二年（217）卒，史有明载。演义第 29 回末经周瑜引荐见孙权。",
+   "gender": "male",
+   "first_chapter": 29,
+   "review_status": "reviewed",
+   "summary": "鲁肃，孙吴文臣，横江将军。鲁肃再三劝谏，瑜只不听，遂传密令：如玄德至，先埋伏刀斧手五十人于壁衣中，看吾掷杯为号，便出下手。",
+   "bio": "鲁肃，字子敬，临淮东城人。生而失父，事母至孝；家富于财，性好施与。周瑜为居巢长时过其家求粮，肃家有两囷米各三千斛，肃即指一囷相赠，瑜遂与之定交。袁术闻其名欲以为东城长，肃携老弱渡江依周瑜，瑜荐之于孙策。建安五年孙策死，孙权继位，周瑜复荐肃，权召见，与之合榻对饮，肃献「榻上策」：汉室不可复兴，曹操不可卒除，宜鼎足江东以观天下之衅，进伐刘表，竟长江所极而据守之，然后建号帝王以图天下，此高帝之业也。权深纳之。刘表死后，肃请行吊丧以观变，力主联刘抗曹，促成孙刘联盟赤壁破曹。周瑜临终荐肃自代，肃代瑜领兵，为赞军校尉、横江将军。建安二十二年卒，年四十六。演义中单刀会、借荆州诸事皆其经手。",
+   "tenure": [
+    {
+     "faction_id": "wu",
+     "role": "文臣",
+     "start_year": 200,
+     "end_year": 217,
+     "title": "横江将军",
+     "basis": "周瑜两番引荐，榻上策定大计，瑜死后代领其众。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 195,
+     "title": "指囷相赠",
+     "description": "周瑜求粮，肃指一囷三千斛相赠，遂定交。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "榻上策",
+     "description": "孙权召问，肃献榻上策：鼎足江东、竟长江所极、建号帝王。",
+     "importance": 3
+    },
+    {
+     "year": 208,
+     "title": "力主联刘",
+     "description": "请行吊丧观变，亲赴当阳见刘备，促成孙刘联盟。",
+     "importance": 3
+    },
+    {
+     "year": 210,
+     "title": "代瑜领兵",
+     "description": "周瑜临终荐肃自代，肃统其众，为赞军校尉。",
+     "importance": 2
+    },
+    {
+     "year": 215,
+     "title": "单刀会",
+     "description": "与关羽单刀相会，演义中请关羽归还三郡。",
+     "importance": 2
+    },
+    {
+     "year": 217,
+     "title": "卒",
+     "description": "建安二十二年卒，年四十六。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "shen_pei",
+   "name": "审配",
+   "courtesy": "正南",
+   "match_surfaces": [
+    "审配",
+    "审正南",
+    "正南",
+    "配"
+   ],
+   "display_aliases": [
+    "邺城守将"
+   ],
+   "birth": null,
+   "death": 204,
+   "date_precision": "exact",
+   "date_note": "建安九年（204）曹操破邺，配被擒，面北而死。生年不详。",
+   "gender": "male",
+   "first_chapter": 11,
+   "review_status": "reviewed",
+   "summary": "审配，字正南，魏郡人，袁绍谋主，以忠直著称。",
+   "bio": "审配，字正南，魏郡人，袁绍别驾、谋主，以忠直见任。袁绍死后辅袁尚，拒曹操围邺，城破被擒，面北而跪曰「臣主在北」，操欲降之，配大骂不屈，遂杀之。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 191,
+     "end_year": 204,
+     "title": "袁绍谋主",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍幕府谋臣，绍死后辅袁尚。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "力主速战",
+     "description": "官渡之战前与郭图力主南下决战，驳田丰、沮授。",
+     "importance": 2
+    },
+    {
+     "year": 202,
+     "title": "立袁尚",
+     "description": "袁绍死，与逢纪矫遗命立幼子尚，谭尚自此相攻。",
+     "importance": 2
+    },
+    {
+     "year": 204,
+     "title": "邺城之陷",
+     "description": "曹操决漳水灌邺，坚守数月城破，被擒求北面而死。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "guo_tu",
+   "name": "郭图",
+   "courtesy": "公则",
+   "match_surfaces": [
+    "郭图",
+    "郭公则",
+    "公则",
+    "图"
+   ],
+   "display_aliases": [
+    "颍川郭图"
+   ],
+   "birth": null,
+   "death": 205,
+   "date_precision": "approx",
+   "date_note": "建安十年（205）曹操破南皮，图与袁谭同死。生年不详。",
+   "gender": "male",
+   "first_chapter": 19,
+   "review_status": "reviewed",
+   "summary": "郭图，群雄文臣，袁绍谋士。郭图曰：三子之中，谭为长，今又居外；主公若废长立幼，此乱萌也。",
+   "bio": "郭图，字公则，颍川人，袁绍谋士。建安四年，袁绍议伐许都，图与审强力主「以明公之神武，拥河朔之强众，举兵南向，河洛可定」，驳沮授持重之议。建安五年官渡相持，乌巢被焚，张郃言「急救乌巢」，图力主攻曹营，营不下，图反谮郃览「有降曹之心」，二人遂降曹，袁军大溃。袁绍死后，图先劝袁谭迎立，后谭尚相攻，图佐谭降曹借兵攻邺。建安十年南皮城破，图与谭同死于乱军。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 191,
+     "end_year": 202,
+     "title": "袁绍谋士",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍幕府谋臣。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 202,
+     "end_year": 205,
+     "title": "袁谭谋士",
+     "basis": "袁绍死后辅袁谭，先劝迎立，后佐降曹借兵。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "力主南征",
+     "description": "与审配力主举兵南向，驳沮授持重之议。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "谮郃览",
+     "description": "乌巢被焚，力主攻曹营不下，反谮张郃高览致其降曹。",
+     "importance": 3
+    },
+    {
+     "year": 202,
+     "title": "佐谭争位",
+     "description": "劝袁谭争位，后佐谭降曹借兵攻邺。",
+     "importance": 2
+    },
+    {
+     "year": 205,
+     "title": "死于南皮",
+     "description": "南皮城破，与袁谭同死于乱军。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zhang_he",
+   "name": "张郃",
+   "courtesy": "儁乂",
+   "match_surfaces": [
+    "张郃",
+    "张儁乂",
+    "儁乂",
+    "郃"
+   ],
+   "display_aliases": [
+    "车骑将军",
+    "鄚侯"
+   ],
+   "birth": null,
+   "death": 231,
+   "date_precision": "exact",
+   "date_note": "太和五年（231）木门道中伏，为诸葛亮军飞矢所中而卒。生年不详（约 170）。",
+   "gender": "male",
+   "first_chapter": 22,
+   "review_status": "reviewed",
+   "summary": "张郃，群雄武将，宁国中郎将。飞只顾引军冲突，张郃大败，死命杀开条路，走上瓦口关，收聚败兵，坚守不出。",
+   "bio": "张郃，字儁乂，河间鄚人。应募讨黄巾，为韩馥军司马，馥败后属袁绍，为宁国中郎将。建安五年官渡相持，乌巢粮草被焚，郃主张急救乌巢，郭图力主攻曹营，营不下，图谮之，郃与高览惧诛，降曹操。操闻郃来，喜曰「如微子去殷，韩信归汉也」，拜偏将军。此后为曹操东西征讨：破马超、围安定、讨张鲁皆在行阵，与夏侯渊共守汉中。定军山渊死，郃收残军拒刘备。曹丕即位，拜左将军；诸葛亮北伐，郃大破马谡于街亭，迁车骑将军。太和五年，追蜀军至木门，中伏，飞矢贯右膝而卒，谥壮侯。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 191,
+     "end_year": 200,
+     "title": "宁国中郎将",
+     "lord_id": "yuan_shao",
+     "basis": "先属韩馥，馥败归袁绍。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 231,
+     "title": "偏将军、荡寇将军、车骑将军、鄚侯",
+     "basis": "官渡遭谮降曹，屡为西线统帅，官至车骑将军。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "官渡降曹",
+     "description": "乌巢被焚，主张急救乌巢，遭郭图谮害，与高览降曹。",
+     "importance": 3
+    },
+    {
+     "year": 215,
+     "title": "汉中对峙",
+     "description": "定军山夏侯渊战死，郃收残军拒刘备。",
+     "importance": 2
+    },
+    {
+     "year": 228,
+     "title": "街亭破谡",
+     "description": "大破马谡于街亭，诸葛亮首次北伐退兵。",
+     "importance": 3
+    },
+    {
+     "year": 231,
+     "title": "木门中伏",
+     "description": "追蜀军至木门道，飞矢贯膝而卒，谥壮侯。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "gao_lan",
+   "name": "高览",
+   "match_surfaces": [
+    "高览",
+    "览"
+   ],
+   "display_aliases": [
+    "偏将军"
+   ],
+   "birth": null,
+   "death": 201,
+   "date_precision": "approx",
+   "date_note": "建安六年（201）穰山之战（演义第 31 回）为赵云所杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 22,
+   "review_status": "reviewed",
+   "summary": "高览，群雄武将，袁绍大将。说张郃、高览攻打曹营，左边夏侯惇、右边曹仁，中路曹洪，一齐冲出：三下攻击，袁军大败。",
+   "bio": "高览，袁绍大将，与张郃齐名。建安五年官渡相持，乌巢粮草被焚，览与郃主张急救乌巢，郭图谮之，惧诛，遂同降曹操，引军反攻袁绍大营。曹操拜览偏将军、东莱侯。建安六年（演义第 31 回），览随曹操征汝南刘备，奉命攻刘备大寨，正冲杀间，赵云冲阵，一枪刺死高览，余军溃散。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 191,
+     "end_year": 200,
+     "title": "袁绍大将",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍部将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 200,
+     "end_year": 201,
+     "title": "偏将军、东莱侯",
+     "basis": "官渡与张郃同降曹。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "官渡降曹",
+     "description": "遭郭图谮害，与张郃惧诛降曹，引军反攻袁营。",
+     "importance": 2
+    },
+    {
+     "year": 201,
+     "title": "穰山殒命",
+     "description": "攻刘备大寨，为赵云一枪刺死。",
+     "importance": 2
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：建安六年（201）穰山之战（演义第 31 回）为赵云所杀"
+  },
+  {
+   "id": "chunyu_qiong",
+   "name": "淳于琼",
+   "courtesy": "仲简",
+   "match_surfaces": [
+    "淳于琼",
+    "仲简",
+    "琼"
+   ],
+   "display_aliases": [
+    "西园八校尉之一",
+    "乌巢督将"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）乌巢被焚，为乐进所擒、曹操所杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 3,
+   "review_status": "reviewed",
+   "summary": "淳于琼，群雄武将，袁绍大将。淳于琼方与众将饮了酒，醉卧帐中；闻鼓噪之声，连忙跳起问：何故喧闹。",
+   "bio": "淳于琼，字仲简，颍川人。灵帝时为西园八校尉之一（与蹇硕、袁绍、曹操同列）。后归袁绍，为有大将之才。建安五年官渡相持，许攸叛投曹操献计奇袭乌巢，袁绍不听张郃增援之谏，反遣轻骑攻曹营，而以琼督乌巢。琼性嗜酒，是夜大醉。曹操亲率精兵诈打袁军旗号夜至乌巢，四面纵火，粮草尽焚。袁军大溃，琼为乐进所擒，操割其鼻而释之，琼大骂，操令斩之。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 191,
+     "end_year": 200,
+     "title": "袁绍大将",
+     "lord_id": "yuan_shao",
+     "basis": "西园旧校尉归袁绍，官渡督粮。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 188,
+     "title": "西园八校尉",
+     "description": "灵帝置西园八校尉，琼与袁绍、曹操同列。",
+     "importance": 1
+    },
+    {
+     "year": 200,
+     "title": "醉酒失乌巢",
+     "description": "督乌巢粮草，夜饮大醉，曹操奇袭纵火，粮草尽焚。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "被擒骂死",
+     "description": "为乐进所擒，操割其鼻，琼大骂被斩。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "jiang_qi",
+   "name": "蒋奇",
+   "match_surfaces": [
+    "蒋奇",
+    "奇"
+   ],
+   "display_aliases": [
+    "袁绍部将"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）乌巢救援途中为张辽所斩。生年不详。",
+   "gender": "male",
+   "first_chapter": 30,
+   "review_status": "reviewed",
+   "summary": "蒋奇，群雄武将，袁绍部将。可选精兵诈称袁将蒋奇领兵到彼护粮，乘间烧其粮草辎重，则绍军不三日将自乱矣。",
+   "bio": "蒋奇，袁绍部将。建安五年官渡相持，曹操奇袭乌巢，袁绍闻讯，遣蒋奇领兵往救。奇行至半路，遭曹军伏击，张辽出阵，战不数合斩奇于马下，所部溃散。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "袁绍部将",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍部将，救援乌巢。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "救援乌巢被斩",
+     "description": "奉命往救乌巢，中途遇伏，为张辽所斩。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "sui_yuanjin",
+   "name": "眭元进",
+   "match_surfaces": [
+    "眭元进",
+    "元进"
+   ],
+   "display_aliases": [
+    "袁绍部将"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）救乌巢，为曹军所杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 30,
+   "review_status": "reviewed",
+   "summary": "眭元进，群雄武将，袁绍部将。元进、赵睿运粮方回，见屯上火起，急来救应。",
+   "bio": "眭元进，袁绍部将。建安五年官渡，乌巢粮草被焚，元进与韩莒子（吕威璜等同列）奉命往救，行至乌巢，曹军已焚粮自守，元进奋力攻之，被曹军所杀，所部皆没。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "袁绍部将",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍部将，救援乌巢战死。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "救乌巢战死",
+     "description": "与韩莒子往救乌巢，力战被杀。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "han_meng",
+   "name": "韩猛",
+   "match_surfaces": [
+    "韩猛",
+    "猛"
+   ],
+   "display_aliases": [
+    "袁绍运粮将"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详。官渡护粮被劫后事迹无考（史或谓即韩荀，为曹仁所破于鸡洛山）。",
+   "gender": "male",
+   "first_chapter": 30,
+   "review_status": "reviewed",
+   "summary": "韩猛，群雄武将，袁绍运粮将。说韩猛败军还营，绍大怒，欲斩韩猛，众官劝免。",
+   "bio": "韩猛，袁绍运粮将，性刚而轻敌。建安五年官渡相持，袁绍遣其运粮，谋士荀攸言于曹操：「韩猛匹夫之勇，轻于其一，可截击之。」操遣徐晃、史涣抄小路截击，韩猛大败，粮草尽被焚毁，袁军自此乏粮，遂有许攸献乌巢之计。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "袁绍运粮将",
+     "lord_id": "yuan_shao",
+     "basis": "袁绍部将，护运粮草。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 200,
+     "title": "运粮被劫",
+     "description": "护粮为徐晃史涣劫烧，袁军自此乏粮。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "gan_furen",
+   "name": "甘夫人",
+   "courtesy": null,
+   "match_surfaces": [
+    "甘夫人"
+   ],
+   "display_aliases": [
+    "昭烈皇后",
+    "甘氏"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年均不详。史载卒于建安年间、葬于南郡，刘备称帝后追谥皇思夫人，后主时追谥昭烈皇后；演义第 1–30 回未载其卒。",
+   "gender": "female",
+   "first_chapter": 22,
+   "review_status": "reviewed",
+   "summary": "甘夫人，蜀汉女眷，刘备之妾。请甘夫人上马，杀开条大路，直送至长坂城。",
+   "bio": "沛人，刘备居小沛时纳为妾，先主数丧嫡室，以甘夫人摄内事。生后主刘禅。第二十二回随刘备屯下邳；第二十五回曹操攻徐州，刘备败走，甘夫人与糜夫人被俘，羁于曹营，由关羽照看；第二十六回关公挂印封金、护二嫂千里寻兄；第二十八回古城相会，三事中「二位嫂嫂」即指甘、糜二夫人。史载卒于建安年间，追谥皇思夫人，后追谥昭烈皇后。",
+   "tenure": [
+    {
+     "faction_id": "shu",
+     "role": "女眷",
+     "start_year": 196,
+     "end_year": 209,
+     "title": "刘备之妾",
+     "lord_id": "liu_bei",
+     "basis": "196 年刘备纳为妾；209 年卒于荆州。刘备 208 年取荆南四郡后蜀汉势力形成，故归蜀汉。 196 年纳为刘备之妾，209 年卒于荆州。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "摄内事",
+     "description": "刘备数丧嫡室，甘夫人摄内事，生后主刘禅。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "古城相会",
+     "description": "与糜夫人自曹营随关羽脱身，于张飞据守的古城与刘备重聚。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生卒年均不详；史载卒于建安年间、葬于南郡，刘备称帝后追谥皇思夫人，后主时追谥昭烈皇后｜演：第 1–30 回未载其卒",
+   "span_pre_state": true
+  }
+ ]
+}

@@ -1,0 +1,62 @@
+{
+ "id": "cai_mao",
+ "name": "蔡瑁",
+ "courtesy": null,
+ "display_aliases": [
+  "镇南将军军师",
+  "汉阳亭侯"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。刘表后妻蔡氏之兄。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "reviewed",
+ "summary": "蔡瑁，群雄武将，荆州大将、镇南将军军师。蔡瑁大怒，喝令左右推出斩之。",
+ "bio": "蔡瑁字德珪，襄阳人。刘表后妻蔡氏之兄，为荆州大将，统领水军。孙坚围襄阳，刘表令蒯越、蔡瑁引兵一万截孙坚归路，蔡瑁与黄盖交战，被黄盖一鞭正中护心镜，拨马而走。后蔡瑁引军万余出襄阳城外于岘山布阵，为孙坚所败，逃入襄阳；蒯良言其不听良策以致大败，按军法当斩，刘表以新娶其妹不肯加刑。刘表死后，蔡瑁与张允立刘琮为嗣，力主降曹。曹操得荆州，蔡瑁为从事中郎、司马，封汉阳亭侯。曹操尝谓「吾不喜得荆州，喜得蒯异度」，对蔡瑁则薄其为人。演义写其「襄阳人蔡瑁为辅」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "荆州大将、镇南将军军师",
+   "lord_id": "liu_biao",
+   "basis": "刘表妻兄，统领荆州水军，以军事指挥为主归武将；208 年随刘琮降曹操。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 215,
+   "title": "从事中郎、司马、汉阳亭侯",
+   "basis": "208 年降曹操，为从事中郎、司马；卒年不详，暂记至建安二十年（215）。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "截击孙坚",
+   "description": "与蒯越引兵一万截孙坚归路，被黄盖一鞭打中护心镜。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "岘山之败",
+   "description": "引军出襄阳城外列阵，为孙坚所败，蒯良请斩之，刘表以其妹故不加刑。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "立琮降曹",
+   "description": "刘表死后与张允立刘琮为嗣，力主降曹操，封汉阳亭侯。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 76
+}

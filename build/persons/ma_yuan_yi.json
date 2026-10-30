@@ -1,0 +1,29 @@
+{
+ "id": "ma_yuan_yi",
+ "name": "马元义",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "马元义，群雄武将，黄巾渠帅。召大将军何进调兵擒马元义，斩之；次收封谞等一干人下狱。",
+ "bio": "原文第 1 回相关片段：「豫八州之人，家家侍奉大贤良师张角名字。角遣其党马元义，暗赍金帛，结交中涓封谞，以为内应。角与二弟商议」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄巾渠帅",
+   "basis": "第一回原文：角遣其党马元义，暗赍金帛，结交中涓封谞，以为内应。 职任「黄巾渠帅」据此；★任期按末见回目收敛：全书最后一次提及在第 1 回（184 年），原 184—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

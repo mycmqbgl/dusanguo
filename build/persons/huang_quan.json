@@ -1,0 +1,75 @@
+{
+ "id": "huang_quan",
+ "name": "黄权",
+ "courtesy": "公衡",
+ "display_aliases": [
+  "益州从事中郎",
+  "镇北将军"
+ ],
+ "birth": null,
+ "death": 240,
+ "date_precision": "approx",
+ "date_note": "史载卒于正始元年（240）。生年无载。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "reviewed",
+ "summary": "黄权，字公衡，巴西阆中人，先事刘璋，后事刘备，夷陵后归魏。",
+ "bio": "黄权，字公衡，巴西阆中人。初为刘璋主簿，谏迎刘备不听；刘备取益州后用为将军。夷陵之役黄权督江北军，刘备败，归路断，遂率众降魏，魏文帝以为镇南将军。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "益州牧刘璋主簿、广汉长",
+   "lord_id": "liu_zhang",
+   "basis": "谏璋勿迎刘备不听，出为广汉长。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "主簿"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 222,
+   "title": "偏将军、治中从事、镇北将军",
+   "lord_id": "liu_bei",
+   "basis": "备定益州亲请降之，伐吴时督江北军。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 240,
+   "title": "镇南将军、车骑将军、仪同三司",
+   "lord_id": "cao_pi",
+   "basis": "猇亭道绝降魏，丕拜镇南将军，累迁车骑将军。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "谏璋勿迎备",
+   "description": "主簿任上力谏刘璋勿迎刘备入川，璋不听。",
+   "importance": 2
+  },
+  {
+   "year": 221,
+   "title": "谏备勿伐吴",
+   "description": "请为先驱、陛下为后镇，备不听，出督江北军。",
+   "importance": 2
+  },
+  {
+   "year": 222,
+   "title": "降魏不还蜀",
+   "description": "猇亭败后归蜀水道被断，率众降魏；备不罪其妻子。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 30
+}

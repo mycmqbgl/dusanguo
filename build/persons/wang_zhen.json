@@ -1,0 +1,29 @@
+{
+ "id": "wang_zhen",
+ "name": "王真",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "王真，曹魏武将，魏将。不十合，佥卖个破绽，王真便挺枪来刺；傅佥闪过，活捉真于马上，便回本阵。",
+ "bio": "第 112 回：王真被蜀军乱枪刺死。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 254,
+   "end_year": 254,
+   "title": "魏将",
+   "basis": "第一百十二回原文：言未毕，望背后王真挺枪出马，蜀阵中傅佥出迎。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 254—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

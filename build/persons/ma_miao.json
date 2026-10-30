@@ -1,0 +1,29 @@
+{
+ "id": "ma_miao",
+ "name": "马邈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 117,
+ "review_status": "auto_mined",
+ "summary": "马邈，蜀汉武将，江油守将。说江油城守将马邈，闻东川已失，虽为准备，只是提防大路；又仗着姜维全师守住剑阁关，遂将军情不以为重。",
+ "bio": "原文第 117 回相关片段：「却说江油城守将马邈，闻东川已失，虽为准备，只是提防大路；又仗着姜维」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "江油守将",
+   "basis": "第117回江油城守将马邈闻东川已失，提防不严，邓艾遂得江油。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

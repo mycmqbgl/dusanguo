@@ -1,0 +1,71 @@
+{
+ "id": "xuzhou_yi_shou",
+ "name": "下邳夜袭",
+ "year": 196,
+ "date_text": "建安元年（196）",
+ "place_id": "xu_zhou",
+ "event_id": "lv_bu_xi_xuzhou",
+ "belligerents": [
+  {
+   "side": "吕布军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "lv_bu",
+    "gao_shun"
+   ],
+   "troops_desc": "五百骑为先导，大军继后"
+  },
+  {
+   "side": "刘备军（张飞守城）",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "zhang_fei"
+   ],
+   "troops_desc": "醉酒失备"
+  }
+ ],
+ "result": "下邳失守，徐州易主，刘备家小陷落",
+ "casualties_note": "曹豹出城接应被张飞刺死。",
+ "summary": "张飞醉酒鞭曹豹，豹引吕布夜袭下邳；飞醉不能战，弃城而走——刘备半生基业一夜易手。",
+ "detail": "张飞守徐州，醉后逼曹豹饮酒，豹以女婿吕布求饶，飞怒鞭五十。豹连夜修书吕布，劝其乘备出、飞醉袭下邳。布夜率五百骑先至，喊声举火，飞醉卧未醒，左右拽起出城，家小尽陷。布据徐州，自领州事。",
+ "front_line": [
+  {
+   "time": 196,
+   "time_seq": 1,
+   "kind": "内应",
+   "label": "豹修书布",
+   "desc": "张飞醉鞭曹豹，豹连夜书吕布约袭。",
+   "lng": 117.21,
+   "lat": 34.28,
+   "pixel_x": 925.9,
+   "pixel_y": 448.6
+  },
+  {
+   "time": 196,
+   "time_seq": 2,
+   "kind": "夜袭",
+   "label": "布入下邳",
+   "desc": "布五百骑先入，举火呐喊，飞醉卧不醒。",
+   "lng": 117.18,
+   "lat": 34.26,
+   "pixel_x": 924.7,
+   "pixel_y": 449.5
+  },
+  {
+   "time": 196,
+   "time_seq": 3,
+   "kind": "易主",
+   "label": "徐州易手",
+   "desc": "飞弃城走，备家小陷落，布自领州事。",
+   "lng": 117.13,
+   "lat": 34.23,
+   "pixel_x": 922.7,
+   "pixel_y": 450.9
+  }
+ ],
+ "place_name": "徐州"
+}

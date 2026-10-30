@@ -1,0 +1,63 @@
+{
+ "id": "huan_jie",
+ "name": "桓阶",
+ "courtesy": "伯绪",
+ "display_aliases": [
+  "军吏",
+  "尚书令",
+  "安乐乡侯"
+ ],
+ "birth": null,
+ "death": 221,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于黄初二年（221）。演义第七回以「军吏」出场。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "桓阶，群雄文臣，军吏、功曹。桓阶拜谢欲行，阶下蒯良出曰：\"不可。",
+ "bio": "桓阶字伯绪，长沙临湘人。孙坚战死岘山，黄祖被擒于长沙城下，双方相持，孙策言「得一人入城讲和，将黄祖去换主公尸首」，军吏桓阶出曰「某与刘表有旧，愿入城为使」，策许之。阶入城见刘表，陈「孙坚尸首木盛贮在此，可速放回黄祖，两家各罢兵」，表义而许之；蒯良谏「今江东诸军片甲不回，请先斩桓阶然后用计」，表不听，放阶归。史实桓阶仕孙坚为功曹，坚死冒难诣表乞丧；后佐长沙太守张羡拒刘表，曹操定荆州后辟为丞相掾主簿，累迁尚书令，封安乐乡侯。演义仅此一见，故史实部分以 bio 注记。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 191,
+   "title": "军吏、功曹",
+   "lord_id": "sun_jian",
+   "basis": "演义第七回以「军吏」身份为孙坚乞尸，史实为孙坚功曹；孙坚死后仍归长沙一系。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 221,
+   "title": "丞相掾主簿、尚书、尚书令、安乐乡侯",
+   "basis": "史实：曹操定荆州（208）后归曹，魏文帝时任尚书令，卒于黄初二年。演义未写，按史实补记。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "乞尸换俘",
+   "description": "孙坚战死，自请入长沙城说刘表，以黄祖换回孙坚尸首。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "归曹操",
+   "description": "史实：曹操定荆州，辟为丞相掾主簿，自此入魏仕途。",
+   "importance": 2
+  },
+  {
+   "year": 220,
+   "title": "官至尚书令",
+   "description": "史实：曹丕即位后累迁尚书令，封安乐乡侯。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 9
+}

@@ -1,0 +1,63 @@
+{
+ "id": "yue_jin",
+ "name": "乐进",
+ "courtesy": "文谦",
+ "display_aliases": [
+  "右将军",
+  "广昌亭侯",
+  "五子良将"
+ ],
+ "birth": null,
+ "death": 218,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安二十三年（218）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "乐进，群雄武将，司马、陷阵都尉。右将军阎宇，身无寸功，只因阿附黄皓，遂得重爵；闻姜维统兵在祁山，乃说皓奏后主曰：姜维屡战无功，可命阎宇代之。",
+ "bio": "乐进字文谦，阳平卫国人。演义第六回曹操追董卓，自引兵万余领夏侯惇、夏侯渊、曹仁、曹洪、李典、乐进星夜来赶，荥阳败后随曹仁、李典各引兵寻到曹操，聚残兵同回河内。史实乐进容貌短小，胆烈而每战先登，从击吕布、张绣、袁绍，斩淳于琼、斩严敬，守合肥与张辽、李典共破孙权十万之众，官至右将军，封广昌亭侯，与张辽、张郃、于禁、徐晃并称五子良将。建安二十三年卒，谥威侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 196,
+   "title": "司马、陷阵都尉",
+   "lord_id": "cao_cao",
+   "basis": "演义第六回（190）随曹操追董卓，为部将；此时曹操未建号，属群雄之一。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 218,
+   "title": "讨寇校尉、折冲将军、右将军、广昌亭侯",
+   "basis": "196 年曹魏势力形成后为曹操主将，五子良将之一；218 年卒，谥威侯。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "追董卓",
+   "description": "随曹操自引兵万余星夜追赶董卓，荥阳败后聚残兵回河内。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "史实：官渡斩淳于琼",
+   "description": "官渡之战袭乌巢，阵斩袁绍粮官淳于琼。",
+   "importance": 3
+  },
+  {
+   "year": 215,
+   "title": "史实：合肥破吴",
+   "description": "与张辽、李典共守合肥，大破孙权十万大军。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 56
+}

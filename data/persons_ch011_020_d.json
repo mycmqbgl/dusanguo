@@ -1,0 +1,109 @@
+{
+ "comment": "第11–20回批产 D：补遗（曹豹、王子服）。2026-10-27。",
+ "persons": [
+  {
+   "id": "cao_bao",
+   "name": "曹豹",
+   "courtesy": null,
+   "match_surfaces": [
+    "曹豹",
+    "豹"
+   ],
+   "display_aliases": [
+    "车骑将军（吕布岳丈）"
+   ],
+   "birth": null,
+   "death": 196,
+   "date_precision": "approx",
+   "date_note": "演义第十四回（约 196）张飞醉后鞭之，豹连夜书吕布袭徐州，逃城时被张飞一枪刺死。生年不详。",
+   "gender": "male",
+   "first_chapter": 10,
+   "review_status": "reviewed",
+   "summary": "曹豹，群雄武将，部将、下邳相。说曹豹见张飞只十数人护从，又欺他醉，遂引百十人赶来。",
+   "bio": "曹豹，陶谦旧部。刘备领徐州后屯小沛守卫；张飞守徐州醉辱曹豹，豹求饶曰「看我女婿之面」——其女为吕布次妻。张飞怒鞭豹五十，豹怀恨，连夜修书吕布，劝其夜袭徐州。布袭徐州，豹出城接应，被张飞一枪刺死（演义）。史载曹豹为下邳相，为张飞所杀。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 194,
+     "end_year": 196,
+     "title": "部将、下邳相",
+     "lord_id": "liu_bei",
+     "basis": "陶谦旧部，刘备领徐州后属之。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 194,
+     "title": "属刘备",
+     "description": "陶谦旧部，刘备领徐州后为部将。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "醉遭张飞鞭",
+     "description": "张飞醉酒鞭豹五十，豹求饶以吕布女婿之面。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "书布袭徐州",
+     "description": "连夜修书吕布，劝其夜袭徐州；出城接应时被张飞刺死。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生年不详｜演：第十四回（约 196）张飞醉后鞭之，豹连夜书吕布袭徐州，逃城时被张飞一枪刺死"
+  },
+  {
+   "id": "wang_zifu",
+   "name": "王服",
+   "courtesy": "子服",
+   "match_surfaces": [
+    "王子服",
+    "王服",
+    "子服"
+   ],
+   "display_aliases": [
+    "王子服",
+    "王侍郎"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）衣带诏事泄，与董承等同被诛。生年不详。",
+   "gender": "male",
+   "first_chapter": 20,
+   "review_status": "reviewed",
+   "summary": "王子服，东汉文臣，侍郎。王子服从屏后出曰：汝二人欲杀曹丞相。",
+   "bio": "王子服，字子服（演义署工部侍郎；史为王服，长水校尉），衣带诏受诏人之一。建安四年与董承、吴子兰、种辑、吴硕等接诏，马腾、刘备亦与盟。建安五年事泄，与董承等同日被诛三族。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "侍郎",
+     "basis": "汉臣，受衣带诏。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 199,
+     "title": "受衣带诏",
+     "description": "与董承等接献帝血诏，歃血为盟。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "事泄被诛",
+     "description": "衣带诏事泄，与董承同日族诛。",
+     "importance": 3
+    }
+   ]
+  }
+ ]
+}

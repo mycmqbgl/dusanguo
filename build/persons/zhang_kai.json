@@ -1,0 +1,51 @@
+{
+ "id": "zhang_kai",
+ "name": "张闿",
+ "courtesy": null,
+ "display_aliases": [
+  "都尉"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。本为黄巾余党。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "张闿，群雄武将，都尉。都尉杨奉大怒，谓宋果曰：吾等出生入死，身冒矢石，功反不及女巫耶。",
+ "bio": "张闿，本为黄巾余党，勉强降顺陶谦，为都尉。曹操遣应劭往琅琊迎父曹嵩，陶谦欲结好曹操，特差都尉张闿将部兵五百护送。曹嵩行到华、费间，大雨骤至，投一古寺歇宿，张闿将军马屯于两廊，众军衣装皆被雨打湿，同声嗟怨。张闿唤手下头目于静处商议曰「我们本是黄巾余党，勉强降顺陶谦，未有好处。如今曹家辎重车辆无数，你们欲得富贵不难，只就今夜三更大家砍将入去，把曹嵩一家杀了，取了财物，同往山中落草」。是夜风雨未息，曹德提剑出看被搠死，曹嵩与一妾躲于厕中被乱军所杀。张闿杀尽曹嵩全家，放火烧寺，与五百人逃奔淮南。此事为曹操屠徐州的直接导火索。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 193,
+   "title": "都尉",
+   "lord_id": "tao_qian",
+   "basis": "陶谦部将，都尉为武职，以军事为主归武将；193 年杀曹嵩后奔淮南，此后不在演义主线。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "奉命护送曹嵩",
+   "description": "陶谦欲结好曹操，差张闿将部兵五百护送曹嵩。",
+   "importance": 2
+  },
+  {
+   "year": 193,
+   "title": "见财起意",
+   "description": "与众头目商议夜三更砍入，杀曹嵩一家取财物落草。",
+   "importance": 3
+  },
+  {
+   "year": 193,
+   "title": "杀嵩全家",
+   "description": "曹德被搠死，曹嵩与妾躲厕中被杀，张闿放火烧寺奔淮南。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 8
+}

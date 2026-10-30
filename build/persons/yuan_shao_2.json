@@ -1,0 +1,29 @@
+{
+ "id": "yuan_shao_2",
+ "name": "爰邵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "爰邵，曹魏武将，护卫。第 116 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 116 回相关片段：「势上涌。须臾惊觉，浑身汗流；遂坐而待旦，乃召护卫爰邵问之。邵素明《周易》，艾备言其梦，邵答曰：“《易」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "护卫",
+   "basis": "第116回邓艾夜梦登山见泉，召护卫爰邵问之，邵素明《周易》，为解其梦。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "chen_sheng",
+ "name": "陈生",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "auto_mined",
+ "summary": "陈生，群雄武将，部将。骑相交，战二十余合，陈生见张虎力怯，飞马来助。",
+ "bio": "第 7 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 229,
+   "basis": "第7回黄祖引二将出马：江夏张虎、襄阳陈生。陈生为刘表部将。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "部将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

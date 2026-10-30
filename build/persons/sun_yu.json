@@ -1,0 +1,29 @@
+{
+ "id": "sun_yu",
+ "name": "孙瑜",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 57,
+ "review_status": "auto_mined",
+ "summary": "孙瑜，孙吴武将，孙权弟。正恨间，人报吴侯遣弟孙瑜到。",
+ "bio": "第 57 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "孙权弟",
+   "basis": "第五十七回原文：正恨间，人报吴侯遣弟孙瑜到。 职任「孙权弟」据此；★任期按末见回目收敛：全书最后一次提及在第 57 回（211 年），原 211—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

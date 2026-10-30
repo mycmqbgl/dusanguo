@@ -1,0 +1,29 @@
+{
+ "id": "liu_mi",
+ "name": "刘泌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 36,
+ "review_status": "auto_mined",
+ "summary": "刘泌，东汉武将，长沙人，汉室宗亲，樊城县令。刘泌乃长沙人，亦汉室宗亲，遂请玄德到家，设宴相待。",
+ "bio": "。第 36 回：刘泌欣然从之，遂使寇封拜玄德为父，改名刘封。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "长沙人，汉室宗亲，樊城县令",
+   "basis": "第三十六回原文：刘泌欣然从之，遂使寇封拜玄德为父，改名刘封。 职任「长沙人，汉室宗亲，樊城县令」据此；★任期按末见回目收敛：全书最后一次提及在第 36 回（208 年），原 208—220 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

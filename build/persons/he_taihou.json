@@ -1,0 +1,51 @@
+{
+ "id": "he_taihou",
+ "name": "何太后",
+ "display_aliases": [
+  "何后",
+  "何太后",
+  "灵思皇后"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）董卓入京后被害。",
+ "gender": "female",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "何太后，东汉女眷，贵人、皇后、皇太后。何后亦怒曰：吾以好言相劝，何反怒耶。",
+ "bio": "何太后，南阳宛人，出身屠家，因入宫为贵人生皇子辩而立为皇后。性妒，鸩杀王美人。灵帝崩，子辩即位，尊为太后，临朝听政。兄何进谋诛宦官，太后屡止之，曰「中官统领禁省，汉家故事」，又念张让等旧恩，不肯尽诛。何进召外兵入京，事机泄露，张让等伏甲斩进于嘉德门内。董卓入京，废少帝，迁太后于永安宫，旋被害。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 180,
+   "end_year": 189,
+   "title": "贵人、皇后、皇太后",
+   "basis": "女性归女眷（决策 #8.3），太后亦在其内；不归「亲族」，因亲族仅收男性（决策 #8.2）。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 180,
+   "title": "立为皇后",
+   "description": "生皇子辩，遂立为皇后；鸩杀王美人。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "临朝称制",
+   "description": "子辩即位，尊为太后，与董太后争权。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "兄死于宫变",
+   "description": "张让等伏甲斩何进，袁绍等入宫尽诛宦官。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 17
+}

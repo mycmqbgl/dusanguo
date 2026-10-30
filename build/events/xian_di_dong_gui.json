@@ -1,0 +1,99 @@
+{
+ "id": "xian_di_dong_gui",
+ "name": "献帝东归",
+ "kind": "政治事件",
+ "start_year": 195,
+ "end_year": 196,
+ "date_text": "兴平二年—建安元年（195–196）",
+ "summary": "李傕郭汜相攻，献帝与伏皇后随驾东归，杨奉董承韩暹等血战护驾；至洛阳宫室尽毁，曹操迎天子都许——「挟天子以令诸侯」自此始。",
+ "detail": "李傕郭汜相攻数月，长安化为丘墟；杨奉、董承等护献帝东归，傕汜追击，东涧、曹阳血战，百官士卒死者不可胜数。渡黄河至安邑、洛阳，宫室尽毁，百官采野菜充饥。董承召曹操入朝制衡韩暹，操遂迎天子移驾许都——自此挟天子以令诸侯，汉室名存实亡。",
+ "place_id": "luo_yang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "liu_xie",
+   "role_desc": "献帝，随驾东归受尽颠沛"
+  },
+  {
+   "person_id": "li_jue",
+   "role_desc": "劫帝、追击"
+  },
+  {
+   "person_id": "guo_si",
+   "role_desc": "劫公卿，与傕相攻"
+  },
+  {
+   "person_id": "dong_cheng",
+   "role_desc": "护驾东归，后召曹操"
+  },
+  {
+   "person_id": "yang_feng",
+   "role_desc": "白波帅，血战护驾"
+  },
+  {
+   "person_id": "han_xi",
+   "role_desc": "护驾有功拜大将军，后专权"
+  },
+  {
+   "person_id": "duan_wei",
+   "role_desc": "华阴迎驾献衣粮"
+  },
+  {
+   "person_id": "fu_huanghou",
+   "role_desc": "伏皇后随驾受苦"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "迎天子移驾许都"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 195,
+   "title": "傕汜相攻",
+   "description": "李傕郭汜相攻数月，长安化为丘墟。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "东涧血战",
+   "description": "杨奉董承护驾东归，傕汜追击，东涧曹阳血战。",
+   "importance": 3
+  },
+  {
+   "year": 195,
+   "title": "北渡黄河",
+   "description": "帝后徒步过河至安邑，采野菜充饥。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "还洛阳",
+   "description": "洛阳宫室尽毁，百官无以为居。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "董承召操",
+   "description": "韩暹专权，承密召曹操入朝。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "移驾许都",
+   "description": "操迎天子都许，挟天子以令诸侯自此始。",
+   "importance": 3
+  }
+ ],
+ "passage_ids": [
+  13006,
+  13006,
+  13024,
+  13026,
+  14006,
+  14012
+ ],
+ "battle_ids": [
+  "dong_gui_hu_jia"
+ ]
+}

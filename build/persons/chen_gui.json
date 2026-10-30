@@ -1,0 +1,68 @@
+{
+ "id": "chen_gui",
+ "name": "陈珪",
+ "courtesy": "汉瑜",
+ "display_aliases": [
+  "沛相"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "approx",
+ "date_note": "卒年史无明文，约官渡前后（200 前后）卒；演义中活跃至第十七回。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "陈珪，字汉瑜，徐州名士，陈登之父，助曹操破吕布。",
+ "bio": "陈珪，字汉瑜，下邳淮浦人，陈登之父，汉末名士。刘备领徐州时用为从事。吕布据徐州，欲使子陈登结袁术，陈珪止之，与子陈登共谋为曹操内应，助操破吕布于下邳。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 198,
+   "title": "沛相",
+   "lord_id": "lv_bu",
+   "basis": "吕布据徐州时期。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 198,
+   "end_year": 200,
+   "title": "沛相",
+   "basis": "吕布灭后归曹；约官渡前后卒。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "绝袁术婚",
+   "description": "袁术为子求婚于吕布，珪说布绝婚，并间术布之交。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "破术七路军",
+   "description": "袁术七路伐徐州，珪献策令韩暹杨奉倒戈，术军大败。",
+   "importance": 3
+  },
+  {
+   "year": 198,
+   "title": "同灭吕布",
+   "description": "从曹操围下邳，布灭，为沛相。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "约卒",
+   "description": "史无明文，约官渡前后卒。",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：卒年史无明文，约官渡前后（200 前后）卒｜演：活跃至第十七回",
+ "mention_count": 16
+}

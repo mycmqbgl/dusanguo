@@ -1,0 +1,29 @@
+{
+ "id": "zhang_jun_2",
+ "name": "张钧",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "张钧，东汉文臣，郎中。帝令武士逐出张钧。",
+ "bio": "官职「郎中」据原文上下文提取。原文第 2 回相关片段：「日久，不得除授，三人郁郁不乐，上街闲行，正值郎中张钧车到。玄德见之，自陈功绩。钧大惊，随入朝见帝曰：」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "郎中",
+   "basis": "第2回郎中张钧车到，刘备自陈功绩；钧入朝谏灵帝诛十常侍。 184 年郎中张钧入朝谏灵帝诛十常侍。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

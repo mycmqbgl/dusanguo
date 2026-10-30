@@ -1,0 +1,29 @@
+{
+ "id": "zheng_mao",
+ "name": "郑袤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 110,
+ "review_status": "auto_mined",
+ "summary": "郑袤，曹魏文臣，光禄勋。禄勋郑袤曰：毌丘俭好谋而无断，文钦有勇而无智。",
+ "bio": "官职「光禄勋」据原文上下文提取。原文第 110 回相关片段：「之地。师领大军屯于襄阳，聚文武于帐下商议。光禄勋郑袤曰：“毌丘俭好谋而无断，文钦有勇而无智。今大军出」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "光禄勋",
+   "basis": "第110回司马师屯襄阳，聚文武商议，光禄勋郑袤进言毌丘俭好谋无断。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

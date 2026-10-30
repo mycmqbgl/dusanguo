@@ -1,0 +1,38 @@
+{
+ "id": "han_meng",
+ "name": "韩猛",
+ "display_aliases": [
+  "袁绍运粮将"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。官渡护粮被劫后事迹无考（史或谓即韩荀，为曹仁所破于鸡洛山）。",
+ "gender": "male",
+ "first_chapter": 30,
+ "review_status": "reviewed",
+ "summary": "韩猛，群雄武将，袁绍运粮将。说韩猛败军还营，绍大怒，欲斩韩猛，众官劝免。",
+ "bio": "韩猛，袁绍运粮将，性刚而轻敌。建安五年官渡相持，袁绍遣其运粮，谋士荀攸言于曹操：「韩猛匹夫之勇，轻于其一，可截击之。」操遣徐晃、史涣抄小路截击，韩猛大败，粮草尽被焚毁，袁军自此乏粮，遂有许攸献乌巢之计。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "袁绍运粮将",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将，护运粮草。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "运粮被劫",
+   "description": "护粮为徐晃史涣劫烧，袁军自此乏粮。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 8
+}

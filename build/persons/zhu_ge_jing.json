@@ -1,0 +1,29 @@
+{
+ "id": "zhu_ge_jing",
+ "name": "诸葛靓",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "诸葛靓，孙吴武将，右将军。诸葛靓亦垂泣而去。",
+ "bio": "。第 111 回：于是吴纲将诸葛靓至石头城，入拜孙綝。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "右将军",
+   "basis": "第111回诸葛诞送子诸葛靓入吴为质求援；第120回为吴右将军，领兵拒晋。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

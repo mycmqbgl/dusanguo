@@ -1,0 +1,29 @@
+{
+ "id": "wang_qi",
+ "name": "王颀",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 9,
+ "review_status": "auto_mined",
+ "summary": "王颀，东汉武将，越骑校尉。第 9 回一笔带过，事迹仅存其名。",
+ "bio": "。第 9 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 192,
+   "end_year": 192,
+   "title": "越骑校尉",
+   "basis": "第9回李傕郭汜纵兵大掠，越骑校尉王颀与种拂等皆死于国难。 192 年李傕郭汜之乱，越骑校尉王颀死于国难。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

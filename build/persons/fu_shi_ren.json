@@ -1,0 +1,54 @@
+{
+ "id": "fu_shi_ren",
+ "name": "傅士仁",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 73,
+ "review_status": "auto_mined",
+ "summary": "傅士仁，孙吴武将，南郡太守。傅士仁慨然领诺，遂引十余骑，径投南郡招安糜芳。",
+ "bio": "第 73 回：云长入城，召傅士仁、糜芳责之曰：吾令汝二人作先锋，不曾出师，先将许多军器粮草烧毁，火炮打死本部军人。第 75 回：傅士仁听知荆州有失，急令闭城坚守。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 222,
+   "title": "南郡太守",
+   "basis": "第七十三回原文：云长急披挂上马，出城看时，乃是傅士仁、糜芳饮酒，帐后遗火，烧着火炮，满营撼动，把军器粮草，尽。 职任「南郡太守」据此；★任期按末见回目收敛：全书最后一次提及在第 83 回（222 年），原 219—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "第 73 回",
+   "description": "王甫曰：“糜芳、傅士仁守二隘口，恐不竭力；必须再得一人以总督荆州",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 75 回",
+   "description": "曰：“仲翔有何良策，可使傅士仁归降",
+   "importance": 1
+  },
+  {
+   "year": 219,
+   "title": "第 76 回",
+   "description": "大惊，乃同傅士仁出城投降",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 83 回",
+   "description": "忠引傅士仁、糜芳于江渚屯扎",
+   "importance": 1
+  }
+ ],
+ "mention_count": 25
+}

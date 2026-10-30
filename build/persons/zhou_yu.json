@@ -1,0 +1,85 @@
+{
+ "id": "zhou_yu",
+ "name": "周瑜",
+ "courtesy": "公瑾",
+ "display_aliases": [
+  "大都督",
+  "南郡太守"
+ ],
+ "birth": 175,
+ "death": 210,
+ "date_precision": "exact",
+ "date_note": "史载建安十五年（210）病卒于巴丘，年三十六。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "周瑜，群雄武将，居巢长。公瑾心怀妒忌，又要寻事害亮。",
+ "bio": "周瑜字公瑾，庐江舒人，从祖景为太尉。长壮有姿貌，精音律，时人语曰「曲有误，周郎顾」。与孙策同年，总角之好，升堂拜母。策东渡，瑜以丹阳精兵相助，遂定江东，拜建威中郎将，时年二十四，吴中皆呼周郎。策欲取荆州，以瑜为中护军领江夏太守。策卒，与张昭共辅孙权。建安十三年曹操下江南，瑜力主拒战，与刘备联军火攻赤壁，大破曹军。进围南郡，中箭伤；曹仁退走后拜偏将军领南郡太守。建议西取巴蜀，还江陵治行装，道于巴丘病卒，年三十六。权素服举哀，曰「公瑾有王佐之资，今忽短命，孤何赖哉」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 195,
+   "title": "居巢长",
+   "basis": "袁术欲以为将，瑜求为居巢长借道东归。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 210,
+   "title": "建威中郎将、中护军领江夏太守、偏将军领南郡太守、大都督",
+   "basis": "195 年以兵助孙策渡江。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "结好孙策",
+   "description": "与孙策总角之好，升堂拜母，通家之谊。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "助策渡江",
+   "description": "以丹阳精兵及粮船助孙策东渡，遂定江东。",
+   "importance": 3
+  },
+  {
+   "year": 198,
+   "title": "归吴拜将",
+   "description": "自居巢还吴，拜建威中郎将，时年二十四，吴中皆呼周郎。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "辅佐孙权",
+   "description": "策卒，与张昭共事孙权，为中护军。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "赤壁破曹",
+   "description": "力主拒曹，与刘备联军，火攻大破曹军于赤壁。",
+   "importance": 3
+  },
+  {
+   "year": 209,
+   "title": "力取南郡",
+   "description": "围攻曹仁岁余，中箭伤，卒破之，拜南郡太守。",
+   "importance": 2
+  },
+  {
+   "year": 210,
+   "title": "殁于巴丘",
+   "description": "建议取蜀，还江陵治装，道于巴丘病卒，年三十六。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 296
+}

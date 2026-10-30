@@ -1,0 +1,33 @@
+{
+ "id": "mengda_zhifubing",
+ "name": "司马懿克日擒孟达",
+ "kind": "征伐",
+ "start_year": 228,
+ "end_year": 228,
+ "date_text": "太和二年（228）",
+ "summary": "孟达谋归蜀，司马懿未奏先斩、八日急行军，克日破新城，达死乱军。",
+ "detail": "孟达降魏复通蜀，约孔明同时并举。亮以书戒其慎防司马懿，达笑懿非急者。懿闻讯，一面发书稳达、一面大军倍道兼行，八日而至新城，昼夜急攻。达外应内绝，申仪泄其谋，李辅开门，达死于乱军。亮闻之叹：大事去矣。此役为亮一伐之先声受挫。",
+ "place_id": "c_益州_新城郡_房陵",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "sim_yi",
+   "role_desc": "未奏先斩，八日擒孟达"
+  },
+  {
+   "person_id": "meng_da",
+   "role_desc": "谋叛事泄，困守新城而死"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "约达并举，书戒其慎"
+  }
+ ],
+ "passage_ids": [
+  94009,
+  94010,
+  94008,
+  94009
+ ],
+ "battle_ids": []
+}

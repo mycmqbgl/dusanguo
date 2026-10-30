@@ -1,0 +1,46 @@
+{
+ "id": "wang_xiu",
+ "name": "王修",
+ "faction": "yuan",
+ "faction_id": "shu",
+ "role": "文臣",
+ "de_facto_start": 196,
+ "tenure": [
+  {
+   "faction": "yuan",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 205,
+   "title": "袁谭别驾",
+   "faction_id": "warlord",
+   "basis": "第31回：袁谭别驾王修。袁谭败亡，王修收葬其尸，曹操义而用之。"
+  },
+  {
+   "faction": "wei",
+   "role": "文臣",
+   "start_year": 205,
+   "end_year": 220,
+   "title": "司空掾、魏郡太守",
+   "lord_id": "cao_cao",
+   "faction_id": "wei",
+   "basis": "第31回：曹操以王修为司空掾，后为魏郡太守。"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 204,
+   "title": "哀谭赴难",
+   "description": "袁谭死，修乞收谭尸，操义之。",
+   "importance": 2
+  }
+ ],
+ "summary": "王修，字叔治，北海营陵人，先为袁谭别驾，后仕魏为司空掾、魏郡太守。",
+ "confidence": 0.8,
+ "review_status": "reviewed",
+ "gender": "男",
+ "date_precision": "unknown",
+ "first_chapter": 32,
+ "bio": "王修，字叔治，北海营陵人。初为袁谭别驾，谏谭勿与袁尚相攻不听。曹操破谭于南皮后，王修乞收谭尸而哭之，操义其忠，署为司空掾，行司金中郎将，后迁魏郡太守。为政抑强扶弱，赏罚分明。演义中又载其议阻厚葬、直言敢谏之事。",
+ "date_note": "生卒年史书未详载，演义亦无。",
+ "mention_count": 6
+}

@@ -1,0 +1,29 @@
+{
+ "id": "si_ma_wang",
+ "name": "司马望",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "司马望，曹魏文臣，魏长城守将，司马昭族兄。第 112 回一笔带过，事迹仅存其名。",
+ "bio": "。第 113 回：司马望引兵离了渭南，径到祁山之前，出马与姜维答话。第 113 回：邓艾、司马望知姜维中计，遂拔渭南之兵，随后掩杀。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 254,
+   "end_year": 264,
+   "title": "魏长城守将，司马昭族兄",
+   "basis": "第一百十二回原文：却说长城镇守将军司马望，乃司马昭之族兄也。 职任「魏长城守将，司马昭族兄」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 254—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 33
+}

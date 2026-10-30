@@ -1,0 +1,45 @@
+{
+ "id": "gongsun_yue",
+ "name": "公孙越",
+ "courtesy": null,
+ "display_aliases": [
+  "公孙瓒从弟"
+ ],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详。初平二年（191）为假扮董卓家将的袁绍军乱箭射死。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "公孙越，群雄武将，从将。第 7 回一笔带过，事迹仅存其名。",
+ "bio": "公孙越，公孙瓒从弟。公孙瓒知袁绍已据冀州，遣越来见绍，欲分其地，绍曰「可请汝兄自来，吾有商议」，越辞归。行不数里，闪出一彪军马，口称「我乃董丞相家将也」，乱箭射死公孙越，从人逃回报瓒，瓒大怒曰「袁绍诱我起兵攻韩馥，却又不还城，今又与术合谋袭我弟，此仇不报，誓不为人」，遂起兵攻绍，磐河界桥之战自此而始。假扮家将实为袁绍授意，借刀杀人而不留把柄，正是袁绍手段。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "从将",
+   "lord_id": "gongsun_zan",
+   "basis": "公孙瓒从弟、部将；191 年死于袁绍伏兵。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "奉使见袁绍",
+   "description": "奉公孙瓒命往见袁绍求分冀州，绍曰「可请汝兄自来」，辞归。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "乱箭殒命",
+   "description": "归途遇假扮「董丞相家将」的绍军，乱箭射死，磐河之战因此而起。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

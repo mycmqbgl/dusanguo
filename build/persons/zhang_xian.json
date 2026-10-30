@@ -1,0 +1,29 @@
+{
+ "id": "zhang_xian",
+ "name": "张先",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "张先，群雄武将。三合，许褚斩张先于马下，绣军大败。",
+ "bio": "原文第 17 回相关片段：「知操引兵来，急发书报刘表，使为后应；一面与雷叙、张先二将领兵出城迎敌。两阵对圆，张绣出马，指操骂曰：」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 229,
+   "basis": "第17回张绣与雷叙、张先二将领兵出城迎敌曹操。张绣自据宛城，属群雄。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

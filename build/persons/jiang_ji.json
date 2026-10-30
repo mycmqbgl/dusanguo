@@ -1,0 +1,29 @@
+{
+ "id": "jiang_ji",
+ "name": "蒋济",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 75,
+ "review_status": "auto_mined",
+ "summary": "蒋济，曹魏文臣，曹军主簿。急令太尉蒋济、尚书令司马孚，一同写表，遣黄门赍出城外，径至帝前申奏。",
+ "bio": "第 75 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 239,
+   "title": "曹军主簿",
+   "basis": "第七十五回原文：主簿蒋济曰：“仲达之言是也。 职任「曹军主簿」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 219—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

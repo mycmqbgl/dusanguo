@@ -1,0 +1,62 @@
+{
+ "id": "cao_fang",
+ "name": "曹芳",
+ "courtesy": "兰卿",
+ "display_aliases": [
+  "魏少帝",
+  "魏齐王"
+ ],
+ "birth": 232,
+ "death": 274,
+ "date_precision": "approx",
+ "date_note": "史载生于太和六年（232，一说 233），卒于泰始十年（274）。正始元年（240）即位，嘉平六年（254）为司马师所废。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "reviewed",
+ "summary": "曹芳，魏明帝养子，在位十五年。嘉平六年（254）为司马师所废，降复齐王。",
+ "bio": "曹芳，字兰卿，魏明帝曹叡养子，青龙三年立为齐王，景初三年即位，年八岁。在位期间曹爽、司马懿共辅，正始十年高平陵之变后政权尽归司马氏。嘉平六年（254）中书令李丰等谋以夏侯玄辅政，事泄，司马师遂废曹芳，「当纳下玺绶，复齐王之爵」，迎立高贵乡公曹髦。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "皇帝",
+   "start_year": 239,
+   "end_year": 254,
+   "title": "魏明帝曹叡养子，齐王（废黜后降复王爵）",
+   "basis": "第109回：魏主曹芳每见师入朝，战栗不已，如针刺背。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "其他",
+   "start_year": 254,
+   "end_year": 274,
+   "title": "齐王（废黜后降复王爵）",
+   "basis": "第109回：召芳责之曰……当纳下玺绶，复齐王之爵，目下起程，非宣召不许入朝。废后仍居魏土，为魏室之亲。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 239,
+   "title": "八岁即位",
+   "description": "明帝托孤而崩，芳即皇帝位，改元正始，曹爽司马懿辅政。",
+   "importance": 3
+  },
+  {
+   "year": 249,
+   "title": "谒陵遭变",
+   "description": "从曹爽谒高平陵，懿闭城发难；爽纳印归府被诛，政归司马氏。",
+   "importance": 3
+  },
+  {
+   "year": 254,
+   "title": "被废为齐王",
+   "description": "司马师以芳荒淫失德奏废，遣归齐地，迎立曹髦。",
+   "importance": 2
+  }
+ ],
+ "span_post_state": true,
+ "mention_count": 17
+}

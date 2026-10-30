@@ -1,0 +1,42 @@
+{
+ "id": "a_hui_nan",
+ "name": "阿会喃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 87,
+ "review_status": "auto_mined",
+ "summary": "阿会喃，异族武将。料董荼那、阿会喃必从便径往山路而走，故遣张嶷、张翼以伏兵待之，令关索以兵接应，擒此二人。",
+ "bio": "。第 87 回：赵云引兵杀到阿会喃寨后之时，马忠已杀至寨前。第 87 回：吾料董荼那、阿会喃必从便径往山路而走，故遣张嶷、张翼以伏兵待之，令关索以兵接应，擒此二人。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "第三洞洞主",
+   "basis": "第八十七回原文：第一洞乃金环三结元帅，第二洞乃董荼那元帅，第三洞乃阿会喃元帅。 职任「第三洞洞主」据此；★任期按末见回目收敛：全书最后一次提及在第 88 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "第 87 回",
+   "description": "下夹攻，蛮兵大败，阿会喃乘乱走脱",
+   "importance": 1
+  },
+  {
+   "year": 225,
+   "title": "第 88 回",
+   "description": "获来到本寨，先伏刀斧手于帐下，差心腹人到董荼那、阿会喃寨中，只推孔明有使命至，将二人赚到大寨帐下，尽皆杀之，弃尸于涧",
+   "importance": 1
+  }
+ ],
+ "mention_count": 14
+}

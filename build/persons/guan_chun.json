@@ -1,0 +1,45 @@
+{
+ "id": "guan_chun",
+ "name": "关纯",
+ "courtesy": null,
+ "display_aliases": [
+  "别驾"
+ ],
+ "birth": null,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平二年（191）。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "reviewed",
+ "summary": "关纯，群雄文臣，别驾。别驾王修自青州来，谭将此计告之。",
+ "bio": "关纯，为韩馥别驾。韩馥欲请袁绍同治冀州，即差别驾关纯去请袁绍。长史耿武力谏不听，关纯与耿武同弃职，伏于城外以待袁绍。袁绍引兵至，二人拔刀而出欲刺杀绍，绍将颜良立斩耿武，文丑砍死关纯。演义第七回写其事，与耿武并称「冀州二义」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 191,
+   "title": "别驾",
+   "lord_id": "han_fu",
+   "basis": "别驾为州府佐吏，以谋略内政为主归文臣；191 年为文丑所斩。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "往请袁绍",
+   "description": "奉韩馥命往请袁绍同治州事。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "伏城刺杀",
+   "description": "与耿武伏于城外拔刀刺绍，为文丑砍死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 4
+}

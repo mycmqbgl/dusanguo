@@ -1,0 +1,43 @@
+{
+ "id": "li_su",
+ "name": "李肃",
+ "display_aliases": [
+  "李肃"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "approx",
+ "date_note": "生年不详。192 年因战败被吕布斩于军前。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "李肃，群雄武将，虎贲中郎将、骑都尉。瑞曰：\"吕布同郡骑都尉李肃，以董卓不迁其官，甚是怀怨。",
+ "bio": "李肃，与吕布同乡，董卓帐下虎贲中郎将。卓欲得吕布，肃自请往说，以赤兔马、黄金千两、明珠数十颗、玉带一条为礼，动以「良禽择木而栖」，布遂杀丁原而降。后肃奉命攻牛辅战败，吕布以军法斩之。一人之说，改写了董卓与丁原的生死，也改写了此后十年的关东格局。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "虎贲中郎将、骑都尉",
+   "basis": "董卓部将，以军职行说降、征战之事，故为武将。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "说降吕布",
+   "description": "以赤兔马与金珠动之，吕布遂斩丁原。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "被斩",
+   "description": "攻牛辅失利，吕布斩之于军前。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 18
+}

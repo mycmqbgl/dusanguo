@@ -1,0 +1,54 @@
+{
+ "id": "wen_qin",
+ "name": "文钦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "文钦，曹魏武将，魏扬州刺史，曹爽门下客，后降吴。会谏曰：罪在文钦，今文钦已亡，二子势穷来归，若杀降将，是坚城内人之心也。",
+ "bio": "。第 110 回：文钦领兵二万在外为游兵，往来接应。第 112 回：钟会谏曰：罪在文钦，魏扬州刺史，曹爽门下客，后降吴。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 249,
+   "end_year": 254,
+   "title": "魏扬州刺史，曹爽门下客，反，投吴",
+   "basis": "第一百零九回原文：正元二年春正月，有细作飞报，说镇东将军毌丘俭、扬州刺史文钦，以废主为名，起兵前来。 职任「魏扬州刺史，曹爽门下客，反，投吴」据此；★阵营改判：第 109 回原文「扬州刺史文钦，以废主为名，起兵前来」，第 110 回「钦乃曹爽门下客」，起兵时为魏臣（后降吴，见第 111 回）。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 246,
+   "title": "第 109 回",
+   "description": "元二年春正月，有细作飞报，说镇东将军毌丘俭、扬州刺史文钦，以废主为名，起兵前来",
+   "importance": 1
+  },
+  {
+   "year": 252,
+   "title": "第 110 回",
+   "description": "目顶盔惯甲，乘马来赶文钦；看看赶上，乃高声大叫曰：“文刺史见尹大目么",
+   "importance": 1
+  },
+  {
+   "year": 253,
+   "title": "第 111 回",
+   "description": "葛诞自引本部锐兵，会合文钦并二子文鸯、文虎，雄兵数万，来敌司马昭",
+   "importance": 1
+  },
+  {
+   "year": 253,
+   "title": "第 112 回",
+   "description": "会谏曰：“罪在文钦，今文钦已亡，二子势穷来归，若杀降将，是坚城内人之心也",
+   "importance": 1
+  }
+ ],
+ "mention_count": 17
+}

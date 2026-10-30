@@ -1,0 +1,108 @@
+{
+ "source": "persons_ch021_030_c.json",
+ "total": 11,
+ "passed": 11,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 4,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "xu_gong",
+   "name": "许贡",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yu_ji",
+   "name": "于吉",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "lu_su",
+   "name": "鲁肃",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "shen_pei",
+   "name": "审配",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "guo_tu",
+   "name": "郭图",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_he",
+   "name": "张郃",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "gao_lan",
+   "name": "高览",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 130 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "chunyu_qiong",
+   "name": "淳于琼",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "jiang_qi",
+   "name": "蒋奇",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 69 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "sui_yuanjin",
+   "name": "眭元进",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 73 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "han_meng",
+   "name": "韩猛",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 101 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,170 @@
+{
+ "source": "persons_ch002_003.json",
+ "total": 17,
+ "passed": 17,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 8,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "sun_jian",
+   "name": "孙坚",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "身后事节点 229「追尊武烈皇帝」已标 posthumous，允许晚于卒年"
+    }
+   ]
+  },
+  {
+   "id": "yuan_shao",
+   "name": "袁绍",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yuan_shu",
+   "name": "袁术",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 138 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "lv_bu",
+   "name": "吕布",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "li_ru",
+   "name": "李儒",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 133 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "li_su",
+   "name": "李肃",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 122 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wang_yun",
+   "name": "王允",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ding_yuan",
+   "name": "丁原",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_rang",
+   "name": "张让",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "jian_shuo",
+   "name": "蹇硕",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "he_taihou",
+   "name": "何太后",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 147 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "dong_taihou",
+   "name": "董太后",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 143 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cao_song",
+   "name": "曹嵩",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "身后事节点 220「追尊太皇帝」已标 posthumous，允许晚于卒年"
+    }
+   ]
+  },
+  {
+   "id": "liu_tao",
+   "name": "刘陶",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "chen_dan",
+   "name": "陈耽",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 134 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "liu_bian",
+   "name": "刘辩",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "liu_xie",
+   "name": "刘协",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  }
+ ]
+}

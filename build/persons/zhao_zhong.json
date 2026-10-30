@@ -1,0 +1,45 @@
+{
+ "id": "zhao_zhong",
+ "name": "赵忠",
+ "courtesy": null,
+ "display_aliases": [
+  "中常侍",
+  "十常侍"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）袁绍、曹操入宫诛宦官时被杀。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "赵忠，东汉人物，中常侍、列侯。甫嵩、朱儁皆不肯与，赵忠等俱奏罢其官。",
+ "bio": "赵忠，中常侍，十常侍之二。灵帝尝言「张常侍是我父，赵常侍是我母」，其宠信可知。与张让等卖官鬻爵，非亲不用，非仇不诛，天下人心思乱。何进谋诛宦官，袁绍、曹操勒兵入宫，但见阉官不论大小尽皆杀之，赵忠死于宫中。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 168,
+   "end_year": 189,
+   "title": "中常侍、车骑将军",
+   "basis": "第二回原文：赵忠、张让差人问破黄巾将士索金帛，不从者奏罢职…帝又封赵忠等为车骑将军。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "蔽塞章奏",
+   "description": "与十常侍卖官鬻爵，非亲不用，非仇不诛，天下人心思乱。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "死于宫变",
+   "description": "袁绍、曹操勒兵入宫尽诛宦官，赵忠死于宫中。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 5
+}

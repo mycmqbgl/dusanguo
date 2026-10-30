@@ -1,0 +1,29 @@
+{
+ "id": "jiang_ban",
+ "name": "蒋班",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "蒋班，曹魏文臣，谋士。葛诞在城中忧闷，谋士蒋班、焦彝进言曰：城中粮少兵多，不能久守，可率吴、楚之众，与魏兵决一死战。",
+ "bio": "第 112 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 254,
+   "end_year": 254,
+   "title": "谋士",
+   "basis": "第一百十二回原文：诸葛诞在城中忧闷，谋士蒋班、焦彝进言曰：“城中粮少兵多，不能久守，可率吴、楚之众，与魏兵决一。 职任「谋士」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 254—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

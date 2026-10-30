@@ -1,0 +1,29 @@
+{
+ "id": "dou_wu",
+ "name": "窦武",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "窦武，东汉武将，汉灵帝时大将军。窦武欲诛内竖，机谋不密，反受其殃。",
+ "bio": "第 1 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "汉灵帝时大将军",
+   "basis": "第一回原文：时有宦官曹节等弄权，窦武、陈蕃谋诛之，机事不密，反为所害，中涓自此愈横。 职任「汉灵帝时大将军」据此；★任期按末见回目收敛：全书最后一次提及在第 2 回（184 年），原 184—220 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,29 @@
+{
+ "id": "yin_shang",
+ "name": "尹赏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "尹赏，曹魏文臣，天水主簿。尹赏知此消息，乃谓梁绪曰：不如纳城降蜀，以图进用。",
+ "bio": "第 93 回：只留梁绪、尹赏守城。第 93 回：尹赏知此消息，乃谓梁绪曰：不如纳城降蜀，以图进用。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "天水主簿",
+   "basis": "第92回天水主簿尹赏与功曹梁绪、主记梁虔同谏马遵。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

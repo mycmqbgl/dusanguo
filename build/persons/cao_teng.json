@@ -1,0 +1,29 @@
+{
+ "id": "cao_teng",
+ "name": "曹腾",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "曹腾，东汉人物，中常侍。第 1 回一笔带过，事迹仅存其名。",
+ "bio": "第 1 回：「操父曹嵩，本姓夏侯氏，因为中常侍曹腾之养子」。原文第 1 回相关片段：「操父曹嵩，本姓夏侯氏，因为中常侍曹腾之养子，故冒姓曹。曹嵩生操，小字阿瞒，一名吉利」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 146,
+   "end_year": 189,
+   "title": "中常侍、费亭侯",
+   "basis": "第一回叙曹操家世：其祖曹腾，中常侍，费亭侯。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,57 @@
+{
+ "id": "gan_ning",
+ "name": "甘宁",
+ "courtesy": "兴霸",
+ "display_aliases": [
+  "锦帆贼"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生年不详；演义未载其卒（史载卒于建安二十年前后合肥之役后）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "甘宁，群雄武将，黄祖帐下。说周瑜自回柴桑养病，令甘宁守巴陵郡，令凌统守汉阳郡，二处分布战船，听候调遣。",
+ "bio": "巴郡临江人，少有气力，聚少年为群，身佩铃铛、以锦系舟，号锦帆贼。后读诸子欲有所为，投刘表不用，转黄祖麾下，射杀凌操救祖而仍不见赏。经苏飞荐往夏口，鲁肃、吕蒙荐之于孙权，权大喜曰「兴霸来，吾事济矣」。破黄祖献策，赤壁斩蔡中马，夷陵破曹仁，又领百骑夜劫曹营不折一人。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 208,
+   "title": "黄祖帐下",
+   "lord_id": "huang_zu",
+   "basis": "200年前后投祖，射杀凌操而不见用。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "破虏将军、折冲将军",
+   "lord_id": "sun_quan",
+   "basis": "208年经苏飞、鲁肃荐归孙权。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 203,
+   "title": "射杀凌操",
+   "description": "江夏之战射杀孙氏旧将凌操，救黄祖而不得赏。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "归吴建功",
+   "description": "孙权破江夏，宁献策破祖，遂为吴将。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：未载其卒（史载卒于建安二十年前后合肥之役后）",
+ "mention_count": 102
+}

@@ -1,0 +1,31 @@
+{
+ "id": "liu_qu",
+ "name": "刘璩",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 118,
+ "review_status": "reviewed",
+ "summary": "刘璩，蜀汉后主刘禅第七子（一作刘瓒）。",
+ "bio": "第118回：后主生七子：长子刘璿、次子刘瑶、三子刘琮、四子刘璝、五子北地王刘谌、六子刘恂、七子刘璩。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "亲族",
+   "start_year": 229,
+   "end_year": 229,
+   "basis": "第118回：后主生七子：长子刘璿、次子刘瑶、三子刘琮、四子刘璝、五子北地王刘谌、六子刘恂、七子刘璩。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "后主之子"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": "后主七子，演义第118回仅列名，无封爵",
+ "mention_count": 1
+}

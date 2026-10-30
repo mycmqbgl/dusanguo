@@ -1,0 +1,29 @@
+{
+ "id": "xing_zhen",
+ "name": "邢贞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "邢贞，曹魏文臣，太常卿。邢贞慌忙下车，与孙权相见，并车入城。",
+ "bio": "原文第 82 回相关片段：「不辱君命，卿可以当之矣。”于是即降诏，命太常卿邢贞赍册封孙权为吴王，加九锡。赵咨谢恩出城」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 222,
+   "end_year": 229,
+   "title": "太常卿",
+   "basis": "第82回曹丕命太常卿邢贞赍册封孙权为吴王，加九锡。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

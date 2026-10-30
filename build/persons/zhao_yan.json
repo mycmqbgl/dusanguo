@@ -1,0 +1,42 @@
+{
+ "id": "zhao_yan",
+ "name": "赵彦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 20,
+ "review_status": "auto_mined",
+ "summary": "赵彦，东汉文臣，议郎。大怒，即收赵彦杀之。",
+ "bio": "第 20 回：「议郎赵彦愤操专横，上疏劾操不奉帝旨」。原文第 20 回相关片段：「得言不知耶？”操不得已，乃免彪官，放归田里。议郎赵彦愤操专横，上疏劾操不奉帝旨、擅收大臣之罪。操大怒」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "议郎",
+   "basis": "第 20 回：「议郎赵彦愤操专横，上疏劾操不奉帝旨」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "第 20 回",
+   "description": "大怒，即收赵彦杀之",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "第 22 回",
+   "description": "议郎赵彦，忠谏直言，义有可纳，是以圣朝含听，改容加饰",
+   "importance": 1
+  }
+ ],
+ "mention_count": 3
+}

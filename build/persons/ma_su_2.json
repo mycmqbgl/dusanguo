@@ -1,0 +1,31 @@
+{
+ "id": "ma_su_2",
+ "name": "马肃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。此人见正史，毛本演义 120 回无其名。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "马肃（正史人物，演义未载）：马腾之父马肃，桓帝时为天水兰干县尉。演义未载。",
+ "bio": "《三国志·蜀书·马超传》裴注：马腾之父马肃，桓帝时为天水兰干县尉。演义未载。本卡依正史补录，供人物关系参照；《三国演义》正文 120 回中查无此人，故不参与章回标注与共现统计。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 147,
+   "end_year": 167,
+   "title": "天水兰干县尉",
+   "basis": "《三国志·马超传》裴注及第 57 回：马肃桓帝时为天水兰干县尉，失官后流落陇西。东汉县尉属汉廷官吏，归东汉；桓帝在位 147—167，任期取整个桓帝朝为保守区间。（原判 barbarian 系简介中「娶羌女/与羌人杂处」关键词误伤，指其媳血统与居地，非本人阵营。）",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

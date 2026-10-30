@@ -1,0 +1,29 @@
+{
+ "id": "zhong_jin",
+ "name": "钟缙",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 41,
+ "review_status": "auto_mined",
+ "summary": "钟缙，曹魏武将，夏侯惇部将。云挺枪便刺，钟缙当先挥大斧来迎。",
+ "bio": "。第 42 回：钟缙、钟绅二人拦住赵云厮杀。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "夏侯惇部将",
+   "basis": "第41回夏侯惇部将钟缙、钟绅兄弟二人拦路，为赵云所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

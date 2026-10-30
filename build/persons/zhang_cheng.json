@@ -1,0 +1,29 @@
+{
+ "id": "zhang_cheng",
+ "name": "张承",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "张承，孙吴武将，吴将。第 102 回一笔带过，事迹仅存其名。",
+ "bio": "第 102 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 234,
+   "end_year": 234,
+   "title": "吴将",
+   "basis": "第一百零二回原文：孙韶、张承等出兵广陵取淮阳等处：三处一齐进军，共三十万，克日兴师。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 102 回（234 年），原 234—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

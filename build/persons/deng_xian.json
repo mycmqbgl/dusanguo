@@ -1,0 +1,29 @@
+{
+ "id": "deng_xian",
+ "name": "邓贤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "auto_mined",
+ "summary": "邓贤，群雄武将，刘璋部将。忠一枝军救了魏延，杀了邓贤，直赶到寨前。",
+ "bio": "第 62 回：邓贤马奔到，挺枪来刺魏延。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "刘璋部将",
+   "basis": "第六十二回：邓贤为刘璋部将，随吴懿守雒城，后战死。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 23
+}

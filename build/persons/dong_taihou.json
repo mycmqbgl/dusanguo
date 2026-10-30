@@ -1,0 +1,51 @@
+{
+ "id": "dong_taihou",
+ "name": "董太后",
+ "display_aliases": [
+  "董后",
+  "董太后",
+  "孝仁皇后"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）为董卓所害于河间驿庭。",
+ "gender": "female",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "董太后，东汉女眷，慎园贵人、孝仁皇后。日设朝，董太后降旨，封皇子协为陈留王，董重为骠骑将军，张让等共预朝政。",
+ "bio": "董太后，河间人，解渎亭侯刘苌之妻，灵帝生母。桓帝无子，迎立其子为帝，遂尊为太后，迎养宫中。尝劝帝立皇子协为太子。帝崩，与何太后两宫争权，欲令董重掌兵、张让等预政，为何进所制。何进奏其「原系藩妃，不宜久居宫中」，迁于河间，又点禁军围董重府，重自刎。六月，何进使人鸩杀之于河间驿庭，葬文陵。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 168,
+   "end_year": 189,
+   "title": "慎园贵人、孝仁皇后",
+   "basis": "女性归女眷（决策 #8.3）。虽为灵帝生母，但「亲族」仅收男性，故不入亲族。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 168,
+   "title": "入宫为太后",
+   "description": "子即位为灵帝，迎养宫中，尊为太后。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "两宫争权",
+   "description": "欲立皇子协，封董重为骠骑将军，与何太后相争。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "迁河间遇害",
+   "description": "被迁河间，随后为何进使人鸩杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 16
+}

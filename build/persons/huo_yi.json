@@ -1,0 +1,29 @@
+{
+ "id": "huo_yi",
+ "name": "霍弋",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 119,
+ "review_status": "auto_mined",
+ "summary": "霍弋，曹魏文臣，蜀建宁太守。霍弋探听得后主受封，遂率部下军士来降。",
+ "bio": "第 119 回：建宁太守霍弋闻成都不守，素服望西大哭三日。第 119 回：时霍弋探听得后主受封，遂率部下军士来降。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 264,
+   "end_year": 264,
+   "title": "蜀建宁太守",
+   "basis": "第一百十九回原文：建宁太守霍弋闻成都不守，素服望西大哭三日。 职任「蜀建宁太守」据此；★任期按末见回目收敛：全书最后一次提及在第 119 回（264 年），原 264—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

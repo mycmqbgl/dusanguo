@@ -1,0 +1,29 @@
+{
+ "id": "huang_shao",
+ "name": "黄劭",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 12,
+ "review_status": "auto_mined",
+ "summary": "黄劭，群雄武将，黄巾渠帅。巾何仪、黄劭知曹兵到，引众来迎，会于羊山。",
+ "bio": "第 12 回：黄巾余党何仪、黄劭等，劫掠州郡，多有金帛、粮食、此等贼徒，又容易破。第 12 回：黄劭不及提备，被李典生擒活捉过来。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 195,
+   "title": "黄巾渠帅",
+   "basis": "第十二回原文：黄巾余党何仪、黄劭等，劫掠州郡，多有金帛、粮食、此等贼徒，又容易破。 职任「黄巾渠帅」据此；★任期按末见回目收敛：全书最后一次提及在第 12 回（195 年），原 195—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

@@ -1,0 +1,29 @@
+{
+ "id": "huang_kui",
+ "name": "黄奎",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 57,
+ "review_status": "auto_mined",
+ "summary": "黄奎，群雄文臣，门下侍郎。曰：叔父与侍郎黄奎同谋杀操，不幸事泄，皆被斩于市，二弟亦遇害。",
+ "bio": "第 57 回：「唤门下侍郎黄奎分付曰」。原文第 57 回相关片段：「许昌二十里屯住军马。曹操听知马腾已到，唤门下侍郎黄奎分付曰：“目今马腾南征，吾命汝为行军参谋，先至马」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 211,
+   "title": "门下侍郎",
+   "basis": "第 57 回：「唤门下侍郎黄奎分付曰」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

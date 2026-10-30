@@ -1,0 +1,29 @@
+{
+ "id": "liu_fang",
+ "name": "刘放",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "刘放，曹魏文臣，魏侍中光禄大夫。渐沉重，命侍中光禄大夫刘放、孙资，掌枢密院一切事务；又召文帝子燕王曹宇为大将军，佐太子曹芳摄政。",
+ "bio": "第 106 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 238,
+   "end_year": 238,
+   "title": "魏侍中光禄大夫",
+   "basis": "第一百零六回原文：睿宣太子曹芳，大将军曹爽，侍中刘放、孙资等，皆至御榻之前。 职任「魏侍中光禄大夫」据此；★任期按末见回目收敛：全书最后一次提及在第 106 回（238 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

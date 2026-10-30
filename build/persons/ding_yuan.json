@@ -1,0 +1,47 @@
+{
+ "id": "ding_yuan",
+ "name": "丁原",
+ "courtesy": "建阳",
+ "display_aliases": [
+  "丁建阳",
+  "丁刺史"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）为吕布所杀。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "丁原，群雄君主，并州刺史、执金吾。日，人报丁原引军城外搦战。",
+ "bio": "丁原字建阳，本为并州刺史（演义作「荆州刺史」，当从史书为并州）。董卓召百官议废立，满座无人敢言，独丁原推案直出，大呼「天子乃先帝嫡子，初无过失，何得妄议废立」。卓拔剑欲斩之，赖李儒劝阻得免。次日引军搦战，赖吕布之勇大败卓兵。卓乃以赤兔马说吕布，布夜入帐中斩其首。丁原之死，始于一句「顺我者生，逆我者死」之下的不肯低头。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 188,
+   "end_year": 189,
+   "title": "并州刺史、执金吾",
+   "basis": "以州刺史拥兵自成一系，为群雄之一；189 年为吕布所杀。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "温明园抗废立",
+   "description": "当筵大呼不可，几为董卓所斩。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "帐中遇害",
+   "description": "吕布提刀入帐，斩其首级以献董卓。",
+   "importance": 3
+  }
+ ],
+ "history_conflict_type": "职官归属",
+ "history_conflict_note": "演义作丁原为荆州刺史；史书为并州刺史。",
+ "mention_count": 21
+}

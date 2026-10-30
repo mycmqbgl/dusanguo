@@ -1,0 +1,80 @@
+{
+ "id": "xu_chu",
+ "name": "许褚",
+ "courtesy": "仲康",
+ "display_aliases": [
+  "虎侯",
+  "武卫将军"
+ ],
+ "birth": 168,
+ "death": 227,
+ "date_precision": "approx",
+ "date_note": "史载卒于太和年间（约 227），谥壮侯；生年存疑。演义中卒于诸葛亮北伐前。",
+ "gender": "male",
+ "first_chapter": 12,
+ "review_status": "reviewed",
+ "summary": "许褚，字仲康，谯国谯人，曹操帐下虎卫，号「虎痴」。",
+ "bio": "许褚，字仲康，谯国谯人。容貌雄毅，勇力绝人，聚少年御寇。率众归曹操，为宿卫，号「虎痴」，官至武卫将军。渭南与马超单挑、裸衣斗超，名震一时。曹丕时为武卫将军、万岁亭侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 188,
+   "end_year": 196,
+   "title": "宗族壁帅",
+   "basis": "聚宗族数千家筑壁自守。",
+   "confidence": 0.7,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 227,
+   "title": "都尉、校尉、中坚将军、武卫将军、牟乡侯",
+   "basis": "196 年归曹操，引入宿卫。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "筑壁御贼",
+   "description": "聚宗族数千家筑壁自守，倒曳牛尾惊走贼众。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "归曹操",
+   "description": "操徇淮汝，褚以众归，操称「此吾樊哙也」。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "官渡斩刺客",
+   "description": "常从征伐，斩欲害操之刺客徐他。",
+   "importance": 2
+  },
+  {
+   "year": 211,
+   "title": "渭水救主",
+   "description": "扶操上船举鞍蔽之，一手撑船脱于马超箭雨。",
+   "importance": 3
+  },
+  {
+   "year": 211,
+   "title": "裸衣战马超",
+   "description": "与马超大战二百余合不分胜负，号「虎痴」。",
+   "importance": 3
+  },
+  {
+   "year": 227,
+   "title": "卒",
+   "description": "官至武卫将军，谥壮侯。",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：史载卒于太和年间（约 227），谥壮侯；生年存疑｜演：卒于诸葛亮北伐前",
+ "mention_count": 137
+}

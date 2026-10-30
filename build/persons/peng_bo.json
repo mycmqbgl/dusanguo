@@ -1,0 +1,36 @@
+{
+ "id": "peng_bo",
+ "name": "彭伯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "auto_mined",
+ "summary": "彭伯，东汉文臣，议郎。中蔡邕、议郎彭伯谏曰：卢尚书海内人望，今先害之，恐天下震怖。",
+ "bio": "第 3 回：「侍中蔡邕、议郎彭伯谏曰：卢尚书海内人望」。原文第 3 回相关片段：「则篡也。”卓大怒，拔剑向前欲杀植。侍中蔡邕、议郎彭伯谏曰：“卢尚书海内人望，今先害之，恐天下震怖。”」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 189,
+   "title": "议郎",
+   "basis": "第 3 回：「侍中蔡邕、议郎彭伯谏曰：卢尚书海内人望」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "第 3 回",
+   "description": "中蔡邕、议郎彭伯谏曰：“卢尚书海内人望，今先害之，恐天下震怖",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

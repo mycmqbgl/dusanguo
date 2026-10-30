@@ -1,0 +1,29 @@
+{
+ "id": "sun_kang",
+ "name": "孙康",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "孙康，曹魏文臣，辽东太守，襄平人，之子，斩二袁归曹。孙康久畏袁氏吞并，二袁往投必疑。",
+ "bio": "。第 33 回：公孙康久畏袁氏吞并，二袁往投必疑。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 205,
+   "end_year": 266,
+   "title": "辽东太守，襄平人，之子，斩二袁归曹",
+   "basis": "第三十三回原文：重赏来使，封公孙康为襄平侯、左将军。 职任「辽东太守，襄平人，之子，斩二袁归曹」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

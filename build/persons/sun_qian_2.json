@@ -1,0 +1,29 @@
+{
+ "id": "sun_qian_2",
+ "name": "孙谦",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "孙谦，孙吴武将，偏将。将孙谦在后止之曰：太傅为国家大事，休得放箭。",
+ "bio": "第 107 回：「偏将孙谦在后止之曰」。原文第 107 回相关片段：「司马懿引兵过府前，举令人乱箭射下，懿不得过。偏将孙谦在后止之曰：“太傅为国家大事，休得放箭。”连止三」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "偏将",
+   "basis": "第 107 回：「偏将孙谦在后止之曰」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

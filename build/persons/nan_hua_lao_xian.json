@@ -1,0 +1,41 @@
+{
+ "id": "nan_hua_lao_xian",
+ "name": "南华老仙",
+ "courtesy": null,
+ "display_aliases": [
+  "南华真人"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "仙人不涉生卒。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "is_fictional": true,
+ "summary": "南华老仙，神怪人物。人曰：\"吾乃南华老仙也。",
+ "bio": "南华老仙，碧眼童颜，手执藜杖。张角入山采药遇之于洞中，授《太平要术》三卷，曰：「此名《太平要术》，汝得之，当代天宣化，普救世人；若萌异心，必获恶报。」角拜问姓名，答曰「吾乃南华老仙也」，言讫化阵清风而去。神怪阵营样本一号：有超自然能力表现，且不属于任何政治军事集团（N3 定案）。天书酿成大乱的「若萌异心必获恶报」之戒，与张角身死族灭互为呼应，是全书宿命叙事的第一块基石。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 184,
+   "basis": "仙人，无政治归属；神怪阵营不分身份（N2 定案）。",
+   "confidence": 1.0,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "（原文无职任记载）"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "授书张角",
+   "description": "洞中授《太平要术》三卷，化清风而去。",
+   "importance": 3
+  }
+ ],
+ "title_unknown_verified": "仙人，原文无职官记载（第1回化清风而去）",
+ "mention_count": 1
+}

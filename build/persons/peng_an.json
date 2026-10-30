@@ -1,0 +1,29 @@
+{
+ "id": "peng_an",
+ "name": "彭安",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "彭安，群雄武将。马相交，不数合，晃斩彭安于马下。",
+ "bio": "原文第 33 回相关片段：「妻子，反说我有异心耶！”操大怒，使徐晃出马。谭使彭安接战。两马相交，不数合，晃斩彭安于马下。谭军败走」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 205,
+   "end_year": 229,
+   "basis": "第33回袁谭使彭安接战徐晃，不数合被斩于马下。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

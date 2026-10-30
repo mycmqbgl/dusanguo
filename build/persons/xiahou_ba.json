@@ -1,0 +1,58 @@
+{
+ "id": "xiahou_ba",
+ "name": "夏侯霸",
+ "courtesy": "仲权",
+ "display_aliases": [
+  "夏侯渊次子",
+  "车骑将军",
+  "征蜀护军"
+ ],
+ "birth": null,
+ "death": 259,
+ "date_precision": "approx",
+ "date_note": "史载降蜀后官至车骑将军，延熙十二年（259）卒于蜀。生年无载。演义止于 115 回随姜维洮西而后渐不见。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "reviewed",
+ "summary": "夏侯霸，曹魏武将，讨蜀护军、右将军。镇守雍州刺史郭淮，听知夏侯霸反，即率本部兵来，与夏侯霸交战。",
+ "bio": "夏侯霸字仲权，夏侯渊次子。渊定军山为黄忠所斩，霸常切齿欲报。魏以为讨蜀护军，屯陇西，养士有恩。249 年司马懿发动高平陵之变诛曹爽，征其表兄征西将军夏侯玄还京，以郭淮代之。霸素与郭淮不睦，惧祸及己，遂奔蜀。入蜀时于阴平迷失道，刘禅遣人迎之，相见曰：卿父自遇害于行间耳，非我先人之手刃也；指其子曰：此夏侯氏之甥也。厚加爵宠，拜车骑将军。霸感其恩，屡随姜维北伐，以其熟知陇西地理人情为向导，255 年洮西之战劝维乘魏督雍凉王经新任之隙大举，遂有洮西大捷。后卒于蜀。曹魏宗室姻亲转而为蜀汉死力，为后三国最富戏剧性的降将。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 249,
+   "title": "讨蜀护军、右将军",
+   "lord_id": "cao_rui",
+   "basis": "继父兵屯陇西防蜀，历事曹丕、曹叡、曹芳。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 249,
+   "end_year": 259,
+   "title": "车骑将军",
+   "lord_id": "liu_shan",
+   "basis": "惧司马氏诛戮降蜀，刘禅厚待之，随姜维北伐为向导，259 年卒。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 249,
+   "title": "惧祸降蜀",
+   "description": "司马懿诛曹爽、收夏侯玄，霸奔蜀，刘禅以舅氏恩义厚待之。",
+   "importance": 3
+  },
+  {
+   "year": 255,
+   "title": "洮西献策",
+   "description": "劝姜维乘魏将新任、雍凉未固大举出师，遂有洮西大捷。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 53
+}

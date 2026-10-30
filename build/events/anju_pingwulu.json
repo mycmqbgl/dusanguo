@@ -1,0 +1,55 @@
+{
+ "id": "anju_pingwulu",
+ "name": "安居平五路",
+ "kind": "谋略",
+ "start_year": 223,
+ "end_year": 223,
+ "date_text": "建兴元年（223）",
+ "summary": "曹丕用司马懿五路攻蜀之策，孔明安居相府运筹退四路，邓芝使吴退第五路，蜀汉转危为安。",
+ "detail": "曹丕听司马懿五路之计：轲比能羌兵取西平关，孟获蛮兵犯四郡，孙权兵取峡口，孟达上庸兵攻汉中，曹真出阳平关，共五十万。边报至蜀，丞相数日不出视事，后主亲至相府，见孔明观鱼，亮笑曰：四路兵已皆退去，惟孙权一路须一能言之人。盖马超素得羌心守西平关；魏延左出右入为疑兵拒蛮兵；李严与孟达有生死之交，作书令达称病；赵云守阳平关险隘不出；又密调关兴张苞为各路救应。孔明择邓芝使吴，吴蜀复通，五路之危顿解。亮之静深，后主之服，皆为此回眼目。",
+ "place_id": "cheng_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "安居相府运筹，四路退兵，择使通吴"
+  },
+  {
+   "person_id": "liu_shan",
+   "role_desc": "后主，车驾亲至相府问计，叹相父鬼神不测之机"
+  },
+  {
+   "person_id": "sim_yi",
+   "role_desc": "献五路大兵之计者"
+  },
+  {
+   "person_id": "meng_huo",
+   "role_desc": "五路之一，蛮兵犯益州四郡，为魏延疑兵所拒"
+  },
+  {
+   "person_id": "ma_chao",
+   "role_desc": "素得羌人之心，令守西平关退轲比能"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "领兵左出右入为疑兵，拒孟获"
+  },
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "守阳平关隘不出，曹真自退"
+  },
+  {
+   "person_id": "li_yan",
+   "role_desc": "与孟达生死之交，亮假其笔作书，达称病不进"
+  },
+  {
+   "person_id": "cao_zhen",
+   "role_desc": "五路之一，大都督出阳平关，无功自退"
+  }
+ ],
+ "passage_ids": [
+  85016,
+  85023
+ ],
+ "battle_ids": []
+}

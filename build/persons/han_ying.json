@@ -1,0 +1,30 @@
+{
+ "id": "han_ying",
+ "name": "韩瑛",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "韩瑛，曹魏武将。子韩瑛，跃马来迎；战不三合，被赵云一枪刺死于马下。",
+ "bio": "第 92 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "basis": "第92回韩德长子韩瑛精通武艺，随父出凤鸣山，为赵云所杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 2
+}

@@ -1,0 +1,50 @@
+{
+ "id": "guan_hai",
+ "name": "管亥",
+ "courtesy": null,
+ "display_aliases": [
+  "黄巾渠帅"
+ ],
+ "birth": null,
+ "death": 194,
+ "date_precision": "exact",
+ "date_note": "演义第十一回（兴平元年，194）为关羽数十合斩于马下。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "管亥，群雄武将，黄巾渠帅。管亥暴乱，北海被围，孤穷无告，危在旦夕。",
+ "bio": "管亥，青州黄巾余党渠帅。兴平元年率众数万围北海，遣使谓孔融曰「粮可借万斛」，融不许，遂攻城。太史慈突围乞师于刘备，备与关张来救。阵前管亥忿怒直出，云长早出，数十合之间青龙刀起，劈管亥于马下，众贼溃散。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 188,
+   "end_year": 194,
+   "title": "黄巾渠帅",
+   "basis": "黄巾余党自为渠帅。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 188,
+   "title": "黄巾余党",
+   "description": "黄巾乱起后聚众青州自为渠帅。",
+   "importance": 1
+  },
+  {
+   "year": 194,
+   "title": "围北海",
+   "description": "率众数万围北海索粮，孔融不许。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "殁于关羽刀下",
+   "description": "刘备来救，阵前数十合为关羽所斩。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 12
+}

@@ -1,0 +1,81 @@
+{
+ "id": "zang_ba",
+ "name": "臧霸",
+ "courtesy": "宣高",
+ "display_aliases": [
+  "镇东将军",
+  "执金吾"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "史载臧霸卒于曹魏明帝太和年间（约 230s），生年不详；演义无卒年。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "臧霸，群雄武将，泰山群盗帅、琅琊相。巷内转出张辽，西巷内转出臧霸，夹攻掩杀。",
+ "bio": "臧霸字宣高，泰山华县人。父臧戒为狱掾，因不听太守枉杀，太守欲杀之，霸年十八将客数十人于费西山中夺父，送母归乡，亡命东海，与孙观、吴敦、尹礼等聚众，霸为帅，屯开阳。先助陶谦击黄巾，后随吕布，袭取琅琊诸城。下邳之围，霸等助布；布灭，霸匿藏，曹操募而得之，大悦，以霸为琅琊相，割青徐二州委之于霸。官渡之战霸将精兵入青州破袁绍诸营。后累迁至镇东将军、执金吾。演义中臧霸屡为吕布军锋，与张辽先后同列。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 198,
+   "title": "泰山群盗帅、琅琊相",
+   "lord_id": "lv_bu",
+   "basis": "聚众泰山，先后依陶谦、吕布。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 230,
+   "title": "琅琊相、徐州刺史、镇东将军、执金吾",
+   "basis": "198 年降曹，镇青徐。卒年按太和年间约记 230。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "夺父亡命",
+   "description": "年十八劫狱救父，与孙观等聚众泰山。",
+   "importance": 2
+  },
+  {
+   "year": 193,
+   "title": "助陶谦破黄巾",
+   "description": "以泰山兵从陶谦击黄巾，屯开阳。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "助吕布取琅琊",
+   "description": "从吕布，攻取琅琊诸城。",
+   "importance": 2
+  },
+  {
+   "year": 198,
+   "title": "降曹操",
+   "description": "布灭，霸匿藏被募得，操喜，以霸为琅琊相，委青徐。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "官渡助战",
+   "description": "将精兵入青州，破袁绍青州诸营。",
+   "importance": 2
+  },
+  {
+   "year": 220,
+   "title": "曹魏开国",
+   "description": "曹丕时累迁镇东将军，后为执金吾。",
+   "importance": 1
+  }
+ ],
+ "history_life_dates": "史：史载臧霸卒于曹魏明帝太和年间（约 230s），生年不详｜演：无卒年",
+ "mention_count": 15
+}

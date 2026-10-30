@@ -1,0 +1,44 @@
+{
+ "id": "liu_yan_dongjun",
+ "name": "刘延",
+ "display_aliases": [
+  "东郡太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。白马之围时任东郡太守，后事无考。",
+ "gender": "male",
+ "first_chapter": 25,
+ "review_status": "reviewed",
+ "summary": "刘延，群雄文臣，东郡太守。大军进发至黎阳，东郡太守刘延告急许昌。",
+ "bio": "刘延，曹操所署东郡太守。建安五年，袁绍遣颜良攻东郡太守刘延于白马，延告急许都。关羽为曹操解白马之围后挂印封金辞去，护二嫂行至白马渡口（延津），向刘延借船渡河并求追杀残兵，刘延惧袁绍军势，答以「船虽尽有，不敢擅借」。关羽遂自行寻船而渡，此亦五关之难的开端。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 205,
+   "title": "东郡太守",
+   "lord_id": "cao_cao",
+   "basis": "曹操所署东郡太守，白马之围被困。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "困守白马",
+   "description": "袁绍遣颜良攻白马，延告急许都。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "不敢借船",
+   "description": "关羽辞曹渡河，向延借船追杀残兵，延惧袁绍势不敢应。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

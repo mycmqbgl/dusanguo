@@ -1,0 +1,36 @@
+{
+ "id": "yong_kai",
+ "name": "雍闿",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 86,
+ "review_status": "auto_mined",
+ "summary": "雍闿，异族武将，蜀建宁太守，汉什方侯雍齿之后，结连孟获反。雍闿等乃疥癣之疾，丞相只须遣一大将讨之，必然成功。",
+ "bio": "。第 87 回：现今雍闿、朱褒、高定三人部下人马，皆与孟获为向导官，攻打永昌郡。第 87 回：果然雍闿、高定两路兵来，被伏兵杀伤大半，生擒者无数，都解到大寨来。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "蜀建宁太守，汉什方侯雍齿之后，结连孟获反",
+   "basis": "第八十六回原文：却说赵云引兵杀出阳平关之次，忽报丞相有文书到，说益州耆帅雍闿结连蛮王孟获，起十万蛮兵，侵掠四。 职任「蜀建宁太守，汉什方侯雍齿之后，结连孟获反」据此；★任期按末见回目收敛：全书最后一次提及在第 87 回（225 年），原 225—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "第 87 回",
+   "description": "日，雍闿又起兵来迎",
+   "importance": 1
+  }
+ ],
+ "mention_count": 30
+}

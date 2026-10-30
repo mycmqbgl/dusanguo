@@ -1,0 +1,268 @@
+{
+  "comment": "第1回事件与战役（P0）。战役为事件子类型，必挂父事件（N7 定案）；front_line 用经纬度录入，构建时投影为像素坐标",
+  "events": [
+    {
+      "id": "huang_jin_qi_yi",
+      "name": "黄巾起义",
+      "kind": "军事行动",
+      "start_year": 184,
+      "end_year": 184,
+      "date_text": "中平元年（184）正月起",
+      "summary": "张角以太平道聚众数十万，八州同时举事，官军望风而靡，汉室自此动摇。",
+      "detail": "张角得南华老仙《太平要术》，以符水治病聚众，立三十六方，讹言「苍天已死，黄天当立」。弟子唐周告变，马元义被擒斩，张角遂星夜举兵，自称天公将军，张宝、张梁称地公、人公将军。四方百姓裹黄巾从之者四五十万，青、幽、徐、冀、荆、扬、兖、豫八州皆乱。汉廷以何进为大将军总镇京师，遣卢植、皇甫嵩、朱儁三路讨之，又令各处招募义兵——刘备、关羽、张飞正在涿郡应募而起。本事件为「军事行动」类统摄事件，下挂大兴山、青州、长社、广宗等战斗（N7 定案：轻量父事件可挂多场战役）。",
+      "place_id": "ju_lu",
+      "parent_event_id": null,
+      "participants": [
+        {
+          "person_id": "zhang_jiao",
+          "role_desc": "首事者，自称天公将军"
+        },
+        {
+          "person_id": "zhang_bao",
+          "role_desc": "地公将军，颍川一路"
+        },
+        {
+          "person_id": "zhang_liang",
+          "role_desc": "人公将军，颍川一路"
+        },
+        {
+          "person_id": "he_jin",
+          "role_desc": "大将军，主持讨贼调度"
+        },
+        {
+          "person_id": "lu_zhi",
+          "role_desc": "北中郎将，围张角于广宗"
+        },
+        {
+          "person_id": "huang_fu_song",
+          "role_desc": "中郎将，长社火攻破贼"
+        },
+        {
+          "person_id": "zhu_jun",
+          "role_desc": "右中郎将，与皇甫嵩并力"
+        },
+        {
+          "person_id": "liu_bei",
+          "role_desc": "应募义兵，转战幽州、青州"
+        }
+      ],
+      "timeline": [
+        {
+          "year": 184,
+          "title": "唐周告变",
+          "description": "弟子唐周驰书告变，马元义被擒斩，封谞等下狱。",
+          "importance": 3
+        },
+        {
+          "year": 184,
+          "title": "八州举事",
+          "description": "张角星夜举兵，裹黄巾者四五十万。",
+          "importance": 3
+        },
+        {
+          "year": 184,
+          "title": "三路讨贼",
+          "description": "卢植、皇甫嵩、朱儁分三路出兵，各地招募义兵。",
+          "importance": 3
+        },
+        {
+          "year": 184,
+          "title": "广宗相拒",
+          "description": "卢植围张角于广宗，因左丰索贿被诬，槛车征还。",
+          "importance": 2
+        }
+      ],
+      "passage_ids": [
+        1005,
+        1006,
+        1007,
+        1023
+      ],
+      "review_status": "reviewed"
+    }
+  ],
+  "battles": [
+    {
+      "id": "da_xing_shan_zhi_zhan",
+      "name": "大兴山之战",
+      "year": 184,
+      "date_text": "中平元年（184）",
+      "place_id": "da_xing_shan",
+      "event_id": "huang_jin_qi_yi",
+      "belligerents": [
+        {
+          "side": "汉军·涿郡义勇",
+          "faction_ids": [
+            "han"
+          ],
+          "commanders": [
+            "zou_jing",
+            "liu_bei",
+            "guan_yu",
+            "zhang_fei"
+          ],
+          "troops_desc": "五百乡勇"
+        },
+        {
+          "side": "黄巾",
+          "faction_ids": [
+            "warlord"
+          ],
+          "commanders": [
+            "cheng_yuan_zhi",
+            "deng_mao"
+          ],
+          "troops_desc": "演义称五万"
+        }
+      ],
+      "result": "胜",
+      "casualties_note": "黄巾折副将邓茂、主将程远志，部众倒戈，投降者不计其数；汉军方面无伤亡记载。演义兵力对比（五百对五万）为文学夸张。",
+      "summary": "刘关张首战：张飞刺邓茂于马下，关羽斩程远志为两段，五百义勇破黄巾五万。",
+      "detail": "邹靖引玄德等三人统兵五百，至大兴山下与黄巾程远志部相对。程远志遣副将邓茂出战，张飞挺丈八蛇矛直出，手起处刺中邓茂心窝，翻身落马。程远志见折了邓茂，拍马舞刀直取张飞；关羽舞动大刀纵马飞迎，程远志措手不及，被一刀挥为两段。众贼见主将被斩，皆倒戈而走，玄德挥军追赶，投降者不计其数。此战是全书第一场战斗，也是「三人初出便将威力展」的定调之战。",
+      "front_line": [
+        {
+          "time": 184,
+          "time_seq": 1,
+          "kind": "集结",
+          "label": "涿县出师",
+          "desc": "邹靖引玄德等三人，统兵五百出涿县。",
+          "lng": 115.97,
+          "lat": 39.49
+        },
+        {
+          "time": 184,
+          "time_seq": 2,
+          "kind": "行军",
+          "label": "南行赴敌",
+          "desc": "领军前进，直至大兴山下。",
+          "lng": 115.92,
+          "lat": 39.4
+        },
+        {
+          "time": 184,
+          "time_seq": 3,
+          "kind": "遭遇",
+          "label": "两军相对",
+          "desc": "贼众披发，以黄巾抹额；玄德出马大骂。",
+          "lng": 115.86,
+          "lat": 39.36
+        },
+        {
+          "time": 184,
+          "time_seq": 4,
+          "kind": "交战",
+          "label": "阵前斩将",
+          "desc": "张飞刺邓茂，关羽斩程远志。",
+          "lng": 115.85,
+          "lat": 39.35
+        },
+        {
+          "time": 184,
+          "time_seq": 5,
+          "kind": "追击",
+          "label": "倒戈溃散",
+          "desc": "众贼倒戈而走，玄德挥军追赶。",
+          "lng": 115.8,
+          "lat": 39.3
+        }
+      ],
+      "passage_ids": [],
+      "review_status": "reviewed",
+      "tile_sheet": "p0-test"
+    },
+    {
+      "id": "qing_zhou_jie_wei",
+      "name": "青州解围之战",
+      "year": 184,
+      "date_text": "中平元年（184）",
+      "place_id": "qing_zhou",
+      "event_id": "huang_jin_qi_yi",
+      "belligerents": [
+        {
+          "side": "汉军·幽州援军",
+          "faction_ids": [
+            "han"
+          ],
+          "commanders": [
+            "zou_jing",
+            "liu_bei",
+            "guan_yu",
+            "zhang_fei"
+          ],
+          "troops_desc": "五千（邹靖将兵）+ 本部五百"
+        },
+        {
+          "side": "黄巾",
+          "faction_ids": [
+            "warlord"
+          ],
+          "commanders": [],
+          "troops_desc": "围城之众，数目未载"
+        }
+      ],
+      "result": "胜",
+      "casualties_note": "演义称「剿戮极多」，无具体数字。",
+      "summary": "刘备以寡敌众，先退三十里示弱，再以左右伏兵三路夹攻，解青州之围。",
+      "detail": "青州太守龚景牒文求救，刘焉令邹靖将兵五千同刘关张往救。贼众见救军至，分兵混战，玄德兵寡不胜，退三十里下寨。玄德谓关张曰「贼众我寡，必出奇兵方可取胜」，乃分关羽引一千军伏山左、张飞引一千军伏山右，以鸣金为号。次日玄德与邹靖鼓噪而进，接战即退，诱贼过山岭，军中鸣金，左右伏兵齐出，玄德回身复杀，三路夹攻，贼众大溃，直赶至青州城下，龚景亦率民兵出城助战，围遂解。此战是全书第一次完整的「示弱—设伏—夹击」战术演示，也是「二虎还须逊一龙」的由来。",
+      "front_line": [
+        {
+          "time": 184,
+          "time_seq": 1,
+          "kind": "集结",
+          "label": "涿郡受命",
+          "desc": "龚景牒文求救，邹靖将兵五千同玄德等南下。",
+          "lng": 115.97,
+          "lat": 39.49
+        },
+        {
+          "time": 184,
+          "time_seq": 2,
+          "kind": "行军",
+          "label": "南下青州",
+          "desc": "自涿郡南下，经冀州界入青州。",
+          "lng": 116.6,
+          "lat": 38.0
+        },
+        {
+          "time": 184,
+          "time_seq": 3,
+          "kind": "交战",
+          "label": "初战不利",
+          "desc": "贼分兵混战，玄德兵寡不胜，退三十里下寨。",
+          "lng": 117.9,
+          "lat": 36.9
+        },
+        {
+          "time": 184,
+          "time_seq": 4,
+          "kind": "屯驻",
+          "label": "分兵设伏",
+          "desc": "关羽伏山左、张飞伏山右，鸣金为号。",
+          "lng": 118.05,
+          "lat": 36.85
+        },
+        {
+          "time": 184,
+          "time_seq": 5,
+          "kind": "交战",
+          "label": "诱敌过岭",
+          "desc": "玄德鼓噪而进，接战即退，诱贼过山岭。",
+          "lng": 118.0,
+          "lat": 36.83
+        },
+        {
+          "time": 184,
+          "time_seq": 6,
+          "kind": "追击",
+          "label": "三路夹攻",
+          "desc": "伏兵齐出，回身复杀，直赶至青州城下。",
+          "lng": 118.1,
+          "lat": 36.8
+        }
+      ],
+      "passage_ids": [],
+      "review_status": "reviewed",
+      "tile_sheet": "p0-test"
+    }
+  ]
+}

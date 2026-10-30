@@ -1,0 +1,29 @@
+{
+ "id": "meng_zong",
+ "name": "孟宗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "孟宗，孙吴文臣，中书郎。日后，孙綝遣中书郎孟宗，拨与中营所管精兵一万五千，出屯武昌；又尽将武库内军器与之。",
+ "bio": "。第 113 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "中书郎",
+   "basis": "第113回孙綝遣中书郎孟宗拨与中营精兵一万五千，出屯武昌。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,251 @@
+{
+ "source": "persons_ch004_010_d.json",
+ "total": 25,
+ "passed": 25,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 13,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "duan_gui",
+   "name": "段珪",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "189 年有 3 条节点（建议 ≤2）"
+    }
+   ]
+  },
+  {
+   "id": "min_gong",
+   "name": "闵贡",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "huan_jie",
+   "name": "桓阶",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TENURE_GAP",
+     "msg": "warlord(191) 与 wei(208) 之间有空档"
+    }
+   ]
+  },
+  {
+   "id": "gongsun_yue",
+   "name": "公孙越",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "cao_hong",
+   "name": "曹洪",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "cao_ren",
+   "name": "曹仁",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yue_jin",
+   "name": "乐进",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "li_dian",
+   "name": "李典",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yuan_wei",
+   "name": "袁隗",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "shisun_rui",
+   "name": "士孙瑞",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "lv_boshe",
+   "name": "吕伯奢",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wei_hong",
+   "name": "卫弘",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 144 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhao_zhong",
+   "name": "赵忠",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 102 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "feng_xu",
+   "name": "封谞",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 138 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cao_jie_eunuch",
+   "name": "曹节",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 137 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "hou_lan",
+   "name": "侯览",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 119 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cheng_kuang",
+   "name": "程旷",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 75 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "xia_yun",
+   "name": "夏恽",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 75 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "guo_sheng",
+   "name": "郭胜",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 110 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "liu_yu",
+   "name": "刘虞",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zheng_tai",
+   "name": "郑泰",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wu_kuang",
+   "name": "吴匡",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhao_cen",
+   "name": "赵岑",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 135 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "kong_zhou",
+   "name": "孔伷",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 114 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_chao",
+   "name": "张超",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 146 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

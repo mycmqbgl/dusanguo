@@ -1,0 +1,29 @@
+{
+ "id": "bao_su",
+ "name": "鲍素",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "鲍素，蜀汉武将，蜀将。第 111 回一笔带过，事迹仅存其名。",
+ "bio": "第 111 回：遂令鲍素屯兵于祁山谷口。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 253,
+   "end_year": 253,
+   "title": "蜀将",
+   "basis": "第一百十一回原文：霸曰：“祁山寨已被陈泰打破，鲍素阵亡，全寨人马皆退回汉中去了。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 111 回（253 年），原 253—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

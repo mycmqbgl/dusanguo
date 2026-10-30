@@ -1,0 +1,390 @@
+{
+ "comment": "P3-A（2026-10-29）：第 61–70 回新登场人物第一批 6 卡。史实以《三国志》为准，演义按毛本。",
+ "persons": [
+  {
+   "id": "zhang_ren",
+   "name": "张任",
+   "courtesy": null,
+   "match_surfaces": [
+    "张任"
+   ],
+   "display_aliases": [
+    "蜀郡太守刘璋部将"
+   ],
+   "birth": null,
+   "death": 213,
+   "date_precision": "approx",
+   "date_note": "史载卒于建安十八年末至十九年初（213–214），演义系于雒城被擒（213）。生年无载。",
+   "gender": "male",
+   "first_chapter": 60,
+   "review_status": "reviewed",
+   "summary": "张任，蜀郡人，刘璋部下名将，雒城力战被擒，不屈而死。",
+   "bio": "张任，蜀郡人，刘璋麾下大将。刘备入蜀，张任与刘璝等守雒城，屡战不退，射杀庞统于落凤坡。后为刘备所擒，刘备惜其勇欲降之，任曰「老臣终不事二主」，遂被杀。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 211,
+     "end_year": 213,
+     "title": "益州牧刘璋部将",
+     "lord_id": "liu_zhang",
+     "basis": "拒刘备于涪水、雒城，落凤坡伏杀庞统；金雁桥被擒不降而死。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 212,
+     "title": "涪水拒备",
+     "description": "与诸将拒刘备于涪水，兵败退保雒城。",
+     "importance": 2
+    },
+    {
+     "year": 213,
+     "title": "落凤坡伏杀庞统",
+     "description": "设伏于落凤坡，乱箭射死副军师庞统。",
+     "importance": 3
+    },
+    {
+     "year": 213,
+     "title": "金雁桥被擒",
+     "description": "孔明设计诱擒，宁死不降，被杀；刘备厚葬之。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：生年无载｜演：史载卒于建安十八年末至十九年初（213–214），演义系于雒城被擒（213）"
+  },
+  {
+   "id": "yan_yan",
+   "name": "严颜",
+   "courtesy": null,
+   "match_surfaces": [
+    "严颜"
+   ],
+   "display_aliases": [
+    "巴郡太守"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "史载 219 年后事迹无考（演义写到义释归刘为止）。生卒年俱无载。",
+   "gender": "male",
+   "first_chapter": 63,
+   "review_status": "reviewed",
+   "summary": "严颜，群雄文臣，巴郡太守。严颜从其言，教军士尽数上城守护。",
+   "bio": "严颜，刘璋将，守巴郡。张飞溯江西上，颜据城拒守，被飞设计生擒。飞喝令斩首，颜慨然：但有断头将军，无降将军！飞壮而释之，引为宾客。颜感其义，为飞前驱，沿途守将皆颜所部，望风归顺，飞军遂得先备至雒城。史载建安十九年张飞破巴郡获颜，此后事迹史无明文。演义写其归刘后随黄忠定军山建功，系小说移花接木。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 212,
+     "end_year": 213,
+     "title": "巴郡太守",
+     "lord_id": "liu_zhang",
+     "basis": "守巴郡拒张飞，兵败被擒后归刘。",
+     "confidence": 0.95,
+     "review_status": "reviewed",
+     "_role_orig": "太守"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 213,
+     "end_year": 214,
+     "title": "前军前驱",
+     "lord_id": "liu_bei",
+     "basis": "感张飞之义为前驱，引兵归降诸关。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 213,
+     "title": "义释于巴郡",
+     "description": "据守巴郡被张飞生擒，断头将军语激飞，飞亲解其缚。",
+     "importance": 3
+    },
+    {
+     "year": 213,
+     "title": "前驱开道",
+     "description": "感义为前驱，沿路关隘望风而降，张飞军先到雒城。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "yang_fu",
+   "name": "杨阜",
+   "courtesy": "义山",
+   "match_surfaces": [
+    "杨阜",
+    "杨义山"
+   ],
+   "display_aliases": [
+    "天水人",
+    "参冀军事"
+   ],
+   "birth": 176,
+   "death": 244,
+   "date_precision": "approx",
+   "date_note": "史载卒于正始元年（244）。生年按其卒于 244、事迹推约 176，存疑。",
+   "gender": "male",
+   "first_chapter": 59,
+   "review_status": "reviewed",
+   "summary": "杨阜，群雄文臣，凉州从事、参冀城军事。人言杨阜劝韦康休降，可斩之，超曰：此人守义，不可斩也。",
+   "bio": "杨阜字义山，天水冀人。马超攻陇上诸县，阜时为凉州从事，守冀城有功。超破冀城，杀阜同乡刺史康，阜诈降伺隙，假称归葬妻，出历城，会姜叙、赵昂等举兵，又借冀城以东兵，大破马超，超奔汉中。曹操征汉中，阜为参军。后为魏臣，直言敢谏：明帝时上疏谏营宫室、谏诛近习，迁将作大匠。阜性刚直，史称其以谏诤显名。演义写其借兵破马超一节，与史相合。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 211,
+     "end_year": 213,
+     "title": "凉州从事、参冀城军事",
+     "lord_id": "cao_cao",
+     "basis": "为凉州从事守冀城（刺史韦康未建卡），借兵破马超后归曹氏。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "刺史佐吏"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 215,
+     "end_year": 244,
+     "title": "参军、武都太守、将作大匠",
+     "lord_id": "cao_cao",
+     "basis": "曹操征汉中以为参军，入魏历武都太守、将作大匠。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 213,
+     "title": "借兵破马超",
+     "description": "假称归葬出城，与姜叙等举兵，大破马超于陇上，超奔汉中。",
+     "importance": 3
+    },
+    {
+     "year": 215,
+     "title": "从征汉中",
+     "description": "曹操西征张鲁，阜为参军随军。",
+     "importance": 1
+    },
+    {
+     "year": 236,
+     "title": "谏明帝崇奢",
+     "description": "上疏谏罢宫室之役，直言极谏，闻名朝野。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "guan_lu",
+   "name": "管辂",
+   "courtesy": "公明",
+   "match_surfaces": [
+    "管辂",
+    "管公明"
+   ],
+   "display_aliases": [
+    "平原管辂",
+    "神卜"
+   ],
+   "birth": 209,
+   "death": 256,
+   "date_precision": "exact",
+   "date_note": "史载生于建安十年前后推定为 209，卒于甘露元年（256）。《三国志》本传存卒年。",
+   "gender": "male",
+   "first_chapter": 69,
+   "review_status": "reviewed",
+   "summary": "管辂，神怪人物，术士。闻之，赶上管辂，哭拜于地曰：请归救吾子。",
+   "bio": "管辂字公明，平原人。容貌粗丑，无威仪而嗜酒，好天文、占卜，设卦观象言无不中。演义写其受曹操之召，卜东吴、西蜀吉凶，预测夏侯渊战死、鲁肃病亡皆验；又为曹操卜寿数，言不可轻动。正史中管辂主要活动于魏正始年间，为清河太守华表所荐，官至少府丞，占验著名者为何晏、邓飏问卜（当有异志之卦）。演义将时间前移并系于曹操在世时，属小说家言。评曰：辂之术，近乎神。",
+   "tenure": [
+    {
+     "faction_id": "mystic",
+     "role": "其他",
+     "start_year": 216,
+     "end_year": 256,
+     "title": "术士",
+     "lord_id": "cao_cao",
+     "basis": "第69回：「管辂字公明，平原人也……自幼便喜仰视星辰」，以卜筮知名，无官职，属方术之士。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "术士"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 216,
+     "title": "应召卜吉凶",
+     "description": "曹操召辂卜天下大势与诸事吉凶，预言多验（演义系年）。",
+     "importance": 2
+    },
+    {
+     "year": 249,
+     "title": "为何晏筮卦",
+     "description": "为何晏、邓飏占卜，断其有覆亡之兆；岁余二人果诛。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "huang_quan",
+   "name": "黄权",
+   "courtesy": "公衡",
+   "match_surfaces": [
+    "黄权",
+    "黄公衡"
+   ],
+   "display_aliases": [
+    "益州从事中郎",
+    "镇北将军"
+   ],
+   "birth": null,
+   "death": 240,
+   "date_precision": "approx",
+   "date_note": "史载卒于正始元年（240）。生年无载。",
+   "gender": "male",
+   "first_chapter": 60,
+   "review_status": "reviewed",
+   "summary": "黄权，字公衡，巴西阆中人，先事刘璋，后事刘备，夷陵后归魏。",
+   "bio": "黄权，字公衡，巴西阆中人。初为刘璋主簿，谏迎刘备不听；刘备取益州后用为将军。夷陵之役黄权督江北军，刘备败，归路断，遂率众降魏，魏文帝以为镇南将军。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 211,
+     "end_year": 213,
+     "title": "益州牧刘璋主簿、广汉长",
+     "lord_id": "liu_zhang",
+     "basis": "谏璋勿迎刘备不听，出为广汉长。",
+     "confidence": 0.9,
+     "review_status": "reviewed",
+     "_role_orig": "主簿"
+    },
+    {
+     "faction_id": "shu",
+     "role": "武将",
+     "start_year": 214,
+     "end_year": 222,
+     "title": "偏将军、治中从事、镇北将军",
+     "lord_id": "liu_bei",
+     "basis": "备定益州亲请降之，伐吴时督江北军。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 222,
+     "end_year": 240,
+     "title": "镇南将军、车骑将军、仪同三司",
+     "lord_id": "cao_pi",
+     "basis": "猇亭道绝降魏，丕拜镇南将军，累迁车骑将军。",
+     "confidence": 0.9,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "谏璋勿迎备",
+     "description": "主簿任上力谏刘璋勿迎刘备入川，璋不听。",
+     "importance": 2
+    },
+    {
+     "year": 221,
+     "title": "谏备勿伐吴",
+     "description": "请为先驱、陛下为后镇，备不听，出督江北军。",
+     "importance": 2
+    },
+    {
+     "year": 222,
+     "title": "降魏不还蜀",
+     "description": "猇亭败后归蜀水道被断，率众降魏；备不罪其妻子。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "liu_ba",
+   "name": "刘巴",
+   "courtesy": "子初",
+   "match_surfaces": [
+    "刘巴",
+    "刘子初"
+   ],
+   "display_aliases": [
+    "零陵烝阳人",
+    "尚书令"
+   ],
+   "birth": null,
+   "death": 222,
+   "date_precision": "approx",
+   "date_note": "史载卒于章武二年（222）。生年无载。",
+   "gender": "male",
+   "first_chapter": 62,
+   "review_status": "reviewed",
+   "summary": "刘巴，东汉文臣，曹公掾使、招纳三郡。尚书令费祎谏曰：近者，蒋琬、董允皆相继而亡，内治无人。",
+   "bio": "刘巴字子初，零陵烝阳人。少有名，备在新野，巴走依曹公，使招纳长沙零陵桂阳三郡，会备已略地，巴欲由交州还曹，诸葛亮留之不从，遂南入交趾，辗转依刘璋。璋迎刘备，巴谏：备，雄才也，入必为害。璋不听。备围成都，令军中：有害巴者，诛三族。城破巴乃谢罪归备，为左将军西曹掾。备称帝，巴为尚书令。备伐吴议，巴谏不听。章武二年卒。巴退还益州民用虚币之弊，平诸物价，为蜀理财能臣。演义出场甚简。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 208,
+     "end_year": 210,
+     "title": "曹公掾使、招纳三郡",
+     "lord_id": "cao_cao",
+     "basis": "赤壁前依曹操，使招长沙零陵桂阳，事败南走。",
+     "confidence": 0.8,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 210,
+     "end_year": 214,
+     "title": "刘璋帐下",
+     "lord_id": "liu_zhang",
+     "basis": "由交趾入蜀依璋，谏迎备不听。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    },
+    {
+     "faction_id": "shu",
+     "role": "文臣",
+     "start_year": 214,
+     "end_year": 222,
+     "title": "左将军西曹掾、尚书令",
+     "lord_id": "liu_bei",
+     "basis": "成都下归备，历西曹掾，称帝后为尚书令，222 年卒。",
+     "confidence": 0.95,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 211,
+     "title": "谏璋拒备",
+     "description": "谏刘璋：刘备入蜀必为后患。璋不听。",
+     "importance": 2
+    },
+    {
+     "year": 214,
+     "title": "闭门谢罪归刘",
+     "description": "备令三军有害巴者诛三族，巴乃归降，署左将军西曹掾。",
+     "importance": 2
+    },
+    {
+     "year": 221,
+     "title": "尚书令理财",
+     "description": "平益州虚币物价之乱，佐备称帝建国。",
+     "importance": 2
+    }
+   ]
+  }
+ ]
+}

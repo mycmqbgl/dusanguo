@@ -1,0 +1,44 @@
+{
+ "id": "lu_zhi",
+ "name": "卢植",
+ "courtesy": "子干",
+ "display_aliases": [
+  "卢中郎"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "approx",
+ "date_note": "卒于初平三年（192）；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "卢植，东汉文臣，北中郎将、尚书。卢植弃官未去，见宫中事变，擐甲持戈，立于阁下。",
+ "bio": "卢植字子干，涿郡人，大经学家，师从马融，与郑玄同门，刘备尝师事之。黄巾起，拜北中郎将，持节将五万兵围张角于广宗，屡战将破。黄门左丰索贿不得，回奏诬其高垒不战、惰慢军心，槛车征还问罪，以董卓代将其兵——归途撞见「车中之囚乃卢植也」的刘备要劫囚救师，被他以「朝廷自有公论」止住。此节让读者第一次看清宦官政治如何葬送能臣。后复为尚书，因谏董卓免官（第三回），隐居上谷，初平三年卒。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 192,
+   "title": "北中郎将、尚书",
+   "basis": "以经学立身，官至尚书；讨黄巾期间暂领北中郎将统兵，本职为文臣。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "围张角于广宗",
+   "description": "拜北中郎将，将五万兵相拒广宗。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "槛车征还",
+   "description": "拒贿左丰，被诬高垒不战，槛车征京问罪。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 16
+}

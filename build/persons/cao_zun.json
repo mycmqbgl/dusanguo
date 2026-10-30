@@ -1,0 +1,29 @@
+{
+ "id": "cao_zun",
+ "name": "曹遵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 93,
+ "review_status": "auto_mined",
+ "summary": "曹遵，曹真族弟，魏将。",
+ "bio": "曹遵，魏将，曹真族弟。随曹真御诸葛亮，第93回兵败。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "先锋",
+   "basis": "第93回曹真命宗弟曹遵为先锋，又命荡寇将军朱赞为副先锋，出师伐蜀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

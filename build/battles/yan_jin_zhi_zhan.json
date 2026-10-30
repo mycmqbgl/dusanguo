@@ -1,0 +1,96 @@
+{
+ "id": "yan_jin_zhi_zhan",
+ "name": "延津之战",
+ "year": 200,
+ "date_text": "建安五年（200）",
+ "place_id": "yan_jin",
+ "event_id": "guandu_zhi_zhan",
+ "belligerents": [
+  {
+   "side": "曹军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "cao_cao",
+    "guan_yu",
+    "xu_huang",
+    "zhang_liao"
+   ],
+   "troops_desc": "操亲军，辎重饵敌"
+  },
+  {
+   "side": "袁军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "wen_chou",
+    "liu_bei"
+   ],
+   "troops_desc": "文丑刘备追兵五六千"
+  }
+ ],
+ "result": "关羽阵斩文丑，袁军再丧一将",
+ "casualties_note": "袁绍大将文丑为关羽所斩；曹军以辎重诱敌，袁军争拾财物自乱。",
+ "summary": "文丑刘备引兵追曹军，操令弃辎重于道。袁军争拾，操纵兵击之，关羽飞马直入刺文丑于马下。",
+ "detail": "白马既解，袁绍怒令文丑与刘备渡河追击。曹操令弃辎重粮秣于道，引兵南退。文丑军至，士卒争拾辎重阵形大乱，操令反击。关羽飞马直入，文丑迎战不支欲走，关羽马快赶上，脑后一刀斩文丑于马下。刘备见「汉寿亭侯」旗号，欲招关羽，为袁绍军所阻。",
+ "front_line": [
+  {
+   "time": 200,
+   "time_seq": 1,
+   "kind": "追击",
+   "label": "文丑渡河",
+   "desc": "文丑刘备引兵渡河追曹军，欲复白马之仇。",
+   "lng": 114.2,
+   "lat": 35.14,
+   "pixel_x": 806.8,
+   "pixel_y": 408.9
+  },
+  {
+   "time": 200,
+   "time_seq": 2,
+   "kind": "诱敌",
+   "label": "辎重饵敌",
+   "desc": "操令弃辎重于道，南退诱敌。",
+   "lng": 114.3,
+   "lat": 35.0,
+   "pixel_x": 810.8,
+   "pixel_y": 415.4
+  },
+  {
+   "time": 200,
+   "time_seq": 3,
+   "kind": "对峙",
+   "label": "袁军争财",
+   "desc": "袁军争拾辎重，阵形大乱。",
+   "lng": 114.35,
+   "lat": 35.05,
+   "pixel_x": 812.8,
+   "pixel_y": 413.1
+  },
+  {
+   "time": 200,
+   "time_seq": 4,
+   "kind": "攻伐",
+   "label": "阵斩文丑",
+   "desc": "关羽飞马直入，脑后一刀斩文丑于马下。",
+   "lng": 114.28,
+   "lat": 35.1,
+   "pixel_x": 810.0,
+   "pixel_y": 410.8
+  },
+  {
+   "time": 200,
+   "time_seq": 5,
+   "kind": "结局",
+   "label": "袁军再败",
+   "desc": "绍又折一将，河北夺气；备见旗号欲招关羽被阻。",
+   "lng": 114.25,
+   "lat": 35.12,
+   "pixel_x": 808.8,
+   "pixel_y": 409.8
+  }
+ ],
+ "place_name": "延津"
+}

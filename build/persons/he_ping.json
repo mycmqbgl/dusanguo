@@ -1,0 +1,29 @@
+{
+ "id": "he_ping",
+ "name": "何平",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "何平，蜀汉武将，蜀将。马飞报魏延，说杨仪令先锋何平引兵自槎山小路抄来搦战。",
+ "bio": "第 105 回：何平引兵径到南谷之后，擂鼓呐喊。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 235,
+   "end_year": 235,
+   "title": "蜀将",
+   "basis": "第一百零五回原文：哨马飞报魏延，说杨仪令先锋何平引兵自槎山小路抄来搦战。 职任「蜀将」据此；★任期按末见回目收敛：全书最后一次提及在第 105 回（235 年），原 235—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

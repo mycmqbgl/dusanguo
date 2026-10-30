@@ -1,0 +1,38 @@
+{
+ "id": "lv_xiang",
+ "name": "吕翔",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 206,
+ "date_precision": "approx",
+ "date_note": "生年不详；约卒于建安十一年前后（第 36 回为张飞所杀，演义纪年粗略）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "reviewed",
+ "summary": "吕翔，群雄武将，曹操部将。引军退屯黎阳，封吕旷、吕翔为列侯，随军听用。",
+ "bio": "吕旷之弟，绍死后与兄同降曹。与旷共引兵五万攻新野，兵败被张飞刺死。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 202,
+   "end_year": 206,
+   "title": "曹操部将",
+   "lord_id": "cao_cao",
+   "basis": "202年随绍降操。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 206,
+   "title": "殁于阵",
+   "description": "攻新野为张飞刺死。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：约卒于建安十一年前后（第 36 回为张飞所杀，演义纪年粗略）",
+ "mention_count": 15
+}

@@ -1,0 +1,61 @@
+{
+ "id": "lv_bu",
+ "name": "吕布",
+ "courtesy": "奉先",
+ "display_aliases": [
+  "吕奉先",
+  "吕温侯",
+  "飞将"
+ ],
+ "birth": null,
+ "death": 199,
+ "date_precision": "approx",
+ "date_note": "生年不详。建安三年十二月（199 年初）缢死于白门楼。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "吕布，群雄君主。飞将鲁肃荐书呈上。",
+ "bio": "吕布字奉先，五原九原人，便弓马，膂力过人，号「飞将」。初事丁原为义儿，董卓以赤兔马与金珠诱之，遂斩丁原首级归卓，又拜卓为义父。后因貂蝉之故与卓生隙，与王允合谋诛卓。卓死，布为李傕、郭汜所败，出关依袁绍、张杨，后据徐州。建安三年曹操围下邳，布恃勇无谋、不听陈宫之计，为部将所缚，缢死于白门楼。演义「三英战吕布」「辕门射戟」皆其名场面。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 199,
+   "title": "主簿、骑都尉、中郎将、都亭侯、奋威将军、徐州牧",
+   "basis": "先属丁原，继归董卓，再自立据徐州，始终为群雄之一部，无国号可归。全期以战斗指挥为职责，故为武将。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_patched": "由「下属数」证据升级"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "杀丁原归董卓",
+   "description": "李肃以赤兔马、金珠说之，布夜入丁原帐中斩其首。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "诛董卓",
+   "description": "与王允合谋，于宫门刺杀董卓。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "辕门射戟",
+   "description": "一箭中戟小支，为刘备解纪灵之围。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "白门楼",
+   "description": "下邳城破被缚，乞降不纳，缢死。",
+   "importance": 3
+  }
+ ],
+ "history_conflict_type": "重大叙事",
+ "history_conflict_note": "第五回「三英战吕布」为演义虚构的重大叙事桥段：史载吕布败退长安系于孙坚、曹操等部击败，虎牢关前刘关张合战吕布、八角楼宴桃园等情节皆无史据，唯吕布败走属实。",
+ "mention_count": 377
+}

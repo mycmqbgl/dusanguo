@@ -1,0 +1,29 @@
+{
+ "id": "yin_da_mu",
+ "name": "尹大目",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "尹大目，曹魏武将，殿中校尉。说魏殿中校尉尹大目，乃曹爽心腹之人，因爽被司马懿谋杀，故事司马师，常有杀师报爽之心；又素与文钦交厚。",
+ "bio": "。第 110 回：魏殿中校尉尹大目，乃曹爽心腹之人，因爽被司马懿谋杀，故事司马师，常有杀师报爽之心。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "殿中校尉",
+   "basis": "第107回司马懿召殿中校尉尹大目，令蒋济作书，使持去见曹爽劝降。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

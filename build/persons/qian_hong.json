@@ -1,0 +1,29 @@
+{
+ "id": "qian_hong",
+ "name": "牵弘",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "牵弘，曹魏文臣，魏陇西太守。第 116 回一笔带过，事迹仅存其名。",
+ "bio": "第 116 回：陇西太守牵弘，引一万五千人，从右攻沓中。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 262,
+   "end_year": 263,
+   "title": "魏陇西太守",
+   "basis": "第一百十六回原文：陇西太守牵弘，金城太守杨欣，各调本部兵前来听令。 职任「魏陇西太守」据此；★任期按末见回目收敛：全书最后一次提及在第 118 回（263 年），原 262—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

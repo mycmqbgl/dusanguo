@@ -1,0 +1,52 @@
+{
+ "id": "guan_ping",
+ "name": "关平",
+ "courtesy": null,
+ "display_aliases": [
+  "关羽义子",
+  "关定之子"
+ ],
+ "birth": null,
+ "death": 220,
+ "date_precision": "approx",
+ "date_note": "史载平为关羽长子，卒于建安二十四年末（公历 220 年初）；生年不详。演义改写为冀州关定之子，过继为关羽义子。",
+ "gender": "male",
+ "first_chapter": 28,
+ "review_status": "reviewed",
+ "summary": "关平，蜀汉武将，关羽麾下副将。关平奋力冲杀，奉败走，廖化乘势杀出重围。",
+ "bio": "关平，演义中本冀州关家庄关定之子。刘备过五关时留之于关定庄上，关羽收为义子，自此随侍军中。荆州既定，平为羽副，水淹七军之役攻樊城、战庞德三十合不分胜负；庞德射羽中臂，平救父回营，把住隘口十余日不使羽知敌搦战。徐晃救樊城，平与廖化四冢寨连败，犹奋死冲阵。麦城被围，平奋力冲杀护廖化突围往上庸求救；夜走临沮，父被绊马索所擒，平孤身独战潘璋、朱然，力尽亦被执。孙权劝降不从，父子同日遇害。麦城守将王甫、周仓见首级，一堕城、一自刎。评曰：虎子不坠虎门，血战殉父，与父同殒于临沮。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 220,
+   "title": "关羽麾下副将",
+   "lord_id": "liu_bei",
+   "basis": "随关羽镇荆州，攻樊城、守麦城，父子同殉于临沮。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 219,
+   "title": "战庞德",
+   "description": "樊城阵前代父出战庞德，三十合不分胜负。",
+   "importance": 2
+  },
+  {
+   "year": 219,
+   "title": "救父中箭",
+   "description": "庞德箭射关羽，平马到救父回营，把住隘口拒战。",
+   "importance": 2
+  },
+  {
+   "year": 220,
+   "title": "临沮殉难",
+   "description": "麦城突围夜走临沮，父被擒，平力战不支亦被执，父子同遇害。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 85
+}

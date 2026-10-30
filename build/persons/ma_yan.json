@@ -1,0 +1,29 @@
+{
+ "id": "ma_yan",
+ "name": "马延",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "马延，曹魏武将，袁尚部将。马延正欲交锋，早被甘宁一刀斩于马下；张顗挺枪来迎，宁大喝一声，顗措手不及，被宁手起一刀，翻身落马。",
+ "bio": "第 32 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 208,
+   "title": "袁尚部将",
+   "basis": "第三十二回原文：尚引败兵退往西山下寨，令人催取马延、张顗军来。 职任「袁尚部将」据此；★任期按末见回目收敛：全书最后一次提及在第 50 回（208 年），原 204—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

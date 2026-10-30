@@ -1,0 +1,29 @@
+{
+ "id": "dian_man",
+ "name": "典满",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "典满，典韦之子，曹操以为郎中。",
+ "bio": "典满，陈留己吾人，典韦之子。父死于宛城，曹操为之流涕，以满为郎中，后为司马。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 198,
+   "end_year": 229,
+   "title": "中郎",
+   "basis": "第十七回：典韦死后，曹操以其子典满为中郎，后封列侯。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

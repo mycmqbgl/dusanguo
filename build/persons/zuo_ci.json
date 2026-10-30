@@ -1,0 +1,29 @@
+{
+ "id": "zuo_ci",
+ "name": "左慈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 68,
+ "review_status": "auto_mined",
+ "summary": "左慈，神怪人物，方士。童急欲问时，左慈已拂袖而去。",
+ "bio": "第 68 回：正行酒间，左慈足穿木履，立于筵前。第 68 回：小童回顾，见左慈已将地上死羊凑活，赶将来了。",
+ "tenure": [
+  {
+   "faction_id": "mystic",
+   "role": "其他",
+   "start_year": 216,
+   "end_year": 218,
+   "title": "方士",
+   "basis": "第六十八回原文：众官仰面视之，左慈不知所往。 职任「方士」据此；★任期按末见回目收敛：全书最后一次提及在第 69 回（218 年），原 216—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 17
+}

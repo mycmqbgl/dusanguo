@@ -1,0 +1,260 @@
+{
+ "source": "persons_ch011_020_b.json",
+ "total": 22,
+ "passed": 22,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 20,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "zhou_yu",
+   "name": "周瑜",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_zhao",
+   "name": "张昭",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhang_hong",
+   "name": "张纮",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "taishi_ci",
+   "name": "太史慈",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "liu_yao",
+   "name": "刘繇",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wang_lang",
+   "name": "王朗",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yan_baihu",
+   "name": "严白虎",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 111 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "yan_yu",
+   "name": "严舆",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 113 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "yu_fan",
+   "name": "虞翻",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zhou_tai",
+   "name": "周泰",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 149 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "jiang_qin",
+   "name": "蒋钦",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 120 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "chen_wu",
+   "name": "陈武",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 95 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "dong_xi",
+   "name": "董袭",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 136 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhu_zhi",
+   "name": "朱治",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 104 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "lv_fan",
+   "name": "吕范",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 132 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wu_jing",
+   "name": "吴景",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 104 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "ling_cao",
+   "name": "凌操",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 85 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_ying",
+   "name": "张英",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 75 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "fan_neng",
+   "name": "樊能",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 56 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "xue_li",
+   "name": "薛礼",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 52 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "ze_rong",
+   "name": "笮融",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "卒年为空但 date_note 未说明「卒年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 149 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhou_xin",
+   "name": "周昕",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 71 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

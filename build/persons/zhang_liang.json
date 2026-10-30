@@ -1,0 +1,45 @@
+{
+ "id": "zhang_liang",
+ "name": "张梁",
+ "courtesy": null,
+ "display_aliases": [
+  "人公将军"
+ ],
+ "birth": null,
+ "death": 184,
+ "date_precision": "approx",
+ "date_note": "卒于中平元年（184）末，皇甫嵩夜袭广宗时战死（第二回）；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "张梁，群雄武将，人公将军。到天明，张梁、张宝引败残军士，夺路而走。",
+ "bio": "张梁，巨鹿人，张角三弟。黄巾起兵，称人公将军。与张宝在颍川与皇甫嵩、朱儁对垒，长社依草结营遭火攻大败，死战得脱，途中又遭曹操拦击。后投广宗依张角，为皇甫嵩夜袭破营（第二回），战死。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "人公将军",
+   "basis": "第一回自称人公将军。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "颍川对垒",
+   "description": "与张宝在颍川与皇甫嵩、朱儁对垒。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "长社溃败",
+   "description": "遭火攻大败，夺路而走。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年不详｜演：卒于中平元年（184）末，皇甫嵩夜袭广宗时战死（第二回）",
+ "mention_count": 11
+}

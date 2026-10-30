@@ -1,0 +1,103 @@
+{
+ "id": "dong_zhuo_fei_li",
+ "name": "董卓废立",
+ "kind": "政治事件",
+ "start_year": 189,
+ "end_year": 190,
+ "date_text": "中平六年（189）九月—初平元年（190）正月",
+ "summary": "董卓以「天子暗弱，不可以奉宗庙」废少帝为弘农王、立陈留王刘协，自专朝政；丁原、袁绍、卢植反抗者或死或走，何太后与弘农王随后遇害。",
+ "detail": "董卓迎驾还宫后招诱何进兄弟部曲，兵势大盛。私谓李儒「吾欲废帝立陈留王」，儒曰「今朝廷无主，正可就此行之」。省中设宴议废立，丁原挺身反对，卓欲杀之，见其背后吕布持戟而止；李肃以赤兔马与金珠说吕布杀丁原来降。次日再议，袁绍横剑而出，奔冀州；卢植抗声谏，卓欲杀之，蔡邕、彭伯救之，罢官。九月朔，卓请帝登台，宣策废刘辩为弘农王、立陈留王，自为相国，赞拜不名、入朝不趋、剑履上殿。随后使人鸩杀弘农王与何太后。废立是董卓由权臣到国贼的转折点，直接引发曹操献刀与十八路诸侯讨董。",
+ "place_id": "luo_yang",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "dong_zhuo",
+   "role_desc": "相国，主持废立，自专朝政"
+  },
+  {
+   "person_id": "li_ru",
+   "role_desc": "谋主，「正可就此行之」"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "杀丁原来降，为卓爪牙"
+  },
+  {
+   "person_id": "li_su",
+   "role_desc": "以赤兔马与金珠说降吕布"
+  },
+  {
+   "person_id": "ding_yuan",
+   "role_desc": "荆州刺史，挺身反对废立，被吕布所杀"
+  },
+  {
+   "person_id": "yuan_shao",
+   "role_desc": "「汝剑利，吾剑未尝不利」，横剑出奔冀州"
+  },
+  {
+   "person_id": "lu_zhi",
+   "role_desc": "抗声直谏，罢官（得蔡邕、彭伯所救）"
+  },
+  {
+   "person_id": "liu_bian",
+   "role_desc": "被废为弘农王，后遭鸩杀"
+  },
+  {
+   "person_id": "liu_xie",
+   "role_desc": "立为帝，是为献帝"
+  },
+  {
+   "person_id": "he_taihou",
+   "role_desc": "被迁永安宫，随后遇害"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "私议废立",
+   "description": "卓谓李儒「吾欲废帝立陈留王」，儒曰「今朝廷无主，正可就此行之」。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "丁原抗命",
+   "description": "省中设宴议废立，丁原挺身反对，卓欲杀之而惮其身后吕布。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "吕布杀丁原",
+   "description": "李肃赍赤兔马、金珠说吕布；布夜杀丁原，持首级来降，拜卓为义父。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "袁绍出走",
+   "description": "再议废立，袁绍厉声反对，「汝剑利，吾剑未尝不利」，横剑而去，奔冀州。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "废帝立协",
+   "description": "九月朔，宣策废刘辩为弘农王，立陈留王刘协，是为献帝。卓自为相国。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "鸩杀弘农王",
+   "description": "李儒以鸩酒杀弘农王于永安宫，何太后、唐妃同殉。",
+   "importance": 3
+  }
+ ],
+ "passage_ids": [
+  3015,
+  3016,
+  3018,
+  3023,
+  4001,
+  4003,
+  4007,
+  4012
+ ],
+ "battle_ids": []
+}

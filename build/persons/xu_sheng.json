@@ -1,0 +1,31 @@
+{
+ "id": "xu_sheng",
+ "name": "徐盛",
+ "courtesy": "文向",
+ "display_aliases": null,
+ "birth": null,
+ "death": 227,
+ "date_precision": "approx",
+ "date_note": "生年不详；史书卒于黄武三年（227），演义未写。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "reviewed",
+ "summary": "徐盛，孙吴武将，部将至安东将军。淳于丹引兵去了，又唤徐盛、丁奉曰：汝等各领兵三千，屯于寨外五里，如淳于丹败回，有兵赶来，当出救之，却不可追去。",
+ "bio": "徐盛字文向，琅琊莒人，客居吴，以勇气闻。赤壁之战为周瑜部将，与丁奉奉命截杀诸葛亮不获。后守濡须、御魏有功，历位至建武将军、安东将军，史书卒于黄武三年。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 227,
+   "title": "部将至安东将军",
+   "lord_id": "sun_quan",
+   "basis": "赤壁起为周瑜部将；卒年从史书。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：史书卒于黄武三年（227），演义未写",
+ "mention_count": 70
+}

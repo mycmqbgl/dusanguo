@@ -1,0 +1,43 @@
+{
+ "id": "hu_cheer",
+ "name": "胡车儿",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详；宛城之变后无事迹。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "胡车儿，群雄武将，偏将。晚醉归，胡车儿杂在众人队里，直入大寨。",
+ "bio": "胡车儿，张绣偏将，能负五百斤之物日行七百里，操亦爱其骁勇。贾诩献计：请车儿饮宴灌醉，混入寨中盗典韦双铁戟。车儿如计盗戟，典韦失兵器而战死，宛城之变遂成曹操平生最惨之败。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 199,
+   "title": "偏将",
+   "lord_id": "zhang_xiu",
+   "basis": "张绣部将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "属张绣",
+   "description": "为张绣偏将，负五百斤日行七百里。",
+   "importance": 1
+  },
+  {
+   "year": 197,
+   "title": "盗典韦双戟",
+   "description": "灌醉典韦亲兵、混入寨中盗双铁戟，典韦战死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

@@ -1,0 +1,29 @@
+{
+ "id": "quan_cong",
+ "name": "全琮",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 96,
+ "review_status": "auto_mined",
+ "summary": "全琮，孙吴武将，右都督。说陆逊唤朱桓、全琮分付曰：汝二人各引三万军，从石亭山路抄到曹休寨后，放火为号；吾亲率大军从中路而进：可擒曹休也。",
+ "bio": "第 96 回：全琮引一军抄到魏寨后，正撞在薛乔阵里，就那里大杀一阵。第 96 回：后面朱桓、全琮两路杀来。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 235,
+   "title": "右都督",
+   "basis": "第九十六回原文：权从之，即命朱桓为左都督，全琮为右都督，于是陆逊总率江南八十一州并荆湖之众七十余万，令朱桓在。 职任「右都督」据此；★任期按末见回目收敛：全书最后一次提及在第 105 回（235 年），原 228—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

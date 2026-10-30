@@ -1,0 +1,29 @@
+{
+ "id": "chen_jiao",
+ "name": "陈矫",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 51,
+ "review_status": "auto_mined",
+ "summary": "陈矫，曹魏文臣，尚书。兵部尚书陈矫曰：王薨于外，爱子私立，彼此生变，则社稷危矣。",
+ "bio": "第 51 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 209,
+   "end_year": 220,
+   "title": "尚书",
+   "basis": "第五十一回原文：曹仁遂令牛金为先锋，自为中军，曹洪、曹纯为合后，只留陈矫领些少军士守城，其余军兵尽起。 职任「尚书」据此；★任期按末见回目收敛：全书最后一次提及在第 79 回（220 年），原 209—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 8
+}

@@ -1,0 +1,54 @@
+{
+ "id": "zhang_bao_2",
+ "name": "张苞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 81,
+ "review_status": "auto_mined",
+ "summary": "张苞，蜀汉武将，将军。张苞上帐哭拜于前曰：二伯父仇人皆已诛戮；臣父冤仇，何日可报。",
+ "bio": "第 81 回：「令长子张苞具棺椁盛贮」，张飞长子。原文第 81 回相关片段：「飞守阆中。当下吴班先发表章，奏知天子；然后令长子张苞具棺椁盛贮，令弟张绍守阆中，苞自来报先主。时先主」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 229,
+   "title": "将军",
+   "basis": "第 81 回：「令长子张苞具棺椁盛贮」，张飞长子。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 221,
+   "title": "第 81 回",
+   "description": "主下诏使吴班为先锋，令张苞、关兴护驾",
+   "importance": 1
+  },
+  {
+   "year": 223,
+   "title": "第 85 回",
+   "description": "尚恐不能全保，又密调关兴、张苞二将，各引兵三万，屯于紧要之处，为各路救应",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "第 95 回",
+   "description": "只见大路上一军杀来，旗上大书“右护卫使虎翼将军张苞",
+   "importance": 1
+  },
+  {
+   "year": 229,
+   "title": "第 99 回",
+   "description": "报有人自成都来，说张苞身死",
+   "importance": 1
+  }
+ ],
+ "mention_count": 85
+}

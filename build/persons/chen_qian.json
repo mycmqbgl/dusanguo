@@ -1,0 +1,29 @@
+{
+ "id": "chen_qian",
+ "name": "陈骞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "陈骞，字休渊，临淮东阳人，魏末仕晋，官至大司马。",
+ "bio": "陈骞，字休渊，临淮东阳人，魏司徒陈矫之子。魏末为安东将军，参与伐吴，入晋官至大司马，封高平公。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "安东将军",
+   "basis": "第111回司马昭起兵，以安东将军陈骞为副先锋。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

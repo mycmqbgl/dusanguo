@@ -1,0 +1,29 @@
+{
+ "id": "yang_ling",
+ "name": "杨龄",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "auto_mined",
+ "summary": "杨龄，群雄武将，管军校尉。玄大喜，遂令杨龄引军一千，飞奔出城。",
+ "bio": "第 53 回：韩玄大喜，遂令杨龄引军一千，飞奔出城。第 53 回：杨龄挺枪出马，立于阵前骂战。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 229,
+   "title": "管军校尉",
+   "basis": "第53回韩玄视之，乃管军校尉杨龄，令其引军一千出战关公。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

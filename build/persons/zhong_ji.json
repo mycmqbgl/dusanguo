@@ -1,0 +1,43 @@
+{
+ "id": "zhong_ji",
+ "name": "种辑",
+ "display_aliases": [
+  "长水校尉"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）衣带诏事泄，与董承等同日族诛。生年不详。",
+ "gender": "male",
+ "first_chapter": 20,
+ "review_status": "reviewed",
+ "summary": "种辑，东汉武将，长水校尉。种辑怒曰：忠臣不怕死。",
+ "bio": "建安四年，董承受献帝衣带诏，约集王子服、种辑、吴硕、吴子兰、马腾、刘备共谋诛曹，歃血为盟。建安五年春事泄（家奴秦庆童告密），曹操兴大狱，种辑与董承等同日被诛，夷三族。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "长水校尉",
+   "basis": "汉廷武职，受衣带诏。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "受衣带诏",
+   "description": "与董承等六人歃血盟誓谋诛曹操。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "事泄族诛",
+   "description": "衣带诏败露，与董承同日被诛，夷三族。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 7
+}

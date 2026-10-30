@@ -1,0 +1,29 @@
+{
+ "id": "liao_li",
+ "name": "廖立",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 104,
+ "review_status": "auto_mined",
+ "summary": "廖立，蜀汉武将，长水校尉。蜀长水校尉廖立，自谓才名宜为孔明之副，尝以职位闲散，怏怏不平，怨谤无已。",
+ "bio": "。第 104 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "长水校尉",
+   "basis": "第104回蜀长水校尉廖立自谓才名宜为孔明之副，怏怏不平，怨谤无已，遂废为民。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

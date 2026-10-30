@@ -1,0 +1,29 @@
+{
+ "id": "quan_hou",
+ "name": "全后",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "全后，孙吴女眷，孙亮皇后。亮大怒，指全后骂曰：汝父兄误我大事矣。",
+ "bio": "。第 113 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "女眷",
+   "start_year": 255,
+   "end_year": 280,
+   "title": "全后，孙亮皇后",
+   "basis": "第一百十三回原文：全后与侍中近臣，皆牵其衣而哭，不放亮出。 职任「全后，孙亮皇后」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

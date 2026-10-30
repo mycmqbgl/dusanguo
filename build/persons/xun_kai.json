@@ -1,0 +1,36 @@
+{
+ "id": "xun_kai",
+ "name": "荀恺",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "荀恺，曹魏武将，魏兵。第 116 回一笔带过，事迹仅存其名。",
+ "bio": "。第 116 回：「却被魏兵中荀恺回身一箭，射卢逊落马」。原文第 116 回相关片段：「马步行；跑下桥时，卢逊赶上，一枪刺来，却被魏兵中荀恺回身一箭，射卢逊落马。钟会麾众乘势抢关，关上军士」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 264,
+   "title": "魏兵",
+   "basis": "第 116 回：「却被魏兵中荀恺回身一箭，射卢逊落马」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 262,
+   "title": "第 116 回",
+   "description": "方才到桥上，陷住马蹄，几乎堕桥；若非荀恺，吾已被杀矣",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

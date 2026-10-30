@@ -1,0 +1,29 @@
+{
+ "id": "yang_zong",
+ "name": "杨综",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "杨综，曹魏文臣，主簿。第 107 回一笔带过，事迹仅存其名。",
+ "bio": "官职「主簿」据原文上下文提取。原文第 107 回相关片段：「允、陈泰令爽先纳印绶与司马懿。爽令将印送去，主簿杨综扯住印绶而哭曰：“主公今日舍兵权自缚去降，不免东」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "主簿",
+   "basis": "第107回曹爽欲纳印绶，主簿杨综扯住印绶而哭，言此去必受戮。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

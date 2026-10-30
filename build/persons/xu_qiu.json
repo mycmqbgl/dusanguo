@@ -1,0 +1,29 @@
+{
+ "id": "xu_qiu",
+ "name": "徐璆",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 21,
+ "review_status": "auto_mined",
+ "summary": "徐璆，东汉文臣，高陵太守。大喜，封徐璆为高陵太守。",
+ "bio": "第 21 回：操大喜，封徐璆为高陵太守。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 200,
+   "title": "高陵太守",
+   "basis": "第21回徐璆尽杀袁胤，夺得玉玺赴许都献于曹操，操封为高陵太守。 第21回徐璆杀袁胤夺玉玺献曹操，操封为高陵太守，事在 200 年。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

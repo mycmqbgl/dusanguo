@@ -1,0 +1,29 @@
+{
+ "id": "xu_zhi",
+ "name": "徐质",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 109,
+ "review_status": "auto_mined",
+ "summary": "徐质，曹魏武将，辅国将军。徐质领令，初更时分，引兵望铁笼山来，果见蜀兵二百余人，驱百余头木牛流马，装载粮草而行。",
+ "bio": "。第 109 回：师素知徐质英勇过人，心中大喜，即令徐质为先锋，令司马昭为大都督，领兵望陇西进发。第 109 回：徐质使开出大斧，出马挑战。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "辅国将军",
+   "basis": "第109回司马师问谁敢敌蜀兵，辅国将军徐质愿往，后为姜维所刺，死于乱军。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

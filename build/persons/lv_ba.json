@@ -1,0 +1,29 @@
+{
+ "id": "lv_ba",
+ "name": "吕霸",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，220 年袭爵。",
+ "gender": "male",
+ "first_chapter": 77,
+ "review_status": "auto_mined",
+ "summary": "吕霸，吕蒙之子，袭孱陵侯爵。吴夺荆州、吕蒙病卒后受封。",
+ "bio": "吕霸，吕蒙之子。第77回吕蒙白衣渡江袭取荆州，未几病卒，孙权「命其子吕霸袭爵」，嗣孱陵侯。吕霸为功臣之后受封，非孙氏之亲。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 220,
+   "end_year": 220,
+   "title": "孱陵侯（袭吕蒙爵）",
+   "basis": "第77回：命其子吕霸袭爵。吕蒙袭取荆州后病卒，孙权以其子吕霸袭孱陵侯爵。吕霸为功臣之后，非孙氏之亲。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,31 @@
+{
+ "id": "zhong_yao",
+ "name": "钟繇",
+ "courtesy": null,
+ "display_aliases": [
+  "锺繇"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 56,
+ "review_status": "auto_mined",
+ "summary": "钟繇，曹魏文臣，长安郡守。钟繇为太傅，曹真为大将军，曹休为大司马，华歆为太尉，王朗为司徒，陈群为司空，司马懿为骠骑大将军。",
+ "bio": "第 56 回：时有王朗、钟繇、王粲、陈琳一班文官，进献诗章。第 58 回：钟繇上城守护。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 210,
+   "end_year": 239,
+   "title": "长安郡守",
+   "basis": "第五十六回原文：时有王朗、钟繇、王粲、陈琳一班文官，进献诗章。 职任「长安郡守」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 210—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 17
+}

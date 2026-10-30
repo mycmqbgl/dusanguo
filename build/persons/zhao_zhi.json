@@ -1,0 +1,29 @@
+{
+ "id": "zhao_zhi",
+ "name": "赵直",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 104,
+ "review_status": "auto_mined",
+ "summary": "赵直，曹魏武将，行军司马。赵直想了半晌，答曰：此大吉之兆：麒麟头上有角，苍龙头上有角，乃变化飞腾之象也。",
+ "bio": "官职「司马」据原文上下文提取。原文第 104 回相关片段：「梦见头上忽生二角，醒来甚是疑异。次日，行军司马赵直至，延请入问曰：“久知足下深明《易》理，吾夜梦头」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "行军司马",
+   "basis": "第104回魏延夜梦头上生角，行军司马赵直至，延请入问吉凶。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

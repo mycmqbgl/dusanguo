@@ -1,0 +1,29 @@
+{
+ "id": "pang_hui",
+ "name": "庞会",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 74,
+ "review_status": "auto_mined",
+ "summary": "庞会，曹魏文臣，庞德子。唤其妻李氏与其子庞会出，谓其妻曰：吾今为先锋，义当效死疆场。",
+ "bio": "第 74 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 219,
+   "end_year": 262,
+   "title": "庞德子",
+   "basis": "第七十四回原文：德唤其妻李氏与其子庞会出，谓其妻曰：“吾今为先锋，义当效死疆场。 职任「庞德子」据此；★任期按末见回目收敛：全书最后一次提及在第 116 回（262 年），原 219—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

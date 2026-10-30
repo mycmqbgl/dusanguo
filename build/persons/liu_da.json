@@ -1,0 +1,32 @@
+{
+ "id": "liu_da",
+ "name": "刘达",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "汉室远祖，生卒年不详（远在本书叙事之前）。",
+ "gender": "male",
+ "first_chapter": 20,
+ "review_status": "auto_mined",
+ "summary": "刘达，汉室远祖，颍川侯，刘备世系中的一代。",
+ "bio": "刘达，汉室远祖。《三国演义》第 20 回叙刘备世系：「必生颍川侯刘达，达生丰灵侯刘不疑」，为汉景帝一脉而下、刘备之前的一代列侯。另第 110 回魏将王经麾下有同名部将刘达，与此非一人。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 1,
+   "end_year": 25,
+   "basis": "第20回：必生颍川侯刘达，达生丰灵侯刘不疑。乃刘备世系中的一代，非本书叙事时段内人物。",
+   "confidence": 0.85,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "颍川侯（汉室远祖，世系提及）"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "span_pre_state": true,
+ "mention_count": 2
+}

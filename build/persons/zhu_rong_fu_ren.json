@@ -1,0 +1,36 @@
+{
+ "id": "zhu_rong_fu_ren",
+ "name": "祝融夫人",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 90,
+ "review_status": "auto_mined",
+ "summary": "祝融夫人，异族人物，祝融氏。见祝融夫人挺标勒马而立，忠忿怒向前去战，坐下马绊倒，亦被擒了。",
+ "bio": "世居南蛮，相传为祝融氏之后。善使飞刀，百发百中，骑赤毛牛出战。诸葛亮南征，孟获屡败，祝融夫人自请出战，以飞刀伤张嶷、擒马忠，后为马岱以绊马索设伏所擒。孟获以张嶷、马忠换回夫人，夫人此后不再出战。",
+ "tenure": [
+  {
+   "faction_id": "barbarian",
+   "role": "其他",
+   "start_year": 225,
+   "end_year": 225,
+   "title": "孟获之妻（祝融氏之后）",
+   "basis": "第90回：获视之，乃妻祝融夫人也。夫人世居南蛮，乃祝融氏之后；善使飞刀。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 225,
+   "title": "第 90 回",
+   "description": "说孟获与祝融夫人并孟优、带来洞主、一切宗党在别帐饮酒",
+   "importance": 1
+  }
+ ],
+ "mention_count": 8
+}

@@ -1,0 +1,29 @@
+{
+ "id": "cen_wei",
+ "name": "岑威",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 102,
+ "review_status": "auto_mined",
+ "summary": "岑威，魏将，押运粮草为蜀军所劫。",
+ "bio": "岑威，魏将。第102回诸葛亮六出祁山，岑威押运木牛流马所载粮草，为蜀将王平所劫，岑威被斩。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 231,
+   "end_year": 234,
+   "title": "镇远将军",
+   "basis": "第一百二回原文：遂令镇远将军岑威，引一千军驱驾木牛流马，去陇西搬运粮草。此岑威为魏将，非东汉人物。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

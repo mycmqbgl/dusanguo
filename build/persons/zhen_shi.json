@@ -1,0 +1,41 @@
+{
+ "id": "zhen_shi",
+ "name": "甄氏",
+ "courtesy": null,
+ "display_aliases": [
+  "甄宓",
+  "文昭甄皇后"
+ ],
+ "birth": null,
+ "death": 221,
+ "date_precision": "exact",
+ "date_note": "生年不详；史载黄初二年（221）赐死。演义未载其卒。",
+ "gender": "female",
+ "first_chapter": 33,
+ "review_status": "reviewed",
+ "summary": "甄氏，曹魏女眷，曹丕之妻。先纳夫人甄氏，即袁绍次子袁熙之妇，前破邺城时所得。",
+ "bio": "中山无极人，上蔡令甄逸之女，初嫁袁熙。建安九年（204）曹操攻破邺城，曹丕入袁氏府见其貌美，曹操为之作伐，丕纳之，生曹叡（魏明帝）。演义写操先有「破城慎入袁氏内宅」之约，丕抢先纳之，操笑曰「真吾儿妇也」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "女眷",
+   "start_year": 204,
+   "end_year": 220,
+   "title": "曹丕之妻",
+   "lord_id": "cao_pi",
+   "basis": "204年邺城破归曹丕；女眷归女眷（决策 #8.3）。｜阵营据主君（曹丕）归属校正为wei，204-220→204-220。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 204,
+   "title": "邺城归曹",
+   "description": "曹丕入袁府纳之，曹操为作伐。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：史载卒于黄初二年（221）｜演：生卒年演义未载",
+ "mention_count": 7
+}

@@ -1,0 +1,44 @@
+{
+ "id": "min_gong",
+ "name": "闵贡",
+ "courtesy": null,
+ "display_aliases": [
+  "河南中部掾"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。仅中平六年（189）北邙山之变见载，此后演义再无出场。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "闵贡，东汉文臣，河南中部掾。说闵贡赶上段珪，拿住问：天子何在。",
+ "bio": "闵贡，河南中部掾吏。中平六年张让、段珪劫少帝与陈留王夜走北邙山，二更时分贡率人马赶至，大呼「逆贼休走」，张让见事急投河而死。贡赶上段珪拿住，问「天子何在」，珪言已在半路相失，贡遂杀段珪，悬头于马项下，分兵四散寻觅，独乘一马随路追寻，至崔毅庄，毅见首级问之，贡说明详细，崔毅引贡见帝，君臣痛哭。贡曰「国不可一日无君，请陛下还都」，遂护驾还宫。寻回天子、重建朝廷之功，全赖此一小吏，然此后演义再无其下落。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 189,
+   "title": "河南中部掾",
+   "basis": "郡府掾属为吏职，归文臣；仅 189 年北邙山之变见载，此后不明，故时间片只记一年。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "北邙山追贼",
+   "description": "二更率人马追张让、段珪，大呼「逆贼休走」，张让投河。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "杀段珪寻回少帝",
+   "description": "杀段珪悬头马项，分兵四散寻觅，至崔毅庄寻回少帝，护驾还宫。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

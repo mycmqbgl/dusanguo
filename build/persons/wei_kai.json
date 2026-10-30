@@ -1,0 +1,29 @@
+{
+ "id": "wei_kai",
+ "name": "卫凯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 66,
+ "review_status": "auto_mined",
+ "summary": "卫凯，东汉文臣，侍中。是侍中王粲、杜袭、卫凯、和洽四人，议欲尊曹操为魏王。",
+ "bio": "第 66 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 215,
+   "end_year": 220,
+   "title": "侍中",
+   "basis": "第66回卫凯与王粲、杜袭、和洽同为汉侍中，议尊曹操为魏王。 215 年前后为汉侍中，议尊曹操为魏王。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

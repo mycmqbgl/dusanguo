@@ -1,0 +1,29 @@
+{
+ "id": "pan_feng",
+ "name": "潘凤",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "auto_mined",
+ "summary": "潘凤，群雄武将，韩馥手下上将，使大斧。守韩馥曰：\"吾有上将潘凤，可斩华雄。",
+ "bio": "。第 5 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 190,
+   "title": "韩馥手下上将，使大斧",
+   "basis": "第五回原文：去不多时，飞马来报：\"潘凤又被华雄斩了。 职任「韩馥手下上将，使大斧」据此；★任期按末见回目收敛：全书最后一次提及在第 5 回（190 年），原 190—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

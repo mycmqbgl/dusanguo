@@ -1,0 +1,61 @@
+{
+ "id": "zhang_fei",
+ "name": "张飞",
+ "courtesy": "翼德",
+ "display_aliases": [
+  "张翼德"
+ ],
+ "birth": null,
+ "death": 221,
+ "date_precision": "approx",
+ "date_note": "生年史无明文；卒于章武元年（221），为部将范疆、张达所害。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "张飞，群雄武将，别部司马、宜都太守。翼德引一千军伏在那里，就彼处擒之。",
+ "bio": "张飞字翼德，世居涿郡，颇有庄田，卖酒屠猪，专好结交天下豪杰。榜文行到涿县，见刘备看榜长叹而厉声相问，遂与桃园结义，出资聚乡勇。第一回展其勇烈：大兴山之战挺丈八蛇矛刺黄巾副将邓茂于马下；青州之战伏兵山右；归途闻卢植被槛车征还，大怒要斩护送军人以救之，被刘备止住；又因董卓傲慢无礼，怒欲提刀入帐杀之——嫉恶如仇至此。官至车骑将军领司隶校尉，封西乡侯。章武元年因鞭挞部将，为范疆、张达所害，头颅投于江中。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 208,
+   "lord_id": "liu_bei",
+   "title": "别部司马、宜都太守",
+   "basis": "第一回桃园结义随刘备起兵，为其部曲将领；208 年前刘备无固定地盘。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 221,
+   "title": "征虏将军、车骑将军领司隶校尉、西乡侯",
+   "basis": "208 年后属蜀汉势力；221 年遇害。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "桃园结义",
+   "description": "出资聚乡勇，与刘关结为兄弟。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "大兴山刺邓茂",
+   "description": "挺丈八蛇矛，手起刺中邓茂心窝。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "怒欲斩董卓",
+   "description": "董卓轻慢白身，飞欲提刀入帐杀之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 483
+}

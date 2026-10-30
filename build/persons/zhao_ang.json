@@ -1,0 +1,29 @@
+{
+ "id": "zhao_ang",
+ "name": "赵昂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "赵昂，群雄武将，统兵校尉。来赵昂之子赵月，现随马超为裨将。",
+ "bio": "官职「校尉」据原文上下文提取。原文第 64 回相关片段：「叙乃与统兵校尉尹奉、赵昂商议。原来赵昂之子赵月，现随马超为裨将。赵昂当日」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 229,
+   "title": "统兵校尉",
+   "basis": "第64回姜叙与统兵校尉尹奉、赵昂商议讨马超；赵昂之子赵月随马超为裨将。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

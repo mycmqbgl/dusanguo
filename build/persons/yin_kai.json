@@ -1,0 +1,29 @@
+{
+ "id": "yin_kai",
+ "name": "尹楷",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "尹楷，群雄武将，武安长。尚攻平原，闻曹操已破尹楷、沮鹄，大军围困冀州，乃掣兵回救。",
+ "bio": "。第 32 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 229,
+   "title": "武安长",
+   "basis": "第32回审配请发檄使武安长尹楷屯毛城，通上党运粮道。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

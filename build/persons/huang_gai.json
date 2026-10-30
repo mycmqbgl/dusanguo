@@ -1,0 +1,68 @@
+{
+ "id": "huang_gai",
+ "name": "黄盖",
+ "courtesy": "公覆",
+ "display_aliases": [
+  "武锋中郎将",
+  "丹阳都尉"
+ ],
+ "birth": null,
+ "death": 215,
+ "date_precision": "approx",
+ "date_note": "生年不详，约卒于建安二十年（215）前后。零陵泉陵人。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "verified",
+ "summary": "黄盖，群雄武将，别部司马。黄盖忿然而起，以手拍额曰：吾头可断，誓不降曹。",
+ "bio": "黄盖字公覆，零陵泉陵人。少孤，家贫，常以负薪为业，然有壮志，讲习兵法。初为郡吏，举孝廉，辟公府。从孙坚起兵，南破山贼，北走董卓，拜别部司马。孙坚死，从孙策、孙权，擢武锋中郎将。建安十三年赤壁之战，盖建议火攻，且与周瑜定苦肉计，自请诈降，操信之。盖取艨艟斗舰十艘，载燥荻枯柴，灌油其中，裹以帷幕，上建牙旗，先书报操诈降。时东南风急，中江举帆，同时发火，火烈风猛，船往如箭，烧尽北船，延及岸上营落，曹操大败。盖为流矢所中，堕水，为吴军所得，不知是盖，置厕床中，盖强呼韩当，乃得救。后为武陵太守，讨平蛮夷。约 215 年卒。演义第五回写其使铁鞭，为孙坚四将之一。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 195,
+   "title": "别部司马",
+   "lord_id": "sun_jian",
+   "basis": "从孙坚起兵，南破山贼、北走董卓；孙氏未建号，属群雄阵营。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 215,
+   "title": "武锋中郎将、丹阳都尉、偏将军",
+   "basis": "195 年孙吴势力形成后历孙策、孙权，赤壁以火攻为首功；约 215 年卒。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "从孙坚起兵",
+   "description": "南破山贼，北走董卓，拜别部司马。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "鞭打蔡瑁",
+   "description": "孙坚截击刘表军，黄盖出战蔡瑁，挥鞭正中其护心镜。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "赤壁火攻",
+   "description": "献苦肉计、诈降火攻，烧尽北船，为破曹首功。",
+   "importance": 3
+  },
+  {
+   "year": 209,
+   "title": "中矢得救",
+   "description": "为流矢所中堕水，被置于厕床中，强呼韩当乃得救。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 90
+}

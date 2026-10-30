@@ -1,0 +1,29 @@
+{
+ "id": "liu_zan_2",
+ "name": "留赞",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "留赞，孙吴武将，吴将。第 108 回一笔带过，事迹仅存其名。",
+ "bio": "第 108 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 241,
+   "end_year": 241,
+   "title": "吴将",
+   "basis": "第一百零八回原文：公可就引三千水兵从江中去，吾随后令吕据、唐咨、留赞各引一万马步兵，分三路来接应。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 108 回（241 年），原 241—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,58 @@
+{
+ "id": "guo_jia",
+ "name": "郭嘉",
+ "courtesy": "奉孝",
+ "display_aliases": [
+  "祭酒",
+  "鬼才"
+ ],
+ "birth": 170,
+ "death": 207,
+ "date_precision": "exact",
+ "date_note": "生于建宁三年（170），卒于建安十二年（207），年三十八。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "verified",
+ "summary": "郭嘉，字奉孝，颍川人，曹操谋主，早卒。",
+ "bio": "郭嘉，字奉孝，颍川阳翟人。初事袁绍，知其不能成事，去而投曹操，操曰「使孤成大业者，必此人也」。屡出奇谋：料孙策必死于匹夫之手、劝操急攻吕布、决计破袁绍、远征乌桓。建安十二年（207）病卒于柳城归途，年三十八。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 207,
+   "title": "司空军祭酒、洧阳亭侯",
+   "basis": "196 年经荀彧荐为曹操司空军祭酒（曹魏势力形成年 196）；207 年病卒。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "见曹操",
+   "description": "经荀彧荐见曹操，论天下事，操曰「使孤成大业者，必此人也」。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "十胜十败",
+   "description": "献十胜十败之论，定曹操官渡之志。",
+   "importance": 3
+  },
+  {
+   "year": 207,
+   "title": "遗计定辽东",
+   "description": "劝轻兵袭乌桓，破之；还军病卒，年三十八。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "赤壁之叹",
+   "description": "曹操赤壁大败，叹曰「郭奉孝在，不使孤至此」。",
+   "importance": 3,
+   "posthumous": true
+  }
+ ],
+ "mention_count": 47
+}

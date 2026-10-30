@@ -1,0 +1,57 @@
+{
+ "id": "ji_ling",
+ "name": "纪灵",
+ "courtesy": null,
+ "display_aliases": [
+  "七路都救应使"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "演义未写其结局（第十七回后无下落）；史载不详。生年不详。",
+ "gender": "male",
+ "first_chapter": 14,
+ "review_status": "reviewed",
+ "summary": "纪灵，群雄武将，大将、七路都救应使。德驱兵杀将过去，纪灵大败，退守淮阴河口，不敢交战；只教军士来偷营劫寨，皆被徐州兵杀败。",
+ "bio": "纪灵，袁术帐下第一大将，使三尖刀，重五十斤。兴平末奉术命攻刘备于小沛，与关羽数十合不分胜负；吕布辕门射戟，灵畏布之勇遂罢兵。袁术称帝后七路伐徐州，灵为七路都救应使，兵败于吕布、关羽合击。此后演义无下落。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 197,
+   "title": "大将、七路都救应使",
+   "lord_id": "yuan_shu",
+   "basis": "袁术部将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "袁术大将",
+   "description": "为袁术帐下第一大将，使三尖刀重五十斤。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "攻小沛",
+   "description": "奉术命攻刘备，与关羽数十合不分胜负。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "辕门射戟",
+   "description": "吕布辕门射戟，灵畏布之勇罢兵退回。",
+   "importance": 3
+  },
+  {
+   "year": 197,
+   "title": "七路败绩",
+   "description": "袁术七路伐徐，灵为都救应使，兵败。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 36
+}

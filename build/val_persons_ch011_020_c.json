@@ -1,0 +1,252 @@
+{
+ "source": "persons_ch011_020_c.json",
+ "total": 19,
+ "passed": 19,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 23,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "ji_ling",
+   "name": "纪灵",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "卒年为空但 date_note 未说明「卒年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 101 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "qiao_rui",
+   "name": "桥蕤",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 60 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_xun",
+   "name": "张勋",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 55 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "lei_bao",
+   "name": "雷薄",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 63 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "yang_dajiang",
+   "name": "杨大将",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 63 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "xun_zheng",
+   "name": "荀正",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 41 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "xu_chu",
+   "name": "许褚",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "xu_huang",
+   "name": "徐晃",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "dong_zhao",
+   "name": "董昭",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 141 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cao_ang",
+   "name": "曹昂",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "TIMELINE",
+     "msg": "身后事节点 220「追封丰王」已标 posthumous，允许晚于卒年"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 124 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "cao_anmin",
+   "name": "曹安民",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 65 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "hu_cheer",
+   "name": "胡车儿",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 84 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhang_xiu",
+   "name": "张绣",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "yang_feng",
+   "name": "杨奉",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 132 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "han_xi",
+   "name": "韩暹",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 85 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "dong_cheng",
+   "name": "董承",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "生年为空但 date_note 未说明「生年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 137 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "fu_huanghou",
+   "name": "伏皇后",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 133 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "fu_wan",
+   "name": "伏完",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 80 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "duan_wei",
+   "name": "段煨",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "DATE_NOTE",
+     "msg": "卒年为空但 date_note 未说明「卒年不详」"
+    },
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 72 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

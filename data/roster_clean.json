@@ -1,0 +1,4759 @@
+{
+ "source": "cne3online 三国人物大全 ren_tip 清洗 + 原文验证",
+ "total_ren_tip": 1124,
+ "known_matched": 411,
+ "candidate_ge2": 481,
+ "mentioned_eq1": 150,
+ "dropped": 82,
+ "candidates": [
+  {
+   "name": "关兴",
+   "count": 106,
+   "first_ch": 74,
+   "kind": "name",
+   "roster_note": "杀。"
+  },
+  {
+   "name": "张翼",
+   "count": 93,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "所擒，释后为获所杀。"
+  },
+  {
+   "name": "张苞",
+   "count": 85,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "擒，斩。"
+  },
+  {
+   "name": "廖化",
+   "count": 79,
+   "first_ch": 27,
+   "kind": "name",
+   "roster_note": "同伴，为其所杀。"
+  },
+  {
+   "name": "张鲁",
+   "count": 76,
+   "first_ch": 16,
+   "kind": "name",
+   "roster_note": "谋士。降曹，封列侯。阎晏：九十一回，蜀谏议将军。阎芝：九十七回，蜀将，病亡。"
+  },
+  {
+   "name": "张嶷",
+   "count": 54,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "擒。释后为获所杀。董禧：九十二回，曹将，为"
+  },
+  {
+   "name": "马忠",
+   "count": 50,
+   "first_ch": 77,
+   "kind": "name",
+   "roster_note": "擒，斩。"
+  },
+  {
+   "name": "邓芝",
+   "count": 45,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀将，降刘。义阳新野人，字"
+  },
+  {
+   "name": "安民",
+   "count": 41,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "十六回，曹操侄，张绣军杀。曹丕：三十二回，字"
+  },
+  {
+   "name": "吴懿",
+   "count": 38,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "六十二回，刘璋舅，为赵云擒，降刘，吴夫人：七回，孙坚妻，后称吴太夫人。病亡。"
+  },
+  {
+   "name": "吴班",
+   "count": 36,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，刘备将。从荆州归，牙门将，六出祁山中箭亡。"
+  },
+  {
+   "name": "费祎",
+   "count": 35,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀将，降刘。字"
+  },
+  {
+   "name": "士仁",
+   "count": 33,
+   "first_ch": 73,
+   "kind": "name",
+   "roster_note": ""
+  },
+  {
+   "name": "孙夫人",
+   "count": 32,
+   "first_ch": 54,
+   "kind": "appellation",
+   "roster_note": "。投江亡。"
+  },
+  {
+   "name": "高定",
+   "count": 31,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "将，使方天戟，为魏延、王平、张翼合擒，降，封益州牙将。"
+  },
+  {
+   "name": "雍闿",
+   "count": 30,
+   "first_ch": 86,
+   "kind": "name",
+   "roster_note": "八十七回，蜀建宁太守，汉什方侯雍齿之后，结连孟获反。为鄂焕杀。"
+  },
+  {
+   "name": "黄皓",
+   "count": 29,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，蜀宦官。为司马昭凌迟。黄氏：一百十七回，诸葛亮妻。"
+  },
+  {
+   "name": "雷铜",
+   "count": 28,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "六十二回，刘璋将，降刘，为"
+  },
+  {
+   "name": "刘琮",
+   "count": 27,
+   "first_ch": 34,
+   "kind": "name",
+   "roster_note": "母。为于禁军杀。"
+  },
+  {
+   "name": "董荼那",
+   "count": 27,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，孟获第二洞元帅。为"
+  },
+  {
+   "name": "夏侯尚",
+   "count": 25,
+   "first_ch": 70,
+   "kind": "name",
+   "roster_note": "七十回，夏侯惇之侄。为黄忠擒，换俘时归曹。"
+  },
+  {
+   "name": "傅士仁",
+   "count": 25,
+   "first_ch": 73,
+   "kind": "name",
+   "roster_note": "七十三回，关羽将，荆州失，降吴，后归蜀为刘备剐。"
+  },
+  {
+   "name": "张南",
+   "count": 24,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "所攻，奔辽西乌桓，触自号幽州刺史，驱率诸郡太守令长背袁向曹……。\"触即焦触。）"
+  },
+  {
+   "name": "谯周",
+   "count": 24,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，字"
+  },
+  {
+   "name": "孟优",
+   "count": 24,
+   "first_ch": 88,
+   "kind": "name",
+   "roster_note": "八十八回，孟获弟。为赵云、张翼擒，"
+  },
+  {
+   "name": "邓贤",
+   "count": 23,
+   "first_ch": 60,
+   "kind": "name",
+   "roster_note": "六十回，刘璋将，为"
+  },
+  {
+   "name": "孙桓",
+   "count": 23,
+   "first_ch": 82,
+   "kind": "name",
+   "roster_note": "之大将，为关兴杀。"
+  },
+  {
+   "name": "朱然",
+   "count": 22,
+   "first_ch": 75,
+   "kind": "name",
+   "roster_note": "部将，为"
+  },
+  {
+   "name": "高翔",
+   "count": 22,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀玄都侯。"
+  },
+  {
+   "name": "杨松",
+   "count": 21,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，杨柏兄，张鲁谋士，献汉中，为操斩。"
+  },
+  {
+   "name": "陈式",
+   "count": 21,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "七十一回，蜀军牙将，为"
+  },
+  {
+   "name": "王必",
+   "count": 20,
+   "first_ch": 69,
+   "kind": "appellation",
+   "roster_note": "交厚，讨曹操，为乱军杀。"
+  },
+  {
+   "name": "冯习",
+   "count": 20,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "八十一回，蜀将。兵败，死于乱军。冯（纟枕）：一百二十回，晋臣。封谞：一回，十常待"
+  },
+  {
+   "name": "曹氏",
+   "count": 19,
+   "first_ch": 4,
+   "kind": "appellation",
+   "roster_note": "十六回，曹豹女，吕布次妻。"
+  },
+  {
+   "name": "李乐",
+   "count": 19,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "十三回，山贼，奉诏救驾，封征东将军。为徐晃杀。"
+  },
+  {
+   "name": "蔡和",
+   "count": 19,
+   "first_ch": 34,
+   "kind": "name",
+   "roster_note": "三十四回，蔡瑁族弟，为"
+  },
+  {
+   "name": "吴兰",
+   "count": 19,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "六十二回，刘璋将，降刘，为曹彰杀。"
+  },
+  {
+   "name": "马遵",
+   "count": 19,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，魏天水太守，马玉：九十七回，蜀将。病故。马均：一百五回，魏博士。马邈："
+  },
+  {
+   "name": "张虎",
+   "count": 18,
+   "first_ch": 7,
+   "kind": "name",
+   "roster_note": "七回，江夏人，黄祖部将，为孙策射杀。"
+  },
+  {
+   "name": "顾雍",
+   "count": 18,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "二十九回，字"
+  },
+  {
+   "name": "崔谅",
+   "count": 18,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，魏安定太守，兵败诈降，为张苞杀。崔夫人：一百十八回，"
+  },
+  {
+   "name": "乐綝",
+   "count": 18,
+   "first_ch": 98,
+   "kind": "name",
+   "roster_note": "九十八回，乐进子。扬州刺史，为诸葛诞杀。"
+  },
+  {
+   "name": "郑文",
+   "count": 18,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "杀。"
+  },
+  {
+   "name": "刘氏",
+   "count": 17,
+   "first_ch": 9,
+   "kind": "appellation",
+   "roster_note": "六十八回，曹操妾，曹昂母。刘（分阝）：六十九回，太守，管辂卜之。"
+  },
+  {
+   "name": "普净",
+   "count": 17,
+   "first_ch": 27,
+   "kind": "name",
+   "roster_note": "二十七回，解良人，救关羽。后至玉泉山参道。"
+  },
+  {
+   "name": "蔡中",
+   "count": 17,
+   "first_ch": 34,
+   "kind": "name",
+   "roster_note": "三十四回，蔡瑁族弟，为"
+  },
+  {
+   "name": "钟繇",
+   "count": 17,
+   "first_ch": 56,
+   "kind": "name",
+   "roster_note": "五十六回，长安郡守。"
+  },
+  {
+   "name": "左慈",
+   "count": 17,
+   "first_ch": 68,
+   "kind": "name",
+   "roster_note": "六十八回，字"
+  },
+  {
+   "name": "秦朗",
+   "count": 17,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，魏将，死于乱军。"
+  },
+  {
+   "name": "文钦",
+   "count": 17,
+   "first_ch": 109,
+   "kind": "name",
+   "roster_note": "一百十回，魏扬州刺史，曹爽门下客，反，投吴。为诸葛诞斩。"
+  },
+  {
+   "name": "傅佥",
+   "count": 17,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，蜀将。兵败自刎。"
+  },
+  {
+   "name": "吕虔",
+   "count": 16,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "十回，字"
+  },
+  {
+   "name": "牛金",
+   "count": 16,
+   "first_ch": 51,
+   "kind": "name",
+   "roster_note": "五十一回，曹将，"
+  },
+  {
+   "name": "杨任",
+   "count": 16,
+   "first_ch": 67,
+   "kind": "name",
+   "roster_note": "部将，为夏侯渊斩。单于：三十三回，乌桓老大。"
+  },
+  {
+   "name": "越吉",
+   "count": 16,
+   "first_ch": 94,
+   "kind": "name",
+   "roster_note": "九十四回，西羌元帅，为关兴杀。羊祜：一百二十回，晋都督。"
+  },
+  {
+   "name": "戴陵",
+   "count": 16,
+   "first_ch": 99,
+   "kind": "name",
+   "roster_note": "九十九回，魏将，"
+  },
+  {
+   "name": "韩胤",
+   "count": 15,
+   "first_ch": 16,
+   "kind": "name",
+   "roster_note": "、十六回，袁术将，吕布擒，曹操杀。"
+  },
+  {
+   "name": "高干",
+   "count": 15,
+   "first_ch": 31,
+   "kind": "name",
+   "roster_note": "三十一回，袁绍外甥，为"
+  },
+  {
+   "name": "曹植",
+   "count": 15,
+   "first_ch": 34,
+   "kind": "name",
+   "roster_note": "三十四回，卞氏三子。字"
+  },
+  {
+   "name": "朱桓",
+   "count": 15,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "杀。爨习：九十一回，蜀偏将军。"
+  },
+  {
+   "name": "韩浩",
+   "count": 15,
+   "first_ch": 39,
+   "kind": "name",
+   "roster_note": "三十九回，"
+  },
+  {
+   "name": "王基",
+   "count": 15,
+   "first_ch": 69,
+   "kind": "appellation",
+   "roster_note": "六十九回，汉安平太守。王必：六十九回，长史，总督御林军，为耿纪射杀。王平：七十一"
+  },
+  {
+   "name": "胡遵",
+   "count": 15,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，魏将，征东将军，"
+  },
+  {
+   "name": "司马望",
+   "count": 15,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，魏长城守将，司马昭族兄。曾与"
+  },
+  {
+   "name": "刘贤",
+   "count": 14,
+   "first_ch": 52,
+   "kind": "name",
+   "roster_note": "五十二回，刘度子，为张飞捉，降。"
+  },
+  {
+   "name": "乔国老",
+   "count": 14,
+   "first_ch": 54,
+   "kind": "appellation",
+   "roster_note": "五十四回，二乔之父。"
+  },
+  {
+   "name": "杨怀",
+   "count": 14,
+   "first_ch": 61,
+   "kind": "name",
+   "roster_note": "六十一回，刘璋将，白水都督，为刘备军斩。"
+  },
+  {
+   "name": "周善",
+   "count": 14,
+   "first_ch": 61,
+   "kind": "name",
+   "roster_note": "六十一回，孙权心腹，为张飞杀。"
+  },
+  {
+   "name": "杨昂",
+   "count": 14,
+   "first_ch": 67,
+   "kind": "name",
+   "roster_note": "六十七回，张鲁将，为张合杀。杨任：六十七回，张鲁将，为夏侯渊斩。杨锋：八十九回，"
+  },
+  {
+   "name": "耿纪",
+   "count": 14,
+   "first_ch": 69,
+   "kind": "name",
+   "roster_note": "六十九回，字"
+  },
+  {
+   "name": "申耽",
+   "count": 14,
+   "first_ch": 73,
+   "kind": "name",
+   "roster_note": "杀。"
+  },
+  {
+   "name": "阿会喃",
+   "count": 14,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，"
+  },
+  {
+   "name": "朱褒",
+   "count": 14,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，蜀牂牁太守，结连孟获反，为鄂焕杀。"
+  },
+  {
+   "name": "徐质",
+   "count": 14,
+   "first_ch": 109,
+   "kind": "name",
+   "roster_note": "一百九回，魏辅国将军，为姜维刺，乱军杀。"
+  },
+  {
+   "name": "徐氏",
+   "count": 13,
+   "first_ch": 38,
+   "kind": "appellation",
+   "roster_note": "，为傅婴、孙高杀。干休：一百十三回，吴曲阿老人。"
+  },
+  {
+   "name": "杨秋",
+   "count": 13,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，降曹。杨阜：五十九回，字"
+  },
+  {
+   "name": "贾逵",
+   "count": 13,
+   "first_ch": 79,
+   "kind": "name",
+   "roster_note": "七十九回，汉谏议大夫，魏建威将军。"
+  },
+  {
+   "name": "傅彤",
+   "count": 13,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "八十一回，蜀将。军败，于阵中吐血亡。"
+  },
+  {
+   "name": "吕凯",
+   "count": 13,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，蜀永昌郡功曹，字"
+  },
+  {
+   "name": "师纂",
+   "count": 13,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，魏将。"
+  },
+  {
+   "name": "司马炎",
+   "count": 13,
+   "first_ch": 114,
+   "kind": "name",
+   "roster_note": "废为陈留王。"
+  },
+  {
+   "name": "卫瓘",
+   "count": 13,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏将。文丑：六回，河北名将，为关羽杀。文聘：三十四回，字"
+  },
+  {
+   "name": "毛玠",
+   "count": 12,
+   "first_ch": 11,
+   "kind": "name",
+   "roster_note": "十回，陈留平邱人，字"
+  },
+  {
+   "name": "李丰",
+   "count": 12,
+   "first_ch": 17,
+   "kind": "name",
+   "roster_note": "十七回，袁术将，操擒杀。"
+  },
+  {
+   "name": "焦触",
+   "count": 12,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "三十三回，"
+  },
+  {
+   "name": "高沛",
+   "count": 12,
+   "first_ch": 61,
+   "kind": "name",
+   "roster_note": "六十一回，刘璋将。为刘备军斩。高定：八十七回，蜀越（山隹冏）郡太守，结连孟获反，"
+  },
+  {
+   "name": "许靖",
+   "count": 12,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀郡太守，降刘。太傅。许芝：六十九回，汉太史丞。"
+  },
+  {
+   "name": "韦晃",
+   "count": 12,
+   "first_ch": 69,
+   "kind": "name",
+   "roster_note": "心腹，与"
+  },
+  {
+   "name": "曹彰",
+   "count": 12,
+   "first_ch": 72,
+   "kind": "name",
+   "roster_note": "六十八回，卞氏次子，字"
+  },
+  {
+   "name": "申仪",
+   "count": 12,
+   "first_ch": 79,
+   "kind": "name",
+   "roster_note": "、七十九回，申耽兄弟，蜀房陵都有尉，降魏。出首孟达。申耽：七十三回，曹将，上庸都"
+  },
+  {
+   "name": "杨陵",
+   "count": 12,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，杨阜族弟，魏南安太守，诈降，为关兴杀。"
+  },
+  {
+   "name": "雅丹",
+   "count": 12,
+   "first_ch": 94,
+   "kind": "name",
+   "roster_note": "九十四回，西羌丞相，为马岱擒。"
+  },
+  {
+   "name": "州平",
+   "count": 11,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "三十七回，博陵人，诸葛亮友。崔禹：八十二回，"
+  },
+  {
+   "name": "朱灵",
+   "count": 11,
+   "first_ch": 21,
+   "kind": "name",
+   "roster_note": "二十一回，曹将，朱桓：三十八回，字"
+  },
+  {
+   "name": "胡班",
+   "count": 11,
+   "first_ch": 27,
+   "kind": "name",
+   "roster_note": "二十七回，胡华子，荥阳从事，救关羽。后归蜀。"
+  },
+  {
+   "name": "孙康",
+   "count": 11,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "三十三回，辽东太守，襄平人，"
+  },
+  {
+   "name": "蔡氏",
+   "count": 11,
+   "first_ch": 34,
+   "kind": "appellation",
+   "roster_note": "三十四回，蔡瑁姊，刘表妻，"
+  },
+  {
+   "name": "张著",
+   "count": 11,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "七十一回，蜀牙将，张音：八十回，御史大夫，庙高使张爽：八十回，蜀从事。"
+  },
+  {
+   "name": "王甫",
+   "count": 11,
+   "first_ch": 73,
+   "kind": "appellation",
+   "roster_note": "七十三回，关羽随军司马。堕麦城亡。"
+  },
+  {
+   "name": "鄂焕",
+   "count": 11,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，"
+  },
+  {
+   "name": "梁绪",
+   "count": 11,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，魏天水功曹，降蜀。"
+  },
+  {
+   "name": "何晏",
+   "count": 11,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹爽门客，字"
+  },
+  {
+   "name": "桓范",
+   "count": 11,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，字"
+  },
+  {
+   "name": "朱异",
+   "count": 11,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，吴将。兵败为孙綝斩。朱太后：一百二十回，孙休妻。周毖：四回，侍中，为"
+  },
+  {
+   "name": "蒋舒",
+   "count": 11,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，蜀将。降魏。"
+  },
+  {
+   "name": "马延",
+   "count": 10,
+   "first_ch": 32,
+   "kind": "name",
+   "roster_note": "三十二回，袁尚将，降曹，为甘宁杀。"
+  },
+  {
+   "name": "祝融",
+   "count": 10,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "夫人擒，奋威将军，博阳亭侯。"
+  },
+  {
+   "name": "陈群",
+   "count": 10,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，字"
+  },
+  {
+   "name": "张卫",
+   "count": 10,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，张鲁弟。为许褚斩。张松：六十回，字"
+  },
+  {
+   "name": "彭羕",
+   "count": 10,
+   "first_ch": 63,
+   "kind": "name",
+   "roster_note": "六十三回，字永言，广汉人，与孟达友，刘璋士，归刘。欲反，为马超擒，赐死狱中。彭和"
+  },
+  {
+   "name": "杨柏",
+   "count": 10,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，张鲁将，为马超斩。"
+  },
+  {
+   "name": "金祎",
+   "count": 10,
+   "first_ch": 69,
+   "kind": "name",
+   "roster_note": "六十九回，"
+  },
+  {
+   "name": "孙韶",
+   "count": 10,
+   "first_ch": 86,
+   "kind": "name",
+   "roster_note": "七回，孙坚子，过房俞氏生，字"
+  },
+  {
+   "name": "关索",
+   "count": 10,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，关羽三子。"
+  },
+  {
+   "name": "梁虔",
+   "count": 10,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，魏天水主记，梁绪弟，降蜀。梁畿：九十四回，司马懿军参军。廖化：二十七回"
+  },
+  {
+   "name": "李胜",
+   "count": 10,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹爽门客，字"
+  },
+  {
+   "name": "李歆",
+   "count": 10,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "一百七回，蜀将。李丰：一百九回，魏中书令。为司马师杀。"
+  },
+  {
+   "name": "孙仲",
+   "count": 9,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，黄巾军，为刘备射杀。孙坚：二回，吴郡富春人，字"
+  },
+  {
+   "name": "史涣",
+   "count": 9,
+   "first_ch": 19,
+   "kind": "name",
+   "roster_note": "杀。眭"
+  },
+  {
+   "name": "宋忠",
+   "count": 9,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "四十回，荆州幕僚。"
+  },
+  {
+   "name": "李恢",
+   "count": 9,
+   "first_ch": 60,
+   "kind": "name",
+   "roster_note": "六十回，建宁俞元人，刘璋士。归刘，"
+  },
+  {
+   "name": "霍峻",
+   "count": 9,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "六十二回，字"
+  },
+  {
+   "name": "赵昂",
+   "count": 9,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "妻。汪昭：三十二回，袁谭将，为徐晃杀。"
+  },
+  {
+   "name": "赵累",
+   "count": 9,
+   "first_ch": 73,
+   "kind": "name",
+   "roster_note": "七十三回，关羽将，粮料官，走麦城死于乱军。赵祚：八十回，蜀别驾。赵融：八十一回，"
+  },
+  {
+   "name": "蒋济",
+   "count": 9,
+   "first_ch": 75,
+   "kind": "name",
+   "roster_note": "七十五回，曹军主簿。魏太尉。蒋延：一百八回，吴将。为"
+  },
+  {
+   "name": "杜琼",
+   "count": 9,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀议曹、谏议大夫。"
+  },
+  {
+   "name": "李异",
+   "count": 9,
+   "first_ch": 82,
+   "kind": "name",
+   "roster_note": "八十二回，"
+  },
+  {
+   "name": "董允",
+   "count": 9,
+   "first_ch": 85,
+   "kind": "name",
+   "roster_note": "八十五回，蜀黄门侍郎。"
+  },
+  {
+   "name": "董厥",
+   "count": 9,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，蜀掾吏。国亡忧死。"
+  },
+  {
+   "name": "杨锋",
+   "count": 9,
+   "first_ch": 89,
+   "kind": "name",
+   "roster_note": "及子擒第六次诈降被擒，第七次为马岱擒。降。"
+  },
+  {
+   "name": "韩德",
+   "count": 9,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，西凉大将，开山大斧。为赵云杀。"
+  },
+  {
+   "name": "穆顺",
+   "count": 8,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，张扬部将，为吕布杀。穆顺：六十六回，宦官，为操杀。"
+  },
+  {
+   "name": "薛兰",
+   "count": 8,
+   "first_ch": 11,
+   "kind": "name",
+   "roster_note": "十一回，吕布将。为吕虔射杀。"
+  },
+  {
+   "name": "步骘",
+   "count": 8,
+   "first_ch": 43,
+   "kind": "name",
+   "roster_note": "四十三回，字"
+  },
+  {
+   "name": "宋谦",
+   "count": 8,
+   "first_ch": 53,
+   "kind": "name",
+   "roster_note": "五十三回，东吴将，为李典射杀。"
+  },
+  {
+   "name": "王业",
+   "count": 8,
+   "first_ch": 62,
+   "kind": "appellation",
+   "roster_note": "一百十四回，魏散骑常侍。王瓘：一百十四回，魏参军。诈降兵败，投河亡。"
+  },
+  {
+   "name": "费观",
+   "count": 8,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，刘璋妻弟，降刘，"
+  },
+  {
+   "name": "费诗",
+   "count": 8,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀将，降刘。前部司马。"
+  },
+  {
+   "name": "卞氏",
+   "count": 8,
+   "first_ch": 68,
+   "kind": "appellation",
+   "roster_note": "六十八回，"
+  },
+  {
+   "name": "夏侯德",
+   "count": 8,
+   "first_ch": 70,
+   "kind": "name",
+   "roster_note": "七十回，夏侯尚兄，为"
+  },
+  {
+   "name": "范疆",
+   "count": 8,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "八十一回，张飞将，刺杀飞，降吴。后为吴送归，为张苞剐。冯方女：十七回，袁术妻。冯"
+  },
+  {
+   "name": "张达",
+   "count": 8,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "刺杀。"
+  },
+  {
+   "name": "带来洞主",
+   "count": 8,
+   "first_ch": 90,
+   "kind": "appellation",
+   "roster_note": "九十回，孟获妻弟，八番部长。"
+  },
+  {
+   "name": "尹赏",
+   "count": 8,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，魏天水主簿，降蜀。"
+  },
+  {
+   "name": "曹遵",
+   "count": 8,
+   "first_ch": 93,
+   "kind": "name",
+   "roster_note": "九十三回，曹真宗弟，为"
+  },
+  {
+   "name": "全琮",
+   "count": 8,
+   "first_ch": 96,
+   "kind": "name",
+   "roster_note": "九十六回，吴绥南将军，字"
+  },
+  {
+   "name": "迷当",
+   "count": 8,
+   "first_ch": 109,
+   "kind": "name",
+   "roster_note": "一百九回，羌王。先助姜维，兵败降魏。"
+  },
+  {
+   "name": "杨欣",
+   "count": 8,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏金城太守。"
+  },
+  {
+   "name": "韩忠",
+   "count": 7,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，黄巾军，乱军射杀。韩馥：五回，初为冀州刺史。韩当：五回，字"
+  },
+  {
+   "name": "安国",
+   "count": 7,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "。病亡。"
+  },
+  {
+   "name": "王颀",
+   "count": 7,
+   "first_ch": 9,
+   "kind": "appellation",
+   "roster_note": "九回，越骑校尉，死于国难。"
+  },
+  {
+   "name": "陈元",
+   "count": 7,
+   "first_ch": 11,
+   "kind": "name",
+   "roster_note": "一百二十回，"
+  },
+  {
+   "name": "张燕",
+   "count": 7,
+   "first_ch": 11,
+   "kind": "name",
+   "roster_note": "十一回，黑山贼，降操，被封平北将军。"
+  },
+  {
+   "name": "何仪",
+   "count": 7,
+   "first_ch": 12,
+   "kind": "name",
+   "roster_note": "十二回，黄巾军，为"
+  },
+  {
+   "name": "田氏",
+   "count": 7,
+   "first_ch": 12,
+   "kind": "appellation",
+   "roster_note": "十二回，濮阳富户。"
+  },
+  {
+   "name": "子建",
+   "count": 7,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "。曹氏：六十六回，曹操女，献帝贵妃，伏后死，为后。"
+  },
+  {
+   "name": "邹氏",
+   "count": 7,
+   "first_ch": 16,
+   "kind": "appellation",
+   "roster_note": "十六回，张济妻，郑玄：一回，字"
+  },
+  {
+   "name": "路昭",
+   "count": 7,
+   "first_ch": 21,
+   "kind": "name",
+   "roster_note": "二十一回，曹将，"
+  },
+  {
+   "name": "王威",
+   "count": 7,
+   "first_ch": 34,
+   "kind": "appellation",
+   "roster_note": "三十四回，刘表将，为于禁军杀。"
+  },
+  {
+   "name": "承彦",
+   "count": 7,
+   "first_ch": 37,
+   "kind": "name",
+   "roster_note": "三十七回，诸葛亮岳父。黄忠：五十三回，南阳人，字"
+  },
+  {
+   "name": "妫览",
+   "count": 7,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，丹阳督将，预占"
+  },
+  {
+   "name": "吴国太",
+   "count": 7,
+   "first_ch": 43,
+   "kind": "name",
+   "roster_note": "生。字"
+  },
+  {
+   "name": "陈矫",
+   "count": 7,
+   "first_ch": 51,
+   "kind": "name",
+   "roster_note": "五十一回，曹将，为"
+  },
+  {
+   "name": "曹纯",
+   "count": 7,
+   "first_ch": 51,
+   "kind": "name",
+   "roster_note": "五十一回，曹仁弟，"
+  },
+  {
+   "name": "贾华",
+   "count": 7,
+   "first_ch": 53,
+   "kind": "name",
+   "roster_note": "五十三回，东吴将。"
+  },
+  {
+   "name": "李堪",
+   "count": 7,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，为于禁误射杀。"
+  },
+  {
+   "name": "韦康",
+   "count": 7,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，凉州刺史。降马超，为其斩。韦晃：六十九回，汉司直，与耿纪厚，讨曹操被擒"
+  },
+  {
+   "name": "阎圃",
+   "count": 7,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，"
+  },
+  {
+   "name": "尹奉",
+   "count": 7,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，历城统兵校尉，曹将。"
+  },
+  {
+   "name": "秦宓",
+   "count": 7,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，字子勑，广汉绵竹人，降刘。蜀从事。"
+  },
+  {
+   "name": "樊建",
+   "count": 7,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，蜀掾吏，樊岐：九十一回，蜀武略中郎将。"
+  },
+  {
+   "name": "金环三结",
+   "count": 7,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，孟获第一洞元帅。为赵云杀。靳祥：九十七回，蜀将，陇西人。"
+  },
+  {
+   "name": "朱赞",
+   "count": 7,
+   "first_ch": 93,
+   "kind": "name",
+   "roster_note": "九十三回，魏荡寇将军，为赵云杀。朱恩：一百八回，诸葛恪心腹将。朱芳：一百十回，魏"
+  },
+  {
+   "name": "卑衍",
+   "count": 7,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，"
+  },
+  {
+   "name": "句安",
+   "count": 7,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "一百七回，蜀将。降魏。"
+  },
+  {
+   "name": "夏侯玄",
+   "count": 7,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "叔，反魏降蜀。后为乱军射杀。"
+  },
+  {
+   "name": "滕胤",
+   "count": 7,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴太常，大司马，为孙綝杀。"
+  },
+  {
+   "name": "张缉",
+   "count": 7,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，魏光禄大夫，"
+  },
+  {
+   "name": "裴秀",
+   "count": 7,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，魏散骑长史。"
+  },
+  {
+   "name": "蒋斌",
+   "count": 7,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，蜀将。降魏。"
+  },
+  {
+   "name": "张布",
+   "count": 7,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "斩。孙据：一百十三回，孙綝弟，吴威远将军。孙恩：一百十三回，孙綝弟，吴武卫将军。"
+  },
+  {
+   "name": "王含",
+   "count": 7,
+   "first_ch": 113,
+   "kind": "appellation",
+   "roster_note": "一百十三回，蜀将。降魏。"
+  },
+  {
+   "name": "成济",
+   "count": 7,
+   "first_ch": 114,
+   "kind": "name",
+   "roster_note": "一百十四回，魏将。为司马昭斩。"
+  },
+  {
+   "name": "陈兰",
+   "count": 6,
+   "first_ch": 16,
+   "kind": "name",
+   "roster_note": "十五回，"
+  },
+  {
+   "name": "敬礼",
+   "count": 6,
+   "first_ch": 22,
+   "kind": "name",
+   "roster_note": "，与丁仪兄弟，曹植友，沛郡人，为许褚擒，曹丕杀。丁咸：九十一回，蜀笃信中郎将。丁"
+  },
+  {
+   "name": "郗虑",
+   "count": 6,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "四十回，御史大夫，谗言孔融。"
+  },
+  {
+   "name": "巩志",
+   "count": 6,
+   "first_ch": 53,
+   "kind": "name",
+   "roster_note": "五十三回，武陵从事，降刘备。关羽：一回，字长生，后改"
+  },
+  {
+   "name": "王累",
+   "count": 6,
+   "first_ch": 60,
+   "kind": "appellation",
+   "roster_note": "六十回，刘璋帐前从事官。上谏不从自摔死。"
+  },
+  {
+   "name": "朱光",
+   "count": 6,
+   "first_ch": 61,
+   "kind": "name",
+   "roster_note": "六十一回，曹将，庐江太守。为甘宁打倒，吕蒙军乱刀斩。朱然：七十五回，东吴将，虎威"
+  },
+  {
+   "name": "卓膺",
+   "count": 6,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，刘璋将，降刘，翟元：七十三回，曹仁将，为关平斩。"
+  },
+  {
+   "name": "杜袭",
+   "count": 6,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "六十六回，汉侍中。杜袭：七十一回，夏侯渊部将，"
+  },
+  {
+   "name": "蔡琰",
+   "count": 6,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "七十一回，即蔡"
+  },
+  {
+   "name": "吕常",
+   "count": 6,
+   "first_ch": 73,
+   "kind": "name",
+   "roster_note": "七十三回，曹仁部将，"
+  },
+  {
+   "name": "司马孚",
+   "count": 6,
+   "first_ch": 78,
+   "kind": "name",
+   "roster_note": "七十八回，中庶子。司马师：九十四回，司马懿长子，字"
+  },
+  {
+   "name": "丁仪",
+   "count": 6,
+   "first_ch": 79,
+   "kind": "name",
+   "roster_note": "七十九回，字"
+  },
+  {
+   "name": "张绍",
+   "count": 6,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "八十一回，张飞弟。"
+  },
+  {
+   "name": "谢旌",
+   "count": 6,
+   "first_ch": 82,
+   "kind": "name",
+   "roster_note": "八十二回，孙桓之大将，为张苞杀。"
+  },
+  {
+   "name": "淳于丹",
+   "count": 6,
+   "first_ch": 84,
+   "kind": "name",
+   "roster_note": "八十四回，吴将。崔毅：三回，十常侍乱政辞官归庄，救献帝。崔烈：三回，崔毅兄。死于"
+  },
+  {
+   "name": "李辅",
+   "count": 6,
+   "first_ch": 94,
+   "kind": "name",
+   "roster_note": "九十四回，孟达心腹，出首孟达。"
+  },
+  {
+   "name": "费耀",
+   "count": 6,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，曹真中护军大将。中计自刎。范滂：六回，字孟博，山阳高平人，江夏八俊之一"
+  },
+  {
+   "name": "王肃",
+   "count": 6,
+   "first_ch": 99,
+   "kind": "appellation",
+   "roster_note": "九十九回，魏黄门侍郎。"
+  },
+  {
+   "name": "夏侯威",
+   "count": 6,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，夏侯渊次子，字"
+  },
+  {
+   "name": "夏侯惠",
+   "count": 6,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，夏侯渊三子，字"
+  },
+  {
+   "name": "李福",
+   "count": 6,
+   "first_ch": 104,
+   "kind": "name",
+   "roster_note": "一百四回，蜀尚书。"
+  },
+  {
+   "name": "何平",
+   "count": 6,
+   "first_ch": 105,
+   "kind": "name",
+   "roster_note": "一百五回，蜀将。"
+  },
+  {
+   "name": "宪英",
+   "count": 6,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "一百七回，辛敞姊。"
+  },
+  {
+   "name": "全端",
+   "count": 6,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴将。降魏。"
+  },
+  {
+   "name": "唐咨",
+   "count": 6,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴将。降魏。唐妃：四回，少帝妃，绞死。"
+  },
+  {
+   "name": "陈骞",
+   "count": 6,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，魏安东将军。"
+  },
+  {
+   "name": "诸葛靓",
+   "count": 6,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，诸葛诞子。"
+  },
+  {
+   "name": "胡烈",
+   "count": 6,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏将。胡济：一百十五回，蜀将。"
+  },
+  {
+   "name": "许仪",
+   "count": 6,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，许褚子，魏将。兵败为"
+  },
+  {
+   "name": "张悌",
+   "count": 6,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴丞相。死于乱军。张尚：一百二十回，晋将。"
+  },
+  {
+   "name": "李封",
+   "count": 5,
+   "first_ch": 11,
+   "kind": "name",
+   "roster_note": "十一回，吕布将。为许褚斩。"
+  },
+  {
+   "name": "黄劭",
+   "count": 5,
+   "first_ch": 12,
+   "kind": "name",
+   "roster_note": "十二回，黄巾军，为许褚擒杀。黄"
+  },
+  {
+   "name": "许允",
+   "count": 5,
+   "first_ch": 15,
+   "kind": "name",
+   "roster_note": "九十一回，蜀偏将军，汉城亭侯。许允：一百七回，魏官。许晏：一百六回，吴臣，为公孙"
+  },
+  {
+   "name": "陈纪",
+   "count": 5,
+   "first_ch": 17,
+   "kind": "name",
+   "roster_note": "十七回，袁术将，操擒杀。"
+  },
+  {
+   "name": "杜远",
+   "count": 5,
+   "first_ch": 27,
+   "kind": "name",
+   "roster_note": "二十七回，"
+  },
+  {
+   "name": "何曾",
+   "count": 5,
+   "first_ch": 29,
+   "kind": "name",
+   "roster_note": "一百十九回。"
+  },
+  {
+   "name": "崔琰",
+   "count": 5,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "三十三回，字"
+  },
+  {
+   "name": "蹋顿",
+   "count": 5,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "三十三回，乌桓将，为张辽斩。"
+  },
+  {
+   "name": "杨龄",
+   "count": 5,
+   "first_ch": 53,
+   "kind": "name",
+   "roster_note": "五十三回，长沙管军校尉，为关羽杀。"
+  },
+  {
+   "name": "子伯",
+   "count": 5,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，京兆人，隐居终南山，道号"
+  },
+  {
+   "name": "管宁",
+   "count": 5,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "善，号为龙腹。"
+  },
+  {
+   "name": "丁廙",
+   "count": 5,
+   "first_ch": 79,
+   "kind": "name",
+   "roster_note": "兄弟，曹植友，沛郡人，为"
+  },
+  {
+   "name": "孟节",
+   "count": 5,
+   "first_ch": 89,
+   "kind": "name",
+   "roster_note": "八十九回，孟获兄，号"
+  },
+  {
+   "name": "刘琰",
+   "count": 5,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "妻。"
+  },
+  {
+   "name": "韩瑶",
+   "count": 5,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，韩德次子，为赵云擒。韩琼：九十二回，韩德三子，为赵云杀。"
+  },
+  {
+   "name": "万政",
+   "count": 5,
+   "first_ch": 95,
+   "kind": "name",
+   "roster_note": "九十五回，郭淮部将。"
+  },
+  {
+   "name": "秦良",
+   "count": 5,
+   "first_ch": 100,
+   "kind": "name",
+   "roster_note": "一百回，为廖化斩。"
+  },
+  {
+   "name": "夏侯和",
+   "count": 5,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，夏侯渊四子，字"
+  },
+  {
+   "name": "宗预",
+   "count": 5,
+   "first_ch": 105,
+   "kind": "name",
+   "roster_note": "一百五回，南阳安众人，字"
+  },
+  {
+   "name": "贾范",
+   "count": 5,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，公孙渊副将。谏言被公孙渊斩。"
+  },
+  {
+   "name": "辛敞",
+   "count": 5,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "一百七回，魏参军辛"
+  },
+  {
+   "name": "尹大目",
+   "count": 5,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "一百七回，魏殿中校尉。云英：二十三回，董承侍妾。"
+  },
+  {
+   "name": "俄何",
+   "count": 5,
+   "first_ch": 109,
+   "kind": "name",
+   "roster_note": ""
+  },
+  {
+   "name": "烧戈",
+   "count": 5,
+   "first_ch": 109,
+   "kind": "name",
+   "roster_note": "一百九回，羌将。兵败自刎。"
+  },
+  {
+   "name": "于诠",
+   "count": 5,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，吴将。为魏乱军杀。俞氏：七回，孙坚之过房。生孙韶。"
+  },
+  {
+   "name": "曹奂",
+   "count": 5,
+   "first_ch": 114,
+   "kind": "name",
+   "roster_note": "一百十四回，曹宇子，原名璜，字"
+  },
+  {
+   "name": "邵悌",
+   "count": 5,
+   "first_ch": 115,
+   "kind": "name",
+   "roster_note": "一百十五回，魏西曹掾。"
+  },
+  {
+   "name": "田续",
+   "count": 5,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "杀。邓铜：九十七回，蜀将，病亡。邓飏：一百六回，曹爽门客，字玄茂，邓禹之后。为司"
+  },
+  {
+   "name": "丘建",
+   "count": 5,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏将。"
+  },
+  {
+   "name": "牵弘",
+   "count": 5,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏陇西太守。麹义：七回，袁绍将，为赵云杀。清河公主：九十一回，曹操女"
+  },
+  {
+   "name": "马邈",
+   "count": 5,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "妻，自缢。"
+  },
+  {
+   "name": "刘弘",
+   "count": 4,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "。刘元起：刘备之叔父。刘恢：二回，代州太守。刘陶：二回，谏议大夫，为十常侍害。"
+  },
+  {
+   "name": "何苗",
+   "count": 4,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，何进弟，钩结十常侍，为乱军杀。"
+  },
+  {
+   "name": "张纯",
+   "count": 4,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，在渔阳反，为手下头目刺杀。"
+  },
+  {
+   "name": "赵弘",
+   "count": 4,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，黄巾军，使槊，为孙坚所杀。赵萌：三回，汉右军校尉。"
+  },
+  {
+   "name": "胡轸",
+   "count": 4,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，华雄副将，为程普杀。"
+  },
+  {
+   "name": "陈生",
+   "count": 4,
+   "first_ch": 7,
+   "kind": "name",
+   "roster_note": "七回，襄阳人，"
+  },
+  {
+   "name": "韩融",
+   "count": 4,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "十三回，汉太仆。"
+  },
+  {
+   "name": "李暹",
+   "count": 4,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "十三回，李傕之侄，为许褚斩。"
+  },
+  {
+   "name": "杨琦",
+   "count": 4,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "十三回，汉侍中。"
+  },
+  {
+   "name": "王则",
+   "count": 4,
+   "first_ch": 16,
+   "kind": "appellation",
+   "roster_note": "十六回，操将，奉军都尉。王（上后下土）：十七回，操将，仓官，为操杀。"
+  },
+  {
+   "name": "刘安",
+   "count": 4,
+   "first_ch": 19,
+   "kind": "name",
+   "roster_note": "十九回，猎户，杀妻食刘备，瞎搞。"
+  },
+  {
+   "name": "公威",
+   "count": 4,
+   "first_ch": 20,
+   "kind": "appellation",
+   "roster_note": "三十七回，汝南人，诸葛亮友。孟达：六十回，字子庆，右扶风郿人。归刘，法正、张松友"
+  },
+  {
+   "name": "韩嵩",
+   "count": 4,
+   "first_ch": 23,
+   "kind": "name",
+   "roster_note": "二十三回，刘表从事中郎将，归曹。加为大鸿胪。"
+  },
+  {
+   "name": "尹楷",
+   "count": 4,
+   "first_ch": 32,
+   "kind": "name",
+   "roster_note": "三十二回，武安长，袁尚将，为许褚杀。"
+  },
+  {
+   "name": "田畴",
+   "count": 4,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "三十三回，袁绍旧将，归曹。"
+  },
+  {
+   "name": "崔州平",
+   "count": 4,
+   "first_ch": 37,
+   "kind": "name",
+   "roster_note": "，石"
+  },
+  {
+   "name": "广元",
+   "count": 4,
+   "first_ch": 37,
+   "kind": "name",
+   "roster_note": "为友。司马炎：一百十九回，司马昭长子，晋帝。司马（亻由）：一百二十回，晋琅琊王，"
+  },
+  {
+   "name": "边洪",
+   "count": 4,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，"
+  },
+  {
+   "name": "孙翊",
+   "count": 4,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "从人，杀孙翊后。被斩。"
+  },
+  {
+   "name": "陈就",
+   "count": 4,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，黄祖将，为"
+  },
+  {
+   "name": "程秉",
+   "count": 4,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，字"
+  },
+  {
+   "name": "傅婴",
+   "count": 4,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "、孙高杀。"
+  },
+  {
+   "name": "吴臣",
+   "count": 4,
+   "first_ch": 42,
+   "kind": "name",
+   "roster_note": "四十二回，苍梧太守。"
+  },
+  {
+   "name": "马休",
+   "count": 4,
+   "first_ch": 57,
+   "kind": "name",
+   "roster_note": "五十七回，马腾次子，为曹操害。"
+  },
+  {
+   "name": "成宜",
+   "count": 4,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，为夏侯渊杀。成何：七十四回，"
+  },
+  {
+   "name": "侯选",
+   "count": 4,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，降曹。"
+  },
+  {
+   "name": "刘循",
+   "count": 4,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "六十二回，刘璋长子。刘（日俊）：六十五回，刘璋将，为赵云杀。"
+  },
+  {
+   "name": "董衡",
+   "count": 4,
+   "first_ch": 74,
+   "kind": "name",
+   "roster_note": "七十四回，曹操七军领军将校，为庞德斩。"
+  },
+  {
+   "name": "吕建",
+   "count": 4,
+   "first_ch": 75,
+   "kind": "name",
+   "roster_note": "七十五回，曹将，"
+  },
+  {
+   "name": "刘永",
+   "count": 4,
+   "first_ch": 77,
+   "kind": "name",
+   "roster_note": "七十七回，字"
+  },
+  {
+   "name": "刘理",
+   "count": 4,
+   "first_ch": 77,
+   "kind": "name",
+   "roster_note": "七十七回，字"
+  },
+  {
+   "name": "曹熊",
+   "count": 4,
+   "first_ch": 78,
+   "kind": "name",
+   "roster_note": "六十八回，卞氏四子，曹操死不奔丧，自缢。"
+  },
+  {
+   "name": "轲比能",
+   "count": 4,
+   "first_ch": 85,
+   "kind": "name",
+   "roster_note": "八十五回，辽东鲜卑国国王。"
+  },
+  {
+   "name": "王伉",
+   "count": 4,
+   "first_ch": 87,
+   "kind": "appellation",
+   "roster_note": "八十七回，蜀永昌太守"
+  },
+  {
+   "name": "胡济",
+   "count": 4,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀昭武中郎将。"
+  },
+  {
+   "name": "孙资",
+   "count": 4,
+   "first_ch": 96,
+   "kind": "name",
+   "roster_note": "九十六回，魏尚书。"
+  },
+  {
+   "name": "岑威",
+   "count": 4,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，魏镇远将军，为"
+  },
+  {
+   "name": "毕轨",
+   "count": 4,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，"
+  },
+  {
+   "name": "曹羲",
+   "count": 4,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹爽弟，中领军。为司马懿斩"
+  },
+  {
+   "name": "丁谧",
+   "count": 4,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹爽门客，字"
+  },
+  {
+   "name": "杨祚",
+   "count": 4,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，公孙渊将，杨综：一百七回，魏主簿。"
+  },
+  {
+   "name": "吕据",
+   "count": 4,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴将，为孙綝杀。"
+  },
+  {
+   "name": "王昶",
+   "count": 4,
+   "first_ch": 108,
+   "kind": "appellation",
+   "roster_note": "一百八回，魏征南大将军，"
+  },
+  {
+   "name": "石苞",
+   "count": 4,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，魏将。审配：十三回，袁绍谋士。辅袁尚，为徐晃擒，斩。审荣：三十二回，"
+  },
+  {
+   "name": "李鹏",
+   "count": 4,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，魏将。为傅佥杀。李崇：一百十三回，吴中书郎。李氏：一百十七回，"
+  },
+  {
+   "name": "王真",
+   "count": 4,
+   "first_ch": 112,
+   "kind": "appellation",
+   "roster_note": "一百十二回，魏将，为傅佥擒，乱军杀。"
+  },
+  {
+   "name": "党均",
+   "count": 4,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，魏官，襄阳人。"
+  },
+  {
+   "name": "郑伦",
+   "count": 4,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，魏将。为廖化斩。钟邵：十回，谏议大夫。"
+  },
+  {
+   "name": "荀恺",
+   "count": 4,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "射杀。"
+  },
+  {
+   "name": "王祥",
+   "count": 4,
+   "first_ch": 116,
+   "kind": "appellation",
+   "roster_note": "一百十六回，魏太尉。"
+  },
+  {
+   "name": "诸葛尚",
+   "count": 4,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，诸葛瞻子。兵败亡。"
+  },
+  {
+   "name": "蒋显",
+   "count": 4,
+   "first_ch": 118,
+   "kind": "name",
+   "roster_note": "一百十八回，蜀太仆。"
+  },
+  {
+   "name": "孙歆",
+   "count": 4,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴骠骑将军。为"
+  },
+  {
+   "name": "周旨",
+   "count": 4,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "斩。"
+  },
+  {
+   "name": "窦武",
+   "count": 3,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "一回，汉灵帝时大将军。督邮：二回，官名。貂婵：八回，王允歌伎，吕布妾。"
+  },
+  {
+   "name": "王美人",
+   "count": 3,
+   "first_ch": 2,
+   "kind": "appellation",
+   "roster_note": "二回，灵帝宠，生刘协，为何太后所鸩杀。王允：三回，司徒。李傕，郭汜杀。"
+  },
+  {
+   "name": "张举",
+   "count": 3,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，在渔阳反，称天子，自缢。"
+  },
+  {
+   "name": "鲍忠",
+   "count": 3,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，鲍信之弟。为"
+  },
+  {
+   "name": "潘凤",
+   "count": 3,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，韩馥手下上将，使大斧。潘璋：三十八回，字"
+  },
+  {
+   "name": "俞涉",
+   "count": 3,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，袁术手下骁将，为华雄杀。"
+  },
+  {
+   "name": "严纲",
+   "count": 3,
+   "first_ch": 7,
+   "kind": "name",
+   "roster_note": "七回，公孙瓒将，为麹义杀。严"
+  },
+  {
+   "name": "胡赤儿",
+   "count": 3,
+   "first_ch": 9,
+   "kind": "name",
+   "roster_note": "九回，"
+  },
+  {
+   "name": "何曼",
+   "count": 3,
+   "first_ch": 12,
+   "kind": "name",
+   "roster_note": "十二回，黄巾军，为曹洪杀。"
+  },
+  {
+   "name": "崔勇",
+   "count": 3,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "十三回，"
+  },
+  {
+   "name": "于糜",
+   "count": 3,
+   "first_ch": 15,
+   "kind": "name",
+   "roster_note": "十五回，刘繇部将，孙策挟死。"
+  },
+  {
+   "name": "梁刚",
+   "count": 3,
+   "first_ch": 17,
+   "kind": "name",
+   "roster_note": "十七回，袁术将，操擒杀。"
+  },
+  {
+   "name": "乐就",
+   "count": 3,
+   "first_ch": 17,
+   "kind": "name",
+   "roster_note": "十七回，袁术将，操擒杀。"
+  },
+  {
+   "name": "殷馗",
+   "count": 3,
+   "first_ch": 31,
+   "kind": "name",
+   "roster_note": "三十一回，辽东人，善晓天文。殷纯：八十回，蜀大司马。爰（青彡）：一百十六回，魏将"
+  },
+  {
+   "name": "沮鹄",
+   "count": 3,
+   "first_ch": 32,
+   "kind": "name",
+   "roster_note": "三十二回，沮授之子，为张辽射杀。"
+  },
+  {
+   "name": "公孙恭",
+   "count": 3,
+   "first_ch": 33,
+   "kind": "appellation",
+   "roster_note": "三十三回，"
+  },
+  {
+   "name": "刘泌",
+   "count": 3,
+   "first_ch": 36,
+   "kind": "name",
+   "roster_note": "三十六回，长沙人，汉室宗亲，樊城县令。"
+  },
+  {
+   "name": "德枢",
+   "count": 3,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "，汝阳人。东吴谋士。程咨：四十四回，程普长子。"
+  },
+  {
+   "name": "邓龙",
+   "count": 3,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，黄祖将，为甘宁杀。邓义：四十回，荆州治中。降曹。"
+  },
+  {
+   "name": "陆绩",
+   "count": 3,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，吴郡人，字"
+  },
+  {
+   "name": "薛综",
+   "count": 3,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，沛县人，字"
+  },
+  {
+   "name": "夏侯兰",
+   "count": 3,
+   "first_ch": 39,
+   "kind": "name",
+   "roster_note": "三十九回，曹将，为张飞杀。"
+  },
+  {
+   "name": "公悌",
+   "count": 3,
+   "first_ch": 40,
+   "kind": "appellation",
+   "roster_note": "，荆州东曹掾。降曹，封关内侯。"
+  },
+  {
+   "name": "李珪",
+   "count": 3,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "四十回，刘表幕官，为蔡瑁斩。李春香：五十七回，黄奎妾，告密被操斩。"
+  },
+  {
+   "name": "王粲",
+   "count": 3,
+   "first_ch": 41,
+   "kind": "appellation",
+   "roster_note": "四十回，山阳高平人，字"
+  },
+  {
+   "name": "夏侯恩",
+   "count": 3,
+   "first_ch": 41,
+   "kind": "name",
+   "roster_note": "四十一回，曹操背剑官，为赵云杀。"
+  },
+  {
+   "name": "钟缙",
+   "count": 3,
+   "first_ch": 41,
+   "kind": "name",
+   "roster_note": "四十一回，夏侯惇部将，"
+  },
+  {
+   "name": "钟绅",
+   "count": 3,
+   "first_ch": 41,
+   "kind": "name",
+   "roster_note": "兄弟，为赵云杀。钟绅：四十一回，夏侯惇部将，钟缙兄弟，为赵云杀。"
+  },
+  {
+   "name": "邓禹",
+   "count": 3,
+   "first_ch": 43,
+   "kind": "name",
+   "roster_note": "之后。为"
+  },
+  {
+   "name": "小乔",
+   "count": 3,
+   "first_ch": 44,
+   "kind": "name",
+   "roster_note": "四十四回，周瑜妻。夏侯惇：五回，沛国谯人，字"
+  },
+  {
+   "name": "樊氏",
+   "count": 3,
+   "first_ch": 52,
+   "kind": "appellation",
+   "roster_note": "五十二回，"
+  },
+  {
+   "name": "马铁",
+   "count": 3,
+   "first_ch": 57,
+   "kind": "name",
+   "roster_note": "五十七回，马腾三子，为曹军射死。马岱：五十七回，马腾侄，归刘备。"
+  },
+  {
+   "name": "长文",
+   "count": 3,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "，治书侍御史、镇军大将军，司空。"
+  },
+  {
+   "name": "梁兴",
+   "count": 3,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，为马超杀。梁宽：六十四回，杨阜友。"
+  },
+  {
+   "name": "马玩",
+   "count": 3,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，为马超杀。马汉：六十五回，刘璋将，为赵云杀。马忠：七十七回，"
+  },
+  {
+   "name": "钟进",
+   "count": 3,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，钟繇弟，为庞德杀。钟会：一百七回，颖川长社人，字士兵季，钟繇之子。造反"
+  },
+  {
+   "name": "董和",
+   "count": 3,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，"
+  },
+  {
+   "name": "王氏",
+   "count": 3,
+   "first_ch": 64,
+   "kind": "appellation",
+   "roster_note": "一百十九回，王肃女，司马昭妻。"
+  },
+  {
+   "name": "赵月",
+   "count": 3,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，赵昂子，马超裨将，父举事，为马超斩。赵颜：六十九回，管辂卜之。"
+  },
+  {
+   "name": "郑度",
+   "count": 3,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "六十四回，刘璋从事。郑文：一百二回，魏偏将军，诈降蜀被斩。郑袤：一百十回，魏光禄"
+  },
+  {
+   "name": "杨洪",
+   "count": 3,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀将，降刘。治中。"
+  },
+  {
+   "name": "谷利",
+   "count": 3,
+   "first_ch": 67,
+   "kind": "name",
+   "roster_note": "六十七回，东吴牙将，合淝救"
+  },
+  {
+   "name": "董祀",
+   "count": 3,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "七十一回，蔡琰夫。"
+  },
+  {
+   "name": "吴质",
+   "count": 3,
+   "first_ch": 72,
+   "kind": "name",
+   "roster_note": "七十二回，汉朝歌长。吴氏：七十七回，吴懿妹，先嫁刘瑁，后嫁刘备。生二子。吴押狱："
+  },
+  {
+   "name": "董超",
+   "count": 3,
+   "first_ch": 74,
+   "kind": "name",
+   "roster_note": "七十四回，曹操七军领军将校，为庞德斩。董治：七十九回，治曹操陵事。"
+  },
+  {
+   "name": "孙皎",
+   "count": 3,
+   "first_ch": 75,
+   "kind": "name",
+   "roster_note": "七十五回，孙静次子，字叔明。孙桓：八十二回，东吴将，字"
+  },
+  {
+   "name": "徐商",
+   "count": 3,
+   "first_ch": 76,
+   "kind": "name",
+   "roster_note": "七十六回，曹将，徐夫人：一百八回，孙权妻。"
+  },
+  {
+   "name": "谭雄",
+   "count": 3,
+   "first_ch": 82,
+   "kind": "name",
+   "roster_note": "八十二回，吴军裨将。为关兴擒斩。"
+  },
+  {
+   "name": "夏恂",
+   "count": 3,
+   "first_ch": 83,
+   "kind": "name",
+   "roster_note": "八十三回，韩当部将，为张苞杀。"
+  },
+  {
+   "name": "伯苗",
+   "count": 3,
+   "first_ch": 85,
+   "kind": "name",
+   "roster_note": "，汉司马"
+  },
+  {
+   "name": "忙牙长",
+   "count": 3,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "八十七回，孟获将。为马岱斩。"
+  },
+  {
+   "name": "薛则",
+   "count": 3,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，曹将，为张苞杀。薛乔：九十六回，曹休将薛（王羽）：一百十三回，吴官。"
+  },
+  {
+   "name": "彻里吉",
+   "count": 3,
+   "first_ch": 94,
+   "kind": "name",
+   "roster_note": "九十四回，西羌国王"
+  },
+  {
+   "name": "韩暨",
+   "count": 3,
+   "first_ch": 98,
+   "kind": "name",
+   "roster_note": "九十八回，魏太常卿。"
+  },
+  {
+   "name": "刘劭",
+   "count": 3,
+   "first_ch": 103,
+   "kind": "name",
+   "roster_note": "一百三回，曹将，"
+  },
+  {
+   "name": "刘放",
+   "count": 3,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，魏侍中光禄大夫。刘达：一百十回，魏将。"
+  },
+  {
+   "name": "伦直",
+   "count": 3,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，公孙渊参军。裳晕镌ㄕ丁？br>"
+  },
+  {
+   "name": "张特",
+   "count": 3,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，魏牙门将。张约：一百八回，诸葛恪心腹将。为孙峻杀。"
+  },
+  {
+   "name": "张皇后",
+   "count": 3,
+   "first_ch": 109,
+   "kind": "appellation",
+   "roster_note": "之父，曹芳之皇丈。为司马师杀。张皇后：一百九回，曹芳妻。为司马师白练绞死。张明："
+  },
+  {
+   "name": "全怿",
+   "count": 3,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，吴将。全端弟。降魏。"
+  },
+  {
+   "name": "王惇",
+   "count": 3,
+   "first_ch": 111,
+   "kind": "appellation",
+   "roster_note": "一百十一回，吴将军，为孙綝杀。"
+  },
+  {
+   "name": "吴纲",
+   "count": 3,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，魏长史。吴国太：七回，吴夫人妹，孙坚次妻。伍琼：四回，校尉。为董卓杀"
+  },
+  {
+   "name": "文虎",
+   "count": 3,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，文钦子。魏续：十一回，吕布将。降曹。为颜良杀。魏延：四十一回，字"
+  },
+  {
+   "name": "州泰",
+   "count": 3,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，魏兖州刺史。曾宣：一百十二回，诸葛诞将，降魏。甄氏：三十三回，袁熙妻"
+  },
+  {
+   "name": "胡奋",
+   "count": 3,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，魏将。"
+  },
+  {
+   "name": "刘丞",
+   "count": 3,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，吴将。为孙綝杀。"
+  },
+  {
+   "name": "全尚",
+   "count": 3,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，全纪父，为孙綝杀。全尚妻：一百十三回，孙綝姊。全后：一百十三回，全尚"
+  },
+  {
+   "name": "施朔",
+   "count": 3,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，吴武卫士。师婆：一百十六回，黄皓请的跳大神者。"
+  },
+  {
+   "name": "魏邈",
+   "count": 3,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，吴将，魏平：一百一回，魏将。"
+  },
+  {
+   "name": "王沈",
+   "count": 3,
+   "first_ch": 114,
+   "kind": "appellation",
+   "roster_note": "一百十四回，魏侍中。"
+  },
+  {
+   "name": "阎宇",
+   "count": 3,
+   "first_ch": 115,
+   "kind": "name",
+   "roster_note": "一百十五回，蜀右将军，颜良：六回，袁绍之河北名将，为关羽杀。"
+  },
+  {
+   "name": "孙异",
+   "count": 3,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，吴将。孙（雨上单下）：一百二十回，孙休太子。"
+  },
+  {
+   "name": "张遵",
+   "count": 3,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，蜀尚书。兵败亡。张绍：一百十八回，蜀私署侍中。降魏。张峻：一百十八回"
+  },
+  {
+   "name": "刘谌",
+   "count": 3,
+   "first_ch": 118,
+   "kind": "name",
+   "roster_note": "妻。"
+  },
+  {
+   "name": "胡渊",
+   "count": 3,
+   "first_ch": 119,
+   "kind": "name",
+   "roster_note": "一百十九回，胡烈子。"
+  },
+  {
+   "name": "张节",
+   "count": 3,
+   "first_ch": 119,
+   "kind": "name",
+   "roster_note": "一百十九回，魏黄门侍郎。为司马炎斩。"
+  },
+  {
+   "name": "陆景",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴将。为"
+  },
+  {
+   "name": "濮阳兴",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴丞相。为孙皓斩。"
+  },
+  {
+   "name": "沈莹",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴左将军。为周旨杀。"
+  },
+  {
+   "name": "陶濬",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴将。太史慈：十一回，东莱黄县人，字"
+  },
+  {
+   "name": "伍延",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴车骑将军。兵败被捉。为杜预斩。"
+  },
+  {
+   "name": "万彧",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴左典军，"
+  },
+  {
+   "name": "张象",
+   "count": 3,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴前将军。降晋。张辽：十一回，雁门马邑人，字"
+  },
+  {
+   "name": "陈蕃",
+   "count": 2,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "一回，"
+  },
+  {
+   "name": "元义",
+   "count": 2,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "一回，黄巾军，为何进斩。马腾：五回，汉西凉太守，字"
+  },
+  {
+   "name": "唐周",
+   "count": 2,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "一回，张角弟子，反叛。"
+  },
+  {
+   "name": "左丰",
+   "count": 2,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "一回，黄门。左灵：十三回，左贤王：三十三回，北番王。"
+  },
+  {
+   "name": "区星",
+   "count": 2,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，在长沙反。为孙坚平。"
+  },
+  {
+   "name": "武安国",
+   "count": 2,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，孔融部将，使锤，为吕布断手腕，乌桓触：三十三回，幽州刺史，降曹，加镇北将军"
+  },
+  {
+   "name": "公礼",
+   "count": 2,
+   "first_ch": 7,
+   "kind": "appellation",
+   "roster_note": "。"
+  },
+  {
+   "name": "边让",
+   "count": 2,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "十回，九江太守，为"
+  },
+  {
+   "name": "曹德",
+   "count": 2,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "十回，曹嵩之弟。为张闿乱军所杀。"
+  },
+  {
+   "name": "刘范",
+   "count": 2,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "十回，左中朗将。"
+  },
+  {
+   "name": "留平",
+   "count": 2,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "一百二十回，吴将军，为孙皓杀。鲁馗：九回，太仆，死于国难。鲁肃：二十九回，字"
+  },
+  {
+   "name": "马宇",
+   "count": 2,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "十回，侍中。马超：十回，字"
+  },
+  {
+   "name": "宗宝",
+   "count": 2,
+   "first_ch": 11,
+   "kind": "name",
+   "roster_note": "十一回，孔融将，为管亥杀。"
+  },
+  {
+   "name": "任峻",
+   "count": 2,
+   "first_ch": 14,
+   "kind": "name",
+   "roster_note": "十四回，操将，典农中郎将。"
+  },
+  {
+   "name": "王立",
+   "count": 2,
+   "first_ch": 14,
+   "kind": "appellation",
+   "roster_note": "十四回，汉侍中太史令。"
+  },
+  {
+   "name": "陈横",
+   "count": 2,
+   "first_ch": 15,
+   "kind": "name",
+   "roster_note": "十五回，"
+  },
+  {
+   "name": "陆康",
+   "count": 2,
+   "first_ch": 15,
+   "kind": "name",
+   "roster_note": "十五回，庐江太守。"
+  },
+  {
+   "name": "伍习",
+   "count": 2,
+   "first_ch": 17,
+   "kind": "name",
+   "roster_note": "杀。郭妻：十三回，郭汜妻。"
+  },
+  {
+   "name": "眭固",
+   "count": 2,
+   "first_ch": 19,
+   "kind": "name",
+   "roster_note": "十九回，"
+  },
+  {
+   "name": "徐璆",
+   "count": 2,
+   "first_ch": 21,
+   "kind": "name",
+   "roster_note": "二十一回，得玉玺献操，封高陵太守。"
+  },
+  {
+   "name": "元叹",
+   "count": 2,
+   "first_ch": 29,
+   "kind": "name",
+   "roster_note": "，蔡邕之徒，东吴谋士。"
+  },
+  {
+   "name": "子扬",
+   "count": 2,
+   "first_ch": 29,
+   "kind": "name",
+   "roster_note": "二十九回，"
+  },
+  {
+   "name": "赵睿",
+   "count": 2,
+   "first_ch": 30,
+   "kind": "name",
+   "roster_note": "三十回，袁绍将，为曹兵所杀。赵范：五十二回，桂阳太守，为赵云擒，降。"
+  },
+  {
+   "name": "李孚",
+   "count": 2,
+   "first_ch": 32,
+   "kind": "name",
+   "roster_note": "三十二回，袁尚主簿。"
+  },
+  {
+   "name": "公孙度",
+   "count": 2,
+   "first_ch": 33,
+   "kind": "appellation",
+   "roster_note": "之子，斩二袁归曹。公孙度：三十三回，汉武威将军。"
+  },
+  {
+   "name": "韩珩",
+   "count": 2,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "三十三回，幽州别驾，不降曹。"
+  },
+  {
+   "name": "骆统",
+   "count": 2,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，乌伤人，字"
+  },
+  {
+   "name": "敬文",
+   "count": 2,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "惠恕",
+   "count": 2,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "司马防",
+   "count": 2,
+   "first_ch": 39,
+   "kind": "name",
+   "roster_note": "三十九回，司马懿之父，汉京兆尹。"
+  },
+  {
+   "name": "傅巽",
+   "count": 2,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "四十回，字"
+  },
+  {
+   "name": "刘先",
+   "count": 2,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "四十回，荆州别驾。降曹。"
+  },
+  {
+   "name": "仲宣",
+   "count": 2,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "。避乱荆襄。降曹，封关内侯。"
+  },
+  {
+   "name": "脂习",
+   "count": 2,
+   "first_ch": 40,
+   "kind": "name",
+   "roster_note": "四十回，京兆，孔融友。祝融夫人：九十回，孟获妻，祝融氏之后，为马岱擒，"
+  },
+  {
+   "name": "淳于导",
+   "count": 2,
+   "first_ch": 41,
+   "kind": "name",
+   "roster_note": "四十一回，曹仁部将，为赵云杀。"
+  },
+  {
+   "name": "昭先",
+   "count": 2,
+   "first_ch": 43,
+   "kind": "name",
+   "roster_note": "。为"
+  },
+  {
+   "name": "大乔",
+   "count": 2,
+   "first_ch": 44,
+   "kind": "name",
+   "roster_note": "二十九回，"
+  },
+  {
+   "name": "刘磐",
+   "count": 2,
+   "first_ch": 53,
+   "kind": "name",
+   "roster_note": "五十三回，刘表侄，后为长沙太守。刘（王贵）：六十回，刘璋将，为张翼杀。"
+  },
+  {
+   "name": "孙瑜",
+   "count": 2,
+   "first_ch": 57,
+   "kind": "name",
+   "roster_note": "五十七回，孙权弟。"
+  },
+  {
+   "name": "程银",
+   "count": 2,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，"
+  },
+  {
+   "name": "丁斐",
+   "count": 2,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，渭南县令。"
+  },
+  {
+   "name": "张横",
+   "count": 2,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，韩遂将，为曹军杀。"
+  },
+  {
+   "name": "庞羲",
+   "count": 2,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，巴西太守。庞义：六十五回，蜀将归刘，营中司马。"
+  },
+  {
+   "name": "张衡",
+   "count": 2,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，张鲁父，行道，号米贼。张先：十七回，张绣将，为许褚杀。张合：二十二回，"
+  },
+  {
+   "name": "张肃",
+   "count": 2,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "六十二回，张松兄，广汉太守。张翼：六十四回，武阳人，刘璋将，降刘。兵败国亡，死于"
+  },
+  {
+   "name": "吕义",
+   "count": 2,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀将，降刘。"
+  },
+  {
+   "name": "邴原",
+   "count": 2,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "六十六回，与"
+  },
+  {
+   "name": "彦材",
+   "count": 2,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "，谏言被斩。张弥：一百六回，吴臣，为公孙渊斩。张当：一百六回，魏黄门，谄事曹爽。"
+  },
+  {
+   "name": "薛悌",
+   "count": 2,
+   "first_ch": 67,
+   "kind": "name",
+   "roster_note": "六十七回，曹操差官。"
+  },
+  {
+   "name": "丁夫人",
+   "count": 2,
+   "first_ch": 68,
+   "kind": "appellation",
+   "roster_note": "六十八回，曹操元配，无出，被黜。"
+  },
+  {
+   "name": "文然",
+   "count": 2,
+   "first_ch": 69,
+   "kind": "name",
+   "roster_note": "，起事为乱军杀。吉穆：六十九回，吉平次子，字思然，起事为乱军杀。金尚：十七回，兖"
+  },
+  {
+   "name": "任夔",
+   "count": 2,
+   "first_ch": 69,
+   "kind": "name",
+   "roster_note": "六十九回，蜀牙将，为曹洪斩。"
+  },
+  {
+   "name": "焦炳",
+   "count": 2,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "七十一回，魏将，为赵云杀。"
+  },
+  {
+   "name": "庞柔",
+   "count": 2,
+   "first_ch": 74,
+   "kind": "name",
+   "roster_note": "七十四回，庞德兄，蜀官。"
+  },
+  {
+   "name": "庞会",
+   "count": 2,
+   "first_ch": 74,
+   "kind": "name",
+   "roster_note": "七十四回，庞德子。魏将。彭伯：三回，议郎。彭安：三十三回，袁谭将，为徐晃杀。"
+  },
+  {
+   "name": "刘瑁",
+   "count": 2,
+   "first_ch": 77,
+   "kind": "name",
+   "roster_note": "七十七回，刘焉子，娶"
+  },
+  {
+   "name": "山阳公",
+   "count": 2,
+   "first_ch": 80,
+   "kind": "appellation",
+   "roster_note": "。"
+  },
+  {
+   "name": "孟光",
+   "count": 2,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀谏议郎。孟获：八十五回，南蛮王。第一次为魏延擒，第二次为董荼那擒，第三"
+  },
+  {
+   "name": "尹默",
+   "count": 2,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀学士。"
+  },
+  {
+   "name": "张裔",
+   "count": 2,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀偏将军。张南：八十一回，蜀将。兵败死于乱军。张达：八十一回，张飞将，刺"
+  },
+  {
+   "name": "杜路",
+   "count": 2,
+   "first_ch": 82,
+   "kind": "name",
+   "roster_note": "八十二回，洞溪汉将，兵败降吴。"
+  },
+  {
+   "name": "周平",
+   "count": 2,
+   "first_ch": 83,
+   "kind": "name",
+   "roster_note": "八十三回，周泰弟，为关兴斩。周舫：九十六回，东吴鄱阳太守。周旨：一百二十回，杜预"
+  },
+  {
+   "name": "王连",
+   "count": 2,
+   "first_ch": 87,
+   "kind": "appellation",
+   "roster_note": "八十七回，蜀谏议太夫，字"
+  },
+  {
+   "name": "郭攸之",
+   "count": 2,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀侍郎。郭夫人：一百五回，得曹睿宠，被立后。"
+  },
+  {
+   "name": "向宠",
+   "count": 2,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀将军刑道荣：五十二回，零陵上将，为赵云杀。刑贞：八十二回，魏太常卿。"
+  },
+  {
+   "name": "韩瑛",
+   "count": 2,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，韩德长子，为赵云杀。"
+  },
+  {
+   "name": "韩琪",
+   "count": 2,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，韩德四子，为赵云杀。韩祯：九十四回，蜀西平关守将。"
+  },
+  {
+   "name": "龚起",
+   "count": 2,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，蜀禅将，为"
+  },
+  {
+   "name": "李服",
+   "count": 2,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，魏将。"
+  },
+  {
+   "name": "谢雄",
+   "count": 2,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，蜀禅将，为王双杀。"
+  },
+  {
+   "name": "赵统",
+   "count": 2,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，赵云长子，虎贲中郎。"
+  },
+  {
+   "name": "赵广",
+   "count": 2,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，赵云次子，牙门将。赵直：一百四回，蜀行军司马。朱（亻隽）：一回，中郎将"
+  },
+  {
+   "name": "孙登",
+   "count": 2,
+   "first_ch": 98,
+   "kind": "name",
+   "roster_note": "九十八回，孙权长子。徐夫人生。早亡。孙谦：一百七回，魏偏将。"
+  },
+  {
+   "name": "张休",
+   "count": 2,
+   "first_ch": 98,
+   "kind": "name",
+   "roster_note": "九十八回，张昭次子，吴太子右弼。"
+  },
+  {
+   "name": "杨暨",
+   "count": 2,
+   "first_ch": 99,
+   "kind": "name",
+   "roster_note": "九十九回，魏官。杨顒：一百三回，蜀主簿。"
+  },
+  {
+   "name": "田豫",
+   "count": 2,
+   "first_ch": 103,
+   "kind": "name",
+   "roster_note": "一百三回，曹将，田续：一百十六回，魏将。"
+  },
+  {
+   "name": "张球",
+   "count": 2,
+   "first_ch": 103,
+   "kind": "name",
+   "roster_note": "一百三回，魏骁将，张茂：一百五回，魏太子舍人，字"
+  },
+  {
+   "name": "文伟",
+   "count": 2,
+   "first_ch": 104,
+   "kind": "name",
+   "roster_note": "，长史，"
+  },
+  {
+   "name": "董寻",
+   "count": 2,
+   "first_ch": 105,
+   "kind": "name",
+   "roster_note": "一百五回，魏司徒，谏言被废为庶人。"
+  },
+  {
+   "name": "曹宇",
+   "count": 2,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹丕子，燕王"
+  },
+  {
+   "name": "曹训",
+   "count": 2,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹爽弟，武卫将军。为司马懿斩"
+  },
+  {
+   "name": "曹彦",
+   "count": 2,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，曹爽弟，散骑常侍。为司马懿斩"
+  },
+  {
+   "name": "公孙修",
+   "count": 2,
+   "first_ch": 106,
+   "kind": "appellation",
+   "roster_note": "一百六回，公孙渊子。为司马懿军擒杀。"
+  },
+  {
+   "name": "卫演",
+   "count": 2,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，公孙渊侍中。"
+  },
+  {
+   "name": "傅嘏",
+   "count": 2,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，魏尚书。"
+  },
+  {
+   "name": "韩综",
+   "count": 2,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，魏将，为丁奉杀。"
+  },
+  {
+   "name": "桓嘉",
+   "count": 2,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，魏将，为丁奉杀。桓彝：一百十三回，吴尚书，为"
+  },
+  {
+   "name": "孙和",
+   "count": 2,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，孙权次子。"
+  },
+  {
+   "name": "宋白",
+   "count": 2,
+   "first_ch": 110,
+   "kind": "name",
+   "roster_note": "一百十回，魏慎县县令，杀毋丘俭。"
+  },
+  {
+   "name": "鲍素",
+   "count": 2,
+   "first_ch": 111,
+   "kind": "name",
+   "roster_note": "一百十一回，蜀将，"
+  },
+  {
+   "name": "全祎",
+   "count": 2,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，全端子。降魏。"
+  },
+  {
+   "name": "董朝",
+   "count": 2,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，吴中书郎。"
+  },
+  {
+   "name": "刘寔",
+   "count": 2,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏相国参军。刘（王睿）：一百十八回，刘禅长子。死于乱军。刘瑶：一百十"
+  },
+  {
+   "name": "丁封",
+   "count": 2,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，吴将，"
+  },
+  {
+   "name": "丘本",
+   "count": 2,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，魏将。"
+  },
+  {
+   "name": "邓良",
+   "count": 2,
+   "first_ch": 118,
+   "kind": "name",
+   "roster_note": "一百十八回，蜀驸马都尉。降魏。"
+  },
+  {
+   "name": "霍弋",
+   "count": 2,
+   "first_ch": 119,
+   "kind": "name",
+   "roster_note": "一百十九回，蜀建宁太守。花永：一百十回，魏将。汉灵帝：一回，刘苌之子，中平六年崩"
+  },
+  {
+   "name": "王浑",
+   "count": 2,
+   "first_ch": 120,
+   "kind": "appellation",
+   "roster_note": "一百二十回，晋侍中。"
+  },
+  {
+   "name": "王戎",
+   "count": 2,
+   "first_ch": 120,
+   "kind": "appellation",
+   "roster_note": "一百二十回，晋奋威将军。王氏：六十四回，"
+  },
+  {
+   "name": "张华",
+   "count": 2,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，晋秘书丞。"
+  }
+ ],
+ "mentioned": [
+  {
+   "name": "曹腾",
+   "count": 1,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "养子。为"
+  },
+  {
+   "name": "桥玄",
+   "count": 1,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "、"
+  },
+  {
+   "name": "许劭",
+   "count": 1,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "一回，汝南人，著《人物志》。"
+  },
+  {
+   "name": "张世",
+   "count": 1,
+   "first_ch": 1,
+   "kind": "name",
+   "roster_note": "平：一回，中山贩马商人。张均：二回，朗中。"
+  },
+  {
+   "name": "高升",
+   "count": 1,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，黄巾军副将，为张飞所杀。"
+  },
+  {
+   "name": "舞阳君",
+   "count": 1,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，何进母。"
+  },
+  {
+   "name": "许韶",
+   "count": 1,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，许昌之子。为孙坚所杀。"
+  },
+  {
+   "name": "严政",
+   "count": 1,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，黄巾军，杀"
+  },
+  {
+   "name": "臧旻",
+   "count": 1,
+   "first_ch": 2,
+   "kind": "name",
+   "roster_note": "二回，会稽刺史。"
+  },
+  {
+   "name": "伯和",
+   "count": 1,
+   "first_ch": 4,
+   "kind": "name",
+   "roster_note": "，灵帝中子，汉献帝，被曹丕废为"
+  },
+  {
+   "name": "方悦",
+   "count": 1,
+   "first_ch": 5,
+   "kind": "name",
+   "roster_note": "五回，河内名将，为吕布杀。"
+  },
+  {
+   "name": "公孝",
+   "count": 1,
+   "first_ch": 6,
+   "kind": "appellation",
+   "roster_note": "，江夏八俊之一。岑壁：三十二回，"
+  },
+  {
+   "name": "世元",
+   "count": 1,
+   "first_ch": 6,
+   "kind": "name",
+   "roster_note": "，江夏八俊之一。"
+  },
+  {
+   "name": "叔弼",
+   "count": 1,
+   "first_ch": 7,
+   "kind": "name",
+   "roster_note": "。吴夫人生。丹阳太守，为边洪杀。"
+  },
+  {
+   "name": "季佐",
+   "count": 1,
+   "first_ch": 7,
+   "kind": "name",
+   "roster_note": "。吴夫人生。娶曹仁女。"
+  },
+  {
+   "name": "早安",
+   "count": 1,
+   "first_ch": 7,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "种拂",
+   "count": 1,
+   "first_ch": 9,
+   "kind": "name",
+   "roster_note": "九回，太常卿，死于国难。"
+  },
+  {
+   "name": "子恪",
+   "count": 1,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "，武城人。"
+  },
+  {
+   "name": "孝先",
+   "count": 1,
+   "first_ch": 10,
+   "kind": "name",
+   "roster_note": "。毛氏：一百五回，河内人，曹睿后。被赐死。"
+  },
+  {
+   "name": "王昌",
+   "count": 1,
+   "first_ch": 13,
+   "kind": "appellation",
+   "roster_note": "十三回，李傕虎贲将。"
+  },
+  {
+   "name": "王邑",
+   "count": 1,
+   "first_ch": 13,
+   "kind": "appellation",
+   "roster_note": "十三回，汉河东太守。"
+  },
+  {
+   "name": "杨密",
+   "count": 1,
+   "first_ch": 13,
+   "kind": "name",
+   "roster_note": "十三回，汉中郎将。杨奉：十三回，骑都尉，降袁术。关、张杀。"
+  },
+  {
+   "name": "典满",
+   "count": 1,
+   "first_ch": 17,
+   "kind": "name",
+   "roster_note": "十七回，典韦子。"
+  },
+  {
+   "name": "杨丑",
+   "count": 1,
+   "first_ch": 19,
+   "kind": "name",
+   "roster_note": "十九回，张杨部将，为眭固杀。"
+  },
+  {
+   "name": "袁胤",
+   "count": 1,
+   "first_ch": 21,
+   "kind": "name",
+   "roster_note": "二十一回，袁术侄，为徐璆杀。袁谭：二十四回，袁绍长子，字"
+  },
+  {
+   "name": "马融",
+   "count": 1,
+   "first_ch": 22,
+   "kind": "name",
+   "roster_note": "二十二回，"
+  },
+  {
+   "name": "元俭",
+   "count": 1,
+   "first_ch": 27,
+   "kind": "name",
+   "roster_note": "，襄阳人，初劫掠为生，归刘。国亡忧死。"
+  },
+  {
+   "name": "关宁",
+   "count": 1,
+   "first_ch": 28,
+   "kind": "name",
+   "roster_note": "二十八回，关定长子。学文。"
+  },
+  {
+   "name": "刘勋",
+   "count": 1,
+   "first_ch": 29,
+   "kind": "name",
+   "roster_note": "二十九回，庐江太守，为孙策败。刘"
+  },
+  {
+   "name": "孙匡",
+   "count": 1,
+   "first_ch": 29,
+   "kind": "name",
+   "roster_note": "七回，孙坚四子，字"
+  },
+  {
+   "name": "郑宝",
+   "count": 1,
+   "first_ch": 29,
+   "kind": "name",
+   "roster_note": "二十九回，巢湖太守。"
+  },
+  {
+   "name": "韩莒子",
+   "count": 1,
+   "first_ch": 30,
+   "kind": "name",
+   "roster_note": "三十回，袁绍将"
+  },
+  {
+   "name": "吕威璜",
+   "count": 1,
+   "first_ch": 30,
+   "kind": "name",
+   "roster_note": "三十回，袁绍将。吕旷：三十二回，袁尚将，降曹，为赵云杀。"
+  },
+  {
+   "name": "蒋义渠",
+   "count": 1,
+   "first_ch": 31,
+   "kind": "name",
+   "roster_note": "三十一回，袁绍将。"
+  },
+  {
+   "name": "苏由",
+   "count": 1,
+   "first_ch": 32,
+   "kind": "name",
+   "roster_note": "三十二回，袁尚将。"
+  },
+  {
+   "name": "季珪",
+   "count": 1,
+   "first_ch": 33,
+   "kind": "name",
+   "roster_note": "，清河东武人，青州别驾，为操待为上宾。后不满操为魏王，杖杀狱中。崔"
+  },
+  {
+   "name": "王琰",
+   "count": 1,
+   "first_ch": 33,
+   "kind": "appellation",
+   "roster_note": "杀。"
+  },
+  {
+   "name": "陈氏",
+   "count": 1,
+   "first_ch": 34,
+   "kind": "appellation",
+   "roster_note": "三十四回，"
+  },
+  {
+   "name": "蔡勋",
+   "count": 1,
+   "first_ch": 34,
+   "kind": "name",
+   "roster_note": "三十四回，蔡瑁族弟。蔡（王熏）：四十五回，蔡瑁弟，为甘宁杀。"
+  },
+  {
+   "name": "吾粲",
+   "count": 1,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，字"
+  },
+  {
+   "name": "孔休",
+   "count": 1,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "，乌程人，东吴谋士。"
+  },
+  {
+   "name": "严畯",
+   "count": 1,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "三十八回，彭城人，字"
+  },
+  {
+   "name": "曼才",
+   "count": 1,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "。严颜：六十三回，巴郡太守，为张飞擒，归刘。"
+  },
+  {
+   "name": "休穆",
+   "count": 1,
+   "first_ch": 38,
+   "kind": "name",
+   "roster_note": "，吴郡人。吴奋威将军。"
+  },
+  {
+   "name": "司马朗",
+   "count": 1,
+   "first_ch": 39,
+   "kind": "name",
+   "roster_note": "三十九回，司马懿之兄，汉主簿。"
+  },
+  {
+   "name": "晏明",
+   "count": 1,
+   "first_ch": 41,
+   "kind": "name",
+   "roster_note": "四十一回，曹洪部将，为赵云杀。袁逢：二回，司徒，袁绍父。"
+  },
+  {
+   "name": "夏侯杰",
+   "count": 1,
+   "first_ch": 42,
+   "kind": "name",
+   "roster_note": "四十二回，曹将，为张飞喝死。"
+  },
+  {
+   "name": "子山",
+   "count": 1,
+   "first_ch": 43,
+   "kind": "name",
+   "roster_note": "，东吴谋士。"
+  },
+  {
+   "name": "太史亨",
+   "count": 1,
+   "first_ch": 53,
+   "kind": "name",
+   "roster_note": "五十三回，太史慈子。"
+  },
+  {
+   "name": "子硕",
+   "count": 1,
+   "first_ch": 57,
+   "kind": "name",
+   "roster_note": "，桓帝时为天水兰干县尉，娶羌女生马腾。"
+  },
+  {
+   "name": "曹永",
+   "count": 1,
+   "first_ch": 58,
+   "kind": "name",
+   "roster_note": "五十八回，曹仁部将，为庞德杀。"
+  },
+  {
+   "name": "梦梅居士",
+   "count": 1,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "兵。泠苞：六十回，刘璋将，为魏延擒两次，斩。梨树神：七十八回，为曹操斩，托梦惊操"
+  },
+  {
+   "name": "德容",
+   "count": 1,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "，京兆尹。"
+  },
+  {
+   "name": "赵韪",
+   "count": 1,
+   "first_ch": 59,
+   "kind": "name",
+   "roster_note": "五十九回，益州吏。赵衢：六十四回，杨阜友。赵昂：六十四回，历城统兵校尉，曹将。"
+  },
+  {
+   "name": "法真",
+   "count": 1,
+   "first_ch": 60,
+   "kind": "name",
+   "roster_note": "。归刘，"
+  },
+  {
+   "name": "荀恽",
+   "count": 1,
+   "first_ch": 61,
+   "kind": "name",
+   "roster_note": "六十一回，荀彧子。荀（岂页）：一百十四回，魏尚书。"
+  },
+  {
+   "name": "仲邈",
+   "count": 1,
+   "first_ch": 62,
+   "kind": "name",
+   "roster_note": "，南郡枝江人，蜀将。"
+  },
+  {
+   "name": "向朗",
+   "count": 1,
+   "first_ch": 63,
+   "kind": "name",
+   "roster_note": "六十三回，刘备士，助关羽守荆州。"
+  },
+  {
+   "name": "幼宰",
+   "count": 1,
+   "first_ch": 64,
+   "kind": "name",
+   "roster_note": "，南郡枝江人，"
+  },
+  {
+   "name": "杨氏",
+   "count": 1,
+   "first_ch": 64,
+   "kind": "appellation",
+   "roster_note": "六十四回，马超妻，为梁宽、赵衢斩。"
+  },
+  {
+   "name": "允南",
+   "count": 1,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "，巴西西充国人，素晓天文，归刘，降魏。仇连：一百六回，魏将，右都督。为司马懿斩。"
+  },
+  {
+   "name": "周群",
+   "count": 1,
+   "first_ch": 65,
+   "kind": "name",
+   "roster_note": "六十五回，蜀将，降刘。"
+  },
+  {
+   "name": "傅干",
+   "count": 1,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "六十六回，曹参军，字"
+  },
+  {
+   "name": "和洽",
+   "count": 1,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "六十六回，汉侍中。"
+  },
+  {
+   "name": "卫凯",
+   "count": 1,
+   "first_ch": 66,
+   "kind": "name",
+   "roster_note": "六十六回，汉侍中。卫仲道：七十一回，蔡琰前夫。"
+  },
+  {
+   "name": "元放",
+   "count": 1,
+   "first_ch": 68,
+   "kind": "name",
+   "roster_note": "，道号乌角先生，戏曹操。左咸：七十七回，东吴主簿，进言斩关羽。"
+  },
+  {
+   "name": "季行",
+   "count": 1,
+   "first_ch": 69,
+   "kind": "name",
+   "roster_note": "，洛阳人，侍中少府，讨曹操，被斩。葛雍：一百十回，"
+  },
+  {
+   "name": "慕容烈",
+   "count": 1,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "七十一回，"
+  },
+  {
+   "name": "慕容",
+   "count": 1,
+   "first_ch": 71,
+   "kind": "name",
+   "roster_note": "烈"
+  },
+  {
+   "name": "公寿",
+   "count": 1,
+   "first_ch": 77,
+   "kind": "appellation",
+   "roster_note": "，刘备子，吴氏生。"
+  },
+  {
+   "name": "吕霸",
+   "count": 1,
+   "first_ch": 77,
+   "kind": "name",
+   "roster_note": "七十七回，吕蒙子。"
+  },
+  {
+   "name": "刘廙",
+   "count": 1,
+   "first_ch": 79,
+   "kind": "name",
+   "roster_note": "七十九回，奏献帝让位。刘琬：二十九回，汉使，曾赞锶ā？br>"
+  },
+  {
+   "name": "何宗",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀祭酒。"
+  },
+  {
+   "name": "刘豹",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀阳泉侯。刘宁：八十二回，洞溪汉将，兵败降吴。刘琰：九十一回，蜀车骑大将"
+  },
+  {
+   "name": "赖恭",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀太常卿。"
+  },
+  {
+   "name": "王谋",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "appellation",
+   "roster_note": "八十回，蜀少府。王双：八十五回，曹仁将。王双：九十七回，陕西狄道人，字"
+  },
+  {
+   "name": "许慈",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀博士。"
+  },
+  {
+   "name": "向举",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "八十回，蜀青衣侯。"
+  },
+  {
+   "name": "文博",
+   "count": 1,
+   "first_ch": 80,
+   "kind": "name",
+   "roster_note": "士。"
+  },
+  {
+   "name": "廖淳",
+   "count": 1,
+   "first_ch": 81,
+   "kind": "name",
+   "roster_note": "八十一回，蜀将。"
+  },
+  {
+   "name": "叔武",
+   "count": 1,
+   "first_ch": 82,
+   "kind": "name",
+   "roster_note": "，"
+  },
+  {
+   "name": "季平",
+   "count": 1,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "文仪",
+   "count": 1,
+   "first_ch": 87,
+   "kind": "name",
+   "roster_note": "，南阳人。"
+  },
+  {
+   "name": "万安隐者",
+   "count": 1,
+   "first_ch": 89,
+   "kind": "appellation",
+   "roster_note": "。"
+  },
+  {
+   "name": "土安",
+   "count": 1,
+   "first_ch": 90,
+   "kind": "name",
+   "roster_note": "九十回，乌戈国领兵俘长。为诸葛亮烧死。"
+  },
+  {
+   "name": "奚泥",
+   "count": 1,
+   "first_ch": 90,
+   "kind": "name",
+   "roster_note": "九十回，乌戈国领兵俘长。为诸葛亮烧死。却正：九十一回，蜀秘书。"
+  },
+  {
+   "name": "杜微",
+   "count": 1,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀尚书。杜义：九十一回，蜀裨将军。杜祺：九十一回，蜀武略中郎将。杜睿："
+  },
+  {
+   "name": "女王",
+   "count": 1,
+   "first_ch": 91,
+   "kind": "appellation",
+   "roster_note": "，后为曹丕后。"
+  },
+  {
+   "name": "刘敏",
+   "count": 1,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀偏将军。刘合：九十七回，蜀将，病亡。"
+  },
+  {
+   "name": "李譔",
+   "count": 1,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀博士。李丰：九十四回，李严子。"
+  },
+  {
+   "name": "来敏",
+   "count": 1,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀祭酒。卤城太守：一百一回。"
+  },
+  {
+   "name": "袁綝",
+   "count": 1,
+   "first_ch": 91,
+   "kind": "name",
+   "roster_note": "九十一回，蜀都亭侯。"
+  },
+  {
+   "name": "程武",
+   "count": 1,
+   "first_ch": 92,
+   "kind": "name",
+   "roster_note": "九十二回，程昱子，参军。"
+  },
+  {
+   "name": "陈造",
+   "count": 1,
+   "first_ch": 95,
+   "kind": "name",
+   "roster_note": "九十五回，魏将，为"
+  },
+  {
+   "name": "胡质",
+   "count": 1,
+   "first_ch": 96,
+   "kind": "name",
+   "roster_note": "九十六回，魏东莞太守。胡忠：一百二回，蜀将。"
+  },
+  {
+   "name": "子璜",
+   "count": 1,
+   "first_ch": 96,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "白寿",
+   "count": 1,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，蜀将，病亡。"
+  },
+  {
+   "name": "阳群",
+   "count": 1,
+   "first_ch": 97,
+   "kind": "name",
+   "roster_note": "九十七回，蜀将。病故。于禁：十回，泰山巨平人，字"
+  },
+  {
+   "name": "秦明",
+   "count": 1,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，秦朗弟，为"
+  },
+  {
+   "name": "季权",
+   "count": 1,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "稚权",
+   "count": 1,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "。"
+  },
+  {
+   "name": "义权",
+   "count": 1,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "。夏侯令之女：一百七回，曹爽从弟之妻。夏侯玄：一百七回，曹爽亲族，魏征西将军。为"
+  },
+  {
+   "name": "张承",
+   "count": 1,
+   "first_ch": 102,
+   "kind": "name",
+   "roster_note": "一百二回，吴将。"
+  },
+  {
+   "name": "廖立",
+   "count": 1,
+   "first_ch": 104,
+   "kind": "name",
+   "roster_note": "一百四回，蜀长水校尉，自负遭贬。"
+  },
+  {
+   "name": "德艳",
+   "count": 1,
+   "first_ch": 105,
+   "kind": "name",
+   "roster_note": "，蜀参军，右中郎将。紫虚上人：六十二回，锦屏山老道。"
+  },
+  {
+   "name": "彦靖",
+   "count": 1,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "。为司马懿斩"
+  },
+  {
+   "name": "平叔",
+   "count": 1,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "。为司马懿斩"
+  },
+  {
+   "name": "元则",
+   "count": 1,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "，魏大司农，\"智囊\"。为司马懿斩。"
+  },
+  {
+   "name": "公昭",
+   "count": 1,
+   "first_ch": 106,
+   "kind": "appellation",
+   "roster_note": "。"
+  },
+  {
+   "name": "柳甫",
+   "count": 1,
+   "first_ch": 106,
+   "kind": "name",
+   "roster_note": "一百六回，公孙渊御史太夫，为司马懿斩。"
+  },
+  {
+   "name": "王建",
+   "count": 1,
+   "first_ch": 106,
+   "kind": "appellation",
+   "roster_note": "一百六回，公孙渊相国，为司马懿斩。"
+  },
+  {
+   "name": "高柔",
+   "count": 1,
+   "first_ch": 107,
+   "kind": "name",
+   "roster_note": "一百七回，魏司徒。"
+  },
+  {
+   "name": "王观",
+   "count": 1,
+   "first_ch": 107,
+   "kind": "appellation",
+   "roster_note": "一百七回，魏太仆。王夫人：一百八回，琅琊人，孙权妻。"
+  },
+  {
+   "name": "吕岱",
+   "count": 1,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴大司马。"
+  },
+  {
+   "name": "留赞",
+   "count": 1,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴将。"
+  },
+  {
+   "name": "留略",
+   "count": 1,
+   "first_ch": 108,
+   "kind": "name",
+   "roster_note": "一百八回，吴将。"
+  },
+  {
+   "name": "潘夫人",
+   "count": 1,
+   "first_ch": 108,
+   "kind": "appellation",
+   "roster_note": "一百八回，孙权妻。庞舒：十一回，吕布友。为李、郭杀。"
+  },
+  {
+   "name": "王夫人",
+   "count": 1,
+   "first_ch": 108,
+   "kind": "appellation",
+   "roster_note": "生，被废亡。"
+  },
+  {
+   "name": "王韬",
+   "count": 1,
+   "first_ch": 109,
+   "kind": "appellation",
+   "roster_note": "一百九回，魏主簿。王基：一百十回，魏荆州刺史，"
+  },
+  {
+   "name": "毋丘甸",
+   "count": 1,
+   "first_ch": 110,
+   "kind": "name",
+   "roster_note": "一百十回，毋丘俭长子。"
+  },
+  {
+   "name": "陈俊",
+   "count": 1,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，魏将。"
+  },
+  {
+   "name": "蒋班",
+   "count": 1,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，"
+  },
+  {
+   "name": "焦彝",
+   "count": 1,
+   "first_ch": 112,
+   "kind": "name",
+   "roster_note": "一百十二回，诸葛诞谋士，降司马昭。焦伯：一百十四回，曹髦护卫。为成济杀。姜叙：六"
+  },
+  {
+   "name": "孟宗",
+   "count": 1,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，吴中书郎。"
+  },
+  {
+   "name": "全纪",
+   "count": 1,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，吴黄门侍郎，国舅。"
+  },
+  {
+   "name": "孙干",
+   "count": 1,
+   "first_ch": 113,
+   "kind": "name",
+   "roster_note": "一百十三回，孙綝弟，吴偏将军。孙闿：一百十三回，孙綝弟，吴长水校尉。孙楷：一百十"
+  },
+  {
+   "name": "景明",
+   "count": 1,
+   "first_ch": 114,
+   "kind": "name",
+   "roster_note": "，司马昭立为王。为"
+  },
+  {
+   "name": "胡氏",
+   "count": 1,
+   "first_ch": 115,
+   "kind": "appellation",
+   "roster_note": "一百十五回，"
+  },
+  {
+   "name": "皇甫闿",
+   "count": 1,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏将。"
+  },
+  {
+   "name": "宁随",
+   "count": 1,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，姜维副将。"
+  },
+  {
+   "name": "田章",
+   "count": 1,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏将。"
+  },
+  {
+   "name": "王买",
+   "count": 1,
+   "first_ch": 116,
+   "kind": "appellation",
+   "roster_note": "一百十六回，魏将。王颀：一百十六回，魏天水太守。"
+  },
+  {
+   "name": "夏侯咸",
+   "count": 1,
+   "first_ch": 116,
+   "kind": "name",
+   "roster_note": "一百十六回，魏将。夏恽：一回，十常待之一。"
+  },
+  {
+   "name": "黄崇",
+   "count": 1,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，蜀将，兵败亡。"
+  },
+  {
+   "name": "李球",
+   "count": 1,
+   "first_ch": 117,
+   "kind": "name",
+   "roster_note": "一百十七回，蜀将，兵败亡。李虎：一百十八回，蜀尚书郎。吕布：三回，字奉先。为"
+  },
+  {
+   "name": "关彝",
+   "count": 1,
+   "first_ch": 119,
+   "kind": "name",
+   "roster_note": "一百十九回，汉寿亭侯，死于乱军。"
+  },
+  {
+   "name": "司马攸",
+   "count": 1,
+   "first_ch": 119,
+   "kind": "name",
+   "roster_note": "一百十九回，司马昭次子，过继给司马师。司蕃：一百七回，魏门将。宋宪：十一回，吕布"
+  },
+  {
+   "name": "山涛",
+   "count": 1,
+   "first_ch": 119,
+   "kind": "name",
+   "roster_note": "一百十九回。"
+  },
+  {
+   "name": "步阐",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，晋西陵太守，为"
+  },
+  {
+   "name": "何氏",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "appellation",
+   "roster_note": "一百二十回，"
+  },
+  {
+   "name": "何植",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴司徒。"
+  },
+  {
+   "name": "胡冲",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴中书令。华雄：五回，董卓将，关西人，为关羽杀。"
+  },
+  {
+   "name": "陆凯",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴丞相。"
+  },
+  {
+   "name": "张尚",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "斩。"
+  },
+  {
+   "name": "楼玄",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴大司农，为孙皓杀。"
+  },
+  {
+   "name": "孙冀",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴左将军。"
+  },
+  {
+   "name": "唐彬",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，晋广武将军。"
+  },
+  {
+   "name": "滕循",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴司空。檀敷：六回，山阳人，字文友，江夏八俊之一。"
+  },
+  {
+   "name": "吾彦",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴建平太守，降。"
+  },
+  {
+   "name": "薛莹",
+   "count": 1,
+   "first_ch": 120,
+   "kind": "name",
+   "roster_note": "一百二十回，吴光禄勋。"
+  }
+ ],
+ "dropped_detail": [
+  [
+   "汉灵帝",
+   "not-in-text"
+  ],
+  [
+   "公台",
+   "zihao"
+  ],
+  [
+   "德谋",
+   "zihao"
+  ],
+  [
+   "岑晊",
+   "not-in-text"
+  ],
+  [
+   "子文",
+   "zihao"
+  ],
+  [
+   "子丹",
+   "zihao"
+  ],
+  [
+   "兰卿",
+   "zihao"
+  ],
+  [
+   "昭伯",
+   "zihao"
+  ],
+  [
+   "曹文叔",
+   "not-in-text"
+  ],
+  [
+   "曹霖",
+   "not-in-text"
+  ],
+  [
+   "文姬",
+   "not-in-text"
+  ],
+  [
+   "仲颖",
+   "zihao"
+  ],
+  [
+   "承渊",
+   "zihao"
+  ],
+  [
+   "彦才",
+   "not-in-text"
+  ],
+  [
+   "孝直",
+   "zihao"
+  ],
+  [
+   "郭奕",
+   "not-in-text"
+  ],
+  [
+   "公孙晃",
+   "not-in-text"
+  ],
+  [
+   "义公",
+   "zihao"
+  ],
+  [
+   "公覆",
+   "zihao"
+  ],
+  [
+   "汉升",
+   "zihao"
+  ],
+  [
+   "公衡",
+   "zihao"
+  ],
+  [
+   "元化",
+   "zihao"
+  ],
+  [
+   "华核",
+   "not-in-text"
+  ],
+  [
+   "子翼",
+   "zihao"
+  ],
+  [
+   "吉太",
+   "not-in-text"
+  ],
+  [
+   "子柔",
+   "zihao"
+  ],
+  [
+   "异度",
+   "zihao"
+  ],
+  [
+   "德润",
+   "zihao"
+  ],
+  [
+   "子阳",
+   "zihao"
+  ],
+  [
+   "季玉",
+   "zihao"
+  ],
+  [
+   "元颖",
+   "zihao"
+  ],
+  [
+   "子初",
+   "zihao"
+  ],
+  [
+   "刘瓒",
+   "not-in-text"
+  ],
+  [
+   "文达",
+   "zihao"
+  ],
+  [
+   "正方",
+   "zihao"
+  ],
+  [
+   "公绩",
+   "zihao"
+  ],
+  [
+   "伯言",
+   "zihao"
+  ],
+  [
+   "张合",
+   "not-in-text"
+  ],
+  [
+   "马肃",
+   "not-in-text"
+  ],
+  [
+   "孟起",
+   "zihao"
+  ],
+  [
+   "季常",
+   "zihao"
+  ],
+  [
+   "伯宁",
+   "zihao"
+  ],
+  [
+   "文珪",
+   "zihao"
+  ],
+  [
+   "潘濬",
+   "not-in-text"
+  ],
+  [
+   "士元",
+   "zihao"
+  ],
+  [
+   "令明",
+   "zihao"
+  ],
+  [
+   "孙朗",
+   "not-in-text"
+  ],
+  [
+   "孙仁",
+   "not-in-text"
+  ],
+  [
+   "幼台",
+   "zihao"
+  ],
+  [
+   "孙河",
+   "not-in-text"
+  ],
+  [
+   "子远",
+   "zihao"
+  ],
+  [
+   "子通",
+   "zihao"
+  ],
+  [
+   "元宗",
+   "zihao"
+  ],
+  [
+   "孙秀",
+   "not-in-text"
+  ],
+  [
+   "德操",
+   "zihao"
+  ],
+  [
+   "陶商",
+   "not-in-text"
+  ],
+  [
+   "陶应",
+   "not-in-text"
+  ],
+  [
+   "德瑜",
+   "zihao"
+  ],
+  [
+   "文长",
+   "zihao"
+  ],
+  [
+   "仲恭",
+   "zihao"
+  ],
+  [
+   "元让",
+   "zihao"
+  ],
+  [
+   "许昌",
+   "place"
+  ],
+  [
+   "文向",
+   "zihao"
+  ],
+  [
+   "荀勖",
+   "not-in-text"
+  ],
+  [
+   "阎象",
+   "not-in-text"
+  ],
+  [
+   "显思",
+   "zihao"
+  ],
+  [
+   "义山",
+   "zihao"
+  ],
+  [
+   "德祖",
+   "zihao"
+  ],
+  [
+   "杨济",
+   "not-in-text"
+  ],
+  [
+   "文则",
+   "zihao"
+  ],
+  [
+   "诸葛玄",
+   "not-in-text"
+  ],
+  [
+   "葛玄",
+   "not-in-text"
+  ],
+  [
+   "元逊",
+   "zihao"
+  ],
+  [
+   "思远",
+   "zihao"
+  ],
+  [
+   "公休",
+   "zihao"
+  ],
+  [
+   "张既",
+   "not-in-text"
+  ],
+  [
+   "永年",
+   "zihao"
+  ],
+  [
+   "张氏",
+   "not-in-text"
+  ],
+  [
+   "周循",
+   "not-in-text"
+  ],
+  [
+   "周胤",
+   "not-in-text"
+  ],
+  [
+   "钟毓",
+   "not-in-text"
+  ],
+  [
+   "大荣",
+   "zihao"
+  ]
+ ]
+}

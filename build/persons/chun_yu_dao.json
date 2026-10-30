@@ -1,0 +1,29 @@
+{
+ "id": "chun_yu_dao",
+ "name": "淳于导",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 41,
+ "review_status": "auto_mined",
+ "summary": "淳于导，曹魏部将，长坂坡为赵云所杀。",
+ "bio": "淳于导，曹操部将。第41回长坂坡之役，淳于导押解被俘的糜竺，为赵云所遇，「交马只一合，被云一枪刺死」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 229,
+   "title": "曹仁部将",
+   "basis": "第41回曹仁部将淳于导拿住糜竺，正要解去献功，为赵云一枪刺死。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

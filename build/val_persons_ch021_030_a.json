@@ -1,0 +1,118 @@
+{
+ "source": "persons_ch021_030_a.json",
+ "total": 11,
+ "passed": 11,
+ "failed": 0,
+ "error_count": 0,
+ "warning_count": 6,
+ "pass_rate": 100.0,
+ "rows": [
+  {
+   "id": "che_zhou",
+   "name": "车胄",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "wang_zhong",
+   "name": "王忠",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 114 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "chen_lin",
+   "name": "陈琳",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "zheng_xuan",
+   "name": "郑玄",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "mi_heng",
+   "name": "祢衡",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "ji_ping",
+   "name": "吉平",
+   "pass": true,
+   "errors": [],
+   "warnings": []
+  },
+  {
+   "id": "qin_qingtong",
+   "name": "秦庆童",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 127 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "zhong_ji",
+   "name": "种辑",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 95 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wu_shuo",
+   "name": "吴硕",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 92 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "wu_zilan",
+   "name": "吴子兰",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 76 字（次要人物建议 200–300）"
+    }
+   ]
+  },
+  {
+   "id": "dong_guifei",
+   "name": "董妃",
+   "pass": true,
+   "errors": [],
+   "warnings": [
+    {
+     "rule": "BIO",
+     "msg": "bio 仅 146 字（次要人物建议 200–300）"
+    }
+   ]
+  }
+ ]
+}

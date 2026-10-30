@@ -1,0 +1,29 @@
+{
+ "id": "chen_xiang",
+ "name": "陈翔",
+ "courtesy": "仲麟",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "auto_mined",
+ "summary": "陈翔，东汉人物，（未仕）。七人：汝南陈翔，字仲麟；同郡范滂，字孟博；鲁国孔昱，字世元；渤海范康，字仲真，山阳檀敷，字文友；同郡张俭，字元节；南阳岑咥，字公孝。",
+ "bio": "第 6 回：「汝南陈翔，字仲麟」，江夏八俊之一。原文第 6 回相关片段：「与名士七人为友，时号\"江夏八俊\"。那七人：汝南陈翔，字仲麟；同郡范滂，字孟博；鲁国孔昱，字世元；渤」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 184,
+   "end_year": 191,
+   "title": "江夏八俊之一",
+   "basis": "第 6 回：「汝南陈翔，字仲麟」，江夏八俊之一。 归汉廷名士（非割据势力），其活动早于群雄并起，故不系于群雄阵营。（前朝人物，本书仅在叙事中追述提及，任期记为本书叙事区间 184—189 年内被称引之时。）",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

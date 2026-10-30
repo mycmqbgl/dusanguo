@@ -1,0 +1,29 @@
+{
+ "id": "zhang_pu",
+ "name": "张普",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 96,
+ "review_status": "auto_mined",
+ "summary": "张普，曹魏武将，大将。就令张普引二万军伏于石亭之南，又令薛乔引二万军伏于石亭之北。",
+ "bio": "官职「先锋」据原文上下文提取。原文第 96 回相关片段：「“吾中贼之计矣！虽然如此，亦不足惧！”遂令大将张普为先锋，引数千兵来与吴兵交战。两阵对圆，张普出马」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "大将",
+   "basis": "第96回曹休令大将张普为先锋，引数千兵与吴兵交战。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

@@ -1,0 +1,29 @@
+{
+ "id": "yan_yu_2",
+ "name": "阎宇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 115,
+ "review_status": "auto_mined",
+ "summary": "阎宇，蜀汉武将，蜀右将军。右将军阎宇，身无寸功，只因阿附黄皓，遂得重爵；闻姜维统兵在祁山，乃说皓奏后主曰：姜维屡战无功，可命阎宇代之。",
+ "bio": "。第 115 回：黄皓欲使阎宇立功，奏闻朝廷，发诏取回将军。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "蜀右将军",
+   "basis": "第一百十五回原文：时右将军阎宇，身无寸功，只因阿附黄皓，遂得重爵。 职任「蜀右将军」据此。；★阵营改判：第 115 回原文「时右将军阎宇，身无寸功，只因阿附黄皓，遂得重爵」，蜀汉右将军，非群雄。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

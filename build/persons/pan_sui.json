@@ -1,0 +1,36 @@
+{
+ "id": "pan_sui",
+ "name": "潘遂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "潘遂，曹魏武将，魏将。将潘遂出迎，战不三合，拨马便走。",
+ "bio": "第 92 回：「魏将潘遂出迎，战不三合，拨马便走」。原文第 92 回相关片段：「儿，何足道哉！吾今日必当擒之！”便跃马而出。魏将潘遂出迎，战不三合，拨马便走。赵云赶去，魏阵中八员将」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "魏将",
+   "basis": "第 92 回：「魏将潘遂出迎，战不三合，拨马便走」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 228,
+   "title": "第 92 回",
+   "description": "将潘遂出迎，战不三合，拨马便走",
+   "importance": 1
+  }
+ ],
+ "mention_count": 1
+}

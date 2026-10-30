@@ -1,0 +1,29 @@
+{
+ "id": "dong_yun",
+ "name": "董允",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 85,
+ "review_status": "auto_mined",
+ "summary": "董允，蜀汉文臣，蜀黄门侍郎。董允奏曰：娘娘未可轻往。",
+ "bio": "第 85 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 225,
+   "end_year": 258,
+   "title": "蜀黄门侍郎",
+   "basis": "第八十五回原文：次日，又命黄门侍郎董允、谏议大夫杜琼，去丞相卧榻前，告此大事。 职任「蜀黄门侍郎」据此；★任期按末见回目收敛：全书最后一次提及在第 115 回（258 年），原 225—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 9
+}

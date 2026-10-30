@@ -1,0 +1,49 @@
+{
+ "id": "li_ru",
+ "name": "李儒",
+ "display_aliases": [
+  "李儒"
+ ],
+ "birth": null,
+ "death": 192,
+ "date_precision": "approx",
+ "date_note": "生年不详。董卓死后为家奴所缚献于王允，斩于市（192）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "李儒，群雄文臣，郎中令。李儒见丁原背后一人，生得器宇轩昂，威风凛凛，手执方天画戟，怒目而视。",
+ "bio": "李儒，董卓女婿，为卓谋主。卓得何进密诏将入洛阳，儒劝先上表以正名；卓欲废帝，儒劝即日行事「迟则有变」；卓败于吕布，儒劝舍一马以结其心。凡卓之废立、迁都、焚洛阳，谋多出儒。卓死，儒卧病，为家奴缚献王允，斩于市。演义中李儒是「谋士助恶」的典型，其智足以谋国而无德以持身。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "郎中令",
+   "basis": "以谋略佐董卓，掌机要谋划，非战阵之职，故为文臣。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "劝卓上表",
+   "description": "「今虽奉诏，中间多有暗昧，何不差人上表，名正言顺」。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "定废立之计",
+   "description": "劝卓于温明园集百官，谕以废立，不从者斩。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "伏诛",
+   "description": "卓死后被缚献王允，斩于市。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 51
+}

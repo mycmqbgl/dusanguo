@@ -1,0 +1,60 @@
+{
+ "id": "wen_pin",
+ "name": "文聘",
+ "courtesy": "仲业",
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载；史载卒年不详（魏官至后将军）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "reviewed",
+ "summary": "文聘，群雄武将，刘表大将。文聘羞惭满面，引兵自投东北去了。",
+ "bio": "字仲业，南阳宛人，刘表大将，使金枪。刘表死后曹操入荆州，聘初不肯出见，操问其故，聘曰「不能保土全境，愧见故人耳」，操感其忠义，厚待之，使守江夏。长坂追刘备有文聘追至当阳桥被张飞喝退一节（演义）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 208,
+   "title": "刘表大将",
+   "lord_id": "liu_biao",
+   "basis": "196年前后为表大将，使金枪。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 220,
+   "title": "江夏太守",
+   "lord_id": "cao_cao",
+   "basis": "刘表死后归曹操，守江夏有功，为魏名将；据 summary 与百科基准（曹魏）补。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 220,
+   "end_year": 226,
+   "title": "魏后将军、新野侯",
+   "lord_id": "cao_pi",
+   "basis": "文帝即位后进封，卒于 226 年前后；据百科基准（曹魏）补。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 208,
+   "title": "惭见曹操",
+   "description": "荆州降众毕出，聘独后至，操感其忠义厚待。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载卒年不详（魏官至后将军）｜演：生卒年演义未载",
+ "mention_count": 27
+}

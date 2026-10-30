@@ -1,0 +1,29 @@
+{
+ "id": "gong_zhi",
+ "name": "巩志",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "auto_mined",
+ "summary": "巩志，蜀汉文臣，武陵从事，降刘备。惊视之，见巩志立于城上曰：汝不顺天时，自取败亡，吾与百姓自降刘矣。",
+ "bio": "。第 53 回：从事巩志谏曰：刘玄德乃大汉皇叔，仁义布于天下。第 53 回：金旋乃喝退巩志，自率兵出。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 209,
+   "end_year": 209,
+   "title": "武陵从事，降刘备",
+   "basis": "第五十三回原文：从事巩志谏曰：“刘玄德乃大汉皇叔，仁义布于天下。 职任「武陵从事，降刘备」据此；★任期按末见回目收敛：全书最后一次提及在第 53 回（209 年），原 209—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

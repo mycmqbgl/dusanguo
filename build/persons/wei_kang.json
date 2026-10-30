@@ -1,0 +1,29 @@
+{
+ "id": "wei_kang",
+ "name": "韦康",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 59,
+ "review_status": "auto_mined",
+ "summary": "韦康，曹魏文臣，凉州刺史。人言杨阜劝韦康休降，可斩之，超曰：此人守义，不可斩也。",
+ "bio": "第 59 回：阜领诺，又保荐韦康为凉州刺史，同领兵屯冀城，以防马超。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 212,
+   "end_year": 214,
+   "title": "凉州刺史",
+   "basis": "第五十九回原文：阜领诺，又保荐韦康为凉州刺史，同领兵屯冀城，以防马超。 职任「凉州刺史」据此；★任期按末见回目收敛：全书最后一次提及在第 64 回（214 年），原 212—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

@@ -1,0 +1,52 @@
+{
+ "id": "deng_zhong",
+ "name": "邓忠",
+ "courtesy": null,
+ "display_aliases": [
+  "邓艾之子",
+  "惠唐亭侯"
+ ],
+ "birth": null,
+ "death": 264,
+ "date_precision": "approx",
+ "date_note": "史载与其父邓艾同于咸熙元年（264）为卫瓘遣田续杀于绵竹西，演义同。生年无载。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "reviewed",
+ "summary": "邓忠，曹魏武将，惠唐亭侯、随父征蜀诸将。纂、邓忠两军杀出，维且战且走，前面喊声大震，邓艾引兵杀到：三路夹攻，蜀兵大败。",
+ "bio": "邓忠，邓艾之子。随父在陇西御姜维，254 年段谷之战，艾令忠与师纂各引五千兵埋伏段谷，维中伏大败，蜀兵死者无数，忠以功封亭侯。255 年洮西之役随父驰援狄道。263 年伐蜀，艾取阴平小道，忠开路先行，裹毡推转而下，直取江油。涪城之战忠与蜀师战，父子两度进退，卒下涪绵竹。绵竹之战忠力战诸葛瞻，与父分兵夹击，瞻父子俱死。蜀亡后钟会构陷邓艾父子谋反，槛车征还；264 年卫瓘恐艾复起，遣田续追之，父子俱死于绵竹西。忠随父转战陇西巴蜀十年，功成一朝而父子同殒，为邓艾悲剧之续章。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 254,
+   "end_year": 264,
+   "title": "惠唐亭侯、随父征蜀诸将",
+   "lord_id": "cao_mao",
+   "basis": "随邓艾拒姜维、度阴平、灭蜀；父被构陷，264 年同遇害。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 254,
+   "title": "段谷设伏",
+   "description": "与师纂各引五千兵伏于段谷，大破姜维，以功封侯。",
+   "importance": 2
+  },
+  {
+   "year": 263,
+   "title": "偷度阴平",
+   "description": "为先锋开路，裹毡滚崖，直取江油，为灭蜀第一功之先行。",
+   "importance": 3
+  },
+  {
+   "year": 264,
+   "title": "父子同死",
+   "description": "邓艾被诬槛车，卫瓘遣田续追杀，忠与父同死绵竹西。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 22
+}

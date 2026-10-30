@@ -1,0 +1,29 @@
+{
+ "id": "wang_chang",
+ "name": "王昌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 13,
+ "review_status": "auto_mined",
+ "summary": "王昌，东汉武将，虎贲。闻郦言，大怒，差虎贲王昌追之。",
+ "bio": "第 13 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 195,
+   "end_year": 196,
+   "title": "虎贲",
+   "basis": "第13回李傕遣虎贲王昌追皇甫郦，昌知郦为忠义之士，竟不往追。 195 年虎贲王昌奉李傕之命追皇甫郦，纵之不追。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

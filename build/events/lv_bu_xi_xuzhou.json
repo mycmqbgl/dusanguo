@@ -1,0 +1,78 @@
+{
+ "id": "lv_bu_xi_xuzhou",
+ "name": "吕布袭徐州",
+ "kind": "军事行动",
+ "start_year": 196,
+ "end_year": 196,
+ "date_text": "建安元年（196）",
+ "summary": "袁术许粮马金帛约吕布夹攻刘备；吕布夜袭下邳，张飞醉酒失城，刘备家小陷落。刘备进退无路，反屯小沛附布。",
+ "detail": "袁术遗书吕布，许粮五万斛、马五百匹、金银一万两、彩缎一千匹，使夹攻刘备。吕布令高顺袭玄德之后；备乘阴雨撤盱眙之兵，高顺与纪灵索许物不得——术书言「待捉了刘备方送」。布怒骂术失信，陈宫劝布迎备屯小沛为羽翼。此后张飞守徐州醉酒鞭曹豹，豹修书吕布，布夜袭下邳，飞醉不能战，弃城而走，备家小陷于城中。备无路可投，竟屈身受布安排屯小沛——新失徐州、寄人篱下，是刘备半生最狼狈的一段。",
+ "place_id": "xu_zhou",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "lv_bu",
+   "role_desc": "袭下邳据徐州"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "进退无路，反屯小沛附布"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "醉酒失下邳，弃家小而走"
+  },
+  {
+   "person_id": "cao_bao",
+   "role_desc": "遭飞鞭打，修书召吕布，出城接应被杀"
+  },
+  {
+   "person_id": "gao_shun",
+   "role_desc": "奉布命袭玄德之后"
+  },
+  {
+   "person_id": "yuan_shu",
+   "role_desc": "许粮马约夹攻，事后背约"
+  },
+  {
+   "person_id": "mi_zhu",
+   "role_desc": "迎备家小，进妹于备为夫人"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "术书约布",
+   "description": "袁术许粮马金帛约吕布夹攻刘备。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "布袭下邳",
+   "description": "张飞醉酒鞭曹豹，豹书布夜袭下邳。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "备陷绝境",
+   "description": "失徐州失家小，袁术又不容，进退无路。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "屯小沛附布",
+   "description": "布迎备屯小沛为羽翼，备屈身从之。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  14016,
+  14023,
+  14018,
+  15001,
+  15002
+ ],
+ "battle_ids": [
+  "xuzhou_yi_shou"
+ ]
+}

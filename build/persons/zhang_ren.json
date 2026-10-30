@@ -1,0 +1,52 @@
+{
+ "id": "zhang_ren",
+ "name": "张任",
+ "courtesy": null,
+ "display_aliases": [
+  "蜀郡太守刘璋部将"
+ ],
+ "birth": null,
+ "death": 213,
+ "date_precision": "approx",
+ "date_note": "史载卒于建安十八年末至十九年初（213–214），演义系于雒城被擒（213）。生年无载。",
+ "gender": "male",
+ "first_chapter": 60,
+ "review_status": "reviewed",
+ "summary": "张任，蜀郡人，刘璋部下名将，雒城力战被擒，不屈而死。",
+ "bio": "张任，蜀郡人，刘璋麾下大将。刘备入蜀，张任与刘璝等守雒城，屡战不退，射杀庞统于落凤坡。后为刘备所擒，刘备惜其勇欲降之，任曰「老臣终不事二主」，遂被杀。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 211,
+   "end_year": 213,
+   "title": "益州牧刘璋部将",
+   "lord_id": "liu_zhang",
+   "basis": "拒刘备于涪水、雒城，落凤坡伏杀庞统；金雁桥被擒不降而死。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 212,
+   "title": "涪水拒备",
+   "description": "与诸将拒刘备于涪水，兵败退保雒城。",
+   "importance": 2
+  },
+  {
+   "year": 213,
+   "title": "落凤坡伏杀庞统",
+   "description": "设伏于落凤坡，乱箭射死副军师庞统。",
+   "importance": 3
+  },
+  {
+   "year": 213,
+   "title": "金雁桥被擒",
+   "description": "孔明设计诱擒，宁死不降，被杀；刘备厚葬之。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生年无载｜演：史载卒于建安十八年末至十九年初（213–214），演义系于雒城被擒（213）",
+ "mention_count": 63
+}

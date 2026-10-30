@@ -1,0 +1,37 @@
+{
+ "id": "ma_dai",
+ "name": "马岱",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。马腾之侄、马超堂弟。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "马岱，蜀汉武将，偏将军、平北将军。马岱欣然去了，领兵前到沙口，驱兵渡水；因见水浅，大半不下筏，只裸衣而过，半渡皆倒；急救傍岸，口鼻出血而死。",
+ "bio": "马岱，扶风茂陵人，马腾之侄。随马超起兵报仇，同投张鲁，同归刘备。诸葛亮北伐为先锋偏将，屡立战功。亮临终授密计：魏延若反，令岱出其不意斩之。234 年魏延烧栈道反，岱阵前应之，一刀斩延于马下。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 234,
+   "title": "偏将军、平北将军",
+   "lord_id": "liu_bei",
+   "basis": "随超归刘，佐亮北伐；亮死后斩魏延，其后无载。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 234,
+   "title": "阵斩魏延",
+   "description": "奉亮遗计，阵前斩反叛魏延。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 127
+}

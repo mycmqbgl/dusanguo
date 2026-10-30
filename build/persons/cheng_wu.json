@@ -1,0 +1,29 @@
+{
+ "id": "cheng_wu",
+ "name": "程武",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "程武，程昱之子，魏将。",
+ "bio": "程武，程昱之子，魏将。第101回诸葛亮五出祁山，程武随司马懿出战，为蜀军所败。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "参军",
+   "basis": "第92回参军程武乃程昱之子，进言料赵云有勇无谋，为夏侯楙画策。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

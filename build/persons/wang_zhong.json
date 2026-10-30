@@ -1,0 +1,39 @@
+{
+ "id": "wang_zhong",
+ "name": "王忠",
+ "courtesy": "子文",
+ "display_aliases": [
+  "扬武将军"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。史载其扶风人，少为饿贼所获，后归曹操，官至轻车将军，卒年无考。",
+ "gender": "male",
+ "first_chapter": 22,
+ "review_status": "reviewed",
+ "summary": "王忠，群雄武将，扬武将军、轻车将军。王忠拈着“先”字，只得分一半军马，来攻徐州。",
+ "bio": "王忠，扶风人，曹操部将。建安五年，曹操命其与刘岱引军五万攻徐州刘备，二人不敢进，只虚张旗鼓。刘备令关羽守路截杀刘岱，张飞用计假扮劫寨，生擒王忠。刘备本欲留其性命以示不敢抗曹之意，尽释所获，放其还许都。后随曹操征袁绍，无显著事迹。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 220,
+   "title": "扬武将军、轻车将军",
+   "lord_id": "cao_cao",
+   "basis": "曹操部将，奉命攻徐州。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "攻徐州被擒",
+   "description": "与刘岱攻刘备，不敢进；张飞设计生擒之，刘备放归许都。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 31
+}

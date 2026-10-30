@@ -1,0 +1,78 @@
+{
+ "id": "zhangsong_xiantu",
+ "name": "张松献图",
+ "kind": "外交",
+ "start_year": 211,
+ "end_year": 211,
+ "date_text": "建安十六年（211）",
+ "summary": "刘璋遣张松使曹求援，操慢待乱棒打出；亮遣赵云关羽道中礼待，松感备之德，暗献西川地图，与法正孟达约为内应，备取西川之局自此开。",
+ "detail": "璋闻操欲取汉中，遣张松赍图使许都。松貌陋而才高，操慢待之，杨修与之论《孟德新书》，松观一遍即诵全文讥其「战国无名公所作」，操令扯碎其书。松辞归，操乱棒打出。亮早算定，遣赵云、关羽道中接应礼敬，备亲迎三日酒宴。松感其德，出怀中西川地理图，山川险要一一指明，与法正、孟达约为内应。璋即遣法正使荆，迎备入川，引狼入室。",
+ "place_id": "cheng_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhang_song",
+   "role_desc": "献西川地图，与法正孟达约为内应"
+  },
+  {
+   "person_id": "liu_zhang",
+   "role_desc": "遣松使曹，迎备入川"
+  },
+  {
+   "person_id": "cao_cao",
+   "role_desc": "慢待张松，乱棒打出，错失西川"
+  },
+  {
+   "person_id": "yang_xiu",
+   "role_desc": "与松论新书，为其才所折"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "礼遇张松，得西川图本"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "遣将接应，算定全局"
+  },
+  {
+   "person_id": "fa_zheng",
+   "role_desc": "与松同谋，为备内应"
+  },
+  {
+   "person_id": "meng_da",
+   "role_desc": "与松法正同谋迎备"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 211,
+   "title": "松使许都",
+   "description": "操慢待张松，乱棒打出。",
+   "importance": 2
+  },
+  {
+   "year": 211,
+   "title": "背诵孟德新书",
+   "description": "松观一遍即诵全文，操扯碎其书。",
+   "importance": 2
+  },
+  {
+   "year": 211,
+   "title": "暗献西川图",
+   "description": "松感备之德，献图指明山川险要。",
+   "importance": 3
+  },
+  {
+   "year": 211,
+   "title": "遣使迎备",
+   "description": "璋遣法正使荆迎备入川。",
+   "importance": 3
+  }
+ ],
+ "battle_ids": [],
+ "passage_ids": [
+  60001,
+  60001,
+  60003
+ ]
+}

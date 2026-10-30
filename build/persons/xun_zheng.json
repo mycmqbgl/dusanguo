@@ -1,0 +1,43 @@
+{
+ "id": "xun_zheng",
+ "name": "荀正",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 196,
+ "date_precision": "approx",
+ "date_note": "演义第十四回（约 196）纪灵副将，为关羽一合斩于马下。",
+ "gender": "male",
+ "first_chapter": 14,
+ "review_status": "reviewed",
+ "summary": "荀正，群雄武将，纪灵副将。荀正曰：汝乃无名下将，非纪将军对手。",
+ "bio": "荀正，纪灵副将。袁术遣纪灵攻刘备小沛，阵前荀正出马，与关羽交战，一合被斩（演义）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 196,
+   "title": "纪灵副将",
+   "lord_id": "yuan_shu",
+   "basis": "袁术部将。",
+   "confidence": 0.75,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "属袁术",
+   "description": "为纪灵副将。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "一合殁于关羽",
+   "description": "小沛阵前一合被关羽斩。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 4
+}

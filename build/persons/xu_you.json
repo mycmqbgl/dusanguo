@@ -1,0 +1,75 @@
+{
+ "id": "xu_you",
+ "name": "许攸",
+ "courtesy": "子远",
+ "display_aliases": [
+  "谋士",
+  "南阳人"
+ ],
+ "birth": null,
+ "death": 204,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于建安九年（204）。南阳人。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "verified",
+ "summary": "许攸，群雄文臣，谋士。谋士曰：丞相于虎窟中逃难之时，全无惧怯；今到城中，人已得食，马已得料，正须整顿军马复仇，何反痛哭。",
+ "bio": "许攸字子远，南阳人。少与曹操及袁绍相善。为袁绍谋主，与田丰、沮授、逢纪分掌州事。官渡之战，许攸献计于袁绍曰「曹操兵少，而悉师拒我，许下余守，势必空弱。若分遣轻军，星行掩袭，许拔则操成禽矣」，绍不能用。会攸家人犯法，为审配所收，攸怒，遂奔曹操。曹操闻攸来，跣出迎之，抚掌笑曰「子远，卿来，吾事济矣」。攸曰「今袁氏辎重有万余乘，在故市、乌巢，屯军无严备，今以轻兵袭之，燔其积聚，不过三日，袁氏自败也」，曹操从之，遂破袁绍。后许攸恃功骄慢，尝于众坐呼曹操小字曰「阿瞒，卿不得我，不得冀州也」，曹操笑曰「汝言是也」，而内不能平，后竟杀之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 200,
+   "title": "谋士",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍谋主之一，以谋略为主归文臣；200 年官渡之役投曹操。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 204,
+   "title": "谋士",
+   "lord_id": "cao_cao",
+   "basis": "200 年投曹操，献烧乌巢之策（曹魏势力形成年 196）；后以骄慢为曹操所杀。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "分掌州事",
+   "description": "袁绍入冀州，与田丰、沮授、逢纪分掌州事。",
+   "importance": 1
+  },
+  {
+   "year": 200,
+   "title": "献袭许之计",
+   "description": "劝袁绍分兵掩袭许都，绍不能用。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "夜奔曹操",
+   "description": "家人犯法为审配所收，怒而奔曹，曹操跣出迎之曰「子远，卿来，吾事济矣」。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "献烧乌巢",
+   "description": "劝曹操轻兵袭乌巢，燔其积聚，袁氏自败，操从之遂破袁绍。",
+   "importance": 3
+  },
+  {
+   "year": 204,
+   "title": "以骄慢被杀",
+   "description": "于众坐呼曹操小字「阿瞒」，操内不能平，后竟杀之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 42
+}

@@ -1,0 +1,43 @@
+{
+ "id": "ling_tong",
+ "name": "凌统",
+ "courtesy": "公绩",
+ "display_aliases": null,
+ "birth": 189,
+ "death": 217,
+ "date_precision": "approx",
+ "date_note": "生年 189（史载），卒年 217：史载建安二十二年卒，年二十九；演义中后期仍有出场，此处采史载。",
+ "gender": "male",
+ "first_chapter": 8,
+ "review_status": "reviewed",
+ "summary": "凌统，孙吴武将，别部司马、右都督。得凌统引一军从刺斜里杀来，敌住曹兵。",
+ "bio": "凌统字公绩，吴郡余杭人，凌操之子。操为黄祖部甘宁射死，统年十五奋而复仇。江夏之战孙权破黄祖，甘宁归吴，统欲杀宁，权令二人分兵不解。赤壁之战统领水军参战；合肥之战张辽突袭，统率亲兵三百救权于逍遥津，亲兵尽没，统独还，权深悼之。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 203,
+   "end_year": 217,
+   "title": "别部司马、右都督",
+   "lord_id": "sun_quan",
+   "basis": "父死后领其兵；赤壁、合肥均参战，卒年约建安二十二年前。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 203,
+   "title": "父死领兵",
+   "description": "凌操为甘宁射死于江夏，统年十五代领父兵。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "赤壁参战",
+   "description": "领水军随周瑜参战，与甘宁旧怨得解。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 47
+}

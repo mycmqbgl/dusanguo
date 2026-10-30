@@ -1,0 +1,51 @@
+{
+ "id": "huainan_sanzhong_zhuge_dan",
+ "name": "淮南三叛·诸葛诞之役",
+ "kind": "征伐",
+ "start_year": 257,
+ "end_year": 258,
+ "date_text": "魏甘露二年—三年（257–258）",
+ "summary": "诸葛诞拒贾充试探，起兵寿春讨司马昭，联吴拒守经年，城破死节，淮南三叛至此俱平。",
+ "detail": "详见战役「淮南三叛·诸葛诞之役」。诞部曲数百人缚于城外无一降者，昭尽杀而葬之；钟会因谏放归吴兵、宽大收心，威名日盛。姜维乘淮南之役伐魏，闻诞已败，引兵还汉中。",
+ "place_id": "shou_chun",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhuge_dan",
+   "role_desc": "起兵讨司马昭，困守寿春，城破死节"
+  },
+  {
+   "person_id": "zhong_hui",
+   "role_desc": "司马昭谋主，献以利诱敌、三面围城之策"
+  },
+  {
+   "person_id": "cao_mao",
+   "role_desc": "被司马昭挟持同征淮南"
+  },
+  {
+   "person_id": "sun_chen",
+   "role_desc": "吴辅政，遣七万兵援寿春，怒斩朱异而回"
+  },
+  {
+   "person_id": "wen_yang",
+   "role_desc": "随父文钦守城，父被诞杀，与弟文虎降魏获封"
+  },
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "乘虚伐魏取长城，闻寿春已平而退兵"
+  }
+ ],
+ "passage_ids": [
+  111007,
+  111007,
+  111009,
+  111009,
+  112002,
+  112006,
+  112001,
+  112004
+ ],
+ "battle_ids": [
+  "huainan_sanzhong_battle"
+ ]
+}

@@ -1,0 +1,29 @@
+{
+ "id": "deng_cheng",
+ "name": "邓程",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "邓程，孙吴人物，孙綝亲信。叱中书郎李崇夺其玺绶，令邓程收之。",
+ "bio": "第 113 回：「令邓程收之」。原文第 113 回相关片段：「王，吾自选有德者立之！”叱中书郎李崇夺其玺绶，令邓程收之。亮大哭而去。后人有诗叹曰：」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 258,
+   "end_year": 258,
+   "title": "孙綝亲信",
+   "basis": "第一百十三回：邓程为孙綝亲信，与孙綝同谋废孙亮。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

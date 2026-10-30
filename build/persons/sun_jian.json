@@ -1,0 +1,77 @@
+{
+ "id": "sun_jian",
+ "name": "孙坚",
+ "courtesy": "文台",
+ "display_aliases": [
+  "孙文台",
+  "乌程侯",
+  "孙破虏"
+ ],
+ "birth": 155,
+ "death": 191,
+ "date_precision": "approx",
+ "date_note": "生于永寿元年（155）前后，卒于初平二年（191）岘山之战。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "reviewed",
+ "summary": "孙坚，江东基业的开创者，孙权之父，追尊武烈皇帝。",
+ "bio": "孙坚，字文台，吴郡富春人，孙武之后。黄巾起，率乡里少年从朱儁讨贼，以功为别部司马；讨董卓时为长沙太守、破虏将军，率先攻入洛阳，得传国玺。初平三年（191）征刘表，为黄祖军士射死于岘山。孙权称帝后追尊为武烈皇帝。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 184,
+   "end_year": 191,
+   "title": "盐渎丞、盱眙丞、下邳丞、长沙太守、破虏将军、豫州刺史、乌程侯",
+   "basis": "自募淮泗精兵成军，据长沙自成一系，为群雄之一；191 年战死。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "追谥",
+   "start_year": 229,
+   "end_year": 280,
+   "title": "武烈皇帝",
+   "basis": "黄龙元年（229）孙权称帝，追尊父孙坚为武烈皇帝。追谥时间片按规则记为 [阵营建立年, 阵营灭亡年]，与生前片之间有死亡至追尊的空档，属规则允许的豁免。",
+   "confidence": 1.0,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 176,
+   "title": "钱塘退贼",
+   "description": "年十七，独身上岸扬声指挥，海贼以为官兵至，弃财而走。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "宛城先登",
+   "description": "率淮泗精兵接应朱儁，首登宛城，夺槊刺赵弘下马。",
+   "importance": 3
+  },
+  {
+   "year": 187,
+   "title": "长沙平区星",
+   "description": "为长沙太守，讨平区星，封乌程侯。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "岘山战死",
+   "description": "征刘表，追击至岘山，中伏身亡。",
+   "importance": 3
+  },
+  {
+   "year": 229,
+   "title": "追尊武烈皇帝",
+   "description": "孙权称帝，追尊父孙坚为武烈皇帝。",
+   "importance": 2,
+   "posthumous": true
+  }
+ ],
+ "history_conflict_type": "功劳归属",
+ "history_conflict_note": "演义记华雄为关羽温酒间所斩，联军诸侯因此侧目；史实华雄为孙坚破董卓军时所斩。",
+ "mention_count": 74
+}

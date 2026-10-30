@@ -1,0 +1,29 @@
+{
+ "id": "jia_hua",
+ "name": "贾华",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 53,
+ "review_status": "auto_mined",
+ "summary": "贾华，孙吴武将，东吴将。范曰：何不令贾华部领三百刀斧手，伏于两廊；若国太不喜时，一声号举，两边齐出，将他拿下。",
+ "bio": "第 53 回：左宋谦，右贾华，二将使方天画戟，两边护卫。第 54 回：吕范曰：何不令贾华部领三百刀斧手，伏于两廊。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 209,
+   "end_year": 209,
+   "title": "东吴将",
+   "basis": "第五十三回原文：左宋谦，右贾华，二将使方天画戟，两边护卫。 职任「东吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 54 回（209 年），原 209—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 7
+}

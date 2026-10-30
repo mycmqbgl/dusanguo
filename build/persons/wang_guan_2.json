@@ -1,0 +1,29 @@
+{
+ "id": "wang_guan_2",
+ "name": "王瓘",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 114,
+ "review_status": "auto_mined",
+ "summary": "王瓘，曹魏文臣，参军。领得胜兵去接王瓘粮车。",
+ "bio": "官职「参军」据原文上下文提取。原文第 114 回相关片段：「训练人马，闻报蜀兵三路杀到，乃聚诸将计议。参军王瓘曰：“吾有一计，不可明言，现写在此，谨呈将军台览」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "参军",
+   "basis": "第114回邓艾在祁山聚诸将计议，参军王瓘献诈降之策。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 14
+}

@@ -1,0 +1,29 @@
+{
+ "id": "wang_zhao",
+ "name": "汪昭",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 32,
+ "review_status": "auto_mined",
+ "summary": "汪昭，群雄武将，大将。遣大将汪昭出战，操遣徐晃迎敌。",
+ "bio": "官职「大将」据原文上下文提取。原文第 32 回相关片段：「言，即时拔寨起行，前至黎阳，与曹军相抵。谭遣大将汪昭出战，操遣徐晃迎敌。二将战不数合，徐晃一刀斩汪昭」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 204,
+   "end_year": 229,
+   "basis": "第32回袁谭遣大将汪昭出战，为徐晃一刀斩于马下。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "大将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

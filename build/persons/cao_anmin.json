@@ -1,0 +1,42 @@
+{
+ "id": "cao_anmin",
+ "name": "曹安民",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 197,
+ "date_precision": "exact",
+ "date_note": "建安二年（197）宛城之变被杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "曹安民，曹魏宗亲，随军。典韦毕，方祭侄曹安民及长子曹昂，并祭阵亡军士；连那匹射死的大宛马，也都致祭。",
+ "bio": "曹安民，曹操之侄（操弟之子）。宛城驻军时安民引操见张绣之叔母邹氏，操遂纳之；张绣以为奇耻大辱，与贾诩谋夜反。变起，安民为绣军所杀。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "亲族",
+   "start_year": 196,
+   "end_year": 197,
+   "title": "曹操之侄（曹安民，随操征张绣死于宛城）",
+   "basis": "随曹操驻宛城。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 197,
+   "title": "引见邹氏",
+   "description": "引操见张绣叔母邹氏，种下祸根。",
+   "importance": 2
+  },
+  {
+   "year": 197,
+   "title": "宛城遇害",
+   "description": "张绣夜反，安民被杀。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

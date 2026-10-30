@@ -1,0 +1,29 @@
+{
+ "id": "wu_guo_tai",
+ "name": "吴国太",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 43,
+ "review_status": "auto_mined",
+ "summary": "吴国太，孙吴女眷，孙坚次妻。吴国太曰：汝何不记吾姐临终之语乎。",
+ "bio": "第 43 回：吴国太见权如此，问曰：何事在心，寝食俱废。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "女眷",
+   "start_year": 208,
+   "end_year": 280,
+   "title": "孙坚次妻",
+   "basis": "第四十三回原文：吴国太见权如此，问曰：“何事在心，寝食俱废。 职任「孙坚次妻」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

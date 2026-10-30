@@ -1,0 +1,44 @@
+{
+ "id": "gong_du",
+ "name": "龚都",
+ "display_aliases": [
+  "汝南黄巾首领"
+ ],
+ "birth": null,
+ "death": 201,
+ "date_precision": "approx",
+ "date_note": "建安六年（201）前后亡于曹军之手，史载为曹仁所破；演义后文（第 32 回）为夏侯渊所杀。生年不详。",
+ "gender": "male",
+ "first_chapter": 26,
+ "review_status": "reviewed",
+ "summary": "龚都，群雄武将，汝南黄巾首领。来张飞去救龚都，龚都已被夏侯渊所杀；飞奋力杀退夏侯渊，迤逦赶去，却被乐进引军围住。",
+ "bio": "龚都，汝南黄巾首领，与刘辟共据汝南。建安五年，响应袁绍南征，迎刘备于汝南，众至数万；关羽过汝南，辟、都告知刘备消息。建安六年，曹操南征，刘备败走荆州，龚都死于曹军之手（演义第 32 回为夏侯渊所杀，史载曹仁破其众）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 188,
+   "end_year": 201,
+   "title": "汝南黄巾首领",
+   "basis": "黄巾余部据汝南。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "迎刘备于汝南",
+   "description": "与刘辟响应袁绍，迎刘备至汝南聚兵。",
+   "importance": 2
+  },
+  {
+   "year": 201,
+   "title": "败亡",
+   "description": "曹操南征汝南，都死于曹军之手。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：建安六年（201）前后亡于曹军之手，史载为曹仁所破；生年不详｜演：后文（第 32 回）为夏侯渊所杀",
+ "mention_count": 15
+}

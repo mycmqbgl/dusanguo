@@ -1,0 +1,44 @@
+{
+ "id": "che_zhou",
+ "name": "车胄",
+ "display_aliases": [
+  "徐州刺史"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）初，刘备据徐州前夜为关羽所斩（演义第 21 回）。生年不详。",
+ "gender": "male",
+ "first_chapter": 20,
+ "review_status": "reviewed",
+ "summary": "车胄，曹魏文臣，徐州刺史。有一计，可杀车胄：乘夜扮作曹军到徐州，引车胄出迎，袭而杀之。",
+ "bio": "为曹操所署。建安四年冬，曹操恐刘备久留徐州为患，密令车胄就内图之。车胄请陈登商议，陈登表面应允而暗报刘备。次日曹操使者复至，催促动手，车胄议定三更起事。陈登先以「夜不可入」诓其不备，又密告关羽。关羽领兵扮作曹军赚开城门，车胄出迎，措手不及，被关羽手起一刀斩于马下。刘备遂据徐州，传檄四方。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "徐州刺史",
+   "lord_id": "cao_cao",
+   "basis": "曹操所署徐州刺史，受其密令。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 199,
+   "title": "受密令图刘备",
+   "description": "曹操密令车胄就内图之，车胄请陈登商议，登暗报刘备。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "被关羽所斩",
+   "description": "起事前夜，关羽赚开城门，车胄措手不及被斩，刘备遂据徐州。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 18
+}

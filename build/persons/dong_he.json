@@ -1,0 +1,29 @@
+{
+ "id": "dong_he",
+ "name": "董和",
+ "courtesy": "幼宰",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "董和，蜀汉文臣，将，益州太守，南郡枝江人。董和曰：城中尚有兵三万余人；钱帛粮草，可支一年：奈何便降。",
+ "bio": "。第 64 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 214,
+   "title": "将，益州太守，南郡枝江人",
+   "basis": "第六十四回原文：益州太守董和，字幼宰，南郡枝江人也，上书与刘璋，请往汉中借兵。 职任「将，益州太守，南郡枝江人」据此；★任期按末见回目收敛：全书最后一次提及在第 65 回（214 年），原 214—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

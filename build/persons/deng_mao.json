@@ -1,0 +1,36 @@
+{
+ "id": "deng_mao",
+ "name": "邓茂",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": 184,
+ "date_precision": "approx",
+ "date_note": "卒于中平元年（184），大兴山之战被张飞刺死。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "邓茂，群雄武将，黄巾副将。程远志大怒，遣副将邓茂出战。",
+ "bio": "邓茂，黄巾贼将程远志副将。大兴山之战奉命出战，张飞挺丈八蛇矛直出，手起处刺中邓茂心窝，翻身落马——刘关张的第一战首功。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "黄巾副将",
+   "basis": "黄巾军将领。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "被张飞刺死",
+   "description": "出阵即被张飞刺中心窝，翻身落马。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

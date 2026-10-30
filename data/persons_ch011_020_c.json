@@ -1,0 +1,1206 @@
+{
+ "comment": "第11–20回批产 C：袁术系、曹操新增武将、宛城之变、汉室护驾诸臣。2026-10-27。事实核对基于 data/source/ch013–ch020 原文 + 《三国志》。",
+ "persons": [
+  {
+   "id": "ji_ling",
+   "name": "纪灵",
+   "courtesy": null,
+   "match_surfaces": [
+    "纪灵"
+   ],
+   "display_aliases": [
+    "七路都救应使"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "演义未写其结局（第十七回后无下落）；史载不详。生年不详。",
+   "gender": "male",
+   "first_chapter": 14,
+   "review_status": "reviewed",
+   "summary": "纪灵，群雄武将，大将、七路都救应使。德驱兵杀将过去，纪灵大败，退守淮阴河口，不敢交战；只教军士来偷营劫寨，皆被徐州兵杀败。",
+   "bio": "纪灵，袁术帐下第一大将，使三尖刀，重五十斤。兴平末奉术命攻刘备于小沛，与关羽数十合不分胜负；吕布辕门射戟，灵畏布之勇遂罢兵。袁术称帝后七路伐徐州，灵为七路都救应使，兵败于吕布、关羽合击。此后演义无下落。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 197,
+     "title": "大将、七路都救应使",
+     "lord_id": "yuan_shu",
+     "basis": "袁术部将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "袁术大将",
+     "description": "为袁术帐下第一大将，使三尖刀重五十斤。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "攻小沛",
+     "description": "奉术命攻刘备，与关羽数十合不分胜负。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "辕门射戟",
+     "description": "吕布辕门射戟，灵畏布之勇罢兵退回。",
+     "importance": 3
+    },
+    {
+     "year": 197,
+     "title": "七路败绩",
+     "description": "袁术七路伐徐，灵为都救应使，兵败。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "qiao_rui",
+   "name": "桥蕤",
+   "courtesy": null,
+   "match_surfaces": [
+    "桥蕤"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 197,
+   "date_precision": "approx",
+   "date_note": "史载建安二年（197）袁术攻吕布，蕤战殁；演义第十七回同役败亡。生年不详。",
+   "gender": "male",
+   "first_chapter": 15,
+   "review_status": "reviewed",
+   "summary": "桥蕤，群雄武将，部将。术知操兵至，令大将桥蕤引兵五万作先锋。",
+   "bio": "桥蕤，袁术部将。术欲称帝时蕤为宿将之一。建安二年七路伐徐州，蕤为一路，兵败身死（史载为吕布部将所杀；演义于大战中败亡）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 197,
+     "title": "部将",
+     "lord_id": "yuan_shu",
+     "basis": "袁术部将。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "属袁术",
+     "description": "为袁术部将。",
+     "importance": 1
+    },
+    {
+     "year": 197,
+     "title": "伐徐败亡",
+     "description": "七路伐徐州，兵败身死。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "zhang_xun",
+   "name": "张勋",
+   "courtesy": null,
+   "match_surfaces": [
+    "张勋"
+   ],
+   "display_aliases": [
+    "大将军"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详；七路伐徐败后无事迹。",
+   "gender": "male",
+   "first_chapter": 15,
+   "review_status": "reviewed",
+   "summary": "张勋，群雄武将，大将军。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+   "bio": "张勋，袁术大将。术称帝后以勋为大将军，七路伐徐州，勋领中路三万军，为吕布、韩暹、杨奉倒戈与关羽合击，大败而走。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 197,
+     "title": "大将军",
+     "lord_id": "yuan_shu",
+     "basis": "袁术部将。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "属袁术",
+     "description": "为袁术大将。",
+     "importance": 1
+    },
+    {
+     "year": 197,
+     "title": "七路伐徐败绩",
+     "description": "为中路都督，兵败走。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "lei_bao",
+   "name": "雷薄",
+   "courtesy": null,
+   "match_surfaces": [
+    "雷薄"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详；袁术败亡后无事迹。",
+   "gender": "male",
+   "first_chapter": 15,
+   "review_status": "reviewed",
+   "summary": "雷薄，群雄武将，部将、灊山草寇。子回报：袁术奢侈太过，雷薄、陈兰皆投嵩山去了。",
+   "bio": "雷薄，袁术部将。七路伐徐为一路。术败后薄与陈兰等走灊山为寇。建安四年术势穷欲投薄，薄闭门不纳，术只得北投袁绍，途中为刘备邀击。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 199,
+     "title": "部将、灊山草寇",
+     "lord_id": "yuan_shu",
+     "basis": "袁术部将，后自立于灊山。",
+     "confidence": 0.7,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "属袁术",
+     "description": "为袁术部将。",
+     "importance": 1
+    },
+    {
+     "year": 199,
+     "title": "闭门不纳袁术",
+     "description": "术势穷来投，薄闭门不纳，术途穷而亡。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "yang_dajiang",
+   "name": "杨大将",
+   "courtesy": null,
+   "match_surfaces": [
+    "杨大将"
+   ],
+   "display_aliases": [
+    "长史"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年不详；演义中袁术败亡后无下落。",
+   "gender": "male",
+   "first_chapter": 15,
+   "review_status": "reviewed",
+   "summary": "杨大将，群雄文臣，长史。长史杨大将力谏方止。",
+   "bio": "杨大将，袁术长史（演义作名，史作长史杨弘？）。术欲伐刘备时献策「先取刘备，后图孙策」；术败时又献「投袁绍」之策，安排北去路径。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 193,
+     "end_year": 199,
+     "title": "长史",
+     "lord_id": "yuan_shu",
+     "basis": "袁术长史。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "为术长史",
+     "description": "袁术帐下谋主。",
+     "importance": 1
+    },
+    {
+     "year": 199,
+     "title": "献北投袁绍策",
+     "description": "术败，大将献策北投袁绍，途经徐州。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "xun_zheng",
+   "name": "荀正",
+   "courtesy": null,
+   "match_surfaces": [
+    "荀正"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 196,
+   "date_precision": "approx",
+   "date_note": "演义第十四回（约 196）纪灵副将，为关羽一合斩于马下。",
+   "gender": "male",
+   "first_chapter": 14,
+   "review_status": "reviewed",
+   "summary": "荀正，群雄武将，纪灵副将。荀正曰：汝乃无名下将，非纪将军对手。",
+   "bio": "荀正，纪灵副将。袁术遣纪灵攻刘备小沛，阵前荀正出马，与关羽交战，一合被斩（演义）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 193,
+     "end_year": 196,
+     "title": "纪灵副将",
+     "lord_id": "yuan_shu",
+     "basis": "袁术部将。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "属袁术",
+     "description": "为纪灵副将。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "一合殁于关羽",
+     "description": "小沛阵前一合被关羽斩。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "xu_chu",
+   "name": "许褚",
+   "courtesy": "仲康",
+   "match_surfaces": [
+    "许褚",
+    "许仲康",
+    "仲康"
+   ],
+   "display_aliases": [
+    "虎侯",
+    "武卫将军"
+   ],
+   "birth": 168,
+   "death": 227,
+   "date_precision": "approx",
+   "date_note": "史载卒于太和年间（约 227），谥壮侯；生年存疑。演义中卒于诸葛亮北伐前。",
+   "gender": "male",
+   "first_chapter": 12,
+   "review_status": "reviewed",
+   "summary": "许褚，字仲康，谯国谯人，曹操帐下虎卫，号「虎痴」。",
+   "bio": "许褚，字仲康，谯国谯人。容貌雄毅，勇力绝人，聚少年御寇。率众归曹操，为宿卫，号「虎痴」，官至武卫将军。渭南与马超单挑、裸衣斗超，名震一时。曹丕时为武卫将军、万岁亭侯。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 188,
+     "end_year": 196,
+     "title": "宗族壁帅",
+     "basis": "聚宗族数千家筑壁自守。",
+     "confidence": 0.7,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 227,
+     "title": "都尉、校尉、中坚将军、武卫将军、牟乡侯",
+     "basis": "196 年归曹操，引入宿卫。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 190,
+     "title": "筑壁御贼",
+     "description": "聚宗族数千家筑壁自守，倒曳牛尾惊走贼众。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "归曹操",
+     "description": "操徇淮汝，褚以众归，操称「此吾樊哙也」。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "官渡斩刺客",
+     "description": "常从征伐，斩欲害操之刺客徐他。",
+     "importance": 2
+    },
+    {
+     "year": 211,
+     "title": "渭水救主",
+     "description": "扶操上船举鞍蔽之，一手撑船脱于马超箭雨。",
+     "importance": 3
+    },
+    {
+     "year": 211,
+     "title": "裸衣战马超",
+     "description": "与马超大战二百余合不分胜负，号「虎痴」。",
+     "importance": 3
+    },
+    {
+     "year": 227,
+     "title": "卒",
+     "description": "官至武卫将军，谥壮侯。",
+     "importance": 1
+    }
+   ],
+   "history_life_dates": "史：史载卒于太和年间（约 227），谥壮侯；生年存疑｜演：卒于诸葛亮北伐前"
+  },
+  {
+   "id": "xu_huang",
+   "name": "徐晃",
+   "courtesy": "公明",
+   "match_surfaces": [
+    "徐晃",
+    "徐公明",
+    "公明"
+   ],
+   "display_aliases": [
+    "右将军",
+    "阳平侯"
+   ],
+   "birth": 168,
+   "death": 227,
+   "date_precision": "approx",
+   "date_note": "史载太和元年（227）卒，谥壮侯；生年存疑。",
+   "gender": "male",
+   "first_chapter": 13,
+   "review_status": "reviewed",
+   "summary": "徐晃，群雄武将，骑都尉。徐晃正在关上点视粮车，闻曹洪下关厮杀，大惊，急引兵随后赶来，大叫曹洪回马。",
+   "bio": "徐晃字公明，河东杨人。少为郡吏，从车骑将军杨奉讨贼有功拜骑都尉。李傕郭汜之乱，晃说杨奉护天子东归有功；后满宠说之降曹，拜裨将军。自此为操东征西讨：破吕布、平袁氏、镇樊城。官渡之战烧乌巢、故市有功；白狼山之战张辽为先锋、晃随征。建安二十四年关羽围樊城，晃长驱直入，连破羽围堑鹿角十重，操谓诸将曰「徐将军有周亚夫之风」。曹丕时拜右将军，封阳平侯。太和元年卒，谥壮侯。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 192,
+     "end_year": 196,
+     "title": "骑都尉",
+     "lord_id": "yang_feng",
+     "basis": "杨奉部将，护驾东归有功。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 227,
+     "title": "裨将军、平寇将军、右将军、阳平侯",
+     "basis": "196 年由满宠说降归曹。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 192,
+     "title": "属杨奉",
+     "description": "讨贼有功拜骑都尉。",
+     "importance": 1
+    },
+    {
+     "year": 196,
+     "title": "护驾东归",
+     "description": "说杨奉护天子东归洛阳，有功。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "归曹操",
+     "description": "满宠说之降曹，拜裨将军。",
+     "importance": 2
+    },
+    {
+     "year": 200,
+     "title": "官渡烧粮",
+     "description": "随曹操烧乌巢、破故市粮草。",
+     "importance": 3
+    },
+    {
+     "year": 219,
+     "title": "樊城破关羽",
+     "description": "长驱直入破羽围，操出营七里迎之。",
+     "importance": 3
+    },
+    {
+     "year": 227,
+     "title": "卒",
+     "description": "右将军任上卒，谥壮侯。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "dong_zhao",
+   "name": "董昭",
+   "courtesy": "公仁",
+   "match_surfaces": [
+    "董昭",
+    "董公仁",
+    "公仁"
+   ],
+   "display_aliases": [
+    "司徒",
+    "乐平侯"
+   ],
+   "birth": 156,
+   "death": 236,
+   "date_precision": "exact",
+   "date_note": "史载青龙四年（236）卒，年八十一。",
+   "gender": "male",
+   "first_chapter": 14,
+   "review_status": "reviewed",
+   "summary": "董昭，群雄文臣，袁绍参军、张杨司马。司徒有七宝刀一口，愿借与操入相府刺杀之，虽死不恨。",
+   "bio": "董昭字公仁，济阴定陶人。初为袁绍参军，后为张杨司马。天子在河东，昭以曹操忠义，说杨奉遣使通操；又以曹操名义作书与杨奉，使操得迎天子至洛阳。至洛阳，昭献「移驾幸许都」之策——「留洛阳则不顺，幸许都则奉天子以讨不臣」。后随操征伐，劝进之功居首。魏文帝时累迁至司徒，封乐平侯。年八十一卒。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "文臣",
+     "start_year": 193,
+     "end_year": 196,
+     "title": "袁绍参军、张杨司马",
+     "lord_id": "zhang_yang",
+     "basis": "先后仕袁绍、张杨。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "文臣",
+     "start_year": 196,
+     "end_year": 236,
+     "title": "议郎、谏议大夫、侍中、司徒、乐平侯",
+     "basis": "196 年归于曹操，献迁都之策。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 193,
+     "title": "仕袁绍",
+     "description": "为袁绍参军，后投张杨。",
+     "importance": 1
+    },
+    {
+     "year": 195,
+     "title": "通使曹操",
+     "description": "说杨奉遣使通曹操，为迎驾铺路。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "献迁都之策",
+     "description": "洛阳城中献「移驾幸许都」，操大喜。",
+     "importance": 3
+    },
+    {
+     "year": 220,
+     "title": "劝进第一",
+     "description": "曹丕代汉，昭为劝进之首，累迁司徒。",
+     "importance": 2
+    },
+    {
+     "year": 236,
+     "title": "卒",
+     "description": "年八十一卒。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "cao_ang",
+   "name": "曹昂",
+   "courtesy": "子修",
+   "match_surfaces": [
+    "曹昂",
+    "曹子修",
+    "子修"
+   ],
+   "display_aliases": [
+    "丰悼王（追封）"
+   ],
+   "birth": 177,
+   "death": 197,
+   "date_precision": "approx",
+   "date_note": "生年约 177（存疑），建安二年（197）宛城之变战死。",
+   "gender": "male",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "曹昂，曹魏宗亲，孝廉、随军。刘氏生子曹昂，因征张绣时死于宛城。",
+   "bio": "曹昂字子修，曹操长子，刘夫人所生，刘夫人早卒，丁夫人养为己子。弱冠举孝廉。建安二年张绣叛于宛城，操为流矢所中，昂以己马授操，操得脱而昂战死。丁夫人哭曰「将我儿杀之，都不复念」，遂归宁，操求之不得，卞夫人遂立为继室。黄初年间追封丰悼公，后进王，谥悼。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "亲族",
+     "start_year": 196,
+     "end_year": 197,
+     "title": "曹操长子（随操征张绣死于宛城）",
+     "basis": "曹操长子，随军宛城。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "随军",
+     "description": "弱冠举孝廉，随曹操左右。",
+     "importance": 1
+    },
+    {
+     "year": 197,
+     "title": "宛城让马",
+     "description": "张绣夜叛，操中箭，昂以己马授操，自身战死。",
+     "importance": 3
+    },
+    {
+     "year": 220,
+     "title": "追封丰王",
+     "description": "曹丕追封丰悼公，后进王，谥悼。",
+     "importance": 1,
+     "posthumous": true
+    }
+   ]
+  },
+  {
+   "id": "cao_anmin",
+   "name": "曹安民",
+   "courtesy": null,
+   "match_surfaces": [
+    "曹安民"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": 197,
+   "date_precision": "exact",
+   "date_note": "建安二年（197）宛城之变被杀。生年不详。",
+   "gender": "male",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "曹安民，曹魏宗亲，随军。典韦毕，方祭侄曹安民及长子曹昂，并祭阵亡军士；连那匹射死的大宛马，也都致祭。",
+   "bio": "曹安民，曹操之侄（操弟之子）。宛城驻军时安民引操见张绣之叔母邹氏，操遂纳之；张绣以为奇耻大辱，与贾诩谋夜反。变起，安民为绣军所杀。",
+   "tenure": [
+    {
+     "faction_id": "wei",
+     "role": "亲族",
+     "start_year": 196,
+     "end_year": 197,
+     "title": "曹操之侄（曹安民，随操征张绣死于宛城）",
+     "basis": "随曹操驻宛城。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 197,
+     "title": "引见邹氏",
+     "description": "引操见张绣叔母邹氏，种下祸根。",
+     "importance": 2
+    },
+    {
+     "year": 197,
+     "title": "宛城遇害",
+     "description": "张绣夜反，安民被杀。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "hu_cheer",
+   "name": "胡车儿",
+   "courtesy": null,
+   "match_surfaces": [
+    "胡车儿"
+   ],
+   "display_aliases": null,
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年皆不详；宛城之变后无事迹。",
+   "gender": "male",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "胡车儿，群雄武将，偏将。晚醉归，胡车儿杂在众人队里，直入大寨。",
+   "bio": "胡车儿，张绣偏将，能负五百斤之物日行七百里，操亦爱其骁勇。贾诩献计：请车儿饮宴灌醉，混入寨中盗典韦双铁戟。车儿如计盗戟，典韦失兵器而战死，宛城之变遂成曹操平生最惨之败。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 199,
+     "title": "偏将",
+     "lord_id": "zhang_xiu",
+     "basis": "张绣部将。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "属张绣",
+     "description": "为张绣偏将，负五百斤日行七百里。",
+     "importance": 1
+    },
+    {
+     "year": 197,
+     "title": "盗典韦双戟",
+     "description": "灌醉典韦亲兵、混入寨中盗双铁戟，典韦战死。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "zhang_xiu",
+   "name": "张绣",
+   "courtesy": null,
+   "match_surfaces": [
+    "张绣",
+    "张wei"
+   ],
+   "display_aliases": [
+    "宛城侯"
+   ],
+   "birth": null,
+   "death": 207,
+   "date_precision": "exact",
+   "date_note": "史载建安十二年（207）从曹操北征乌桓，未至而卒；生年不详。",
+   "gender": "male",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "张绣，群雄君主，宛城割据、建忠将军。次日，操坐帐中，张绣入告曰：新降兵多有逃亡者，乞移屯中军。",
+   "bio": "张绣，武威祖厉人，骠骑将军张济之侄。济死于攻刘表，绣领其众屯宛城，与刘表合势。建安二年曹操南征，绣举众降，操纳其叔母邹氏，绣耻之，用贾诩计夜反，杀曹昂、曹安民、典韦，操中箭败走。三年操复攻绣，绣再降再叛，皆贾诩之谋。建安四年官渡前夜，贾诩劝绣降曹拒袁——「袁强曹弱，弃强投弱，操必喜」——绣从之。操执其手欢宴，为子均娶绣女。官渡力战有功，破袁谭于南皮，封邑独多（二千户，诸将莫及）。十二年北征乌桓，未至而卒，谥定侯。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "君主",
+     "start_year": 196,
+     "end_year": 199,
+     "title": "宛城割据、建忠将军",
+     "basis": "196 年据宛城，两叛两降，与刘表合势。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "wei",
+     "role": "武将",
+     "start_year": 199,
+     "end_year": 207,
+     "title": "扬武将军、破羌将军、宛侯",
+     "basis": "199 年官渡前再降曹操。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "领宛城",
+     "description": "叔张济死于攻刘表，绣领其众屯宛城。",
+     "importance": 2
+    },
+    {
+     "year": 197,
+     "title": "宛城夜叛",
+     "description": "操纳邹氏，绣用贾诩计夜反，杀曹昂、典韦、曹安民。",
+     "importance": 3
+    },
+    {
+     "year": 198,
+     "title": "再叛",
+     "description": "操复攻绣不下；绣再降再叛皆用贾诩之谋。",
+     "importance": 2
+    },
+    {
+     "year": 199,
+     "title": "官渡前再降",
+     "description": "贾诩劝其降曹拒袁，操执手欢宴。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "官渡力战",
+     "description": "力战有功，迁破羌将军。",
+     "importance": 2
+    },
+    {
+     "year": 207,
+     "title": "北征而卒",
+     "description": "从操北征乌桓，未至而卒，谥定侯。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "yang_feng",
+   "name": "杨奉",
+   "courtesy": null,
+   "match_surfaces": [
+    "杨奉"
+   ],
+   "display_aliases": [
+    "车骑将军"
+   ],
+   "birth": null,
+   "death": 197,
+   "date_precision": "approx",
+   "date_note": "演义第十七回（197）为刘备诱杀；史载建安二年刘备诱杀之。",
+   "gender": "male",
+   "first_chapter": 13,
+   "review_status": "reviewed",
+   "summary": "杨奉，群雄武将，白波贼帅、兴义将军。来杨奉自为李傕所败，便引军屯终南山下；今闻驾至，特来保护。",
+   "bio": "杨奉，河东人，白波贼帅。李傕郭汜相攻，奉与董承等护献帝东归，与傕战于弘农东涧，败；幸得河东故白波帅李乐等援，奉护驾至洛阳，以功拜车骑将军。屯大梁，粮尽。曹操迎天子，奉失势。后从吕布与袁术战有功，吕布保奏为琅琊牧（演义）。终为刘备所诱，斩于定陶（演义十七回；史同）。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 195,
+     "title": "白波贼帅、兴义将军",
+     "basis": "白波贼出身，195 年护驾东归。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 195,
+     "end_year": 196,
+     "title": "车骑将军",
+     "basis": "护驾至洛阳以功拜车骑将军。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 197,
+     "title": "屯大梁、从吕布",
+     "basis": "失势后从吕布击袁术。",
+     "confidence": 0.7,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 195,
+     "title": "护驾东归",
+     "description": "与董承等护献帝东归，血战李傕。",
+     "importance": 3
+    },
+    {
+     "year": 196,
+     "title": "拜车骑将军",
+     "description": "至洛阳以功拜车骑将军，屯大梁。",
+     "importance": 2
+    },
+    {
+     "year": 197,
+     "title": "为刘备诱杀",
+     "description": "从吕布击袁术有功，后被刘备诱斩于定陶。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "han_xi",
+   "name": "韩暹",
+   "courtesy": null,
+   "match_surfaces": [
+    "韩暹"
+   ],
+   "display_aliases": [
+    "大将军"
+   ],
+   "birth": null,
+   "death": 197,
+   "date_precision": "approx",
+   "date_note": "演义第十七回（197）与杨奉同为刘备诱杀；史载同年。",
+   "gender": "male",
+   "first_chapter": 13,
+   "review_status": "reviewed",
+   "summary": "韩暹，群雄武将，白波贼帅。大将军卑衍为元帅，杨祚为先锋，起辽兵十五万，杀奔中原来。",
+   "bio": "韩暹，河东人，白波贼帅，李乐同党。护献帝东归至洛阳，暹自恃功拜大将军，专权乱政、董承不能制，遂密召曹操。操入朝，暹惧而出走，投袁术，后从吕布与术战。终与杨奉同被刘备诱杀。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 190,
+     "end_year": 195,
+     "title": "白波贼帅",
+     "basis": "白波贼出身。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 195,
+     "end_year": 196,
+     "title": "大将军",
+     "basis": "护驾至洛阳拜大将军，专权。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 197,
+     "title": "投袁术、从吕布",
+     "basis": "惧操出走，从吕布击袁术。",
+     "confidence": 0.7,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 195,
+     "title": "护驾东归",
+     "description": "白波帅护献帝东归。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "拜大将军专权",
+     "description": "至洛阳专权乱政，董承召曹操制衡，暹惧走。",
+     "importance": 3
+    },
+    {
+     "year": 197,
+     "title": "为刘备诱杀",
+     "description": "从吕布击袁术后被刘备诱杀。",
+     "importance": 2
+    }
+   ]
+  },
+  {
+   "id": "dong_cheng",
+   "name": "董承",
+   "courtesy": null,
+   "match_surfaces": [
+    "董承",
+    "董国舅",
+    "国舅"
+   ],
+   "display_aliases": [
+    "车骑将军"
+   ],
+   "birth": null,
+   "death": 200,
+   "date_precision": "exact",
+   "date_note": "建安五年（200）衣带诏事泄，三族皆斩。",
+   "gender": "male",
+   "first_chapter": 2,
+   "review_status": "reviewed",
+   "summary": "董承，群雄武将，牛辅部曲、安集将军。董承曰：城郭不坚，兵甲不多，战如不胜，当复如何。",
+   "bio": "董承，董太后之侄，献帝嫔妃董贵人之父，人称国舅。初为董卓部将牛辅部曲，后与杨奉、韩暹护献帝东归，拜卫将军。曹操迎天子后，承与操同朝。建安四年献帝以血书付承（衣带诏），承与王子服、吴子兰、种辑、吴硕、马腾、刘备等歃血为盟谋诛曹操。事泄，建安五年操诛承三族，董贵人有孕亦被缢杀。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 192,
+     "end_year": 195,
+     "title": "牛辅部曲、安集将军",
+     "basis": "董卓余部，护驾东归。",
+     "confidence": 0.8,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "han",
+     "role": "权臣",
+     "start_year": 195,
+     "end_year": 200,
+     "title": "卫将军、车骑将军",
+     "basis": "护驾至洛阳拜卫将军；后为车骑将军，受衣带诏谋诛曹。",
+     "confidence": 0.9,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 192,
+     "title": "牛辅部曲",
+     "description": "董卓余部。",
+     "importance": 1
+    },
+    {
+     "year": 195,
+     "title": "护驾东归",
+     "description": "与杨奉、韩暹等护献帝东归，血战李傕。",
+     "importance": 3
+    },
+    {
+     "year": 196,
+     "title": "召曹操",
+     "description": "韩暹专权，承密召曹操入朝制衡，反致操挟天子。",
+     "importance": 3
+    },
+    {
+     "year": 199,
+     "title": "受衣带诏",
+     "description": "献帝以血书付承，承与马腾、刘备等歃血为盟。",
+     "importance": 3
+    },
+    {
+     "year": 200,
+     "title": "三族被诛",
+     "description": "事泄，操诛承三族，董贵人有孕亦缢杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "fu_huanghou",
+   "name": "伏皇后",
+   "courtesy": "寿",
+   "match_surfaces": [
+    "伏皇后",
+    "伏寿"
+   ],
+   "display_aliases": [
+    "献穆皇后",
+    "伏后"
+   ],
+   "birth": 172,
+   "death": 214,
+   "date_precision": "approx",
+   "date_note": "生年约 172（存疑），建安十九年（214）为曹操所杀。",
+   "gender": "female",
+   "first_chapter": 13,
+   "review_status": "reviewed",
+   "summary": "伏皇后，名寿，献帝皇后。董贵妃被杀时曾婉言劝谏，后以密书父伏完谋诛曹操事泄，被曹操废黜幽死，二子皆鸩杀。",
+   "bio": "伏寿，琅琊东武人，不其侯伏完之女，汉献帝皇后。董贵妃怀孕被曹操命人擒杀时，伏后曾告曰「贬于冷宫，待分娩了，杀之未迟」，然操不听。后伏后见曹操专权，修密书与父伏完，令图操，事泄。建安十九年（214）曹操使华歆入宫收后，后披发跣足，泣告献帝「不能复相活耶」，帝曰「我亦不知命在何时」。后与二子皆被杀，兄弟宗族死者百余人。演义第六十六回写华歆破壁牵后出，是全书最酷烈的一幕。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "女眷",
+     "start_year": 190,
+     "end_year": 214,
+     "title": "皇后",
+     "basis": "190 年立为皇后。",
+     "confidence": 0.95,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 190,
+     "title": "立为皇后",
+     "description": "伏完之女，立为献帝皇后。",
+     "importance": 2
+    },
+    {
+     "year": 195,
+     "title": "随驾东归",
+     "description": "李傕郭汜之乱中随献帝颠沛，衣衫褴褛。",
+     "importance": 2
+    },
+    {
+     "year": 199,
+     "title": "衣带诏风波",
+     "description": "演义第二十回伏完有密书谋曹之议。",
+     "importance": 2
+    },
+    {
+     "year": 214,
+     "title": "为曹操所杀",
+     "description": "曹操遣华歆入宫收后，披发跣足被牵出，与二皇子皆鸩杀。",
+     "importance": 3
+    }
+   ]
+  },
+  {
+   "id": "fu_wan",
+   "name": "伏完",
+   "courtesy": null,
+   "match_surfaces": [
+    "伏完"
+   ],
+   "display_aliases": [
+    "不其侯"
+   ],
+   "birth": null,
+   "death": 209,
+   "date_precision": "exact",
+   "date_note": "史载建安十四年（209）卒；生年不详。",
+   "gender": "male",
+   "first_chapter": 20,
+   "review_status": "reviewed",
+   "summary": "伏完，东汉文臣，侍中、不其侯、大司徒。曰：妾父伏完常有杀操之心，妾今当修书一封，密与父图之。",
+   "bio": "伏完，琅琊东武人，伏皇后之父。官至侍中、不其侯、屯骑校尉，后拜大司徒。女为皇后，完自以戚属不敢显贵，避权。演义第二十回献帝与皇后议密书谋曹，完自知力不能敌而止。",
+   "tenure": [
+    {
+     "faction_id": "han",
+     "role": "文臣",
+     "start_year": 190,
+     "end_year": 209,
+     "title": "侍中、不其侯、大司徒",
+     "basis": "外戚重臣。",
+     "confidence": 0.85,
+     "review_status": "verified"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 190,
+     "title": "女立为后",
+     "description": "女伏寿立为献帝皇后。",
+     "importance": 1
+    },
+    {
+     "year": 199,
+     "title": "密谋止步",
+     "description": "献帝密书谋曹，完自知力不能敌而止（演义）。",
+     "importance": 2
+    },
+    {
+     "year": 209,
+     "title": "卒",
+     "description": "建安十四年卒。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "duan_wei",
+   "name": "段煨",
+   "courtesy": null,
+   "match_surfaces": [
+    "段煨"
+   ],
+   "display_aliases": [
+    "宁辑将军"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生年不详；史载官至大鸿胪后卒（约 200s 初）。",
+   "gender": "male",
+   "first_chapter": 13,
+   "review_status": "reviewed",
+   "summary": "段煨，群雄武将，宁辑将军。段煨为荡寇将军、伍习为殄虏将军，各引兵镇守长安。",
+   "bio": "段煨，武威姑臧人，贾诩同乡。董卓之乱，煨屯华阴，勤修农事、不掳掠。献帝东归过华阴，煨迎驾献衣粮，与李傕等相攻。后以功拜宁辑将军、大鸿胪，卒于任。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "武将",
+     "start_year": 192,
+     "end_year": 196,
+     "title": "宁辑将军",
+     "basis": "董卓余部屯华阴，护驾东归。",
+     "confidence": 0.75,
+     "review_status": "verified"
+    },
+    {
+     "faction_id": "han",
+     "role": "武将",
+     "start_year": 196,
+     "end_year": 200,
+     "title": "大鸿胪",
+     "basis": "入朝为大鸿胪。",
+     "confidence": 0.7,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 192,
+     "title": "屯华阴",
+     "description": "董卓余部屯华阴，修农不掠。",
+     "importance": 1
+    },
+    {
+     "year": 195,
+     "title": "迎驾献粮",
+     "description": "献帝东归过华阴，煨迎驾献衣粮。",
+     "importance": 2
+    },
+    {
+     "year": 196,
+     "title": "入朝",
+     "description": "拜宁辑将军，后为大鸿胪。",
+     "importance": 1
+    }
+   ]
+  },
+  {
+   "id": "yan_shi",
+   "name": "严氏",
+   "courtesy": null,
+   "match_surfaces": [
+    "严氏"
+   ],
+   "display_aliases": [
+    "吕布正妻"
+   ],
+   "birth": null,
+   "death": null,
+   "date_precision": "unknown",
+   "date_note": "生卒年均不详，演义未载；下邳城破（198）后下落无考。",
+   "gender": "female",
+   "first_chapter": 16,
+   "review_status": "reviewed",
+   "summary": "严氏，群雄人物，吕布之妻。布然其言，复入内对严氏说知此事。",
+   "bio": "严氏，吕布正妻，生一女（第十六回许婚袁术之子，后婚事因韩使被截而作罢）。第十九回下邳被围，陈宫劝吕布出屯以互为犄角，吕布归问严氏，严氏泣曰「将军若出，陈宫、高顺安能保守城池？倘有差失，悔无及矣」，又言貂蝉之事，吕布遂终日不出，只同严氏、貂蝉饮酒解闷。城破后与吕布一同被俘，演义未载下落。第十六回另有「与严氏雪仇」一语，指严白虎宗族，与本卡无关。",
+   "tenure": [
+    {
+     "faction_id": "warlord",
+     "role": "其他",
+     "start_year": 195,
+     "end_year": 198,
+     "title": "吕布正妻",
+     "lord_id": "lv_bu",
+     "basis": "第十六回原文：原来吕布有二妻一妾，先娶严氏为正妻…惟严氏生一女。吕布 198 年白门楼败亡，严氏随布。",
+     "confidence": 0.85,
+     "review_status": "reviewed"
+    }
+   ],
+   "timeline": [
+    {
+     "year": 196,
+     "title": "议婚袁术",
+     "description": "吕布欲结袁术，以女许婚；因婚使被截而作罢。",
+     "importance": 2
+    },
+    {
+     "year": 198,
+     "title": "谏阻出城",
+     "description": "下邳被围，泣劝吕布勿从陈宫出城之谋，吕布听之，坐守孤城终致败亡。",
+     "importance": 3
+    }
+   ],
+   "history_life_dates": "史：下邳城破（198）后下落无考｜演：生卒年均不详，演义未载"
+  }
+ ]
+}

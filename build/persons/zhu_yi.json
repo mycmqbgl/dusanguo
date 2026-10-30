@@ -1,0 +1,29 @@
+{
+ "id": "zhu_yi",
+ "name": "朱异",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "朱异，孙吴武将，吴将。不三合，朱异败走：唐咨出马，战不三合，亦大败而走。",
+ "bio": "第 111 回：东吴先锋朱异，引兵迎敌。第 111 回：战不三合，朱异败走：唐咨出马，战不三合，亦大败而走。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 253,
+   "end_year": 254,
+   "title": "吴将",
+   "basis": "第一百十一回原文：綝从其请，便遣大将全怿、全端为主将，于诠为合后，朱异、唐咨为先锋，文钦为向导，起兵七万，分三。 职任「吴将」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 253—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 11
+}

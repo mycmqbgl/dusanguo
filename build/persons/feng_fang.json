@@ -1,0 +1,29 @@
+{
+ "id": "feng_fang",
+ "name": "冯方",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 17,
+ "review_status": "auto_mined",
+ "summary": "冯方，群雄人物，袁术岳父。第 17 回一笔带过，事迹仅存其名。",
+ "bio": "原文第 17 回相关片段：「”遂建号仲氏，立台省等官，乘龙凤辇，祀南北郊，立冯方女为后，立子为东宫。因命使催取吕布之女为东宫妃，」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 197,
+   "end_year": 199,
+   "title": "袁术岳父",
+   "basis": "第十七回原文：冯方为袁术之舅（一说岳父），袁术僭号后与之同败。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

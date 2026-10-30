@@ -1,0 +1,78 @@
+{
+ "id": "mi_fang",
+ "name": "糜芳",
+ "courtesy": "子方",
+ "display_aliases": [
+  "南郡太守",
+  "将军"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详；219 年降吴后事迹渐隐（演义中被刘备凌迟复仇为虚构）。",
+ "gender": "male",
+ "first_chapter": 18,
+ "review_status": "reviewed",
+ "summary": "糜芳，群雄武将，彭城相。子方疑主公，若一旦轻出，内难必作矣。",
+ "bio": "糜芳字子方，糜竺之弟。随刘备周旋四方，操表为彭城相不受，随备转侧。备定荆南，以芳为南郡太守，屯江陵。关羽素轻芳与傅士仁，北伐樊城时二人运粮不力，羽言「还当治之」，芳惧。吕蒙袭荆州，士仁降，芳亦开城降吴。关羽遂败亡。芳降吴后仕吴为将军，事迹渐隐。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 208,
+   "title": "彭城相",
+   "lord_id": "liu_bei",
+   "basis": "随备周旋。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 219,
+   "title": "南郡太守",
+   "basis": "备定荆南后为南郡太守。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 229,
+   "title": "将军",
+   "basis": "219 年降吴。群雄 end_year 229 为断限。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "随兄佐刘备",
+   "description": "与兄竺同随刘备周旋。",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "镇荆州",
+   "description": "备定荆南后为南郡太守，屯江陵。",
+   "importance": 2
+  },
+  {
+   "year": 219,
+   "title": "降吴",
+   "description": "关羽北伐中 运粮 不力惧诛，吕蒙袭荆州时开城降。",
+   "importance": 3
+  },
+  {
+   "year": 229,
+   "title": "事迹渐隐",
+   "description": "降吴后仕为将军，后无事迹。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 41
+}

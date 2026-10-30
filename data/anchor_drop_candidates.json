@@ -1,0 +1,247 @@
+[
+ {
+  "surface": "相",
+  "type": "place",
+  "id": "c_豫州_沛国_相",
+  "name": "相",
+  "count": 1599
+ },
+ {
+  "surface": "魏",
+  "type": "place",
+  "id": "c_冀州_魏郡_魏",
+  "name": "魏",
+  "count": 845
+ },
+ {
+  "surface": "定",
+  "type": "person",
+  "id": "guan_ding",
+  "name": "关定",
+  "count": 428
+ },
+ {
+  "surface": "随",
+  "type": "place",
+  "id": "c_荆州_襄阳郡_随",
+  "name": "随",
+  "count": 399
+ },
+ {
+  "surface": "平",
+  "type": "person",
+  "id": "ji_ping",
+  "name": "吉平",
+  "count": 398
+ },
+ {
+  "surface": "留",
+  "type": "place",
+  "id": "c_徐州_彭城国_留",
+  "name": "留",
+  "count": 283
+ },
+ {
+  "surface": "忠",
+  "type": "person",
+  "id": "wang_zhong",
+  "name": "王忠",
+  "count": 253
+ },
+ {
+  "surface": "黄",
+  "type": "place",
+  "id": "c_青州_东莱郡_黄",
+  "name": "黄",
+  "count": 202
+ },
+ {
+  "surface": "许",
+  "type": "place",
+  "id": "c_豫州_颍川郡_许",
+  "name": "许",
+  "count": 174
+ },
+ {
+  "surface": "徐",
+  "type": "place",
+  "id": "c_徐州_下邳国_徐",
+  "name": "徐",
+  "count": 135
+ },
+ {
+  "surface": "延",
+  "type": "person",
+  "id": "liu_yan_dongjun",
+  "name": "刘延",
+  "count": 124
+ },
+ {
+  "surface": "怀",
+  "type": "place",
+  "id": "c_司隶_河内郡_怀",
+  "name": "怀",
+  "count": 122
+ },
+ {
+  "surface": "蒙",
+  "type": "place",
+  "id": "c_豫州_梁国_蒙",
+  "name": "蒙",
+  "count": 107
+ },
+ {
+  "surface": "苦",
+  "type": "place",
+  "id": "c_豫州_陈国_苦",
+  "name": "苦",
+  "count": 100
+ },
+ {
+  "surface": "奇",
+  "type": "person",
+  "id": "jiang_qi",
+  "name": "蒋奇",
+  "count": 90
+ },
+ {
+  "surface": "览",
+  "type": "person",
+  "id": "gao_lan",
+  "name": "高览",
+  "count": 66
+ },
+ {
+  "surface": "陈",
+  "type": "place",
+  "id": "c_豫州_陈国_陈",
+  "name": "陈",
+  "count": 66
+ },
+ {
+  "surface": "代",
+  "type": "place",
+  "id": "c_幽州_代郡_代",
+  "name": "代",
+  "count": 64
+ },
+ {
+  "surface": "福",
+  "type": "person",
+  "id": "han_fu_luoyang",
+  "name": "韩福",
+  "count": 49
+ },
+ {
+  "surface": "范",
+  "type": "place",
+  "id": "c_兖州_东郡_范",
+  "name": "范",
+  "count": 47
+ },
+ {
+  "surface": "温",
+  "type": "place",
+  "id": "c_司隶_河内郡_温",
+  "name": "温",
+  "count": 40
+ },
+ {
+  "surface": "项",
+  "type": "place",
+  "id": "c_豫州_汝南郡_项",
+  "name": "项",
+  "count": 40
+ },
+ {
+  "surface": "玄",
+  "type": "person",
+  "id": "zheng_xuan",
+  "name": "郑玄",
+  "count": 39
+ },
+ {
+  "surface": "鲁",
+  "type": "place",
+  "id": "c_豫州_鲁国_鲁",
+  "name": "鲁",
+  "count": 33
+ },
+ {
+  "surface": "冀",
+  "type": "place",
+  "id": "c_凉州_汉阳郡_冀",
+  "name": "冀",
+  "count": 27
+ },
+ {
+  "surface": "植",
+  "type": "person",
+  "id": "wang_zhi",
+  "name": "王植",
+  "count": 25
+ },
+ {
+  "surface": "费",
+  "type": "place",
+  "id": "c_兖州_泰山郡_费",
+  "name": "费",
+  "count": 25
+ },
+ {
+  "surface": "博",
+  "type": "place",
+  "id": "c_兖州_泰山郡_博",
+  "name": "博",
+  "count": 23
+ },
+ {
+  "surface": "豹",
+  "type": "person",
+  "id": "cao_bao",
+  "name": "曹豹",
+  "count": 20
+ },
+ {
+  "surface": "沛",
+  "type": "place",
+  "id": "c_豫州_沛国_沛",
+  "name": "沛",
+  "count": 20
+ },
+ {
+  "surface": "贡",
+  "type": "person",
+  "id": "xu_gong",
+  "name": "许贡",
+  "count": 18
+ },
+ {
+  "surface": "唐",
+  "type": "place",
+  "id": "c_冀州_中山国_唐",
+  "name": "唐",
+  "count": 15
+ },
+ {
+  "surface": "臣",
+  "type": "person",
+  "id": "wu_chen",
+  "name": "吴臣",
+  "count": 11
+ },
+ {
+  "surface": "舒",
+  "type": "place",
+  "id": "c_扬州_庐江郡_舒",
+  "name": "舒",
+  "count": 11
+ },
+ {
+  "surface": "植",
+  "type": "person",
+  "id": "lu_zhi",
+  "name": "卢植",
+  "count": 8
+ }
+]

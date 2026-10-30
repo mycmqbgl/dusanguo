@@ -1,0 +1,51 @@
+{
+ "id": "yan_liang",
+ "name": "颜良",
+ "courtesy": null,
+ "display_aliases": [
+  "上将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安五年（200）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "颜良，群雄武将，上将。上将火照看，果是自家军马。",
+ "bio": "颜良，袁绍上将，与文丑并称「颜良文丑」，为河北名将之最。讨董时袁绍叹「可惜吾上将颜良、文丑未至，得一人在此，何惧华雄」。袁绍入冀州，耿武、关纯伏于城外欲刺绍，颜良立斩耿武，文丑砍死关纯。磐河之战与文丑同为先锋，各引弓弩手一千。建安五年袁绍遣颜良攻白马，曹操用荀攸声东击西之策，关羽望见颜良麾盖，策马刺良于万众之中，斩其首还，绍诸将莫能当者，遂解白马之围。演义写「颜良方欲问时，关公马快，早已跑到面前，颜良措手不及，被关公一刀斩于马下」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 200,
+   "title": "上将",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍部将，无独立势力，以战斗指挥为主归武将；200 年为关羽所斩。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "未至汜水",
+   "description": "袁绍叹「可惜吾上将颜良、文丑未至，何惧华雄」。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "斩耿武",
+   "description": "袁绍入冀州，耿武伏于城外欲刺绍，颜良立斩之。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "白马被斩",
+   "description": "攻白马，关羽望见麾盖，策马刺良于万众之中，斩首而还。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 49
+}

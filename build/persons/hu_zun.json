@@ -1,0 +1,29 @@
+{
+ "id": "hu_zun",
+ "name": "胡遵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "胡遵，曹魏武将，征东将军。说胡遵渡过浮桥，屯军于堤上，差桓嘉、韩综攻打二城。",
+ "bio": "第 106 回：未及到城下时，胡遵早引兵入城。第 108 回：昭又令胡遵为先锋，总领三路兵前去：先搭浮桥，取东兴大堤。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 238,
+   "end_year": 251,
+   "title": "征东将军",
+   "basis": "第一百零六回原文：胡遵令人报知司马懿。 职任「征东将军」据此；★任期按末见回目收敛：全书最后一次提及在第 110 回（251 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 15
+}

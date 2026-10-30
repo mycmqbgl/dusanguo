@@ -1,0 +1,83 @@
+{
+ "id": "wancheng_ye_zhan",
+ "name": "宛城夜战",
+ "year": 197,
+ "date_text": "建安二年（197）正月",
+ "place_id": "wan_cheng",
+ "event_id": "wancheng_zhi_bian",
+ "belligerents": [
+  {
+   "side": "张绣军",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "zhang_xiu",
+    "hu_cheer"
+   ],
+   "troops_desc": "夜袭曹营"
+  },
+  {
+   "side": "曹操军",
+   "faction_ids": [
+    "wei"
+   ],
+   "commanders": [
+    "cao_cao",
+    "dian_wei"
+   ],
+   "troops_desc": "仓促应战"
+  }
+ ],
+ "result": "操军溃败，典韦、曹昂、曹安民皆殁",
+ "casualties_note": "典韦步战杀数十人而死；操长子昂、侄安民遇害。",
+ "summary": "绣夜袭曹营，典韦失戟死战于辕门，操中箭由昂让马得脱——宛城一夜，操折典韦、昂、安民三人。",
+ "detail": "二更时分绣军四起，曹营仓促应战。典韦醉卧失戟，取步卒腰刀杀数十人，刀砍缺不能用，复挟两尸迎敌，至死据辕门。操中箭走，昂以马授操，安民被杀。操走至舞阴收兵，闻韦死为位哭祭。",
+ "front_line": [
+  {
+   "time": 197,
+   "time_seq": 1,
+   "kind": "夜起",
+   "label": "绣军四起",
+   "desc": "二更绣军举火喊杀，曹营仓促应战。",
+   "lng": 112.528,
+   "lat": 33.004,
+   "pixel_x": 740.7,
+   "pixel_y": 507.5
+  },
+  {
+   "time": 197,
+   "time_seq": 2,
+   "kind": "死战",
+   "label": "典韦据辕门",
+   "desc": "韦失戟步战，挟两尸迎敌，至死不退。",
+   "lng": 112.578,
+   "lat": 32.984,
+   "pixel_x": 742.6,
+   "pixel_y": 508.4
+  },
+  {
+   "time": 197,
+   "time_seq": 3,
+   "kind": "脱身",
+   "label": "昂让马",
+   "desc": "操中箭，昂以己马授操，父子自此永诀。",
+   "lng": 112.488,
+   "lat": 33.034,
+   "pixel_x": 739.1,
+   "pixel_y": 506.1
+  },
+  {
+   "time": 197,
+   "time_seq": 4,
+   "kind": "收兵",
+   "label": "淯水祭奠",
+   "desc": "操收兵淯水岸，设祭哭典韦。",
+   "lng": 112.6,
+   "lat": 32.4,
+   "pixel_x": 743.5,
+   "pixel_y": 535.4
+  }
+ ],
+ "place_name": "宛城"
+}

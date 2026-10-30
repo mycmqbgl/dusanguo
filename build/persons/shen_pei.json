@@ -1,0 +1,51 @@
+{
+ "id": "shen_pei",
+ "name": "审配",
+ "courtesy": "正南",
+ "display_aliases": [
+  "邺城守将"
+ ],
+ "birth": null,
+ "death": 204,
+ "date_precision": "exact",
+ "date_note": "建安九年（204）曹操破邺，配被擒，面北而死。生年不详。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "审配，字正南，魏郡人，袁绍谋主，以忠直著称。",
+ "bio": "审配，字正南，魏郡人，袁绍别驾、谋主，以忠直见任。袁绍死后辅袁尚，拒曹操围邺，城破被擒，面北而跪曰「臣主在北」，操欲降之，配大骂不屈，遂杀之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 191,
+   "end_year": 204,
+   "title": "袁绍谋主",
+   "lord_id": "yuan_shao",
+   "basis": "袁绍幕府谋臣，绍死后辅袁尚。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "力主速战",
+   "description": "官渡之战前与郭图力主南下决战，驳田丰、沮授。",
+   "importance": 2
+  },
+  {
+   "year": 202,
+   "title": "立袁尚",
+   "description": "袁绍死，与逢纪矫遗命立幼子尚，谭尚自此相攻。",
+   "importance": 2
+  },
+  {
+   "year": 204,
+   "title": "邺城之陷",
+   "description": "曹操决漳水灌邺，坚守数月城破，被擒求北面而死。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 64
+}

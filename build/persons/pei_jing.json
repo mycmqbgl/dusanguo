@@ -1,0 +1,29 @@
+{
+ "id": "pei_jing",
+ "name": "裴景",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "裴景，曹魏武将，左都督。都督裴景入帐告曰：雨水不住，营中泥泞，军不可停，请移于前面山上。",
+ "bio": "官职「都督」据原文上下文提取。原文第 106 回相关片段：「河口直至襄平城下。魏兵皆在水中，行坐不安。左都督裴景入帐告曰：“雨水不住，营中泥泞，军不可停，请移于」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "左都督",
+   "basis": "第106回左都督裴景入帐告雨水不住，请移营山上，为司马懿所叱。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

@@ -1,0 +1,85 @@
+{
+  "comment": "5 人试批产（第一批）。初稿：保留 5 处典型 LLM 违规，用于验证校验器的拦截能力；校验通过后本文件即为定稿",
+  "batch": "P0-batch-01",
+  "persons": [
+    {
+      "id": "cai_yong", "name": "蔡邕", "courtesy": "伯喈",
+      "birth": 133, "death": 192, "date_precision": "exact",
+      "date_note": "生于阳嘉二年（133），卒于初平三年（192）狱中。",
+      "gender": "male", "first_chapter": 1, "review_status": "reviewed",
+      "summary": "东汉大儒，通经史、工书法，因上疏论灾异被宦官构陷放归，后死于王允之手。",
+      "bio": "蔡邕字伯喈，陈留圉人。博学多识，通经史、善辞赋，尤工书法，曾主持刊刻熹平石经，为一代文宗。建宁二年灾异屡见，邕上疏言「蜺堕鸡化，乃妇寺干政之所致」，语颇切直；曹节窥知其奏，遂以他事构陷，放归田里。董卓专权时强征为祭酒，一日三迁，官至左中郎将，世称「蔡中郎」。董卓被诛后，邕于王允坐间为之叹息，王允怒而下之狱，遂死狱中。演义第一回仅取其上疏获罪一节，却已写明东汉末年言路之塞：说真话的人被赶出朝堂，剩下的人只会称张让为「阿父」。",
+      "tenure": [
+        { "faction_id": "han", "role": "文臣", "start_year": 169, "end_year": 192, "title": "议郎、左中郎将", "basis": "以经学、文章立朝，官至左中郎将，属文臣。", "confidence": 0.95, "review_status": "reviewed" }
+      ],
+      "timeline": [
+        { "year": 169, "title": "上疏论灾异", "description": "以蜺堕鸡化指妇寺干政，被曹节构陷放归田里。", "importance": 3 },
+        { "year": 189, "title": "董卓强征", "description": "董卓入京后强征为祭酒，一日三迁至左中郎将。", "importance": 2 },
+        { "year": 192, "title": "下狱死", "description": "于王允坐间叹董卓，被收下狱，死于狱中。", "importance": 3 }
+      ]
+    },
+    {
+      "id": "zhang_rang", "name": "张让", "courtesy": null,
+      "birth": null, "death": 189, "date_precision": "approx",
+      "date_note": "卒于中平六年（189）袁绍诛宦官时，投河而死；生年不详。",
+      "gender": "male", "first_chapter": 1, "review_status": "reviewed",
+      "summary": "十常侍之首，灵帝称之为「阿父」，宦官政治的顶点，乱政的直接推手。",
+      "bio": "张让，颍川人，与赵忠、封谞、段珪、曹节、侯览、蹇硕、程旷、夏恽、郭胜十人朋比为奸，号为「十常侍」。灵帝尊信之，常言「张常侍是我父，赵常侍是我母」，朝政日非，天下人心思乱，盗贼蜂起。黄巾事起后，张让等仍居中用事，构陷忠良、卖官鬻爵。中平六年灵帝崩，何进谋诛宦官事泄，张让、段珪等先杀何进，劫少帝与陈留王出宫，后被袁绍等追迫，投河而死。演义第一回只以一句「帝尊信张让，呼为阿父」写尽其权势——皇帝的父称，落在一个阉人身上，这就是东汉将亡的注脚。",
+      "tenure": [
+        { "faction_id": "han", "role": "其他", "start_year": 168, "end_year": 189, "title": "中常侍", "basis": "宦官，无文武职掌，按规则归「其他」；189 年袁绍诛宦官时投河死。", "confidence": 0.95, "review_status": "reviewed" }
+      ],
+      "timeline": [
+        { "year": 184, "title": "号为阿父", "description": "灵帝尊信之，呼为「阿父」，朝政日非。", "importance": 3 },
+        { "year": 189, "title": "杀何进", "description": "谋诛宦官事泄，张让等先杀何进，劫帝出宫。", "importance": 3 }
+      ]
+    },
+    {
+      "id": "cao_song", "name": "曹嵩", "courtesy": "巨高",
+      "birth": null, "death": 193, "date_precision": "approx",
+      "date_note": "卒于初平四年（193）徐州境内，为陶谦部将所害；生年不详。",
+      "gender": "male", "first_chapter": 1, "review_status": "reviewed",
+      "summary": "曹腾养子、曹操生父，官至太尉，后为陶谦部将所杀，其死引发曹操屠徐州。",
+      "bio": "曹嵩字巨高，沛国谯人。本姓夏侯，为中常侍曹腾之养子，故冒姓曹。累官至太尉，位登三公。初平四年，曹嵩避乱琅琊，曹操遣兵迎之，辎重百余辆；徐州牧陶谦部将张闿贪其财货，杀嵩于华县、费县之间，一门遇害。曹操遂起兵复仇，屠徐州数县，泗水为之不流。魏文帝曹丕代汉后，追尊曹嵩为太皇帝——按 N4 追谥规则，他在曹魏阵营下的身份是「追谥」，而其在世时为东汉之臣，两段时间片互不影响。",
+      "tenure": [
+        { "faction_id": "han", "role": "文臣", "start_year": 184, "end_year": 193, "title": "司隶校尉、大鸿胪、太尉", "basis": "官至太尉，三公之列，以政务为主。", "confidence": 0.9, "review_status": "reviewed" },
+        { "faction_id": "wei", "role": "追谥", "start_year": 220, "end_year": 266, "title": "太皇帝", "basis": "220 年曹丕代汉建魏，追尊其祖曹嵩为太皇帝。追谥仅限魏蜀吴晋（N4 定案），不可挂在东汉名下。", "confidence": 1.0, "review_status": "reviewed" }
+      ],
+      "timeline": [
+        { "year": 184, "title": "官至太尉", "description": "以曹腾养子之资历位三公。", "importance": 2 },
+        { "year": 193, "title": "遇害徐州", "description": "陶谦部将张闿杀之于华费之间，曹操遂屠徐州。", "importance": 3 }
+      ]
+    },
+    {
+      "id": "xu_shao", "name": "许劭", "courtesy": "子将",
+      "birth": null, "death": 195, "date_precision": "approx",
+      "date_note": "卒于兴平二年（195）；生年不详，故精度取「约」而非 exact。",
+      "gender": "male", "first_chapter": 1, "review_status": "reviewed",
+      "summary": "汝南名士，主持「月旦评」，一句「治世之能臣，乱世之奸雄」成为曹操的千古定评。",
+      "bio": "许劭字子将，汝南平舆人。少峻名节，好核论乡党人物，每月更其品题，时人称为「月旦评」；经其品题者，身价顿异。曹操微时往见，问「我何如人」，劭不答，再问，乃曰「子治世之能臣，乱世之奸雄也」，操闻言大喜。这一句是全书对曹操最著名的定评，也为曹操一生的两面性立了案——同一人既是能臣又是奸雄，取决于天下是治是乱。后许劭避乱江南，兴平二年卒于豫章。",
+      "tenure": [
+        { "faction_id": "han", "role": "其他", "start_year": 184, "end_year": 195, "title": "郡功曹", "basis": "名士、清议主持者，无文武实职，按规则归「其他」。", "confidence": 0.85, "review_status": "reviewed" }
+      ],
+      "timeline": [
+        { "year": 184, "title": "月旦评", "description": "每月品题乡党人物，一言可定人声价。", "importance": 2 },
+        { "year": 184, "title": "评曹操", "description": "「治世之能臣，乱世之奸雄」，操闻言大喜。", "importance": 3 }
+      ]
+    },
+    {
+      "id": "gongsun_zan", "name": "公孙瓒", "courtesy": "伯珪",
+      "birth": null, "death": 199, "date_precision": "approx",
+      "date_note": "卒于建安四年（199），易京为袁绍所破，自焚死；生年不详。",
+      "gender": "male", "first_chapter": 1, "review_status": "reviewed",
+      "summary": "辽西武人，刘备的同门故交，据幽州与袁绍争衡，终败于易京自焚。",
+      "bio": "公孙瓒字伯珪，辽西令支人。少为郡小吏，美姿貌、声音洪亮，为郡太守所器重，举孝廉，迁辽东属国长史。尝与刘备同师事卢植，相交为友——演义第一回写刘备「与公孙瓒等为友」，即此。后以骑射威震塞外，号「白马义从」，据幽州，与袁绍争夺冀州，界桥一战为麴义所破，精锐尽丧。此后猜忌自守，筑易京楼橹，建安四年为袁绍所破，先杀妻子姊妹，而后自焚。",
+      "tenure": [
+        { "faction_id": "han", "role": "武将", "start_year": 184, "end_year": 191, "title": "郡吏、辽东属国长史、中郎将", "basis": "以骑射征战为业，属汉臣领兵。", "confidence": 0.85, "review_status": "reviewed" },
+        { "faction_id": "warlord", "role": "君主", "start_year": 191, "end_year": 199, "title": "前将军、易侯", "basis": "191 年界桥之战后据幽州与袁绍相争，自成一系；时间片与东汉片首尾相接。", "confidence": 0.9, "review_status": "reviewed" }
+      ],
+      "timeline": [
+        { "year": 184, "title": "同门之友", "description": "与刘备同师事卢植，相交为友。", "importance": 2 },
+        { "year": 191, "title": "据幽州", "description": "以白马义从威震塞外，自成一系。", "importance": 2 },
+        { "year": 199, "title": "易京自焚", "description": "易京为袁绍所破，杀妻子而后自焚。", "importance": 3 }
+      ]
+    }
+  ]
+}

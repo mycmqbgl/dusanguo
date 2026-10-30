@@ -1,0 +1,29 @@
+{
+ "id": "wu_yan",
+ "name": "伍延",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "伍延，孙吴武将，吴车骑将军。奏曰：可令车骑将军伍延为都督，进兵江陵，迎敌杜预；骠骑将军孙歆进兵拒夏口等处军马。",
+ "bio": "第 120 回：伍延见各军皆败，，叱令武士斩之。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 275,
+   "end_year": 280,
+   "title": "吴车骑将军",
+   "lord_id": "sun_hao",
+   "basis": "title 明载「吴车骑将军」，属孙吴。",
+   "confidence": 0.85
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

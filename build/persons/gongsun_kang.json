@@ -1,0 +1,39 @@
+{
+ "id": "gongsun_kang",
+ "name": "公孙康",
+ "courtesy": null,
+ "display_aliases": [
+  "辽东太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年演义未载；史载卒于建安中（约 221 前后）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "reviewed",
+ "summary": "公孙康，群雄君主，辽东太守。公孙康大喜，乃先伏刀斧手于壁衣中，使二袁入。",
+ "bio": "辽东襄平人，公孙度之子，父死嗣辽东太守。曹操北征乌桓时拥兵观望。袁尚袁熙来奔，郭嘉遗计教操「勿追」，康果恐二袁夺其位，伏兵斩之，献首许都，操封其为左将军、襄平侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 207,
+   "title": "辽东太守",
+   "basis": "189年公孙度擅命辽东，度死康嗣；群雄阵营。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 207,
+   "title": "诱斩二袁",
+   "description": "伏兵斩袁尚袁熙，献首许都，受封左将军。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：史载卒于建安中（约 221 前后）｜演：生卒年演义未载",
+ "mention_count": 11
+}

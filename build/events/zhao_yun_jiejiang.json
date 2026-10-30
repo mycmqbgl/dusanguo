@@ -1,0 +1,33 @@
+{
+ "id": "zhao_yun_jiejiang",
+ "name": "赵云截江夺阿斗",
+ "kind": "征伐",
+ "start_year": 211,
+ "end_year": 212,
+ "date_text": "建安十六年（211，原文系年）",
+ "summary": "孙夫人听吴国太病笃之诈，携阿斗登舟归吴；赵云弃马截江夺回阿斗，张飞随后到，杀周善，阿斗得还。",
+ "detail": "孙权闻刘备西征，用张昭之计遣周善以国太病笃为名接孙夫人回吴，嘱其带阿斗去以为质。夫人不疑，携阿斗登舟。赵云巡哨知觉，沿江赶至，弃马乘渔舟跳上吴船，夺抱阿斗欲下船而不得，靠江岸泊住。张飞乘船赶到，杀周善，遂同截阿斗归。夫人独自回吴，此后吴蜀因而生隙。",
+ "place_id": "jiang_ling",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "zhao_yun",
+   "role_desc": "巡哨知觉，弃马截江，独抱阿斗"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "率船赶到，杀周善，同截阿斗"
+  },
+  {
+   "person_id": "sun_quan",
+   "role_desc": "听张昭之计遣周善赚夫人携阿斗归吴"
+  }
+ ],
+ "passage_ids": [
+  61012,
+  61003,
+  61004,
+  61004
+ ],
+ "battle_ids": []
+}

@@ -1,0 +1,42 @@
+{
+ "id": "cui_lie",
+ "name": "崔烈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "auto_mined",
+ "summary": "崔烈，东汉文臣，司徒、城门校尉。第 3 回一笔带过，事迹仅存其名。",
+ "bio": "第 3 回：「臣先朝司徒崔烈之弟崔毅也」；第 9 回列城门校尉。原文第 3 回相关片段：「乃皇弟陈留王也。”庄主大惊，再拜曰：“臣先朝司徒崔烈之弟崔毅也。因见十常侍卖官嫉贤，故隐于此。”遂扶」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 180,
+   "end_year": 189,
+   "title": "司徒、城门校尉",
+   "basis": "第 3 回：「臣先朝司徒崔烈之弟崔毅也」；第 9 回列城门校尉。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "第 3 回",
+   "description": "庄主大惊，再拜曰：“臣先朝司徒崔烈之弟崔毅也",
+   "importance": 1
+  },
+  {
+   "year": 192,
+   "title": "第 9 回",
+   "description": "常卿种拂、太仆鲁馗、大鸿胪周奂、城门校尉崔烈、越骑校尉王颀皆死于国难",
+   "importance": 1
+  }
+ ],
+ "mention_count": 2
+}

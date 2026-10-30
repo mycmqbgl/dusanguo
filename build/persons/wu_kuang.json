@@ -1,0 +1,45 @@
+{
+ "id": "wu_kuang",
+ "name": "吴匡",
+ "courtesy": null,
+ "display_aliases": [
+  "何进部将"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。中平六年（189）宫变时杀何苗，此后演义无下落。",
+ "gender": "male",
+ "first_chapter": 3,
+ "review_status": "reviewed",
+ "summary": "吴匡，何进部将，何进死后与袁绍同诛宦官。",
+ "bio": "何进为宦官所杀，吴匡与袁绍、曹操等共入宫诛宦官，攻内宫时「吴匡等放火烧青琐门」，遂尽诛宦官。后与董卓战于洛阳，败走。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 189,
+   "title": "何进部将",
+   "lord_id": "he_jin",
+   "basis": "大将军部将为武职，归武将；189 年宫变杀何苗后下落不明。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "青琐门放火",
+   "description": "何进被害，于青琐门外放起火来，助袁绍、袁术攻宫。",
+   "importance": 2
+  },
+  {
+   "year": 189,
+   "title": "杀何苗",
+   "description": "见何苗提剑出，大呼「何苗同谋害兄，当共杀之」，与董旻并力杀之。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 2
+}

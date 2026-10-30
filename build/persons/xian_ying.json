@@ -1,0 +1,29 @@
+{
+ "id": "xian_ying",
+ "name": "宪英",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 107,
+ "review_status": "auto_mined",
+ "summary": "宪英，曹魏人物，辛敞之姊。宪英曰：曹将军非司马公之对手，必然败矣。",
+ "bio": "。第 107 回：宪英曰：司马公未必谋逆，特欲杀曹将军耳。第 107 回：宪英曰：曹将军非司马公之对手，必然败矣。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "其他",
+   "start_year": 239,
+   "end_year": 249,
+   "title": "辛敞之姊",
+   "basis": "第一百七回：辛宪英为辛毗之女、辛敞之姊，以见识著称，非魏之职官。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

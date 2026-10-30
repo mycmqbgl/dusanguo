@@ -1,0 +1,29 @@
+{
+ "id": "cao_de",
+ "name": "曹德",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "曹德，曹嵩之弟。初平四年（193）与兄曹嵩同赴琅琊，为陶谦部将张闿所杀。",
+ "bio": "第 10 回：曹德提剑出看，就被搠死。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "其他",
+   "start_year": 193,
+   "end_year": 193,
+   "title": "曹嵩之弟",
+   "basis": "第10回曹嵩自陈留避难，与弟曹德及一家老小往兖州，道经徐州为张闿所害。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

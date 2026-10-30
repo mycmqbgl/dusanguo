@@ -1,0 +1,29 @@
+{
+ "id": "wen_bo",
+ "name": "文博",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "文博，蜀汉昭文博士，建安二十六年劝进刘备称帝。",
+ "bio": "第80回群臣劝进刘备称帝，列名者中有「昭文博士伊籍、从事郎秦宓」及「文博」等，事见劝进表。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 221,
+   "end_year": 223,
+   "title": "昭文博士",
+   "basis": "第 80 回：蜀汉劝进表列名「昭文博士」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

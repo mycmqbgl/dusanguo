@@ -1,0 +1,51 @@
+{
+ "id": "duan_gui",
+ "name": "段珪",
+ "courtesy": null,
+ "display_aliases": [
+  "中常侍",
+  "十常侍"
+ ],
+ "birth": null,
+ "death": 189,
+ "date_precision": "approx",
+ "date_note": "生年不详。中平六年（189）北邙山为闵贡所杀。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "段珪，东汉人物，中常侍、列侯。说张让、段珪劫拥少帝及陈留王，冒烟突火，连夜奔走至北邙山。",
+ "bio": "段珪，中常侍，十常侍之一。与张让等朋比为奸，及何进谋诛宦官，与让先矫太后命召进入宫，嘉德殿门左右围住，让厉声责进，遂斩之。袁绍、曹操勒兵入宫尽诛宦官，珪与张让等数十人劫少帝与陈留王走北邙山。河南中部掾吏闵贡大呼「逆贼休走」，追至，珪谓太后「陛下可从臣去」，太后不从，跳窗得免。珪继续挟帝夜走，为闵贡赶上拿住，问「天子何在」，答「已在半路相失」，贡遂杀段珪，悬头于马项下，四散寻觅帝踪。演义第一、二、三回写其事。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 168,
+   "end_year": 189,
+   "title": "中常侍、列侯",
+   "basis": "第一回原文：十常侍名录含段珪；第三回段珪劫少帝与陈留王奔北邙。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "嘉德殿伏杀何进",
+   "description": "与张让矫太后命召何进入宫，左右围住，让厉声责进，斩之为两段。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "劫帝奔北邙山",
+   "description": "袁绍曹操勒兵入宫，与张让等劫少帝、陈留王及何太后夜走北邙山。",
+   "importance": 3
+  },
+  {
+   "year": 189,
+   "title": "为闵贡所杀",
+   "description": "挟帝夜行，闵贡追至拿住，杀之悬头马项，寻得少帝。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 12
+}

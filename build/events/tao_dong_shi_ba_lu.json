@@ -1,0 +1,154 @@
+{
+ "id": "tao_dong_shi_ba_lu",
+ "name": "十八路诸侯讨董",
+ "kind": "军事行动",
+ "start_year": 190,
+ "end_year": 191,
+ "date_text": "初平元年（190）正月—二年（191）",
+ "summary": "曹操发矫诏，十八路诸侯会盟共讨董卓，袁绍为盟主。孙坚先破汜水关，刘关张虎牢关前战吕布；董卓焚洛阳迁都长安，联军队形涣散，止于虎牢——讨董无功而散。",
+ "detail": "曹操逃归陈留，得卫弘资助，矫诏发丧，檄文告天下。十八路诸侯应诏而至，袁绍凭四世三公之望被推为盟主，歃血为誓。孙坚请为前部攻汜水关：鲍信暗拨其弟鲍忠抢功被斩；袁术不发粮草，孙坚军自乱，被华雄掩杀，祖茂换帻死之。华雄下关搦战，连斩数将，关羽温酒斩华雄。董卓亲与吕布领十五万屯虎牢关：吕布连败方悦、穆顺、武安国，公孙瓒亦败走，张飞出战，刘关张三英合围，吕布败退上关。董卓纳李儒之议焚洛阳宫室、迁都长安，挟数百万口西行；曹操请追击，诸侯不从，操独引兵追至荥阳，中徐荣之伏大败，曹洪让马得免。孙坚先入洛阳，救灭宫火——联军名义上是讨逆，实际各怀异心，盟约自此瓦解。",
+ "place_id": "chen_liu",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "cao_cao",
+   "role_desc": "发矫诏起兵，后独追董卓败于荥阳"
+  },
+  {
+   "person_id": "yuan_shao",
+   "role_desc": "盟主，屯河内"
+  },
+  {
+   "person_id": "yuan_shu",
+   "role_desc": "总督粮草，不发孙坚粮秣致其军自乱"
+  },
+  {
+   "person_id": "sun_jian",
+   "role_desc": "前部先锋，攻汜水关，先入洛阳"
+  },
+  {
+   "person_id": "hua_xiong",
+   "role_desc": "董卓部将，下关搦战，为关羽所斩"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "虎牢关前连败联军数将，为三英所退"
+  },
+  {
+   "person_id": "dong_zhuo",
+   "role_desc": "焚洛阳、迁长安"
+  },
+  {
+   "person_id": "li_ru",
+   "role_desc": "谋主，献迁都之策"
+  },
+  {
+   "person_id": "li_jue",
+   "role_desc": "与郭汜引兵五万把住汜水关"
+  },
+  {
+   "person_id": "guo_si",
+   "role_desc": "同守汜水关"
+  },
+  {
+   "person_id": "xu_rong",
+   "role_desc": "荥阳太守，伏兵大败曹操"
+  },
+  {
+   "person_id": "gongsun_zan",
+   "role_desc": "北平太守，携刘关张赴盟"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "随瓒赴盟，虎牢关前三英战吕布"
+  },
+  {
+   "person_id": "guan_yu",
+   "role_desc": "温酒斩华雄；虎牢关合战吕布"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "虎牢关首先出战吕布"
+  },
+  {
+   "person_id": "bao_xin",
+   "role_desc": "济北相，暗拨其弟鲍忠抢功，被华雄斩之"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "矫诏起兵",
+   "description": "曹操归陈留，得卫弘资财，发矫诏，檄文遍告天下。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "十八镇应诏",
+   "description": "十八路诸侯各领兵赴会，兵各数万，营寨连接二百余里。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "歃血立盟",
+   "description": "袁绍为盟主，其弟袁术总督粮草，长沙孙坚请为前部。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "汜水折将",
+   "description": "鲍忠抢功被斩；袁术断粮，坚军自乱，华雄掩杀，祖茂死之。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "温酒斩华雄",
+   "description": "华雄搦战连斩数将，关羽出阵，酒尚温时斩华雄回报。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "三英战吕布",
+   "description": "吕布连败联军四将，张飞出战，刘关张合围，布败退上关。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "焚洛阳迁都",
+   "description": "卓纳李儒之议，尽驱洛阳之民西赴长安，焚烧宗庙宫府。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "荥阳中伏",
+   "description": "诸侯不肯追击，曹操独引兵追至荥阳，中徐荣之伏大败，曹洪让马得免。",
+   "importance": 2
+  },
+  {
+   "year": 191,
+   "title": "盟散",
+   "description": "孙坚入洛阳救火，得传国玉玺而匿之；联军各归本镇，盟约瓦解。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  5004,
+  5006,
+  5008,
+  5011,
+  5012,
+  5017,
+  5021,
+  5022,
+  5034,
+  6003,
+  6006,
+  6008,
+  6013
+ ],
+ "battle_ids": [
+  "si_shui_guan_zhi_zhan",
+  "hu_lao_guan_zhi_zhan",
+  "xing_yang_fu_ji_zhan"
+ ]
+}

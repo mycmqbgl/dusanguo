@@ -1,0 +1,29 @@
+{
+ "id": "liu_hui",
+ "name": "刘恢",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "刘恢，东汉文臣，代州太守。德、关、张三人往代州投刘恢。",
+ "bio": "原文第 2 回相关片段：「太守申文省府，差人捕捉。玄德、关、张三人往代州投刘恢。恢见玄德乃汉室宗亲，留匿在家不题」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "代州太守",
+   "basis": "第2回玄德、关、张往代州投刘恢，恢见玄德乃汉室宗亲，留匿在家。 第2回玄德往代州投刘恢，事在 184 年前后。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

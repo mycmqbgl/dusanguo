@@ -1,0 +1,32 @@
+{
+ "id": "han_xuan",
+ "name": "韩玄",
+ "courtesy": null,
+ "display_aliases": [
+  "长沙太守"
+ ],
+ "birth": null,
+ "death": 209,
+ "date_precision": "approx",
+ "date_note": "生年不详；演义未明写其死（被魏延所杀），按 209 年长沙之役记卒年。",
+ "gender": "male",
+ "first_chapter": 41,
+ "review_status": "reviewed",
+ "summary": "韩玄，群雄文臣，长沙太守。长沙太守孙坚出曰：\"坚愿为前部。",
+ "bio": "韩玄，荆南长沙太守，性多疑，轻于杀戮，众皆恶之。关羽取长沙，与黄忠鏖战三日不分胜负；韩玄疑黄忠箭下留情通敌，喝令斩之。魏延拔刀救忠，振臂一呼杀上城头，砍韩玄为两段，献城降关羽。史载韩玄降刘备。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 190,
+   "end_year": 209,
+   "title": "长沙太守",
+   "basis": "荆南四郡之一；209 年魏延杀之献城（演义）。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "history_life_dates": "史：生年不详｜演：未明写其死（被魏延所杀），按 209 年长沙之役记卒年",
+ "mention_count": 17
+}

@@ -1,0 +1,51 @@
+{
+ "id": "yan_baihu",
+ "name": "严白虎",
+ "courtesy": null,
+ "display_aliases": [
+  "东吴德王"
+ ],
+ "birth": null,
+ "death": 196,
+ "date_precision": "approx",
+ "date_note": "演义第 十五回奔余杭为土人凌操领乡人所杀（约 196）；史载为孙策所破后不知所踪。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "严白虎，群雄君主，东吴德王。严白虎曰：孙策此去，莫非要去查渎。",
+ "bio": "严白虎，吴郡乌程人，聚众万余，雄踞吴郡西部，自号「东吴德王」。孙策渡江，白虎遣弟严舆拒于枫桥，败；舆请和被杀。白虎弃城走，依王朗于会稽；朗败，白虎奔余杭，于路劫掠，为土人凌操领乡人所杀（演义）。史载白虎为策所破后不知所踪。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 190,
+   "end_year": 196,
+   "title": "东吴德王",
+   "basis": "聚众万余据吴郡西部。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "据乌程",
+   "description": "聚众万余，自号东吴德王。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "枫桥之败",
+   "description": "弟严舆拒孙策败；请和不成，舆被杀。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "殁于余杭",
+   "description": "奔余杭于路劫掠，为凌操率乡人所杀。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：为孙策所破后不知所踪，卒年不详｜演：约 196 奔余杭为凌操部众所杀",
+ "mention_count": 18
+}

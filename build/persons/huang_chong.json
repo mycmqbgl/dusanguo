@@ -1,0 +1,29 @@
+{
+ "id": "huang_chong",
+ "name": "黄崇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 117,
+ "review_status": "auto_mined",
+ "summary": "黄崇，蜀汉武将，蜀将。遵、黄崇、李球三人，各引一军杀出。",
+ "bio": "第 117 回邓艾取绵竹，黄崇与张遵、李球各引一军杀出，兵寡战死。此人在演义中着墨极少，正史别有其传。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 263,
+   "end_year": 263,
+   "title": "蜀将",
+   "basis": "第一百十七回原文：张遵、黄崇、李球三人，各引一军杀出。 职任「蜀将」据此。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,48 @@
+{
+ "id": "gan_furen",
+ "name": "甘夫人",
+ "courtesy": null,
+ "display_aliases": [
+  "昭烈皇后",
+  "甘氏"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年均不详。史载卒于建安年间、葬于南郡，刘备称帝后追谥皇思夫人，后主时追谥昭烈皇后；演义第 1–30 回未载其卒。",
+ "gender": "female",
+ "first_chapter": 22,
+ "review_status": "reviewed",
+ "summary": "甘夫人，蜀汉女眷，刘备之妾。请甘夫人上马，杀开条大路，直送至长坂城。",
+ "bio": "沛人，刘备居小沛时纳为妾，先主数丧嫡室，以甘夫人摄内事。生后主刘禅。第二十二回随刘备屯下邳；第二十五回曹操攻徐州，刘备败走，甘夫人与糜夫人被俘，羁于曹营，由关羽照看；第二十六回关公挂印封金、护二嫂千里寻兄；第二十八回古城相会，三事中「二位嫂嫂」即指甘、糜二夫人。史载卒于建安年间，追谥皇思夫人，后追谥昭烈皇后。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "女眷",
+   "start_year": 196,
+   "end_year": 209,
+   "title": "刘备之妾",
+   "lord_id": "liu_bei",
+   "basis": "196 年刘备纳为妾；209 年卒于荆州。刘备 208 年取荆南四郡后蜀汉势力形成，故归蜀汉。 196 年纳为刘备之妾，209 年卒于荆州。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "摄内事",
+   "description": "刘备数丧嫡室，甘夫人摄内事，生后主刘禅。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "古城相会",
+   "description": "与糜夫人自曹营随关羽脱身，于张飞据守的古城与刘备重聚。",
+   "importance": 3
+  }
+ ],
+ "history_life_dates": "史：生卒年均不详；史载卒于建安年间、葬于南郡，刘备称帝后追谥皇思夫人，后主时追谥昭烈皇后｜演：第 1–30 回未载其卒",
+ "span_pre_state": true,
+ "mention_count": 19
+}

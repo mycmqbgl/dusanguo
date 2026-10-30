@@ -1,0 +1,68 @@
+{
+ "id": "man_chong",
+ "name": "满宠",
+ "courtesy": "伯宁",
+ "display_aliases": [
+  "征东将军",
+  "扬州都督"
+ ],
+ "birth": null,
+ "death": 242,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于正始三年（242）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "满宠，群雄文臣，从事。满伯宁来，必有讲和之意，可以礼接之。",
+ "bio": "满宠字伯宁，山阳昌邑人。年十八为郡督邮，时郡中豪强李朔等拥兵为害，宠率吏卒攻之，尽平其党。为高平令，县人张苞为郡督邮，贪秽乱政，宠率吏卒收之，考竟杀之，弃官归。曹操至兖州，辟为从事。后为许令，曹操从弟曹洪有宾客在界，数犯法，宠收治之；曹洪书求释，宠不听，洪白于操，操召许主者，宠知其召己，即速杀之，操喜曰「当事不当尔邪」。建安十三年从征荆州，后屯当阳。魏文帝时都督扬州诸军事，镇合肥，孙权屡攻不克。青龙中迁太尉。正始三年卒，谥景侯。演义第十回写满宠为曹操聘为军中从事。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 192,
+   "end_year": 196,
+   "title": "从事",
+   "lord_id": "cao_cao",
+   "basis": "192 年前后曹操至兖州时辟为从事；此时曹操未建号，属群雄之一。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 242,
+   "title": "许令、汝南太守、征东将军、太尉、昌邑侯",
+   "basis": "196 年曹魏势力形成后历任要职；后期以都督扬州诸军事、镇合肥拒孙权为主，职责转为军事指挥，按最高官职与实际职掌归武将。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "为曹操从事",
+   "description": "曹操至兖州，辟为从事。",
+   "importance": 1
+  },
+  {
+   "year": 196,
+   "title": "许令执法",
+   "description": "收治曹洪宾客，拒洪求释，速杀之，曹操喜曰「当事不当尔邪」。",
+   "importance": 3
+  },
+  {
+   "year": 214,
+   "title": "都督扬州",
+   "description": "镇合肥，屡拒孙权，为曹魏东南屏障。",
+   "importance": 3
+  },
+  {
+   "year": 242,
+   "title": "卒",
+   "description": "官至太尉，正始三年卒，谥景侯。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 33
+}

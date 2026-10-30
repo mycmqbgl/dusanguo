@@ -1,0 +1,30 @@
+{
+ "id": "fan_qi",
+ "name": "樊岐",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 91,
+ "review_status": "auto_mined",
+ "summary": "樊岐，蜀汉武将，武略中郎将、从事。第 91 回一笔带过，事迹仅存其名。",
+ "bio": "樊歧，仅见于人物名录，演义正文 120 回中未出现，无事迹可述。此卡为自动建档，生卒、字号、官职均无考，未作任何补写。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 225,
+   "end_year": 234,
+   "title": "武略中郎将、从事",
+   "basis": "第91回从事——武略中郎将樊岐。「樊歧」为「樊岐」之讹，原文有出场。 第91回《出师表》列名为从事、武略中郎将，事在 225-234 年间。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "mention_count": 1
+}

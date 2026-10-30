@@ -1,0 +1,29 @@
+{
+ "id": "li_peng",
+ "name": "李鹏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 112,
+ "review_status": "auto_mined",
+ "summary": "李鹏，曹魏文臣，魏将。听知蜀兵到，急与王真、李鹏二将，引兵离城二十里下寨。",
+ "bio": "第 112 回：李鹏大怒，纵马轮刀来救。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 254,
+   "end_year": 254,
+   "title": "魏将",
+   "basis": "第一百十二回原文：鹏赶上举刀待砍，傅佥偷身回顾，向李鹏面门只一简，打得眼珠迸出，死于马下。 职任「魏将」据此；★任期按末见回目收敛：全书最后一次提及在第 112 回（254 年），原 254—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

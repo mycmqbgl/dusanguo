@@ -1,0 +1,55 @@
+{
+ "id": "ling_cao",
+ "name": "凌操",
+ "courtesy": null,
+ "display_aliases": [
+  "破贼校尉"
+ ],
+ "birth": null,
+ "death": 207,
+ "date_precision": "approx",
+ "date_note": "史载建安十二年（207）入夏口为黄祖部将甘宁所射杀；演义移于江夏之战（第 38 回）。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "凌操，孙吴武将，破贼校尉。部将凌操，轻舟当先，杀入夏口，被黄祖部将甘宁一箭射死。",
+ "bio": "凌操，吴郡余杭人。孙策破严白虎，白虎奔余杭于路劫掠，操率乡人击破杀之（演义）；遂携其子凌统从策。每从征伐，常冠军履锋。后从孙权征江夏，为黄祖部将甘宁射杀，权使统接领父兵。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "破贼校尉",
+   "lord_id": "sun_ce",
+   "basis": "196 年杀严白虎后从策。｜阵营据主君（孙策）归属校正为wu，196-200→196-200。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 200,
+   "end_year": 207,
+   "title": "破贼校尉",
+   "basis": "从孙权征江夏，207 年为甘宁射杀。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "斩严白虎",
+   "description": "严白虎劫掠余杭，操率乡人杀之，携子统投孙策。",
+   "importance": 2
+  },
+  {
+   "year": 207,
+   "title": "江夏殒命",
+   "description": "随权征江夏，为甘宁射杀。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 6
+}

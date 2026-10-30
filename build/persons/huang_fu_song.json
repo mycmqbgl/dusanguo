@@ -1,0 +1,42 @@
+{
+ "id": "huang_fu_song",
+ "name": "皇甫嵩",
+ "courtesy": "义真",
+ "display_aliases": [],
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "卒于兴平二年（195）病卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "皇甫嵩，东汉武将，中郎将、左车骑将军、太尉。皇甫嵩、朱儁领军拒贼，贼战不利，退入长社，依草结营。",
+ "bio": "皇甫嵩字义真，安定朝那人。黄巾起，拜中郎将，与朱儁分路讨贼。颍川黄巾退守长社依草结营，嵩与朱儁定计火攻，大风夜纵火，贼众溃散——长社之战是官军对黄巾的首次大胜。此后破张梁、张宝（第二回），又破张角于广宗，黄巾之乱平，嵩功居第一，拜左车骑将军，领冀州牧。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 195,
+   "title": "中郎将、左车骑将军、太尉",
+   "basis": "以统兵讨黄巾起家，纯以战斗指挥为业。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "长社火攻",
+   "description": "与朱儁定计，大风夜纵火破黄巾，首获大胜。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "迎刘备",
+   "description": "与玄德会于颍川，指其星夜回助广宗。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 15
+}

@@ -1,0 +1,61 @@
+{
+ "id": "ying_shao",
+ "name": "应劭",
+ "courtesy": null,
+ "display_aliases": [
+  "泰山太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。为应奉之子、应玚之父。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "reviewed",
+ "summary": "应劭，东汉文臣，泰山太守。遣泰山太守应劭，往琅琊郡取父曹嵩。",
+ "bio": "应劭字仲远，汝南南顿人。少笃学，博览多闻。灵帝时举孝廉，辟车骑将军何苗掾。中平六年拜泰山太守。著有《汉官仪》《风俗通义》《汉书集解》，为汉末大儒。曹操遣其往琅琊迎父曹嵩，劭未至而陶谦已遣张闿护送，张闿于华、费间杀曹嵩全家，劭死命逃脱，恐曹操见责，遂弃郡投袁绍。演义第十回写「乃遣泰山太守应劭，往琅琊郡取父曹嵩」「应劭死命逃脱，投袁绍去了」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 189,
+   "end_year": 193,
+   "title": "泰山太守",
+   "basis": "为东汉泰山太守，以文教内政为主归文臣；193 年因曹嵩之死弃郡投袁绍。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 200,
+   "title": "袁绍属下",
+   "lord_id": "yuan_shao",
+   "basis": "193 年弃郡投袁绍，为其属下；卒年不详，暂记至官渡之役（200）。",
+   "confidence": 0.6,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "拜泰山太守",
+   "description": "中平六年拜泰山太守，博学多识，著《汉官仪》《风俗通义》。",
+   "importance": 2
+  },
+  {
+   "year": 193,
+   "title": "迎曹嵩失职",
+   "description": "奉曹操命迎曹嵩于琅琊，嵩为张闿所杀，劭死命逃脱。",
+   "importance": 3
+  },
+  {
+   "year": 193,
+   "title": "投袁绍",
+   "description": "恐曹操见责，弃郡投袁绍。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

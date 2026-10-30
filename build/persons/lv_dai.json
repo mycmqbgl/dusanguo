@@ -1,0 +1,29 @@
+{
+ "id": "lv_dai",
+ "name": "吕岱",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 108,
+ "review_status": "auto_mined",
+ "summary": "吕岱，孙吴武将，吴大司马。第 108 回一笔带过，事迹仅存其名。",
+ "bio": "第 108 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 241,
+   "end_year": 241,
+   "title": "吴大司马",
+   "basis": "第一百零八回原文：至次年四月内，病势沉重，乃召太傅诸葛恪、大司马吕岱至榻前，嘱以后事。 职任「吴大司马」据此；★阵营改判：第 108 回原文「太傅诸葛恪、大司马吕岱至榻前，嘱以后事」，吴大司马，非曹魏。原判魏系裸词「司马」误配官职名。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

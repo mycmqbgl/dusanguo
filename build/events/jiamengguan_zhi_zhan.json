@@ -1,0 +1,47 @@
+{
+ "id": "jiamengguan_zhi_zhan",
+ "name": "葭萌关之战",
+ "kind": "征伐",
+ "start_year": 214,
+ "end_year": 214,
+ "date_text": "建安十九年（214）",
+ "summary": "马超奉张鲁命攻葭萌关，与张飞昼夜酣战不分胜负；孔明反间，李恢说降马超。",
+ "detail": "详见战役「葭萌关之战」。马超归刘后引兵攻成都，刘璋见大势已去，遂出降，备得益州。",
+ "place_id": "jia_meng_guan",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "ma_chao",
+   "role_desc": "攻葭萌关主将，战张飞不分胜负，终降刘"
+  },
+  {
+   "person_id": "zhang_fei",
+   "role_desc": "守关出战，夜战马超"
+  },
+  {
+   "person_id": "liu_bei",
+   "role_desc": "坐镇关内，叹飞与超皆虎将"
+  },
+  {
+   "person_id": "zhuge_liang",
+   "role_desc": "行反间计，遣李恢说降"
+  },
+  {
+   "person_id": "ma_dai",
+   "role_desc": "随超攻关，暗箭伤魏延"
+  },
+  {
+   "person_id": "wei_yan",
+   "role_desc": "先锋先至，中马岱之箭"
+  }
+ ],
+ "passage_ids": [
+  65001,
+  65001,
+  65003,
+  65009
+ ],
+ "battle_ids": [
+  "jiamengguan_battle"
+ ]
+}

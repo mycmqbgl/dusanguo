@@ -1,0 +1,42 @@
+{
+ "id": "zhu_huan",
+ "name": "朱桓",
+ "courtesy": "休穆",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "朱桓，孙吴武将，奋威将军。说陆逊唤朱桓、全琮分付曰：汝二人各引三万军，从石亭山路抄到曹休寨后，放火为号；吾亲率大军从中路而进：可擒曹休也。",
+ "bio": "第 38 回：「奋威将军朱桓，绥南将军全琮，二人可为辅佐」。原文第 38 回相关片段：「字曼才；沛县薛综，字敬文；汝阳程秉，字德枢；吴郡朱桓，字休穆；陆绩，字公纪；吴人张温，字惠恕；乌伤骆」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 238,
+   "title": "奋威将军",
+   "basis": "第 38 回：「奋威将军朱桓，绥南将军全琮，二人可为辅佐」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 223,
+   "title": "第 85 回",
+   "description": "有哨马报说东吴已有准备：令吕范引兵拒住曹休，诸葛瑾引兵在南郡拒住曹真，朱桓引兵当住濡须以拒曹仁",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "第 96 回",
+   "description": "面朱桓、全琮两路杀来",
+   "importance": 1
+  }
+ ],
+ "mention_count": 15
+}

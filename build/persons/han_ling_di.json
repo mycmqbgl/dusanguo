@@ -1,0 +1,31 @@
+{
+ "id": "han_ling_di",
+ "name": "刘宏",
+ "courtesy": null,
+ "display_aliases": [
+  "汉灵帝",
+  "灵帝"
+ ],
+ "birth": 156,
+ "death": 189,
+ "date_precision": "year",
+ "date_note": "生卒：156—189。中平六年（189）四月崩。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "刘宏，东汉皇帝，即汉灵帝。中平六年病笃，召大将军何进入宫商议后事，旋即崩。",
+ "bio": "刘宏，汉章帝玄孙，解渎亭侯刘苌之子。桓帝无子，迎立其入继大统，是为灵帝（第2回：「迎立解渎亭侯之子，是为灵帝」）。在位期间宠信十常侍，卖官鬻爵，黄巾由此而起。中平六年（189）夏四月病笃，召大将军何进入宫商议后事，欲立皇子协而犹豫未决，旋即崩，子刘辩即位。演义通篇称其「灵帝」，本名与世系见于史传。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "皇帝",
+   "start_year": 168,
+   "end_year": 189,
+   "title": "汉灵帝",
+   "basis": "第2回：初因桓帝无子，迎立解渎亭侯之子，是为灵帝。（史传本名刘宏）",
+   "confidence": 0.95
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

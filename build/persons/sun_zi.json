@@ -1,0 +1,29 @@
+{
+ "id": "sun_zi",
+ "name": "孙资",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 96,
+ "review_status": "auto_mined",
+ "summary": "孙资，曹魏文臣，尚书。召刘放、孙资问曰：宗族之内，何人可任。",
+ "bio": "第 96 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 228,
+   "end_year": 229,
+   "title": "尚书",
+   "basis": "第96回曹睿问计，尚书孙资献策以守为攻，不劳师远征。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

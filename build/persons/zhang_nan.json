@@ -1,0 +1,54 @@
+{
+ "id": "zhang_nan",
+ "name": "张南",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 33,
+ "review_status": "auto_mined",
+ "summary": "张南，蜀汉武将，副将。小将追杀入营，吴班引着张南、冯习驱兵掩杀。",
+ "bio": "第 81 回：「张南为副将」；第 82 回「蜀将张南、冯习」。原文第 33 回相关片段：「南皮，安抚百姓。忽有一彪军来到，乃袁熙部将焦触、张南也。操自引军迎之。二将倒戈卸甲，特来投降。操封为」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 222,
+   "title": "副将",
+   "basis": "第 81 回：「张南为副将」；第 82 回「蜀将张南、冯习」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 203,
+   "title": "第 33 回",
+   "description": "问郭嘉，嘉曰：“可使袁氏降将焦触、张南等自攻之",
+   "importance": 1
+  },
+  {
+   "year": 208,
+   "title": "第 48 回",
+   "description": "焦触、张南欣喜而退",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 83 回",
+   "description": "路军人先引见张南、冯习，具说其事",
+   "importance": 1
+  },
+  {
+   "year": 222,
+   "title": "第 84 回",
+   "description": "吴班、张南久围彝陵城，忽冯习到，言蜀兵败，遂引军来救先主，孙桓方才得脱",
+   "importance": 1
+  }
+ ],
+ "mention_count": 25
+}

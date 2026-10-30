@@ -1,0 +1,36 @@
+{
+ "id": "zhu_jun",
+ "name": "朱儁",
+ "courtesy": "公伟",
+ "display_aliases": [],
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "卒于兴平二年（195）前后，感愤发病卒；生年不详。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "朱儁，东汉武将，右中郎将、右车骑将军、太尉。朱儁听说，催促军马，悉力攻打阳城。",
+ "bio": "朱儁字公伟，会稽上虞人。黄巾起拜右中郎将，与皇甫嵩并力，长社火攻破贼，追击张梁、张宝。后平定南阳黄巾（第二回）。官至右车骑将军、太尉。李傕郭汜之乱后，感愤发病而卒。演义中与皇甫嵩常并称「嵩与儁」，是讨黄巾战场的两大支柱。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 195,
+   "title": "右中郎将、右车骑将军、太尉",
+   "basis": "以统兵讨贼为主业。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "长社火攻",
+   "description": "与皇甫嵩定计纵火，大破黄巾。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 29
+}

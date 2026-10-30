@@ -1,0 +1,29 @@
+{
+ "id": "cui_zhou_ping",
+ "name": "崔州平",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 37,
+ "review_status": "auto_mined",
+ "summary": "崔州平，博陵人，东汉末年隐士，诸葛亮隆中四友之一。",
+ "bio": "崔州平，博陵人，汉末隐士。第37回刘备三顾茅庐，路遇崔州平，司马徽称孔明「与博陵崔州平、颍川石广元、汝南孟公威与徐元直四人为密友，此四人务于精纯，惟孔明独观其大略」。刘备误以为诸葛亮，下马拜问，州平自陈非孔明，长揖而去。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 200,
+   "end_year": 220,
+   "title": "隐士（未仕）",
+   "basis": "第37回：孔明与博陵崔州平、颍川石广元、汝南孟公威与徐元直四人为密友。隐士未仕，无君臣之分，归汉·其他，不属任何群雄君主。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

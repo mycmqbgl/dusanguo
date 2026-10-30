@@ -1,0 +1,43 @@
+{
+ "id": "xu_si",
+ "name": "许汜",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详。",
+ "gender": "male",
+ "first_chapter": 12,
+ "review_status": "reviewed",
+ "summary": "许汜，群雄文臣，幕僚。许汜、王楷只得拜辞，和郝萌回来。",
+ "bio": "许汜，吕布幕僚。原为徐州人士，吕布据徐州时与王楷同为布谋主。下邳之围，与王楷劝布遣使求救于袁术，并同往淮南说亲事。另因拜访陈登时「求田问舍」被讥「湖海之士，豪气不除」，刘备续以「欲卧百尺楼上」之评，此事留名后世。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 198,
+   "title": "幕僚",
+   "lord_id": "lv_bu",
+   "basis": "吕布据徐州时期为谋主之一。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "佐吕布",
+   "description": "为吕布幕僚谋主。",
+   "importance": 1
+  },
+  {
+   "year": 198,
+   "title": "说袁术求援",
+   "description": "下邳被围，与王楷劝布结袁术，亲往说亲。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 12
+}

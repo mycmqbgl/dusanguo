@@ -1,0 +1,33 @@
+{
+ "id": "zhou_xun",
+ "name": "周循",
+ "courtesy": null,
+ "display_aliases": [
+  "周循"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；娶孙权之女孙鲁班，卒于孙权之世（约 225 年前后）。",
+ "gender": "male",
+ "first_chapter": null,
+ "review_status": "reviewed",
+ "summary": "周循，周瑜长子，尚孙权之女孙鲁班（大懿公主），官骑都尉。",
+ "bio": "周循，庐江舒人，周瑜长子。孙权以女孙鲁班（后称大懿公主）妻之，官至骑都尉，早卒。《三国志·吴书·周瑜传》附其名，毛本演义 120 回未载，本卡依正史补录。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "亲族",
+   "start_year": 211,
+   "end_year": 225,
+   "title": "孙权之婿（尚孙权之女孙鲁班），骑都尉",
+   "basis": "《三国志·吴书·周瑜传》：周循为周瑜长子，尚孙鲁班，官骑都尉。孙鲁班即孙权之女（后封大懿公主），周循以帝婿之身入吴宗亲之列，故为吴·亲族。演义未载。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "is_mentioned_only": true,
+ "is_novel_absent": true,
+ "mention_count": 0
+}

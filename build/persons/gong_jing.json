@@ -1,0 +1,36 @@
+{
+ "id": "gong_jing",
+ "name": "龚景",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生平卒年俱不详，仅见于中平元年（184）青州被围事。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "龚景，东汉文臣，青州太守。日，接得青州太守龚景牒文，言黄巾贼围城将陷，乞赐救援。",
+ "bio": "龚景，青州太守。中平元年黄巾围青州城将陷，牒文乞援于幽州。刘焉令邹靖将兵五千同玄德、关、张往救，三路夹攻大破贼众，景亦率民兵出城助战，遂解青州之围，犒军毕送邹靖自回。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 184,
+   "end_year": 184,
+   "title": "青州太守",
+   "basis": "一郡行政长官，以内政为主。",
+   "confidence": 1.0,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 184,
+   "title": "乞援解围",
+   "description": "牒文求救，率民兵助玄德解青州之围。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 3
+}

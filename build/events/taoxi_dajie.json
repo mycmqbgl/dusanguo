@@ -1,0 +1,47 @@
+{
+ "id": "taoxi_dajie",
+ "name": "洮西大捷",
+ "kind": "征伐",
+ "start_year": 255,
+ "end_year": 255,
+ "date_text": "正元二年（255）",
+ "summary": "姜维洮西大破王经，经众数万溺于洮水；乘胜围狄道，陈泰解围，邓艾继起。",
+ "detail": "详见战役「洮西之战」。此役蜀军斩获空前，魏雍凉震动；然顿兵狄道不下，粮尽而退，未能扩战果。",
+ "place_id": "c_凉州_陇西郡_狄道",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "统军二十万伐魏，洮西大破王经，围狄道"
+  },
+  {
+   "person_id": "xiahou_ba",
+   "role_desc": "参谋军事，献取陇西之策"
+  },
+  {
+   "person_id": "wang_jing",
+   "role_desc": "背水迎战大败，众溺洮水，退保狄道"
+  },
+  {
+   "person_id": "chen_tai",
+   "role_desc": "星夜驰援，解狄道之围"
+  },
+  {
+   "person_id": "deng_ai",
+   "role_desc": "继起拒维，分兵守要"
+  },
+  {
+   "person_id": "guo_huai",
+   "role_desc": "雍凉方面统帅，策应狄道"
+  }
+ ],
+ "passage_ids": [
+  110014,
+  110014,
+  110014,
+  110004
+ ],
+ "battle_ids": [
+  "taoxi_battle"
+ ]
+}

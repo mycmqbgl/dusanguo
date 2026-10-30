@@ -1,0 +1,29 @@
+{
+ "id": "cai_zhong",
+ "name": "蔡中",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 34,
+ "review_status": "auto_mined",
+ "summary": "蔡中，群雄武将，副将。教甘宁：带了蔡中并降卒沿南岸而走，只打北军旗号，直取乌林地面，正当曹操屯粮之所，深入军中，举火为号。",
+ "bio": "第 34 回：南门外已使蔡中守把。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 207,
+   "end_year": 229,
+   "basis": "第34回蔡瑁言「南门外已使蔡中守把」，蔡中为蔡瑁族弟。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title": "副将"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 17
+}

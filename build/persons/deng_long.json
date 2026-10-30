@@ -1,0 +1,29 @@
+{
+ "id": "deng_long",
+ "name": "邓龙",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "邓龙，曹魏文臣，黄祖部将。宁飞上艨艟，将邓龙砍死。",
+ "bio": "第 38 回：甘宁飞上艨艟，将邓龙砍死。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 208,
+   "end_year": 208,
+   "title": "黄祖部将",
+   "basis": "第三十八回原文：黄祖急聚众商议，令苏飞为大将，陈就、邓龙为先锋，尽起江夏之兵迎敌。 职任「黄祖部将」据此；★任期按末见回目收敛：全书最后一次提及在第 38 回（208 年），原 208—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,68 @@
+{
+ "id": "sim_shi",
+ "name": "司马师",
+ "courtesy": "子元",
+ "display_aliases": [
+  "大将军",
+  "抚军大将军"
+ ],
+ "birth": 208,
+ "death": 255,
+ "date_precision": "approx",
+ "date_note": "史载生于建安十三年前后（208），卒于魏正元二年闰正月（255）许昌，眼疾瘤破而亡，演义同。生年据卒时四十八逆推。",
+ "gender": "male",
+ "first_chapter": 78,
+ "review_status": "reviewed",
+ "summary": "司马师，曹魏权臣，大将军、录尚书事。司马师擅行废立之事，心中大怒。",
+ "bio": "司马师字子元，司马懿长子，张春华所生。沉毅有大略，少与夏侯玄齐名。249 年高平陵之变，师阴养死士三千一朝而集，控制京师，与其父共诛曹爽。251 年懿卒，师继为大将军录尚书事。254 年中书令李丰、张缉等谋以夏侯玄代师，事泄，师夷三族，废帝曹芳为齐王，立高贵乡公曹髦。255 年淮南二叛，毌丘俭、文钦起兵讨师，师抱病亲征，文鸯夜袭魏营，师惊瘤目迸出，咬被皆破。乱平，行至许昌，目痛不治而卒，年四十八。弟昭继掌其权。史称师「肃重机敏」，为司马代魏最关键的中枢奠基者。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "权臣",
+   "start_year": 249,
+   "end_year": 255,
+   "title": "大将军、录尚书事",
+   "lord_id": "cao_fang",
+   "basis": "历事曹芳、曹髦：诛曹爽、废曹芳，名虽魏臣而实执国柄。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "jin",
+   "role": "追谥",
+   "start_year": 266,
+   "end_year": 316,
+   "title": "晋景帝",
+   "basis": "司马炎追尊为景皇帝。",
+   "confidence": 0.9
+  }
+ ],
+ "timeline": [
+  {
+   "year": 249,
+   "title": "高平陵之变",
+   "description": "阴养死士三千一朝而起，助父懿袭杀曹爽，控制京师。",
+   "importance": 3
+  },
+  {
+   "year": 254,
+   "title": "废曹芳立曹髦",
+   "description": "李丰张缉谋诛师事泄，师废芳为齐王，立高贵乡公髦。",
+   "importance": 3
+  },
+  {
+   "year": 255,
+   "title": "淮南平叛",
+   "description": "毌丘俭文钦起兵讨师，师抱病亲征破之，文鸯夜袭惊破瘤目。",
+   "importance": 3
+  },
+  {
+   "year": 255,
+   "title": "卒于许昌",
+   "description": "目痛不治，卒于许昌，弟司马昭继掌魏政。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：生年据卒时四十八逆推｜演：史载生于建安十三年前后（208），卒于魏正元二年闰正月（255）许昌，眼疾瘤破而亡，演义同",
+ "mention_count": 78
+}

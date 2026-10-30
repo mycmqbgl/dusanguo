@@ -1,0 +1,29 @@
+{
+ "id": "yin_kui",
+ "name": "殷馗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 31,
+ "review_status": "auto_mined",
+ "summary": "殷馗，曹魏文臣，（未仕）。徽曰：昔有殷馗善观天文，尝谓群星聚于颍分，其地必多贤士。",
+ "bio": "第 31 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 202,
+   "end_year": 207,
+   "title": "（未仕）",
+   "basis": "第三十一回原文：丞相兴仁义之兵，吊民伐罪，官渡一战，破袁绍百万之众，正应当时殷馗之言，兆民可望太平矣。 职任「（未仕）」据此；★任期按末见回目收敛：全书最后一次提及在第 37 回（207 年），原 202—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,73 @@
+{
+ "id": "dong_zhuo_zhi_si",
+ "name": "董卓之死",
+ "kind": "政治事件",
+ "start_year": 192,
+ "end_year": 192,
+ "date_text": "初平三年（192）四月",
+ "summary": "王允与吕布定计，使李肃奉诏诱卓出郿坞；卓入朝至受禅台，布戟刺其喉——百姓歌舞于道，卓尸置市燃之，郿坞抄没。",
+ "detail": "卓自凤仪亭后归郿坞。王允与吕布、李肃定计：使人传「天子欲禅位于太师」，卓大喜，连夜回长安。临行折轮、马嘶、狂风骤起，行人与道人皆以凶兆警之，卓不听。次日入朝，至受禅台前，王允等伏甲士——布于怀中取出诏书「有诏讨贼臣」，卓大呼「吾儿奉先何在」，布应声「有诏讨贼臣！」一戟直刺咽喉。李儒、李肃等皆被诛，卓尸置市曹，体肥，看守尸首之军士以火置脐中为灯，光明照彻——「百姓过者，莫不手掷其头，足蹈其尸」。郿坞抄没，坞中珍藏、美女尽入官库。",
+ "place_id": "chang_an",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "dong_zhuo",
+   "role_desc": "被诛者，「吾儿奉先何在」"
+  },
+  {
+   "person_id": "wang_yun",
+   "role_desc": "主谋，伏甲士于受禅台"
+  },
+  {
+   "person_id": "lv_bu",
+   "role_desc": "「有诏讨贼臣」，戟刺其喉"
+  },
+  {
+   "person_id": "li_su",
+   "role_desc": "奉诏诱卓出郿坞"
+  },
+  {
+   "person_id": "li_ru",
+   "role_desc": "谋主，事发被诛"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 192,
+   "title": "定计收布",
+   "description": "王允以「汉家四百年天下」说吕布，布誓诛国贼。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "奉诏诱卓",
+   "description": "李肃至郿坞，传「天子禅位」之诏，卓大喜而回长安。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "凶兆屡见",
+   "description": "车折轮、马嘶不前、狂风骤雨，青袍道人缚布书「口」——卓皆不悟。",
+   "importance": 2
+  },
+  {
+   "year": 192,
+   "title": "受禅台之变",
+   "description": "卓入朝，布出诏「有诏讨贼臣」，一戟刺喉。",
+   "importance": 3
+  },
+  {
+   "year": 192,
+   "title": "曝尸市曹",
+   "description": "卓尸置市，看尸军士以火置脐中为灯；郿坞抄没。",
+   "importance": 2
+  }
+ ],
+ "passage_ids": [
+  9008,
+  9009,
+  9010,
+  9013
+ ],
+ "battle_ids": []
+}

@@ -1,0 +1,44 @@
+{
+ "id": "wang_kuang",
+ "name": "王匡",
+ "courtesy": "公节",
+ "display_aliases": [
+  "河内太守"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年皆不详。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "王匡，群雄君主，大将军掾、河内太守。内太守王匡，引兵先到。",
+ "bio": "王匡字公节，泰山人。少与蔡邕友善。为何进大将军府掾，进败后归乡里，起兵讨董，为河内太守，列第五镇。讨董之役中率军先到虎牢关，将军马列成阵势，见吕布出阵「人中吕布，马中赤兔」，问「谁敢出战」，部将方悦纵马挺枪而出，无五合被吕布一戟刺于马下，匡军大败，四散奔走，赖乔瑁、袁遗两军来救方退。后为曹操所杀（一说为胡才、李乐所害）。演义中王匡在董卓迁都后参与分屯洛阳。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 192,
+   "title": "大将军掾、河内太守",
+   "basis": "以河内太守自据一郡起兵，为群雄之一；卒年不详，据史约 192 年前后。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "列第五镇",
+   "description": "以河内太守起兵讨董。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "虎牢关之战",
+   "description": "率军先到虎牢关，部将方悦出战吕布，无五合被刺于马下，匡军大败。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 7
+}

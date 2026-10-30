@@ -1,0 +1,29 @@
+{
+ "id": "dong_xun",
+ "name": "董寻",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 105,
+ "review_status": "auto_mined",
+ "summary": "董寻，曹魏文臣，魏司徒，谏言被废为庶人。徒董寻上表切谏曰：伏自建安以来，野战死亡，或门殚户尽；虽有存者，遗孤老弱。",
+ "bio": "。第 105 回：司徒董寻上表切谏曰：伏自建安以来，野战死亡，或门殚户尽。第 105 回：睿览表怒曰：董寻不怕死耶。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 220,
+   "title": "魏司徒，谏言被废为庶人",
+   "basis": "第一百零五回原文：司徒董寻上表切谏曰：伏自建安以来，野战死亡，或门殚户尽。 职任「魏司徒，谏言被废为庶人」据此。；★阵营改判：第 105 回原文「司徒董寻上表切谏曰…睿览表怒曰」，魏明帝曹睿的司徒，非汉廷（汉已亡于 220 年）。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

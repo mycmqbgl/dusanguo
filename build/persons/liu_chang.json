@@ -1,0 +1,29 @@
+{
+ "id": "liu_chang",
+ "name": "刘苌",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "刘苌，东汉宗亲，解渎亭侯。太后乃灵帝之母，解渎亭侯刘苌之妻也。",
+ "bio": "第 2 回：「董太后乃灵帝之母，解渎亭侯刘苌之妻也」。原文第 2 回相关片段：「皇子协养于董太后宫中。董太后乃灵帝之母，解渎亭侯刘苌之妻也。初因桓帝无子，迎立解渎亭侯之子，是为灵帝」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "亲族",
+   "start_year": 156,
+   "end_year": 168,
+   "title": "灵帝生父，解渎亭侯（桓帝迎立其子入继大统）",
+   "basis": "第 2 回：「董太后乃灵帝之母，解渎亭侯刘苌之妻也」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

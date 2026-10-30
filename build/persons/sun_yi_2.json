@@ -1,0 +1,29 @@
+{
+ "id": "sun_yi_2",
+ "name": "孙翊",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 38,
+ "review_status": "auto_mined",
+ "summary": "孙翊，孙吴武将，丹阳太守。说孙权弟孙翊为丹阳太守，翊性刚好酒，醉后尝鞭挞士卒。",
+ "bio": "原文第 38 回相关片段：「却说孙权弟孙翊为丹阳太守，翊性刚好酒，醉后尝鞭挞士卒。丹阳督将」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 208,
+   "end_year": 208,
+   "basis": "第三十八回原文：却说孙权弟孙翊为丹阳太守，翊性刚好酒，醉后尝鞭挞士卒。 职任「丹阳太守」据此；★任期按末见回目收敛：全书最后一次提及在第 38 回（208 年），原 208—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto",
+   "title": "丹阳太守"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

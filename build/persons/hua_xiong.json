@@ -1,0 +1,54 @@
+{
+ "id": "hua_xiong",
+ "name": "华雄",
+ "courtesy": null,
+ "display_aliases": [
+  "都督",
+  "骁骑校尉"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平元年（190）。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "verified",
+ "summary": "华雄，群雄武将，骁骑校尉、都督。华雄副将胡轸引兵五千出关迎战。",
+ "bio": "华雄，关西人，身长九尺，虎体狼腰，豹头猿臂。为董卓帐下骁骑校尉，自请率马步军五万赴汜水关迎敌，曰「吾斩众诸侯首级，如探囊取物耳」。至关先斩鲍忠，加都督；夜袭孙坚营，斩祖茂；又斩俞涉、潘凤，诸侯失色。袁绍叹「可惜吾上将颜良、文丑未至」。关羽请战，曹操酾热酒一杯，关公曰「酒且斟下，某去便来」，提华雄之头掷于地上，「其酒尚温」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 190,
+   "title": "骁骑校尉、都督",
+   "lord_id": "dong_zhuo",
+   "basis": "董卓部将，无独立势力，以战斗指挥为主，按职责归武将；所事之主为董卓（群雄·君主）。190 年为关羽所斩。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "请缨赴关",
+   "description": "自请率马步军五万赴汜水关，曰「斩众诸侯首级如探囊取物」。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "连斩四将",
+   "description": "斩鲍忠、祖茂、俞涉、潘凤，诸侯失色。",
+   "importance": 3
+  },
+  {
+   "year": 190,
+   "title": "温酒被斩",
+   "description": "关羽出战，提华雄之头掷于地上，其酒尚温。史实为孙坚所斩。",
+   "importance": 3
+  }
+ ],
+ "history_conflict_type": "功劳归属",
+ "history_conflict_note": "演义作华雄于汜水关为关羽所斩，温酒未寒；史实为孙坚击董卓军时所斩。",
+ "mention_count": 27
+}

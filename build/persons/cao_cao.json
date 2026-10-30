@@ -1,0 +1,72 @@
+{
+ "id": "cao_cao",
+ "name": "曹操",
+ "courtesy": "孟德",
+ "display_aliases": [
+  "曹孟德",
+  "曹阿瞒",
+  "阿瞒"
+ ],
+ "birth": 155,
+ "death": 220,
+ "date_precision": "exact",
+ "date_note": "生于永寿元年（155），卒于建安二十五年正月（220）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "reviewed",
+ "summary": "曹操，东汉武将，洛阳北部尉、顿丘令、议郎、典军校尉。曹操使至，拜策为会稽太守，令起兵征讨袁术。",
+ "bio": "曹操字孟德，沛国谯郡人，小字阿瞒。父曹嵩本姓夏侯氏，为中常侍曹腾养子，故冒姓曹。幼时机变过人，以诈中风谮叔父而恣意放荡；桥玄、何顒皆奇之，汝南许劭评曰「治世之能臣，乱世之奸雄」。年二十举孝廉为郎，除洛阳北部尉，设五色棒，棒责中常侍蹇硕之叔，不避豪贵，威名颇震；后为顿丘令。黄巾起，拜骑都尉，引马步军五千赴颍川助战，拦击张梁、张宝，斩首万余级。第一回的曹操尚是棒责权贵、力战黄巾的能臣——与他日后挟天子令诸侯的奸雄面貌，构成全书最重要的性格纵深。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 174,
+   "end_year": 189,
+   "title": "洛阳北部尉、顿丘令、议郎、典军校尉",
+   "basis": "174 年举孝廉为洛阳北部尉，189 年为典军校尉，皆汉廷之职；以军事职掌为主归武将。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 220,
+   "title": "奋武将军、兖州牧、司空、行车骑将军、丞相、魏公、魏王",
+   "basis": "189 年陈留起兵自成一系，为群雄之一；196 年迎帝都许，曹魏势力形成（de_facto_start=196）。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "追谥",
+   "start_year": 220,
+   "end_year": 266,
+   "title": "魏武帝",
+   "basis": "曹丕代汉称帝，追尊父曹操为武皇帝。追谥时间片按规则记为 [阵营建立年, 阵营灭亡年]，与生前片首尾相接。",
+   "confidence": 1.0,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 174,
+   "title": "洛阳北部尉",
+   "description": "设五色棒，棒责蹇硕之叔，不避豪贵。",
+   "importance": 2
+  },
+  {
+   "year": 184,
+   "title": "颍川破黄巾",
+   "description": "拜骑都尉，拦击张梁张宝，斩首万余级。",
+   "importance": 3
+  },
+  {
+   "year": 184,
+   "title": "许劭之评",
+   "description": "「治世之能臣，乱世之奸雄」，操闻言大喜。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 1849
+}

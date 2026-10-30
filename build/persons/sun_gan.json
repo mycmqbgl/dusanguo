@@ -1,0 +1,29 @@
+{
+ "id": "sun_gan",
+ "name": "孙干",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "孙干，孙吴武将，孙綝弟，吴偏将军。第 113 回一笔带过，事迹仅存其名。",
+ "bio": "。第 113 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 255,
+   "end_year": 255,
+   "title": "孙綝弟，吴偏将军",
+   "basis": "第一百十三回原文：虽然聪明，却被孙綝把持，不能主张，綝令弟威远将军孙据入苍龙宿卫，武卫将军孙恩、偏将军孙干、长。 职任「孙綝弟，吴偏将军」据此；★任期按末见回目收敛：全书最后一次提及在第 113 回（255 年），原 255—280 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,29 @@
+{
+ "id": "xu_xun",
+ "name": "徐勋",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 22,
+ "review_status": "auto_mined",
+ "summary": "徐勋，东汉文臣，从事中郎。第 22 回一笔带过，事迹仅存其名。",
+ "bio": "官职「从事」据原文上下文提取。原文第 22 回相关片段：「寇攻。时冀州方有北鄙之警，匪遑离局；故使从事中郎徐勋，就发遣操，使缮修郊庙，翊卫幼主。操便放志：专行」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 200,
+   "end_year": 200,
+   "title": "从事中郎",
+   "basis": "第22回陈琳檄文言「故使从事中郎徐勋，就发遣操，使缮修郊庙」，为汉廷所遣。 200 年前后从事中郎徐勋奉汉廷之命发遣曹操。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,30 @@
+{
+ "id": "jiangwei_tuntian_bihu",
+ "name": "姜维屯田避祸",
+ "kind": "谋略",
+ "start_year": 258,
+ "end_year": 262,
+ "date_text": "景耀元年至五年间（258–262）",
+ "summary": "姜维屡遭黄皓谗害，听郤正之策求沓中屯田以避祸，兼图再举，遂成汉中空虚之局。",
+ "detail": "姜维北伐屡为宦官黄皓所谗，刘禅听信黄皓，维惧诛，不敢归成都。郤正献策：请沓中屯田，可避祸，亦可就中练兵积粮以图再举。维表请屯田沓中，刘禅允之。此后魏人闻蜀兵在沓中，遂定伐蜀之策；维请遣兵守阴平桥头，黄皓匿其表，汉中遂虚。",
+ "place_id": "cheng_du",
+ "parent_event_id": null,
+ "participants": [
+  {
+   "person_id": "jiang_wei",
+   "role_desc": "惧黄皓之谗，求屯田沓中以避祸兼图再举"
+  },
+  {
+   "person_id": "liu_shan",
+   "role_desc": "听信黄皓，准维屯田沓中"
+  }
+ ],
+ "passage_ids": [
+  115012,
+  115012,
+  115009,
+  116003,
+  116005
+ ],
+ "battle_ids": []
+}

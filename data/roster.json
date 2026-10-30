@@ -1,0 +1,6752 @@
+{
+ "source": "cne3online 三国人物大全",
+ "total": 1124,
+ "with_chapter": 756,
+ "new_count": 713,
+ "rows": [
+  {
+   "name": "阿会喃",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": ""
+  },
+  {
+   "name": "孟获",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "管下第三洞洞主，蜀军南征被"
+  },
+  {
+   "name": "张翼",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "所擒，释后为获所杀。"
+  },
+  {
+   "name": "鲍信",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "初为济北相。剿青州黄巾军，被害。"
+  },
+  {
+   "name": "鲍忠",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "鲍信之弟。为"
+  },
+  {
+   "name": "华雄",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "鲍隆",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "桂阳管军校尉，猎户出身，为"
+  },
+  {
+   "name": "赵云",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "所杀。"
+  },
+  {
+   "name": "鲍素",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "蜀将，"
+  },
+  {
+   "name": "姜维",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "帐下。"
+  },
+  {
+   "name": "边让",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "九江太守，为"
+  },
+  {
+   "name": "夏侯惇",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "截杀。"
+  },
+  {
+   "name": "边洪",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": ""
+  },
+  {
+   "name": "孙翊",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "从人，杀孙翊后。被斩。"
+  },
+  {
+   "name": "卞喜",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "并州人，汜水关守将，善使流星锤，为"
+  },
+  {
+   "name": "关羽",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "卞氏",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": ""
+  },
+  {
+   "name": "曹操",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻，生"
+  },
+  {
+   "name": "曹丕",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "等四子，被立魏王后。"
+  },
+  {
+   "name": "步骘",
+   "chapter_raw": null,
+   "chapter": 83,
+   "note": "字"
+  },
+  {
+   "name": "子山",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，东吴谋士。"
+  },
+  {
+   "name": "步阐",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋西陵太守，为"
+  },
+  {
+   "name": "陆抗",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "邴原",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "与"
+  },
+  {
+   "name": "华歆",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、"
+  },
+  {
+   "name": "管宁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "善，号为龙腹。"
+  },
+  {
+   "name": "卑衍",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": ""
+  },
+  {
+   "name": "公孙渊",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，为"
+  },
+  {
+   "name": "夏侯霸",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "毕轨",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": ""
+  },
+  {
+   "name": "曹爽",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "门客，字"
+  },
+  {
+   "name": "昭先",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为"
+  },
+  {
+   "name": "司马懿",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩"
+  },
+  {
+   "name": "白寿",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "蜀将，病亡。"
+  },
+  {
+   "name": "陈蕃",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": ""
+  },
+  {
+   "name": "汉灵帝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "时太傅。"
+  },
+  {
+   "name": "陈琳",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": ""
+  },
+  {
+   "name": "袁绍",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "主簿，字"
+  },
+  {
+   "name": "孔璋",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。降曹。"
+  },
+  {
+   "name": "陈宫",
+   "chapter_raw": null,
+   "chapter": 4,
+   "note": "字"
+  },
+  {
+   "name": "公台",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，初为中牟县令。离操后为东郡从事，后投"
+  },
+  {
+   "name": "张邈",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，再助"
+  },
+  {
+   "name": "吕布",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为"
+  },
+  {
+   "name": "徐晃",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，杀。"
+  },
+  {
+   "name": "陈生",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "襄阳人，"
+  },
+  {
+   "name": "黄祖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "部将，为"
+  },
+  {
+   "name": "韩当",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "陈登",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "广陵人，字云龙。"
+  },
+  {
+   "name": "陈武",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "子烈",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，庐江松滋人。东吴将，为"
+  },
+  {
+   "name": "庞德",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "陈兰",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": ""
+  },
+  {
+   "name": "袁术",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，"
+  },
+  {
+   "name": "陈珪",
+   "chapter_raw": null,
+   "chapter": 26,
+   "note": "陈登父。"
+  },
+  {
+   "name": "陈纪",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "袁术将，操擒杀。"
+  },
+  {
+   "name": "陈震",
+   "chapter_raw": null,
+   "chapter": 46,
+   "note": "南阳人，字"
+  },
+  {
+   "name": "孝起",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，袁绍谋士。归刘，"
+  },
+  {
+   "name": "陈横",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": ""
+  },
+  {
+   "name": "刘繇",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "部将，为"
+  },
+  {
+   "name": "蒋钦",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "射死。"
+  },
+  {
+   "name": "张飞",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "陈氏",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": ""
+  },
+  {
+   "name": "刘表",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "前妻，生子"
+  },
+  {
+   "name": "刘琦",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "陈就",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "黄祖将，为"
+  },
+  {
+   "name": "吕蒙",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "陈矫",
+   "chapter_raw": null,
+   "chapter": 101,
+   "note": "曹将，为"
+  },
+  {
+   "name": "刘备",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "军擒放，后为兵部尚书。"
+  },
+  {
+   "name": "陈应",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "桂阳管军校尉，会使飞叉，为赵云斩。"
+  },
+  {
+   "name": "陈群",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "字"
+  },
+  {
+   "name": "长文",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，治书侍御史、镇军大将军，司空。"
+  },
+  {
+   "name": "陈式",
+   "chapter_raw": null,
+   "chapter": 141,
+   "note": "蜀军牙将，为"
+  },
+  {
+   "name": "夏侯渊",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，后放回。后取箕谷，兵败，为"
+  },
+  {
+   "name": "诸葛亮",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "陈造",
+   "chapter_raw": null,
+   "chapter": 185,
+   "note": "魏将，为"
+  },
+  {
+   "name": "马岱",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "陈泰",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "魏尚书。"
+  },
+  {
+   "name": "郭淮",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "副将。"
+  },
+  {
+   "name": "陈骞",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "魏安东将军。"
+  },
+  {
+   "name": "陈俊",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "魏将。"
+  },
+  {
+   "name": "陈元",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": ""
+  },
+  {
+   "name": "羊祜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "部将。"
+  },
+  {
+   "name": "程远志",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "黄巾军，为关羽所杀。"
+  },
+  {
+   "name": "程普",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "右北平土垠人，字"
+  },
+  {
+   "name": "德谋",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，使铁脊蛇矛。"
+  },
+  {
+   "name": "程昱",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "东郡东阿人，字"
+  },
+  {
+   "name": "仲德",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "程秉",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "字"
+  },
+  {
+   "name": "德枢",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，汝阳人。东吴谋士。"
+  },
+  {
+   "name": "程银",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": ""
+  },
+  {
+   "name": "韩遂",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，为曹军杀。"
+  },
+  {
+   "name": "程武",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "程昱子，参军。"
+  },
+  {
+   "name": "岑晊",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "南阳人，字"
+  },
+  {
+   "name": "公孝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，江夏八俊之一。"
+  },
+  {
+   "name": "袁谭",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，为"
+  },
+  {
+   "name": "吕旷",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "岑威",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "魏镇远将军，为"
+  },
+  {
+   "name": "王平",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "成廉",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将。为"
+  },
+  {
+   "name": "乐进",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "射杀。"
+  },
+  {
+   "name": "成宜",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，为夏侯渊杀。"
+  },
+  {
+   "name": "于禁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "督将。"
+  },
+  {
+   "name": "司马昭",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "成济",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "魏将。为司马昭斩。"
+  },
+  {
+   "name": "曹节",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "十常待之一。"
+  },
+  {
+   "name": "孟德",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，小字"
+  },
+  {
+   "name": "阿瞒",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。遇鬼惊风病故。"
+  },
+  {
+   "name": "曹嵩",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "操父，本姓夏侯，"
+  },
+  {
+   "name": "曹腾",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "养子。为"
+  },
+  {
+   "name": "张闿",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "乱军所杀。"
+  },
+  {
+   "name": "曹仁",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "字"
+  },
+  {
+   "name": "子孝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，病亡。"
+  },
+  {
+   "name": "曹洪",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "字"
+  },
+  {
+   "name": "子廉",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，"
+  },
+  {
+   "name": "曹德",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "曹嵩之弟。为张闿乱军所杀。"
+  },
+  {
+   "name": "曹豹",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "吕布之泰山，为张飞杀。"
+  },
+  {
+   "name": "曹性",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将，射瞎夏侯惇一眼，为其所杀。"
+  },
+  {
+   "name": "曹氏",
+   "chapter_raw": null,
+   "chapter": 26,
+   "note": "曹豹女，吕布次妻。"
+  },
+  {
+   "name": "曹昂",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、十六回，曹操长子，"
+  },
+  {
+   "name": "张绣",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "军杀。曹"
+  },
+  {
+   "name": "安民",
+   "chapter_raw": null,
+   "chapter": 26,
+   "note": "曹操侄，张绣军杀。"
+  },
+  {
+   "name": "子桓",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，卞氏长子。废献帝为王。后感寒疾亡。"
+  },
+  {
+   "name": "曹植",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "卞氏三子。字"
+  },
+  {
+   "name": "子建",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "曹纯",
+   "chapter_raw": null,
+   "chapter": 101,
+   "note": "曹仁弟，"
+  },
+  {
+   "name": "曹休",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "大将军，大司马，兵败石亭，疽发背而亡。"
+  },
+  {
+   "name": "曹永",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "曹仁部将，为庞德杀。"
+  },
+  {
+   "name": "曹彰",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "卞氏次子，字"
+  },
+  {
+   "name": "子文",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。黄须儿，勇而无谋。"
+  },
+  {
+   "name": "曹熊",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "卞氏四子，曹操死不奔丧，自缢。"
+  },
+  {
+   "name": "曹真",
+   "chapter_raw": null,
+   "chapter": 164,
+   "note": "大将军，大司马，字"
+  },
+  {
+   "name": "子丹",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为诸葛亮气死。"
+  },
+  {
+   "name": "曹睿",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "字"
+  },
+  {
+   "name": "元仲",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为"
+  },
+  {
+   "name": "甄氏",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "生，魏明帝。遇冤魂索命，病亡。"
+  },
+  {
+   "name": "曹遵",
+   "chapter_raw": null,
+   "chapter": 183,
+   "note": "曹真宗弟，为"
+  },
+  {
+   "name": "魏延",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "曹宇",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹丕子，燕王"
+  },
+  {
+   "name": "曹芳",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹睿乞养之子，字"
+  },
+  {
+   "name": "兰卿",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为王。被"
+  },
+  {
+   "name": "司马师",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "废。"
+  },
+  {
+   "name": "昭伯",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，大将军，为司马懿斩。"
+  },
+  {
+   "name": "曹羲",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹爽弟，中领军。为司马懿斩"
+  },
+  {
+   "name": "曹训",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹爽弟，武卫将军。为司马懿斩"
+  },
+  {
+   "name": "曹彦",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹爽弟，散骑常侍。为司马懿斩"
+  },
+  {
+   "name": "曹文叔",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "曹爽从弟。"
+  },
+  {
+   "name": "曹髦",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "字士彦，"
+  },
+  {
+   "name": "曹霖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "子。高贵乡公，为王。为成济杀。"
+  },
+  {
+   "name": "曹奂",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "曹宇子，原名璜，字"
+  },
+  {
+   "name": "景明",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，司马昭立为王。为"
+  },
+  {
+   "name": "司马炎",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "废为陈留王。"
+  },
+  {
+   "name": "蔡邕",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "议朗、侍中，字"
+  },
+  {
+   "name": "伯喈",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "王允",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "缢死。"
+  },
+  {
+   "name": "蔡瑁",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "襄阳人，赤壁之战为曹操杀。"
+  },
+  {
+   "name": "蔡阳",
+   "chapter_raw": null,
+   "chapter": 46,
+   "note": "曹将，为关羽所杀。"
+  },
+  {
+   "name": "蔡氏",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "蔡瑁姊，刘表妻，"
+  },
+  {
+   "name": "刘琮",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "母。为于禁军杀。"
+  },
+  {
+   "name": "蔡中",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "蔡瑁族弟，为"
+  },
+  {
+   "name": "甘宁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "蔡和",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "蔡瑁族弟，为"
+  },
+  {
+   "name": "周瑜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "祭旗。"
+  },
+  {
+   "name": "蔡勋",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "蔡瑁族弟。蔡（王熏）：四十五回，蔡瑁弟，为甘宁杀。"
+  },
+  {
+   "name": "蔡琰",
+   "chapter_raw": null,
+   "chapter": 141,
+   "note": "即蔡"
+  },
+  {
+   "name": "文姬",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，蔡邕女。"
+  },
+  {
+   "name": "淳于琼",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "左军校尉，袁绍将。失乌巢，为绍斩。"
+  },
+  {
+   "name": "淳于导",
+   "chapter_raw": null,
+   "chapter": 81,
+   "note": "曹仁部将，为赵云杀。"
+  },
+  {
+   "name": "淳于丹",
+   "chapter_raw": null,
+   "chapter": 164,
+   "note": "吴将。"
+  },
+  {
+   "name": "崔勇",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": ""
+  },
+  {
+   "name": "郭汜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，为徐晃杀。"
+  },
+  {
+   "name": "崔琰",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": "字"
+  },
+  {
+   "name": "季珪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，清河东武人，青州别驾，为操待为上宾。后不满操为魏王，杖杀狱中。崔"
+  },
+  {
+   "name": "州平",
+   "chapter_raw": null,
+   "chapter": 67,
+   "note": "博陵人，诸葛亮友。"
+  },
+  {
+   "name": "朱然",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "部将，为"
+  },
+  {
+   "name": "张苞",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，斩。"
+  },
+  {
+   "name": "崔谅",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "魏安定太守，兵败诈降，为张苞杀。"
+  },
+  {
+   "name": "刘谌",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻。"
+  },
+  {
+   "name": "昌豨",
+   "chapter_raw": null,
+   "chapter": 28,
+   "note": "泰山寇，"
+  },
+  {
+   "name": "杨任",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "部将，为夏侯渊斩。"
+  },
+  {
+   "name": "车胄",
+   "chapter_raw": null,
+   "chapter": 40,
+   "note": "曹将，车骑将军。为关羽杀。"
+  },
+  {
+   "name": "朱桓",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "彻里吉",
+   "chapter_raw": null,
+   "chapter": 184,
+   "note": "西羌国王"
+  },
+  {
+   "name": "董卓",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "陇西临洮人，字"
+  },
+  {
+   "name": "仲颖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "何后",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "废害。"
+  },
+  {
+   "name": "董旻",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "董卓弟。"
+  },
+  {
+   "name": "董璜",
+   "chapter_raw": null,
+   "chapter": 8,
+   "note": "董卓侄。"
+  },
+  {
+   "name": "董承",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "国舅。衣带诏事发，为操杀。"
+  },
+  {
+   "name": "董昭",
+   "chapter_raw": null,
+   "chapter": 24,
+   "note": "济阴定陶人，字"
+  },
+  {
+   "name": "公仁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，洛阳令。进言加九锡。"
+  },
+  {
+   "name": "董袭",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "元代",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，会稽余姚人。东吴将，濡须战，淹死江中。"
+  },
+  {
+   "name": "董贵妃",
+   "chapter_raw": null,
+   "chapter": 44,
+   "note": "董承妹，为操缢死。"
+  },
+  {
+   "name": "董和",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": ""
+  },
+  {
+   "name": "刘璋",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，益州太守，字"
+  },
+  {
+   "name": "幼宰",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，南郡枝江人，"
+  },
+  {
+   "name": "董祀",
+   "chapter_raw": null,
+   "chapter": 141,
+   "note": "蔡琰夫。"
+  },
+  {
+   "name": "董衡",
+   "chapter_raw": null,
+   "chapter": 144,
+   "note": "曹操七军领军将校，为庞德斩。"
+  },
+  {
+   "name": "董超",
+   "chapter_raw": null,
+   "chapter": 144,
+   "note": "曹操七军领军将校，为庞德斩。"
+  },
+  {
+   "name": "董允",
+   "chapter_raw": null,
+   "chapter": 165,
+   "note": "蜀黄门侍郎。"
+  },
+  {
+   "name": "董厥",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀掾吏。国亡忧死。"
+  },
+  {
+   "name": "董荼那",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "孟获第二洞元帅。为"
+  },
+  {
+   "name": "张嶷",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒。释后为获所杀。"
+  },
+  {
+   "name": "关兴",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "董寻",
+   "chapter_raw": null,
+   "chapter": 105,
+   "note": "魏司徒，谏言被废为庶人。"
+  },
+  {
+   "name": "董朝",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "吴中书郎。"
+  },
+  {
+   "name": "丁原",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "字"
+  },
+  {
+   "name": "建阳",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，荆州刺史，为吕布杀。"
+  },
+  {
+   "name": "丁奉",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "庐江人，字"
+  },
+  {
+   "name": "承渊",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "丁斐",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "渭南县令。"
+  },
+  {
+   "name": "丁夫人",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "曹操元配，无出，被黜。"
+  },
+  {
+   "name": "丁仪",
+   "chapter_raw": null,
+   "chapter": 149,
+   "note": "字"
+  },
+  {
+   "name": "正礼",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，与"
+  },
+  {
+   "name": "丁廙",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "兄弟，曹植友，沛郡人，为"
+  },
+  {
+   "name": "许褚",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，曹丕杀。"
+  },
+  {
+   "name": "敬礼",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，与丁仪兄弟，曹植友，沛郡人，为许褚擒，曹丕杀。"
+  },
+  {
+   "name": "丁谧",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹爽门客，字"
+  },
+  {
+   "name": "彦靖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为司马懿斩"
+  },
+  {
+   "name": "丁封",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "吴将，"
+  },
+  {
+   "name": "典韦",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "陈留人。张绣军杀。"
+  },
+  {
+   "name": "典满",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "典韦子。"
+  },
+  {
+   "name": "邓茂",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "黄巾军副将，为张飞所杀。"
+  },
+  {
+   "name": "邓龙",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "黄祖将，为甘宁杀。"
+  },
+  {
+   "name": "邓芝",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀将，降刘。义阳新野人，字"
+  },
+  {
+   "name": "伯苗",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，汉司马"
+  },
+  {
+   "name": "邓禹",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "之后。为"
+  },
+  {
+   "name": "田续",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "邓艾",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "义阳人，字"
+  },
+  {
+   "name": "士载",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，口吃。"
+  },
+  {
+   "name": "邓忠",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "邓艾子，"
+  },
+  {
+   "name": "邓良",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "蜀驸马都尉。降魏。"
+  },
+  {
+   "name": "邓贤",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "刘璋将，为"
+  },
+  {
+   "name": "黄忠",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "射杀。"
+  },
+  {
+   "name": "孟达",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "甥，出首孟达。"
+  },
+  {
+   "name": "杜远",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": ""
+  },
+  {
+   "name": "廖化",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "同伴，为其所杀。"
+  },
+  {
+   "name": "杜袭",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "汉侍中。"
+  },
+  {
+   "name": "杜琼",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀议曹、谏议大夫。"
+  },
+  {
+   "name": "杜路",
+   "chapter_raw": null,
+   "chapter": 162,
+   "note": "洞溪汉将，兵败降吴。"
+  },
+  {
+   "name": "杜微",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀尚书。"
+  },
+  {
+   "name": "杜预",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋镇南大将军。"
+  },
+  {
+   "name": "段珪",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "十常待之一。为"
+  },
+  {
+   "name": "闵贡",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "段煨",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "杀"
+  },
+  {
+   "name": "李傕",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "有功封汉荡寇将军。"
+  },
+  {
+   "name": "傅婴",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、孙高杀。"
+  },
+  {
+   "name": "戴陵",
+   "chapter_raw": null,
+   "chapter": 189,
+   "note": "魏将，"
+  },
+  {
+   "name": "窦武",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "汉灵帝时大将军。"
+  },
+  {
+   "name": "党均",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "魏官，襄阳人。"
+  },
+  {
+   "name": "朵思",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": ""
+  },
+  {
+   "name": "带来洞主",
+   "chapter_raw": null,
+   "chapter": 180,
+   "note": "孟获妻弟，八番部长。"
+  },
+  {
+   "name": "大乔",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": ""
+  },
+  {
+   "name": "孙策",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻。"
+  },
+  {
+   "name": "鄂焕",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": ""
+  },
+  {
+   "name": "高定",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，使方天戟，为魏延、王平、张翼合擒，降，封益州牙将。"
+  },
+  {
+   "name": "俄何",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": ""
+  },
+  {
+   "name": "烧戈",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "羌将。兵败自刎。"
+  },
+  {
+   "name": "傅巽",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "字"
+  },
+  {
+   "name": "公悌",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，荆州东曹掾。降曹，封关内侯。"
+  },
+  {
+   "name": "傅干",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "曹参军，字"
+  },
+  {
+   "name": "彦才",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "傅士仁",
+   "chapter_raw": null,
+   "chapter": 143,
+   "note": "关羽将，荆州失，降吴，后归蜀为刘备剐。"
+  },
+  {
+   "name": "士仁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": ""
+  },
+  {
+   "name": "傅彤",
+   "chapter_raw": null,
+   "chapter": 161,
+   "note": "蜀将。军败，于阵中吐血亡。"
+  },
+  {
+   "name": "傅嘏",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "魏尚书。"
+  },
+  {
+   "name": "傅佥",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "蜀将。兵败自刎。"
+  },
+  {
+   "name": "伏皇后",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": ""
+  },
+  {
+   "name": "汉献帝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻。为华歆捕，操杀。"
+  },
+  {
+   "name": "伏完",
+   "chapter_raw": null,
+   "chapter": 40,
+   "note": "伏皇后之父。为操杀。"
+  },
+  {
+   "name": "樊稠",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "董卓将，韩遂友，被李傕杀。"
+  },
+  {
+   "name": "樊能",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "刘繇部将，为孙策喝死。"
+  },
+  {
+   "name": "樊氏",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": ""
+  },
+  {
+   "name": "赵范",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "嫂。"
+  },
+  {
+   "name": "樊建",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀掾吏，"
+  },
+  {
+   "name": "费观",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "刘璋妻弟，降刘，"
+  },
+  {
+   "name": "费祎",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀将，降刘。字"
+  },
+  {
+   "name": "文伟",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，长史，"
+  },
+  {
+   "name": "费诗",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀将，降刘。前部司马。"
+  },
+  {
+   "name": "费耀",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "曹真中护军大将。中计自刎。"
+  },
+  {
+   "name": "范疆",
+   "chapter_raw": null,
+   "chapter": 161,
+   "note": "张飞将，刺杀飞，降吴。后为吴送归，为张苞剐。"
+  },
+  {
+   "name": "袁尚",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，降曹，为"
+  },
+  {
+   "name": "审配",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "射杀。"
+  },
+  {
+   "name": "冯习",
+   "chapter_raw": null,
+   "chapter": 161,
+   "note": "蜀将。兵败，死于乱军。冯（纟枕）：一百二十回，晋臣。"
+  },
+  {
+   "name": "方悦",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "河内名将，为吕布杀。"
+  },
+  {
+   "name": "逢纪",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "袁绍谋士，辅袁尚，为袁谭杀。"
+  },
+  {
+   "name": "法正",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "字"
+  },
+  {
+   "name": "孝直",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，右扶风郿人，父贤士"
+  },
+  {
+   "name": "法真",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。归刘，"
+  },
+  {
+   "name": "张松",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、孟达友。亡故。"
+  },
+  {
+   "name": "伍习",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "郭嘉",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "字"
+  },
+  {
+   "name": "奉先",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，颖川颖阴人，水土不服，死于易州。"
+  },
+  {
+   "name": "郭图",
+   "chapter_raw": null,
+   "chapter": 42,
+   "note": "袁绍谋士，辅袁谭，"
+  },
+  {
+   "name": "郭奕",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "郭嘉子。"
+  },
+  {
+   "name": "管辂",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "卜出。"
+  },
+  {
+   "name": "伯济",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，魏雍州刺史。为姜维射杀。"
+  },
+  {
+   "name": "女王",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，后为曹丕后。"
+  },
+  {
+   "name": "郭攸之",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀侍郎。"
+  },
+  {
+   "name": "顾雍",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": "字"
+  },
+  {
+   "name": "元叹",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，蔡邕之徒，东吴谋士。"
+  },
+  {
+   "name": "妫览",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "丹阳督将，预占"
+  },
+  {
+   "name": "徐氏",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为傅婴、孙高杀。"
+  },
+  {
+   "name": "公孙瓒",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "刘备友。北平太守，号白马将军。为袁绍败，自焚。"
+  },
+  {
+   "name": "公孙越",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "公孙瓒弟，为袁绍手下乱箭射杀。公"
+  },
+  {
+   "name": "孙康",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": "辽东太守，襄平人，"
+  },
+  {
+   "name": "公孙度",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "之子，斩二袁归曹。"
+  },
+  {
+   "name": "公孙恭",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": ""
+  },
+  {
+   "name": "公孙康",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "弟。"
+  },
+  {
+   "name": "公孙晃",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙康长子。"
+  },
+  {
+   "name": "公孙修",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊子。为司马懿军擒杀。"
+  },
+  {
+   "name": "甘夫人",
+   "chapter_raw": null,
+   "chapter": 42,
+   "note": "小沛人，刘备妻，生子"
+  },
+  {
+   "name": "刘禅",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。病亡。"
+  },
+  {
+   "name": "兴霸",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，巴郡临江人，锦帆贼，降刘表，曾救黄祖，后投吴。患痢疾出征为"
+  },
+  {
+   "name": "沙摩柯",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "射杀。"
+  },
+  {
+   "name": "巩志",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "武陵从事，降刘备。"
+  },
+  {
+   "name": "云长",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，河东解良人。败走麦城，为"
+  },
+  {
+   "name": "马忠",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，斩。"
+  },
+  {
+   "name": "关纯",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": ""
+  },
+  {
+   "name": "韩馥",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "别驾，为"
+  },
+  {
+   "name": "文丑",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "关定",
+   "chapter_raw": null,
+   "chapter": 48,
+   "note": "某庄主。"
+  },
+  {
+   "name": "关宁",
+   "chapter_raw": null,
+   "chapter": 48,
+   "note": "关定长子。学文。"
+  },
+  {
+   "name": "关平",
+   "chapter_raw": null,
+   "chapter": 48,
+   "note": "关定次子，学武，过继为关羽义子。败走麦城，为东吴擒，斩。"
+  },
+  {
+   "name": "安国",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。病亡。"
+  },
+  {
+   "name": "关索",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "关羽三子。"
+  },
+  {
+   "name": "关彝",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "汉寿亭侯，死于乱军。"
+  },
+  {
+   "name": "高升",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "黄巾军副将，为张飞所杀。"
+  },
+  {
+   "name": "高顺",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将。为操擒，杀。"
+  },
+  {
+   "name": "高览",
+   "chapter_raw": null,
+   "chapter": 42,
+   "note": "袁绍将，降曹。"
+  },
+  {
+   "name": "高干",
+   "chapter_raw": null,
+   "chapter": 61,
+   "note": "袁绍外甥，为"
+  },
+  {
+   "name": "王琰",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "高沛",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "刘璋将。为刘备军斩。"
+  },
+  {
+   "name": "高翔",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀玄都侯。"
+  },
+  {
+   "name": "高柔",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "魏司徒。"
+  },
+  {
+   "name": "龚景",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "青州太守。"
+  },
+  {
+   "name": "龚都",
+   "chapter_raw": null,
+   "chapter": 46,
+   "note": "汝南黄巾军。后随刘备，为夏侯渊杀。"
+  },
+  {
+   "name": "龚起",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "蜀禅将，为"
+  },
+  {
+   "name": "王双",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "太史慈",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，刺杀"
+  },
+  {
+   "name": "张辽",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "不成，死。"
+  },
+  {
+   "name": "谷利",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "东吴牙将，合淝救"
+  },
+  {
+   "name": "孙权",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "管亥",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "黄巾军，为关羽杀。"
+  },
+  {
+   "name": "公明",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，平原人，善周易。"
+  },
+  {
+   "name": "耿武",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "韩馥长史，为"
+  },
+  {
+   "name": "颜良",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "耿纪",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "字"
+  },
+  {
+   "name": "季行",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，洛阳人，侍中少府，讨曹操，被斩。"
+  },
+  {
+   "name": "毋丘俭",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将。"
+  },
+  {
+   "name": "侯成",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将。降曹。"
+  },
+  {
+   "name": "侯选",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，降曹。"
+  },
+  {
+   "name": "何进",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "大将军，起身屠家，国舅，为十常侍所杀。"
+  },
+  {
+   "name": "何太后",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "何进妹，贵人，生"
+  },
+  {
+   "name": "刘辩",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为"
+  },
+  {
+   "name": "李儒",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "摔死。"
+  },
+  {
+   "name": "何苗",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "何进弟，钩结十常侍，为乱军杀。"
+  },
+  {
+   "name": "何仪",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "黄巾军，为"
+  },
+  {
+   "name": "李典",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒杀。"
+  },
+  {
+   "name": "何曼",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "黄巾军，为曹洪杀。"
+  },
+  {
+   "name": "何宗",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀祭酒。"
+  },
+  {
+   "name": "何平",
+   "chapter_raw": null,
+   "chapter": 105,
+   "note": "蜀将。"
+  },
+  {
+   "name": "何晏",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹爽门客，字"
+  },
+  {
+   "name": "平叔",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为司马懿斩"
+  },
+  {
+   "name": "何曾",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "。"
+  },
+  {
+   "name": "何氏",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": ""
+  },
+  {
+   "name": "孙皓",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "母。"
+  },
+  {
+   "name": "何植",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴司徒。"
+  },
+  {
+   "name": "韩忠",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "黄巾军，乱军射杀。"
+  },
+  {
+   "name": "义公",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，辽西令支人，使大刀。"
+  },
+  {
+   "name": "马腾",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "交厚，后降曹。左手为"
+  },
+  {
+   "name": "马超",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "断。"
+  },
+  {
+   "name": "韩暹",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "山贼，奉诏救驾，封征北将军，降袁术。关、张杀。"
+  },
+  {
+   "name": "韩胤",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、十六回，袁术将，吕布擒，曹操杀。"
+  },
+  {
+   "name": "韩融",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "汉太仆。"
+  },
+  {
+   "name": "韩嵩",
+   "chapter_raw": null,
+   "chapter": 43,
+   "note": "刘表从事中郎将，归曹。加为大鸿胪。"
+  },
+  {
+   "name": "韩福",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "洛阳太守，为关羽杀。"
+  },
+  {
+   "name": "韩莒子",
+   "chapter_raw": null,
+   "chapter": 60,
+   "note": "袁绍将"
+  },
+  {
+   "name": "韩珩",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": "幽州别驾，不降曹。"
+  },
+  {
+   "name": "韩浩",
+   "chapter_raw": null,
+   "chapter": 69,
+   "note": ""
+  },
+  {
+   "name": "韩玄",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "弟，曹将，为黄忠斩。"
+  },
+  {
+   "name": "韩德",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "西凉大将，开山大斧。为赵云杀。"
+  },
+  {
+   "name": "韩瑛",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "韩德长子，为赵云杀。"
+  },
+  {
+   "name": "韩瑶",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "韩德次子，为赵云擒。"
+  },
+  {
+   "name": "韩琪",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "韩德四子，为赵云杀。"
+  },
+  {
+   "name": "韩暨",
+   "chapter_raw": null,
+   "chapter": 188,
+   "note": "魏太常卿。"
+  },
+  {
+   "name": "韩综",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "魏将，为丁奉杀。"
+  },
+  {
+   "name": "黄盖",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "字"
+  },
+  {
+   "name": "公覆",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，零陵人，使铁鞭。"
+  },
+  {
+   "name": "黄琬",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "太尉，为董卓罢为庶民。"
+  },
+  {
+   "name": "黄劭",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "黄巾军，为许褚擒杀。黄"
+  },
+  {
+   "name": "承彦",
+   "chapter_raw": null,
+   "chapter": 67,
+   "note": "诸葛亮岳父。"
+  },
+  {
+   "name": "汉升",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。初为韩玄将，归刘备。为马忠射伤，归营亡。"
+  },
+  {
+   "name": "黄权",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "字"
+  },
+  {
+   "name": "公衡",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，西阆中巴人，刘璋主簿。降刘，右将军，光禄卿。兵败降魏。"
+  },
+  {
+   "name": "黄皓",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "蜀宦官。为司马昭凌迟。"
+  },
+  {
+   "name": "黄崇",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "蜀将，兵败亡。"
+  },
+  {
+   "name": "皇甫嵩",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "中郎将，加车骑将军，领冀州牧。后被十常侍罢官。"
+  },
+  {
+   "name": "皇甫闿",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "胡轸",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "华雄副将，为程普杀。"
+  },
+  {
+   "name": "胡赤儿",
+   "chapter_raw": null,
+   "chapter": 9,
+   "note": ""
+  },
+  {
+   "name": "牛辅",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "心腹，为吕布杀。"
+  },
+  {
+   "name": "胡车儿",
+   "chapter_raw": null,
+   "chapter": 26,
+   "note": "张绣之偏将，能负五百斤日行七百里。"
+  },
+  {
+   "name": "胡班",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "胡华子，荥阳从事，救关羽。后归蜀。"
+  },
+  {
+   "name": "胡济",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀昭武中郎将。"
+  },
+  {
+   "name": "胡质",
+   "chapter_raw": null,
+   "chapter": 186,
+   "note": "魏东莞太守。"
+  },
+  {
+   "name": "胡遵",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "魏将，征东将军，"
+  },
+  {
+   "name": "胡奋",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "魏将。"
+  },
+  {
+   "name": "胡氏",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": ""
+  },
+  {
+   "name": "刘琰",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻。"
+  },
+  {
+   "name": "胡烈",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "胡渊",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "胡烈子。"
+  },
+  {
+   "name": "胡冲",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴中书令。"
+  },
+  {
+   "name": "华佗",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "元化",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，沛国谯郡人。为曹操杀。"
+  },
+  {
+   "name": "华核",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "吴中书丞。"
+  },
+  {
+   "name": "桓阶",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "孙策之军吏，与刘表有旧。"
+  },
+  {
+   "name": "桓范",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "字"
+  },
+  {
+   "name": "元则",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，魏大司农，\"智囊\"。为司马懿斩。"
+  },
+  {
+   "name": "桓嘉",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "魏将，为丁奉杀。"
+  },
+  {
+   "name": "孙綝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "郝萌",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将。为张飞擒，操杀。"
+  },
+  {
+   "name": "郝昭",
+   "chapter_raw": null,
+   "chapter": 186,
+   "note": "魏将，太原人，字"
+  },
+  {
+   "name": "伯道",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。陈仓太守，病重惊亡。"
+  },
+  {
+   "name": "和洽",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "汉侍中。"
+  },
+  {
+   "name": "霍峻",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "字"
+  },
+  {
+   "name": "仲邈",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，南郡枝江人，蜀将。"
+  },
+  {
+   "name": "霍弋",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "蜀建宁太守。"
+  },
+  {
+   "name": "公奕",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，九江寿春人。"
+  },
+  {
+   "name": "蒋奇",
+   "chapter_raw": null,
+   "chapter": 60,
+   "note": "袁绍将，为张辽斩。"
+  },
+  {
+   "name": "蒋义渠",
+   "chapter_raw": null,
+   "chapter": 61,
+   "note": "袁绍将。"
+  },
+  {
+   "name": "蒋干",
+   "chapter_raw": null,
+   "chapter": 85,
+   "note": "九江人，字"
+  },
+  {
+   "name": "子翼",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，周瑜友，曹操帐下幕宾。"
+  },
+  {
+   "name": "蒋琬",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "字"
+  },
+  {
+   "name": "公琰",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，零陵湘乡人，荆襄名士，归刘，"
+  },
+  {
+   "name": "蒋济",
+   "chapter_raw": null,
+   "chapter": 145,
+   "note": "曹军主簿。魏太尉。"
+  },
+  {
+   "name": "诸葛恪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "贬为庶人。"
+  },
+  {
+   "name": "蒋班",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": ""
+  },
+  {
+   "name": "诸葛诞",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "谋士，降司马昭。"
+  },
+  {
+   "name": "蒋舒",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "蜀将。降魏。"
+  },
+  {
+   "name": "蒋斌",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "蜀将。降魏。"
+  },
+  {
+   "name": "蒋显",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "蜀太仆。"
+  },
+  {
+   "name": "贾诩",
+   "chapter_raw": null,
+   "chapter": 9,
+   "note": "字"
+  },
+  {
+   "name": "文和",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，李傕谋士，降汉，魏太慰，病亡。"
+  },
+  {
+   "name": "贾华",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "东吴将。"
+  },
+  {
+   "name": "贾逵",
+   "chapter_raw": null,
+   "chapter": 149,
+   "note": "汉谏议大夫，魏建威将军。"
+  },
+  {
+   "name": "贾范",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊副将。谏言被公孙渊斩。"
+  },
+  {
+   "name": "贾充",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "字"
+  },
+  {
+   "name": "公闾",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，贾逵子，司马昭心腹。"
+  },
+  {
+   "name": "吉太",
+   "chapter_raw": null,
+   "chapter": 43,
+   "note": "字"
+  },
+  {
+   "name": "正平",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，皆呼"
+  },
+  {
+   "name": "吉平",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，洛阳人，太医，为操获，撞阶而死。"
+  },
+  {
+   "name": "文然",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，起事为乱军杀。"
+  },
+  {
+   "name": "金旋",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "武陵太守，为巩志杀。"
+  },
+  {
+   "name": "金祎",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": ""
+  },
+  {
+   "name": "韦晃",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "心腹，与"
+  },
+  {
+   "name": "王必",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "交厚，讨曹操，为乱军杀。"
+  },
+  {
+   "name": "金环三结",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "孟获第一洞元帅。为赵云杀。"
+  },
+  {
+   "name": "焦触",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": ""
+  },
+  {
+   "name": "袁熙",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，降曹，为韩当斩。"
+  },
+  {
+   "name": "焦炳",
+   "chapter_raw": null,
+   "chapter": 141,
+   "note": "魏将，为赵云杀。"
+  },
+  {
+   "name": "焦彝",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "诸葛诞谋士，降司马昭。"
+  },
+  {
+   "name": "杨阜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "为姑表兄弟，抚彝将军。"
+  },
+  {
+   "name": "伯约",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。兵败诈降不成自刎。"
+  },
+  {
+   "name": "沮授",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "袁绍谋士，被绍下狱，为操获，不降，斩。"
+  },
+  {
+   "name": "沮鹄",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "沮授之子，为张辽射杀。"
+  },
+  {
+   "name": "句安",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "蜀将。降魏。"
+  },
+  {
+   "name": "蹇硕",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "十常待之一。为郭胜所杀。"
+  },
+  {
+   "name": "纪灵",
+   "chapter_raw": null,
+   "chapter": 24,
+   "note": "袁术将，山东人，五十斤三尖刀，为张飞杀。"
+  },
+  {
+   "name": "简雍",
+   "chapter_raw": null,
+   "chapter": 28,
+   "note": "字"
+  },
+  {
+   "name": "宪和",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，涿郡人。明阴阳。"
+  },
+  {
+   "name": "孙坚",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "军，袁绍乡人，密告孙坚得玺。"
+  },
+  {
+   "name": "孔融",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "北海太守，字"
+  },
+  {
+   "name": "文举",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。鲁国曲阜人。为操杀。"
+  },
+  {
+   "name": "世元",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，江夏八俊之一。"
+  },
+  {
+   "name": "孔秀",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、二十七回，东岭关守将，为关羽杀。"
+  },
+  {
+   "name": "蒯良",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "延平人，字"
+  },
+  {
+   "name": "子柔",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "蒯越",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "延平人，字"
+  },
+  {
+   "name": "异度",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。刘表谋士，降曹，封江陵太守。"
+  },
+  {
+   "name": "阚泽",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "会稽山阴人，字"
+  },
+  {
+   "name": "德润",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，献诈降书。"
+  },
+  {
+   "name": "轲比能",
+   "chapter_raw": null,
+   "chapter": 165,
+   "note": "辽东鲜卑国国王。"
+  },
+  {
+   "name": "刘焉",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "幽州太守。江夏竟陵人，汉鲁恭王之后。刘璋父。益州牧，患病疽死。"
+  },
+  {
+   "name": "玄德",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，中山靖王刘胜之后。祖刘雄，父"
+  },
+  {
+   "name": "刘弘",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "刘虞",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "幽州牧，平寇有功，封太尉。"
+  },
+  {
+   "name": "少帝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。废为"
+  },
+  {
+   "name": "弘农王",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为董卓鸩酒害。"
+  },
+  {
+   "name": "刘协",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "陈留王，表字"
+  },
+  {
+   "name": "伯和",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，灵帝中子，汉献帝，被曹丕废为"
+  },
+  {
+   "name": "山阳公",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "刘岱",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "初为兖州刺史。降曹为张飞擒，为操黜罢爵禄，"
+  },
+  {
+   "name": "景升",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，山阳高平人，汉室宗亲。江夏八俊之一。病死。"
+  },
+  {
+   "name": "刘范",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "左中朗将。"
+  },
+  {
+   "name": "刘晔",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "字"
+  },
+  {
+   "name": "子阳",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，淮南成德人。曹操谋士。"
+  },
+  {
+   "name": "季玉",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。降刘备，打发去南郡公安。"
+  },
+  {
+   "name": "刘安",
+   "chapter_raw": null,
+   "chapter": 29,
+   "note": "猎户，杀妻食刘备，瞎搞。"
+  },
+  {
+   "name": "刘延",
+   "chapter_raw": null,
+   "chapter": 45,
+   "note": "东郡太守，"
+  },
+  {
+   "name": "刘辟",
+   "chapter_raw": null,
+   "chapter": 46,
+   "note": "汝南黄巾军。随刘备，为高览杀。"
+  },
+  {
+   "name": "刘勋",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": "庐江太守，为孙策败。刘"
+  },
+  {
+   "name": "子扬",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": ""
+  },
+  {
+   "name": "鲁肃",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "友。"
+  },
+  {
+   "name": "阿斗",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "刘泌",
+   "chapter_raw": null,
+   "chapter": 66,
+   "note": "长沙人，汉室宗亲，樊城县令。"
+  },
+  {
+   "name": "刘封",
+   "chapter_raw": null,
+   "chapter": 66,
+   "note": "原姓寇，刘泌甥，刘备义子。不救关羽，为刘备斩。"
+  },
+  {
+   "name": "刘先",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "荆州别驾。降曹。"
+  },
+  {
+   "name": "刘馥",
+   "chapter_raw": null,
+   "chapter": 88,
+   "note": "扬州刺史，字"
+  },
+  {
+   "name": "元颖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，沛国相人，久事曹操，为操酒后杀。"
+  },
+  {
+   "name": "刘度",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "零陵太守。"
+  },
+  {
+   "name": "刘贤",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "刘度子，为张飞捉，降。"
+  },
+  {
+   "name": "刘磐",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "刘表侄，后为长沙太守。刘（王贵）：六十回，刘璋将，为张翼杀。"
+  },
+  {
+   "name": "刘巴",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "字"
+  },
+  {
+   "name": "子初",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，零陵烝阳人，刘璋士。降刘，左将军。"
+  },
+  {
+   "name": "刘循",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "刘璋长子。刘（日俊）：六十五回，刘璋将，为赵云杀。"
+  },
+  {
+   "name": "刘氏",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "曹操妾，曹昂母。刘（分阝）：六十九回，太守，管辂卜之。"
+  },
+  {
+   "name": "刘瑁",
+   "chapter_raw": null,
+   "chapter": 147,
+   "note": "刘焉子，娶"
+  },
+  {
+   "name": "吴氏",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，早？#124；。"
+  },
+  {
+   "name": "刘永",
+   "chapter_raw": null,
+   "chapter": 147,
+   "note": "字"
+  },
+  {
+   "name": "公寿",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，刘备子，吴氏生。"
+  },
+  {
+   "name": "刘理",
+   "chapter_raw": null,
+   "chapter": 147,
+   "note": "字"
+  },
+  {
+   "name": "奉孝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，刘备子，吴氏生。"
+  },
+  {
+   "name": "刘廙",
+   "chapter_raw": null,
+   "chapter": 149,
+   "note": "奏献帝让位。"
+  },
+  {
+   "name": "刘豹",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀阳泉侯。"
+  },
+  {
+   "name": "刘敏",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀偏将军。"
+  },
+  {
+   "name": "刘劭",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "曹将，"
+  },
+  {
+   "name": "刘放",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "魏侍中光禄大夫。"
+  },
+  {
+   "name": "刘丞",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "吴将。为孙綝杀。"
+  },
+  {
+   "name": "刘寔",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏相国参军。刘（王睿）：一百十八回，刘禅长子。死于乱军。"
+  },
+  {
+   "name": "刘瓒",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "刘禅四子。"
+  },
+  {
+   "name": "李肃",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "虎贲中郎将，吕布友。斩董卓首级，后为吕布杀。"
+  },
+  {
+   "name": "曼成",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "李蒙",
+   "chapter_raw": null,
+   "chapter": 9,
+   "note": "董卓余党。死于马超之手。"
+  },
+  {
+   "name": "李封",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将。为许褚斩。"
+  },
+  {
+   "name": "李暹",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "李傕之侄，为许褚斩。"
+  },
+  {
+   "name": "李乐",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "山贼，奉诏救驾，封征东将军。为徐晃杀。"
+  },
+  {
+   "name": "李丰",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "袁术将，操擒杀。"
+  },
+  {
+   "name": "李通",
+   "chapter_raw": null,
+   "chapter": 28,
+   "note": "江夏平春人，字"
+  },
+  {
+   "name": "文达",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，操将。为马超杀。"
+  },
+  {
+   "name": "李孚",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "袁尚主簿。"
+  },
+  {
+   "name": "李珪",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "刘表幕官，为蔡瑁斩。"
+  },
+  {
+   "name": "李堪",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，为于禁误射杀。"
+  },
+  {
+   "name": "李恢",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "建宁俞元人，刘璋士。归刘，"
+  },
+  {
+   "name": "李严",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "南阳人，字"
+  },
+  {
+   "name": "正方",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，刘璋将，降刘，后犯错，被谪为庶人。闻亮死病亡。"
+  },
+  {
+   "name": "李异",
+   "chapter_raw": null,
+   "chapter": 162,
+   "note": ""
+  },
+  {
+   "name": "孙桓",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "之大将，为关兴杀。"
+  },
+  {
+   "name": "李譔",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀博士。"
+  },
+  {
+   "name": "李辅",
+   "chapter_raw": null,
+   "chapter": 184,
+   "note": "孟达心腹，出首孟达。"
+  },
+  {
+   "name": "李服",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "魏将。"
+  },
+  {
+   "name": "李福",
+   "chapter_raw": null,
+   "chapter": 104,
+   "note": "蜀尚书。"
+  },
+  {
+   "name": "李胜",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "曹爽门客，字"
+  },
+  {
+   "name": "公昭",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "李歆",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "蜀将。"
+  },
+  {
+   "name": "李鹏",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "魏将。为傅佥杀。"
+  },
+  {
+   "name": "马邈",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻，自缢。"
+  },
+  {
+   "name": "李球",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "蜀将，兵败亡。"
+  },
+  {
+   "name": "宋宪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、"
+  },
+  {
+   "name": "魏续",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，操杀。吕"
+  },
+  {
+   "name": "伯奢",
+   "chapter_raw": null,
+   "chapter": 4,
+   "note": "成皋人，曹操义叔。为操杀。"
+  },
+  {
+   "name": "吕公",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "刘表健将，为程普杀。"
+  },
+  {
+   "name": "吕虔",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "字"
+  },
+  {
+   "name": "子恪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，武城人。"
+  },
+  {
+   "name": "吕范",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "子衡",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，汝南细阳人，初为袁术谋士，后随吴。"
+  },
+  {
+   "name": "吕威璜",
+   "chapter_raw": null,
+   "chapter": 60,
+   "note": "袁绍将。"
+  },
+  {
+   "name": "吕翔",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "袁尚将，降曹。为张飞杀。"
+  },
+  {
+   "name": "子明",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，汝南人。为关羽付魂而亡。"
+  },
+  {
+   "name": "吕义",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀将，降刘。"
+  },
+  {
+   "name": "吕常",
+   "chapter_raw": null,
+   "chapter": 143,
+   "note": "曹仁部将，"
+  },
+  {
+   "name": "吕建",
+   "chapter_raw": null,
+   "chapter": 145,
+   "note": "曹将，"
+  },
+  {
+   "name": "吕霸",
+   "chapter_raw": null,
+   "chapter": 147,
+   "note": "吕蒙子。"
+  },
+  {
+   "name": "吕凯",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀永昌郡功曹，字"
+  },
+  {
+   "name": "季平",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "吕岱",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴大司马。"
+  },
+  {
+   "name": "吕据",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴将，为孙綝杀。"
+  },
+  {
+   "name": "陆康",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "庐江太守。"
+  },
+  {
+   "name": "陆绩",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "吴郡人，字"
+  },
+  {
+   "name": "公绩",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "陆逊",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "吴郡人，本名"
+  },
+  {
+   "name": "陆议",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，后改逊，字"
+  },
+  {
+   "name": "伯言",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。孙策婿。"
+  },
+  {
+   "name": "陆凯",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴丞相。"
+  },
+  {
+   "name": "陆景",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴将。为"
+  },
+  {
+   "name": "张尚",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "梁刚",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "袁术将，操擒杀。"
+  },
+  {
+   "name": "梁兴",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，为马超杀。"
+  },
+  {
+   "name": "梁绪",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "魏天水功曹，降蜀。"
+  },
+  {
+   "name": "梁虔",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "魏天水主记，梁绪弟，降蜀。"
+  },
+  {
+   "name": "元俭",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，襄阳人，初劫掠为生，归刘。国亡忧死。"
+  },
+  {
+   "name": "廖淳",
+   "chapter_raw": null,
+   "chapter": 161,
+   "note": "蜀将。"
+  },
+  {
+   "name": "廖立",
+   "chapter_raw": null,
+   "chapter": 104,
+   "note": "蜀长水校尉，自负遭贬。"
+  },
+  {
+   "name": "路昭",
+   "chapter_raw": null,
+   "chapter": 41,
+   "note": "曹将，"
+  },
+  {
+   "name": "骆统",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "乌伤人，字"
+  },
+  {
+   "name": "公绪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "卢植",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "中郎将，刘备之师。"
+  },
+  {
+   "name": "荀恺",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "射杀。"
+  },
+  {
+   "name": "留赞",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴将。"
+  },
+  {
+   "name": "留略",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴将。"
+  },
+  {
+   "name": "留平",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴将军，为孙皓杀。"
+  },
+  {
+   "name": "子敬",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，临淮东川人。病故。"
+  },
+  {
+   "name": "凌操",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "土人。为甘宁杀。"
+  },
+  {
+   "name": "凌统",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "凌操子。"
+  },
+  {
+   "name": "雷薄",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "袁术将，"
+  },
+  {
+   "name": "雷铜",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "刘璋将，降刘，为"
+  },
+  {
+   "name": "张合",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。娄"
+  },
+  {
+   "name": "子伯",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "京兆人，隐居终南山，道号"
+  },
+  {
+   "name": "梦梅居士",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "兵。"
+  },
+  {
+   "name": "赖恭",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀太常卿。"
+  },
+  {
+   "name": "来敏",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀祭酒。"
+  },
+  {
+   "name": "伦直",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊参军。裳晕镌ㄕ丁？br>"
+  },
+  {
+   "name": "柳甫",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊御史太夫，为司马懿斩。"
+  },
+  {
+   "name": "楼玄",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴大司农，为孙皓杀。"
+  },
+  {
+   "name": "元义",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "黄巾军，为何进斩。"
+  },
+  {
+   "name": "寿成",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，马援之后，为曹操害。"
+  },
+  {
+   "name": "马肃",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "马腾父，字"
+  },
+  {
+   "name": "子硕",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，桓帝时为天水兰干县尉，娶羌女生马腾。"
+  },
+  {
+   "name": "马日磾",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "太傅。"
+  },
+  {
+   "name": "马宇",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "侍中。"
+  },
+  {
+   "name": "孟起",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。病故。"
+  },
+  {
+   "name": "马融",
+   "chapter_raw": null,
+   "chapter": 42,
+   "note": ""
+  },
+  {
+   "name": "郑玄",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "师。"
+  },
+  {
+   "name": "马延",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "袁尚将，降曹，为甘宁杀。"
+  },
+  {
+   "name": "马谡",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "字"
+  },
+  {
+   "name": "幼常",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，失街亭，为诸葛亮斩。"
+  },
+  {
+   "name": "马良",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "字"
+  },
+  {
+   "name": "季常",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，马谡兄。病亡。"
+  },
+  {
+   "name": "马休",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "马腾次子，为曹操害。"
+  },
+  {
+   "name": "马铁",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "马腾三子，为曹军射死。"
+  },
+  {
+   "name": "马玩",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，为马超杀。"
+  },
+  {
+   "name": "潘璋",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "部将，擒关羽，为"
+  },
+  {
+   "name": "糜芳",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、傅士仁刺杀。"
+  },
+  {
+   "name": "祝融",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "夫人擒，奋威将军，博阳亭侯。"
+  },
+  {
+   "name": "马遵",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "魏天水太守，"
+  },
+  {
+   "name": "孟坦",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "洛阳牙将，为关羽杀。孟"
+  },
+  {
+   "name": "公威",
+   "chapter_raw": null,
+   "chapter": 67,
+   "note": "汝南人，诸葛亮友。"
+  },
+  {
+   "name": "申耽",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "孟光",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀谏议郎。"
+  },
+  {
+   "name": "杨锋",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "及子擒第六次诈降被擒，第七次为马岱擒。降。"
+  },
+  {
+   "name": "孟优",
+   "chapter_raw": null,
+   "chapter": 168,
+   "note": "孟获弟。为赵云、张翼擒，"
+  },
+  {
+   "name": "孟节",
+   "chapter_raw": null,
+   "chapter": 169,
+   "note": "孟获兄，号"
+  },
+  {
+   "name": "万安隐者",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "孟宗",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "吴中书郎。"
+  },
+  {
+   "name": "糜竺",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "东海朐县人，字"
+  },
+  {
+   "name": "子仲",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。后为蜀安汉将军。糜芳、十八回，糜竺弟。荆州失，降吴，归蜀为刘备剐。"
+  },
+  {
+   "name": "糜夫人",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "糜竺妹，刘备次妻。投井亡。"
+  },
+  {
+   "name": "穆顺",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "张扬部将，为吕布杀。"
+  },
+  {
+   "name": "满宠",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "山阳昌邑人，字"
+  },
+  {
+   "name": "伯宁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "毛玠",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "陈留平邱人，字"
+  },
+  {
+   "name": "孝先",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "祢衡",
+   "chapter_raw": null,
+   "chapter": 43,
+   "note": "孔融友，字正平，为黄祖杀。"
+  },
+  {
+   "name": "慕容烈",
+   "chapter_raw": null,
+   "chapter": 141,
+   "note": ""
+  },
+  {
+   "name": "慕容",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "烈"
+  },
+  {
+   "name": "文聘",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "副将，为赵云杀。"
+  },
+  {
+   "name": "忙牙长",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "孟获将。为马岱斩。"
+  },
+  {
+   "name": "木鹿大王",
+   "chapter_raw": null,
+   "chapter": 180,
+   "note": "八纳洞洞主，死于乱军。"
+  },
+  {
+   "name": "迷当",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "羌王。先助姜维，兵败降魏。"
+  },
+  {
+   "name": "牛金",
+   "chapter_raw": null,
+   "chapter": 101,
+   "note": "曹将，"
+  },
+  {
+   "name": "宁随",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "姜维副将。"
+  },
+  {
+   "name": "南华老仙",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "授"
+  },
+  {
+   "name": "张角",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "《太平要术》。"
+  },
+  {
+   "name": "区星",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "在长沙反。为孙坚平。"
+  },
+  {
+   "name": "潘凤",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "韩馥手下上将，使大斧。"
+  },
+  {
+   "name": "文珪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，东郡人。为关兴杀。"
+  },
+  {
+   "name": "潘濬",
+   "chapter_raw": null,
+   "chapter": 143,
+   "note": "关羽将，平生多忌而好利，治中。失荆州，降吴。"
+  },
+  {
+   "name": "潘夫人",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "孙权妻。"
+  },
+  {
+   "name": "庞德公",
+   "chapter_raw": null,
+   "chapter": 65,
+   "note": "襄阳人，字山民，"
+  },
+  {
+   "name": "庞统",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "之叔。"
+  },
+  {
+   "name": "士元",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，"
+  },
+  {
+   "name": "凤雏",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，中计于落凤坡，为"
+  },
+  {
+   "name": "张任",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "军射杀。"
+  },
+  {
+   "name": "令明",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，南安人，原为马超心腹，后归曹，为"
+  },
+  {
+   "name": "周仓",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "擒，关羽斩。"
+  },
+  {
+   "name": "庞羲",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "巴西太守。"
+  },
+  {
+   "name": "庞柔",
+   "chapter_raw": null,
+   "chapter": 144,
+   "note": "庞德兄，蜀官。"
+  },
+  {
+   "name": "庞会",
+   "chapter_raw": null,
+   "chapter": 144,
+   "note": "庞德子。魏将。"
+  },
+  {
+   "name": "彭羕",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "字永言，广汉人，与孟达友，刘璋士，归刘。欲反，为马超擒，赐死狱中。"
+  },
+  {
+   "name": "裴元绍",
+   "chapter_raw": null,
+   "chapter": 48,
+   "note": "旧为黄巾军，与周仓占"
+  },
+  {
+   "name": "卧龙",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "山，为赵云误杀。"
+  },
+  {
+   "name": "夏侯楙",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "必腹用名。"
+  },
+  {
+   "name": "裴秀",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "魏散骑长史。"
+  },
+  {
+   "name": "普净",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "解良人，救关羽。后至玉泉山参道。"
+  },
+  {
+   "name": "濮阳兴",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴丞相。为孙皓斩。"
+  },
+  {
+   "name": "全琮",
+   "chapter_raw": null,
+   "chapter": 186,
+   "note": "吴绥南将军，字"
+  },
+  {
+   "name": "子璜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "全端",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴将。降魏。"
+  },
+  {
+   "name": "全怿",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "吴将。全端弟。降魏。"
+  },
+  {
+   "name": "全祎",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "全端子。降魏。"
+  },
+  {
+   "name": "全纪",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "吴黄门侍郎，国舅。"
+  },
+  {
+   "name": "全尚",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "全纪父，为孙綝杀。"
+  },
+  {
+   "name": "秦琪",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "蔡阳之甥，夏侯惇部将，黄河渡口守将。为关羽杀。"
+  },
+  {
+   "name": "秦宓",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "字子勑，广汉绵竹人，降刘。蜀从事。"
+  },
+  {
+   "name": "秦良",
+   "chapter_raw": null,
+   "chapter": 100,
+   "note": "为廖化斩。"
+  },
+  {
+   "name": "秦朗",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "魏将，死于乱军。"
+  },
+  {
+   "name": "秦明",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "秦朗弟，为"
+  },
+  {
+   "name": "郑文",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "桥玄",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、"
+  },
+  {
+   "name": "桥蕤",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "袁术将，夏侯惇杀。"
+  },
+  {
+   "name": "乔瑁",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "初为东郡太守。因借粮事为刘岱杀。"
+  },
+  {
+   "name": "乔国老",
+   "chapter_raw": null,
+   "chapter": 104,
+   "note": "二乔之父。"
+  },
+  {
+   "name": "丘建",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "丘本",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "魏将。"
+  },
+  {
+   "name": "谯周",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "字"
+  },
+  {
+   "name": "允南",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，巴西西充国人，素晓天文，归刘，降魏。"
+  },
+  {
+   "name": "牵弘",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏陇西太守。"
+  },
+  {
+   "name": "任峻",
+   "chapter_raw": null,
+   "chapter": 24,
+   "note": "操将，典农中郎将。"
+  },
+  {
+   "name": "任夔",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "蜀牙将，为曹洪斩。"
+  },
+  {
+   "name": "孙仲",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "黄巾军，为刘备射杀。"
+  },
+  {
+   "name": "文台",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，孙武子之后。为刘表乱箭射杀。"
+  },
+  {
+   "name": "伯符",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "吴夫人",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "生。"
+  },
+  {
+   "name": "仲谋",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。吴夫人生。受惊成病，亡。"
+  },
+  {
+   "name": "叔弼",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。吴夫人生。丹阳太守，为边洪杀。"
+  },
+  {
+   "name": "孙匡",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "孙坚四子，字"
+  },
+  {
+   "name": "季佐",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。吴夫人生。娶曹仁女。"
+  },
+  {
+   "name": "孙朗",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "孙坚子，"
+  },
+  {
+   "name": "吴国太",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "生。字"
+  },
+  {
+   "name": "早安",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "孙仁",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "孙坚女，吴国太生。刘备妻"
+  },
+  {
+   "name": "孙夫人",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。投江亡。"
+  },
+  {
+   "name": "孙韶",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "孙坚子，过房俞氏生，字"
+  },
+  {
+   "name": "公礼",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "孙静",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "孙坚弟，字"
+  },
+  {
+   "name": "幼台",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "孙乾",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "北海人，字公佑。"
+  },
+  {
+   "name": "孙观",
+   "chapter_raw": null,
+   "chapter": 28,
+   "note": "泰山寇，降曹。"
+  },
+  {
+   "name": "孙瑜",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "孙权弟。"
+  },
+  {
+   "name": "孙皎",
+   "chapter_raw": null,
+   "chapter": 145,
+   "note": "孙静次子，字叔明。"
+  },
+  {
+   "name": "叔武",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，"
+  },
+  {
+   "name": "孙河",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "长子。"
+  },
+  {
+   "name": "孙礼",
+   "chapter_raw": null,
+   "chapter": 185,
+   "note": "魏将，御前斩虎，曹真心腹。"
+  },
+  {
+   "name": "孙资",
+   "chapter_raw": null,
+   "chapter": 186,
+   "note": "魏尚书。"
+  },
+  {
+   "name": "孙登",
+   "chapter_raw": null,
+   "chapter": 188,
+   "note": "孙权长子。徐夫人生。早亡。"
+  },
+  {
+   "name": "孙和",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "孙权次子。"
+  },
+  {
+   "name": "王夫人",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "生，被废亡。"
+  },
+  {
+   "name": "孙亮",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "孙权三子，潘夫人生，为帝。被孙綝废为会稽王。"
+  },
+  {
+   "name": "孙峻",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "孙静曾孙，孙恭子，字"
+  },
+  {
+   "name": "子远",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，掌吴御林军马，"
+  },
+  {
+   "name": "子通",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为"
+  },
+  {
+   "name": "张布",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "孙干",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "孙綝弟，吴偏将军。"
+  },
+  {
+   "name": "孙休",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "字子烈，孙权六子，为王。忧虑亡。"
+  },
+  {
+   "name": "元宗",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为吴王。降晋。"
+  },
+  {
+   "name": "孙异",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "吴将。孙（雨上单下）：一百二十回，孙休太子。"
+  },
+  {
+   "name": "孙冀",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴左将军。"
+  },
+  {
+   "name": "孙歆",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴骠骑将军。为"
+  },
+  {
+   "name": "周旨",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "孙秀",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋骠骑将军。"
+  },
+  {
+   "name": "苏双",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "中山贩马商人。"
+  },
+  {
+   "name": "苏由",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "袁尚将。"
+  },
+  {
+   "name": "苏飞",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "刘表将，放甘宁，为潘璋擒降吴。"
+  },
+  {
+   "name": "司马徽",
+   "chapter_raw": null,
+   "chapter": 65,
+   "note": "颖川人，字"
+  },
+  {
+   "name": "德操",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，水镜先生。"
+  },
+  {
+   "name": "仲达",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，河内温人。病亡。"
+  },
+  {
+   "name": "司马防",
+   "chapter_raw": null,
+   "chapter": 69,
+   "note": "司马懿之父，汉京兆尹。"
+  },
+  {
+   "name": "司马朗",
+   "chapter_raw": null,
+   "chapter": 69,
+   "note": "司马懿之兄，汉主簿。"
+  },
+  {
+   "name": "司马孚",
+   "chapter_raw": null,
+   "chapter": 148,
+   "note": "中庶子。"
+  },
+  {
+   "name": "子元",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。眼下长瘤。疮迸而亡。"
+  },
+  {
+   "name": "司马望",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "魏长城守将，司马昭族兄。曾与"
+  },
+  {
+   "name": "崔州平",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，石"
+  },
+  {
+   "name": "广元",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "为友。"
+  },
+  {
+   "name": "司马攸",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "司马昭次子，过继给司马师。"
+  },
+  {
+   "name": "宋忠",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "荆州幕僚。"
+  },
+  {
+   "name": "宋谦",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "东吴将，为李典射杀。"
+  },
+  {
+   "name": "宋白",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "魏慎县县令，杀毋丘俭。"
+  },
+  {
+   "name": "眭固",
+   "chapter_raw": null,
+   "chapter": 29,
+   "note": ""
+  },
+  {
+   "name": "张杨",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "心腹，为"
+  },
+  {
+   "name": "史涣",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。眭"
+  },
+  {
+   "name": "元进",
+   "chapter_raw": null,
+   "chapter": 60,
+   "note": "袁绍将。为曹兵所杀。"
+  },
+  {
+   "name": "石苞",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "魏将。"
+  },
+  {
+   "name": "申仪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "、七十九回，申耽兄弟，蜀房陵都有尉，降魏。出首孟达。"
+  },
+  {
+   "name": "周泰",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "杀。"
+  },
+  {
+   "name": "师纂",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "魏将。"
+  },
+  {
+   "name": "施朔",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "吴武卫士。"
+  },
+  {
+   "name": "邵悌",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "魏西曹掾。"
+  },
+  {
+   "name": "山涛",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "。"
+  },
+  {
+   "name": "沈莹",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴左将军。为周旨杀。"
+  },
+  {
+   "name": "田丰",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "袁绍谋士，被下狱，袁绍兵败，逢纪谗言，自刎于狱中。"
+  },
+  {
+   "name": "田楷",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "青州太守。"
+  },
+  {
+   "name": "田氏",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "濮阳富户。"
+  },
+  {
+   "name": "田畴",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": "袁绍旧将，归曹。"
+  },
+  {
+   "name": "田豫",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "曹将，"
+  },
+  {
+   "name": "田章",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "唐周",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "张角弟子，反叛。"
+  },
+  {
+   "name": "唐咨",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴将。降魏。"
+  },
+  {
+   "name": "唐彬",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋广武将军。"
+  },
+  {
+   "name": "陶谦",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "徐州刺史，字"
+  },
+  {
+   "name": "恭祖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "陶商",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "陶谦长子。"
+  },
+  {
+   "name": "陶应",
+   "chapter_raw": null,
+   "chapter": 22,
+   "note": "陶谦次子。"
+  },
+  {
+   "name": "陶濬",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴将。"
+  },
+  {
+   "name": "子义",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为张辽军射杀。"
+  },
+  {
+   "name": "太史亨",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "太史慈子。"
+  },
+  {
+   "name": "滕胤",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "吴太常，大司马，为孙綝杀。"
+  },
+  {
+   "name": "滕循",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴司空。"
+  },
+  {
+   "name": "蹋顿",
+   "chapter_raw": null,
+   "chapter": 63,
+   "note": "乌桓将，为张辽斩。"
+  },
+  {
+   "name": "谭雄",
+   "chapter_raw": null,
+   "chapter": 162,
+   "note": "吴军裨将。为关兴擒斩。"
+  },
+  {
+   "name": "土安",
+   "chapter_raw": null,
+   "chapter": 180,
+   "note": "乌戈国领兵俘长。为诸葛亮烧死。"
+  },
+  {
+   "name": "王美人",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "灵帝宠，生刘协，为何太后所鸩杀。"
+  },
+  {
+   "name": "王匡",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "初为汉河内郡太守。"
+  },
+  {
+   "name": "王方",
+   "chapter_raw": null,
+   "chapter": 9,
+   "note": "董卓余党。死于马超之手。"
+  },
+  {
+   "name": "王颀",
+   "chapter_raw": null,
+   "chapter": 9,
+   "note": "越骑校尉，死于国难。"
+  },
+  {
+   "name": "王昌",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "李傕虎贲将。"
+  },
+  {
+   "name": "王邑",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "汉河东太守。"
+  },
+  {
+   "name": "王立",
+   "chapter_raw": null,
+   "chapter": 24,
+   "note": "汉侍中太史令。"
+  },
+  {
+   "name": "王朗",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "会稽太守，归曹。魏司徒，为诸葛亮骂死。"
+  },
+  {
+   "name": "王则",
+   "chapter_raw": null,
+   "chapter": 26,
+   "note": "操将，奉军都尉。王（上后下土）：十七回，操将，仓官，为操杀。"
+  },
+  {
+   "name": "王楷",
+   "chapter_raw": null,
+   "chapter": 29,
+   "note": "吕布谋士，"
+  },
+  {
+   "name": "王子服",
+   "chapter_raw": null,
+   "chapter": 40,
+   "note": "汉侍郎，衣带诏事发，为操杀。"
+  },
+  {
+   "name": "王忠",
+   "chapter_raw": null,
+   "chapter": 42,
+   "note": "曹将为关羽擒，为操黜罢爵禄。"
+  },
+  {
+   "name": "王植",
+   "chapter_raw": null,
+   "chapter": 47,
+   "note": "荥阳太守，与韩福亲家，为关羽杀。"
+  },
+  {
+   "name": "王修",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "袁谭别驾。被逐，为曹操待为上宾。"
+  },
+  {
+   "name": "王威",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "刘表将，为于禁军杀。"
+  },
+  {
+   "name": "王粲",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "山阳高平人，字"
+  },
+  {
+   "name": "仲宣",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。避乱荆襄。降曹，封关内侯。"
+  },
+  {
+   "name": "王累",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "刘璋帐前从事官。上谏不从自摔死。"
+  },
+  {
+   "name": "王基",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "汉安平太守。"
+  },
+  {
+   "name": "子均",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，魏牙门将军，降蜀，巴西宕渠人。"
+  },
+  {
+   "name": "王甫",
+   "chapter_raw": null,
+   "chapter": 143,
+   "note": "关羽随军司马。堕麦城亡。"
+  },
+  {
+   "name": "王谋",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀少府。"
+  },
+  {
+   "name": "子全",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。曹真大将。为魏延斩。不知是否为前面之王双。"
+  },
+  {
+   "name": "王伉",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀永昌太守"
+  },
+  {
+   "name": "王连",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀谏议太夫，字"
+  },
+  {
+   "name": "文仪",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，南阳人。"
+  },
+  {
+   "name": "王肃",
+   "chapter_raw": null,
+   "chapter": 189,
+   "note": "魏黄门侍郎。"
+  },
+  {
+   "name": "王建",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊相国，为司马懿斩。"
+  },
+  {
+   "name": "王观",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "魏太仆。"
+  },
+  {
+   "name": "王昶",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "魏征南大将军，"
+  },
+  {
+   "name": "王韬",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "魏主簿。"
+  },
+  {
+   "name": "王经",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "魏雍州刺史、尚书。为司马昭斩。"
+  },
+  {
+   "name": "王惇",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "吴将军，为孙綝杀。"
+  },
+  {
+   "name": "王真",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "魏将，为傅佥擒，乱军杀。"
+  },
+  {
+   "name": "王含",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "蜀将。降魏。"
+  },
+  {
+   "name": "王沈",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "魏侍中。"
+  },
+  {
+   "name": "王业",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "魏散骑常侍。"
+  },
+  {
+   "name": "王买",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "王祥",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏太尉。"
+  },
+  {
+   "name": "王氏",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "王肃女，司马昭妻。"
+  },
+  {
+   "name": "王濬",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋益州刺史。"
+  },
+  {
+   "name": "王浑",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋侍中。"
+  },
+  {
+   "name": "王戎",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋奋威将军。"
+  },
+  {
+   "name": "赵昂",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "妻。"
+  },
+  {
+   "name": "吴匡",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "何进部将。"
+  },
+  {
+   "name": "吴景",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "丹阳太守，孙策母舅。"
+  },
+  {
+   "name": "吴敦",
+   "chapter_raw": null,
+   "chapter": 28,
+   "note": "泰山寇，降曹。"
+  },
+  {
+   "name": "吴臣",
+   "chapter_raw": null,
+   "chapter": 82,
+   "note": "苍梧太守。"
+  },
+  {
+   "name": "吴懿",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "刘璋舅，为赵云擒，降刘，"
+  },
+  {
+   "name": "吴兰",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "刘璋将，降刘，为曹彰杀。"
+  },
+  {
+   "name": "吴班",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "刘备将。从荆州归，牙门将，六出祁山中箭亡。"
+  },
+  {
+   "name": "吴质",
+   "chapter_raw": null,
+   "chapter": 142,
+   "note": "汉朝歌长。"
+  },
+  {
+   "name": "吴纲",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "魏长史。"
+  },
+  {
+   "name": "伍孚",
+   "chapter_raw": null,
+   "chapter": 4,
+   "note": "越骑校尉，字"
+  },
+  {
+   "name": "德瑜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，为董卓杀。"
+  },
+  {
+   "name": "伍延",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴车骑将军。兵败被捉。为杜预斩。"
+  },
+  {
+   "name": "吾彦",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴建平太守，降。"
+  },
+  {
+   "name": "吾粲",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "字"
+  },
+  {
+   "name": "孔休",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，乌程人，东吴谋士。"
+  },
+  {
+   "name": "卫弘",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "陈留孝廉，资助曹操。"
+  },
+  {
+   "name": "卫凯",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "汉侍中。"
+  },
+  {
+   "name": "卫演",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊侍中。"
+  },
+  {
+   "name": "卫瓘",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "仲业",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，刘表将，降曹，"
+  },
+  {
+   "name": "文钦",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "魏扬州刺史，曹爽门下客，反，投吴。为诸葛诞斩。"
+  },
+  {
+   "name": "文淑",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "文钦中子，小字阿鸯"
+  },
+  {
+   "name": "文虎",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "文钦子。"
+  },
+  {
+   "name": "文长",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，义阳人，刘表将，又投韩玄，后随刘备，为马岱斩。"
+  },
+  {
+   "name": "魏邈",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "吴将，"
+  },
+  {
+   "name": "韦康",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "凉州刺史。降马超，为其斩。"
+  },
+  {
+   "name": "万政",
+   "chapter_raw": null,
+   "chapter": 185,
+   "note": "郭淮部将。"
+  },
+  {
+   "name": "万彧",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴左典军，"
+  },
+  {
+   "name": "舞阳君",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "何进母。"
+  },
+  {
+   "name": "武安国",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "孔融部将，使锤，为吕布断手腕，"
+  },
+  {
+   "name": "张南",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "所攻，奔辽西乌桓，触自号幽州刺史，驱率诸郡太守令长背袁向曹……。\"触即焦触。）"
+  },
+  {
+   "name": "兀突骨",
+   "chapter_raw": null,
+   "chapter": 180,
+   "note": "乌戈国国王，为诸葛亮烧死。"
+  },
+  {
+   "name": "仲恭",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，河东闻喜人。为宋白杀。"
+  },
+  {
+   "name": "毋丘甸",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "毋丘俭长子。"
+  },
+  {
+   "name": "小乔",
+   "chapter_raw": null,
+   "chapter": 84,
+   "note": "周瑜妻。"
+  },
+  {
+   "name": "元让",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，夏侯婴之后。为鬼吓，病亡。"
+  },
+  {
+   "name": "夏侯兰",
+   "chapter_raw": null,
+   "chapter": 69,
+   "note": "曹将，为张飞杀。"
+  },
+  {
+   "name": "夏侯恩",
+   "chapter_raw": null,
+   "chapter": 81,
+   "note": "曹操背剑官，为赵云杀。"
+  },
+  {
+   "name": "夏侯杰",
+   "chapter_raw": null,
+   "chapter": 82,
+   "note": "曹将，为张飞喝死。"
+  },
+  {
+   "name": "夏侯尚",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "夏侯惇之侄。为黄忠擒，换俘时归曹。"
+  },
+  {
+   "name": "夏侯德",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "夏侯尚兄，为"
+  },
+  {
+   "name": "严颜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "仲权",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "夏侯玄",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "叔，反魏降蜀。后为乱军射杀。"
+  },
+  {
+   "name": "夏侯威",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "夏侯渊次子，字"
+  },
+  {
+   "name": "季权",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "夏侯惠",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "夏侯渊三子，字"
+  },
+  {
+   "name": "稚权",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "夏侯和",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "夏侯渊四子，字"
+  },
+  {
+   "name": "义权",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "夏侯咸",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏将。"
+  },
+  {
+   "name": "夏恂",
+   "chapter_raw": null,
+   "chapter": 163,
+   "note": "韩当部将，为张苞杀。"
+  },
+  {
+   "name": "许劭",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "汝南人，著《人物志》。"
+  },
+  {
+   "name": "许昌",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "会稽人，造反，自称阳明皇帝。为孙坚所杀。"
+  },
+  {
+   "name": "许韶",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "许昌之子。为孙坚所杀。"
+  },
+  {
+   "name": "许攸",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "字子远，曹操友，袁绍谋士，降曹，为许褚杀。"
+  },
+  {
+   "name": "仲康",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，谯国谯县人。"
+  },
+  {
+   "name": "许汜",
+   "chapter_raw": null,
+   "chapter": 29,
+   "note": "吕布谋士，"
+  },
+  {
+   "name": "许贡",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": "吴郡太守，为孙策杀。"
+  },
+  {
+   "name": "许靖",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀郡太守，降刘。太傅。"
+  },
+  {
+   "name": "许慈",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀博士。"
+  },
+  {
+   "name": "许允",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀偏将军，汉城亭侯。"
+  },
+  {
+   "name": "许仪",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "许褚子，魏将。兵败为"
+  },
+  {
+   "name": "钟会",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "斩。"
+  },
+  {
+   "name": "徐荣",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "荥阳太守，为夏侯惇杀。"
+  },
+  {
+   "name": "杨奉",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "将，降曹操。为孟达射杀。"
+  },
+  {
+   "name": "徐璆",
+   "chapter_raw": null,
+   "chapter": 41,
+   "note": "得玉玺献操，封高陵太守。"
+  },
+  {
+   "name": "徐庶",
+   "chapter_raw": null,
+   "chapter": 65,
+   "note": "字"
+  },
+  {
+   "name": "元直",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，颖川人，曾用名"
+  },
+  {
+   "name": "单福",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，因母归曹。"
+  },
+  {
+   "name": "徐盛",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "琅琊人，字"
+  },
+  {
+   "name": "文向",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "徐商",
+   "chapter_raw": null,
+   "chapter": 146,
+   "note": "曹将，"
+  },
+  {
+   "name": "徐质",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "魏辅国将军，为姜维刺，乱军杀。"
+  },
+  {
+   "name": "荀攸",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "字公远，"
+  },
+  {
+   "name": "荀彧",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "侄。忧愤卒。"
+  },
+  {
+   "name": "荀爽",
+   "chapter_raw": null,
+   "chapter": 6,
+   "note": "司徒，为董卓罢为庶民。"
+  },
+  {
+   "name": "荀谌",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "韩馥谋士，投靠袁绍。"
+  },
+  {
+   "name": "文若",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，荀攸叔，颖川颖阴人。服毒亡。谥曰敬侯。"
+  },
+  {
+   "name": "荀正",
+   "chapter_raw": null,
+   "chapter": 24,
+   "note": "纪灵副将，为关羽杀。"
+  },
+  {
+   "name": "荀恽",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "荀彧子。荀（岂页）：一百十四回，魏尚书。"
+  },
+  {
+   "name": "荀勖",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "魏从事中郎。"
+  },
+  {
+   "name": "辛评",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "韩馥谋士，投靠袁绍。辅袁谭，为其气死。"
+  },
+  {
+   "name": "辛毗",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "字"
+  },
+  {
+   "name": "佐治",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，辛评之弟，魏侍中。"
+  },
+  {
+   "name": "辛敞",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "魏参军辛"
+  },
+  {
+   "name": "宪英",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "辛敞姊。"
+  },
+  {
+   "name": "薛兰",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "吕布将。为吕虔射杀。"
+  },
+  {
+   "name": "薛礼",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "刘繇谋士，死于乱军。"
+  },
+  {
+   "name": "薛综",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "沛县人，字"
+  },
+  {
+   "name": "敬文",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "薛悌",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "曹操差官。"
+  },
+  {
+   "name": "薛则",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "曹将，为张苞杀。"
+  },
+  {
+   "name": "薛莹",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴光禄勋。"
+  },
+  {
+   "name": "向朗",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "刘备士，助关羽守荆州。"
+  },
+  {
+   "name": "向举",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀青衣侯。"
+  },
+  {
+   "name": "向宠",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": ""
+  },
+  {
+   "name": "郗虑",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "御史大夫，谗言孔融。"
+  },
+  {
+   "name": "奚泥",
+   "chapter_raw": null,
+   "chapter": 180,
+   "note": "乌戈国领兵俘长。为诸葛亮烧死。"
+  },
+  {
+   "name": "谢旌",
+   "chapter_raw": null,
+   "chapter": 162,
+   "note": "孙桓之大将，为张苞杀。"
+  },
+  {
+   "name": "谢雄",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "蜀禅将，为王双杀。"
+  },
+  {
+   "name": "严政",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "黄巾军，杀"
+  },
+  {
+   "name": "张宝",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，降汉。"
+  },
+  {
+   "name": "严纲",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "公孙瓒将，为麹义杀。严"
+  },
+  {
+   "name": "白虎",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "东吴德王，为董袭杀。"
+  },
+  {
+   "name": "严舆",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": ""
+  },
+  {
+   "name": "严白虎",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "弟，为孙策杀。"
+  },
+  {
+   "name": "严畯",
+   "chapter_raw": null,
+   "chapter": 68,
+   "note": "彭城人，字"
+  },
+  {
+   "name": "曼才",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "阎象",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "袁术将，主簿。"
+  },
+  {
+   "name": "阎圃",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": ""
+  },
+  {
+   "name": "张鲁",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "谋士。降曹，封列侯。"
+  },
+  {
+   "name": "阎宇",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀右将军，"
+  },
+  {
+   "name": "晏明",
+   "chapter_raw": null,
+   "chapter": 81,
+   "note": "曹洪部将，为赵云杀。"
+  },
+  {
+   "name": "袁隗",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "袁绍叔，太傅。为李傕、郭汜诛杀。"
+  },
+  {
+   "name": "本初",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为曹操败，吐血亡。"
+  },
+  {
+   "name": "袁遗",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "汉山阳太守。"
+  },
+  {
+   "name": "袁胤",
+   "chapter_raw": null,
+   "chapter": 41,
+   "note": "袁术侄，为徐璆杀。"
+  },
+  {
+   "name": "显思",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为曹洪杀。"
+  },
+  {
+   "name": "显奕",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "显甫",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "袁綝",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀都亭侯。"
+  },
+  {
+   "name": "杨彪",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "太尉。袁术亲戚，被曹操免官。"
+  },
+  {
+   "name": "杨琦",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "汉侍中。"
+  },
+  {
+   "name": "杨密",
+   "chapter_raw": null,
+   "chapter": 23,
+   "note": "汉中郎将。"
+  },
+  {
+   "name": "杨大将",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "袁术将，长史。"
+  },
+  {
+   "name": "杨丑",
+   "chapter_raw": null,
+   "chapter": 29,
+   "note": "张杨部将，为眭固杀。"
+  },
+  {
+   "name": "杨龄",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "长沙管军校尉，为关羽杀。"
+  },
+  {
+   "name": "杨秋",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，降曹。"
+  },
+  {
+   "name": "义山",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，凉州参军。魏少傅。"
+  },
+  {
+   "name": "杨修",
+   "chapter_raw": null,
+   "chapter": 120,
+   "note": "字"
+  },
+  {
+   "name": "德祖",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，杨彪子，主簿，为操杀。"
+  },
+  {
+   "name": "杨怀",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "刘璋将，白水都督，为刘备军斩。"
+  },
+  {
+   "name": "杨氏",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "马超妻，为梁宽、赵衢斩。"
+  },
+  {
+   "name": "杨柏",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "张鲁将，为马超斩。"
+  },
+  {
+   "name": "杨松",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "杨柏兄，张鲁谋士，献汉中，为操斩。"
+  },
+  {
+   "name": "杨洪",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀将，降刘。治中。"
+  },
+  {
+   "name": "杨昂",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "张鲁将，为张合杀。"
+  },
+  {
+   "name": "杨仪",
+   "chapter_raw": null,
+   "chapter": 181,
+   "note": "蜀绥军将军。自恃功高，被废为庶人，自刎。"
+  },
+  {
+   "name": "杨陵",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "杨阜族弟，魏南安太守，诈降，为关兴杀。"
+  },
+  {
+   "name": "杨暨",
+   "chapter_raw": null,
+   "chapter": 189,
+   "note": "魏官。"
+  },
+  {
+   "name": "杨祚",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "公孙渊将，"
+  },
+  {
+   "name": "杨欣",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏金城太守。"
+  },
+  {
+   "name": "杨济",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋冠军将军。"
+  },
+  {
+   "name": "阳群",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "蜀将。病故。"
+  },
+  {
+   "name": "文则",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为关羽擒，荆州失归曹。为曹丕气死。"
+  },
+  {
+   "name": "于糜",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "刘繇部将，孙策挟死。"
+  },
+  {
+   "name": "于吉",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": "东吴呼为神仙，气死孙策。"
+  },
+  {
+   "name": "于诠",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "吴将。为魏乱军杀。"
+  },
+  {
+   "name": "俞涉",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "袁术手下骁将，为华雄杀。"
+  },
+  {
+   "name": "虞翻",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "仲翔",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，会稽余姚人，会稽吏，投吴，精通易经。"
+  },
+  {
+   "name": "文谦",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为甘宁射中面门。"
+  },
+  {
+   "name": "乐就",
+   "chapter_raw": null,
+   "chapter": 27,
+   "note": "袁术将，操擒杀。"
+  },
+  {
+   "name": "乐綝",
+   "chapter_raw": null,
+   "chapter": 188,
+   "note": "乐进子。扬州刺史，为诸葛诞杀。"
+  },
+  {
+   "name": "尹礼",
+   "chapter_raw": null,
+   "chapter": 28,
+   "note": "泰山寇，降曹。"
+  },
+  {
+   "name": "尹楷",
+   "chapter_raw": null,
+   "chapter": 62,
+   "note": "武安长，袁尚将，为许褚杀。"
+  },
+  {
+   "name": "尹奉",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "历城统兵校尉，曹将。"
+  },
+  {
+   "name": "尹默",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀学士。"
+  },
+  {
+   "name": "尹赏",
+   "chapter_raw": null,
+   "chapter": 182,
+   "note": "魏天水主簿，降蜀。"
+  },
+  {
+   "name": "尹大目",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "魏殿中校尉。"
+  },
+  {
+   "name": "应劭",
+   "chapter_raw": null,
+   "chapter": 20,
+   "note": "泰山太守。为张闿乱军所逼投袁绍。"
+  },
+  {
+   "name": "殷馗",
+   "chapter_raw": null,
+   "chapter": 61,
+   "note": "辽东人，善晓天文。"
+  },
+  {
+   "name": "伊籍",
+   "chapter_raw": null,
+   "chapter": 64,
+   "note": "荆州幕宾，字"
+  },
+  {
+   "name": "机伯",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，山阳人。后随刘备。蜀昭"
+  },
+  {
+   "name": "文博",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "士。"
+  },
+  {
+   "name": "雍闿",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀建宁太守，汉什方侯雍齿之后，结连孟获反。为鄂焕杀。"
+  },
+  {
+   "name": "雅丹",
+   "chapter_raw": null,
+   "chapter": 184,
+   "note": "西羌丞相，为马岱擒。"
+  },
+  {
+   "name": "越吉",
+   "chapter_raw": null,
+   "chapter": 184,
+   "note": "西羌元帅，为关兴杀。"
+  },
+  {
+   "name": "孔明",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，病死五丈原。"
+  },
+  {
+   "name": "诸葛瑾",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": "字"
+  },
+  {
+   "name": "子瑜",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，琅琊南阳人，诸葛亮兄。"
+  },
+  {
+   "name": "诸葛玄",
+   "chapter_raw": null,
+   "chapter": 66,
+   "note": "诸葛亮之叔，与刘表有旧。"
+  },
+  {
+   "name": "葛玄",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": ""
+  },
+  {
+   "name": "诸葛均",
+   "chapter_raw": null,
+   "chapter": 67,
+   "note": "诸葛亮弟。"
+  },
+  {
+   "name": "元逊",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。太傅。为孙峻杀。"
+  },
+  {
+   "name": "诸葛瞻",
+   "chapter_raw": null,
+   "chapter": 105,
+   "note": "诸葛亮子。字"
+  },
+  {
+   "name": "思远",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。娶刘禅女。兵败自刎。"
+  },
+  {
+   "name": "公休",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，琅琊南阳人，诸葛亮族弟。反魏。为胡奋杀。"
+  },
+  {
+   "name": "诸葛靓",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "诸葛诞子。"
+  },
+  {
+   "name": "诸葛绪",
+   "chapter_raw": null,
+   "chapter": 126,
+   "note": "魏雍州刺史。"
+  },
+  {
+   "name": "诸葛尚",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "诸葛瞻子。兵败亡。"
+  },
+  {
+   "name": "张让",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "十常待之一。投河死。"
+  },
+  {
+   "name": "张梁",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "巨鹿人，地公将军，为皇甫嵩所杀。"
+  },
+  {
+   "name": "张达",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "刺杀。"
+  },
+  {
+   "name": "张世",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "平：一回，中山贩马商人。"
+  },
+  {
+   "name": "张举",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "在渔阳反，称天子，自缢。"
+  },
+  {
+   "name": "张纯",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "在渔阳反，为手下头目刺杀。"
+  },
+  {
+   "name": "张济",
+   "chapter_raw": null,
+   "chapter": 3,
+   "note": "董卓将，后自立，攻南阳中流矢亡。"
+  },
+  {
+   "name": "张超",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "初为广陵太守，张邈弟。为操破，自刎。"
+  },
+  {
+   "name": "张虎",
+   "chapter_raw": null,
+   "chapter": 7,
+   "note": "江夏人，黄祖部将，为孙策射杀。"
+  },
+  {
+   "name": "张温",
+   "chapter_raw": null,
+   "chapter": 8,
+   "note": "司空。董卓杀。"
+  },
+  {
+   "name": "张燕",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "黑山贼，降操，被封平北将军。"
+  },
+  {
+   "name": "张昭",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "子布",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，彭城人"
+  },
+  {
+   "name": "张纮",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "子纲",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，广陵人，东吴谋士，后留许昌，被封会稽都尉回吴。病故，言筑石头城。"
+  },
+  {
+   "name": "张英",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "刘繇部将，为陈武刺死。"
+  },
+  {
+   "name": "张勋",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "袁术将，都督。"
+  },
+  {
+   "name": "张衡",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "张鲁父，行道，号米贼。"
+  },
+  {
+   "name": "惠恕",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "张允",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "刘表将，降曹，为操斩。"
+  },
+  {
+   "name": "张横",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "韩遂将，为曹军杀。"
+  },
+  {
+   "name": "张既",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "字"
+  },
+  {
+   "name": "德容",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，京兆尹。"
+  },
+  {
+   "name": "张卫",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "张鲁弟。为许褚斩。"
+  },
+  {
+   "name": "永年",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，益州别驾。法正、孟达友。为兄出首，刘璋斩。"
+  },
+  {
+   "name": "张肃",
+   "chapter_raw": null,
+   "chapter": 122,
+   "note": "张松兄，广汉太守。"
+  },
+  {
+   "name": "张著",
+   "chapter_raw": null,
+   "chapter": 141,
+   "note": "蜀牙将，"
+  },
+  {
+   "name": "张裔",
+   "chapter_raw": null,
+   "chapter": 160,
+   "note": "蜀偏将军。"
+  },
+  {
+   "name": "张绍",
+   "chapter_raw": null,
+   "chapter": 161,
+   "note": "张飞弟。"
+  },
+  {
+   "name": "张氏",
+   "chapter_raw": null,
+   "chapter": 165,
+   "note": "张飞女，刘禅正宫。"
+  },
+  {
+   "name": "张休",
+   "chapter_raw": null,
+   "chapter": 188,
+   "note": "张昭次子，吴太子右弼。"
+  },
+  {
+   "name": "张承",
+   "chapter_raw": null,
+   "chapter": 102,
+   "note": "吴将。"
+  },
+  {
+   "name": "张球",
+   "chapter_raw": null,
+   "chapter": 103,
+   "note": "魏骁将，"
+  },
+  {
+   "name": "彦材",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，谏言被斩。"
+  },
+  {
+   "name": "张特",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "魏牙门将。"
+  },
+  {
+   "name": "张缉",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "魏光禄大夫，"
+  },
+  {
+   "name": "张皇后",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "之父，曹芳之皇丈。为司马师杀。"
+  },
+  {
+   "name": "张遵",
+   "chapter_raw": null,
+   "chapter": 127,
+   "note": "蜀尚书。兵败亡。"
+  },
+  {
+   "name": "张节",
+   "chapter_raw": null,
+   "chapter": 129,
+   "note": "魏黄门侍郎。为司马炎斩。"
+  },
+  {
+   "name": "张华",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "晋秘书丞。"
+  },
+  {
+   "name": "张悌",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴丞相。死于乱军。"
+  },
+  {
+   "name": "张象",
+   "chapter_raw": null,
+   "chapter": 140,
+   "note": "吴前将军。降晋。"
+  },
+  {
+   "name": "文远",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。为丁奉射中腰，箭疮迸裂亡。"
+  },
+  {
+   "name": "赵忠",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "十常待之一。"
+  },
+  {
+   "name": "赵弘",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "黄巾军，使槊，为孙坚所杀。"
+  },
+  {
+   "name": "赵岑",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "董卓将，后献汜水关。"
+  },
+  {
+   "name": "子龙",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，常山真定人。病故。"
+  },
+  {
+   "name": "赵睿",
+   "chapter_raw": null,
+   "chapter": 60,
+   "note": "袁绍将，为曹兵所杀。"
+  },
+  {
+   "name": "赵韪",
+   "chapter_raw": null,
+   "chapter": 109,
+   "note": "益州吏。"
+  },
+  {
+   "name": "赵月",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "赵昂子，马超裨将，父举事，为马超斩。"
+  },
+  {
+   "name": "赵累",
+   "chapter_raw": null,
+   "chapter": 143,
+   "note": "关羽将，粮料官，走麦城死于乱军。"
+  },
+  {
+   "name": "赵统",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "赵云长子，虎贲中郎。"
+  },
+  {
+   "name": "赵广",
+   "chapter_raw": null,
+   "chapter": 187,
+   "note": "赵云次子，牙门将。"
+  },
+  {
+   "name": "朱治",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "字"
+  },
+  {
+   "name": "君理",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，丹阳故鄣人，"
+  },
+  {
+   "name": "朱灵",
+   "chapter_raw": null,
+   "chapter": 41,
+   "note": "曹将，"
+  },
+  {
+   "name": "休穆",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，吴郡人。吴奋威将军。"
+  },
+  {
+   "name": "朱光",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "曹将，庐江太守。为甘宁打倒，吕蒙军乱刀斩。"
+  },
+  {
+   "name": "朱褒",
+   "chapter_raw": null,
+   "chapter": 167,
+   "note": "蜀牂牁太守，结连孟获反，为鄂焕杀。"
+  },
+  {
+   "name": "朱赞",
+   "chapter_raw": null,
+   "chapter": 183,
+   "note": "魏荡寇将军，为赵云杀。"
+  },
+  {
+   "name": "朱异",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "吴将。兵败为孙綝斩。"
+  },
+  {
+   "name": "公瑾",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。"
+  },
+  {
+   "name": "幼平",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，九江下蔡人。"
+  },
+  {
+   "name": "周昕",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "王朗将，孙策杀。"
+  },
+  {
+   "name": "周循",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "周瑜长子。"
+  },
+  {
+   "name": "周胤",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "周瑜次子。"
+  },
+  {
+   "name": "周善",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "孙权心腹，为张飞杀。"
+  },
+  {
+   "name": "周群",
+   "chapter_raw": null,
+   "chapter": 125,
+   "note": "蜀将，降刘。"
+  },
+  {
+   "name": "周平",
+   "chapter_raw": null,
+   "chapter": 163,
+   "note": "周泰弟，为关兴斩。"
+  },
+  {
+   "name": "邹靖",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "校尉。"
+  },
+  {
+   "name": "邹氏",
+   "chapter_raw": null,
+   "chapter": 26,
+   "note": "张济妻，"
+  },
+  {
+   "name": "康成",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，刘备师，汉尚书。"
+  },
+  {
+   "name": "郑泰",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "侍御史，"
+  },
+  {
+   "name": "郑宝",
+   "chapter_raw": null,
+   "chapter": 49,
+   "note": "巢湖太守。"
+  },
+  {
+   "name": "郑度",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "刘璋从事。"
+  },
+  {
+   "name": "郑伦",
+   "chapter_raw": null,
+   "chapter": 123,
+   "note": "魏将。为廖化斩。"
+  },
+  {
+   "name": "钟缙",
+   "chapter_raw": null,
+   "chapter": 81,
+   "note": "夏侯惇部将，"
+  },
+  {
+   "name": "钟绅",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "兄弟，为赵云杀。"
+  },
+  {
+   "name": "钟繇",
+   "chapter_raw": null,
+   "chapter": 106,
+   "note": "长安郡守。"
+  },
+  {
+   "name": "钟进",
+   "chapter_raw": null,
+   "chapter": 108,
+   "note": "钟繇弟，为庞德杀。"
+  },
+  {
+   "name": "钟毓",
+   "chapter_raw": null,
+   "chapter": 107,
+   "note": "钟会兄。"
+  },
+  {
+   "name": "笮融",
+   "chapter_raw": null,
+   "chapter": 25,
+   "note": "刘繇谋士。"
+  },
+  {
+   "name": "种拂",
+   "chapter_raw": null,
+   "chapter": 9,
+   "note": "太常卿，死于国难。"
+  },
+  {
+   "name": "种辑",
+   "chapter_raw": null,
+   "chapter": 40,
+   "note": "汉长水校尉，衣带诏事发，为操杀。"
+  },
+  {
+   "name": "臧旻",
+   "chapter_raw": null,
+   "chapter": 2,
+   "note": "会稽刺史。"
+  },
+  {
+   "name": "臧霸",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "泰山华阴人，字"
+  },
+  {
+   "name": "宣高",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "。降曹。"
+  },
+  {
+   "name": "宗宝",
+   "chapter_raw": null,
+   "chapter": 21,
+   "note": "孔融将，为管亥杀。"
+  },
+  {
+   "name": "宗预",
+   "chapter_raw": null,
+   "chapter": 105,
+   "note": "南阳安众人，字"
+  },
+  {
+   "name": "德艳",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，蜀参军，右中郎将。"
+  },
+  {
+   "name": "左丰",
+   "chapter_raw": null,
+   "chapter": 1,
+   "note": "黄门。"
+  },
+  {
+   "name": "左慈",
+   "chapter_raw": null,
+   "chapter": 128,
+   "note": "字"
+  },
+  {
+   "name": "元放",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，道号乌角先生，戏曹操。"
+  },
+  {
+   "name": "脂习",
+   "chapter_raw": null,
+   "chapter": 80,
+   "note": "京兆，孔融友。"
+  },
+  {
+   "name": "祖茂",
+   "chapter_raw": null,
+   "chapter": 5,
+   "note": "字"
+  },
+  {
+   "name": "大荣",
+   "chapter_raw": null,
+   "chapter": null,
+   "note": "，吴郡富春人，双刀。为华雄斩。"
+  },
+  {
+   "name": "卓膺",
+   "chapter_raw": null,
+   "chapter": 124,
+   "note": "刘璋将，降刘，"
+  },
+  {
+   "name": "州泰",
+   "chapter_raw": null,
+   "chapter": 121,
+   "note": "魏兖州刺史。"
+  }
+ ]
+}

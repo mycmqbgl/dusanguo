@@ -1,0 +1,29 @@
+{
+ "id": "yang_bai",
+ "name": "杨柏",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 64,
+ "review_status": "auto_mined",
+ "summary": "杨柏，群雄武将，张鲁部将。延与杨柏交战，不十合，杨柏败走。",
+ "bio": "第 64 回：大将杨柏谏曰：马超妻子遭惨祸，皆超之贻害也。第 65 回：魏延与杨柏交战，不十合，杨柏败走。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 214,
+   "end_year": 214,
+   "title": "张鲁部将",
+   "basis": "第六十四回原文：杨柏谏曰：“马超妻子遭惨祸，皆超之贻害也。 职任「张鲁部将」据此；★任期按末见回目收敛：全书最后一次提及在第 65 回（214 年），原 214—229 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 10
+}

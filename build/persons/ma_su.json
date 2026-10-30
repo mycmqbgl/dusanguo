@@ -1,0 +1,65 @@
+{
+ "id": "ma_su",
+ "name": "马谡",
+ "courtesy": "幼常",
+ "display_aliases": [
+  "襄阳宜城人",
+  "马良之弟",
+  "参军"
+ ],
+ "birth": 190,
+ "death": 228,
+ "date_precision": "approx",
+ "date_note": "卒于建兴六年夏五月（228）斩于街亭败后，亡年三十九，据此逆推生年约 190。",
+ "gender": "male",
+ "first_chapter": 52,
+ "review_status": "reviewed",
+ "summary": "马谡，蜀汉文臣，绵竹令、成都令、越嶲太守、丞相参军。马谡曰：何不急修书，令孟达提防。",
+ "bio": "马谡字幼常，襄阳宜城人，侍中马良之弟。兄弟五人并有才名，谡为最小。以荆州从事随刘备入蜀，历绵竹成都令、越嶲太守，才器过人，好论军计，丞相诸葛亮深加器异。备临终谓亮：马谡言过其实，不可大用，亮犹不谓然。一出祁山前献反间计，布流言使曹睿削司马懿之职。建兴六年请缨守街亭，立军令状而违亮节度：舍当道下寨，屯兵山上，王平苦谏不听。张郃断其汲道，围山放火，蜀兵自乱，街亭遂失。归汉中，亮明正军法斩之，时年三十九。亮痛哭者，非为谡，为不纳先帝遗言而深恨己之不明也。史载谡下狱物故，演义作辕门斩首。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 227,
+   "title": "绵竹令、成都令、越嶲太守、丞相参军",
+   "lord_id": "liu_bei",
+   "basis": "随备入蜀历县令太守；亮南征时献攻心之策，用为参军。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "守街亭主将",
+   "lord_id": "zhuge_liang",
+   "basis": "立军令状守街亭，违令舍水上山，兵败被斩。",
+   "confidence": 0.95,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 227,
+   "title": "反间去仲达",
+   "description": "献计布散流言，使曹睿削司马懿兵权，为亮北伐扫除心腹之患。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "违令守街亭",
+   "description": "舍当道要路屯兵山上，王平力谏不听，张郃断水围山，大败失亭。",
+   "importance": 3
+  },
+  {
+   "year": 228,
+   "title": "挥泪斩马谡",
+   "description": "归汉中伏法，亮流涕祭之，厚抚其家小；痛悔不纳先帝之言。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 63
+}

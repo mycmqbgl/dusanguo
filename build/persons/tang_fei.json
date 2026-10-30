@@ -1,0 +1,29 @@
+{
+ "id": "tang_fei",
+ "name": "唐妃",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "female",
+ "first_chapter": 4,
+ "review_status": "auto_mined",
+ "summary": "唐妃，东汉女眷，少帝妻。唐妃跪告曰：\"妾身代帝饮酒，愿公存母子性命。",
+ "bio": "。第 4 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "女眷",
+   "start_year": 189,
+   "end_year": 220,
+   "title": "唐妃，少帝妻",
+   "basis": "第四回原文：唐妃亦作歌曰：皇天将崩兮后土颓，身为帝姬兮命不随。 职任「唐妃，少帝妻」据此。",
+   "confidence": 0.75,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 0
+}

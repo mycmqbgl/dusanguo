@@ -1,0 +1,29 @@
+{
+ "id": "fu_gan",
+ "name": "傅干",
+ "courtesy": "彦材",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 66,
+ "review_status": "auto_mined",
+ "summary": "傅干，字彦材，傅燮之子，曹操丞相府参军。",
+ "bio": "傅干，字彦材，北地灵州人，傅燮之子。有筹略，曹操以为参军，尝谏操勿伐孙权。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 215,
+   "end_year": 229,
+   "title": "参军、丞相仓曹属",
+   "basis": "第66回曹操欲起程南征，参军傅干字彦材上书谏操。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

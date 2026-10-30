@@ -1,0 +1,29 @@
+{
+ "id": "liu_bao",
+ "name": "刘豹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 80,
+ "review_status": "auto_mined",
+ "summary": "刘豹，蜀汉武将，阳泉侯。第 80 回一笔带过，事迹仅存其名。",
+ "bio": "第 80 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 221,
+   "end_year": 221,
+   "basis": "第八十回原文：汉中王视之，乃是太傅许靖、安汉将军糜竺、青衣侯向举、阳泉侯刘豹、别驾赵祚、治中杨洪、议曹杜琼。 职任「阳泉侯」据此；★任期按末见回目收敛：全书最后一次提及在第 80 回（221 年），原 221—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto",
+   "title": "阳泉侯"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

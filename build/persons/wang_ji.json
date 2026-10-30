@@ -1,0 +1,29 @@
+{
+ "id": "wang_ji",
+ "name": "王基",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 69,
+ "review_status": "auto_mined",
+ "summary": "王基，曹魏武将，安平太守、荆州刺史、征南将军。师遂令王基领前部兵来南顿城下寨。",
+ "bio": "第 69 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 218,
+   "end_year": 229,
+   "title": "安平太守、荆州刺史、征南将军",
+   "basis": "第69回安平太守王基延管辂至家卜妻儿之病；后为魏荆州刺史、监军，讨淮南。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 17
+}

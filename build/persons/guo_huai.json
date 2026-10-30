@@ -1,0 +1,82 @@
+{
+ "id": "guo_huai",
+ "name": "郭淮",
+ "courtesy": "伯济",
+ "display_aliases": [
+  "太原阳曲人",
+  "射阳亭侯",
+  "雍州刺史"
+ ],
+ "birth": null,
+ "death": 255,
+ "date_precision": "approx",
+ "date_note": "史载卒于正元二年（255），为姜维射死于洮西军中；生年无载。",
+ "gender": "male",
+ "first_chapter": 70,
+ "review_status": "reviewed",
+ "summary": "郭淮，东汉文臣，丞相兵曹议令史、夏侯渊司马。郭淮从之，遂令陈泰引五千兵，径到羌王寨内，解甲而入，泣拜曰：郭淮妄自尊大，常有杀泰之心，故来投降。",
+ "bio": "郭淮字伯济，太原阳曲人。出身名门，曹操时举孝廉，历丞相兵曹议令史、夏侯渊司马，渊死，淮收散卒推张郃为主以定军心，备惮之。文帝时为雍州刺史。一出祁山，曹真拜大都督，淮保为副都督，随真出关御蜀。骂阵折了王朗后，淮谋劫寨反中孔明之计；街亭既失，恐司马懿全获大功，引兵袭列柳城，与魏延高翔王平大战。此后长镇雍凉，与蜀相攻：陈仓之役建议教王双巡哨断亮粮道；亮卒后与陈泰、邓艾御姜维北伐，累迁征西将军、车骑将军。255 年洮西之败，维射杀淮于阵。史载淮以善处羌胡、料敌制胜闻，卒于任上，追赠大将军。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 211,
+   "end_year": 219,
+   "title": "丞相兵曹议令史、夏侯渊司马",
+   "lord_id": "cao_cao",
+   "basis": "举孝廉入仕，渊死后收散卒定军心。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 220,
+   "end_year": 228,
+   "title": "雍州刺史、射阳亭侯",
+   "lord_id": "cao_pi",
+   "basis": "文帝时出镇雍凉，一出祁山任曹真副都督。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 255,
+   "title": "车骑将军",
+   "lord_id": "cao_rui",
+   "basis": "长镇西陲御蜀，255 年洮西败于姜维被射杀。",
+   "confidence": 0.9,
+   "review_status": "reviewed",
+   "_role_orig": "统帅"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 228,
+   "title": "副都督出关",
+   "description": "曹真拜大都督，淮保为副都督，与王朗同出御蜀。",
+   "importance": 2
+  },
+  {
+   "year": 228,
+   "title": "袭取列柳城",
+   "description": "恐仲达全功，引兵袭列柳城，与魏延等军大战。",
+   "importance": 2
+  },
+  {
+   "year": 229,
+   "title": "断蜀粮道",
+   "description": "建议王双巡哨小路断亮运粮，亮粮尽夜退。",
+   "importance": 1
+  },
+  {
+   "year": 255,
+   "title": "洮西殒命",
+   "description": "洮西大败，为姜维射死于阵前。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 99
+}

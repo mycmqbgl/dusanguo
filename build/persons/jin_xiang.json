@@ -1,0 +1,29 @@
+{
+ "id": "jin_xiang",
+ "name": "靳祥",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 97,
+ "review_status": "auto_mined",
+ "summary": "靳祥，蜀汉武将，部曲。靳祥又欲开言，郝昭已出敌楼上了。",
+ "bio": "官职「部曲」据原文上下文提取。原文第 97 回相关片段：「城中，说郝昭来降，不用张弓只箭。”众视之，乃部曲靳祥也。孔明曰：“汝用何言以说之？”祥曰：“郝昭与某」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "部曲",
+   "basis": "第97回孔明欲说郝昭来降，部曲靳祥自言与郝昭同是陇西人氏，愿往说之。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

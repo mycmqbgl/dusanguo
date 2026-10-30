@@ -1,0 +1,29 @@
+{
+ "id": "hu_zhi",
+ "name": "胡质",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 96,
+ "review_status": "auto_mined",
+ "summary": "胡质，曹魏武将，魏东莞太守。第 96 回一笔带过，事迹仅存其名。",
+ "bio": "第 96 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "魏东莞太守",
+   "basis": "第九十六回原文：贾逵引前将军满宠、东莞太守胡质，径取阳城，直向东关。 职任「魏东莞太守」据此；★阵营改判：第 96 回原文「贾逵引前将军满宠、东莞太守胡质，径取阳城」，魏军一路主将，非蜀将。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

@@ -1,0 +1,44 @@
+{
+ "id": "wang_zhi",
+ "name": "王植",
+ "display_aliases": [
+  "荥阳太守"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）于荥阳为关羽所斩。生年不详。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "reviewed",
+ "summary": "王植，群雄武将，荥阳太守。说王植密唤从事胡班听令曰：关某背丞相而逃，又于路杀太守并守关将校，死罪不轻。",
+ "bio": "王植，曹操所署荥阳太守，与洛阳太守韩福为亲家。建安五年，关羽至荥阳，王植表面延接入馆，密令从事胡班夜半三更举火焚馆，欲害关羽一行为亲家报仇。胡班慕关羽之名，潜至馆前窥视，见关羽灯下秉烛读《春秋》，叹服告密。关羽遂请二嫂出馆，出城而行。王植知事泄，引军从后赶来，大骂「休走」，关羽勒回马来，一声大喝，刀起处王植头落。胡班寻思弃官而去。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "荥阳太守",
+   "lord_id": "cao_cao",
+   "basis": "曹操所署荥阳太守，密谋焚馆。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "密令焚馆",
+   "description": "伪迎关羽入馆，密令胡班三更举火焚馆。",
+   "importance": 2
+  },
+  {
+   "year": 200,
+   "title": "追杀被斩",
+   "description": "胡班告密事泄，关羽出城，王植追来被一刀斩落。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 9
+}

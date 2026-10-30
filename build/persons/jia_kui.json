@@ -1,0 +1,29 @@
+{
+ "id": "jia_kui",
+ "name": "贾逵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 79,
+ "review_status": "auto_mined",
+ "summary": "贾逵，曹魏文臣，汉谏议大夫，魏建威将军。是曹休引大军径取皖城；贾逵引前将军满宠、东莞太守胡质，径取阳城，直向东关；司马懿引本部军径取江陵。",
+ "bio": "。第 79 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 220,
+   "end_year": 253,
+   "title": "汉谏议大夫，魏建威将军",
+   "basis": "第七十九回原文：众视其人，乃谏议大夫贾逵也。 职任「汉谏议大夫，魏建威将军」据此；★任期按末见回目收敛：全书最后一次提及在第 111 回（253 年），原 220—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 18
+}

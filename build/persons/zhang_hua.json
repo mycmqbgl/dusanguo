@@ -1,0 +1,29 @@
+{
+ "id": "zhang_hua",
+ "name": "张华",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 120,
+ "review_status": "auto_mined",
+ "summary": "张华，西晋武将，晋秘书丞。张华曰：今大兵已入其巢，吴人胆落，不出一月，孙皓必擒矣。",
+ "bio": "第 120 回：张华曰：今大兵已入其巢，吴人胆落，不出一月，孙皓必擒矣。",
+ "tenure": [
+  {
+   "faction_id": "jin",
+   "role": "武将",
+   "start_year": 280,
+   "end_year": 280,
+   "title": "晋秘书丞",
+   "basis": "第一百二十回原文：晋主览表才罢，张华突然而起，推却棋枰，敛手奏曰：“陛下圣武，国富民强。 职任「晋秘书丞」据此；★任期按末见回目收敛：全书最后一次提及在第 120 回（280 年），原 280—316 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.6,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

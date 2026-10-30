@@ -1,0 +1,29 @@
+{
+ "id": "cui_yu",
+ "name": "崔禹",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 82,
+ "review_status": "auto_mined",
+ "summary": "崔禹，孙吴武将，部将。然从之，遂令崔禹引一万军前去。",
+ "bio": "官职「部将」据原文上下文提取。原文第 82 回相关片段：「被关兴杀了。朱然一面商议，欲引兵去救应孙桓。部将崔禹曰：“小卒之言，未可深信。倘有疏虞，水陆二军尽皆」。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "武将",
+   "start_year": 222,
+   "end_year": 229,
+   "title": "部将",
+   "basis": "第82回朱然部将崔禹谏以稳守为宜。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

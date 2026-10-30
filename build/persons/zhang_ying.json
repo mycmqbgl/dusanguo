@@ -1,0 +1,44 @@
+{
+ "id": "zhang_ying",
+ "name": "张英",
+ "courtesy": null,
+ "display_aliases": null,
+ "birth": null,
+ "death": 195,
+ "date_precision": "approx",
+ "date_note": "演义第十五回孙策取秣陵，英中箭死于阵前（约 195）；史载不详。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "张英，群雄武将，部将。说张英败回见刘繇，繇怒欲斩之。",
+ "bio": "张英，刘繇部将。与樊能屯横江当利口拒孙策渡江，牛渚首战即败；繇怒欲斩之，笮融、薛礼劝免。退守秣陵，随军夜出追击中伏，拨马回走时被陈武一枪刺死（演义）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 193,
+   "end_year": 195,
+   "title": "部将",
+   "lord_id": "liu_yao",
+   "basis": "刘繇部将。",
+   "confidence": 0.8,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "屯横江",
+   "description": "与樊能屯横江当利口，拒孙策渡江。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "殁于秣陵",
+   "description": "秣陵夜出追击孙策中伏，拨马回走时被陈武一枪刺死。",
+   "importance": 2
+  }
+ ],
+ "history_life_dates": "史：史载不详｜演：第十五回孙策取秣陵，英中箭死于阵前（约 195）",
+ "mention_count": 11
+}

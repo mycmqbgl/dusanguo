@@ -1,0 +1,29 @@
+{
+ "id": "ma_yu",
+ "name": "马宇",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 10,
+ "review_status": "auto_mined",
+ "summary": "马宇，东汉文臣，侍中。好长安城中马宇家僮出首家主与刘范、种邵，外连马腾、韩遂，欲为内应等情。",
+ "bio": "第 10 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 194,
+   "title": "侍中",
+   "basis": "第10回侍中马宇与种邵、刘范结连马腾韩遂为内应，谋诛李傕。 193 年侍中马宇与刘范、种邵结连马腾韩遂为内应，事泄被杀。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 2
+}

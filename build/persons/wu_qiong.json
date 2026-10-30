@@ -1,0 +1,50 @@
+{
+ "id": "wu_qiong",
+ "name": "伍琼",
+ "courtesy": null,
+ "display_aliases": [
+  "城门校尉"
+ ],
+ "birth": null,
+ "death": 190,
+ "date_precision": "approx",
+ "date_note": "生年不详，卒于初平元年（190）。",
+ "gender": "male",
+ "first_chapter": 4,
+ "review_status": "reviewed",
+ "summary": "伍琼，东汉武将，城门校尉。伍琼曰：\"袁绍好谋无断，不足为虑；诚不若加之一郡守，以收民心。",
+ "bio": "伍琼，为城门校尉。与侍中周毖同佐董卓。董卓问袁绍此去若何，琼曰「袁绍好谋无断，不足为虑；诚不若加之一郡守，以收民心」，卓从之。后袁绍起兵讨董，董卓迁都之前，周毖、伍琼望车而揖，谏曰「今闻丞相欲迁都长安，故来谏耳」，卓大怒曰「我始初听你两个，保用袁绍；今绍已反，是汝等一党」，叱武士推出都门斩首。二人之死，为「献策者反受其祸」的典型。注意与伍孚（字德瑜）非同一人。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 190,
+   "title": "城门校尉",
+   "basis": "最高官职为城门校尉（武职），按「职责不明时按最高官职名判断」归武将；190 年为董卓所斩。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 189,
+   "title": "劝授袁绍郡守",
+   "description": "曰「袁绍好谋无断，不足为虑」，劝董卓加以郡守以收民心。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "谏阻迁都",
+   "description": "与周毖同谏董卓勿迁都。",
+   "importance": 2
+  },
+  {
+   "year": 190,
+   "title": "被斩",
+   "description": "董卓怒其为袁绍一党，推出都门斩首。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 3
+}

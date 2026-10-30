@@ -1,0 +1,89 @@
+{
+ "id": "xian_shan_zhi_zhan",
+ "name": "岘山之战",
+ "year": 192,
+ "date_text": "初平三年（192）",
+ "place_id": "xian_shan",
+ "event_id": "sun_jian_zhi_si",
+ "belligerents": [
+  {
+   "side": "江东军（孙坚）",
+   "faction_ids": [
+    "wu",
+    "warlord"
+   ],
+   "commanders": [
+    "sun_jian",
+    "cheng_pu",
+    "huang_gai",
+    "han_dang"
+   ],
+   "troops_desc": "江东之兵，水陆并进"
+  },
+  {
+   "side": "荆州军（刘表）",
+   "faction_ids": [
+    "warlord"
+   ],
+   "commanders": [
+    "liu_biao",
+    "huang_zu",
+    "kuai_liang",
+    "lv_gong_jingzhou",
+    "cai_mao"
+   ],
+   "troops_desc": "据襄阳，蒯良运筹"
+  }
+ ],
+ "result": "荆州胜，孙坚战死",
+ "casualties_note": "孙坚殁于岘山（演义写中伏乱箭，史书为流矢所中）；荆州军折损不明。孙策以黄祖换父尸。",
+ "summary": "孙坚破樊城、围襄阳；蒯良遣吕公诱敌，坚夜追入岘山，伏兵四起，中箭滚石而亡，年三十七。",
+ "detail": "坚军破黄祖于樊城，进围襄阳。蒯良料「坚恃勇轻进」，使吕公率死士二百、弓弩手百人，乘夜缒城而出——吕公先犯坚寨诈败，坚轻骑三十余骑追之，吕公且战且走引入岘山小路，一声炮响，山上乱箭如雨、滚石而下，坚脑浆迸流而死。江东诸将拼死夺回尸首。此战让十七岁的孙策直面家业崩塌，「以黄祖换父尸」是孙策第一次出现在外交舞台；「引军居江都，招延俊秀」则是后来借兵渡江的起点。",
+ "front_line": [
+  {
+   "time": 192,
+   "time_seq": 1,
+   "kind": "起兵",
+   "label": "坚出长沙",
+   "desc": "坚以夺玺截路之恨，尽起江东兵伐刘表，水陆并进。",
+   "lng": 112.94,
+   "lat": 28.23,
+   "pixel_x": 757.0,
+   "pixel_y": 727.8
+  },
+  {
+   "time": 192,
+   "time_seq": 2,
+   "kind": "首捷",
+   "label": "樊城破黄祖",
+   "desc": "黄祖出战败走，坚乘胜进围襄阳。",
+   "lng": 112.132,
+   "lat": 32.043,
+   "pixel_x": 725.0,
+   "pixel_y": 551.9
+  },
+  {
+   "time": 192,
+   "time_seq": 3,
+   "kind": "围城",
+   "label": "坚围襄阳",
+   "desc": "蒯良守城运筹，遣吕公夜缒出城求救并诱敌。",
+   "lng": 112.144,
+   "lat": 32.009,
+   "pixel_x": 725.5,
+   "pixel_y": 553.4
+  },
+  {
+   "time": 192,
+   "time_seq": 4,
+   "kind": "中伏",
+   "label": "岘山殒命",
+   "desc": "坚追吕公入山，号炮起处乱箭滚石俱下，坚卒，年三十七。",
+   "lng": 112.2,
+   "lat": 31.96,
+   "pixel_x": 727.7,
+   "pixel_y": 555.7
+  }
+ ],
+ "place_name": "岘山"
+}

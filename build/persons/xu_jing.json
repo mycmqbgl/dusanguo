@@ -1,0 +1,29 @@
+{
+ "id": "xu_jing",
+ "name": "许靖",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 65,
+ "review_status": "auto_mined",
+ "summary": "许靖，蜀汉文臣，蜀郡太守。许靖为太傅，法正为尚书令；诸葛亮为军师，总理军国重事。",
+ "bio": "第 65 回：：蜀郡太守许靖，逾城出降矣。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "文臣",
+   "start_year": 214,
+   "end_year": 221,
+   "title": "蜀郡太守",
+   "basis": "第六十五回原文：其所降文武，尽皆重赏，定拟名爵：严颜为前将军，法正为蜀郡太守，董和为掌军中郎将，许靖为左将军。 职任「蜀郡太守」据此；★任期按末见回目收敛：全书最后一次提及在第 80 回（221 年），原 214—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 12
+}

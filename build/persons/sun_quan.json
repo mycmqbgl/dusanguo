@@ -1,0 +1,74 @@
+{
+ "id": "sun_quan",
+ "name": "孙权",
+ "courtesy": "仲谋",
+ "display_aliases": [
+  "吴侯",
+  "吴王",
+  "大皇帝"
+ ],
+ "birth": 182,
+ "death": 252,
+ "date_precision": "exact",
+ "date_note": "生于光和五年（182），卒于神凤元年（252），年七十一。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "verified",
+ "summary": "孙权，群雄君主，讨虏将军、会稽太守、吴侯、车骑将军、吴王。仲谋形貌奇伟，骨格非常，乃大贵之表，又亨高寿，众皆不及也。",
+ "bio": "孙权字仲谋，孙坚次子。方颐大口，目有精光。兄策奇之，每宴会顾谓曰「此诸君，汝之将也」。建安五年策卒，权年十九，张昭、周瑜等率群僚立而辅之，哭未及息，张昭曰「孝廉，此宁哭时邪」，乃改易权服，扶令上马，使出巡军。赤壁之战用鲁肃、周瑜之议，联刘备拒曹操，大破之于赤壁。后与刘备争荆州，用吕蒙袭取荆州，擒杀关羽；夷陵之战用陆逊大破刘备。黄龙元年（229）称帝于武昌，国号吴，旋迁都建业。晚年性多嫌忌，果于杀戮，二宫之争，废太子和，杀鲁王霸，朝臣死者数十。神凤元年卒，年七十一，谥大皇帝。曹操尝叹「生子当如孙仲谋」。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 200,
+   "end_year": 229,
+   "title": "讨虏将军、会稽太守、吴侯、车骑将军、吴王",
+   "basis": "200-229 为讨虏将军、吴侯、吴王，尚未称帝；229 年称帝后归孙吴/皇帝。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wu",
+   "role": "皇帝",
+   "start_year": 229,
+   "end_year": 252,
+   "title": "吴大帝",
+   "basis": "黄龙元年（229）称帝于武昌，国号吴；252 年卒，年七十一。",
+   "confidence": 1.0,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "十九岁继业",
+   "description": "兄策遇刺，权年十九，张昭、周瑜等立而辅之。",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "赤壁拒曹",
+   "description": "用鲁肃、周瑜之议，联刘备大破曹操于赤壁。",
+   "importance": 3
+  },
+  {
+   "year": 219,
+   "title": "袭取荆州",
+   "description": "用吕蒙之谋袭荆州，擒杀关羽。",
+   "importance": 3
+  },
+  {
+   "year": 229,
+   "title": "称帝",
+   "description": "黄龙元年称帝于武昌，国号吴，旋迁都建业。",
+   "importance": 3
+  },
+  {
+   "year": 252,
+   "title": "卒",
+   "description": "神凤元年卒，年七十一，谥大皇帝。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 329
+}

@@ -1,0 +1,29 @@
+{
+ "id": "liu_yong",
+ "name": "刘永",
+ "courtesy": "公寿",
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 77,
+ "review_status": "auto_mined",
+ "summary": "刘永，蜀汉宗亲，鲁王。明等与先主次子鲁王刘永、梁王刘理，来永安宫见帝，留太子刘禅守成都。",
+ "bio": "第 77 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "亲族",
+   "start_year": 220,
+   "end_year": 225,
+   "title": "刘备次子，鲁王（后主之弟）",
+   "basis": "第七十七回原文：后生二子：长刘永，字公寿。 职任「鲁王」据此；★任期按末见回目收敛：全书最后一次提及在第 85 回（225 年），原 220—263 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.85,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

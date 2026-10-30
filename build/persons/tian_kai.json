@@ -1,0 +1,51 @@
+{
+ "id": "tian_kai",
+ "name": "田楷",
+ "courtesy": null,
+ "display_aliases": [
+  "青州刺史"
+ ],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详；史载或卒于建安四年（199）袁曹之争中，无定论。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "田楷，群雄武将，青州刺史。融大喜，会合田楷，为掎角之势；云长、子龙领兵两边接应。",
+ "bio": "田楷，公孙瓒部将，瓒表为青州刺史，与袁绍争青州。初平四年曹操东征陶谦，楷与刘备同救徐州；曹操退兵后与孔融等大会于徐州。后事迹渐隐（史载或于袁绍攻青州时卒）。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 199,
+   "title": "青州刺史",
+   "lord_id": "gongsun_zan",
+   "basis": "公孙瓒所置青州刺史。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "牧青州",
+   "description": "为公孙瓒所置青州刺史，与袁绍争青州。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "救徐州",
+   "description": "曹操攻陶谦，与刘备同赴徐州救援。",
+   "importance": 2
+  },
+  {
+   "year": 199,
+   "title": "事迹渐隐",
+   "description": "史载或卒于袁曹之争中，无定论。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 6
+}

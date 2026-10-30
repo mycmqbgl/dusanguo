@@ -1,0 +1,29 @@
+{
+ "id": "he_miao",
+ "name": "何苗",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "何苗，东汉人物，车骑将军。左右密报张让，让等转告何苗，又多送贿赂。",
+ "bio": "第 3 回：匡大呼曰：何苗同谋害兄，当共杀之。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "武将",
+   "start_year": 189,
+   "end_year": 189,
+   "title": "车骑将军",
+   "basis": "第二回原文：张让、段珪以金珠结构何进弟何苗；第三回吴匡杀入内庭，见何苗亦提剑出，砍为齑粉。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}

@@ -1,0 +1,51 @@
+{
+ "id": "cao_ang",
+ "name": "曹昂",
+ "courtesy": "子修",
+ "display_aliases": [
+  "丰悼王（追封）"
+ ],
+ "birth": 177,
+ "death": 197,
+ "date_precision": "approx",
+ "date_note": "生年约 177（存疑），建安二年（197）宛城之变战死。",
+ "gender": "male",
+ "first_chapter": 16,
+ "review_status": "reviewed",
+ "summary": "曹昂，曹魏宗亲，孝廉、随军。刘氏生子曹昂，因征张绣时死于宛城。",
+ "bio": "曹昂字子修，曹操长子，刘夫人所生，刘夫人早卒，丁夫人养为己子。弱冠举孝廉。建安二年张绣叛于宛城，操为流矢所中，昂以己马授操，操得脱而昂战死。丁夫人哭曰「将我儿杀之，都不复念」，遂归宁，操求之不得，卞夫人遂立为继室。黄初年间追封丰悼公，后进王，谥悼。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "亲族",
+   "start_year": 196,
+   "end_year": 197,
+   "title": "曹操长子（随操征张绣死于宛城）",
+   "basis": "曹操长子，随军宛城。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 196,
+   "title": "随军",
+   "description": "弱冠举孝廉，随曹操左右。",
+   "importance": 1
+  },
+  {
+   "year": 197,
+   "title": "宛城让马",
+   "description": "张绣夜叛，操中箭，昂以己马授操，自身战死。",
+   "importance": 3
+  },
+  {
+   "year": 220,
+   "title": "追封丰王",
+   "description": "曹丕追封丰悼公，后进王，谥悼。",
+   "importance": 1,
+   "posthumous": true
+  }
+ ],
+ "mention_count": 5
+}

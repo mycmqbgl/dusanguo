@@ -1,0 +1,29 @@
+{
+ "id": "wu_gang",
+ "name": "吴纲",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 111,
+ "review_status": "auto_mined",
+ "summary": "吴纲，曹魏文臣，魏长史。是吴纲将诸葛靓至石头城，入拜孙綝。",
+ "bio": "第 111 回：于是吴纲将诸葛靓至石头城，入拜孙綝。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 253,
+   "end_year": 253,
+   "title": "魏长史",
+   "basis": "第一百十一回原文：又令长史吴纲，送子诸葛靓入吴为质求援，务要合兵诛讨司马昭。 职任「魏长史」据此；★阵营改判：第 111 回原文「又令长史吴纲，送子诸葛靓入吴为质求援」，魏将诸葛诞的长史，入吴是求援而非吴臣。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 3
+}

@@ -1,0 +1,91 @@
+{
+ "id": "chen_deng",
+ "name": "陈登",
+ "courtesy": "元龙",
+ "display_aliases": [
+  "广陵太守",
+  "伏波将军"
+ ],
+ "birth": 163,
+ "death": 201,
+ "date_precision": "approx",
+ "date_note": "史载建安六年（201）卒，年三十九，生年据此反推。",
+ "gender": "male",
+ "first_chapter": 11,
+ "review_status": "reviewed",
+ "summary": "陈登，群雄文臣，典农校尉、东阳长。陈元龙之父陈珪，养老在家，闻鼓乐之声，遂问左右。",
+ "bio": "陈登字元龙，下邳淮浦人（一说射阳），沛相陈珪之子。性豪爽，少有扶世济民之志，博览载籍。年二十五举孝廉，除东阳长，徐州牧陶谦辟为典农校尉，劝农殖谷，积粮可观。陶谦死后迎刘备领徐州。吕布夺徐州后，登父子名义事布而实为曹操内应：吕布以登求徐州牧不得，登还，布怒拔戟斫几，登徐喻以「外疾内养」之策。后曹操以登为广陵太守，令阴合众以图吕布；布诛，以功加伏波将军。孙策遣军渡江攻登于匡琦，登以少胜多。许汜论「湖海之士，豪气不除」。三十九岁病卒，病中胸中烦懑，医以汤药吐虫三升许，曰病根未除。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 194,
+   "end_year": 196,
+   "title": "典农校尉、东阳长",
+   "lord_id": "tao_qian",
+   "basis": "先事陶谦，谦死迎刘备，记群雄。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 196,
+   "end_year": 198,
+   "title": "广陵太守",
+   "lord_id": "lv_bu",
+   "basis": "吕布夺徐州后父子屈事之。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  },
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 198,
+   "end_year": 201,
+   "title": "广陵太守、伏波将军",
+   "basis": "吕布灭后正式归曹。",
+   "confidence": 0.9,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 194,
+   "title": "佐陶谦屯田",
+   "description": "为典农校尉，劝农殖谷，积粮可观。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "迎刘备领徐州",
+   "description": "陶谦卒，与孔融等劝刘备领徐州。",
+   "importance": 2
+  },
+  {
+   "year": 196,
+   "title": "出使许都",
+   "description": "吕布遣使许都求徐州牧不得；登父子自此暗为曹操内应。",
+   "importance": 2
+  },
+  {
+   "year": 198,
+   "title": "破吕布",
+   "description": "以广陵兵从曹操围下邳，吕布灭，加伏波将军。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "匡琦破敌",
+   "description": "以少胜多破孙策军于匡琦城，封广陵太守。",
+   "importance": 2
+  },
+  {
+   "year": 201,
+   "title": "病卒",
+   "description": "吐虫三升而病根未除，卒，年三十九。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 40
+}

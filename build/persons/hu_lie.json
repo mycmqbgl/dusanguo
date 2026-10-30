@@ -1,0 +1,29 @@
+{
+ "id": "hu_lie",
+ "name": "胡烈",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 116,
+ "review_status": "auto_mined",
+ "summary": "胡烈，曹魏武将，护军。建暗令胡烈亲信人入内，烈以密书付其人。",
+ "bio": "第 116 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 262,
+   "end_year": 263,
+   "title": "魏将",
+   "basis": "第一百十六回原文：时有监军卫瓘，护军胡烈，大将田续、庞会、田章、爰青、丘建、夏侯咸、王买、皇甫闿、句安等八十余。 职任「魏将」据此。；★阵营改判：第 116 回原文「时有监军卫瓘，护军胡烈，大将田续、庞会…」，钟会伐蜀时的魏军护军，非蜀将。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 6
+}

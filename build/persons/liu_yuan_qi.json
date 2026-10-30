@@ -1,0 +1,29 @@
+{
+ "id": "liu_yuan_qi",
+ "name": "刘元起",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 1,
+ "review_status": "auto_mined",
+ "summary": "刘元起，东汉宗亲，刘备叔父。叔父刘元起奇其言，曰：\"此儿非常人也。",
+ "bio": "第 1 回：「叔父刘元起奇其言，曰：此儿非常人也」。原文第 1 回相关片段：「小儿戏于树下，曰：\"我为天子，当乘此车盖。\"叔父刘元起奇其言，曰：\"此儿非常人也！\"因见玄德家贫，常资」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "亲族",
+   "start_year": 165,
+   "end_year": 175,
+   "title": "刘备叔父（刘备之叔）",
+   "basis": "第 1 回：「叔父刘元起奇其言，曰：此儿非常人也」。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

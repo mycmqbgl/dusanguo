@@ -1,0 +1,51 @@
+{
+ "id": "zhang_chao",
+ "name": "张超",
+ "courtesy": "孟高",
+ "display_aliases": [
+  "广陵太守",
+  "第十一镇"
+ ],
+ "birth": null,
+ "death": 196,
+ "date_precision": "approx",
+ "date_note": "生年不详。史载卒于建安元年（196），曹操围雍丘，城破自刎。",
+ "gender": "male",
+ "first_chapter": 5,
+ "review_status": "reviewed",
+ "summary": "张超，群雄君主，广陵太守。十一镇，广陵太守张超。",
+ "bio": "张超字孟高，张邈之弟，广陵太守。董卓乱政，曹操发矫诏驰报各道，十八路诸侯会盟讨卓，第十一镇即广陵太守张超。会盟后演义再无其下文。史实兴平元年其兄张邈与陈宫叛曹操迎吕布，超随兄屯雍丘，建安元年曹操围雍丘数月，城破，超自刎，张氏族灭——张邈张超兄弟起于讨董之忠，终于叛曹之败，忠逆转换只在数年间。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 189,
+   "end_year": 196,
+   "title": "广陵太守",
+   "basis": "据广陵自成一镇，讨董十八路之一；史实 196 年雍丘城破自刎。",
+   "confidence": 0.8,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 190,
+   "title": "会盟讨董",
+   "description": "为讨董十八路之第十一镇，歃血会盟于酸枣。",
+   "importance": 2
+  },
+  {
+   "year": 194,
+   "title": "史实：随兄叛曹",
+   "description": "兄张邈与陈宫叛曹操迎吕布，超随兄屯雍丘。",
+   "importance": 3
+  },
+  {
+   "year": 196,
+   "title": "史实：雍丘自刎",
+   "description": "曹操围雍丘数月，城破自刎，张氏族灭。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 4
+}

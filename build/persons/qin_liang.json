@@ -1,0 +1,29 @@
+{
+ "id": "qin_liang",
+ "name": "秦良",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 100,
+ "review_status": "auto_mined",
+ "summary": "秦良，曹魏武将，副将。写下一书，教秦良的降兵持与曹真，真若见之，必然死矣。",
+ "bio": "。第 100 回：秦良领命，引兵刚到谷口，哨见蜀兵退去。第 100 回：秦良死战，被廖化一刀斩于马下。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "副将",
+   "basis": "第100回曹真令副将秦良引五千兵哨探，为廖化所斩。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 5
+}

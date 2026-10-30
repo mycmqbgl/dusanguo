@@ -1,0 +1,29 @@
+{
+ "id": "cheng_he",
+ "name": "成何",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 74,
+ "review_status": "auto_mined",
+ "summary": "成何，曹魏武将，督将。成何羞惭而退，却来见庞德，说此事。",
+ "bio": "原文第 74 回相关片段：「却说魏军屯于罾口川，连日大雨不止，督将成何来见于禁曰：“大军屯于川口，地势甚低；虽有土山，」。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 229,
+   "title": "督将",
+   "basis": "第74回魏军屯罾口川，督将成何见水势，劝于禁移营，禁不从。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 25
+}

@@ -1,0 +1,29 @@
+{
+ "id": "ma_zun",
+ "name": "马遵",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 92,
+ "review_status": "auto_mined",
+ "summary": "马遵，曹魏武将，魏天水太守。马遵从之，遂令姜维引三千军去保冀城；梁虔引三千军去保上邽。",
+ "bio": "第 92 回：绪入府，取公文付马遵，说：都督求安定、天水两郡之兵，星夜救应。第 92 回：马遵正欲起兵，忽一人自外而入曰：太守中诸葛亮之计矣。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "武将",
+   "start_year": 228,
+   "end_year": 228,
+   "title": "魏天水太守",
+   "basis": "第九十二回原文：却说天水郡太守马遵，听知夏侯楙困在南安城中，乃聚文武官商议。 职任「魏天水太守」据此；★阵营改判：第 92 回原文「天水太守马遵，安定太守崔谅」，诸葛亮北伐时的魏天水太守，非蜀汉。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 19
+}

@@ -1,0 +1,38 @@
+{
+ "id": "kong_xiu",
+ "name": "孔秀",
+ "display_aliases": [
+  "东岭关守将"
+ ],
+ "birth": null,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "建安五年（200）关羽千里走单骑，于东岭关被斩（演义第 27 回）。生年不详。",
+ "gender": "male",
+ "first_chapter": 27,
+ "review_status": "reviewed",
+ "summary": "孔秀，群雄武将，东岭关守将。关公怒曰：东岭孔秀，已被吾杀。",
+ "bio": "孔秀，曹操部将，守东岭关，五关守将之首。建安五年，关羽挂印封金护二嫂辞曹寻兄，行至东岭关，孔秀索要曹操公文，关羽答以「行时曾禀丞相，因行色忙不曾讨得批文」，秀不许，只限三百步内放车仗过去。关羽怒，秀领兵下关交战，两马相交只一合，关羽手起刀落斩孔秀于马下。余众皆降，关羽以其言「曹操若问，但言孔秀欲害我，我故杀之」付之。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 196,
+   "end_year": 200,
+   "title": "东岭关守将",
+   "lord_id": "cao_cao",
+   "basis": "曹操所置守将。",
+   "confidence": 0.85,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 200,
+   "title": "关前索文被斩",
+   "description": "索曹操公文不放行，下关交战一合被关羽斩杀。",
+   "importance": 2
+  }
+ ],
+ "mention_count": 9
+}

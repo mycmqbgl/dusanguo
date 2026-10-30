@@ -1,0 +1,57 @@
+{
+ "id": "huang_zu",
+ "name": "黄祖",
+ "courtesy": null,
+ "display_aliases": [
+  "江夏太守"
+ ],
+ "birth": null,
+ "death": 208,
+ "date_precision": "exact",
+ "date_note": "生年不详，卒于建安十三年（208）。",
+ "gender": "male",
+ "first_chapter": 6,
+ "review_status": "reviewed",
+ "summary": "黄祖，群雄武将，江夏太守。黄祖新亡，江夏乏人守御，公子何不上言，乞屯兵守江夏，则可以避祸矣。",
+ "bio": "黄祖，刘表部将，为江夏太守，镇荆州东门户。初平二年孙坚征刘表，黄祖伏弓弩手于江边，见船傍岸乱箭俱发；孙坚令军士伏船中来往诱之，三日箭尽，坚拔船上之箭约十数万，顺风还射，黄祖大败，弃樊城走入邓城。后孙坚围襄阳，黄祖与蒯越、蔡瑁分头引兵杀出，与黄盖战不两合被生擒，刘表以孙坚尸换回。建安四年孙策破黄祖，八年孙权再征，十三年孙权第三次西征，黄祖以两蒙冲夹守沔口，为凌统、董袭所破，黄祖逃窜，被骑士冯则追上斩首。杀黄祖以报父仇，为孙氏三世之志。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 190,
+   "end_year": 208,
+   "title": "江夏太守",
+   "lord_id": "liu_biao",
+   "basis": "刘表部将，镇江夏，以军事指挥为主归武将；208 年为孙权所破被杀。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "江边伏弩",
+   "description": "伏弓弩手于江边射孙坚船，反被孙坚诱射，大败弃樊城。",
+   "importance": 3
+  },
+  {
+   "year": 191,
+   "title": "被擒换尸",
+   "description": "襄阳城下与黄盖战不两合被生擒，刘表以孙坚尸换回。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "为孙策所破",
+   "description": "孙策西征，黄祖大败。",
+   "importance": 2
+  },
+  {
+   "year": 208,
+   "title": "被斩",
+   "description": "孙权第三次西征，蒙冲被破，黄祖逃窜，为冯则追上斩首。",
+   "importance": 3
+  }
+ ],
+ "mention_count": 57
+}

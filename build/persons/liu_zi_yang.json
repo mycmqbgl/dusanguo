@@ -1,0 +1,31 @@
+{
+ "id": "liu_zi_yang",
+ "name": "刘子扬",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 29,
+ "review_status": "auto_mined",
+ "summary": "刘子扬，东汉人物。友刘子扬欲约彼往巢湖投郑宝，肃尚踌躇未往。",
+ "bio": "原文第 29 回相关片段：「平生好击剑骑射，寓居曲阿。祖母亡，还葬东城。其友刘子扬欲约彼往巢湖投郑宝，肃尚踌躇未往。今主公可速召之」。",
+ "tenure": [
+  {
+   "faction_id": "han",
+   "role": "其他",
+   "start_year": 201,
+   "end_year": 201,
+   "basis": "第29回：其友刘子扬欲约彼往巢湖投郑宝，肃尚踌躇未往。",
+   "confidence": 0.75,
+   "review_status": "reviewed",
+   "title_unknown_verified": true,
+   "title": "鲁肃之友"
+  }
+ ],
+ "timeline": [],
+ "title_unknown_verified": true,
+ "mention_count": 2
+}

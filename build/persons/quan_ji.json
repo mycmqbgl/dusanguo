@@ -1,0 +1,29 @@
+{
+ "id": "quan_ji",
+ "name": "全纪",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 113,
+ "review_status": "auto_mined",
+ "summary": "全纪，孙吴文臣，黄门侍郎。第 113 回一笔带过，事迹仅存其名。",
+ "bio": "。第 113 回见其名，原文未载具体事迹。",
+ "tenure": [
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 229,
+   "end_year": 229,
+   "title": "黄门侍郎",
+   "basis": "第113回吴主孙亮闷坐，黄门侍郎全纪在侧，纪乃国舅也。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 1
+}

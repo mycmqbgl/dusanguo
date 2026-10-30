@@ -1,0 +1,42 @@
+{
+ "id": "cao_xi",
+ "name": "曹羲",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 106,
+ "review_status": "auto_mined",
+ "summary": "曹羲，曹魏文臣，中领军。命弟曹羲为中领军，曹训为武卫将军，曹彦为散骑常侍，各引三千御林军，任其出入禁宫。",
+ "bio": "第 106 回：爽命弟曹羲为中领军，曹训为武卫将军，曹彦为散骑常侍，各引三千御林军，任其出入禁宫。第 106 回：其弟曹羲谏曰：兄威权太甚，而好出外游猎，倘为人所算，悔之无及。",
+ "tenure": [
+  {
+   "faction_id": "wei",
+   "role": "文臣",
+   "start_year": 238,
+   "end_year": 239,
+   "title": "中领军",
+   "basis": "第一百零六回原文：爽命弟曹羲为中领军，曹训为武卫将军，曹彦为散骑常侍，各引三千御林军，任其出入禁宫。 职任「中领军」据此；★任期按末见回目收敛：全书最后一次提及在第 107 回（239 年），原 238—266 系取势力年份上限，非本人退场之年。",
+   "confidence": 0.7,
+   "review_status": "auto"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 239,
+   "title": "第 106 回",
+   "description": "弟曹羲谏曰：“兄威权太甚，而好出外游猎，倘为人所算，悔之无及",
+   "importance": 1
+  },
+  {
+   "year": 240,
+   "title": "第 107 回",
+   "description": "大喜，即到省中，令司徒高柔，假以节钺行大将军事，先据曹爽营；又令太仆王观行中领军事，据曹羲营",
+   "importance": 1
+  }
+ ],
+ "mention_count": 4
+}

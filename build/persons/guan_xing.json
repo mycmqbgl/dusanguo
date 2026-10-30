@@ -1,0 +1,54 @@
+{
+ "id": "guan_xing",
+ "name": "关兴",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 74,
+ "review_status": "auto_mined",
+ "summary": "关兴，蜀汉武将，龙骧将军。关兴奏曰：既孙权令此子为将，不劳陛下遣大将，臣愿往擒之。",
+ "bio": "第 74 回：「忽次子关兴来寨内省亲」，关羽次子。原文第 74 回相关片段：「关公自擒魏将于禁等，威震天下，无不惊骇。忽次子关兴来寨内省亲。公就令兴赍诸官立功文书去成都见汉中王」。",
+ "tenure": [
+  {
+   "faction_id": "shu",
+   "role": "武将",
+   "start_year": 219,
+   "end_year": 234,
+   "title": "龙骧将军",
+   "basis": "第 74 回：「忽次子关兴来寨内省亲」，关羽次子。",
+   "confidence": 0.85,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 221,
+   "title": "第 81 回",
+   "description": "主下诏使吴班为先锋，令张苞、关兴护驾",
+   "importance": 1
+  },
+  {
+   "year": 228,
+   "title": "第 92 回",
+   "description": "云、邓芝、关兴、张苞皆来拜问孔明，说连日攻城不下",
+   "importance": 1
+  },
+  {
+   "year": 229,
+   "title": "第 97 回",
+   "description": "后关兴引生力军赶来，魏兵自相践踏及落涧身死者，不知其数",
+   "importance": 1
+  },
+  {
+   "year": 231,
+   "title": "第 101 回",
+   "description": "奋怒追来，又被关兴抄在前面，截住去路",
+   "importance": 1
+  }
+ ],
+ "mention_count": 106
+}

@@ -1,0 +1,79 @@
+{
+ "id": "zhang_zhao",
+ "name": "张昭",
+ "courtesy": "子布",
+ "display_aliases": [
+  "辅吴将军",
+  "娄侯"
+ ],
+ "birth": 156,
+ "death": 236,
+ "date_precision": "exact",
+ "date_note": "史载嘉禾五年（236）卒，年八十一。",
+ "gender": "male",
+ "first_chapter": 15,
+ "review_status": "reviewed",
+ "summary": "张昭，群雄文臣，避乱江东。张昭满面羞惭而退。",
+ "bio": "张昭字子布，彭城人。少好学，善隶书，从白侯子安受《左氏春秋》。避乱渡江，孙策以为长史、抚军中郎将，文武之事一以委昭。策临终以弟权托昭曰「若仲谋不任事者，君便自取之」。权每出征，留昭守武昌拜辅吴将军。建安十三年曹操檄至，昭与张纮皆主迎降，为赤壁之战中最著争议一笔——权拔刀斫案后此议遂止。封娄侯。嘉禾五年卒，年八十一，谥文侯。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "文臣",
+   "start_year": 193,
+   "end_year": 195,
+   "title": "避乱江东",
+   "basis": "避乱渡江，尚未仕。",
+   "confidence": 0.7,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "文臣",
+   "start_year": 195,
+   "end_year": 236,
+   "title": "长史、抚军中郎将、军师、辅吴将军、娄侯",
+   "basis": "195 年为孙策辟用。",
+   "confidence": 0.95,
+   "review_status": "verified"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 193,
+   "title": "渡江避乱",
+   "description": "彭城人，避乱渡江至江东。",
+   "importance": 1
+  },
+  {
+   "year": 195,
+   "title": "佐孙策",
+   "description": "为孙策长史，文武之事一以委之，北方士大夫书皆归功于昭。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "受顾命",
+   "description": "策临终托弟权于昭：「若仲谋不任事者，君便自取之。」",
+   "importance": 3
+  },
+  {
+   "year": 208,
+   "title": "主迎曹操",
+   "description": "曹操檄至，昭主迎降，为赤壁之议中的主和派。",
+   "importance": 3
+  },
+  {
+   "year": 221,
+   "title": "封娄侯",
+   "description": "曹丕封吴王、昭为绥远将军由昭领之；权称帝后拜辅吴将军封娄侯。",
+   "importance": 1
+  },
+  {
+   "year": 236,
+   "title": "卒",
+   "description": "嘉禾五年卒，年八十一，谥文侯。",
+   "importance": 1
+  }
+ ],
+ "mention_count": 80
+}

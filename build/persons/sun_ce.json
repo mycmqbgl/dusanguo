@@ -1,0 +1,85 @@
+{
+ "id": "sun_ce",
+ "name": "孙策",
+ "courtesy": "伯符",
+ "display_aliases": [
+  "小霸王",
+  "讨逆将军",
+  "吴侯"
+ ],
+ "birth": 175,
+ "death": 200,
+ "date_precision": "exact",
+ "date_note": "生于熹平四年（175），卒于建安五年（200），年二十六。",
+ "gender": "male",
+ "first_chapter": 7,
+ "review_status": "verified",
+ "summary": "孙策，孙坚长子，江东基业的实际奠定者，追谥长沙桓王。",
+ "bio": "孙策，字伯符，孙坚长子。父死，依附袁术，以玉玺质当借兵渡江，数年之间尽有江东六郡。建安五年（200）为许贡门客所伤，创重而死，年二十六。弟孙权继之。孙权称帝后追谥为长沙桓王。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 191,
+   "end_year": 195,
+   "title": "孙坚长子，随父征战",
+   "basis": "第7回：孙策随父孙坚讨黄巾、讨董卓，年方十七，骁勇过人。",
+   "confidence": 0.9,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "warlord",
+   "role": "君主",
+   "start_year": 195,
+   "end_year": 200,
+   "title": "讨逆将军、会稽太守、吴侯",
+   "basis": "第15回：孙策以玉玺质于袁术借兵渡江，数年尽有江东六郡。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  },
+  {
+   "faction_id": "wu",
+   "role": "亲族",
+   "start_year": 229,
+   "end_year": 280,
+   "title": "孙权之兄，追谥长沙桓王",
+   "basis": "孙权称帝后追封兄孙策为长沙桓王。谥王不谥帝，故不入「追谥」；策为孙权之兄、吴国奠基者，按 entity-schema 既有决策归吴·亲族。",
+   "confidence": 0.95,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [
+  {
+   "year": 191,
+   "title": "随父征刘表",
+   "description": "孙坚征刘表，策随行；父死于岘山，策年十七。",
+   "importance": 2
+  },
+  {
+   "year": 195,
+   "title": "渡江创业",
+   "description": "以传国玉玺质于袁术借兵三千，渡江转斗，所向皆破，号「小霸王」。",
+   "importance": 3
+  },
+  {
+   "year": 199,
+   "title": "尽有江东",
+   "description": "数年间尽有江东六郡，以张昭、张纮、周瑜为腹心。",
+   "importance": 3
+  },
+  {
+   "year": 200,
+   "title": "遇刺",
+   "description": "谋袭许迎献帝，未发而为许贡门客所刺，创重而死，年二十六。",
+   "importance": 3
+  },
+  {
+   "year": 229,
+   "title": "追谥长沙桓王",
+   "description": "孙权称帝，追谥兄孙策为长沙桓王。",
+   "importance": 2,
+   "posthumous": true
+  }
+ ],
+ "mention_count": 191
+}

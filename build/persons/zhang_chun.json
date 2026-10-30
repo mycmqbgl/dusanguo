@@ -1,0 +1,29 @@
+{
+ "id": "zhang_chun",
+ "name": "张纯",
+ "courtesy": null,
+ "display_aliases": [],
+ "birth": null,
+ "death": null,
+ "date_precision": "unknown",
+ "date_note": "生卒年不详，未经考据（自动建档）。",
+ "gender": "male",
+ "first_chapter": 2,
+ "review_status": "auto_mined",
+ "summary": "张纯，群雄武将，大将军（自称）。第 2 回一笔带过，事迹仅存其名。",
+ "bio": "第 2 回：张纯专一凶暴，士卒心变，帐下头目刺杀张纯，将头纳献，率众来降。",
+ "tenure": [
+  {
+   "faction_id": "warlord",
+   "role": "武将",
+   "start_year": 184,
+   "end_year": 229,
+   "title": "大将军（自称）",
+   "basis": "第2回渔阳张纯与张举同反，纯自称大将军。",
+   "confidence": 0.75,
+   "review_status": "reviewed"
+  }
+ ],
+ "timeline": [],
+ "mention_count": 4
+}
